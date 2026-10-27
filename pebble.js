@@ -12,7 +12,7 @@
 #pbSvg.s-dyn .a-dyn,#pbSvg.s-dyn .pb-props{display:inline}
 #pbSvg.s-dyn.fx-normal .f-normal,#pbSvg.s-dyn.fx-strain .f-strain,#pbSvg.s-dyn.fx-happy .f-happy,#pbSvg.s-dyn.fx-calm .f-calm{display:inline}
 #pbSvg.s-run .p-band,#pbSvg.hb .p-band{display:inline}
-#pbSvg.s-run .p-sweatrun{display:inline}
+#pbSvg.s-run .p-sweatrun,#pbSvg.s-lift .p-sweatrun,#pbSvg.sweaty .p-sweatrun{display:inline}
 #pbSvg.s-dyn.fx-wink .f-wink{display:inline}
 #pbSvg.flex .a-flex{display:inline}#pbSvg.flex #pb-dR,#pbSvg.flex #pb-dHR{display:none}
 #pbSvg.cross .pb-legs{display:none}#pbSvg.cross .p-cross{display:inline}
@@ -170,7 +170,7 @@
   }
   function water() {
     const PHASES = [['pop', 450], ['reach', 550], ['pick', 550], ['lift', 850], ['drink', 2800], ['lower', 850],
-      ['binIn', 450], ['toss', 650], ['drop', 450], ['binOut', 400], ['refresh', 2000]];  // 10 s in all
+      ['binIn', 450], ['toss', 650], ['drop', 450], ['binOut', 400], ['refresh', 2800]];  // 10.8 s in all
     const t0 = performance.now();
     function step(now) {
       let e = now - t0, name = null, k = 0;
@@ -224,9 +224,10 @@
   const mixA = (a, b, k) => a.map((v, i) => lerp(v, b[i] ?? v, k));
   const pad = q => [q[0], q[1], q[2] ?? 0, q[3] ?? 1, q[4] ?? 1];  // prop: x, y, rotation, scale, opacity
   const EASE = { lin: k => k, in: k => k * k, out: k => 1 - (1 - k) * (1 - k) };
-  function arm(side, [hx, hy]) {
-    const [sx, sy] = SH[side], out = side === 'L' ? -1 : 1;
-    return `M${sx} ${sy} Q${(sx + hx) / 2 + out * 12} ${(sy + hy) / 2 + 10} ${hx} ${hy}`;
+  const bend = (side, [hx, hy]) => { const [sx, sy] = SH[side]; return [(sx + hx) / 2 + (side === 'L' ? -12 : 12), (sy + hy) / 2 + 10]; };
+  function arm(side, h, c = bend(side, h)) {
+    const [sx, sy] = SH[side];
+    return `M${sx} ${sy} Q${c[0]} ${c[1]} ${h[0]} ${h[1]}`;
   }
   function handAt(el, side, [hx, hy]) {
     const [sx, sy] = SH[side];
@@ -235,19 +236,20 @@
   function scene(frames, then) {
     const full = [];
     let prev = { L: HOME.L, R: HOME.R, face: 'normal', hb: false, by: 0 };
-    for (const f of frames) { prev = { ...prev, ease: undefined, ...f }; full.push(prev); }
+    for (const f of frames) { prev = { ...prev, ease: undefined, ...f }; full.push(prev); }  // Rc (elbow) carries over like hands
     let i = 0, t0 = performance.now();
     const step = now => {
       const a = full[Math.max(0, i - 1)], b = full[i];
       const k = b.t ? (EASE[b.ease] || ease)(Math.min(1, (now - t0) / b.t)) : 1;
-      svg.setAttribute('class', `s-dyn fx-${b.face}` + ['hb', 'backR', 'flex', 'cross', 'breathe'].map(f => b[f] ? ' ' + f : '').join(''));
+      svg.setAttribute('class', `s-dyn fx-${b.face}` + ['hb', 'backR', 'flex', 'cross', 'breathe', 'sweaty'].map(f => b[f] ? ' ' + f : '').join(''));
       $('pb-lift').setAttribute('transform', `translate(0 ${lerp(a.by, b.by, k)})`);  // Pebble's whole body can rise and land
       if (b.door !== undefined) {  // washing-machine door: 0 closed … 1 swung open on its left hinge
         const d = lerp(a.door ?? b.door, b.door, k);
         $('pb-wdoor').setAttribute('transform', `translate(-14 0) scale(${1 - 1.75 * d} 1) translate(14 0)`);
       }
       const L = mixA(a.L, b.L, k), R = mixA(a.R, b.R, k);
-      $('pb-dL').setAttribute('d', arm('L', L)); $('pb-dR').setAttribute('d', arm('R', R));
+      const Rc = mixA(a.Rc || bend('R', a.R), b.Rc || bend('R', b.R), k);  // the right elbow can be posed (for the flex)
+      $('pb-dL').setAttribute('d', arm('L', L)); $('pb-dR').setAttribute('d', arm('R', R, Rc));
       handAt($('pb-dHL'), 'L', L); handAt($('pb-dHR'), 'R', R);
       $('pb-dRb').setAttribute('d', arm('R', R)); handAt($('pb-dHRb'), 'R', R);  // the same arm, drawn behind the body
       for (const name of PROPS) {
@@ -328,15 +330,16 @@
     };
     scene([{ t: 0, bar: [...FLOOR, 0, 0] }, { t: 300, bar: [...FLOOR, 1.12, 1], ease: 'out' }, { t: 150, bar: [...FLOOR, 1, 1] },
       { t: 600, L: [112, 196], R: [188, 196] },
-      { t: 700, L: [112, 150], R: [188, 150], bar: [150, 150, 0], face: 'strain' },
+      { t: 700, L: [112, 150], R: [188, 150], bar: [150, 150, 0], face: 'strain', sweaty: true },
       { t: 600, L: [112, 106], R: [188, 106], bar: [150, 104, 0] }], () => {
       cls('lift');
-      later(REPS * REP_MS, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain' },
+      later(REPS * REP_MS, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain', sweaty: true },
         { t: 600, ...grips(134, 100, -14), bar: [134, 100, -14] },             // wind back
         ...throwFrames(), { t: 0, bar: null },
-        { t: 450, L: HOME.L, R: [236, 114], face: 'happy' },                  // bring the arm up…
-        { t: 1700, flex: true, face: 'wink' },                                 // …flex and wink
-        { t: 0, flex: false, face: 'normal' }, { t: 500, R: HOME.R }], () => set('idle')));
+        { t: 320, L: HOME.L, R: [214, 128], face: 'happy', sweaty: false },    // settle after the throw
+        { t: 650, R: [236, 112], Rc: [248, 152] },                             // bend the arm up into the flex shape
+        { t: 0, flex: true, face: 'wink' }, { t: 1700 },                        // …and flex, with a wink
+        { t: 0, flex: false, face: 'happy' }, { t: 550, R: HOME.R, Rc: bend('R', HOME.R), face: 'normal' }], () => set('idle')));
     });
   }
   // balancing stones (≈20 s), like the StoneDock logo: Pebble hops up and the big grey stone pops in underneath,
