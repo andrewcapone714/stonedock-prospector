@@ -116,7 +116,7 @@
 <line id="pb-stream" x1="0" y1="0" x2="0" y2="0" stroke="#378ADD" stroke-width="3" display="none"/><use id="pb-freeH" ${HAND} display="none"/></g>
 <g class="pb-x a-dyn"><path id="pb-dL" d="M96 152 Q84 168 88 178"/><path id="pb-dR" d="M204 152 Q216 168 212 178"/><use id="pb-dHL" ${HAND}/><use id="pb-dHR" ${HAND}/></g>
 </g>
-<g id="pb-bin" display="none"><path d="M-17 -36h34l-3 36h-28z" fill="#1D9E75"/><rect x="-19" y="-40" width="38" height="6" rx="2" fill="#0F6E56"/><path d="M-6 -12l4-7 4 7M7 -9l-3 6h-8M-9 -9l3 6" stroke="#E1F5EE" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="pb-bin" display="none"><path d="M-17 -36h34l-3 36h-28z" fill="#1D9E75"/><rect x="-19" y="-40" width="38" height="6" rx="2" fill="#0F6E56"/><g transform="translate(0 -17) scale(1.05)"><g><line x1="-5.5" y1="1.6" x2="-2.3" y2="-4" stroke="#E1F5EE" stroke-width="2.2" stroke-linecap="round"/><path d="M-0.4 -7.2L0.1 -3.4L-3.9 -5.7Z" fill="#E1F5EE"/></g><g transform="rotate(120)"><line x1="-5.5" y1="1.6" x2="-2.3" y2="-4" stroke="#E1F5EE" stroke-width="2.2" stroke-linecap="round"/><path d="M-0.4 -7.2L0.1 -3.4L-3.9 -5.7Z" fill="#E1F5EE"/></g><g transform="rotate(240)"><line x1="-5.5" y1="1.6" x2="-2.3" y2="-4" stroke="#E1F5EE" stroke-width="2.2" stroke-linecap="round"/><path d="M-0.4 -7.2L0.1 -3.4L-3.9 -5.7Z" fill="#E1F5EE"/></g></g></g>
 <g class="pb-x p-type"><rect x="108" y="160" width="84" height="30" rx="4" fill="#5F5E5A"/><rect x="112" y="164" width="76" height="22" rx="2" fill="#444441"/><circle cx="150" cy="175" r="4" fill="#85B7EB"/><path d="M100 206l8-14h84l8 14z" fill="#2C2C2A"/></g>
 </g>
 </svg>`;
