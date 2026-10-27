@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """StoneDock Prospector.
 
 Finds likely prospects for StoneDock Connect, three ways:
@@ -14,7 +14,7 @@ Finds likely prospects for StoneDock Connect, three ways:
 Google Play ratings are merged into the app lists (by developer name).
 
 Pebble, the AI helper (pebble.js on the page), researches companies, writes outreach emails, answers questions about
-the prospects and double-checks fit scores, through Claude Code on the owner's Claude plan (this computer only).
+the prospects and double-checks fit scores, through Claude Code (Claude plan) or Codex (ChatGPT plan), this computer only.
 Serves the tool at http://localhost:8770. Standard library only, no API keys.
 
 While it runs, it re-runs both searches on a schedule (Settings: every 1-24 hours,
@@ -1413,7 +1413,7 @@ def update_once():
         sync(prefer_remote=False, message=f"Cloud update: {summary}")
         print("Pushed.")
 
-# ---------- AI (Pebble) through Claude Code on the owner's Claude plan (no API key) ----------
+# ---------- AI (Pebble) through Claude Code (owner's Claude plan) or Codex (owner's ChatGPT plan); no API keys ----------
 # The same bridge as Atlas Terminal's ASK: Claude Code in print mode, in an empty folder outside the project (Claude Code
 # reads CLAUDE.md files from parent folders), nothing saved, MCP servers off. Research may use WebSearch and WebFetch
 # (LinkedIn, Google Maps and Yelp included, at the user's request); everything else gets no tools at all.
@@ -1423,7 +1423,7 @@ CHATS_FILE = os.path.join(DATA, "chats.json")  # saved Pebble conversations: {id
 CLAUDE_EXE = os.path.join(os.path.expanduser("~"), ".local", "bin", "claude.exe")
 AI_DIR = os.path.join(os.environ.get("LOCALAPPDATA") or os.path.expanduser("~"), "StoneDockProspector", "ai_sandbox")
 AI_LOCK = threading.Lock()
-AI_STATE = {"auth": None, "auth_at": 0}
+AI_STATE = {}  # per assistant: {"auth": ..., "at": when it was checked}
 AI_MODELS = ("sonnet", "opus", "haiku")
 
 STONEDOCK = """StoneDock (formerly OnePATH Health) sells StoneDock Connect: a white-label health data and AI engine that runs \
@@ -1441,26 +1441,81 @@ def claude_exe():
     return CLAUDE_EXE if os.path.exists(CLAUDE_EXE) else shutil.which("claude")
 
 
-def ai_status():
-    """Is Claude Code installed and signed in? (checked at most once a minute)"""
-    exe = claude_exe()
+CODEX_HOME = os.path.join(os.path.expanduser("~"), ".codex")
+CODEX_FALLBACK = [("gpt-6.1-sol", "GPT-6.1-Sol"), ("gpt-6-astra", "GPT-6-Astra"), ("gpt-6-luna", "GPT-6-Luna")]
+
+
+def codex_exe():
+    """The native Codex CLI (npm installs a .cmd wrapper; the real program sits in the package's vendor folder)."""
+    import glob
+    import shutil
+    npm = os.path.join(os.environ.get("APPDATA") or "", "npm", "node_modules", "@openai", "codex")
+    hits = glob.glob(os.path.join(npm, "node_modules", "@openai", "codex-win32-*", "vendor", "*", "bin", "codex.exe"))
+    return hits[0] if hits else shutil.which("codex.exe") or shutil.which("codex")
+
+
+def codex_models():
+    """The models the owner's Codex offers, from Codex's own model list (falls back to a known few)."""
+    try:
+        with open(os.path.join(CODEX_HOME, "models_cache.json"), encoding="utf-8") as f:
+            got = [(m["slug"], m.get("display_name") or m["slug"]) for m in json.load(f).get("models", [])
+                   if m.get("visibility", "list") == "list" and m.get("slug")]
+        return got or CODEX_FALLBACK
+    except Exception:
+        return CODEX_FALLBACK
+
+
+def ai_models():
+    claude = [{"id": "sonnet", "label": "Claude Sonnet", "provider": "claude"},
+              {"id": "opus", "label": "Claude Opus", "provider": "claude"},
+              {"id": "haiku", "label": "Claude Haiku", "provider": "claude"}]
+    return claude + [{"id": slug, "label": name, "provider": "codex"} for slug, name in codex_models()]
+
+
+def ai_model():
+    """The chosen model and which assistant runs it: Claude Code (Claude plan) or Codex (ChatGPT plan)."""
+    m = get_settings().get("ai_model") or "sonnet"
+    if m in AI_MODELS:
+        return m, "claude"
+    if m in {slug for slug, _ in codex_models()} or m.startswith(("gpt", "codex", "o3", "o4")):
+        return m, "codex"
+    return "sonnet", "claude"
+
+
+def provider_status(provider):
+    """Is that assistant installed and signed in? (checked at most once a minute each)"""
+    exe = codex_exe() if provider == "codex" else claude_exe()
     if not exe:
         return {"installed": False, "loggedIn": False}
-    if AI_STATE["auth"] is None or time.time() - AI_STATE["auth_at"] > 60:
+    st = AI_STATE.setdefault(provider, {"auth": None, "at": 0})
+    if st["auth"] is None or time.time() - st["at"] > 60:
         try:
-            r = subprocess.run([exe, "auth", "status"], capture_output=True, text=True, timeout=30, encoding="utf-8",
-                               errors="replace", creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
-            AI_STATE["auth"] = json.loads(r.stdout or "{}")
+            if provider == "codex":
+                r = subprocess.run([exe, "login", "status"], capture_output=True, text=True, timeout=30, encoding="utf-8",
+                                   errors="replace", creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+                out = ((r.stdout or "") + (r.stderr or "")).lower()
+                st["auth"] = {"loggedIn": r.returncode == 0 and "logged in" in out and "not logged" not in out}
+            else:
+                r = subprocess.run([exe, "auth", "status"], capture_output=True, text=True, timeout=30, encoding="utf-8",
+                                   errors="replace", creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+                st["auth"] = json.loads(r.stdout or "{}")
         except Exception as e:
-            AI_STATE["auth"] = {"loggedIn": False, "error": str(e)[:120]}
-        AI_STATE["auth_at"] = time.time()
-    a = AI_STATE["auth"] or {}
-    return {"installed": True, "loggedIn": bool(a.get("loggedIn")), "busy": AI_LOCK.locked(),
-            "model": get_settings().get("ai_model") or "sonnet"}
+            st["auth"] = {"loggedIn": False, "error": str(e)[:120]}
+        st["at"] = time.time()
+    return {"installed": True, "loggedIn": bool((st["auth"] or {}).get("loggedIn"))}
+
+
+def ai_status():
+    model, provider = ai_model()
+    return {**provider_status(provider), "busy": AI_LOCK.locked(), "model": model, "provider": provider,
+            "models": ai_models(), "providers": {p: provider_status(p) for p in ("claude", "codex")}}
 
 
 def ask_claude(system, prompt, web=False, turns=None):
-    """One request to Claude Code. Returns {"ok", "text", "seconds", "error"}."""
+    """One request to Pebble's chosen model. Returns {"ok", "text", "seconds", "error"}."""
+    model, provider = ai_model()
+    if provider == "codex":
+        return ask_codex(system, prompt, model, web)
     exe = claude_exe()
     if not exe:
         return {"ok": False, "error": "Claude Code isn't installed on this computer."}
@@ -1468,9 +1523,8 @@ def ask_claude(system, prompt, web=False, turns=None):
         return {"ok": False, "error": "Pebble is still working on the last request. Try again when it's done."}
     try:
         os.makedirs(AI_DIR, exist_ok=True)
-        model = get_settings().get("ai_model") or "sonnet"
         tools = "WebSearch,WebFetch" if web else ""
-        cmd = [exe, "-p", "--output-format", "json", "--model", model if model in AI_MODELS else "sonnet",
+        cmd = [exe, "-p", "--output-format", "json", "--model", model,
                "--tools", tools, "--strict-mcp-config", "--disallowedTools", "mcp__*", "--no-session-persistence",
                "--max-turns", str(turns or (18 if web else 3)), "--system-prompt", system]
         if web:  # pre-approved, so print mode never stops to ask
@@ -1487,7 +1541,7 @@ def ask_claude(system, prompt, web=False, turns=None):
         if r.returncode != 0 or out.get("is_error") or not text:
             msg = text or (r.stderr or r.stdout or "").strip()[:400] or f"exit code {r.returncode}"
             if re.search(r"log ?in|not logged|authenticat|/login", msg, re.I):
-                AI_STATE["auth_at"] = 0
+                AI_STATE.pop("claude", None)
                 msg = "Claude Code isn't signed in on this computer. Run `claude` in a terminal and sign in."
             elif re.search(r"usage limit|rate limit|limit reached", msg, re.I):
                 msg = "Your Claude usage limit is reached for now. Pebble can try again once it resets."
@@ -1498,6 +1552,54 @@ def ask_claude(system, prompt, web=False, turns=None):
     except Exception as e:
         return {"ok": False, "error": str(e)[:300]}
     finally:
+        AI_LOCK.release()
+
+
+def ask_codex(system, prompt, model, web=False):
+    """The same request through Codex (OpenAI) on the owner's ChatGPT plan: `codex exec`, read-only, in the same empty
+    folder, nothing saved, the owner's Codex config ignored (no plugins, hooks or rules). Codex has no separate system
+    prompt in exec mode, so the instructions go first in the message. Research gets Codex's live web search."""
+    exe = codex_exe()
+    if not exe:
+        return {"ok": False, "error": "Codex isn't installed on this computer."}
+    if not AI_LOCK.acquire(blocking=False):
+        return {"ok": False, "error": "Pebble is still working on the last request. Try again when it's done."}
+    out_file = os.path.join(AI_DIR, f"codex-{os.getpid()}-{int(time.time() * 1000)}.txt")
+    try:
+        os.makedirs(AI_DIR, exist_ok=True)
+        full = (f"<instructions>\n{system}\n\nWork from your own knowledge{' and web search' if web else ''} only: "
+                f"don't run shell commands or read or change files.\n</instructions>\n\n{prompt}")
+        cmd = [exe, "exec", "--skip-git-repo-check", "--ephemeral", "--ignore-user-config", "--ignore-rules",
+               "-s", "read-only", "-m", model, "-c", 'web_search="%s"' % ("live" if web else "disabled"),
+               "-C", AI_DIR, "-o", out_file, "--color", "never", "-"]
+        t0 = time.time()
+        r = subprocess.run(cmd, input=full, capture_output=True, text=True, timeout=420 if web else 180, cwd=AI_DIR,
+                           encoding="utf-8", errors="replace", creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+        secs = round(time.time() - t0, 1)
+        text = ""
+        if os.path.exists(out_file):
+            with open(out_file, encoding="utf-8", errors="replace") as f:
+                text = f.read().strip()
+        if r.returncode != 0 or not text:
+            log = ((r.stderr or "") + "\n" + (r.stdout or "")).strip()
+            msg = next((l for l in reversed(log.splitlines()) if re.search(r"error|fail|limit|denied|unauthor", l, re.I)),
+                       log[-400:]) or f"exit code {r.returncode}"
+            if re.search(r"not logged|log ?in|unauthor|401|authenticat", msg, re.I):
+                AI_STATE.pop("codex", None)
+                msg = "Codex isn't signed in on this computer. Run `codex login` in a terminal and sign in."
+            elif re.search(r"usage limit|rate limit|limit reached|quota|429", msg, re.I):
+                msg = "Your ChatGPT/Codex usage limit is reached for now. Pick a Claude model, or try again once it resets."
+            return {"ok": False, "error": msg[:400], "seconds": secs}
+        return {"ok": True, "text": text, "seconds": secs}
+    except subprocess.TimeoutExpired:
+        return {"ok": False, "error": f"Pebble took longer than {7 if web else 3} minutes, so it stopped."}
+    except Exception as e:
+        return {"ok": False, "error": str(e)[:300]}
+    finally:
+        try:
+            os.remove(out_file)
+        except OSError:
+            pass
         AI_LOCK.release()
 
 
