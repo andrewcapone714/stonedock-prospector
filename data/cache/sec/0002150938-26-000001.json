@@ -1,0 +1,25 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2150938/000215093826000001/",
+ "entity": "Premium Nutrition for Pets, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other",
+ "offering_total": "1499998",
+ "amount_sold": "999991",
+ "first_sale": "2026-08-04",
+ "people": [
+  {
+   "name": "Robert Quirk",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Salguero",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1771706/000177170626000009/",
+ "entity": "Vireo Growth Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other",
+ "offering_total": "7500001",
+ "amount_sold": "7500001",
+ "first_sale": "2026-09-24",
+ "people": [
+  {
+   "name": "John Mazarakis",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kyle Kingsley",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Judd Nordquist",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ross Hussey",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Victor Mancebo",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tyson Macdonald",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Michael Steiner",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Chris Hagedorn",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

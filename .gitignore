@@ -1,0 +1,8 @@
+# This computer only: the SEC contact email
+data/local.json
+
+# App Store responses (about 40 MB, refetched each run); saved SEC filings in data/cache/sec/ are kept
+data/cache/*.json
+
+*.tmp
+__pycache__/

@@ -1,0 +1,42 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2008030/000200803026000003/",
+ "entity": "Jacksonville Ambulatory Surgery Center, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "110448",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Nick Lambert",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Sparks",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Paul Chappano",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Joseph Parks",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Cameron Adkisson",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

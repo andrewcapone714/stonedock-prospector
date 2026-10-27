@@ -1,0 +1,39 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1861587/000186158726000002/",
+ "entity": "EpiWatch, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "500000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Dean Papadopoulos",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Richard Schmitt",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Teresa Prego",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Robert Smith",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

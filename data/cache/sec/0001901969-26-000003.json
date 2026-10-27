@@ -1,0 +1,67 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1901969/000190196926000003/",
+ "entity": "Janus Health Technologies, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other",
+ "offering_total": "18777077",
+ "amount_sold": "18777077",
+ "first_sale": "2024-09-25",
+ "people": [
+  {
+   "name": "Brendan Downing",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Won Park",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Todd Doze",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Candice Hoshi",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John Garcia",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Jamie Hill-Walters",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Chris Ellsberry",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Clayton Hatzenbuhler",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Neeraj Isaac",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

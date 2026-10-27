@@ -1,0 +1,36 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1855026/000185502626000004/",
+ "entity": "GW Nutrition Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "3731285",
+ "amount_sold": "3175894",
+ "first_sale": "2026-07-16",
+ "people": [
+  {
+   "name": "Stephen Welch",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Martin Gross",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kevin Moore",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Clifford Augspurger",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

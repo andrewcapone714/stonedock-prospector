@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2097935/000209793526000001/",
+ "entity": "LASTpatient Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "1000000",
+ "amount_sold": "400000",
+ "first_sale": "2025-12-11",
+ "people": [
+  {
+   "name": "Austin Smith",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kayla Smith",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Alexandre Ladermann",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

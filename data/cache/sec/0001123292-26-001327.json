@@ -1,0 +1,75 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1858288/000112329226001327/",
+ "entity": "Precision Neuroscience Corp",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "249999984",
+ "first_sale": "2026-09-11",
+ "people": [
+  {
+   "name": "Michael Mager",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Konstantinos Alataris",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "President"
+   ]
+  },
+  {
+   "name": "Craig Mermel",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief AI and Data Officer"
+   ]
+  },
+  {
+   "name": "Benjamin Rapoport",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Science Officer"
+   ]
+  },
+  {
+   "name": "Ravi Mehta",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Howard Morgan",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Kaswan",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Michael Goller",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Stephen Biggar",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

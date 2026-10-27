@@ -1,0 +1,67 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1716636/000090514826003395/",
+ "entity": "Alpheus Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "66977409",
+ "amount_sold": "60477409",
+ "first_sale": "2025-05-02",
+ "people": [
+  {
+   "name": "Vijay Agarwal",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Jeremy Ling",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Imran Eba",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "John Johnson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Robert Stein",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Juan-Pablo Mas",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Peter Thompson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Klaus Veitinger",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Steve Weiner",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

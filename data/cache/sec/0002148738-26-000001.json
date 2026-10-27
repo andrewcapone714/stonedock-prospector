@@ -1,0 +1,28 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2148738/000214873826000001/",
+ "entity": "Amen Health Inc",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "500000",
+ "amount_sold": "100510",
+ "first_sale": "2026-08-04",
+ "people": [
+  {
+   "name": "Carlos Martinez Jimenez",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "CEO / President"
+   ]
+  },
+  {
+   "name": "Ximena Martinez Martinez",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "CFO / Treasurer"
+   ]
+  }
+ ]
+}

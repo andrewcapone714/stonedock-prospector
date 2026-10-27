@@ -1,0 +1,49 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1654928/000165492826000003/",
+ "entity": "Onkos Surgical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "37245260",
+ "amount_sold": "37245260",
+ "first_sale": "2021-08-31",
+ "people": [
+  {
+   "name": "Patrick Treacy",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Antony Koblish",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bradly Tyler",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Adele Oliva",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Paul Touhey",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Stephen Bloch",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

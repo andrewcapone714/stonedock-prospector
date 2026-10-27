@@ -1,0 +1,25 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2148805/000214880526000001/",
+ "entity": "Fortis Medical Devices Teoranta",
+ "entity_type": "Other",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "1707135",
+ "amount_sold": "449742",
+ "first_sale": "2023-12-12",
+ "people": [
+  {
+   "name": "Thomas Gutierrez",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Gerard Lyons",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

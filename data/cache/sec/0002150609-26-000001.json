@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2150609/000215060926000001/",
+ "entity": "Nexus Bedside, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "2600000",
+ "amount_sold": "2600000",
+ "first_sale": "2024-10-15",
+ "people": [
+  {
+   "name": "Akram Boutros",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Alejandro Moreno",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Richard Schwartz",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

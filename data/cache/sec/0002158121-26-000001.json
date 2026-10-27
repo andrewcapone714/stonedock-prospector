@@ -1,0 +1,25 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2158121/000215812126000001/",
+ "entity": "Vye Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Technology",
+ "offering_total": "18184991",
+ "amount_sold": "16234993",
+ "first_sale": "2026-09-24",
+ "people": [
+  {
+   "name": "Matthew Vail",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Corey Lenhoff",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

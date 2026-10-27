@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2038096/000089271226000355/",
+ "entity": "NOVIR, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "3999994",
+ "amount_sold": "3064987",
+ "first_sale": "2026-08-06",
+ "people": [
+  {
+   "name": "Alexander Kempe",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Donald Layden",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Bakken",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Barber",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Akel Akel",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

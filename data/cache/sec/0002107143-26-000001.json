@@ -1,0 +1,27 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2107143/000210714326000001/",
+ "entity": "InterAct Therapeutics, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "250000",
+ "first_sale": "2026-07-20",
+ "people": [
+  {
+   "name": "Daniel Hargrove",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Mr. Hargrove is the CEO and a director of the Issuer."
+   ]
+  },
+  {
+   "name": "Isaac Chan",
+   "roles": [
+    "Director",
+    "Dr. Chan is a director of the Issuer"
+   ]
+  }
+ ]
+}

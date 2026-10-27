@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2023016/000202301626000001/",
+ "entity": "Turn Therapeutics Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "Indefinite",
+ "amount_sold": "1650000",
+ "first_sale": "2026-08-14",
+ "people": [
+  {
+   "name": "Bradley Burnam",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Zuraiz Chaudhary",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Martin Dewhurst",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Gengos",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Arthur Golden",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kent Kester",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Neilesh Ghodadra",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

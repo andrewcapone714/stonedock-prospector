@@ -1,0 +1,24 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2158716/000215871626000001/",
+ "entity": "Ebb Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "900000",
+ "amount_sold": "550000",
+ "first_sale": "2026-01-05",
+ "people": [
+  {
+   "name": "Hewa Artin",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Josh Parks",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2157689/000215768926000001/",
+ "entity": "McAllen Digestive Surgery Center, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "2082500",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "n/a McAllen Digestive Holdco, LLC",
+   "roles": [
+    "Promoter",
+    "Administrative Member of the Issuer"
+   ]
+  },
+  {
+   "name": "n/a ASC Texas Holdco, Inc.",
+   "roles": [
+    "Promoter",
+    "Sole member of the Administrative Member"
+   ]
+  },
+  {
+   "name": "Steve Filton",
+   "roles": [
+    "Promoter",
+    "Vice President of ASC Texas Holdco, Inc."
+   ]
+  },
+  {
+   "name": "n/a Universal Health Services, Inc.",
+   "roles": [
+    "Promoter"
+   ]
+  },
+  {
+   "name": "n/a UHS of Delaware, Inc.",
+   "roles": [
+    "Promoter"
+   ]
+  }
+ ]
+}

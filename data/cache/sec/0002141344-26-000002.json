@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2141344/000214134426000002/",
+ "entity": "Combat Medical Holdings Ltd",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "5000000",
+ "amount_sold": "3400000",
+ "first_sale": "2025-08-21",
+ "people": [
+  {
+   "name": "Jennifer Salcedo",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

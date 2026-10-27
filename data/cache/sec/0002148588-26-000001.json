@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2148588/000214858826000001/",
+ "entity": "Imagen Glenview Support Services, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "1009600",
+ "amount_sold": "1009600",
+ "first_sale": "2026-07-29",
+ "people": [
+  {
+   "name": "Rezwan Manji",
+   "roles": [
+    "Executive Officer",
+    "Rezwan Manji is an executive officer of Imagen Glenview Support Services, LLC and Imagen Dental Partners, LLC."
+   ]
+  },
+  {
+   "name": "David Diekmann",
+   "roles": [
+    "Executive Officer",
+    "David Diekmann is an executive officer of Imagen Glenview Support Services, LLC and Imagen Dental Partners, LLC."
+   ]
+  }
+ ]
+}

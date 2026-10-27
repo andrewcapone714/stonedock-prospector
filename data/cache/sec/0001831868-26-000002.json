@@ -1,0 +1,65 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1831868/000183186826000002/",
+ "entity": "SeaStar Medical Holding Corp",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "3301572",
+ "amount_sold": "3301572",
+ "first_sale": "2026-10-05",
+ "people": [
+  {
+   "name": "Eric Schlorff",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer of Issuer"
+   ]
+  },
+  {
+   "name": "Michael Messinger",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Bradford Towne",
+   "roles": [
+    "Executive Officer",
+    "Controller"
+   ]
+  },
+  {
+   "name": "Kenneth Van Heel",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jennifer Baird",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John Neuman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bernadette Vincent",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kevin Chung",
+   "roles": [
+    "Executive Officer",
+    "Chief Medical Officer"
+   ]
+  }
+ ]
+}

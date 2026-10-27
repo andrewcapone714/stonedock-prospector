@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1929673/000192967326000003/",
+ "entity": "QUICKTAKE HEALTH CO",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Biotechnology",
+ "offering_total": "2070000",
+ "amount_sold": "2070000",
+ "first_sale": "2023-03-20",
+ "people": [
+  {
+   "name": "Rand Ragusa",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "John Biagas",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Paige Clayton",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Murphy",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Patrick Pendley",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

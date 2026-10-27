@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2153525/000215061426000001/",
+ "entity": "Meca Industries Corp",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "212500",
+ "amount_sold": "37500",
+ "first_sale": "2026-09-10",
+ "people": [
+  {
+   "name": "Edward Cordiano",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Alesi",
+   "roles": [
+    "Executive Officer",
+    "Promoter"
+   ]
+  }
+ ]
+}

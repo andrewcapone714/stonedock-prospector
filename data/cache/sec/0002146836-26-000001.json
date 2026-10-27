@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2146836/000214683626000001/",
+ "entity": "Enhance Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other",
+ "offering_total": "145000",
+ "amount_sold": "145000",
+ "first_sale": "2026-07-15",
+ "people": [
+  {
+   "name": "Matthew Leming",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

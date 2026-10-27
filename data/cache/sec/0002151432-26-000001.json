@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2151432/000215143226000001/",
+ "entity": "Parasol Med Tech, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other",
+ "offering_total": "2500000",
+ "amount_sold": "2365000",
+ "first_sale": "2026-05-26",
+ "people": [
+  {
+   "name": "Atman Shah",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Evan Singer",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

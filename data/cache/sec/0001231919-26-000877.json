@@ -1,0 +1,55 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2046595/000123191926000877/",
+ "entity": "Teal Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other",
+ "offering_total": "22999984",
+ "amount_sold": "21264213",
+ "first_sale": "2026-08-05",
+ "people": [
+  {
+   "name": "Kara Egan",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Avnesh Thakor",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Joseph DeSimone",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Matthew Bettonville",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Nicole Johnson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kathryn Taylor Reddy",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Sarah Rose",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

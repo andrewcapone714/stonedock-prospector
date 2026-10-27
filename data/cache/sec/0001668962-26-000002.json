@@ -1,0 +1,115 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1668962/000166896226000002/",
+ "entity": "Imperative Care, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "111270000",
+ "amount_sold": "111270000",
+ "first_sale": "2026-03-13",
+ "people": [
+  {
+   "name": "FARHAD KHOSRAVI",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "JOHN HAMRE",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "HENRY PLAIN, JR.",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "HOLLY SHEFFIELD",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "STACY SENG",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "DANNY DEAREN, JR.",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "ANDREW HACK",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "EVAN MELROSE",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "KEVIN REILLY",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "SHACEY PETROVIC",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "TYLER BINNEY",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "SCOTT ELLIOTT",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "CHARLES ALPUCHE",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "TODD VAN HORN",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "CAROLE ROTH",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "RICHARD LEPARMENTIER",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "JOHN MARTIN",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

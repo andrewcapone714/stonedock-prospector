@@ -1,0 +1,41 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2158363/000215836326000001/",
+ "entity": "ALTIUS ORTHOPEDICS, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "2400000",
+ "amount_sold": "2100000",
+ "first_sale": "2026-09-22",
+ "people": [
+  {
+   "name": "Nathan Erickson",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Benjamin Wehrli",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Paul Thatcher",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Eric Grothe",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

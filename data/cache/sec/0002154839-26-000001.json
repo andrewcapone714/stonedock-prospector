@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2154839/000215483926000001/",
+ "entity": "HTD Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Technology",
+ "offering_total": "570068",
+ "amount_sold": "570068",
+ "first_sale": "2026-09-24",
+ "people": [
+  {
+   "name": "Zachary Markin",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

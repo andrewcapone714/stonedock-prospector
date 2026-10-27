@@ -1,0 +1,79 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1874298/000187429826000004/",
+ "entity": "Allotera Therapeutics, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "163043971",
+ "amount_sold": "123313778",
+ "first_sale": "2025-08-22",
+ "people": [
+  {
+   "name": "Niall O'Donnell",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bali Muralidhar",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Peter Kiener",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Drew Dennison",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kevin Li",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bosun Hau",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Matthew Cooper",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Ayman Kabakibi",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Natalie Mount",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kumar Srinivasan",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Cherry Thomas",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

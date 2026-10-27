@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2153862/000215386226000001/",
+ "entity": "Neo Medical Venture LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Pooled Investment Fund",
+ "offering_total": "2070500",
+ "amount_sold": "2070500",
+ "first_sale": "2026-08-28",
+ "people": [
+  {
+   "name": "- Gary Ben-Ezra SPV",
+   "roles": [
+    "Promoter",
+    "Manager"
+   ]
+  }
+ ]
+}

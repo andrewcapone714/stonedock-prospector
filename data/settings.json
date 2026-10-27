@@ -1,0 +1,7 @@
+{
+ "sender": "",
+ "template": "Subject: Powering {app} with a health data and AI engine\n\nHi {first_name},\n\nI came across {app} while researching {category} apps. I'm with StoneDock, and we build StoneDock Connect: a white-label engine that runs inside a partner's own app, under their brand.\n\nConnect is built on FHIR, the data standard hospitals and EHRs like Epic use. It's HIPAA-ready with patient consent on every request, it reads lab PDFs and turns them into health scores and coaching, and it already runs payment, prescription, EHR sync and refills for our live partner, MyWellness App. Patients never leave your app.\n\nWould you be open to a 20-minute demo? We can show you the sandbox and how it would plug into {company}'s app.\n\nBest,\n{sender}",
+ "auto_update": true,
+ "auto_every_hours": 6,
+ "auto_add_min": 0
+}

@@ -1,0 +1,53 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2147095/000143774926024869/",
+ "entity": "Highcroft cLoc I, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "700000",
+ "amount_sold": "625000",
+ "first_sale": "2026-06-27",
+ "people": [
+  {
+   "name": "n/a Highcroft Capital, LLC",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter",
+    "Manager of the Issuer"
+   ]
+  },
+  {
+   "name": "Brian O'Connell",
+   "roles": [
+    "Executive Officer",
+    "Promoter",
+    "Managing Partner of the Manager"
+   ]
+  },
+  {
+   "name": "Joshua Buckler",
+   "roles": [
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Peter Eckmann",
+   "roles": [
+    "Promoter"
+   ]
+  },
+  {
+   "name": "David Madgett",
+   "roles": [
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Marc Newell",
+   "roles": [
+    "Promoter"
+   ]
+  }
+ ]
+}

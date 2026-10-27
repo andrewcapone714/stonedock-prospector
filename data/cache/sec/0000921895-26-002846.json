@@ -1,0 +1,71 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1795091/000092189526002846/",
+ "entity": "OS Therapies Inc",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "12282478",
+ "amount_sold": "7172429",
+ "first_sale": "2026-10-15",
+ "people": [
+  {
+   "name": "Paul Romness",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chairman, President and Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Robert Petit",
+   "roles": [
+    "Executive Officer",
+    "Chief Medical Officer and Chief Scientific Officer"
+   ]
+  },
+  {
+   "name": "Francis Knuettel II",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "John Ciccio",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Avril McKean Dieser",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Craig Eagle",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Olivier Jarry",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Theodore Search",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kerry Clem",
+   "roles": [
+    "Executive Officer",
+    "Chief Commercial Officer"
+   ]
+  }
+ ]
+}

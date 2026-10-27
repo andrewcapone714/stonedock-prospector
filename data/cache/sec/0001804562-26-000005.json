@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1804562/000180456226000005/",
+ "entity": "Wesper Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "8304999",
+ "amount_sold": "8304999",
+ "first_sale": "2024-03-05",
+ "people": [
+  {
+   "name": "AMIR REUVENY",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

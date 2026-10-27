@@ -1,0 +1,39 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1739794/000143774926028137/",
+ "entity": "TAS Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "4683769",
+ "amount_sold": "4178138",
+ "first_sale": "2024-08-19",
+ "people": [
+  {
+   "name": "Michael Tozzi",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Albert Chin",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Thomas Kramer",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "John Dwyer",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

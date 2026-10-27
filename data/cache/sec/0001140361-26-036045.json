@@ -1,0 +1,61 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1724688/000114036126036045/",
+ "entity": "Legacy Trail Surgery Center, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "289600",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Ronald Gilliland",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Robert Wyatt, M.D.",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Vanessa Walls",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Dustin Loveland, M.D.",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Dane Peterson",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Richard Ha, M.D.",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Kris Sanders",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

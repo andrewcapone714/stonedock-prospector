@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2149162/000214916226000001/",
+ "entity": "3852.ai Inc",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "435000",
+ "amount_sold": "435000",
+ "first_sale": "2022-07-13",
+ "people": [
+  {
+   "name": "Robert Skiff",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1673474/000167347426000004/",
+ "entity": "Convexity Scientific Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "13047157",
+ "amount_sold": "10047157",
+ "first_sale": "2026-07-23",
+ "people": [
+  {
+   "name": "Jennifer Barretta",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Kevin Rakin",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Henry Weinstein",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Stephen Bruso",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mike Waters",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Agwunobi",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

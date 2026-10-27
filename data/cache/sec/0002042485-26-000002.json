@@ -1,0 +1,62 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2042485/000204248526000002/",
+ "entity": "EyeMacular Regeneration, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Biotechnology",
+ "offering_total": "6000000",
+ "amount_sold": "2870000",
+ "first_sale": "2024-10-08",
+ "people": [
+  {
+   "name": "Timothy Olsen",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Dr. Olsen is the Chief Executive Officer and Chair of the Board of Directors."
+   ]
+  },
+  {
+   "name": "Virginia Olsen",
+   "roles": [
+    "Executive Officer",
+    "Virginia Olsen is Secretary and Chief Human Capital Officer"
+   ]
+  },
+  {
+   "name": "Gerald Benjamin",
+   "roles": [
+    "Director",
+    "Mr. Benjamin serves on the Board of Directors"
+   ]
+  },
+  {
+   "name": "Richard Lindstrom",
+   "roles": [
+    "Director",
+    "Dr. Lindstrom serves on the Board of Directors"
+   ]
+  },
+  {
+   "name": "David Brown",
+   "roles": [
+    "Director",
+    "Dr. Brown serves on the Board of Directors"
+   ]
+  },
+  {
+   "name": "Michael Olsen",
+   "roles": [
+    "Director",
+    "Mr. Olsen serves on the Board of Directors"
+   ]
+  },
+  {
+   "name": "David Herman",
+   "roles": [
+    "Director",
+    "Dr. Herman serves as a Director"
+   ]
+  }
+ ]
+}

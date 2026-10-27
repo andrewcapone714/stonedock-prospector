@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2156162/000123191926001228/",
+ "entity": "PFARADIGM Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "56053611",
+ "amount_sold": "31053616",
+ "first_sale": "2026-09-11",
+ "people": [
+  {
+   "name": "Allan Zingeler",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "David Bonita",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Rupa Patel",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Michael Hurley",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Kramer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Raju Viswanathan",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Wiley",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

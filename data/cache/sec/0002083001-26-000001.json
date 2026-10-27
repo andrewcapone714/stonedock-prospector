@@ -1,0 +1,39 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2083001/000208300126000001/",
+ "entity": "Eleven Wellness, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Retailing",
+ "offering_total": "750000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Martin Frascogna",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Lesley Frascogna",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jonathan Shull",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Sanders Boehlke",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

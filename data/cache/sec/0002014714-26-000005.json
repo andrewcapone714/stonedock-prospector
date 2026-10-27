@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2014714/000201471426000005/",
+ "entity": "Meduloc, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "1843000",
+ "amount_sold": "1843000",
+ "first_sale": "2026-07-24",
+ "people": [
+  {
+   "name": "Michael Collins",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Sarah Sachinis",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Renu Parker",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bruce Anderson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kim Brady",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

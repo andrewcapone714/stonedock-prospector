@@ -1,0 +1,20 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2137776/000213777626000002/",
+ "entity": "Health for Everyone, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "5410000",
+ "first_sale": "2026-05-18",
+ "people": [
+  {
+   "name": "Gunnar Lovelace",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  }
+ ]
+}

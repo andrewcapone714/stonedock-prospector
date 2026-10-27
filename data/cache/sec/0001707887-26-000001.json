@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1707887/000170788726000001/",
+ "entity": "Derry Surgical Center, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "20000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Leon McLean",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Justin Blancato",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Christian Martin",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jennifer Gale",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Fletcher Wilson",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

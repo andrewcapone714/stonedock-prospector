@@ -1,0 +1,70 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2050017/000205001726000005/",
+ "entity": "MODEL ONCOLOGY, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "17500000",
+ "amount_sold": "10915000",
+ "first_sale": "2026-10-01",
+ "people": [
+  {
+   "name": "THOMAS HARPER, JR.",
+   "roles": [
+    "Executive Officer",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "DAVID CHERNOW",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "ROBERT ORTENZIO",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "MARTIN JACKSON",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "WILLIAM DOWNEY",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "STANLEY MARKS, MD",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "MAX BUETOW",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "PHILLIP WATTS",
+   "roles": [
+    "Promoter",
+    "Mr. Watts is no longer affiliated with the Issuer, but has served as a promoter within the past 5 years."
+   ]
+  },
+  {
+   "name": "STEVEN CUTLER",
+   "roles": [
+    "Promoter",
+    "Mr. Cutler is no longer affiliated with the Issuer, but has served as a promoter within the past 5 years."
+   ]
+  }
+ ]
+}

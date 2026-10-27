@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1791860/000179186026000001/",
+ "entity": "RCE Technologies, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "3000000",
+ "amount_sold": "110000",
+ "first_sale": "2026-09-02",
+ "people": [
+  {
+   "name": "Atandra Burman",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Lou Malice",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Samir Batra",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

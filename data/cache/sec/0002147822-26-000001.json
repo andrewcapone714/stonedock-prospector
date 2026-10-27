@@ -1,0 +1,30 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2147822/000214782226000001/",
+ "entity": "Gentle Caring Mind Healthcare LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2022",
+ "industry": "Other Health Care",
+ "offering_total": "200000",
+ "amount_sold": "50000",
+ "first_sale": "2026-07-22",
+ "people": [
+  {
+   "name": "Elvis Tabukum",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Felicitas Tabukum",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jarvis Edongnek",
+   "roles": [
+    "Promoter"
+   ]
+  }
+ ]
+}

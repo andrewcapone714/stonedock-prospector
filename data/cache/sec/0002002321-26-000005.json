@@ -1,0 +1,64 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2002321/000200232126000005/",
+ "entity": "Surgery Center of Georgetown, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "108620",
+ "amount_sold": "108620",
+ "first_sale": "2026-06-01",
+ "people": [
+  {
+   "name": "Robert Just",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Manager of the Issuer and President of the Issuer"
+   ]
+  },
+  {
+   "name": "Robert Hansen",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Manager of the Issuer and Treasurer of the Issuer"
+   ]
+  },
+  {
+   "name": "Joseph Jeanette",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Manager of the Issuer and Secretary of the Issuer"
+   ]
+  },
+  {
+   "name": "Joseph William",
+   "roles": [
+    "Director",
+    "Manager of the Issuer"
+   ]
+  },
+  {
+   "name": "Will Milo",
+   "roles": [
+    "Director",
+    "Manager of the Issuer"
+   ]
+  },
+  {
+   "name": "Pete Van Epps",
+   "roles": [
+    "Director",
+    "Manager of the Issuer"
+   ]
+  },
+  {
+   "name": "Laura Baker",
+   "roles": [
+    "Director",
+    "Manager of the Issuer"
+   ]
+  }
+ ]
+}

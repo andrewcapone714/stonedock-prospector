@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2146060/000101410826000042/",
+ "entity": "Asher Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Technology",
+ "offering_total": "3000000",
+ "amount_sold": "3000000",
+ "first_sale": "2026-07-21",
+ "people": [
+  {
+   "name": "Trevor Briggs",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Joshua Ponton",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

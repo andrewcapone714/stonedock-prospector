@@ -1,0 +1,52 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1741707/000174170726000004/",
+ "entity": "Renovo Concepts, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "10050000",
+ "amount_sold": "8141538",
+ "first_sale": "2023-04-20",
+ "people": [
+  {
+   "name": "Peter Argenta",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Morykwas",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "President and Chief Science Officer"
+   ]
+  },
+  {
+   "name": "William Mayer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Martin Landon",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Linda Loftus",
+   "roles": [
+    "Executive Officer",
+    "Treasurer and Secretary"
+   ]
+  },
+  {
+   "name": "John Wilson",
+   "roles": [
+    "Executive Officer",
+    "CMO"
+   ]
+  }
+ ]
+}

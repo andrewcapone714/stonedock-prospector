@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2085068/000121390026108655/",
+ "entity": "Hygia Technologies, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "5000000",
+ "amount_sold": "125000",
+ "first_sale": "2026-09-08",
+ "people": [
+  {
+   "name": "Stanislav Gutkin",
+   "roles": [
+    "Executive Officer",
+    "Co-Founder / Director / CEO"
+   ]
+  },
+  {
+   "name": "Alexander Shaknovich",
+   "roles": [
+    "Executive Officer",
+    "Co-Founder / Director / Chief Medical Officer"
+   ]
+  },
+  {
+   "name": "Ayall Schanzer",
+   "roles": [
+    "Executive Officer",
+    "Chief Legal Officer / President"
+   ]
+  }
+ ]
+}

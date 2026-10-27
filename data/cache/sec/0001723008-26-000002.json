@@ -1,0 +1,63 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1723008/000172300826000002/",
+ "entity": "GT MEDICAL TECHNOLOGIES, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "100056698",
+ "amount_sold": "50056676",
+ "first_sale": "2026-05-08",
+ "people": [
+  {
+   "name": "David Brachman",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Per Langoe",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Prattipati Laxminarain",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kyle Dempsey",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Susana Amorim",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jason Rostovsky",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Paul Enever",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "James Leech",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

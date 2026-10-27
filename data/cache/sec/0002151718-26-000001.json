@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2151718/000215171826000001/",
+ "entity": "Upstream Metabolics, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "150000",
+ "amount_sold": "50000",
+ "first_sale": "2026-09-21",
+ "people": [
+  {
+   "name": "Sam Thorpe",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Ashley Smith",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

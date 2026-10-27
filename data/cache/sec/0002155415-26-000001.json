@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2155415/000215541526000001/",
+ "entity": "Theia Imaging LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "1000000",
+ "amount_sold": "160000",
+ "first_sale": "2026-09-09",
+ "people": [
+  {
+   "name": "Al-Hafeez Dhalla",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Christian Viehland",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Cynthia Toth",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

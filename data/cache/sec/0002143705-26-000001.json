@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2143705/000214370526000001/",
+ "entity": "Imagen Laughlin Dental Support Services, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "755283",
+ "amount_sold": "755283",
+ "first_sale": "2026-06-30",
+ "people": [
+  {
+   "name": "Rezwan Manji",
+   "roles": [
+    "Executive Officer",
+    "Rezwan Manji is an executive officer of Imagen Laughlin Dental Support Services, LLC and Imagen Dental Partners, LLC"
+   ]
+  },
+  {
+   "name": "David Diekmann",
+   "roles": [
+    "Executive Officer",
+    "David Diekmann is an executive officer of Imagen Laughlin Dental Support Services, LLC and Imagen Dental Partners, LLC"
+   ]
+  }
+ ]
+}

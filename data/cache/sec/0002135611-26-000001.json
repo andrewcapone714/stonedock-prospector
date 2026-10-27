@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2135611/000213561126000001/",
+ "entity": "PIM Medical Receivables Portfolio LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other",
+ "offering_total": "Indefinite",
+ "amount_sold": "150000",
+ "first_sale": "2026-08-25",
+ "people": [
+  {
+   "name": "_ PIM Medical Receivables Manager LLC",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "_ PIM Co-Manager Operating LLC",
+   "roles": [
+    "Executive Officer",
+    "Manager of PIM Medical Receivables Manager LLC"
+   ]
+  },
+  {
+   "name": "Patrick Grimes",
+   "roles": [
+    "Executive Officer",
+    "Manager of PIM Co-Manager Operating LLC"
+   ]
+  }
+ ]
+}

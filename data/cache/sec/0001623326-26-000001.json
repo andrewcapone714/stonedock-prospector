@@ -1,0 +1,88 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1623326/000162332626000001/",
+ "entity": "Click Therapeutics, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "49999999",
+ "amount_sold": "49999999",
+ "first_sale": "2026-04-07",
+ "people": [
+  {
+   "name": "David Klein",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Randall Stanicky",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Cris De Luca",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jeffrey Berkowitz",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Alex Zisson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Maria Forero",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Muzammil Mansuri",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Lezrene Cunningham",
+   "roles": [
+    "Director",
+    "Ms. Cunningham served as a Director on the date that the board\napproved the Offering and on the Date of First Sale.  She\nresigned prior to the date hereof."
+   ]
+  },
+  {
+   "name": "David Friedman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Anthony Costello",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bruce Robertson",
+   "roles": [
+    "Director",
+    "Mr. Robertson was elected a Director after the Date of First Sale\nand resigned prior to the date hereof."
+   ]
+  },
+  {
+   "name": "Douglas Langa",
+   "roles": [
+    "Director",
+    "Mr. Langa was elected a Director after the Date of First Sale."
+   ]
+  }
+ ]
+}

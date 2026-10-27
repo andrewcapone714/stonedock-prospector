@@ -1,0 +1,36 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2115414/000211541426000002/",
+ "entity": "Mikri Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "1350000",
+ "first_sale": "2026-02-09",
+ "people": [
+  {
+   "name": "SHUKI HARRIS",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "ZIYUN YANG",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "LONG LE",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "FAISAL MAHMOOD",
+   "roles": [
+    "Promoter"
+   ]
+  }
+ ]
+}

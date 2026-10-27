@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2066912/000206691226000001/",
+ "entity": "Mindwave Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Technology",
+ "offering_total": "5000000",
+ "amount_sold": "880000",
+ "first_sale": "2025-04-01",
+ "people": [
+  {
+   "name": "Dan Niendorff",
+   "roles": [
+    "Executive Officer",
+    "President"
+   ]
+  },
+  {
+   "name": "Charles Mascioli",
+   "roles": [
+    "Executive Officer",
+    "Vice President"
+   ]
+  },
+  {
+   "name": "Peter McKewon",
+   "roles": [
+    "Executive Officer",
+    "Secretary"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2150116/000215011626000002/",
+ "entity": "Technosys Digital Health Solutions Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Technology",
+ "offering_total": "300000",
+ "amount_sold": "30000",
+ "first_sale": "2026-08-10",
+ "people": [
+  {
+   "name": "Sisira Amarasinghe",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter",
+    "Founder; Chief Executive Officer, President and Secretary"
+   ]
+  },
+  {
+   "name": "Scott Stevens",
+   "roles": [
+    "Executive Officer",
+    "Co-Founder and Chief Operating Officer"
+   ]
+  },
+  {
+   "name": "Arjuna de Silva",
+   "roles": [
+    "Executive Officer",
+    "Co-Founder and Vice President, Product Management"
+   ]
+  },
+  {
+   "name": "Murali Erramilli",
+   "roles": [
+    "Executive Officer",
+    "Co-Founder and Chief Strategy Officer"
+   ]
+  },
+  {
+   "name": "Jonathan Silverstein",
+   "roles": [
+    "Executive Officer",
+    "Co-Founder and Chief Technology Officer"
+   ]
+  },
+  {
+   "name": "Jayarajan Kodikannath",
+   "roles": [
+    "Executive Officer",
+    "Co-Founder and Chief Ayurvedic Medical Advisor"
+   ]
+  }
+ ]
+}

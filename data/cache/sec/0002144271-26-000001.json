@@ -1,0 +1,42 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2144271/000214427126000001/",
+ "entity": "Silo Nutrition Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other",
+ "offering_total": "5000000",
+ "amount_sold": "100000",
+ "first_sale": "2026-06-22",
+ "people": [
+  {
+   "name": "Bryan Snyder",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Max Whiting",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Chase Hollmer",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Jake Solomon",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Aaron Lee",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

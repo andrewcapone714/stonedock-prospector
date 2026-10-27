@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1926833/000192683326000002/",
+ "entity": "Serif Health Management, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "5648251",
+ "amount_sold": "5648251",
+ "first_sale": "2026-07-28",
+ "people": [
+  {
+   "name": "Rafiq Ahmed",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Matthew Robben",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Shalin Mehta",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

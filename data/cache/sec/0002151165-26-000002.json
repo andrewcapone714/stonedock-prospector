@@ -1,0 +1,80 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2151165/000215116526000002/",
+ "entity": "Person Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "5000000",
+ "amount_sold": "249000",
+ "first_sale": "2026-07-28",
+ "people": [
+  {
+   "name": "Yung-Ping Yeh",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter",
+    "Director and Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Thomas Sheehan",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter",
+    "Chairman and Chief Architect Officer"
+   ]
+  },
+  {
+   "name": "Ali Khammanivong",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director and Head of R&D, Molecular Diagnostics Platform"
+   ]
+  },
+  {
+   "name": "Parmjit Kang",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Randy Schiestl",
+   "roles": [
+    "Executive Officer",
+    "Chief Operating Officer"
+   ]
+  },
+  {
+   "name": "Greg Sherwood",
+   "roles": [
+    "Executive Officer",
+    "Head of R&D, Volatile Diagnostics Platform"
+   ]
+  },
+  {
+   "name": "Michael Weaver",
+   "roles": [
+    "Executive Officer",
+    "Chief Growth Officer"
+   ]
+  },
+  {
+   "name": "Jennifer Schaumburg",
+   "roles": [
+    "Executive Officer",
+    "Chief Compliance Officer"
+   ]
+  },
+  {
+   "name": "Murdoc Khaleghi",
+   "roles": [
+    "Executive Officer",
+    "Chief Medical Officer"
+   ]
+  }
+ ]
+}

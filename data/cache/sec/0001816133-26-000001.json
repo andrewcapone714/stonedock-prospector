@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1816133/000181613326000001/",
+ "entity": "Frequency Exchange Corp.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "217933",
+ "amount_sold": "217933",
+ "first_sale": "2026-09-11",
+ "people": [
+  {
+   "name": "Stephen Davis",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Hari Varshney",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Keith Pyne",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Nicole Sullivan",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Scott Owen",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bradley Aelicks",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Sammy Chow",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

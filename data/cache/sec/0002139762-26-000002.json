@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2139762/000213976226000002/",
+ "entity": "Modern Medical Holdings, Inc",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Hospitals and Physicians",
+ "offering_total": "6000000",
+ "amount_sold": "2950000",
+ "first_sale": "2026-02-10",
+ "people": [
+  {
+   "name": "Michael Hakky",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Vivek Patel",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Adam Siegel",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

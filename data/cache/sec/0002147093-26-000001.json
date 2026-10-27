@@ -1,0 +1,25 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2147093/000214709326000001/",
+ "entity": "PreventiveMD, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "1699999",
+ "first_sale": "2026-07-10",
+ "people": [
+  {
+   "name": "Brian Conyer",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Drew Glover",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

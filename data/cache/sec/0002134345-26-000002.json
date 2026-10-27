@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2134345/000213434526000002/",
+ "entity": "Dozee Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "10000000",
+ "amount_sold": "10000000",
+ "first_sale": "2026-08-14",
+ "people": [
+  {
+   "name": "Mudit Dandwate",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

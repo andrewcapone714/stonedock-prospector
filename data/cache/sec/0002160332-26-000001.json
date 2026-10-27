@@ -1,0 +1,34 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2160332/000216033226000001/",
+ "entity": "PFDSELECT MEDICAL RECEIVABLES 1023, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Banking and Financial Services",
+ "offering_total": "10000000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Gary Ermoian",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Gary L. Ermoian is an Executive Officer and Director of PFD Capital Partners, Inc., a Nevada corporation, the Manager of the Issuer."
+   ]
+  },
+  {
+   "name": "Robert Pryke",
+   "roles": [
+    "Executive Officer",
+    "Robert E.Pryke is an Executive Officer of PFD Capital Partners,Inc., a Nevada corporation, the Manager of the Issuer."
+   ]
+  },
+  {
+   "name": "Eric Hansen",
+   "roles": [
+    "Executive Officer",
+    "Eric E. Hansen is an Executive Officer of PFD Capital Partners,Inc., a Nevada corporation, the Manager of the Issuer."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1937993/000121390026078373/",
+ "entity": "Cadrenal Therapeutics, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Biotechnology",
+ "offering_total": "8843849",
+ "amount_sold": "8843849",
+ "first_sale": "2026-06-30",
+ "people": [
+  {
+   "name": "Quang Pham",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chairman of the Board and Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "John Sharp",
+   "roles": [
+    "Executive Officer",
+    "Interim Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "James Ferguson",
+   "roles": [
+    "Executive Officer",
+    "Chief Medical Officer"
+   ]
+  },
+  {
+   "name": "Jeffrey Cole",
+   "roles": [
+    "Executive Officer",
+    "Chief Operating Officer"
+   ]
+  },
+  {
+   "name": "Lee Golden",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John Murphy",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Glynn Wilson",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

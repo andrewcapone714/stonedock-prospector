@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1548664/000154866426000005/",
+ "entity": "White Eagle Sonic Technologies, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "1000000",
+ "amount_sold": "385000",
+ "first_sale": "2026-09-24",
+ "people": [
+  {
+   "name": "Tobias Richard",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Randy Whiting",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Joan Plastiras",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

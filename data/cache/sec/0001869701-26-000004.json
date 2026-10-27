@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1869701/000186970126000004/",
+ "entity": "Huxley Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "11700000",
+ "amount_sold": "11019335",
+ "first_sale": "2026-09-16",
+ "people": [
+  {
+   "name": "Christopher Lee",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Brennan Torstrick",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kenneth Gall",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kurt Jacobus",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Porter",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Cox",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Drew Beaver",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

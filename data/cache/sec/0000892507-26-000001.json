@@ -1,0 +1,25 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/892507/000089250726000001/",
+ "entity": "EMERALD COAST SURGERY CENTER L P",
+ "entity_type": "Limited Partnership",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "220500",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "N/A SVHS-SCA Emerald Coast JV, LLC",
+   "roles": [
+    "Promoter",
+    "General Partner of Issuer"
+   ]
+  },
+  {
+   "name": "Anne Kachelhoffer",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

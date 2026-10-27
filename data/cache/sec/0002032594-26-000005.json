@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2032594/000203259426000005/",
+ "entity": "SleepRes, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "450000",
+ "first_sale": "2026-07-21",
+ "people": [
+  {
+   "name": "William Noah",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "John Lipman",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Craig Salazar",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1807936/000180793626000002/",
+ "entity": "Else Nutrition Holdings Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other",
+ "offering_total": "618750",
+ "amount_sold": "343750",
+ "first_sale": "2026-10-19",
+ "people": [
+  {
+   "name": "Hamutal Yitzhak",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Uriel Kesler",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "MIchael Azar",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Reuben Halevi",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Yaki Lutski",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Satwinder Mann",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Eli Ronen",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

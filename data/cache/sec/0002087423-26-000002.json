@@ -1,0 +1,37 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2087423/000208742326000002/",
+ "entity": "Siloam Vision, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "1240000",
+ "amount_sold": "1240000",
+ "first_sale": "2026-01-26",
+ "people": [
+  {
+   "name": "John Campbell",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Karyn Jonas",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Tong Sun",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Robison Vernon Paul Chan",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

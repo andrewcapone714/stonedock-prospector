@@ -1,0 +1,91 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1582636/000158263626000002/",
+ "entity": "ALZHEON, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "499999999",
+ "amount_sold": "78797184",
+ "first_sale": "2026-08-26",
+ "people": [
+  {
+   "name": "Martin Tolar, M.D., Ph.D.",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "President and Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Christopher Dunn",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Neil Flanzraich",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jordan Heller",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Diane Jorkasky, M.D.",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Gino Santini",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Muneer Satter",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kenneth Mace",
+   "roles": [
+    "Executive Officer",
+    "Treasurer and Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Susan Abushakra, M.D.",
+   "roles": [
+    "Executive Officer",
+    "Chief Medical Officer"
+   ]
+  },
+  {
+   "name": "John Hey, Ph.D.",
+   "roles": [
+    "Executive Officer",
+    "Chief Scientific Officer"
+   ]
+  },
+  {
+   "name": "Aidan Power, MRCPsych",
+   "roles": [
+    "Executive Officer",
+    "Chief Development Officer"
+   ]
+  },
+  {
+   "name": "Adem Albayrak",
+   "roles": [
+    "Executive Officer",
+    "Chief Data Officer"
+   ]
+  }
+ ]
+}

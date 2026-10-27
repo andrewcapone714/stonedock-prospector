@@ -1,0 +1,46 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1888204/000188820426000002/",
+ "entity": "Toetal Solutions, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "250000",
+ "amount_sold": "50000",
+ "first_sale": "2026-09-15",
+ "people": [
+  {
+   "name": "Jeffrey O'Donnell, Sr.",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "William Odenthal",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "William Rhoda",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Jeffrey O'Donnell, Jr.",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Nicholas Pachuda",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

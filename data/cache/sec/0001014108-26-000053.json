@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1824224/000101410826000053/",
+ "entity": "Bond Biosciences, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "15000000",
+ "amount_sold": "7614879",
+ "first_sale": "2026-04-01",
+ "people": [
+  {
+   "name": "Michael Beckloff",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Cory Berkland",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Timothy Opler",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Riley",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Jay Shepard",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

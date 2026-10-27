@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1808311/000180831126000003/",
+ "entity": "Invoq Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "71374980",
+ "amount_sold": "58811822",
+ "first_sale": "2026-07-21",
+ "people": [
+  {
+   "name": "Mayank Kale",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Ryan Singh",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Daniel Burka",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

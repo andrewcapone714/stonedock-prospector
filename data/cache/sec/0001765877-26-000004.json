@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1765877/000176587726000004/",
+ "entity": "PRINE Health Holdings, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2200000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Simon Prince",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

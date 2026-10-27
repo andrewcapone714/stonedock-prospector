@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1933134/000193313426000002/",
+ "entity": "Piraeus Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "12025100",
+ "amount_sold": "10525100",
+ "first_sale": "2026-03-31",
+ "people": [
+  {
+   "name": "Jared Hutar",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kevin Kallmes",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Keith Kallmes",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Martin Akhavan",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ryan Egeland",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

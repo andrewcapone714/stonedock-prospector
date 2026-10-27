@@ -1,0 +1,47 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1999610/000199961026000003/",
+ "entity": "Lite Run, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "3000000",
+ "amount_sold": "3000000",
+ "first_sale": "2026-05-28",
+ "people": [
+  {
+   "name": "Gregg Smith",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "John Hauck",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "President"
+   ]
+  },
+  {
+   "name": "David Springer",
+   "roles": [
+    "Director",
+    "Executive Chairperson"
+   ]
+  },
+  {
+   "name": "Jerry Hu",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jonathan Leon",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2076369/000207636926000002/",
+ "entity": "DSIpharma, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "3000000",
+ "amount_sold": "951250",
+ "first_sale": "2025-06-17",
+ "people": [
+  {
+   "name": "Mark Ridall",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kysha Pierre-Louis",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

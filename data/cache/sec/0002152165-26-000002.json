@@ -1,0 +1,35 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2152165/000215216526000002/",
+ "entity": "Amino Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "225005",
+ "first_sale": "2026-01-19",
+ "people": [
+  {
+   "name": "Charles Corl",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter",
+    "President & Co-Founder; Also known as \"Ted\" Corl"
+   ]
+  },
+  {
+   "name": "Landon Rychener",
+   "roles": [
+    "Executive Officer",
+    "VP Client Success"
+   ]
+  },
+  {
+   "name": "Nicolas Nettemeyer",
+   "roles": [
+    "Promoter",
+    "25% Shareholder"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2069519/000206951926000002/",
+ "entity": "Conavi Medical Corp.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "3529074",
+ "amount_sold": "3529074",
+ "first_sale": "2026-08-12",
+ "people": [
+  {
+   "name": "Thomas Looby",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Quick",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Craig Podolsky",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Aaron Davidson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Robert Mitchell",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Susan Allen",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Anthony Giovinazzo",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Cathy Steiner",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Sumeet Dham",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Amandeep Thind",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

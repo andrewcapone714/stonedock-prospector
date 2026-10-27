@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1907652/000190765226000001/",
+ "entity": "Yuvo, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "5000000",
+ "amount_sold": "4256455",
+ "first_sale": "2026-06-30",
+ "people": [
+  {
+   "name": "Cesar Herrera",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Dave Chokshi",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Joseph Mayer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Fatima Husain",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Omar Nije",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2154275/000215427526000001/",
+ "entity": "Smith Medical Direct Specialty Care Surgery Center of Denver P.C.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "900000",
+ "amount_sold": "800000",
+ "first_sale": "2026-08-01",
+ "people": [
+  {
+   "name": "Robert Flintom",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

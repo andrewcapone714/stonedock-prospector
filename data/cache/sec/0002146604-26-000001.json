@@ -1,0 +1,24 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2146604/000214660426000001/",
+ "entity": "Full Health Clarity, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "150000",
+ "amount_sold": "150000",
+ "first_sale": "2025-09-15",
+ "people": [
+  {
+   "name": "Joseph Ortiz",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Keith Williams",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

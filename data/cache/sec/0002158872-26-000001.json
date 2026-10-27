@@ -1,0 +1,82 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2158872/000215887226000001/",
+ "entity": "HiredMD, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "7000000",
+ "amount_sold": "4700000",
+ "first_sale": "2024-07-24",
+ "people": [
+  {
+   "name": "Heath Wilkes",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Randall Arrowood",
+   "roles": [
+    "Executive Officer",
+    "Chief Technology Officer"
+   ]
+  },
+  {
+   "name": "James Smith",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Charles Wilmer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Despina Dalton",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Philip Coule",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Steven Walsh",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Frederick Flandry",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Travis Bailey",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "N/A MAG Professional Services, LLC",
+   "roles": [
+    "Promoter"
+   ]
+  },
+  {
+   "name": "William Lawrence",
+   "roles": [
+    "Executive Officer",
+    "Chief Commercial Officer"
+   ]
+  }
+ ]
+}

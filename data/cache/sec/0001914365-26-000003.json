@@ -1,0 +1,37 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1914365/000191436526000003/",
+ "entity": "Gradient Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2132720",
+ "amount_sold": "2132720",
+ "first_sale": "2026-10-06",
+ "people": [
+  {
+   "name": "Joshua Miller",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Satish Tadikonda",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Shana Barghouti",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Matthew Bailey",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

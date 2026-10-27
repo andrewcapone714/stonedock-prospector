@@ -1,0 +1,40 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2131697/000147083126000913/",
+ "entity": "Penelope Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Technology",
+ "offering_total": "24999998",
+ "amount_sold": "24999998",
+ "first_sale": "2026-09-17",
+ "people": [
+  {
+   "name": "Sohum Patel",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Mattijs De Paepe",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Thorsten Wirkes",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Matthew Holt",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

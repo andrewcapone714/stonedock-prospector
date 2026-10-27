@@ -1,0 +1,53 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1708436/000170843626000003/",
+ "entity": "TECLens, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "10230000",
+ "amount_sold": "5230000",
+ "first_sale": "2026-07-09",
+ "people": [
+  {
+   "name": "Madhu Ayyagari",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "David Acker",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Secretary"
+   ]
+  },
+  {
+   "name": "Patrick Lopath",
+   "roles": [
+    "Executive Officer",
+    "Chief Operating Officer"
+   ]
+  },
+  {
+   "name": "Hirak Parikh",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Deng Mao",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Richel Liu",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

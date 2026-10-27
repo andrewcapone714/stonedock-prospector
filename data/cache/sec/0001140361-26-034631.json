@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2152087/000114036126034631/",
+ "entity": "Assurance Medication Management, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "750000",
+ "amount_sold": "126062",
+ "first_sale": "2026-08-14",
+ "people": [
+  {
+   "name": "Cory Kennedy",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Carl Galligher",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Nicole Moss",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

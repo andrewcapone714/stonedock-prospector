@@ -1,0 +1,55 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2017592/000201759226000002/",
+ "entity": "Ascertain Systems, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Technology",
+ "offering_total": "24000000",
+ "amount_sold": "19999998",
+ "first_sale": "2026-10-05",
+ "people": [
+  {
+   "name": "Mark Michalski",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Carlos Dedesma",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "John Beadle",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Courtney Marcin",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Moses Adubi",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Julian Harris",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ari Shamiss",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

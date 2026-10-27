@@ -1,0 +1,65 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1211805/000149315226043716/",
+ "entity": "My Size, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "2498692",
+ "amount_sold": "2498692",
+ "first_sale": "2026-09-15",
+ "people": [
+  {
+   "name": "Ronen Luzon",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Oren Elmaliah",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Billy Pardo",
+   "roles": [
+    "Executive Officer",
+    "Chief Operating Officer and Chief Product Officer"
+   ]
+  },
+  {
+   "name": "Borja Saralegui",
+   "roles": [
+    "Executive Officer",
+    "Chief Growth Officer"
+   ]
+  },
+  {
+   "name": "Arik Kaufman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Roy Golan",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Oron Branitzky",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Guy Zimmerman",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

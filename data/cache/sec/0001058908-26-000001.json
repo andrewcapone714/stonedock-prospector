@@ -1,0 +1,41 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1058908/000105890826000001/",
+ "entity": "TREASURE VALLEY HOSPITAL LIMITED PARTNERSHIP",
+ "entity_type": "Limited Partnership",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "300000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "N/A Surgical Health, LLC",
+   "roles": [
+    "Promoter",
+    "General Partner of Issuer"
+   ]
+  },
+  {
+   "name": "Jordan Jones",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "President and Manager of Issuer's General Partner"
+   ]
+  },
+  {
+   "name": "John Fain",
+   "roles": [
+    "Executive Officer",
+    "Vice President of Issuer's General Partner"
+   ]
+  },
+  {
+   "name": "Oren Shill",
+   "roles": [
+    "Executive Officer",
+    "Vice President of Issuer's General Partner"
+   ]
+  }
+ ]
+}

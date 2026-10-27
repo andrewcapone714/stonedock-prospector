@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1420108/000142010826000007/",
+ "entity": "Glucose Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "60000",
+ "amount_sold": "60000",
+ "first_sale": "2026-10-05",
+ "people": [
+  {
+   "name": "John Duffy",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Schaftlein",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Edmund Burke",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Christopher Jemapete",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Marc Hatch",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1754364/000175436426000002/",
+ "entity": "Colonial Outpatient Surgery Center, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "973427",
+ "amount_sold": "915156",
+ "first_sale": "2026-06-29",
+ "people": [
+  {
+   "name": "N/A SCA-Colonial Partners, LLC",
+   "roles": [
+    "Promoter",
+    "Managing Member of Issuer"
+   ]
+  },
+  {
+   "name": "Peter Curcione, M.D.",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Catherine Mark",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Carolyn Langford, M.D.",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Warren Wylie II",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

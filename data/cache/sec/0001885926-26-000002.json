@@ -1,0 +1,66 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1885926/000188592626000002/",
+ "entity": "Thrive ManagementCo, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Max Lin",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Alex Ward",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Johnny Kim",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Daniel II",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bogdan Cenanovic",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Doug Klinger",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jeffrey Shoreman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Xiu Dong",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Alisa Bahl",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

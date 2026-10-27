@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2150378/000215037826000001/",
+ "entity": "Oxbridge Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Other Health Care",
+ "offering_total": "45000000",
+ "amount_sold": "38502519",
+ "first_sale": "2026-08-10",
+ "people": [
+  {
+   "name": "Roger Francoline",
+   "roles": [
+    "Executive Officer",
+    "President"
+   ]
+  },
+  {
+   "name": "Will Herling",
+   "roles": [
+    "Executive Officer",
+    "CEO"
+   ]
+  },
+  {
+   "name": "Stephen Wiggins",
+   "roles": [
+    "Executive Officer",
+    "Executive Chairman"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2010510/000201051026000001/",
+ "entity": "Pan-Am Dental Holdings, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "9380658",
+ "amount_sold": "9380658",
+ "first_sale": "2026-07-09",
+ "people": [
+  {
+   "name": "Geoffrey Faux",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "John Maggard",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Blake Cummings",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Ana Winters",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Brett Parr",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "James Hitch",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "William Jackson",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

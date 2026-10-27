@@ -1,0 +1,74 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1679628/000149315226041606/",
+ "entity": "JUPITER NEUROSCIENCES, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "774787",
+ "amount_sold": "774787",
+ "first_sale": "2026-08-20",
+ "people": [
+  {
+   "name": "Christer Rosen",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Alison Silva",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Operating Officer"
+   ]
+  },
+  {
+   "name": "Saleem Elmasri",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Marshall Hayward",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Scientific Officer"
+   ]
+  },
+  {
+   "name": "Alexander Rosen",
+   "roles": [
+    "Executive Officer",
+    "Chief Administrative Officer"
+   ]
+  },
+  {
+   "name": "Nicholas Hemmerly",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Holger Weiss",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Cutler",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tomas Philipson",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

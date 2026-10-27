@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2140048/000214004826000003/",
+ "entity": "MED Platform III SCSp",
+ "entity_type": "Limited Partnership",
+ "year_of_inc": "2026",
+ "industry": "Pooled Investment Fund",
+ "offering_total": "Indefinite",
+ "amount_sold": "2108062428",
+ "first_sale": "2026-08-03",
+ "people": [
+  {
+   "name": "N/A ARCHIMED SAS",
+   "roles": [
+    "Executive Officer",
+    "Investment Manager of the Issuer"
+   ]
+  },
+  {
+   "name": "N/A MED Platform III GP S.a r.l.",
+   "roles": [
+    "Executive Officer",
+    "General Partner of the Issuer"
+   ]
+  },
+  {
+   "name": "Jeppe Lindgaard",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jaime Gomez-Ferrer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Javier Valls",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

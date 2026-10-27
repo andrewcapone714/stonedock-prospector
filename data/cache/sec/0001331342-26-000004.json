@@ -1,0 +1,73 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1331342/000133134226000004/",
+ "entity": "Piedmont Stone Center PLLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "79282",
+ "amount_sold": "79282",
+ "first_sale": "2026-07-01",
+ "people": [
+  {
+   "name": "Charles Hauser",
+   "roles": [
+    "Executive Officer",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Robert Cook",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Judson Rackley",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Claiborne Whitworth",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ralph Duckett",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Julian Fagerli",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Scott Stoioff",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Alexandre Caillat",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Matthew Eskridge",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kareem Zaki",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

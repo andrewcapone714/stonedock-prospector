@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2031482/000203148226000002/",
+ "entity": "Biometry Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "4999998",
+ "amount_sold": "3585772",
+ "first_sale": "2025-12-05",
+ "people": [
+  {
+   "name": "Bryan Nolan",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Little",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Joel Myerson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Joseph Gentile",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Harold Kisner",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

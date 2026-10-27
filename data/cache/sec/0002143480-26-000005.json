@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2143480/000214348026000005/",
+ "entity": "Elevationshot Inc",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "450000",
+ "amount_sold": "100000",
+ "first_sale": "2026-07-10",
+ "people": [
+  {
+   "name": "Robert Wathen",
+   "roles": [
+    "Executive Officer",
+    "SELF"
+   ]
+  }
+ ]
+}

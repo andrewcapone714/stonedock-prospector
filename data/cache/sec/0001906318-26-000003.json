@@ -1,0 +1,79 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1906318/000190631826000003/",
+ "entity": "WFS Home Care Enterprises, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "5581814",
+ "amount_sold": "4746287",
+ "first_sale": "2026-07-23",
+ "people": [
+  {
+   "name": "Will Saunders",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Tripodi",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Mark Boxer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Lucia",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Anne Tumlinson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Robert Schulz",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Neil Borg",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Larry Gumina",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Lauren Flickinger",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tania Grant",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John Ramsey",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

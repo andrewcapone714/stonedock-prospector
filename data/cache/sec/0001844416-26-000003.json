@@ -1,0 +1,49 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1844416/000184441626000003/",
+ "entity": "AngelEye Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "20000010",
+ "amount_sold": "9999992",
+ "first_sale": "2026-09-10",
+ "people": [
+  {
+   "name": "Christopher Rand",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Gerard Hayden, Jr.",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Byron Smith",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jack Slaughter",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Emily Rash",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Alexander Whitmore",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

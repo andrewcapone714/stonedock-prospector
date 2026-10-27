@@ -1,0 +1,48 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2148840/000214884026000005/",
+ "entity": "MBQ PHARMA INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Pharmaceuticals",
+ "offering_total": "Indefinite",
+ "amount_sold": "991038",
+ "first_sale": "2026-05-15",
+ "people": [
+  {
+   "name": "CARLOS DOMINGUEZ",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "JOSE RODRIGUEZ-ORENGO",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "SURANGANIE DHARMAWARDHANE",
+   "roles": [
+    "Executive Officer",
+    "Chief Scientific Officer"
+   ]
+  },
+  {
+   "name": "ARTURO GONZALEZ",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "NEIL SANKAR",
+   "roles": [
+    "Executive Officer",
+    "Chief Medical Officer"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1444192/000112329226001084/",
+ "entity": "Grace Therapeutics, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Pharmaceuticals",
+ "offering_total": "9999998",
+ "amount_sold": "9999998",
+ "first_sale": "2026-08-04",
+ "people": [
+  {
+   "name": "Prashant Kohli",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Vimal Kavuru",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Robert DelAversano",
+   "roles": [
+    "Executive Officer",
+    "Vice President, Finance, Principal Financial Officer and Principal Accounting Officer"
+   ]
+  },
+  {
+   "name": "A. Davis",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "S. Kottayil",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Edward Neugeboren",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Dr. R. Macdonald",
+   "roles": [
+    "Executive Officer",
+    "Chief Medical Officer"
+   ]
+  },
+  {
+   "name": "Amresh Kumar",
+   "roles": [
+    "Executive Officer",
+    "VP of Program Management"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2157443/000215744326000001/",
+ "entity": "Coast Medical Innovations, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "1800000",
+ "amount_sold": "550000",
+ "first_sale": "2025-11-13",
+ "people": [
+  {
+   "name": "Brett Hazuka",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Manager, President and Chief Executive Officer of the issuer, a manager managed LL"
+   ]
+  },
+  {
+   "name": "Jason Forchione",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Manager and Chief Strategy Officer of the issuer, a manager managed LL"
+   ]
+  }
+ ]
+}

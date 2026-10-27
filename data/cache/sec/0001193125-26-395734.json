@@ -1,0 +1,58 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1095981/000119312526395734/",
+ "entity": "CERENOME, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "20000000",
+ "amount_sold": "3000000",
+ "first_sale": "2026-09-10",
+ "people": [
+  {
+   "name": "Marc Hedrick",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "President and Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Andrew Sims",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Howard Clowes",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "An van Es-Johansson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Richard Hawkins",
+   "roles": [
+    "Director",
+    "Chairman of the Board"
+   ]
+  },
+  {
+   "name": "Ronald Andrews",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kyle Guse",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1689694/000168969426000002/",
+ "entity": "K Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "68949885",
+ "amount_sold": "58949942",
+ "first_sale": "2026-06-05",
+ "people": [
+  {
+   "name": "Allon Bloch",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Adam Singolda",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Tluszcz",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Alejandro Zubillaga",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Vivek Pattipati",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Saad Ehtisham",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Vivian Riefberg",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Niyum Gandhi",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "C. Okey Agba",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Nir Zohar",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Chen Yehudai",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Yaron Savoray",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Ran Shaul",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Zac Siegel",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

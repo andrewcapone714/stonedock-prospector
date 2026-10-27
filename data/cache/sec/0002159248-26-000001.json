@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2159248/000215924826000001/",
+ "entity": "Atlis Health, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Technology",
+ "offering_total": "1000000",
+ "amount_sold": "250000",
+ "first_sale": "2026-09-11",
+ "people": [
+  {
+   "name": "Brian Schroeder",
+   "roles": [
+    "Executive Officer",
+    "Brian is the CEO"
+   ]
+  },
+  {
+   "name": "Jamie Scarcelli",
+   "roles": [
+    "Executive Officer",
+    "Jamie is President & COO / Operating Partner"
+   ]
+  },
+  {
+   "name": "Brendan Haffey",
+   "roles": [
+    "Executive Officer",
+    "Michael is Chief Revenue Officer"
+   ]
+  }
+ ]
+}

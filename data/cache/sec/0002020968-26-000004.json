@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2020968/000202096826000004/",
+ "entity": "AblePay Health LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other",
+ "offering_total": "20164890",
+ "amount_sold": "20164890",
+ "first_sale": "2026-08-28",
+ "people": [
+  {
+   "name": "John Fistner",
+   "roles": [
+    "Director",
+    "Manager of Manager-Managed LLC"
+   ]
+  },
+  {
+   "name": "Nikhil Marathe",
+   "roles": [
+    "Director",
+    "Manager of Manager-Managed LLC"
+   ]
+  }
+ ]
+}

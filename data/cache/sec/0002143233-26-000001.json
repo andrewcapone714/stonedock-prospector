@@ -1,0 +1,54 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2143233/000214323326000001/",
+ "entity": "Fresenius Medical Care North Dallas, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "1026675",
+ "amount_sold": "1026675",
+ "first_sale": "2026-06-30",
+ "people": [
+  {
+   "name": "Erik Lyesiuk",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Breann Montesanto",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Christina Denman",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Maryann Carumba",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Geoffrey Walker, M.D.",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Steven Gieser, M.D.",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

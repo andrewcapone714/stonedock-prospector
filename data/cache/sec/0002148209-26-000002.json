@@ -1,0 +1,24 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2148209/000214820926000002/",
+ "entity": "Senza Research, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "16000000",
+ "amount_sold": "2150000",
+ "first_sale": "2026-07-17",
+ "people": [
+  {
+   "name": "Anthony Sun",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Michelle LaSpaluto",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

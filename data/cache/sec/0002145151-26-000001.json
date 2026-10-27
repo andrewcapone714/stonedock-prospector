@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2145151/000214515126000001/",
+ "entity": "Rolari Nutrition Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other",
+ "offering_total": "665000",
+ "amount_sold": "165000",
+ "first_sale": "2025-03-14",
+ "people": [
+  {
+   "name": "Christopher Thompson",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

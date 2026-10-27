@@ -1,0 +1,46 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2048702/000123191926000799/",
+ "entity": "Pascal Medical Corp",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Other",
+ "offering_total": "3098719",
+ "amount_sold": "3098719",
+ "first_sale": "2026-06-05",
+ "people": [
+  {
+   "name": "Thomas Gardner",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Barbara Boyan",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Richard Hall",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "William Smart",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "James Sevey",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

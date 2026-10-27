@@ -1,0 +1,34 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2085085/000208508526000001/",
+ "entity": "PFDSelect Medical Receivable Hybrid 3002, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2024",
+ "industry": "Other Banking and Financial Services",
+ "offering_total": "75000000",
+ "amount_sold": "11160775",
+ "first_sale": "2026-08-03",
+ "people": [
+  {
+   "name": "Gary Ermoian",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Gary L. Ermoian is an Executive Officer and Director of PFD Capital Partners, Inc., a Nevada corporation, which is the Manager of the Issuer."
+   ]
+  },
+  {
+   "name": "Robert Pryke",
+   "roles": [
+    "Executive Officer",
+    "Robert E. Pryke is an Executive Officer of PFD Capital Partners, Inc., a Nevada corporation, which is the Manager of the Issuer."
+   ]
+  },
+  {
+   "name": "Eric Hansen",
+   "roles": [
+    "Executive Officer",
+    "Eric Hansen is an Executive Officer of PFD Capital Partners, Inc., a Nevada corporation, which is the Manager of the Issuer."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2160836/000216083626000001/",
+ "entity": "Fresenius Medical Care Fulshear, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "4383421",
+ "amount_sold": "4383421",
+ "first_sale": "2026-10-15",
+ "people": [
+  {
+   "name": "Erik Lyesiuk",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Aaron Almquist",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Ludwig Teugels",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Josie Zapalac",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Anil Chunduri, M.D.",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

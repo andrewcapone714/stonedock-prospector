@@ -1,0 +1,126 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1595215/000159521526000002/",
+ "entity": "Rakuten Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "8974943",
+ "amount_sold": "8974943",
+ "first_sale": "2026-08-16",
+ "people": [
+  {
+   "name": "Maeda Minami",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "David Chao",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Miguel Garcia-Guzman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Hiroshi Mikitani",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Hiroshi Mori",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ken Takeshita",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Christophe Weber",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Nitin Nohria",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Eiichi Kaga",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mazen Darwazeh",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tiffany Piecewicz",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Abhijit Bhatia",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Toshiaki Suzuki",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Suzane San",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Hiroyuki Kodama",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Louise Chang",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Amy Thorne",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Anthony Manibusan",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Hassan Danesi",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

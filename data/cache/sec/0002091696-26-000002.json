@@ -1,0 +1,37 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2091696/000209169626000002/",
+ "entity": "Moody Med Center 2 DST",
+ "entity_type": "Other",
+ "year_of_inc": "2025",
+ "industry": "Commercial",
+ "offering_total": "41905000",
+ "amount_sold": "41905000",
+ "first_sale": "2026-03-10",
+ "people": [
+  {
+   "name": "Brett Moody",
+   "roles": [
+    "Executive Officer",
+    "President of Issuer's Manager"
+   ]
+  },
+  {
+   "name": "[none] Moody Med Center 2 AM, LLC",
+   "roles": [
+    "Promoter"
+   ]
+  },
+  {
+   "name": "[none] Moody Med Center 2 Depositor, LLC",
+   "roles": [
+    "Promoter"
+   ]
+  },
+  {
+   "name": "[none] Moody National DST Sponsor, LLC",
+   "roles": [
+    "Promoter"
+   ]
+  }
+ ]
+}

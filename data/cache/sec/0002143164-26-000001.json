@@ -1,0 +1,34 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2143164/000214316426000001/",
+ "entity": "Glimmr Care, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Retailing",
+ "offering_total": "2000000",
+ "amount_sold": "2000000",
+ "first_sale": "2026-06-16",
+ "people": [
+  {
+   "name": "Colin McGuire",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Olivia McGuire",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Operating Officer"
+   ]
+  },
+  {
+   "name": "Genevieve Gilbreath",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

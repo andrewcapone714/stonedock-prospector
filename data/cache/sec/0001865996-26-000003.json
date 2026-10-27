@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1865996/000186599626000003/",
+ "entity": "Commons Clinic Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other",
+ "offering_total": "10120847",
+ "amount_sold": "10053759",
+ "first_sale": "2026-05-15",
+ "people": [
+  {
+   "name": "Nicholas Aubin",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Paulo Da Costa",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Robert Badal",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "David Berry",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John Loser",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Brad Hively",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tristan Hunt",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

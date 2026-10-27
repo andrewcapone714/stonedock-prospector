@@ -1,0 +1,37 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1929085/000192908526000005/",
+ "entity": "Enumera Molecular, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Other Health Care",
+ "offering_total": "17375672",
+ "amount_sold": "12325344",
+ "first_sale": "2026-07-16",
+ "people": [
+  {
+   "name": "Matthew Cooper",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Dan Kidle",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Elaine Heron",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Sundaresh Brahmasandra",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

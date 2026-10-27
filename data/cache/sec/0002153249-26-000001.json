@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2153249/000215324926000001/",
+ "entity": "Steribite, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "750000",
+ "amount_sold": "711758",
+ "first_sale": "2025-09-08",
+ "people": [
+  {
+   "name": "John Redmond",
+   "roles": [
+    "Director",
+    "Promoter"
+   ]
+  }
+ ]
+}

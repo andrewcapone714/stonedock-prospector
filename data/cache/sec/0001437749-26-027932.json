@@ -1,0 +1,61 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1988367/000143774926027932/",
+ "entity": "iSchemaView, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "25000000",
+ "amount_sold": "25000000",
+ "first_sale": "2026-02-17",
+ "people": [
+  {
+   "name": "Karim Karti",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "David Stoffel",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Gregory Albers",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Roland Bammer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John Drew",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Erol Dervis",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Brandin",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Brendan Renehan",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

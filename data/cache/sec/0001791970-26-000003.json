@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1791970/000179197026000003/",
+ "entity": "Health Cost IQ Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Technology",
+ "offering_total": "1499999",
+ "amount_sold": "1499999",
+ "first_sale": "2025-09-29",
+ "people": [
+  {
+   "name": "Adit Parasuram",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Marcus Whitney",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jeff Powell",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

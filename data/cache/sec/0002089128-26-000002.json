@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2089128/000208912826000002/",
+ "entity": "AGORA CARE, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Technology",
+ "offering_total": "4774995",
+ "amount_sold": "4774995",
+ "first_sale": "2026-03-03",
+ "people": [
+  {
+   "name": "Mohamed Abedelmalik",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Omar Ali",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Danish Munir",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

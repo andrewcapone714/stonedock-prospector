@@ -1,0 +1,63 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2156758/000213471826000094/",
+ "entity": "Lionheart Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Biotechnology",
+ "offering_total": "3000000",
+ "amount_sold": "387500",
+ "first_sale": "2024-06-20",
+ "people": [
+  {
+   "name": "Howard Leonhardt",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Scott Hoots",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Scott Jordan",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Mike Robinson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Chad Hacker",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Dr. Leslie Miller",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Brian Lasater",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Dr. Sanjay Bhojraj",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2161224/000216122426000001/",
+ "entity": "Third Street Wellness Member LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other",
+ "offering_total": "4050000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "William Murphy",
+   "roles": [
+    "Executive Officer",
+    "Manager of the Manager of the Issuer's Manager"
+   ]
+  },
+  {
+   "name": "Alexander Samoylovich",
+   "roles": [
+    "Executive Officer",
+    "Manager of the Manager of the Issuer's Manager"
+   ]
+  },
+  {
+   "name": "Mark Heffron",
+   "roles": [
+    "Executive Officer",
+    "Manager of the Manager of the Issuer's Manager"
+   ]
+  }
+ ]
+}

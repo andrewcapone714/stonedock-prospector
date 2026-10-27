@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1996209/000199620926000001/",
+ "entity": "Optimal Health Advocates, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Pooled Investment Fund",
+ "offering_total": "Indefinite",
+ "amount_sold": "5049000",
+ "first_sale": "2020-06-25",
+ "people": [
+  {
+   "name": "- Optimal Capital Advisors LLC",
+   "roles": [
+    "Promoter",
+    "Issuer's General Partner"
+   ]
+  },
+  {
+   "name": "Joseph Batcha, III",
+   "roles": [
+    "Executive Officer",
+    "Principal & CCO of Issuer's General Partner"
+   ]
+  }
+ ]
+}

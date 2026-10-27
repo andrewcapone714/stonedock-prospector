@@ -1,0 +1,40 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2108655/000210865526000001/",
+ "entity": "Ignitus Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "7000000",
+ "amount_sold": "1250000",
+ "first_sale": "2025-11-17",
+ "people": [
+  {
+   "name": "Keenan FItzpatrick",
+   "roles": [
+    "Executive Officer",
+    "President & Director"
+   ]
+  },
+  {
+   "name": "Steven Millette",
+   "roles": [
+    "Executive Officer",
+    "CEO & Director"
+   ]
+  },
+  {
+   "name": "Bo Brustkern",
+   "roles": [
+    "Executive Officer",
+    "Treasurer"
+   ]
+  },
+  {
+   "name": "Rodney Atherton",
+   "roles": [
+    "Executive Officer",
+    "Secretary"
+   ]
+  }
+ ]
+}

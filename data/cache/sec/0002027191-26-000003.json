@@ -1,0 +1,49 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2027191/000202719126000003/",
+ "entity": "MaxQ Medical Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Manufacturing",
+ "offering_total": "31529997",
+ "amount_sold": "31529997",
+ "first_sale": "2026-05-22",
+ "people": [
+  {
+   "name": "Amir Tehrani",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "John Irwin III",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Amir Abolfathi",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Dean Riskas",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Brian Smith",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Pierre Khuri-Yakub",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

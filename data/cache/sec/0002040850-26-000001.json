@@ -1,0 +1,69 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2040850/000204085026000001/",
+ "entity": "Synthesis Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "25547445",
+ "amount_sold": "23780483",
+ "first_sale": "2025-07-25",
+ "people": [
+  {
+   "name": "Murray Reicher",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Francois Van Houten",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chairman of the Board"
+   ]
+  },
+  {
+   "name": "Landon Downs",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Bennett",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Deepak Kaura",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Joshua Kaechele",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Jeffrey Natland",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Gupta Ridhi",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Amy Gilchrist",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

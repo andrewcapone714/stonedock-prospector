@@ -1,0 +1,55 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1707415/000170741526000002/",
+ "entity": "PELVITAL USA, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "4000000",
+ "amount_sold": "520000",
+ "first_sale": "2026-09-18",
+ "people": [
+  {
+   "name": "Lydia Zeller Grandin",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Shannon Dowler",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Juleen Christopher",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Audrey Beckman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Preetha Ram",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Wanda Filer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Lisa Saul",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

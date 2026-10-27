@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2140064/000214006426000003/",
+ "entity": "MED IV SCSp",
+ "entity_type": "Limited Partnership",
+ "year_of_inc": "2026",
+ "industry": "Pooled Investment Fund",
+ "offering_total": "Indefinite",
+ "amount_sold": "1297932676",
+ "first_sale": "2026-08-03",
+ "people": [
+  {
+   "name": "N/A ARCHIMED SAS",
+   "roles": [
+    "Executive Officer",
+    "Investment Manager of the Issuer"
+   ]
+  },
+  {
+   "name": "N/A MED IV GP S.a r.l.",
+   "roles": [
+    "Executive Officer",
+    "General Partner of the Issuer"
+   ]
+  },
+  {
+   "name": "Jeppe Lindgaard",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jaime Gomez-Ferrer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Javier Valls",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

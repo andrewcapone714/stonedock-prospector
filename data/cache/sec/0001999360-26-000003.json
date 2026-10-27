@@ -1,0 +1,37 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1999360/000199936026000003/",
+ "entity": "Long Bridge Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "5000000",
+ "amount_sold": "2540000",
+ "first_sale": "2025-12-17",
+ "people": [
+  {
+   "name": "Ayman Naseri",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Matthew Clarke",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "David Chang",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Eugene de Juan Jr., MD",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2159744/000215974426000001/",
+ "entity": "Soterya, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "850000",
+ "first_sale": "2026-10-01",
+ "people": [
+  {
+   "name": "Lina Williamson",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Andres Rodriguez",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Valentina Mendez",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

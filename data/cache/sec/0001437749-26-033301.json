@@ -1,0 +1,37 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1673688/000143774926033301/",
+ "entity": "Medical 21, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "20000000",
+ "amount_sold": "550000",
+ "first_sale": "2026-09-17",
+ "people": [
+  {
+   "name": "Manny Villafana",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Eric Solien",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Jeff Vreeman",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Andrea Sweeney",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

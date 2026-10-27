@@ -1,0 +1,62 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2130338/000213033826000004/",
+ "entity": "North Elam Ambulatory Surgery Center, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2695000",
+ "amount_sold": "1827935",
+ "first_sale": "2026-03-26",
+ "people": [
+  {
+   "name": "Deno Adkins",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Eugene Bell",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Shawn Clarke",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Thomas Cornett",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Matthew Gay",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Preston Hammock",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Nicole Tate",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Christopher White",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

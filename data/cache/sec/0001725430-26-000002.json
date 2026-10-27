@@ -1,0 +1,54 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1725430/000172543026000002/",
+ "entity": "INTELLIGENT BIO SOLUTIONS INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "4979631",
+ "amount_sold": "4979631",
+ "first_sale": "2026-08-31",
+ "people": [
+  {
+   "name": "Harry Simeonidis",
+   "roles": [
+    "Executive Officer",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Spiro Sakiris",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Steven Boyages",
+   "roles": [
+    "Director",
+    "Director"
+   ]
+  },
+  {
+   "name": "Jonathan Hurd",
+   "roles": [
+    "Director",
+    "Director"
+   ]
+  },
+  {
+   "name": "Jason Isenberg",
+   "roles": [
+    "Director",
+    "Director"
+   ]
+  },
+  {
+   "name": "Nicola Fraser",
+   "roles": [
+    "Director",
+    "Director"
+   ]
+  }
+ ]
+}

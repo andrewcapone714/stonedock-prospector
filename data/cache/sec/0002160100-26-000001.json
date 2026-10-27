@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2160100/000216010026000001/",
+ "entity": "HCC ReferWell Coinvest, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Pooled Investment Fund",
+ "offering_total": "Indefinite",
+ "amount_sold": "1611894",
+ "first_sale": "2026-09-28",
+ "people": [
+  {
+   "name": "N/A Health Catalyst Capital Management, LLC",
+   "roles": [
+    "Director",
+    "Sole Member of the Issuer"
+   ]
+  },
+  {
+   "name": "Charles Boorady",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Paula Semelmacher",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

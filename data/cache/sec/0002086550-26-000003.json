@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2086550/000208655026000003/",
+ "entity": "RxSaveCard, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "1200000",
+ "amount_sold": "1025000",
+ "first_sale": "2026-07-17",
+ "people": [
+  {
+   "name": "Christopher Crawford",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Shawn Ellis",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Williams Evans",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

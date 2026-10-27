@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2132864/000213286426000001/",
+ "entity": "AVSF - Centaur Health 2026, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Pooled Investment Fund",
+ "offering_total": "122000",
+ "amount_sold": "122000",
+ "first_sale": "2026-06-20",
+ "people": [
+  {
+   "name": "Michael Collins",
+   "roles": [
+    "Executive Officer",
+    "CEO of Alumni Ventures LLC, the Issuers Sole Manager"
+   ]
+  }
+ ]
+}

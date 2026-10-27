@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2157034/000215703426000001/",
+ "entity": "Liora Life Sciences, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "640625000",
+ "amount_sold": "300000",
+ "first_sale": "2026-09-14",
+ "people": [
+  {
+   "name": "William Tanenbaum",
+   "roles": [
+    "Executive Officer",
+    "Manager of Managing Member"
+   ]
+  },
+  {
+   "name": "N/A Liora MGMT, LLC",
+   "roles": [
+    "Executive Officer",
+    "Managing Member"
+   ]
+  }
+ ]
+}

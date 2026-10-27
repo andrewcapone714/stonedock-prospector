@@ -1,0 +1,98 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2152822/000089183926000380/",
+ "entity": "Zing Health Consolidator, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Insurance",
+ "offering_total": "30000000",
+ "amount_sold": "22500000",
+ "first_sale": "2026-08-21",
+ "people": [
+  {
+   "name": "Zing Health Enterprises Management, LLC Zing Health Enterprises Management, LLC",
+   "roles": [
+    "Executive Officer",
+    "General partner of Zing Health Enterprises, LP (the \"General Partner\")"
+   ]
+  },
+  {
+   "name": "Andrew Clifton",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director and executive officer of Zing Health Consolidator, Inc. (\"Zing Consolidator\") and the General Partner"
+   ]
+  },
+  {
+   "name": "Eric Whitaker",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director and executive officer of Zing Consolidator and the General Partner"
+   ]
+  },
+  {
+   "name": "Lawrence Cohen",
+   "roles": [
+    "Director",
+    "Director of Zing Consolidator and Manager of the General Partner"
+   ]
+  },
+  {
+   "name": "Anna Fagin",
+   "roles": [
+    "Director",
+    "Director of Zing Consolidator and Manager of the General Partner"
+   ]
+  },
+  {
+   "name": "Elena McFann",
+   "roles": [
+    "Director",
+    "Director of Zing Consolidator and Manager of the General Partner"
+   ]
+  },
+  {
+   "name": "Michael Rowe",
+   "roles": [
+    "Director",
+    "Director of Zing Consolidator and Manager of the General Partner"
+   ]
+  },
+  {
+   "name": "Srdjan Vukovic",
+   "roles": [
+    "Director",
+    "Director of Zing Consolidator and Manager of the General Partner"
+   ]
+  },
+  {
+   "name": "Jennifer Hoenstine",
+   "roles": [
+    "Executive Officer",
+    "Executive officer of Zing Consolidator and the General Partner"
+   ]
+  },
+  {
+   "name": "Garfield Collins",
+   "roles": [
+    "Executive Officer",
+    "Executive officer of Zing Consolidator and the General Partner"
+   ]
+  },
+  {
+   "name": "Russell Matuszak",
+   "roles": [
+    "Executive Officer",
+    "Executive officer of Zing Consolidator and the General Partner"
+   ]
+  },
+  {
+   "name": "Meghan Speidel",
+   "roles": [
+    "Executive Officer",
+    "Executive officer of Zing Consolidator and the General Partner"
+   ]
+  }
+ ]
+}

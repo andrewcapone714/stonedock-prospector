@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2052665/000205266526000002/",
+ "entity": "Land Care Cooperative, LCA",
+ "entity_type": "Other",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Business Services",
+ "offering_total": "181000",
+ "amount_sold": "181000",
+ "first_sale": "2026-07-06",
+ "people": [
+  {
+   "name": "Abraham Collins",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Eliza Letourneau",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "George van Vlaanderen",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Laura Burch",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Diane Imrie",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

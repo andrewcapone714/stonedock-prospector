@@ -1,0 +1,71 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1688486/000168848626000002/",
+ "entity": "Centaur Health Holdings, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "56999962",
+ "amount_sold": "50399997",
+ "first_sale": "2026-04-03",
+ "people": [
+  {
+   "name": "Thomas Mackie",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "David Ergun",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Stephen Towe",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Dennis Beard",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ajit Singh",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Wang",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Pingrong Yu",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Gregory Lane",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andy Harley",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1403000/000140300026000004/",
+ "entity": "CSA Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other",
+ "offering_total": "11217710",
+ "amount_sold": "2908295",
+ "first_sale": "2026-06-08",
+ "people": [
+  {
+   "name": "Wendelin Maners",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Vincent Owens",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Sean Cheng",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Deng Mao",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Paul LaViolette",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tracy Marshbanks, Ph.D.",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Luc Marengere, Ph.D.",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

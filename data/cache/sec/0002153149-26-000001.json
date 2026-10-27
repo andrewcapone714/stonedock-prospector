@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2153149/000215314926000001/",
+ "entity": "Imagen Rainey Support Services, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "1003477",
+ "amount_sold": "1003477",
+ "first_sale": "2026-08-20",
+ "people": [
+  {
+   "name": "Rezwan Manji",
+   "roles": [
+    "Executive Officer",
+    "Rezwan Manji is an executive officer of Imagen Dental Partners, LLC and Imagen Rainey Support Services, LLC."
+   ]
+  },
+  {
+   "name": "David Diekmann",
+   "roles": [
+    "Executive Officer",
+    "David Diekmann is an executive officer of Imagen Dental Partners, LLC and Imagen Rainey Support Services, LLC."
+   ]
+  }
+ ]
+}

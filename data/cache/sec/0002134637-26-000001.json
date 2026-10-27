@@ -1,0 +1,48 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2134637/000213463726000001/",
+ "entity": "North Texas Renal Management XIII, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "503071",
+ "amount_sold": "503071",
+ "first_sale": "2026-06-30",
+ "people": [
+  {
+   "name": "Geoffrey Walker",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director and President of the Issuer"
+   ]
+  },
+  {
+   "name": "Jyothsna Kodali",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director and Secretary of the Issuer"
+   ]
+  },
+  {
+   "name": "Steven Gieser",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director and Treasurer of the Issuer"
+   ]
+  },
+  {
+   "name": "Daniel Richey",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ali Khalil",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

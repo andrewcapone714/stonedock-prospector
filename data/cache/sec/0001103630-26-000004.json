@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1103630/000110363026000004/",
+ "entity": "AMERICAN REPUBLIC INSURANCE CO",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Health Insurance",
+ "offering_total": "95000000",
+ "amount_sold": "95000000",
+ "first_sale": "2026-10-15",
+ "people": [
+  {
+   "name": "DAVID KEITH",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "SARA LEHAN",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "APRIL KING",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "JEFFREY HARMS",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "TODD NEVENHOVEN",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

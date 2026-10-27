@@ -1,0 +1,48 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1815322/000181532226000001/",
+ "entity": "Circinus Medical Technology LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "4999496",
+ "amount_sold": "4239497",
+ "first_sale": "2026-07-21",
+ "people": [
+  {
+   "name": "Patrick West",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "John Dorman",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "David Bovenzi",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Matthew Ray",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Thomas Bonadio",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2013833/000201383326000007/",
+ "entity": "PreciseDx, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "3699998",
+ "amount_sold": "3699998",
+ "first_sale": "2026-09-23",
+ "people": [
+  {
+   "name": "Eric Converse",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer and Director"
+   ]
+  },
+  {
+   "name": "Molly Harper",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Paul Roma",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Westley Dupray",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Erik Lium",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Hennessy Jr.",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Edward Sitar",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  }
+ ]
+}

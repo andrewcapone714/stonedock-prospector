@@ -1,0 +1,24 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2149298/000214929826000001/",
+ "entity": "Savannah Therapeutics, Inc",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "6000000",
+ "amount_sold": "3855000",
+ "first_sale": "2026-04-17",
+ "people": [
+  {
+   "name": "Thomas Wollan",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Matthew Dowling",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

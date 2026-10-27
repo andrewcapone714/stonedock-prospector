@@ -1,0 +1,36 @@
+# Runs the Prospector's searches in GitHub's cloud, so new companies keep coming in while
+# your computer is off. Every 2 hours it wakes up, runs whichever search is due (by the
+# "Check every" setting, default 6 hours) and pushes the results; the app on your computer
+# picks them up when it next starts or syncs. "Run workflow" on GitHub forces both searches.
+name: Update prospects
+
+on:
+  schedule:
+    - cron: "23 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-prospects
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the searches and push the results
+        env:
+          SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
+        run: |
+          git config user.name "StoneDock Prospector"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python server.py --update-once ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}

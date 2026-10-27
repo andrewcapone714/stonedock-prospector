@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2008439/000200843926000005/",
+ "entity": "LYNCH REGENERATIVE MEDICINE, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "17500004",
+ "amount_sold": "15000004",
+ "first_sale": "2026-06-30",
+ "people": [
+  {
+   "name": "SAMUEL LYNCH",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "ALLISON LYNCH",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "EARL DOUGLAS",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "TOD REED",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "ANDREA DINI",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2153524/000215352426000004/",
+ "entity": "Ellipsys Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "10850000",
+ "amount_sold": "8572950",
+ "first_sale": "2026-08-22",
+ "people": [
+  {
+   "name": "FRANK HETTMANN",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "ED CHANG",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "MARK RITCHART",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "STEVE PARKER",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "JEFFREY HULL",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "BRIAN DRISCOLL",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

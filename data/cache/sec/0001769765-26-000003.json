@@ -1,0 +1,50 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1769765/000176976526000003/",
+ "entity": "Rightway Healthcare, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "154999891",
+ "amount_sold": "154999891",
+ "first_sale": "2026-08-25",
+ "people": [
+  {
+   "name": "Jordan Feldman",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Theodore Feldman",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Jonathan Locker",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kareem Zaki",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Samir Kaul",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Lynton",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

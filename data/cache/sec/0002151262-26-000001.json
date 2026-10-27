@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2151262/000215126226000001/",
+ "entity": "MedNexus Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "180000",
+ "first_sale": "2026-03-04",
+ "people": [
+  {
+   "name": "Gregory Stoutenburgh",
+   "roles": [
+    "Executive Officer",
+    "Executive Chairman"
+   ]
+  },
+  {
+   "name": "Jai Bowie",
+   "roles": [
+    "Executive Officer",
+    "Chief Executive Officer"
+   ]
+  }
+ ]
+}

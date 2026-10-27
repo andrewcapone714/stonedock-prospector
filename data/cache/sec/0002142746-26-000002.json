@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2142746/000214274626000002/",
+ "entity": "Glauc Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "50000",
+ "first_sale": "2026-09-08",
+ "people": [
+  {
+   "name": "Sarvesh Ramakrishnan",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

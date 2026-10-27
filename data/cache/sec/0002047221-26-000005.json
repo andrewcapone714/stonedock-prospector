@@ -1,0 +1,20 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2047221/000204722126000005/",
+ "entity": "CARING CLOSURES INT'L LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "2500000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "George Cohen",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  }
+ ]
+}

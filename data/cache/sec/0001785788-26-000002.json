@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1785788/000178578826000002/",
+ "entity": "Opus Medical Therapies, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "Indefinite",
+ "amount_sold": "485089",
+ "first_sale": "2026-09-14",
+ "people": [
+  {
+   "name": "Vivek Rajagopal",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

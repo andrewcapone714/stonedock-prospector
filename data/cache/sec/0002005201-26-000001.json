@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2005201/000200520126000001/",
+ "entity": "Skelo Wear, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "850000",
+ "amount_sold": "500000",
+ "first_sale": "2026-09-25",
+ "people": [
+  {
+   "name": "Kenny Anunike",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Laila Anunike",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Dr. Raymond Wurapa",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2099941/000209994126000002/",
+ "entity": "Amani Therapeutics, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "59999999",
+ "amount_sold": "34999999",
+ "first_sale": "2026-09-16",
+ "people": [
+  {
+   "name": "Alice Lee",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "-- RTW Holdings VI, LLC",
+   "roles": [
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Robert Swoboda",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Lauren Cuje",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Peter Fong",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Connor Williams",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

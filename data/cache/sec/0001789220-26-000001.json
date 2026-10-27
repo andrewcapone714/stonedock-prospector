@@ -1,0 +1,52 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1789220/000178922026000001/",
+ "entity": "Health Professionals Alliance Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other",
+ "offering_total": "15000000",
+ "amount_sold": "750000",
+ "first_sale": "2026-07-03",
+ "people": [
+  {
+   "name": "Roy Rose",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Dominic Odierno",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Michael Balter",
+   "roles": [
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Benjamin Daniels",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Grant Diggles",
+   "roles": [
+    "Executive Officer",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "John Van Leeuwen",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

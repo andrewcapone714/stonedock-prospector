@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1716947/000149315226039439/",
+ "entity": "Ensysce Biosciences, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "77200000",
+ "amount_sold": "77200000",
+ "first_sale": "2026-08-05",
+ "people": [
+  {
+   "name": "D Kirkpatrick",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Bob Gower",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Chang",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Steve Martin",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Adam Levin",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "David Humphrey",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "James Morrison",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

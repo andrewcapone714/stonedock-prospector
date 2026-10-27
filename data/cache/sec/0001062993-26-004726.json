@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2004466/000106299326004726/",
+ "entity": "Neuro-Vascular Research & Design Corp",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "50000",
+ "amount_sold": "50000",
+ "first_sale": "2026-08-26",
+ "people": [
+  {
+   "name": "Jeffrey Owen",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Nicolas Chung",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Henry Day, Jr.",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1952070/000108514626000912/",
+ "entity": "Salus Scientific Corp.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "30000000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Todd Flohr",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Keith Rosmarin",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Jon Wallace",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "William Buchanan",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ryan Majoria",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ronald Sancho",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "C. William Martin",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Richard Moore",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

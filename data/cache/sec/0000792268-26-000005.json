@@ -1,0 +1,47 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/792268/000079226826000005/",
+ "entity": "PACIFIC TOXICOLOGY LABORATORIES",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "364970",
+ "amount_sold": "250001",
+ "first_sale": "2026-08-06",
+ "people": [
+  {
+   "name": "Marie Hakim",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Suzanne Barbosa",
+   "roles": [
+    "Executive Officer",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Thomas Kosco",
+   "roles": [
+    "Director",
+    "Director and owner"
+   ]
+  },
+  {
+   "name": "Ahmed Alfi",
+   "roles": [
+    "Director",
+    "Director and owner"
+   ]
+  },
+  {
+   "name": "James Dahlgren",
+   "roles": [
+    "Director",
+    "Director and owner"
+   ]
+  }
+ ]
+}

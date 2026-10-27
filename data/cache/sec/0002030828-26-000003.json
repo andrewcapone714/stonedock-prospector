@@ -1,0 +1,36 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2030828/000203082826000003/",
+ "entity": "Lateral Care Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Technology",
+ "offering_total": "11305000",
+ "amount_sold": "11305000",
+ "first_sale": "2025-08-18",
+ "people": [
+  {
+   "name": "Sowri Krishnan",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Roger Davis",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Anthony Tersigni",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Reau",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

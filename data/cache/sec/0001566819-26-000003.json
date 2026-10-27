@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1566819/000156681926000003/",
+ "entity": "ArthroMeda, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "11112080",
+ "amount_sold": "8749582",
+ "first_sale": "2026-08-14",
+ "people": [
+  {
+   "name": "Mehran Aghazadeh",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "PJ Anand",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Edgar Jannotta Jr.",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

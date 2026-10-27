@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1505556/000091228226001354/",
+ "entity": "ARC Medical Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "167388",
+ "amount_sold": "167388",
+ "first_sale": "2026-07-24",
+ "people": [
+  {
+   "name": "Christopher Springate",
+   "roles": [
+    "Director",
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Bruce Hay",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Deng Mao",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

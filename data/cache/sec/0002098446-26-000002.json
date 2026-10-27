@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2098446/000209844626000002/",
+ "entity": "Mercuria Health, INC",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Business Services",
+ "offering_total": "52",
+ "amount_sold": "52",
+ "first_sale": "2026-09-09",
+ "people": [
+  {
+   "name": "Justin Kozik",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Saurabh Sood",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Shiram Veeramani",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2104370/000114036126031857/",
+ "entity": "VitaPixel, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "350000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Thomas Meyer",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Operating Officer"
+   ]
+  },
+  {
+   "name": "Austin John",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

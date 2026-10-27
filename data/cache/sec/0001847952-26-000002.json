@@ -1,0 +1,40 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2002423/000184795226000002/",
+ "entity": "ALM Ortho Inc",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "5000000",
+ "amount_sold": "749994",
+ "first_sale": "2026-07-17",
+ "people": [
+  {
+   "name": "Paul DeJuliis",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Brian McLaughlin",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Christian Haller",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "George Hager",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

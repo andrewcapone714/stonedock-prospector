@@ -1,0 +1,49 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2023749/000202374926000001/",
+ "entity": "LGP Executive Associates I-PT LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2024",
+ "industry": "Investing",
+ "offering_total": "Indefinite",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "John Danhakl",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director, Executive VP and Managing Partner of LGP Management, Inc., the GP of Leonard Green & Partners, L.P., Sole Member of Peridot Coinvest Manager LLC, the Issuer's Manager"
+   ]
+  },
+  {
+   "name": "Jonathan Sokoloff",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director, Executive VP and Managing Partner of LGP Management, Inc., the GP of Leonard Green & Partners, L.P., Sole Member of Peridot Coinvest Manager LLC, the Issuer's Manager"
+   ]
+  },
+  {
+   "name": "Cody Franklin",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer and Assistant Secretary of LGP Management, Inc., the GP of Leonard Green & Partners, L.P., Sole Member of Peridot Coinvest Manager LLC, the Issuer's Manager"
+   ]
+  },
+  {
+   "name": "Andrew Goldberg",
+   "roles": [
+    "Executive Officer",
+    "Senior Vice President, Chief Operating Officer, Chief Legal Officer and Secretary of LGP Management, Inc., the GP of Leonard Green & Partners, L.P., Sole Member of Peridot Coinvest Manager LLC, the Issuer's Manager"
+   ]
+  },
+  {
+   "name": "N/A Leonard Green & Partners, L.P.",
+   "roles": [
+    "Promoter",
+    "Member of Peridot Coinvest Manager LLC, the Issuer's Manager"
+   ]
+  }
+ ]
+}

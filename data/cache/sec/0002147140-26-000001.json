@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2147140/000214714026000001/",
+ "entity": "Blend Innovations, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "11999989",
+ "amount_sold": "11999989",
+ "first_sale": "2026-07-23",
+ "people": [
+  {
+   "name": "Daniel DiStefano",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "T. Law",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ryan Hambley",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Benjamin Holber",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Wayne Hu",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2155354/000215535426000001/",
+ "entity": "Terrace Systems, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "250000",
+ "amount_sold": "250000",
+ "first_sale": "2026-09-02",
+ "people": [
+  {
+   "name": "Kevin Keenahan",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Abbey Cooper",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Josh Budman",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

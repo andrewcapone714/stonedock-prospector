@@ -1,0 +1,67 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1997846/000206075526000051/",
+ "entity": "ROCKET DOCTOR AI INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "1560000",
+ "amount_sold": "750000",
+ "first_sale": "2026-08-05",
+ "people": [
+  {
+   "name": "Essam Hamza",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Richard Atkins",
+   "roles": [
+    "Executive Officer",
+    "Chief Operating Officer"
+   ]
+  },
+  {
+   "name": "Kevin Peterson",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Medical Officer"
+   ]
+  },
+  {
+   "name": "Christopher Cherry",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Sean Clifford",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Zimmerman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kelly Pladson",
+   "roles": [
+    "Executive Officer",
+    "Corporate Secretary"
+   ]
+  },
+  {
+   "name": "Andrew Lau",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  }
+ ]
+}

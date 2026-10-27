@@ -1,0 +1,47 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2155710/000215571026000001/",
+ "entity": "Fresenius Medical Care Will Clayton, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "3789426",
+ "amount_sold": "3789426",
+ "first_sale": "2026-09-15",
+ "people": [
+  {
+   "name": "Erik Lyesiuk",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Aaron Almquist",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Abbie Cliff",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Tonya Krause",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Sowmya Puthalapattu, M.D.",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

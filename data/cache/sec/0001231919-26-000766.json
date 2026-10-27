@@ -1,0 +1,55 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2145246/000123191926000766/",
+ "entity": "Baylor Genetics Holdings, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "99999993",
+ "amount_sold": "49999986",
+ "first_sale": "2026-07-01",
+ "people": [
+  {
+   "name": "Kengo Takishima",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Brendan Lee",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Victor Tong",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Xiangmin Cui",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Goki Ishikawa",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Joel Kaufman",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "David Berger",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

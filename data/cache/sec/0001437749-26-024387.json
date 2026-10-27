@@ -1,0 +1,92 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2147281/000143774926024387/",
+ "entity": "MeridianMade, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "20343840",
+ "amount_sold": "20343840",
+ "first_sale": "2026-07-10",
+ "people": [
+  {
+   "name": "Ron Belldegrun",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Georg Krause-Vilmar",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Mia Funt",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Devon Kuehn",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Niall Mullane",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Neil Betteridge",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Arie Belldegrun",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Joshua Kazam",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Denice Torres",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Guy Oranim",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Amy Schulman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Raphael Wallander",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Hemi Zucker",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

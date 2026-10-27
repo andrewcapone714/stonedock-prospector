@@ -1,0 +1,40 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1352372/000092963826003972/",
+ "entity": "BRIDGE TO LIFE LTD",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "82500000",
+ "amount_sold": "82500000",
+ "first_sale": "2026-08-11",
+ "people": [
+  {
+   "name": "Don Webber",
+   "roles": [
+    "Executive Officer",
+    "Chief Executive Officer of the Issuer"
+   ]
+  },
+  {
+   "name": "Brian Lenz",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer of the Issuer"
+   ]
+  },
+  {
+   "name": "David Castiglioni",
+   "roles": [
+    "Executive Officer",
+    "Chief Commercial Officer"
+   ]
+  },
+  {
+   "name": "Mauricio Carvalho",
+   "roles": [
+    "Executive Officer",
+    "VP Medical and Scientific Affairs"
+   ]
+  }
+ ]
+}

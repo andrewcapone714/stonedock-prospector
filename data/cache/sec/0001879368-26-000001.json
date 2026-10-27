@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1879368/000187936826000001/",
+ "entity": "Morris County Surgical Center, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "404943",
+ "amount_sold": "140380",
+ "first_sale": "2026-09-24",
+ "people": [
+  {
+   "name": "Karen Parker",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "John Soriano",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Sim",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jayme Bundy",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Walker Candelario",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

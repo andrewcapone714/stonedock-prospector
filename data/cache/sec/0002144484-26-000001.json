@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2144484/000214448426000001/",
+ "entity": "Precision Digital Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "6292026",
+ "amount_sold": "5586503",
+ "first_sale": "2026-07-06",
+ "people": [
+  {
+   "name": "Jonathan Badgett",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Connie Pearcy",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Hugh Roome",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Patrick Phillips",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Thomas Wells",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2154495/000215449526000002/",
+ "entity": "Norman Retirement, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "3700000",
+ "amount_sold": "3700000",
+ "first_sale": "2026-09-01",
+ "people": [
+  {
+   "name": "James Thares",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "William Schaefbauer II",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Brian Morgan",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Dalton Cox",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

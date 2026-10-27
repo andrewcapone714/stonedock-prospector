@@ -1,0 +1,40 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2147568/000119248226000399/",
+ "entity": "Abacus Premier Income Plus, Series LLC - Series 2026 - 5 Year",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Pooled Investment Fund",
+ "offering_total": "Indefinite",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "N/A Longevity Market Assets, LLC",
+   "roles": [
+    "Director",
+    "Member and Manager"
+   ]
+  },
+  {
+   "name": "N/A Abacus Global Management, Inc.",
+   "roles": [
+    "Executive Officer",
+    "Manager of Manager of Issuer"
+   ]
+  },
+  {
+   "name": "Jay Jackson",
+   "roles": [
+    "Executive Officer",
+    "CEO of Manager of Manager of Issuer"
+   ]
+  },
+  {
+   "name": "William McCauley",
+   "roles": [
+    "Executive Officer",
+    "CFO of Manager of Manager of Issuer"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1834380/000183438026000004/",
+ "entity": "Turaco Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Health Insurance",
+ "offering_total": "15311272",
+ "amount_sold": "1239168",
+ "first_sale": "2026-08-27",
+ "people": [
+  {
+   "name": "Theodore Pantone",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Rachel Levenson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Charles Welden",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Steve Beck",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Khaled Ben Jilani",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1560293/000121390026101515/",
+ "entity": "Tenon Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "4308510",
+ "amount_sold": "4308510",
+ "first_sale": "2026-09-11",
+ "people": [
+  {
+   "name": "Steven Foster",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer and President"
+   ]
+  },
+  {
+   "name": "Richard Ginn",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Technology Officer"
+   ]
+  },
+  {
+   "name": "Kevin Williamson",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Wyatt Geist",
+   "roles": [
+    "Executive Officer",
+    "Chief Innovation Officer"
+   ]
+  },
+  {
+   "name": "Nathaniel Grawey",
+   "roles": [
+    "Executive Officer",
+    "Chief Commercial Officer"
+   ]
+  },
+  {
+   "name": "Richard Ferrari",
+   "roles": [
+    "Director",
+    "Executive Chairman"
+   ]
+  },
+  {
+   "name": "Ivan Howard",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kristine Jacques",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Robert Weigle",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Stephen Hochschuler, M.D.",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1683294/000168329426000005/",
+ "entity": "Opyn Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Richard Fuchs",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Munawar Ali",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ian McBane",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jon Freshman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Stuart Peterson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Courtney Paulson",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

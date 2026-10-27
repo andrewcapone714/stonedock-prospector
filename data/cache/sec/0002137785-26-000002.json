@@ -1,0 +1,20 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2137785/000213778526000002/",
+ "entity": "Strucvue Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "300000",
+ "amount_sold": "80000",
+ "first_sale": "2026-07-09",
+ "people": [
+  {
+   "name": "Noam Seker Gafni",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "CEO"
+   ]
+  }
+ ]
+}

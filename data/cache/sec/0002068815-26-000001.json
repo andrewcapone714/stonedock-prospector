@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2068815/000206881526000001/",
+ "entity": "EAGLE ONSITE, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2022",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "John Sanders",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

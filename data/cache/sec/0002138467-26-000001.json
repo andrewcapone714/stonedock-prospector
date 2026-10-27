@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2138467/000213846726000001/",
+ "entity": "Northeast Medical Center LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2024",
+ "industry": "Other",
+ "offering_total": "32000000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "N/A Northeast Medical Center Associates LLC",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1813133/000181313326000003/",
+ "entity": "TMF1 Akido, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "1000000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "James Mertz",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Jason Townsend",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

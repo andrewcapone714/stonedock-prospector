@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2153959/000215395926000001/",
+ "entity": "LeanOnWe Care, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other",
+ "offering_total": "500010",
+ "amount_sold": "500010",
+ "first_sale": "2026-07-13",
+ "people": [
+  {
+   "name": "Michael Lasday",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

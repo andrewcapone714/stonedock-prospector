@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1974825/000181455426000147/",
+ "entity": "BRIUS Technologies, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "15562265",
+ "amount_sold": "5035169",
+ "first_sale": "2026-06-30",
+ "people": [
+  {
+   "name": "Lea Ellermeier",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Amir Abolfathi",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Cindy Roark",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kate Garrett",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Garrett Gilbertson",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

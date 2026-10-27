@@ -1,0 +1,50 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1864239/000186423926000004/",
+ "entity": "Acuitive Technologies, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "3000000",
+ "amount_sold": "1875000",
+ "first_sale": "2026-08-14",
+ "people": [
+  {
+   "name": "David Washburn",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael McCarthy",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Vincent Forlenza",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "James Malayter",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Gary Fischetti",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Hagaman",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

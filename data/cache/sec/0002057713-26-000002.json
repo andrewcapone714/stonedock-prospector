@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2057713/000205771326000002/",
+ "entity": "OLI Technologies, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "3000000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Thomas Weindl",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "President"
+   ]
+  },
+  {
+   "name": "Raymond Luo",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Carl Nicholas Ng",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

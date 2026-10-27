@@ -1,0 +1,78 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1200058/000120005826000002/",
+ "entity": "CHILDRENS HEALTHCARE OF ATLANTA SURGERY CENTER AT MERIDIAN MARK PLAZA, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "743964",
+ "amount_sold": "743964",
+ "first_sale": "2025-11-20",
+ "people": [
+  {
+   "name": "David Wrubel",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Ron Frieson",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Manager and Chairperson"
+   ]
+  },
+  {
+   "name": "Shivani Sethi",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Ruth Fowler",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Michael Garcia-Roig",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Jill Wilson",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Manager and Vice Chairperson"
+   ]
+  },
+  {
+   "name": "Jim Thomsen",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Mary Heath",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Secretary/Treasurer Ex-officio"
+   ]
+  },
+  {
+   "name": "Jared Muenzer",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

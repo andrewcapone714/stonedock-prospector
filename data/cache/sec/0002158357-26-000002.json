@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2158357/000215835726000002/",
+ "entity": "ColoWatch, Inc. /MD/",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "3000000",
+ "amount_sold": "1325000",
+ "first_sale": "2026-09-24",
+ "people": [
+  {
+   "name": "Bikram Bakshi",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Klein",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

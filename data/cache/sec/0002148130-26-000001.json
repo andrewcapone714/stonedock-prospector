@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2148130/000214813026000001/",
+ "entity": "Practice LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "1200000",
+ "first_sale": "2026-07-28",
+ "people": [
+  {
+   "name": "Jeremy Round",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

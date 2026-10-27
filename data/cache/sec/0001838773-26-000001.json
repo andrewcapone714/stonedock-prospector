@@ -1,0 +1,62 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1838773/000183877326000001/",
+ "entity": "Sentry Kiosk, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "10000000",
+ "amount_sold": "9971000",
+ "first_sale": "2024-06-17",
+ "people": [
+  {
+   "name": "Denis Hebert",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "CEO and Chairman as of 3/1/2024, Treasurer as of 11/5/2024 and Director as of March 2022"
+   ]
+  },
+  {
+   "name": "Tracie Owens",
+   "roles": [
+    "Executive Officer",
+    "Secretary as of May 11, 2026"
+   ]
+  },
+  {
+   "name": "Jonathon Davis",
+   "roles": [
+    "Director",
+    "Director since August 2020"
+   ]
+  },
+  {
+   "name": "Stephen Matthews",
+   "roles": [
+    "Director",
+    "Director since August 2020"
+   ]
+  },
+  {
+   "name": "Joseph Caldwell",
+   "roles": [
+    "Director",
+    "Director since August 2020 (former CEO until May 3, 2021)"
+   ]
+  },
+  {
+   "name": "Jason Bohrer",
+   "roles": [
+    "Director",
+    "Director as of March 1, 2024 (former President until March 1, 2024)"
+   ]
+  },
+  {
+   "name": "Marwan Kathayer",
+   "roles": [
+    "Director",
+    "Director since June 10, 2026"
+   ]
+  }
+ ]
+}

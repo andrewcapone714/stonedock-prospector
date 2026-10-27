@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1957335/000195733526000003/",
+ "entity": "Cardiosense, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "42012230",
+ "amount_sold": "26137050",
+ "first_sale": "2026-08-07",
+ "people": [
+  {
+   "name": "Eric Meizlish",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Carek",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Daniel Gottlieb",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bimal Shah",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jeffrey Trost",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Lauren Flickinger",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Omer Inan",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2148253/000214825326000001/",
+ "entity": "Captiox, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "6000000",
+ "amount_sold": "2354368",
+ "first_sale": "2025-12-17",
+ "people": [
+  {
+   "name": "Jon Holder",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Daniel Mickelsen",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

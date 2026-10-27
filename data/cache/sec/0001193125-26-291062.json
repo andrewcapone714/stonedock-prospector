@@ -1,0 +1,67 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526291062/",
+ "entity": "Jaguar Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Pharmaceuticals",
+ "offering_total": "2000000",
+ "amount_sold": "2000000",
+ "first_sale": "2026-06-09",
+ "people": [
+  {
+   "name": "Lisa Conte",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Carol Lizak",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Steven King",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Jonathan Wolin",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "James Bochnowski",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John Micek III",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Anula Jayasuriya",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jonathan Siegel",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Pravin Chaturvedi",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

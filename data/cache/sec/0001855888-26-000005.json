@@ -1,0 +1,48 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1855888/000185588826000005/",
+ "entity": "ASCENDIA PHARMACEUTICALS, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "4084536",
+ "amount_sold": "4084536",
+ "first_sale": "2026-06-26",
+ "people": [
+  {
+   "name": "Jingjun Huang",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Bogda",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "James Gale",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Robert Bloder",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Theron Odlaug",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Shoufeng Li",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

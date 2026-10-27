@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2148097/000214809726000001/",
+ "entity": "Forza Nutrition, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other",
+ "offering_total": "250000",
+ "amount_sold": "135000",
+ "first_sale": "2026-07-29",
+ "people": [
+  {
+   "name": "John Phillips",
+   "roles": [
+    "Executive Officer",
+    "President"
+   ]
+  },
+  {
+   "name": "Carolyn Phillips",
+   "roles": [
+    "Executive Officer",
+    "Secretary and Treasurer"
+   ]
+  }
+ ]
+}

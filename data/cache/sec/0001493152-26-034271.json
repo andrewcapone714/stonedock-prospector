@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2144950/000149315226034271/",
+ "entity": "Candid Group, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "104873634",
+ "first_sale": "2026-06-03",
+ "people": [
+  {
+   "name": "Nick Perry",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Doug Proctor",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Sebastian Caliri",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Deitch",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Alex Katz",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

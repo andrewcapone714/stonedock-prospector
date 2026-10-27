@@ -1,0 +1,46 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2027716/000202771626000001/",
+ "entity": "ROSE DIAGNOSTICS INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "3000000",
+ "amount_sold": "2208750",
+ "first_sale": "2026-07-10",
+ "people": [
+  {
+   "name": "Andrew Morris",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Eric Brouwer",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Adolfo Velazquez",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Donna Padavan",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Paul Gold",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

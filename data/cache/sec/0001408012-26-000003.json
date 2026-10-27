@@ -1,0 +1,69 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1408012/000140801226000003/",
+ "entity": "J3 BIOSCIENCE, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "50000",
+ "amount_sold": "50000",
+ "first_sale": "2026-09-30",
+ "people": [
+  {
+   "name": "Duck Lee",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Tim Glassett",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "R McCabe",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Stath Karras",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Sheryl Kingsberg",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Troy Mason",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ron Nielsen",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Keith Marmer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Stephanie Singer",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

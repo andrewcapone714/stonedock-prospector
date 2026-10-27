@@ -1,0 +1,48 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1778510/000177851026000002/",
+ "entity": "Lumoptik, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2250000",
+ "amount_sold": "1536879",
+ "first_sale": "2026-01-16",
+ "people": [
+  {
+   "name": "Jonathan Lamb",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Jeff Enslin",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Brian Kearns",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Nicole O'Rourke",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Alexander Holt",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Cole Hatfield",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

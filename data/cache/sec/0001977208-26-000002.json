@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1977208/000197720826000002/",
+ "entity": "Optain Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Other Technology",
+ "offering_total": "12999965",
+ "amount_sold": "7468988",
+ "first_sale": "2026-09-16",
+ "people": [
+  {
+   "name": "Jeff Dunkel",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Mingguang He",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kathleen O'Donnell",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John Beadle",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Maggie Morse",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2025735/000202573526000001/",
+ "entity": "Aspicio Therapeutics, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "200000",
+ "amount_sold": "200000",
+ "first_sale": "2026-07-16",
+ "people": [
+  {
+   "name": "Michael Keane",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

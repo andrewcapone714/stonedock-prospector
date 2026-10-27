@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1854787/000185478726000004/",
+ "entity": "Numobag Disposable Isolation System Financing, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "2250000",
+ "amount_sold": "525000",
+ "first_sale": "2024-08-14",
+ "people": [
+  {
+   "name": "Jarius DeWalt",
+   "roles": [
+    "Director",
+    "CFO of Managing Director, Numotech, Inc"
+   ]
+  }
+ ]
+}

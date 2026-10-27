@@ -1,0 +1,46 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1777304/000177730426000003/",
+ "entity": "Winter Innovations, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "1262000",
+ "first_sale": "2026-08-21",
+ "people": [
+  {
+   "name": "Lia Winter",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Preston Dishner",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Clem Wilkes III",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Anthony Lettich",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Lynn Youngs",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1916502/000191650226000002/",
+ "entity": "Legion Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "25000000",
+ "amount_sold": "16015934",
+ "first_sale": "2026-06-17",
+ "people": [
+  {
+   "name": "Yash Patel",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Daniel Wilson",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Arthur MacWaters",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Ferdinand Martignetti",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2147743/000214774326000001/",
+ "entity": "Qualified Health PBC",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Technology",
+ "offering_total": "24999987",
+ "amount_sold": "9999972",
+ "first_sale": "2026-07-15",
+ "people": [
+  {
+   "name": "Justin Norden",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Sooah Cho",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mohamad Makhzoumi",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

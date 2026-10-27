@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2160275/000216027526000001/",
+ "entity": "Lamina Surgical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "5000000",
+ "amount_sold": "490000",
+ "first_sale": "2026-10-02",
+ "people": [
+  {
+   "name": "Paul Davison",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Jason Hegener",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Lori Perpich-Munoz",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

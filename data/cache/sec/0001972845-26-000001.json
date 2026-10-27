@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1972845/000197284526000001/",
+ "entity": "COOLER HEADS CARE, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "5999928",
+ "amount_sold": "3267467",
+ "first_sale": "2026-07-10",
+ "people": [
+  {
+   "name": "KATHLEEN DILLIGAN",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "MARIA GONZALEZ-BLANCH",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "LIZ ZAMBORY",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "MICHAEL SCHOTZINGER",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "JASON PESTERFIELD",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

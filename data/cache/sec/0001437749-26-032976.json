@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1850720/000143774926032976/",
+ "entity": "AGITATED SOLUTIONS, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "13810913",
+ "amount_sold": "6385126",
+ "first_sale": "2025-07-24",
+ "people": [
+  {
+   "name": "Morgan Evans",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kathleen Tune",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Micah Elmer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Gerald Mattys",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Pacyna",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

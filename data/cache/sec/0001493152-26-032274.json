@@ -1,0 +1,79 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2064764/000149315226032274/",
+ "entity": "Pulsenmore Ltd.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "7500000",
+ "amount_sold": "7500000",
+ "first_sale": "2026-06-26",
+ "people": [
+  {
+   "name": "Eran Hirsh",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Jonathan Adereth",
+   "roles": [
+    "Director",
+    "Chairman of the Board of Directors"
+   ]
+  },
+  {
+   "name": "Dr. Elazar Sonnenschein",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer and Director"
+   ]
+  },
+  {
+   "name": "Menashe Sonnenschein",
+   "roles": [
+    "Executive Officer",
+    "VP R&D"
+   ]
+  },
+  {
+   "name": "Meir Shmouely",
+   "roles": [
+    "Executive Officer",
+    "VP Software Development"
+   ]
+  },
+  {
+   "name": "Linda Messalem",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Hamelsdorf",
+   "roles": [
+    "Executive Officer",
+    "General Counsel & Company Secretary"
+   ]
+  },
+  {
+   "name": "Racheli Guz-Lavi",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Anat Loewenstein",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Hagai Itkin",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

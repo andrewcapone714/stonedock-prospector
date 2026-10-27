@@ -1,0 +1,55 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1840693/000184069326000002/",
+ "entity": "ZealCare, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "600000",
+ "amount_sold": "410872",
+ "first_sale": "2026-04-24",
+ "people": [
+  {
+   "name": "Catherine Wallace",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Maureen O'Connor",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Ralph Snyderman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Lars Nelson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Cavanna",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Marcus Osborne",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Joseph Cianflone",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

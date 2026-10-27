@@ -1,0 +1,41 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1690183/000169018326000003/",
+ "entity": "DynamiCare Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "1500000",
+ "amount_sold": "720000",
+ "first_sale": "2026-08-25",
+ "people": [
+  {
+   "name": "David Gastfriend",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Eric Gastfriend",
+   "roles": [
+    "Director",
+    "Left board upon closing."
+   ]
+  },
+  {
+   "name": "Benjamin Blum",
+   "roles": [
+    "Director",
+    "Left board upon closing."
+   ]
+  },
+  {
+   "name": "Kelley Bowker",
+   "roles": [
+    "Executive Officer",
+    "Was no longer CEO at time of closing."
+   ]
+  }
+ ]
+}

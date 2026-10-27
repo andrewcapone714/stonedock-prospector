@@ -1,0 +1,100 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1631487/000121390026111756/",
+ "entity": "CollPlant Biotechnologies Ltd",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "9249958",
+ "amount_sold": "9249958",
+ "first_sale": "2026-10-09",
+ "people": [
+  {
+   "name": "Yehiel Tal",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer and Interim Chairman of the Board of Directors"
+   ]
+  },
+  {
+   "name": "Eran Rotem",
+   "roles": [
+    "Executive Officer",
+    "Deputy Chief Executive Officer and Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Oren Fahimipoor",
+   "roles": [
+    "Executive Officer",
+    "Vice President, Operations"
+   ]
+  },
+  {
+   "name": "Philippe Bensimon",
+   "roles": [
+    "Executive Officer",
+    "Vice President, Regulatory Affairs and Quality Assurance"
+   ]
+  },
+  {
+   "name": "Jasmine Seror",
+   "roles": [
+    "Executive Officer",
+    "Vice President, Product Development"
+   ]
+  },
+  {
+   "name": "Bowman Bagley",
+   "roles": [
+    "Executive Officer",
+    "Vice President, Commercial North America"
+   ]
+  },
+  {
+   "name": "Bar Abelis",
+   "roles": [
+    "Executive Officer",
+    "Vice President, Legal"
+   ]
+  },
+  {
+   "name": "Ruti Ben Shlomi",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer of Lightsolver Ltd., the Issuer's subsidiary."
+   ]
+  },
+  {
+   "name": "Abraham Havron",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Elan Penn",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Joseph Zarzewsky",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Hugh Evans",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Alisa Lask",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

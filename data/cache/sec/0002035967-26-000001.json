@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2035967/000203596726000001/",
+ "entity": "Featherglass Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "25000",
+ "first_sale": "2026-09-03",
+ "people": [
+  {
+   "name": "Benjamin Israel",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Matthew Robinson",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Jim Nista",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

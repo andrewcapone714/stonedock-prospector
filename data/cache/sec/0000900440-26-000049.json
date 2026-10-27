@@ -1,0 +1,55 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1843308/000090044026000049/",
+ "entity": "DexCare, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "22724666",
+ "amount_sold": "12929562",
+ "first_sale": "2026-08-28",
+ "people": [
+  {
+   "name": "Matthew Blosl",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Lynne Chou O'Keefe",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Toby Cosgrove",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Todd Cozzens",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Branden Fini",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Paul Minardi",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Caroline Xie",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

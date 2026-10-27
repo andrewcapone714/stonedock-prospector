@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2010634/000201063426000001/",
+ "entity": "Pan-Am Acquisition, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2828600",
+ "amount_sold": "2828600",
+ "first_sale": "2026-07-09",
+ "people": [
+  {
+   "name": "Geoffrey Faux",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Brett Parr",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Ana Winters",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

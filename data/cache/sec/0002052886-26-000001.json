@@ -1,0 +1,25 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2052886/000205288626000001/",
+ "entity": "Prosper Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "10029002",
+ "amount_sold": "10029002",
+ "first_sale": "2026-08-28",
+ "people": [
+  {
+   "name": "Benjamin Schecter",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Alexis Henkel",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

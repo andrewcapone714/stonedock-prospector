@@ -1,0 +1,66 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1708893/000170889326000005/",
+ "entity": "Lungpacer Medical, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "30000000",
+ "amount_sold": "7833333",
+ "first_sale": "2026-09-30",
+ "people": [
+  {
+   "name": "Douglas Evans",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer and President"
+   ]
+  },
+  {
+   "name": "Joseph Kaufmann",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bob Donohue",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Christopher Kiple",
+   "roles": [
+    "Executive Officer",
+    "Chair of the Board"
+   ]
+  },
+  {
+   "name": "Jan Pensaert",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jonathan Conlin",
+   "roles": [
+    "Executive Officer",
+    "Secretary"
+   ]
+  },
+  {
+   "name": "Steven Pfanstiel",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Viral Thakkar",
+   "roles": [
+    "Executive Officer",
+    "Chief Operations Officer"
+   ]
+  }
+ ]
+}

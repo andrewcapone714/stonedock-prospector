@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2155774/000215577426000001/",
+ "entity": "Xcelerated Recovery LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "3000000",
+ "amount_sold": "540000",
+ "first_sale": "2026-03-06",
+ "people": [
+  {
+   "name": "Grey Hunt",
+   "roles": [
+    "Executive Officer",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Reza Jazayeri",
+   "roles": [
+    "Executive Officer",
+    "Principal of Manager, RPM Health, LLC."
+   ]
+  }
+ ]
+}

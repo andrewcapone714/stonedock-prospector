@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2041370/000204137026000003/",
+ "entity": "Dash Bio, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "30000022",
+ "amount_sold": "30000022",
+ "first_sale": "2026-06-15",
+ "people": [
+  {
+   "name": "David Johnson",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Alexander Tallett",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Andy Smith",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

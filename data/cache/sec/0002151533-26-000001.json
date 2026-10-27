@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2151533/000215153326000001/",
+ "entity": "Imagen Fossil Creek Dental Support Services, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "589843",
+ "amount_sold": "589843",
+ "first_sale": "2026-08-14",
+ "people": [
+  {
+   "name": "Rezwan Manji",
+   "roles": [
+    "Executive Officer",
+    "Rezwan Manji is an executive officer of Imagen Dental Partners, LLC and Imagen Fossil Creek Dental Support Services, LLC."
+   ]
+  },
+  {
+   "name": "David Diekmann",
+   "roles": [
+    "Executive Officer",
+    "David Diekmann is an executive officer of Imagen Dental Partners, LLC and Imagen Fossil Creek Dental Support Services, LLC."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1816525/000181652526000001/",
+ "entity": "Twin Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "61507331",
+ "amount_sold": "59007305",
+ "first_sale": "2026-06-29",
+ "people": [
+  {
+   "name": "Jahangir Mohammed",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Jennifer Bealer",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Bruce Dunlevie",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mohit Bhatnagar",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Caroline Xie",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Delos Cosgrove",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kevin Johnson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Ravi Lambah",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tom Samuelson",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

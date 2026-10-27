@@ -1,0 +1,24 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2146753/000214675326000001/",
+ "entity": "VIN-59 Enhance Health, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other",
+ "offering_total": "45000",
+ "amount_sold": "45000",
+ "first_sale": "2026-07-10",
+ "people": [
+  {
+   "name": "Robert Goforth",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Mark Wagstaff",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}
