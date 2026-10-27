@@ -663,6 +663,50 @@
    ]
   },
   {
+   "id": "sec-2161685",
+   "kind": "funded",
+   "company": "MOCEAN HOLDINGS Corp",
+   "cik": "0002161685",
+   "adsh": "0002161685-26-000001",
+   "file_date": "2026-10-27",
+   "location": "New York, NY",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002161685&type=D",
+   "year_of_inc": "2026",
+   "industry": "Other Health Care",
+   "entity_type": "Corporation",
+   "amount_sold": "1500000",
+   "offering_total": "2580000",
+   "first_sale": "2026-10-09",
+   "people": [
+    {
+     "name": "Joshua Park",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Jeffrey Zalaznick",
+     "roles": [
+      "Director"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2161685/000216168526000001/",
+   "score": 90,
+   "why": [
+    "+30 incorporated in 2026",
+    "+25 industry: Other Health Care",
+    "+20 raised $1,500,000 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 0 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
    "id": "sec-2159264",
    "kind": "funded",
    "company": "Gale Force Aesthetics, Inc.",
@@ -5808,48 +5852,6 @@
    ]
   },
   {
-   "id": "sec-2143046",
-   "kind": "funded",
-   "company": "B1 Health Corp",
-   "cik": "0002143046",
-   "adsh": "0002143046-26-000001",
-   "file_date": "2026-07-01",
-   "location": "Morristown, NJ",
-   "terms": [
-    "health"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143046&type=D",
-   "year_of_inc": "2024",
-   "industry": "Other Technology",
-   "entity_type": "Corporation",
-   "amount_sold": "350000",
-   "offering_total": "2000000",
-   "first_sale": "2026-04-29",
-   "people": [
-    {
-     "name": "Ajay Behl",
-     "roles": [
-      "Executive Officer"
-     ]
-    },
-    {
-     "name": "Apoorva Patel",
-     "roles": [
-      "Director"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2143046/000214304626000001/",
-   "score": 74,
-   "why": [
-    "+20 incorporated in 2024",
-    "+14 industry: Other Technology",
-    "+20 raised $350,000 (seed or Series A-sized raise: has budget, still building)",
-    "+10 filed 118 days ago",
-    "+10 name points to a health or care business"
-   ]
-  },
-  {
    "id": "sec-2154604",
    "kind": "funded",
    "company": "Imaging Kinetics Enterprise, LLC",
@@ -10332,5 +10334,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793079653.1072133
+ "updated": 1793103842.357546
 }
