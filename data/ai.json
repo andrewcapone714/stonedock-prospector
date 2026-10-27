@@ -101,6 +101,96 @@
    "at": 1793116873.3227491,
    "seconds": 58.9,
    "company": "Atmos Clinic, Inc."
+  },
+  "1735612732": {
+   "summary": "Mochi Health Corp is a San Francisco telehealth company founded in 2022. It started in medical weight loss with GLP-1s, both compounded and brand-name such as Zepbound, and runs a three-sided marketplace where patients choose their own provider and an independent pharmacy and see prices up front. It has since added hair loss, skincare, longevity, mental health, menopause and continuous glucose monitoring. Membership is $79/mo without insurance ($49/mo on a 12-month plan) or from $17/mo with insurance. A July 2026 article cites the company's own claim of more than 500,000 patients served.",
+   "website": "https://www.joinmochi.com",
+   "fit": "Mochi is in the right space (GLP-1 telehealth, pharmacy fulfillment, lab panels from $26, longevity), but it is a large, cash-flow-positive platform. It already has its own iOS and Android app, has hired for a Head of Product, and runs its own pharmacy marketplace. A white-label app engine probably duplicates what it has built, and $8 per member per month across hundreds of thousands of patients would be a big cost next to building in-house. The most realistic way in is a module: AI that reads lab PDFs and turns them into health scores and insights, FHIR/EHR data sharing for its longevity, CGM and menopause lines, or a referral/channel deal that offers Connect to the independent pharmacies on its marketplace (the network grew from 10 to 33 pharmacies in one quarter).",
+   "pain_points": [
+    "Turning results from its own lab panels (from $26) into personalized insights and coaching at scale",
+    "Moving data between many independent practices, a growing pharmacy network and outside EHRs using FHIR",
+    "Adding nine-plus care categories (longevity, menopause, CGM) without having to rebuild the data and AI stack for each",
+    "Compliance scrutiny: Eli Lilly patent suit reported ongoing, and a past pharmacy partner (Aequita) was suspended, which raises the value of consent tracking and audit trails",
+    "Trustpilot reviewers complain about rushed visits and slow support, which automated coaching and insights could ease"
+   ],
+   "decision_makers": [
+    {
+     "name": "Myra Ahmad (MD)",
+     "title": "Founder & CEO",
+     "source": "https://www.womenofwearables.com/new-blog/wow-woman-in-healthtech-dr-myra-ahmad-founder-and-ceo-of-mochi-health"
+    },
+    {
+     "name": "Myra Ahmad",
+     "title": "CEO, Mochi Health",
+     "source": "https://hlth.com/insights/podcasts/building-affordable-transparent-consumer-healthcare-with-dr-myra-ahmad-ceo-of-mochi-health-2026-04-01"
+    },
+    {
+     "name": "Suryansh Kumar",
+     "title": "Founder, Chief Operating Officer (per CB Insights)",
+     "source": "https://www.cbinsights.com/company/mochi-health/people"
+    }
+   ],
+   "ratings": "App Store (from Prospector data): 4.92 stars from 17,619 ratings. Trustpilot: TrustScore around 4.4–4.5 out of 5 from about 15,000–16,200 reviews, depending on the regional page. Reviewers praise the medical staff and fast medication delivery. Complaints are about refunds, unclear membership fees, rushed appointments, slow customer service and some provider no-shows. Google Maps and Yelp ratings: not found.",
+   "news": [
+    {
+     "title": "Myra Ahmad Builds Mochi Health Without Big Funding (cash-flow positive, 500k+ patients claimed)",
+     "date": "2026-07-15",
+     "url": "https://www.ceotodaymagazine.com/2026/07/myra-ahmad-cash-flow-positive-mochi-health/"
+    },
+    {
+     "title": "Mochi Health Expands Glucose Monitoring Through Independent Pharmacy Partnerships",
+     "date": "2026-07-15",
+     "url": "https://www.healthtechzone.com/topics/healthcare/articles/2026/07/15/463903-mochi-health-expands-glucose-monitoring-through-independent-pharmacy.htm"
+    },
+    {
+     "title": "How Mochi Health Became a Full Digital Health Platform Beyond Weight Loss",
+     "date": "2026-09-23",
+     "url": "https://www.momdoesreviews.com/2026/09/23/how-mochi-health-became-a-full-digital-health-platform-beyond-weight-loss/"
+    },
+    {
+     "title": "Building Affordable, Transparent Consumer Healthcare with Dr. Myra Ahmad (HLTH podcast)",
+     "date": "2026-04-01",
+     "url": "https://hlth.com/insights/podcasts/building-affordable-transparent-consumer-healthcare-with-dr-myra-ahmad-ceo-of-mochi-health-2026-04-01"
+    },
+    {
+     "title": "Mochi Health Compounded GLP-1 Status 2026: Lawsuit, Pharmacy Changes (secondary source; Eli Lilly suit reported to be proceeding, not confirmed against court records)",
+     "date": "2026",
+     "url": "https://metabolicledger.com/regulatory/mochi-compounded-status"
+    }
+   ],
+   "questions": [
+    "As you expand into longevity, menopause and CGM, how do you turn lab panel results and glucose data into personalized insights for patients today? Is that built in-house?",
+    "How do patient records and prescriptions move between your independent practices, 33-plus partner pharmacies and outside EHRs? Where does that break down?",
+    "How big is your product and engineering team, and what is on the roadmap for the next two quarters that you would rather buy than build?",
+    "Would your partner pharmacies, or your marketplace overall, benefit from a white-label patient app they could offer under their own brand?",
+    "With the Lilly litigation and past pharmacy-partner issues, how important are per-request consent and audit trails to your compliance team?",
+    "How do you measure retention after the first 3–6 months of GLP-1 care, and what role do coaching and insights play in it?"
+   ],
+   "fit_adjust": -8,
+   "fit_reason": "Mochi is in a target vertical, but it is a large, self-funded platform that already runs its own app, marketplace and product team, so selling the full white-label engine is unlikely and the best openings are a lab AI or FHIR module or a channel deal with its pharmacies.",
+   "sources": [
+    "https://www.joinmochi.com/",
+    "https://apps.apple.com/app/id6479331846",
+    "https://www.ceotodaymagazine.com/2026/07/myra-ahmad-cash-flow-positive-mochi-health/",
+    "https://www.womenofwearables.com/new-blog/wow-woman-in-healthtech-dr-myra-ahmad-founder-and-ceo-of-mochi-health",
+    "https://hlth.com/insights/podcasts/building-affordable-transparent-consumer-healthcare-with-dr-myra-ahmad-ceo-of-mochi-health-2026-04-01",
+    "https://www.cbinsights.com/company/mochi-health/people",
+    "https://ca.trustpilot.com/review/joinmochi.com",
+    "https://www.trustpilot.com/review/joinmochi.com?page=3",
+    "https://tracxn.com/d/companies/mochi/__3b8tS6x8ZGUJJhSIJQ_aWax6OMhJs_1FBXt0ny1fJAo/funding-and-investors",
+    "https://pitchbook.com/profiles/company/501171-40",
+    "https://www.healthtechzone.com/topics/healthcare/articles/2026/07/15/463903-mochi-health-expands-glucose-monitoring-through-independent-pharmacy.htm",
+    "https://www.momdoesreviews.com/2026/09/23/how-mochi-health-became-a-full-digital-health-platform-beyond-weight-loss/",
+    "https://metabolicledger.com/regulatory/mochi-compounded-status",
+    "https://rx.com/reviews/mochi",
+    "https://builtin.com/job/head-product/4010626",
+    "https://telehealthally.com/providers/mochi-health"
+   ],
+   "at": 1793137539.6891296,
+   "seconds": 53.9,
+   "source": "new",
+   "model": "opus",
+   "company": "Mochi Health Corp"
   }
  },
  "rank": {
