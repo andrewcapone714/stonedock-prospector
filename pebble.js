@@ -251,7 +251,7 @@
   }
   const later = (ms, fn) => { timer = setTimeout(fn, ms); };
 
-  // jogging (≈15 s): the right arm reaches behind the body until the hand is hidden, comes back round the side
+  // jogging (≈17 s): the right arm reaches behind the body until the hand is hidden, comes back round the side
   // with the headband, brings it to the chest, both hands stretch it, it goes on the head; jog; then the same
   // arm carries it back round the side and behind the back, and comes back empty
   function runScene() {
@@ -267,7 +267,7 @@
       { t: 200, band: null, hb: true },
       { t: 400, L: HOME.L, R: HOME.R }], () => {
       cls('run');
-      later(8350, () => scene([{ t: 0, hb: true },
+      later(10350, () => scene([{ t: 0, hb: true },
         { t: 450, L: HEAD_L, R: HEAD_R },
         { t: 0, hb: false, band: [150, 129, 0, 3.9] },
         { t: 500, L: [116, 162], R: [184, 162], band: [150, 162, 0, 2.6] },
@@ -312,7 +312,7 @@
         { t: 500, L: HOME.L, R: HOME.R, face: 'normal' }], () => set('idle')));
     });
   }
-  // balancing stones (≈15 s): both stones pop up beside Pebble; it stacks them on its head, meditates, puts them
+  // balancing stones (≈20 s): both stones pop up beside Pebble; it stacks them on its head, meditates, puts them
   // back, and they shrink away
   function meditateScene() {
     const S1 = [226, 200, 0], S2 = [262, 202, 0], H1 = [150, 106, 0], H2 = [150, 88, 0];
@@ -323,7 +323,7 @@
       { t: 450, R: [262, 191] }, { t: 650, R: [150, 75], st2: H2 },
       { t: 420, L: [140, 188], R: [160, 188], face: 'calm' }], () => {
       cls('meditate');
-      later(8800, () => scene([{ t: 0, L: [140, 188], R: [160, 188], st1: H1, st2: H2, face: 'calm' },
+      later(13800, () => scene([{ t: 0, L: [140, 188], R: [160, 188], st1: H1, st2: H2, face: 'calm' },
         { t: 420, L: HOME.L, R: [150, 75], face: 'normal' }, { t: 600, R: [262, 191], st2: S2 },
         { t: 420, R: [150, 92] }, { t: 600, R: [226, 186], st1: S1 }, { t: 380, R: HOME.R },
         { t: 420, st1: [...S1, .5, 0], st2: [...S2, .5, 0] }, { t: 0, st1: null, st2: null }], () => set('idle')));
