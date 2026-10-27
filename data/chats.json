@@ -40,8 +40,20 @@
     "text": "Add Ivim Health to my research tab",
     "err": null,
     "mentions": null
+   },
+   {
+    "role": "pebble",
+    "text": "I'm adding Ivim Health to your Research tab. It isn't on your current Low-rated apps list, so the app will research it from scratch.\n\nIt looks like a strong fit. Ivim Health is a U.S. telehealth company for weight care and cardiometabolic conditions, based in Columbus, Ohio, and founded in 2021. It's a cash-pay GLP-1 service that prescribes semaglutide and tirzepatide, which is the same space as our live client, MyWellness App. Revenue estimates I found online disagree: one says about $14M with 125 staff, another about $21M with 155 staff. Either way, it's a mid-sized company and not a giant brand.\n\nI couldn't confirm whether they have their own patient app, so look for that in the brief.\n\nSources:\n- [CB Insights: Ivim](https://www.cbinsights.com/company/ivim)\n- [Telehealth Ally: Ivim Health Review](https://telehealthally.com/providers/ivim-health)\n- [PeptideStack: Levity vs Ivim Health](https://peptidestack.io/blog/levity-vs-ivim-health)\n- [Latka: ivimhealth.com](https://getlatka.com/companies/ivimhealth.com/competitors)\n- [prospeo: Ivim Health revenue](https://prospeo.io/c/ivim-health-revenue)",
+    "err": false,
+    "mentions": []
+   },
+   {
+    "role": "pebble",
+    "text": "Adding **Ivim Health** to your Research tab. I research each one properly first (1–3 minutes each), so you can keep working.",
+    "err": null,
+    "mentions": null
    }
   ],
-  "updated": 1793137554.7320428
+  "updated": 1793137577.1723683
  }
 }
