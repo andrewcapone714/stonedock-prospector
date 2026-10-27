@@ -39,6 +39,68 @@
    "at": 1793116799.9162958,
    "seconds": 28.5,
    "company": "PUREHEALTH COMPOUNDING LLC"
+  },
+  "sec-2159134": {
+   "summary": "Atmos Clinic is a seed-stage New York City startup, founded in 2026, that is building an AI-native care platform. It has chat-based virtual primary care, an employer-sponsored healthcare expense card, and a marketplace of transparently priced local services. One aggregator says it targets small employers at about $50 per employee per month. That figure came from a search summary and I did not confirm it on a page. The company appears to be pre-launch.",
+   "website": "https://atmosclinic.com/",
+   "fit": "Atmos Clinic is a well-funded, brand-new telehealth and primary care company with a 1-10 person team. It is hiring a founding product engineer to build its React Native/Expo app. It needs patient-facing health data, AI and consent infrastructure. Connect's FHIR, HIPAA-ready consent and audit, lab-PDF AI and medication workflow could let it launch sooner than building that stack itself. The risk is that it is building its own AI-native platform in-house, and its founders come from Ambience Healthcare and Oscar Health, so they may prefer to build. The $8 per member per month price may also clash with a roughly $50 per employee per month model.",
+   "pain_points": [
+    "A tiny team (1-10 people) has to build a mobile app plus a HIPAA-grade FHIR data layer, consent and audit trail from scratch",
+    "Turning labs and records (including PDFs) into AI insights for its chat-based primary care",
+    "Prescription, payment, EHR sync and refill workflows for a virtual primary care service",
+    "Keeping patients inside its own branded app while it integrates with outside labs, imaging and pharmacies",
+    "Margin pressure on a roughly $50 per employee per month model, so a per-member data and AI cost needs to be justified"
+   ],
+   "decision_makers": [
+    {
+     "name": "Eshwar Inapuri",
+     "title": "Co-founder and CEO (Executive Officer and Director on the Form D)",
+     "source": "https://wellfound.com/jobs/4810099-atmos-clinic-founding-product-engineer"
+    },
+    {
+     "name": "Rohan Goswami",
+     "title": "Co-founder and Chief Commercial Officer (Director on the Form D)",
+     "source": "https://www.linkedin.com/in/rohangoswami/"
+    },
+    {
+     "name": "Omri Nachmani",
+     "title": "Co-founder and Chief Strategy Officer (CSO)",
+     "source": "https://wellfound.com/jobs/4810099-atmos-clinic-founding-product-engineer"
+    }
+   ],
+   "ratings": "Not found. I found no Google Maps, Yelp or app-store listings, and the company appears to be pre-launch.",
+   "news": [
+    {
+     "title": "Form D: Atmos Clinic, Inc. (SEC filing, $6M)",
+     "date": "2026-10-08",
+     "url": "https://www.streetinsider.com/SEC+Filings/Form+D+Atmos+Clinic,+Inc./27166400.html"
+    },
+    {
+     "title": "Atmos Clinic $6M Seed Funding (2026)",
+     "date": "2026-09",
+     "url": "https://fundup.ai/recently-funded-startups/company/7a1613de469883f815899097930b7d9eca5d6e727a9e01ad5611b39a21e2ba7c/atmos-clinic"
+    }
+   ],
+   "questions": [
+    "You are building an AI-native care platform. Which parts of the patient app and health data layer do you plan to build, and which would you buy?",
+    "How do you plan to handle FHIR/EHR connectivity, patient consent and audit logging for HIPAA, and who on the team owns it?",
+    "How will members get labs, imaging and prescriptions, and do you want an in-app medication workflow with payment, e-prescribing and refills?",
+    "Do you plan to read outside lab results and records with AI to drive coaching or triage, and how are you doing that today?",
+    "What is your launch timeline, and what is the product engineer hire expected to ship in the first 6 months?",
+    "With employer pricing near $50 per employee per month, how are you thinking about per-member infrastructure costs, such as $8 per member per month?"
+   ],
+   "fit_adjust": -3,
+   "fit_reason": "The timing and funding are strong (new, $6M raised, building an app), but the founders are repeat health-tech operators who are building a custom AI-native platform in-house, and the product is still pre-launch.",
+   "sources": [
+    "https://wellfound.com/jobs/4810099-atmos-clinic-founding-product-engineer",
+    "https://www.streetinsider.com/SEC+Filings/Form+D+Atmos+Clinic,+Inc./27166400.html",
+    "https://www.linkedin.com/in/rohangoswami/",
+    "https://fundup.ai/recently-funded-startups/company/7a1613de469883f815899097930b7d9eca5d6e727a9e01ad5611b39a21e2ba7c/atmos-clinic",
+    "https://kingscrowd.com/founder-profile-innamed-eswar-inapuri/"
+   ],
+   "at": 1793116873.3227491,
+   "seconds": 58.9,
+   "company": "Atmos Clinic, Inc."
   }
  },
  "rank": {}
