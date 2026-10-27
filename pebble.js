@@ -12,6 +12,13 @@
 #pbSvg.s-dyn .a-dyn,#pbSvg.s-dyn .pb-props{display:inline}
 #pbSvg.s-dyn.fx-normal .f-normal,#pbSvg.s-dyn.fx-strain .f-strain,#pbSvg.s-dyn.fx-happy .f-happy,#pbSvg.s-dyn.fx-calm .f-calm{display:inline}
 #pbSvg.s-run .p-band,#pbSvg.hb .p-band{display:inline}
+#pbSvg.s-run .p-sweatrun{display:inline}
+#pbSvg.s-dyn.fx-wink .f-wink{display:inline}
+#pbSvg.flex .a-flex{display:inline}#pbSvg.flex #pb-dR,#pbSvg.flex #pb-dHR{display:none}
+#pbSvg.cross .pb-legs{display:none}#pbSvg.cross .p-cross{display:inline}
+#pbSvg.breathe #pb-bd{animation:pb-bob 5s ease-in-out infinite}
+#pbSvg .pb-pump{transform-box:fill-box;transform-origin:center;animation:pb-pump .45s ease-in-out infinite alternate}
+@keyframes pb-pump{to{transform:scale(1.25)}}
 #pbSvg.backR .a-dynback{display:inline}#pbSvg.backR #pb-dR,#pbSvg.backR #pb-dHR{display:none}
 #pbSvg .pb-legs{display:inline}#pbSvg.s-meditate .pb-legs{display:none}#pbSvg.s-meditate .p-cross{display:inline}
 #pbSvg #pb-bd{transform-box:view-box;transform-origin:150px 205px}
@@ -66,6 +73,7 @@
 <g id="pb-lines" stroke="#888780" stroke-width="1.3"><path d="M4 7l28-3.9M4 12l28-3.9M4 17l28-3.9M4 22l24-3.3M4 27l28-3.9"/></g>
 </defs>
 <ellipse cx="150" cy="208" rx="62" ry="6" fill="#888780" opacity=".25"/>
+<g id="pb-p-base" display="none"><ellipse rx="68" ry="17" fill="#4b5563"/><path d="M-40 -4q14-6 30-2M12 6q16 3 30-3" stroke="#374151" stroke-width="2" fill="none" stroke-linecap="round"/></g>
 <g class="pb-x p-run"><g class="pb-wind" stroke="#85B7EB" stroke-width="3" stroke-linecap="round"><line x1="66" y1="140" x2="82" y2="140"/><line x1="60" y1="158" x2="78" y2="158"/></g></g>
 <g class="pb-x p-think" fill="#378ADD"><circle cx="210" cy="104" r="5"/><circle cx="226" cy="92" r="6"/><circle cx="244" cy="78" r="7"/></g>
 <g class="pb-x p-done" fill="#EF9F27"><path class="pb-spark" d="M70 96l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/><path class="pb-spark" d="M234 90l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" style="animation-delay:.3s"/></g>
@@ -73,13 +81,14 @@
 <g class="pb-x p-hello2"><rect x="148" y="22" width="148" height="54" rx="12" fill="#E6F1FB" stroke="#185FA5"/><path d="M172 76l-8 14 20-14z" fill="#E6F1FB" stroke="#185FA5"/><text x="222" y="45" text-anchor="middle" font-size="13" fill="#0C447C" font-weight="600">Your Personal AI</text><text x="222" y="63" text-anchor="middle" font-size="13" fill="#0C447C" font-weight="600">Helper and Researcher!</text></g>
 <text id="pb-ahh" x="232" y="96" text-anchor="middle" font-size="16" fill="#185FA5" font-weight="600" display="none">Ahh</text>
 <text id="pb-glug" x="92" y="112" text-anchor="middle" font-size="13" fill="#185FA5" display="none">glug</text>
-<g id="pb-bd">
+<g id="pb-lift"><g id="pb-bd">
 <g class="pb-legs" stroke="#2f5fbe" stroke-width="6" stroke-linecap="round" fill="#2f5fbe"><g class="pb-lgL"><line x1="134" y1="182" x2="132" y2="200"/><ellipse cx="127" cy="202" rx="9" ry="4.5" stroke="none"/></g><g class="pb-lgR"><line x1="166" y1="182" x2="168" y2="200"/><ellipse cx="173" cy="202" rx="9" ry="4.5" stroke="none"/></g></g>
 <g class="pb-x p-cross" fill="#2f5fbe"><ellipse cx="136" cy="190" rx="22" ry="7"/><ellipse cx="164" cy="190" rx="22" ry="7"/></g>
 <g class="pb-x a-dynback" fill="none" stroke="#2f5fbe" stroke-width="6" stroke-linecap="round"><path id="pb-dRb" d="M204 152 Q216 140 220 124"/><use id="pb-dHRb" ${HAND}/></g>
 <ellipse cx="150" cy="150" rx="58" ry="38" fill="#4f7fd9"/>
 <path d="M110 138q12-8 26-2M162 172q14 4 26-4M118 168q8 4 16 2" stroke="#2f5fbe" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
 <g class="pb-x p-band"><path d="M95 132q55-15 110 0" stroke="#E24B4A" stroke-width="6" fill="none" stroke-linecap="round"/></g>
+<g class="pb-x p-sweatrun" fill="#85B7EB"><path class="pb-drip" d="M98 132q3 5 0 7q-3-2 0-7z"/><path class="pb-drip" d="M203 130q3 5 0 7q-3-2 0-7z" style="animation-delay:.3s"/><path class="pb-drip" d="M120 118q3 5 0 7q-3-2 0-7z" style="animation-delay:.6s"/><path class="pb-drip" d="M184 116q3 5 0 7q-3-2 0-7z" style="animation-delay:.85s"/></g>
 <g class="pb-x p-meditate"><ellipse cx="150" cy="106" rx="30" ry="12" fill="#6b7280"/><ellipse cx="150" cy="88" rx="20" ry="9" fill="#4b5563"/></g>
 <g class="pb-x f-normal" id="pb-fNormal"><g class="pb-blink"><ellipse cx="134" cy="142" rx="8" ry="9" fill="#fff"/><ellipse cx="166" cy="142" rx="8" ry="9" fill="#fff"/><circle cx="135" cy="144" r="4" fill="#0f172a"/><circle cx="167" cy="144" r="4" fill="#0f172a"/></g><path d="M143 158q7 6 14 0" stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"/></g>
 <g class="pb-x f-hello"><g class="pb-blink"><ellipse cx="134" cy="142" rx="8" ry="9" fill="#fff"/><ellipse cx="166" cy="142" rx="8" ry="9" fill="#fff"/><circle cx="136" cy="142" r="4" fill="#0f172a"/><circle cx="168" cy="142" r="4" fill="#0f172a"/></g><g stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M126 128q8-5 16 0M158 128q8-5 16 0"/><path d="M140 155q10 12 20 0z" fill="#0f172a"/></g><g fill="#F09595" opacity=".6"><circle cx="122" cy="156" r="5"/><circle cx="178" cy="156" r="5"/></g></g>
@@ -91,11 +100,12 @@
 <g class="pb-x f-happy" stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M127 144q7-8 14 0M159 144q7-8 14 0"/><path d="M140 155q10 12 20 0z" fill="#0f172a"/></g>
 <g class="pb-x f-shock"><ellipse cx="134" cy="141" rx="10" ry="12" fill="#fff"/><ellipse cx="166" cy="141" rx="10" ry="12" fill="#fff"/><circle cx="134" cy="141" r="2.5" fill="#0f172a"/><circle cx="166" cy="141" r="2.5" fill="#0f172a"/><g stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M124 124q10-6 18 0M158 124q8-6 18 0"/></g><ellipse cx="150" cy="164" rx="6" ry="8" fill="#0f172a"/></g>
 <g class="pb-x f-calm" stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M127 143q7 5 14 0M159 143q7 5 14 0"/><path d="M144 158q6 4 12 0"/></g>
+<g class="pb-x f-wink"><ellipse cx="134" cy="142" rx="8" ry="9" fill="#fff"/><circle cx="135" cy="143" r="4" fill="#0f172a"/><g stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M159 144q7-7 14 0"/><path d="M126 129q8-5 16 0M158 132l14-3"/><path d="M140 155q10 12 20 0z" fill="#0f172a"/></g><path class="pb-spark" d="M186 120l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#EF9F27"/></g>
 <g id="pb-fDrink" display="none"><g stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M127 143q7 5 14 0M159 143q7 5 14 0"/></g><circle id="pb-mouthO" cx="151" cy="160" r="3.5" fill="#0f172a"/></g>
 <g id="pb-fRefresh" display="none"><g stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M127 144q7-8 14 0M159 144q7-8 14 0"/><path d="M138 154q12 14 24 0z" fill="#0f172a"/></g><g fill="#F09595" opacity=".75"><circle cx="122" cy="154" r="5"/><circle cx="178" cy="154" r="5"/></g><g fill="#85B7EB"><path class="pb-spark" d="M206 110l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/><path class="pb-spark" d="M92 118l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" style="animation-delay:.3s"/></g></g>
 <g class="pb-x p-error"><path class="pb-drop" d="M198 118q6 10 0 14q-6-4 0-14z" fill="#85B7EB"/></g>
 <g class="pb-x p-read"><path d="M108 172l42 6 42-6v32l-42 6-42-6z" fill="#185FA5"/><path d="M112 172l38 5v28l-38-5z" fill="#FAF9F5"/><path d="M188 172l-38 5v28l38-5z" fill="#FAF9F5"/><use href="#pb-lines" transform="translate(150 177) scale(-1 1)"/><use href="#pb-lines" transform="translate(150 177)"/><g id="pb-flipPage"><path d="M150 177l36-5v28l-36 5z" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="1"/><use href="#pb-lines" transform="translate(150 177)"/></g><line x1="150" y1="176" x2="150" y2="206" stroke="#0C447C" stroke-width="2.5"/></g>
-<g class="pb-x pb-props"><g id="pb-p-washer" display="none"><rect x="-22" y="-54" width="44" height="54" rx="5" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1.5"/><rect x="-22" y="-54" width="44" height="11" rx="5" fill="#D3D1C7"/><circle cx="-13" cy="-48.5" r="2.3" fill="#888780"/><circle cx="-6" cy="-48.5" r="2.3" fill="#888780"/><rect x="6" y="-50.5" width="11" height="4" rx="1.5" fill="#85B7EB"/><circle cx="0" cy="-22" r="14" fill="#B4B2A9"/><circle cx="0" cy="-22" r="10.5" fill="#378ADD" opacity=".55"/><path d="M-6 -26q4-4 9-1" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".7"/></g><path id="pb-p-band" d="M-14 0q14-6 28 0" stroke="#E24B4A" stroke-width="6" fill="none" stroke-linecap="round" vector-effect="non-scaling-stroke" display="none"/><g id="pb-p-bar" display="none"><line x1="-76" y1="0" x2="76" y2="0" stroke="#444441" stroke-width="5"/><rect x="-90" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/><rect x="76" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/></g><g id="pb-p-sweat" display="none" fill="#85B7EB"><path class="pb-drip" d="M-10 2q2.5 4 0 6q-2.5-2 0-6z"/><path class="pb-drip" d="M0 4q2.5 4 0 6q-2.5-2 0-6z" style="animation-delay:.35s"/><path class="pb-drip" d="M10 2q2.5 4 0 6q-2.5-2 0-6z" style="animation-delay:.7s"/></g><ellipse id="pb-p-st1" rx="30" ry="12" fill="#6b7280" display="none"/><ellipse id="pb-p-st2" rx="20" ry="9" fill="#4b5563" display="none"/></g>
+<g class="pb-x pb-props"><g id="pb-p-washer" display="none"><rect x="-22" y="-54" width="44" height="54" rx="5" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1.5"/><rect x="-22" y="-54" width="44" height="11" rx="5" fill="#D3D1C7"/><circle cx="-13" cy="-48.5" r="2.3" fill="#888780"/><circle cx="-6" cy="-48.5" r="2.3" fill="#888780"/><rect x="6" y="-50.5" width="11" height="4" rx="1.5" fill="#85B7EB"/><circle cx="0" cy="-22" r="12" fill="#2C2C2A"/><g id="pb-wdoor"><circle cx="0" cy="-22" r="12.5" fill="#378ADD" fill-opacity=".45" stroke="#B4B2A9" stroke-width="3.5"/><path d="M-6 -26q4-4 9-1" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".7"/></g></g><path id="pb-p-band" d="M-14 0q14-6 28 0" stroke="#E24B4A" stroke-width="6" fill="none" stroke-linecap="round" vector-effect="non-scaling-stroke" display="none"/><g id="pb-p-bar" display="none"><line x1="-76" y1="0" x2="76" y2="0" stroke="#444441" stroke-width="5"/><rect x="-90" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/><rect x="76" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/></g><g id="pb-p-sweat" display="none" fill="#85B7EB"><path class="pb-drip" d="M-10 2q2.5 4 0 6q-2.5-2 0-6z"/><path class="pb-drip" d="M0 4q2.5 4 0 6q-2.5-2 0-6z" style="animation-delay:.35s"/><path class="pb-drip" d="M10 2q2.5 4 0 6q-2.5-2 0-6z" style="animation-delay:.7s"/></g><ellipse id="pb-p-st1" rx="30" ry="12" fill="#6b7280" display="none"/><ellipse id="pb-p-st2" rx="20" ry="9" fill="#4b5563" display="none"/></g>
 <g fill="none" stroke="#2f5fbe" stroke-width="6" stroke-linecap="round">
 <g class="pb-x a-down"><path d="M96 152 Q84 168 88 178"/><path d="M204 152 Q216 168 212 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><use ${HAND} transform="translate(212 180) rotate(180)"/></g>
 <g class="pb-x a-hello"><path d="M96 152 Q84 168 88 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><g class="pb-wave"><path d="M204 150 Q224 132 222 108"/><use ${HAND} transform="translate(222 104) rotate(10)"/></g></g>
@@ -106,6 +116,7 @@
 <g class="pb-x a-up"><path d="M94 144 Q80 126 86 108"/><path d="M206 144 Q220 126 214 108"/><use ${HAND} transform="translate(86 104)"/><use ${HAND} transform="translate(214 104)"/></g>
 <g class="pb-x a-shock"><path d="M96 150 Q80 132 104 126"/><path d="M204 150 Q220 132 196 126"/><use ${HAND} transform="translate(106 122) rotate(20)"/><use ${HAND} transform="translate(194 122) rotate(-20)"/></g>
 <g class="pb-x a-run"><g class="pb-swL"><path d="M96 150 L86 172"/><use ${HAND} transform="translate(85 175) rotate(200)"/></g><g class="pb-swR"><path d="M204 150 L214 172"/><use ${HAND} transform="translate(215 175) rotate(160)"/></g></g>
+<g class="pb-x a-flex"><path d="M204 150 Q224 150 240 144"/><path d="M240 144 L236 116"/><ellipse class="pb-pump" cx="223" cy="141" rx="9" ry="6.5" fill="#4f7fd9" stroke="#2f5fbe" stroke-width="2"/><use ${HAND} transform="translate(236 110) rotate(-8)"/></g>
 <g class="pb-x a-lap"><path d="M96 154 Q100 182 136 188"/><path d="M204 154 Q200 182 164 188"/><use ${HAND} transform="translate(140 188) rotate(90)"/><use ${HAND} transform="translate(160 188) rotate(-90)"/></g>
 <g class="pb-x a-lift"><g class="pb-bar"><line x1="74" y1="104" x2="226" y2="104" stroke="#444441" stroke-width="5"/><rect x="60" y="90" width="14" height="28" rx="3" fill="#2C2C2A" stroke="none"/><rect x="226" y="90" width="14" height="28" rx="3" fill="#2C2C2A" stroke="none"/></g><path class="pb-armLL" d="M96 152 Q86 128 112 106"/><path class="pb-armLR" d="M204 152 Q214 128 188 106"/><g class="pb-bar"><use ${HAND} transform="translate(112 106)"/><use ${HAND} transform="translate(188 106)"/></g></g>
 <g class="pb-x a-water"><path d="M96 152 Q84 168 88 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><path id="pb-armW" d="M204 152 Q218 164 222 172"/>
@@ -119,7 +130,7 @@
 </g>
 <g id="pb-bin" display="none"><path d="M-17 -36h34l-3 36h-28z" fill="#1D9E75"/><rect x="-19" y="-40" width="38" height="6" rx="2" fill="#0F6E56"/><g transform="translate(0 -17) scale(1.05)"><g><line x1="-5.5" y1="1.6" x2="-2.3" y2="-4" stroke="#E1F5EE" stroke-width="2.2" stroke-linecap="round"/><path d="M-0.4 -7.2L0.1 -3.4L-3.9 -5.7Z" fill="#E1F5EE"/></g><g transform="rotate(120)"><line x1="-5.5" y1="1.6" x2="-2.3" y2="-4" stroke="#E1F5EE" stroke-width="2.2" stroke-linecap="round"/><path d="M-0.4 -7.2L0.1 -3.4L-3.9 -5.7Z" fill="#E1F5EE"/></g><g transform="rotate(240)"><line x1="-5.5" y1="1.6" x2="-2.3" y2="-4" stroke="#E1F5EE" stroke-width="2.2" stroke-linecap="round"/><path d="M-0.4 -7.2L0.1 -3.4L-3.9 -5.7Z" fill="#E1F5EE"/></g></g></g>
 <g class="pb-x p-type"><rect x="108" y="160" width="84" height="30" rx="4" fill="#5F5E5A"/><rect x="112" y="164" width="76" height="22" rx="2" fill="#444441"/><circle cx="150" cy="175" r="4" fill="#85B7EB"/><path d="M100 206l8-14h84l8 14z" fill="#2C2C2A"/></g>
-</g>
+</g></g>
 </svg>`;
 
   const EGGS = ['run', 'lift', 'water', 'meditate'];
@@ -209,7 +220,7 @@
   // Arms are drawn freely here: each frame says where the hands go; props (headband, barbell, stones) can sit
   // anywhere, be carried, or be hidden. frames[0] is the starting pose; each later frame is reached over t ms.
   const SH = { L: [96, 152], R: [204, 152] }, HOME = { L: [88, 180], R: [212, 180] };
-  const PROPS = ['washer', 'band', 'sweat', 'bar', 'st1', 'st2'];
+  const PROPS = ['base', 'washer', 'band', 'sweat', 'bar', 'st1', 'st2'];
   const mixA = (a, b, k) => a.map((v, i) => lerp(v, b[i] ?? v, k));
   const pad = q => [q[0], q[1], q[2] ?? 0, q[3] ?? 1, q[4] ?? 1];  // prop: x, y, rotation, scale, opacity
   const EASE = { lin: k => k, in: k => k * k, out: k => 1 - (1 - k) * (1 - k) };
@@ -223,13 +234,18 @@
   }
   function scene(frames, then) {
     const full = [];
-    let prev = { L: HOME.L, R: HOME.R, face: 'normal', hb: false };
+    let prev = { L: HOME.L, R: HOME.R, face: 'normal', hb: false, by: 0 };
     for (const f of frames) { prev = { ...prev, ease: undefined, ...f }; full.push(prev); }
     let i = 0, t0 = performance.now();
     const step = now => {
       const a = full[Math.max(0, i - 1)], b = full[i];
       const k = b.t ? (EASE[b.ease] || ease)(Math.min(1, (now - t0) / b.t)) : 1;
-      svg.setAttribute('class', `s-dyn fx-${b.face}${b.hb ? ' hb' : ''}${b.backR ? ' backR' : ''}`);
+      svg.setAttribute('class', `s-dyn fx-${b.face}` + ['hb', 'backR', 'flex', 'cross', 'breathe'].map(f => b[f] ? ' ' + f : '').join(''));
+      $('pb-lift').setAttribute('transform', `translate(0 ${lerp(a.by, b.by, k)})`);  // Pebble's whole body can rise and land
+      if (b.door !== undefined) {  // washing-machine door: 0 closed … 1 swung open on its left hinge
+        const d = lerp(a.door ?? b.door, b.door, k);
+        $('pb-wdoor').setAttribute('transform', `translate(-14 0) scale(${1 - 1.75 * d} 1) translate(14 0)`);
+      }
       const L = mixA(a.L, b.L, k), R = mixA(a.R, b.R, k);
       $('pb-dL').setAttribute('d', arm('L', L)); $('pb-dR').setAttribute('d', arm('R', R));
       handAt($('pb-dHL'), 'L', L); handAt($('pb-dHR'), 'R', R);
@@ -272,7 +288,7 @@
       { t: 200, band: null, hb: true },
       { t: 400, L: HOME.L, R: HOME.R }], () => {
       cls('run');
-      later(10350, () => scene([{ t: 0, hb: true, washer: [...WASHER, 0, 0, 0] },
+      later(10350, () => scene([{ t: 0, hb: true, washer: [...WASHER, 0, 0, 0], door: 1 },
         { t: 300, washer: [...WASHER, 0, 1.12, 1], ease: 'out' }, { t: 150, washer: [...WASHER, 0, 1, 1] },  // the machine pops up
         { t: 450, L: HEAD_L, R: HEAD_R },
         { t: 0, hb: false, band: [150, 129, 0, 3.9], sweat: drips([150, 129]) },                             // off, dripping
@@ -281,6 +297,7 @@
         { t: 550, L: [62, 182], band: held([62, 182], .9), sweat: drips([62, 178]) },                         // to the door
         { t: 420, L: [58, 182], band: [...DOOR, 0, .4, 0], sweat: drips(DOOR, 0) },                          // in it goes
         { t: 0, band: null, sweat: null },
+        { t: 380, L: [42, 182], door: .15 }, { t: 160, door: 0 },                                         // shut the door
         { t: 140, L: HOME.L, washer: [...WASHER, -4, 1, 1] }, { t: 140, washer: [...WASHER, 4, 1, 1] },    // wash wiggle
         { t: 140, washer: [...WASHER, -3, 1, 1] }, { t: 140, washer: [...WASHER, 0, 1, 1] },
         { t: 420, washer: [...WASHER, 0, .5, 0] }, { t: 0, washer: null }], () => set('idle')));
@@ -317,25 +334,35 @@
       later(REPS * REP_MS, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain' },
         { t: 600, ...grips(134, 100, -14), bar: [134, 100, -14] },             // wind back
         ...throwFrames(), { t: 0, bar: null },
-        { t: 500, L: HOME.L, R: HOME.R, face: 'normal' }], () => set('idle')));
+        { t: 450, L: HOME.L, R: [236, 114], face: 'happy' },                  // bring the arm up…
+        { t: 1700, flex: true, face: 'wink' },                                 // …flex and wink
+        { t: 0, flex: false, face: 'normal' }, { t: 500, R: HOME.R }], () => set('idle')));
     });
   }
-  // balancing stones (≈20 s): both stones pop up beside Pebble; it stacks them on its head, meditates, puts them
-  // back, and they shrink away
+  // balancing stones (≈20 s), like the StoneDock logo: Pebble hops up and the big grey stone pops in underneath,
+  // it lands sitting cross-legged on top, a small stone pops up beside it and goes on its head (three stones,
+  // grey, blue, grey); it meditates, breathing slowly; then the small stone goes back down, it hops off, and the
+  // stones shrink away. Positions are in Pebble's own coordinates, which rise with it (by = how far up it sits).
   function meditateScene() {
-    const S1 = [226, 200, 0], S2 = [262, 202, 0], H1 = [150, 106, 0], H2 = [150, 88, 0];
-    scene([{ t: 0, st1: [...S1, 0, 0], st2: [...S2, 0, 0] },
-      { t: 280, st1: [...S1, 1.15, 1], ease: 'out' }, { t: 120, st1: [...S1, 1, 1], st2: [...S2, 1.15, 1], ease: 'out' },
-      { t: 160, st2: [...S2, 1, 1] },
-      { t: 450, R: [226, 186] }, { t: 650, R: [150, 92], st1: H1 },
-      { t: 450, R: [262, 191] }, { t: 650, R: [150, 75], st2: H2 },
-      { t: 420, L: [140, 188], R: [160, 188], face: 'calm' }], () => {
-      cls('meditate');
-      later(13800, () => scene([{ t: 0, L: [140, 188], R: [160, 188], st1: H1, st2: H2, face: 'calm' },
-        { t: 420, L: HOME.L, R: [150, 75], face: 'normal' }, { t: 600, R: [262, 191], st2: S2 },
-        { t: 420, R: [150, 92] }, { t: 600, R: [226, 186], st1: S1 }, { t: 380, R: HOME.R },
-        { t: 420, st1: [...S1, .5, 0], st2: [...S2, .5, 0] }, { t: 0, st1: null, st2: null }], () => set('idle')));
-    });
+    // sitting 12 up puts the crossed legs (bottom at 197) just onto the big stone's top (182); the small stone's
+    // spot on the ground (y 202) is 214 in Pebble's raised coordinates
+    const SIT = -12, BASE = [150, 199, 0], SMALL_GROUND = [256, 214, 0], ON_HEAD = [150, 103, 0];
+    scene([{ t: 0, base: [...BASE, 0, 0] },
+      { t: 300, by: -40, L: [82, 146], R: [218, 146], ease: 'out' },          // hop up, arms out
+      { t: 260, base: [...BASE, 1.12, 1], ease: 'out' }, { t: 120, base: [...BASE, 1, 1] },  // the big stone pops in below
+      { t: 300, by: SIT, cross: true, L: HOME.L, R: HOME.R, ease: 'in' },     // land, sitting cross-legged on top
+      { t: 0, st2: [...SMALL_GROUND, 0, 0] },
+      { t: 260, st2: [...SMALL_GROUND, 1.15, 1], ease: 'out' }, { t: 120, st2: [...SMALL_GROUND, 1, 1] },
+      { t: 450, R: [256, 201] },                                              // reach for the small stone
+      { t: 700, R: [150, 89], st2: ON_HEAD },                                 // onto its head: the logo stack
+      { t: 420, L: [140, 188], R: [160, 188], face: 'calm', breathe: true },  // hands in lap
+      { t: 13800 },                                                           // meditate
+      { t: 420, L: HOME.L, R: [150, 89], face: 'normal', breathe: false },
+      { t: 650, R: [256, 201], st2: SMALL_GROUND },                           // the small stone goes back down
+      { t: 350, R: HOME.R },
+      { t: 300, by: -40, cross: false, base: [...BASE, .5, 0], ease: 'out' }, // hop off; the big stone shrinks away
+      { t: 300, by: 0, ease: 'in' },
+      { t: 400, st2: [...SMALL_GROUND, .5, 0] }, { t: 0, base: null, st2: null }], () => set('idle'));
   }
   const SCENES = { run: runScene, lift: liftScene, meditate: meditateScene };
 
@@ -380,6 +407,8 @@
     svg.querySelectorAll('.pb-grip').forEach(e => e.style.display = '');
     $('pb-freeH').setAttribute('display', 'none');
     $('pb-bin').setAttribute('display', 'none');
+    $('pb-lift').removeAttribute('transform');
+    $('pb-wdoor').removeAttribute('transform');
     $('pb-bottle').setAttribute('opacity', 1);
     $('pb-fNormal').style.display = ''; $('pb-ahh').style.display = 'none'; $('pb-glug').setAttribute('display', 'none');
     if (s === 'hello') timer = setTimeout(() => { cls('hello2'); timer = setTimeout(() => set('idle'), 3200); }, 2300);
