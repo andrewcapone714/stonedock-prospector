@@ -151,9 +151,34 @@ tbody tr:last-child td { border-bottom: 0; }
 .pb-panel.dragging { transition: none; box-shadow: 0 24px 64px rgba(15,23,42,.38); }
 .pb-panel.dragging .pb-head { cursor: grabbing; }
 .pb-panel.moved { right: auto !important; bottom: auto !important; }
+.pb-panel.sized { max-height: none; }
+.pb-panel.side-open:not(.sized) { width: min(570px, calc(100vw - 32px)); }
+.pb-body { display: flex; flex: 1; min-height: 0; }
+.pb-main { display: flex; flex-direction: column; flex: 1; min-width: 0; min-height: 0; }
+.pb-side { width: 172px; flex: none; display: flex; flex-direction: column; gap: 8px; padding: 10px; border-right: 1px solid var(--line); background: var(--panel-2); overflow-y: auto; }
+.pb-side[hidden] { display: none; }
+.pb-side h5 { margin: 6px 0 0; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.pb-chat { display: flex; align-items: flex-start; gap: 4px; padding: 7px 8px; border-radius: 8px; font-size: 12px; line-height: 1.35; cursor: pointer; color: var(--text); }
+.pb-chat:hover { background: var(--panel); }
+.pb-chat.on { background: var(--accent-soft); color: var(--accent-strong); font-weight: 600; }
+.pb-chat span { flex: 1; min-width: 0; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.pb-chat small { display: block; color: var(--muted); font-weight: 400; }
+.pb-chat .x { font-size: 13px; padding: 0 2px; visibility: hidden; }
+.pb-chat:hover .x { visibility: visible; }
+.pb-hbtn { background: none; border: 0; color: #b9c4d8; cursor: pointer; font-size: 16px; padding: 0 4px; line-height: 1; }
+.pb-hbtn:hover, .pb-hbtn.on { color: #fff; }
+.pb-stage svg { max-width: 240px; margin: 0 auto; }
+.pb-rs { position: absolute; z-index: 3; touch-action: none; }
+.pb-rs.n, .pb-rs.s { left: 14px; right: 14px; height: 7px; cursor: ns-resize; }
+.pb-rs.e, .pb-rs.w { top: 14px; bottom: 14px; width: 7px; cursor: ew-resize; }
+.pb-rs.n { top: 0; } .pb-rs.s { bottom: 0; } .pb-rs.e { right: 0; } .pb-rs.w { left: 0; }
+.pb-rs.ne, .pb-rs.nw, .pb-rs.se, .pb-rs.sw { width: 16px; height: 16px; }
+.pb-rs.ne { top: 0; right: 0; cursor: nesw-resize; } .pb-rs.sw { bottom: 0; left: 0; cursor: nesw-resize; }
+.pb-rs.nw { top: 0; left: 0; cursor: nwse-resize; } .pb-rs.se { bottom: 0; right: 0; cursor: nwse-resize; }
+.pb-panel.resizing { transition: none; user-select: none; }
 .pw { opacity: 0; transition: opacity .28s ease-out; }
 .pw.in { opacity: 1; }
-.pb-stage { background: var(--panel-2); padding: 4px 70px 0; flex: none; }
+.pb-stage { background: var(--panel-2); padding: 4px 20px 0; flex: none; }
 .pb-line { font-size: 12px; color: var(--accent-strong); padding: 6px 14px; min-height: 28px; border-bottom: 1px solid var(--line); flex: none; }
 .pb-line.warn { color: var(--mid); }
 .pb-log { flex: 1; overflow-y: auto; padding: 12px 14px; display: flex; flex-direction: column; gap: 10px; min-height: 80px; }
@@ -335,7 +360,10 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
 <div class="drawer" id="drawer"></div>
 <button class="pb-launch" id="pbLauncher" onclick="pebbleOpen(true)" aria-label="Open Pebble, your AI helper"><svg viewBox="0 0 40 32" aria-hidden="true"><ellipse cx="20" cy="18" rx="17" ry="12" fill="#4f7fd9"/><ellipse cx="14" cy="16" rx="3" ry="3.4" fill="#fff"/><ellipse cx="26" cy="16" rx="3" ry="3.4" fill="#fff"/><circle cx="14.4" cy="16.8" r="1.6" fill="#0f172a"/><circle cx="26.4" cy="16.8" r="1.6" fill="#0f172a"/><path d="M17 22q3 2.5 6 0" stroke="#0f172a" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg><span>Pebble</span></button>
 <div class="pb-panel" id="pbPanel" role="dialog" aria-label="Pebble, your AI helper">
-  <div class="pb-head"><b>Pebble</b><span class="pb-sub" id="pbSub" title="Drag to move · double-click to put it back">Your AI helper and researcher</span><button class="x" onclick="pebbleOpen(false)" aria-label="Close Pebble">✕</button></div>
+  <div class="pb-head"><button class="pb-hbtn" id="pbSideBtn" onclick="pbToggleSide()" title="Saved chats" aria-label="Show saved chats">☰</button><b>Pebble</b><span class="pb-sub" id="pbSub" title="Drag to move · double-click to put it back">Your AI helper and researcher</span><button class="x" onclick="pebbleOpen(false)" aria-label="Close Pebble">✕</button></div>
+  <div class="pb-body">
+  <aside class="pb-side" id="pbSide" hidden><button class="btn small" onclick="pbNewChat()">+ New chat</button><div id="pbChats"></div></aside>
+  <div class="pb-main">
   <div class="pb-stage" id="pbStage"></div>
   <div class="pb-line" id="pbLine"></div>
   <div class="pb-log" id="pbLog"></div>
@@ -346,6 +374,10 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
   </div>
   <div class="pb-ask"><textarea id="pbInput" rows="2" placeholder="Ask Pebble about your prospects"></textarea><button class="btn primary" id="pbSend" style="flex:0" onclick="pbAsk()">Ask</button></div>
   <label class="check pb-web"><input type="checkbox" id="pbWeb"> Let Pebble search the web for this question</label>
+  </div>
+  </div>
+  <div class="pb-rs n" data-d="n"></div><div class="pb-rs s" data-d="s"></div><div class="pb-rs e" data-d="e"></div><div class="pb-rs w" data-d="w"></div>
+  <div class="pb-rs ne" data-d="ne"></div><div class="pb-rs nw" data-d="nw"></div><div class="pb-rs se" data-d="se"></div><div class="pb-rs sw" data-d="sw"></div>
 </div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
@@ -1087,9 +1119,15 @@ function pebbleOpen(on = !PB.open) {
   $('pbPanel').classList.toggle('open', on);
   $('pbLauncher').hidden = on;
   if (!on) return;
-  if (!PB.mounted) { Pebble.mount($('pbStage'), () => PB.open && !document.hidden); PB.mounted = true; pbRestorePos(); }
+  if (!PB.mounted) {
+    Pebble.mount($('pbStage'), () => PB.open && !document.hidden); PB.mounted = true;
+    let side = false;
+    try { side = !!localStorage.getItem('pebble.side'); } catch {}
+    pbToggleSide(side);
+    pbRestorePos();
+  }
   if (!PB.busy) Pebble.hello();
-  if (!PB.log.length) pbSay('pebble', "Hi! Ask me about the prospects in the view you're on, or open a company and choose **Research with Pebble**. I can also write outreach emails and re-check fit scores.");
+  if (!PB.log.length) pbWelcome();
   checkAI();
   setTimeout(() => $('pbInput').focus(), 60);
 }
@@ -1122,6 +1160,7 @@ function pbSay(role, text, err, mentions) {
   $('pbLog').appendChild(el);
   if (role === 'pebble') pbFlow(el);
   $('pbLog').scrollTop = $('pbLog').scrollHeight;
+  pbSaveChat();
 }
 // Pebble's replies flow in word by word (like the terminal's analyst): every word is wrapped and faded in
 // in order, faster for long answers, keeping links and formatting; the log follows unless you've scrolled up.
@@ -1173,7 +1212,7 @@ function pbPlace(x, y) {
 function pbRestorePos() {
   try {
     const p = JSON.parse(localStorage.getItem(PB_POS) || 'null');
-    if (p) pbPlace(p.x, p.y);
+    if (p) { if (p.w && p.h) pbSize(p.w, p.h); pbPlace(p.x, p.y); }
   } catch {}
 }
 (() => {
@@ -1190,13 +1229,13 @@ function pbRestorePos() {
   const end = () => {
     if (!start) return;
     start = null; el.classList.remove('dragging');
-    try { localStorage.setItem(PB_POS, JSON.stringify({ x: parseFloat(el.style.left), y: parseFloat(el.style.top) })); } catch {}
+    pbSavePos();
   };
   head.addEventListener('pointerup', end);
   head.addEventListener('pointercancel', end);
   head.addEventListener('dblclick', e => {
     if (e.target.closest('button')) return;
-    el.classList.remove('moved'); el.style.left = el.style.top = '';
+    el.classList.remove('moved', 'sized'); el.style.left = el.style.top = el.style.width = el.style.height = '';
     try { localStorage.removeItem(PB_POS); } catch {}
   });
   window.addEventListener('resize', () => { if (el.classList.contains('moved')) pbPlace(parseFloat(el.style.left), parseFloat(el.style.top)); });
@@ -1232,7 +1271,7 @@ async function pbAsk(q) {
   q = (q ?? $('pbInput').value).trim();
   if (!q) { pebbleOpen(true); return; }
   $('pbInput').value = '';
-  const history = PB.log.filter(m => !m.err).slice(-8).map(m => ({ role: m.role, text: m.text }));
+  const history = PB.log.filter(m => !m.err && !m.welcome).slice(-8).map(m => ({ role: m.role, text: m.text }));
   pbSay('user', q);
   const web = $('pbWeb').checked;
   const r = await pebbleRun(web ? 'Searching the web and thinking…' : 'Thinking…',
@@ -1308,6 +1347,117 @@ async function pbEmail(ci) {
   S.sel = id; draft(ci);
 }
 $('pbInput').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); pbAsk(); } });
+
+// ---------- resizing the Pebble panel from any edge or corner (size remembered with its position) ----------
+const PB_MIN = { w: 320, h: 380 };
+function pbSavePos() {
+  const el = $('pbPanel');
+  if (!el.classList.contains('moved')) return;
+  const pos = { x: parseFloat(el.style.left), y: parseFloat(el.style.top) };
+  if (el.classList.contains('sized')) Object.assign(pos, { w: el.offsetWidth, h: el.offsetHeight });
+  try { localStorage.setItem(PB_POS, JSON.stringify(pos)); } catch {}
+}
+function pbSize(w, h) {
+  const el = $('pbPanel');
+  el.classList.add('moved', 'sized');
+  el.style.width = Math.max(PB_MIN.w, Math.min(window.innerWidth - 16, w)) + 'px';
+  el.style.height = Math.max(PB_MIN.h, Math.min(window.innerHeight - 16, h)) + 'px';
+}
+(() => {
+  const el = $('pbPanel');
+  let r = null;
+  el.querySelectorAll('.pb-rs').forEach(hd => {
+    hd.addEventListener('pointerdown', e => {
+      if (e.button !== 0) return;
+      const b = el.getBoundingClientRect();
+      r = { d: hd.dataset.d, x: e.clientX, y: e.clientY, b };
+      if (!el.classList.contains('moved')) pbPlace(b.left, b.top);
+      el.classList.add('resizing');
+      hd.setPointerCapture(e.pointerId);
+      e.preventDefault();
+    });
+    hd.addEventListener('pointermove', e => {
+      if (!r) return;
+      const dx = e.clientX - r.x, dy = e.clientY - r.y, b = r.b;
+      let { left, top, width, height } = b;
+      if (r.d.includes('e')) width = b.width + dx;
+      if (r.d.includes('s')) height = b.height + dy;
+      if (r.d.includes('w')) { width = Math.max(PB_MIN.w, b.width - dx); left = b.right - width; }
+      if (r.d.includes('n')) { height = Math.max(PB_MIN.h, b.height - dy); top = b.bottom - height; }
+      left = Math.max(8, left); top = Math.max(8, top);
+      pbSize(Math.min(width, window.innerWidth - left - 8), Math.min(height, window.innerHeight - top - 8));
+      el.style.left = left + 'px'; el.style.top = top + 'px';
+    });
+    const end = () => { if (!r) return; r = null; el.classList.remove('resizing'); pbSavePos(); };
+    hd.addEventListener('pointerup', end);
+    hd.addEventListener('pointercancel', end);
+  });
+})();
+
+// ---------- saved chats: every conversation is kept (data/chats.json) and listed in the panel's sidebar ----------
+const WELCOME = "Hi! Ask me about the prospects in the view you're on, or open a company and choose **Research with Pebble**. I can also write outreach emails and re-check fit scores.";
+function pbWelcome() {
+  PB.log.push({ role: 'pebble', text: WELCOME, welcome: true });
+  pbRenderLog();
+}
+function pbRenderLog() {
+  $('pbLog').innerHTML = PB.log.map(m => `<div class="pb-msg ${m.role}${m.err ? ' err' : ''}">${m.role === 'user' ? esc(m.text) : pbFormat(m.text, m.mentions)}</div>`).join('');
+  $('pbLog').scrollTop = $('pbLog').scrollHeight;
+}
+let pbSaveTimer;
+function pbSaveChat() {
+  clearTimeout(pbSaveTimer);
+  pbSaveTimer = setTimeout(async () => {
+    const messages = PB.log.filter(m => !m.welcome);
+    const first = messages.find(m => m.role === 'user');
+    if (!first) return;
+    PB.chatId ||= 'c' + Date.now().toString(36);
+    const title = first.text.length > 60 ? first.text.slice(0, 57) + '…' : first.text;
+    try { await api(`/api/chats/${PB.chatId}`, { title, tab: S.tab, messages }); } catch { return; }
+    pbLoadChats();
+  }, 400);
+}
+async function pbLoadChats() {
+  try { PB.chats = (await api('/api/chats')).chats; } catch { PB.chats = PB.chats || []; }
+  const day = t => {
+    const d = new Date(t * 1000), now = new Date();
+    return d.toDateString() === now.toDateString() ? d.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })
+      : d.toLocaleDateString([], { month: 'short', day: 'numeric' });
+  };
+  $('pbChats').innerHTML = PB.chats.length ? '<h5>Saved chats</h5>' + PB.chats.map(c => `<div class="pb-chat${c.id === PB.chatId ? ' on' : ''}" onclick="pbOpenChat('${c.id}')" title="${esc(c.title)}">
+      <span>${esc(c.title)}<small>${day(c.updated)} · ${c.messages.filter(m => m.role === 'user').length} question${c.messages.filter(m => m.role === 'user').length === 1 ? '' : 's'}</small></span>
+      <button class="x" onclick="event.stopPropagation(); pbDeleteChat('${c.id}')" aria-label="Delete chat">✕</button></div>`).join('')
+    : '<div class="hint">Your conversations with Pebble are saved here.</div>';
+}
+function pbOpenChat(id) {
+  const c = (PB.chats || []).find(x => x.id === id);
+  if (!c) return;
+  PB.chatId = id;
+  PB.log = c.messages.map(m => ({ ...m }));
+  pbRenderLog();
+  pbLoadChats();
+}
+function pbNewChat() {
+  PB.chatId = null;
+  PB.log = [];
+  pbWelcome();
+  pbLoadChats();
+  $('pbInput').focus();
+}
+async function pbDeleteChat(id) {
+  if (!confirm('Delete this saved chat?')) return;
+  try { await api(`/api/chats/${id}/delete`, {}); } catch {}
+  if (id === PB.chatId) pbNewChat(); else pbLoadChats();
+}
+function pbToggleSide(show = $('pbSide').hidden) {
+  $('pbSide').hidden = !show;
+  $('pbPanel').classList.toggle('side-open', show);
+  $('pbSideBtn').classList.toggle('on', show);
+  try { localStorage.setItem('pebble.side', show ? '1' : ''); } catch {}
+  if (show) pbLoadChats();
+  const el = $('pbPanel');
+  if (el.classList.contains('moved')) pbPlace(parseFloat(el.style.left), parseFloat(el.style.top));
+}
 
 load().catch(e => { $('empty').hidden = false; $('empty').textContent = `Can't reach the server: ${e.message}. Is python server.py running?`; });
 </script>

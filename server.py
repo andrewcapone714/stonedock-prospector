@@ -1419,6 +1419,7 @@ def update_once():
 # (LinkedIn, Google Maps and Yelp included, at the user's request); everything else gets no tools at all.
 # Only works on this computer: GitHub's cloud runs have no Claude sign-in. Every call uses the owner's Claude usage.
 AI_FILE = os.path.join(DATA, "ai.json")
+CHATS_FILE = os.path.join(DATA, "chats.json")  # saved Pebble conversations: {id: {title, tab, messages, created, updated}}
 CLAUDE_EXE = os.path.join(os.path.expanduser("~"), ".local", "bin", "claude.exe")
 AI_DIR = os.path.join(os.environ.get("LOCALAPPDATA") or os.path.expanduser("~"), "StoneDockProspector", "ai_sandbox")
 AI_LOCK = threading.Lock()
@@ -1811,6 +1812,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 return self.send(200, f.read(), "text/javascript")
         if path == "/api/ai/status":
             return self.send(200, ai_status())
+        if path == "/api/chats":
+            chats = sorted(load_json(CHATS_FILE, {}).values(), key=lambda c: -(c.get("updated") or 0))
+            return self.send(200, {"chats": chats})
         if path == "/api/job":
             with lock:
                 return self.send(200, {"job": dict(job), "fjob": dict(fjob), "pjob": dict(pjob), "auto": auto_status()})
@@ -1854,6 +1858,21 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 fjob.update(running=True, done=0, total=len(terms), stage="Starting", found=0, errors=[], finished_at=None)
             days = max(14, min(int(b.get("days", 180)), 730))
             threading.Thread(target=run_funded, args=(days, terms), daemon=True).start()
+            return self.send(200, {"ok": True})
+        m = re.fullmatch(r"/api/chats/([\w-]{1,40})(/delete)?", path)
+        if m:
+            with lock:
+                chats = load_json(CHATS_FILE, {})
+                if m.group(2):
+                    chats.pop(m.group(1), None)
+                else:
+                    old = chats.get(m.group(1), {"id": m.group(1), "created": time.time()})
+                    msgs = [{k: x.get(k) for k in ("role", "text", "err", "mentions")} for x in (b.get("messages") or [])][-200:]
+                    old.update(title=(b.get("title") or "New chat")[:80], tab=b.get("tab", ""), messages=msgs,
+                               updated=time.time())
+                    chats[m.group(1)] = old
+                save_json(CHATS_FILE, chats)
+            sync_soon()
             return self.send(200, {"ok": True})
         if path == "/api/ai/research":
             return self.send(200, ai_research(b.get("id", "")))
