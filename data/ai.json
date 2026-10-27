@@ -103,5 +103,131 @@
    "company": "Atmos Clinic, Inc."
   }
  },
- "rank": {}
+ "rank": {
+  "sec-2153524": {
+   "adjust": -15,
+   "reason": "Ellipsys is a known vascular-access medical device name, not a patient-app business.",
+   "at": 1793116947.421474
+  },
+  "sec-2159134": {
+   "adjust": 0,
+   "reason": "A new clinic with a $6M raise matches the clinic-wants-a-patient-app profile, so the score is already right.",
+   "at": 1793116947.421474
+  },
+  "sec-2158716": {
+   "adjust": -2,
+   "reason": "The type of health business is unclear and the raise is small, so the high score looks slightly generous.",
+   "at": 1793116947.421474
+  },
+  "sec-2157443": {
+   "adjust": -10,
+   "reason": "'Medical Innovations' points to a device or product company rather than patient care.",
+   "at": 1793116947.421474
+  },
+  "sec-2076369": {
+   "adjust": -5,
+   "reason": "Likely a pharma or drug company, and it is unclear whether it serves patients directly.",
+   "at": 1793116947.421474
+  },
+  "sec-2150135": {
+   "adjust": -3,
+   "reason": "Senior health could mean a care organization, but a $250k raise is very early stage.",
+   "at": 1793116947.421474
+  },
+  "sec-2149298": {
+   "adjust": -15,
+   "reason": "Therapeutics means a drug developer, which has no use for a patient health-data app.",
+   "at": 1793116947.421474
+  },
+  "sec-2151959": {
+   "adjust": 5,
+   "reason": "Cabana Health looks like a consumer telehealth and pharmacy offering, which is a direct fit.",
+   "at": 1793116947.421474
+  },
+  "sec-2137776": {
+   "adjust": 0,
+   "reason": "The business is unclear from the name alone, so the score is about right.",
+   "at": 1793116947.421474
+  },
+  "sec-2148338": {
+   "adjust": -3,
+   "reason": "The business is vague and the raise is tiny, so the score looks a bit high.",
+   "at": 1793116947.421474
+  },
+  "sec-2146432": {
+   "adjust": -10,
+   "reason": "The name suggests a medical device or products company, not patient care.",
+   "at": 1793116947.421474
+  },
+  "sec-2139762": {
+   "adjust": 8,
+   "reason": "A physician-led holding company in the clinic space looks like a good candidate for a branded patient app.",
+   "at": 1793116947.421474
+  },
+  "sec-2147890": {
+   "adjust": -18,
+   "reason": "StimCardio is a cardiac stimulation device company, and the $25M raise suggests a device focus.",
+   "at": 1793116947.421474
+  },
+  "sec-2107143": {
+   "adjust": -15,
+   "reason": "Therapeutics means a drug developer, not a telehealth or care company.",
+   "at": 1793116947.421474
+  },
+  "sec-2161685": {
+   "adjust": -10,
+   "reason": "A holding company with no health signal in the name and no stated telehealth link.",
+   "at": 1793116947.421474
+  },
+  "sec-2159264": {
+   "adjust": -3,
+   "reason": "Aesthetics could be a med spa, which is a loose fit, but there is no sign of telehealth.",
+   "at": 1793116947.421474
+  },
+  "sec-2115414": {
+   "adjust": -8,
+   "reason": "Nothing in the filing points to a care or telehealth model, and it is more likely biotech or tech.",
+   "at": 1793116947.421474
+  },
+  "sec-2159418": {
+   "adjust": -12,
+   "reason": "Lev 18 has no healthcare signal in the name and is probably not a care business.",
+   "at": 1793116947.421474
+  },
+  "sec-2157570": {
+   "adjust": 0,
+   "reason": "A health-named company founded in 2024 with a mid-size raise is a plausible fit, so the score stands.",
+   "at": 1793116947.421474
+  },
+  "sec-2156162": {
+   "adjust": -12,
+   "reason": "A $31M raise and a board of technologists suggest a drug or AI developer that builds in-house.",
+   "at": 1793116947.421474
+  },
+  "sec-2156291": {
+   "adjust": -8,
+   "reason": "Recovery solutions may mean a device or addiction-services business, and the fit is uncertain.",
+   "at": 1793116947.421474
+  },
+  "sec-2155851": {
+   "adjust": -20,
+   "reason": "An investor LLC managed by a capital advisor is a pooled investment vehicle, not a health company.",
+   "at": 1793116947.421474
+  },
+  "sec-2155354": {
+   "adjust": -12,
+   "reason": "Terrace Systems is a generic systems name with no clear healthcare or patient-app link.",
+   "at": 1793116947.421474
+  },
+  "sec-2159248": {
+   "adjust": 0,
+   "reason": "A health-named technology company is plausible, but the $250k raise is small, so the score is about right.",
+   "at": 1793116947.421474
+  },
+  "sec-2131697": {
+   "adjust": -3,
+   "reason": "Penelope Health is a digital health company with $25M that may build its own stack, but it is still a plausible fit.",
+   "at": 1793116947.421474
+  }
+ }
 }
