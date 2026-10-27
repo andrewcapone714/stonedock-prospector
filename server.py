@@ -225,7 +225,7 @@ RELEVANT = {
 # Names that point to a big, established organization rather than a startup
 LARGE_ORG = re.compile(
     r"\b(university|hospital|memorial|health plan|health ?system|medical center|healthcare system|society|association|college|"
-    r"department|county|state of|government|ministry|stores|supermarket|kaiser|cvs|walgreens|unitedhealth|"
+    r"department|county|state of|government|ministry|stores|supermarket|kaiser|cvs|walgreens|united ?health(care)?|"
     r"cigna|aetna|humana|anthem|elevance|blue cross|bcbs|optum|commonspirit|providence|ascension|"
     r"fresenius|davita|u\.?s\.? renal|hca|tenet|uspi|surgery partners)\b", re.I)
 
