@@ -94,7 +94,7 @@
 <g id="pb-fRefresh" display="none"><g stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M127 144q7-8 14 0M159 144q7-8 14 0"/><path d="M138 154q12 14 24 0z" fill="#0f172a"/></g><g fill="#F09595" opacity=".75"><circle cx="122" cy="154" r="5"/><circle cx="178" cy="154" r="5"/></g><g fill="#85B7EB"><path class="pb-spark" d="M206 110l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/><path class="pb-spark" d="M92 118l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" style="animation-delay:.3s"/></g></g>
 <g class="pb-x p-error"><path class="pb-drop" d="M198 118q6 10 0 14q-6-4 0-14z" fill="#85B7EB"/></g>
 <g class="pb-x p-read"><path d="M108 172l42 6 42-6v32l-42 6-42-6z" fill="#185FA5"/><path d="M112 172l38 5v28l-38-5z" fill="#FAF9F5"/><path d="M188 172l-38 5v28l38-5z" fill="#FAF9F5"/><use href="#pb-lines" transform="translate(150 177) scale(-1 1)"/><use href="#pb-lines" transform="translate(150 177)"/><g id="pb-flipPage"><path d="M150 177l36-5v28l-36 5z" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="1"/><use href="#pb-lines" transform="translate(150 177)"/></g><line x1="150" y1="176" x2="150" y2="206" stroke="#0C447C" stroke-width="2.5"/></g>
-<g class="pb-x pb-props"><path id="pb-p-band" d="M-14 0q14-6 28 0" stroke="#E24B4A" stroke-width="5" fill="none" stroke-linecap="round" display="none"/><g id="pb-p-bar" display="none"><line x1="-76" y1="0" x2="76" y2="0" stroke="#444441" stroke-width="5"/><rect x="-90" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/><rect x="76" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/></g><ellipse id="pb-p-st1" rx="30" ry="12" fill="#6b7280" display="none"/><ellipse id="pb-p-st2" rx="20" ry="9" fill="#4b5563" display="none"/></g>
+<g class="pb-x pb-props"><path id="pb-p-band" d="M-14 0q14-6 28 0" stroke="#E24B4A" stroke-width="6" fill="none" stroke-linecap="round" vector-effect="non-scaling-stroke" display="none"/><g id="pb-p-bar" display="none"><line x1="-76" y1="0" x2="76" y2="0" stroke="#444441" stroke-width="5"/><rect x="-90" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/><rect x="76" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/></g><ellipse id="pb-p-st1" rx="30" ry="12" fill="#6b7280" display="none"/><ellipse id="pb-p-st2" rx="20" ry="9" fill="#4b5563" display="none"/></g>
 <g fill="none" stroke="#2f5fbe" stroke-width="6" stroke-linecap="round">
 <g class="pb-x a-down"><path d="M96 152 Q84 168 88 178"/><path d="M204 152 Q216 168 212 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><use ${HAND} transform="translate(212 180) rotate(180)"/></g>
 <g class="pb-x a-hello"><path d="M96 152 Q84 168 88 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><g class="pb-wave"><path d="M204 150 Q224 132 222 108"/><use ${HAND} transform="translate(222 104) rotate(10)"/></g></g>
@@ -116,6 +116,7 @@
 <line id="pb-stream" x1="0" y1="0" x2="0" y2="0" stroke="#378ADD" stroke-width="3" display="none"/><use id="pb-freeH" ${HAND} display="none"/></g>
 <g class="pb-x a-dyn"><path id="pb-dL" d="M96 152 Q84 168 88 178"/><path id="pb-dR" d="M204 152 Q216 168 212 178"/><use id="pb-dHL" ${HAND}/><use id="pb-dHR" ${HAND}/></g>
 </g>
+<g id="pb-bin" display="none"><path d="M-17 -36h34l-3 36h-28z" fill="#1D9E75"/><rect x="-19" y="-40" width="38" height="6" rx="2" fill="#0F6E56"/><path d="M-6 -12l4-7 4 7M7 -9l-3 6h-8M-9 -9l3 6" stroke="#E1F5EE" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
 <g class="pb-x p-type"><rect x="108" y="160" width="84" height="30" rx="4" fill="#5F5E5A"/><rect x="112" y="164" width="76" height="22" rx="2" fill="#444441"/><circle cx="150" cy="175" r="4" fill="#85B7EB"/><path d="M100 206l8-14h84l8 14z" fill="#2C2C2A"/></g>
 </g>
 </svg>`;
@@ -130,11 +131,14 @@
 
   function cls(s) { svg.setAttribute('class', ''); void svg.getBBox(); svg.setAttribute('class', 's-' + s); }
 
-  // drinking: reach down for the bottle, pick it up, drink it empty (stream, gulps, glug), put it back on the
-  // ground, let go, then look refreshed
+  // drinking: the bottle pops up on the ground, Pebble picks it up and drinks it empty (stream, gulps, glug),
+  // then a recycling bin pops up, the bottle goes in, the bin goes away, and Pebble looks refreshed
   const GROUND = { x: 238, y: 166, a: 0 }, REST = { x: 212, y: 150, a: 0 }, MOUTH = { x: 156, y: 158, a: -128 };
+  const ABOVE_BIN = { x: 264, y: 118, a: 0 }, IN_BIN = { x: 264, y: 172, a: 0 };
   const mixP = (A, B, k) => ({ x: lerp(A.x, B.x, k), y: lerp(A.y, B.y, k), a: lerp(A.a, B.a, k) });
   const gripOf = p => { const r = p.a * Math.PI / 180; return [p.x + Math.cos(r) * 13 - Math.sin(r) * 23, p.y + Math.sin(r) * 13 + Math.cos(r) * 23]; };
+  // pop-in: grows a little past full size, then settles; pop-out: shrinks and fades
+  const popIn = k => k < .7 ? 1.15 * (1 - Math.pow(1 - k / .7, 3)) : 1.15 - .15 * ease((k - .7) / .3);
   function grip(on) {
     svg.querySelectorAll('.pb-grip').forEach(e => e.style.display = on ? '' : 'none');
     $('pb-freeH').setAttribute('display', on ? 'none' : 'inline');
@@ -145,24 +149,40 @@
     $('pb-fRefresh').style.display = n === 'refresh' ? 'inline' : 'none';
     $('pb-ahh').style.display = n === 'refresh' ? 'inline' : 'none';
   }
+  function bin(scale, opacity = 1) {
+    const b = $('pb-bin');
+    b.setAttribute('display', scale > 0 ? 'inline' : 'none');
+    b.setAttribute('transform', `translate(264 206) scale(${scale})`);
+    b.setAttribute('opacity', opacity);
+  }
   function water() {
-    const PHASES = [['reach', 600], ['pick', 600], ['lift', 900], ['drink', 3000], ['lower', 900], ['put', 600], ['let', 500], ['refresh', 1500]];
+    const PHASES = [['pop', 450], ['reach', 550], ['pick', 550], ['lift', 850], ['drink', 2800], ['lower', 850],
+      ['binIn', 450], ['toss', 650], ['drop', 450], ['binOut', 400], ['refresh', 1500]];
     const t0 = performance.now();
     function step(now) {
       let e = now - t0, name = null, k = 0;
       for (const [n, d] of PHASES) { if (e < d) { name = n; k = e / d; break; } e -= d; }
       if (!name) { set('idle'); return; }
       const K = ease(k);
-      let p = GROUND, hand = null, level = 1, f = 'normal';
-      if (name === 'reach') { grip(false); hand = mixA(HOME.R, gripOf(GROUND), K); }
+      let p = GROUND, hand = null, level = 1, f = 'normal', scale = 1, alpha = 1;
+      if (name === 'pop') { grip(false); hand = HOME.R; scale = popIn(k); }
+      else if (name === 'reach') { grip(false); hand = mixA(HOME.R, gripOf(GROUND), K); }
       else if (name === 'pick') { grip(true); p = mixP(GROUND, REST, K); }
       else if (name === 'lift') { p = mixP(REST, MOUTH, K); }
       else if (name === 'drink') { p = MOUTH; f = 'drink'; level = 1 - k; $('pb-mouthO').setAttribute('r', 3.5 + Math.abs(Math.sin(now / 120)) * 1.5); }
       else if (name === 'lower') { p = mixP(MOUTH, REST, K); level = 0; f = 'drink'; }
-      else if (name === 'put') { p = mixP(REST, GROUND, K); level = 0; f = 'drink'; }
-      else if (name === 'let') { level = 0; f = 'drink'; grip(false); hand = mixA(gripOf(GROUND), HOME.R, K); }
-      else { level = 0; grip(false); hand = HOME.R; f = 'refresh'; }
-      $('pb-bottle').setAttribute('transform', `translate(${p.x} ${p.y}) rotate(${p.a})`);
+      else if (name === 'binIn') { p = REST; level = 0; bin(popIn(k)); }
+      else if (name === 'toss') { p = mixP(REST, ABOVE_BIN, K); level = 0; bin(1); }
+      else if (name === 'drop') {  // let go: the bottle falls into the bin, the hand goes home
+        level = 0; grip(false); bin(1);
+        p = mixP(ABOVE_BIN, IN_BIN, k * k); alpha = k < .75 ? 1 : 1 - (k - .75) / .25;
+        hand = mixA(gripOf(ABOVE_BIN), HOME.R, K);
+      }
+      else if (name === 'binOut') { level = 0; grip(false); hand = HOME.R; alpha = 0; bin(1 - .4 * K, 1 - K); }
+      else { level = 0; grip(false); hand = HOME.R; alpha = 0; bin(0); f = 'refresh'; }
+      const bt = $('pb-bottle');
+      bt.setAttribute('transform', `translate(${p.x} ${p.y}) rotate(${p.a}) translate(0 20) scale(${scale}) translate(0 -20)`);
+      bt.setAttribute('opacity', alpha);
       const h = hand || gripOf(p);
       $('pb-armW').setAttribute('d', arm('R', h));
       if (hand) handAt($('pb-freeH'), 'R', hand);
@@ -183,14 +203,14 @@
     raf = requestAnimationFrame(step);
   }
 
-
   // ---------- scenes: the idle routines' start and finish (getting the prop, putting it away) ----------
   // Arms are drawn freely here: each frame says where the hands go; props (headband, barbell, stones) can sit
   // anywhere, be carried, or be hidden. frames[0] is the starting pose; each later frame is reached over t ms.
   const SH = { L: [96, 152], R: [204, 152] }, HOME = { L: [88, 180], R: [212, 180] };
   const PROPS = ['band', 'bar', 'st1', 'st2'];
   const mixA = (a, b, k) => a.map((v, i) => lerp(v, b[i] ?? v, k));
-  const pad = q => [q[0], q[1], q[2] ?? 0, q[3] ?? 1];  // prop position: x, y, rotation, scale
+  const pad = q => [q[0], q[1], q[2] ?? 0, q[3] ?? 1, q[4] ?? 1];  // prop: x, y, rotation, scale, opacity
+  const EASE = { lin: k => k, in: k => k * k, out: k => 1 - (1 - k) * (1 - k) };
   function arm(side, [hx, hy]) {
     const [sx, sy] = SH[side], out = side === 'L' ? -1 : 1;
     return `M${sx} ${sy} Q${(sx + hx) / 2 + out * 12} ${(sy + hy) / 2 + 10} ${hx} ${hy}`;
@@ -202,11 +222,11 @@
   function scene(frames, then) {
     const full = [];
     let prev = { L: HOME.L, R: HOME.R, face: 'normal', hb: false };
-    for (const f of frames) { prev = { ...prev, ...f }; full.push(prev); }
+    for (const f of frames) { prev = { ...prev, ease: undefined, ...f }; full.push(prev); }
     let i = 0, t0 = performance.now();
     const step = now => {
       const a = full[Math.max(0, i - 1)], b = full[i];
-      const k = b.t ? ease(Math.min(1, (now - t0) / b.t)) : 1;
+      const k = b.t ? (EASE[b.ease] || ease)(Math.min(1, (now - t0) / b.t)) : 1;
       svg.setAttribute('class', `s-dyn fx-${b.face}${b.hb ? ' hb' : ''}${b.backR ? ' backR' : ''}`);
       const L = mixA(a.L, b.L, k), R = mixA(a.R, b.R, k);
       $('pb-dL').setAttribute('d', arm('L', L)); $('pb-dR').setAttribute('d', arm('R', R));
@@ -215,8 +235,9 @@
       for (const name of PROPS) {
         const el = $('pb-p-' + name), to = b[name], from = a[name];
         if (!to) { el.setAttribute('display', 'none'); continue; }
-        const [x, y, r, sc] = from ? mixA(pad(from), pad(to), k) : pad(to);
+        const [x, y, r, sc, op] = from ? mixA(pad(from), pad(to), k) : pad(to);
         el.setAttribute('display', 'inline');
+        el.setAttribute('opacity', op);
         el.setAttribute('transform', `translate(${x} ${y}) rotate(${r}) scale(${sc})`);
       }
       if (k >= 1) {
@@ -229,41 +250,56 @@
   }
   const later = (ms, fn) => { timer = setTimeout(fn, ms); };
 
-  // jogging: headband out from behind the back, on, jog, off, back behind the back
+  // jogging: headband from behind the back, to the chest, stretched out with both hands, up onto the head;
+  // at the end the same in reverse
   function runScene() {
-    const BACK = [200, 124], HEAD_L = [104, 126], HEAD_R = [196, 126], HELD = [176, 122];  // BACK: hand hidden behind the body
-    scene([{ t: 0 }, { t: 550, R: BACK, backR: true }, { t: 500, R: HELD, backR: false, band: [HELD[0], HELD[1] - 4, 0, 1] },
-      { t: 550, L: HEAD_L, R: HEAD_R, band: [150, 129, 0, 3.9] }, { t: 300, band: null, hb: true },
-      { t: 400, L: HOME.L, R: HOME.R }], () => {
+    const BACK = [200, 124], HEAD_L = [104, 126], HEAD_R = [196, 126], CHEST = [166, 166];
+    scene([{ t: 0 }, { t: 500, R: BACK, backR: true },
+      { t: 450, R: CHEST, backR: false, band: [CHEST[0], CHEST[1] - 5, 0, 1] },
+      { t: 380, L: [124, 164], R: [176, 164], band: [150, 162, 0, 1.6] },
+      { t: 480, L: [108, 162], R: [192, 162], band: [150, 162, 0, 3] },
+      { t: 520, L: HEAD_L, R: HEAD_R, band: [150, 129, 0, 3.9] }, { t: 180, band: null, hb: true },
+      { t: 380, L: HOME.L, R: HOME.R }], () => {
       cls('run');
-      later(4000, () => scene([{ t: 0, hb: true }, { t: 450, L: HEAD_L, R: HEAD_R },
-        { t: 0, hb: false, band: [150, 129, 0, 3.9] }, { t: 500, R: HELD, band: [HELD[0], HELD[1] - 4, 0, 1] },
-        { t: 550, L: HOME.L, R: BACK, backR: true, band: null },
-        { t: 450, R: HOME.R, backR: false }], () => set('idle')));
+      later(4000, () => scene([{ t: 0, hb: true }, { t: 420, L: HEAD_L, R: HEAD_R },
+        { t: 0, hb: false, band: [150, 129, 0, 3.9] }, { t: 480, L: [116, 162], R: [184, 162], band: [150, 162, 0, 2.6] },
+        { t: 380, L: HOME.L, R: CHEST, band: [CHEST[0], CHEST[1] - 5, 0, 1] },
+        { t: 480, R: BACK, backR: true, band: [BACK[0], BACK[1] - 4, 0, .8, 0] }, { t: 0, band: null },
+        { t: 420, R: HOME.R, backR: false }], () => set('idle')));
     });
   }
-  // weights: grab the barbell off the floor, chest, overhead, reps, then throw it away
+  // weights: the barbell pops up on the floor; grab, chest, overhead; reps; wind back, swing, let go, and it
+  // tumbles off-screen
   function liftScene() {
-    scene([{ t: 0, bar: [150, 198, 0] }, { t: 600, L: [112, 196], R: [188, 196] },
+    const FLOOR = [150, 198, 0];
+    scene([{ t: 0, bar: [...FLOOR, 0, 0] }, { t: 300, bar: [...FLOOR, 1.12, 1], ease: 'out' }, { t: 150, bar: [...FLOOR, 1, 1] },
+      { t: 550, L: [112, 196], R: [188, 196] },
       { t: 650, L: [112, 150], R: [188, 150], bar: [150, 150, 0], face: 'strain' },
       { t: 550, L: [112, 106], R: [188, 106], bar: [150, 104, 0] }], () => {
       cls('lift');
       later(3600, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain' },
-        { t: 350, L: [104, 98], R: [180, 96], bar: [142, 94, -8] },
-        { t: 450, L: [120, 118], R: [236, 112], bar: [340, 150, 80], face: 'happy' },
-        { t: 250, bar: null }, { t: 450, L: HOME.L, R: HOME.R, face: 'normal' }], () => set('idle')));
+        { t: 380, L: [94, 112], R: [170, 98], bar: [132, 100, -14] },
+        { t: 260, L: [140, 100], R: [218, 92], bar: [196, 90, 12], face: 'happy', ease: 'in' },
+        { t: 320, L: [116, 132], R: [230, 108], bar: [262, 92, 75], ease: 'lin' },
+        { t: 380, bar: [322, 188, 170], ease: 'in' }, { t: 0, bar: null },
+        { t: 420, L: HOME.L, R: HOME.R, face: 'normal' }], () => set('idle')));
     });
   }
-  // balancing stones: pick each up from the ground, stack them on its head, meditate, put them back
+  // balancing stones: both stones pop up beside Pebble; it stacks them on its head, meditates, puts them back,
+  // and they shrink away
   function meditateScene() {
     const S1 = [226, 200, 0], S2 = [262, 202, 0], H1 = [150, 106, 0], H2 = [150, 88, 0];
-    scene([{ t: 0, st1: S1, st2: S2 }, { t: 500, R: [226, 186] }, { t: 700, R: [150, 92], st1: H1 },
-      { t: 500, R: [262, 191] }, { t: 700, R: [150, 75], st2: H2 },
-      { t: 450, L: [140, 188], R: [160, 188], face: 'calm' }], () => {
+    scene([{ t: 0, st1: [...S1, 0, 0], st2: [...S2, 0, 0] },
+      { t: 280, st1: [...S1, 1.15, 1], ease: 'out' }, { t: 120, st1: [...S1, 1, 1], st2: [...S2, 1.15, 1], ease: 'out' },
+      { t: 160, st2: [...S2, 1, 1] },
+      { t: 450, R: [226, 186] }, { t: 650, R: [150, 92], st1: H1 },
+      { t: 450, R: [262, 191] }, { t: 650, R: [150, 75], st2: H2 },
+      { t: 420, L: [140, 188], R: [160, 188], face: 'calm' }], () => {
       cls('meditate');
       later(3000, () => scene([{ t: 0, L: [140, 188], R: [160, 188], st1: H1, st2: H2, face: 'calm' },
-        { t: 450, L: HOME.L, R: [150, 75], face: 'normal' }, { t: 650, R: [262, 191], st2: S2 },
-        { t: 450, R: [150, 92] }, { t: 650, R: [226, 186], st1: S1 }, { t: 400, R: HOME.R }], () => set('idle')));
+        { t: 420, L: HOME.L, R: [150, 75], face: 'normal' }, { t: 600, R: [262, 191], st2: S2 },
+        { t: 420, R: [150, 92] }, { t: 600, R: [226, 186], st1: S1 }, { t: 380, R: HOME.R },
+        { t: 420, st1: [...S1, .5, 0], st2: [...S2, .5, 0] }, { t: 0, st1: null, st2: null }], () => set('idle')));
     });
   }
   const SCENES = { run: runScene, lift: liftScene, meditate: meditateScene };
@@ -308,6 +344,8 @@
     PROPS.forEach(n => $('pb-p-' + n).setAttribute('display', 'none'));
     svg.querySelectorAll('.pb-grip').forEach(e => e.style.display = '');
     $('pb-freeH').setAttribute('display', 'none');
+    $('pb-bin').setAttribute('display', 'none');
+    $('pb-bottle').setAttribute('opacity', 1);
     $('pb-fNormal').style.display = ''; $('pb-ahh').style.display = 'none'; $('pb-glug').setAttribute('display', 'none');
     if (s === 'hello') timer = setTimeout(() => { cls('hello2'); timer = setTimeout(() => set('idle'), 3200); }, 2300);
     else if (s === 'water') water();
