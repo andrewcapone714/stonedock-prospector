@@ -24,7 +24,17 @@ While `python server.py` is running, the tool re-runs both searches on its own (
 - If the page is open when new companies arrive, a pop-up tells you how many.
 - In **Settings** you can change how often it checks (every hour to once a day), turn auto-update off, or have strong new companies (fit 70, 80 or 90+) **added to the pipeline automatically**, with the leaders from their SEC filing as contacts. Solo developers are never added.
 
-Nothing updates while the server is stopped; it catches up a minute after you start it again.
+### Even when your computer is off (cloud mode)
+
+This folder is connected to the private GitHub repo **andrewcapone714/stonedock-prospector**. GitHub Actions (`.github/workflows/update.yml`) wakes up every 2 hours, runs whichever search is due (by **Check every**, so at most every 2 hours in practice) and saves the results back to the repo, NEW marks and auto-added leads included.
+
+- When you start the Prospector, and every 15 minutes while it runs, it downloads what the cloud found; your pipeline and settings changes are uploaded about 20 seconds after you make them. If both sides changed the pipeline, the two are combined (the most recent edit to a lead wins; deleted leads stay deleted). For search results, the cloud's copy wins.
+- In cloud mode the Prospector doesn't run scheduled searches itself; the header chip says **Cloud auto-update**. Manual searches still work.
+- Your SEC email is never uploaded: it lives in `data/local.json` on this computer and in the repo secret `SEC_CONTACT` for the cloud.
+- To run the cloud update now: repo → **Actions** → **Update prospects** → **Run workflow** (runs both searches).
+- Free for private repos: about 2,000 Actions minutes a month are included; this uses roughly 500–900.
+
+Without cloud mode, nothing updates while the server is stopped; it catches up a minute after you start it again.
 
 ## How to use it
 
