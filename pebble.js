@@ -40,9 +40,10 @@
 #pbSvg .pb-hL{animation:pb-hL .2s ease-in-out infinite alternate;transform-box:view-box}#pbSvg .pb-hR{animation:pb-hR .2s ease-in-out infinite alternate-reverse;transform-box:view-box}
 #pbSvg .pb-swL{transform-box:view-box;transform-origin:96px 150px;animation:pb-sw .35s infinite alternate}
 #pbSvg .pb-swR{transform-box:view-box;transform-origin:204px 150px;animation:pb-sw .35s infinite alternate-reverse}
-#pbSvg .pb-lgL{transform-box:view-box;transform-origin:134px 182px;animation:pb-sw .35s infinite alternate-reverse;animation-play-state:paused}
-#pbSvg .pb-lgR{transform-box:view-box;transform-origin:166px 182px;animation:pb-sw .35s infinite alternate;animation-play-state:paused}
-#pbSvg.s-run .pb-lgL,#pbSvg.s-run .pb-lgR{animation-play-state:running}
+/* the legs only swing while jogging; a paused swing still holds its tilted first position, so it isn't attached at all otherwise */
+#pbSvg .pb-lgL{transform-box:view-box;transform-origin:134px 182px}
+#pbSvg .pb-lgR{transform-box:view-box;transform-origin:166px 182px}
+#pbSvg.s-run .pb-lgL{animation:pb-sw .35s infinite alternate-reverse}#pbSvg.s-run .pb-lgR{animation:pb-sw .35s infinite alternate}
 #pbSvg .pb-wind{animation:pb-wind .7s linear infinite}
 #pbSvg .pb-bar{animation:pb-bar 1.2s ease-in-out infinite;transform-box:view-box}
 #pbSvg .pb-armLL{animation:pb-aL 1.2s ease-in-out infinite}#pbSvg .pb-armLR{animation:pb-aR 1.2s ease-in-out infinite}
