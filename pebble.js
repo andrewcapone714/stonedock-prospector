@@ -1,7 +1,7 @@
 // Pebble, the StoneDock Prospector's AI helper: the blue middle stone of the StoneDock logo.
 // Pebble.mount(el) draws it; Pebble.set(state) switches what it's doing:
 //   hello · idle · think · search · type · read · done · error   (work)
-//   run · lift · water · meditate                                (idle easter eggs: 7 s idle, ~7 s routine, repeat)
+//   run · lift · water · meditate                                (idle easter eggs: 7 s idle, ~10 s routine, repeat)
 // Multi-step scenes (drinking, page turning, hello) run on one JavaScript timeline so their parts can't drift apart.
 (function () {
   const CSS = `
@@ -157,7 +157,7 @@
   }
   function water() {
     const PHASES = [['pop', 450], ['reach', 550], ['pick', 550], ['lift', 850], ['drink', 2800], ['lower', 850],
-      ['binIn', 450], ['toss', 650], ['drop', 450], ['binOut', 400], ['refresh', 1500]];
+      ['binIn', 450], ['toss', 650], ['drop', 450], ['binOut', 400], ['refresh', 2000]];  // 10 s in all
     const t0 = performance.now();
     function step(now) {
       let e = now - t0, name = null, k = 0;
@@ -250,43 +250,69 @@
   }
   const later = (ms, fn) => { timer = setTimeout(fn, ms); };
 
-  // jogging: headband from behind the back, to the chest, stretched out with both hands, up onto the head;
-  // at the end the same in reverse
+  // jogging (≈10 s): the right arm reaches behind the body until the hand is hidden, comes back round the side
+  // with the headband, brings it to the chest, both hands stretch it, it goes on the head; jog; then the same
+  // arm carries it back round the side and behind the back, and comes back empty
   function runScene() {
-    const BACK = [200, 124], HEAD_L = [104, 126], HEAD_R = [196, 126], CHEST = [166, 166];
-    scene([{ t: 0 }, { t: 500, R: BACK, backR: true },
-      { t: 450, R: CHEST, backR: false, band: [CHEST[0], CHEST[1] - 5, 0, 1] },
-      { t: 380, L: [124, 164], R: [176, 164], band: [150, 162, 0, 1.6] },
-      { t: 480, L: [108, 162], R: [192, 162], band: [150, 162, 0, 3] },
-      { t: 520, L: HEAD_L, R: HEAD_R, band: [150, 129, 0, 3.9] }, { t: 180, band: null, hb: true },
-      { t: 380, L: HOME.L, R: HOME.R }], () => {
+    const BEHIND = [182, 142], SIDE = [216, 136], CHEST = [166, 166], HEAD_L = [104, 126], HEAD_R = [196, 126];
+    const held = (h, sc = 1, op = 1) => [h[0], h[1] - 5, 0, sc, op];
+    scene([{ t: 0 },
+      { t: 650, R: BEHIND, backR: true },                                   // reach behind the back (hand disappears)
+      { t: 450, R: SIDE, band: held(SIDE, 1, 0) },                           // round the side…
+      { t: 450, R: CHEST, backR: false, band: held(CHEST) },                 // …the headband comes out on the way to the chest
+      { t: 400, L: [124, 164], R: [176, 164], band: [150, 162, 0, 1.6] },    // both hands take the ends
+      { t: 520, L: [108, 162], R: [192, 162], band: [150, 162, 0, 3] },      // stretch it out
+      { t: 550, L: HEAD_L, R: HEAD_R, band: [150, 129, 0, 3.9] },            // up onto the head
+      { t: 200, band: null, hb: true },
+      { t: 400, L: HOME.L, R: HOME.R }], () => {
       cls('run');
-      later(4000, () => scene([{ t: 0, hb: true }, { t: 420, L: HEAD_L, R: HEAD_R },
-        { t: 0, hb: false, band: [150, 129, 0, 3.9] }, { t: 480, L: [116, 162], R: [184, 162], band: [150, 162, 0, 2.6] },
-        { t: 380, L: HOME.L, R: CHEST, band: [CHEST[0], CHEST[1] - 5, 0, 1] },
-        { t: 480, R: BACK, backR: true, band: [BACK[0], BACK[1] - 4, 0, .8, 0] }, { t: 0, band: null },
-        { t: 420, R: HOME.R, backR: false }], () => set('idle')));
+      later(3550, () => scene([{ t: 0, hb: true },
+        { t: 450, L: HEAD_L, R: HEAD_R },
+        { t: 0, hb: false, band: [150, 129, 0, 3.9] },
+        { t: 500, L: [116, 162], R: [184, 162], band: [150, 162, 0, 2.6] },
+        { t: 350, L: HOME.L, R: CHEST, band: held(CHEST) },
+        { t: 400, R: SIDE, band: held(SIDE) },                                // the same arm takes it round the side…
+        { t: 450, R: BEHIND, backR: true, band: held(BEHIND, .8, 0) },        // …and behind the back
+        { t: 300, R: SIDE, band: null },                                      // comes back empty
+        { t: 400, R: HOME.R, backR: false }], () => set('idle')));
     });
   }
-  // weights: the barbell pops up on the floor; grab, chest, overhead; reps; wind back, swing, let go, and it
-  // tumbles off-screen
+  // weights (≈10 s): the barbell pops up on the floor; grab, chest, overhead; reps; wind back, then one smooth
+  // throw: the bar leaves the hands and flies a single arc (up, over, down off-screen) spinning steadily
   function liftScene() {
     const FLOOR = [150, 198, 0];
+    const grips = (x, y, r) => { const c = Math.cos(r * Math.PI / 180) * 38, d = Math.sin(r * Math.PI / 180) * 38; return { L: [x - c, y - d], R: [x + c, y + d] }; };
+    const throwFrames = () => {
+      // bar path over the whole throw: x moves steadily right, y rises then falls (a parabola), rotation spins on
+      const X0 = 134, Y0 = 100, R0 = -14, N = 18, DUR = 1300, RELEASE = .22, FT_L = [126, 126], FT_R = [222, 104];
+      const at = t => [X0 + 210 * t, Y0 - 80 * t + 210 * t * t, R0 + 230 * t];
+      const released = grips(...at(RELEASE)), out = [];
+      for (let i = 1; i <= N; i++) {
+        const t = i / N, [x, y, r] = at(t);
+        const f = { t: DUR / N, ease: 'lin', bar: [x, y, r] };
+        if (t <= RELEASE) Object.assign(f, grips(x, y, r));                   // hands still on the bar
+        else {                                                                 // let go: hands follow through
+          const k = ease(Math.min(1, (t - RELEASE) / .35));
+          f.L = mixA(released.L, FT_L, k); f.R = mixA(released.R, FT_R, k);
+        }
+        if (i === Math.ceil(RELEASE * N)) f.face = 'happy';
+        out.push(f);
+      }
+      return out;
+    };
     scene([{ t: 0, bar: [...FLOOR, 0, 0] }, { t: 300, bar: [...FLOOR, 1.12, 1], ease: 'out' }, { t: 150, bar: [...FLOOR, 1, 1] },
-      { t: 550, L: [112, 196], R: [188, 196] },
-      { t: 650, L: [112, 150], R: [188, 150], bar: [150, 150, 0], face: 'strain' },
-      { t: 550, L: [112, 106], R: [188, 106], bar: [150, 104, 0] }], () => {
+      { t: 600, L: [112, 196], R: [188, 196] },
+      { t: 700, L: [112, 150], R: [188, 150], bar: [150, 150, 0], face: 'strain' },
+      { t: 600, L: [112, 106], R: [188, 106], bar: [150, 104, 0] }], () => {
       cls('lift');
-      later(3600, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain' },
-        { t: 380, L: [94, 112], R: [170, 98], bar: [132, 100, -14] },
-        { t: 260, L: [140, 100], R: [218, 92], bar: [196, 90, 12], face: 'happy', ease: 'in' },
-        { t: 320, L: [116, 132], R: [230, 108], bar: [262, 92, 75], ease: 'lin' },
-        { t: 380, bar: [322, 188, 170], ease: 'in' }, { t: 0, bar: null },
-        { t: 420, L: HOME.L, R: HOME.R, face: 'normal' }], () => set('idle')));
+      later(5400, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain' },
+        { t: 600, ...grips(134, 100, -14), bar: [134, 100, -14] },             // wind back
+        ...throwFrames(), { t: 0, bar: null },
+        { t: 500, L: HOME.L, R: HOME.R, face: 'normal' }], () => set('idle')));
     });
   }
-  // balancing stones: both stones pop up beside Pebble; it stacks them on its head, meditates, puts them back,
-  // and they shrink away
+  // balancing stones (≈10 s): both stones pop up beside Pebble; it stacks them on its head, meditates, puts them
+  // back, and they shrink away
   function meditateScene() {
     const S1 = [226, 200, 0], S2 = [262, 202, 0], H1 = [150, 106, 0], H2 = [150, 88, 0];
     scene([{ t: 0, st1: [...S1, 0, 0], st2: [...S2, 0, 0] },
@@ -296,7 +322,7 @@
       { t: 450, R: [262, 191] }, { t: 650, R: [150, 75], st2: H2 },
       { t: 420, L: [140, 188], R: [160, 188], face: 'calm' }], () => {
       cls('meditate');
-      later(3000, () => scene([{ t: 0, L: [140, 188], R: [160, 188], st1: H1, st2: H2, face: 'calm' },
+      later(4000, () => scene([{ t: 0, L: [140, 188], R: [160, 188], st1: H1, st2: H2, face: 'calm' },
         { t: 420, L: HOME.L, R: [150, 75], face: 'normal' }, { t: 600, R: [262, 191], st2: S2 },
         { t: 420, R: [150, 92] }, { t: 600, R: [226, 186], st1: S1 }, { t: 380, R: HOME.R },
         { t: 420, st1: [...S1, .5, 0], st2: [...S2, .5, 0] }, { t: 0, st1: null, st2: null }], () => set('idle')));
