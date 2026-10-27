@@ -13,6 +13,10 @@
 #pbSvg.s-dyn.fx-normal .f-normal,#pbSvg.s-dyn.fx-strain .f-strain,#pbSvg.s-dyn.fx-happy .f-happy,#pbSvg.s-dyn.fx-calm .f-calm{display:inline}
 #pbSvg.s-run .p-band,#pbSvg.hb .p-band{display:inline}
 #pbSvg.s-run .p-sweatrun,#pbSvg.s-lift .p-sweatrun,#pbSvg.sweaty .p-sweatrun{display:inline}
+/* sweat builds up gradually: full after 3 s of jogging, and by the 5th rep of lifting (5 × 1.2 s) */
+#pbSvg.s-run .p-sweatrun{animation:pb-sweatin 3s linear both}
+#pbSvg.s-lift .p-sweatrun{animation:pb-sweatin 6s linear both}
+@keyframes pb-sweatin{from{opacity:0}to{opacity:1}}
 #pbSvg.s-dyn.fx-wink .f-wink{display:inline}
 #pbSvg.flex .a-flex{display:inline}#pbSvg.flex #pb-dR,#pbSvg.flex #pb-dHR{display:none}
 #pbSvg.cross .pb-legs{display:none}#pbSvg.cross .p-cross{display:inline}
@@ -330,7 +334,7 @@
     };
     scene([{ t: 0, bar: [...FLOOR, 0, 0] }, { t: 300, bar: [...FLOOR, 1.12, 1], ease: 'out' }, { t: 150, bar: [...FLOOR, 1, 1] },
       { t: 600, L: [112, 196], R: [188, 196] },
-      { t: 700, L: [112, 150], R: [188, 150], bar: [150, 150, 0], face: 'strain', sweaty: true },
+      { t: 700, L: [112, 150], R: [188, 150], bar: [150, 150, 0], face: 'strain' },
       { t: 600, L: [112, 106], R: [188, 106], bar: [150, 104, 0] }], () => {
       cls('lift');
       later(REPS * REP_MS, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain', sweaty: true },
