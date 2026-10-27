@@ -129,7 +129,7 @@ def load_json(path, default):
 def save_json(path, obj):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     tmp = path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
+    with open(tmp, "w", encoding="utf-8", newline="\n") as f:  # same bytes on Windows and GitHub
         json.dump(obj, f, indent=1, ensure_ascii=False)
     os.replace(tmp, path)
 
