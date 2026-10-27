@@ -1623,8 +1623,33 @@ def all_items():
     return out
 
 
+def web_item(item_id, r):
+    """A company Pebble researched that isn't in any list (added from chat), shaped like the other items."""
+    return {"id": item_id, "kind": "web", "company": r.get("company") or "", "website": r.get("website") or "",
+            "link": r.get("link") or "", "location": r.get("location") or "", "type": r.get("type") or "",
+            "why_found": r.get("why_found") or "", "score": int(r.get("fit_score") or 0),
+            "why": [r["fit_score_reason"]] if r.get("fit_score_reason") else []}
+
+
 def find_item(item_id):
-    return next(((s, p) for s, p in all_items() if p["id"] == item_id), (None, None))
+    hit = next(((s, p) for s, p in all_items() if p["id"] == item_id), None)
+    if hit:
+        return hit
+    r = ai_store()["research"].get(item_id) if item_id.startswith("web-") else None
+    return ("web", web_item(item_id, r)) if r else (None, None)
+
+
+def find_by_name(name):
+    """A listed company whose name matches (ignoring Inc/LLC and punctuation), so a chat request reuses it."""
+    want = clean_key(name)
+    return next(((s, p) for s, p in all_items() if want and clean_key(p.get("company") or "") == want
+                 or want and clean_key(p.get("dba") or "") == want), (None, None))
+
+
+def clean_key(name):
+    n = re.sub(r"[^a-z0-9 ]", " ", (name or "").lower())
+    n = re.sub(r"\b(inc|llc|l l c|corp|corporation|co|ltd|pllc|pc|lp|the|company)\b", " ", n)
+    return " ".join(n.split())
 
 
 def describe(src, p, full=True):
@@ -1646,6 +1671,11 @@ def describe(src, p, full=True):
                      f"${float(p.get('amount_sold') or 0):,.0f}, filed {p.get('file_date')}, based in {p.get('location')}")
         if p.get("people"):
             lines.append("People in the filing: " + "; ".join(f"{x['name'].title()} ({', '.join(x['roles'])})" for x in p["people"]))
+    if src == "web":
+        lines += [f"{k}: {p[f]}" for k, f in (("Website", "website"), ("Link the user gave", "link"),
+                                               ("Location", "location"), ("Type", "type"),
+                                               ("Why Pebble suggested it", "why_found")) if p.get(f)]
+        lines.append("Not in the Prospector's lists: the user asked Pebble to add it.")
     if src in ("prov", "cms"):
         lines.append(f"Type: {p.get('type')}; located in {p.get('city')}, {p.get('state')}; phone {p.get('phone')}")
         if src == "prov":
@@ -1701,21 +1731,57 @@ Answer with ONLY a JSON object, no other text:
  "fit_reason": "one sentence explaining fit_adjust",
  "sources": ["URLs you used"]}}"""
 
+# for a company that isn't in the lists (the user asked for it in chat), there's no automatic score to adjust
+RESEARCH_WEB_EXTRA = """
 
-def ai_research(item_id):
-    src, p = find_item(item_id)
+This company is NOT in the Prospector's lists, so it has no automatic fit score: set fit_adjust to 0 and add these fields \
+to the JSON object:
+ "company": "the company's proper name as it presents itself",
+ "location": "city, state/country of its headquarters, or empty",
+ "type": "a few words, e.g. GLP-1 telehealth, compounding pharmacy, med spa",
+ "fit_score": an integer 0-100 for how good a StoneDock Connect customer it is (80+ only for a clear, reachable fit),
+ "fit_score_reason": "one sentence explaining fit_score"
+If you can't find the company at all, say so in summary, set fit_score to 0 and leave the rest empty."""
+
+
+def ai_research_any(name, link="", why=""):
+    """Research a company the user named in chat (or Pebble found on the web). A company already in the lists is
+    researched as itself; anything else is kept as a 'web-' entry that only lives in the Research tab."""
+    name = (name or "").strip()[:150]
+    link = (link or "").strip()[:500]
+    if not name and not link:
+        return {"ok": False, "error": "Tell Pebble a company name or a link."}
+    src, p = find_by_name(name)
+    if p:
+        return {**ai_research(p["id"]), "id": p["id"], "source": src, "existing": True}
+    key = clean_key(name) or clean_key(re.sub(r"^https?://(www\.)?", "", link).split("/")[0].replace(".", " "))
+    item_id = "web-" + re.sub(r"[^a-z0-9]+", "-", key).strip("-")[:60]
+    old = ai_store()["research"].get(item_id) or {}
+    item = web_item(item_id, {**old, "company": old.get("company") or name or link, "link": link or old.get("link"),
+                               "why_found": why or old.get("why_found")})
+    return {**ai_research(item_id, ("web", item)), "id": item_id, "source": "web"}
+
+
+def ai_research(item_id, found=None):
+    src, p = found or find_item(item_id)
     if not p:
         return {"ok": False, "error": "That company isn't in the Prospector's lists any more."}
-    r = ask_claude(RESEARCH_SYSTEM, "Research this company:\n\n" + describe(src, p), web=True)
+    system = RESEARCH_SYSTEM + (RESEARCH_WEB_EXTRA if src == "web" else "")
+    r = ask_claude(system, "Research this company:\n\n" + describe(src, p), web=True)
     if not r["ok"]:
         return r
     try:
         data = json_from(r["text"])
     except ValueError as e:
         return {"ok": False, "error": str(e), "raw": r["text"][:500]}
-    data["fit_adjust"] = max(-20, min(20, int(data.get("fit_adjust") or 0)))
+    data["fit_adjust"] = max(-20, min(20, int(data.get("fit_adjust") or 0))) if src != "web" else 0
+    if src == "web":
+        data["fit_score"] = max(0, min(100, int(data.get("fit_score") or 0)))
+        data.update(link=p.get("link") or "", why_found=p.get("why_found") or "",
+                    company=data.get("company") or p.get("company"))
     # source and model too, so the Research tab can say where the company came from even after it leaves the lists
-    data.update(at=time.time(), seconds=r["seconds"], company=p.get("company"), source=src, model=ai_model()[0])
+    data.update(at=time.time(), seconds=r["seconds"], source=src, model=ai_model()[0])
+    data.setdefault("company", p.get("company"))
     ai_save({"research": {item_id: data}})
     return {"ok": True, "research": data}
 
@@ -1786,7 +1852,20 @@ to find companies that could buy StoneDock Connect.
 You're given the prospects the user is looking at. Answer their question using those rows (and web search, if it's \
 available and the question needs it). Be concise and practical: short paragraphs or a short list, plain language. Always \
 write company names exactly as they appear in the rows, so the app can link them. Don't invent facts about companies; say \
-when the data doesn't show something. You can't change anything in the app yourself; suggest what the user can do."""
+when the data doesn't show something.
+
+You can do one thing in the app: add companies to the user's Research tab (the app then researches each one in depth and \
+saves the brief there). Do it when the user asks you to add, save or research specific companies (by name or link), or to \
+find new companies and add them. For "find" requests, use web search (LinkedIn, Google Maps, Yelp, company sites, news) to \
+find REAL companies that exist; never invent one, and skip big chains and giant brands. At most 5 companies per answer. \
+To add them, write your normal short answer (say which ones you're adding and why), then put this as the very LAST line:
+ADD_TO_RESEARCH: [{{"name": "Company name", "link": "its website, LinkedIn, Google Maps or Yelp URL if you have one, else empty", "why": "one short sentence"}}]
+Only include that line when the user wants companies added or researched. You can't change anything else in the app; for \
+anything else, suggest what the user can do."""
+
+# questions that ask Pebble to add or find companies get web search even when the box isn't ticked
+ADD_ASK = re.compile(r"research tab|\badd\b.*\bresearch|\b(find|look for|search for|discover)\b.*\b(compan|clinic|pharmac|"
+                     r"startup|practice|provider|business|spa|telehealth|app)", re.I)
 
 
 def ai_chat(question, tab, history, web):
@@ -1795,16 +1874,27 @@ def ai_chat(question, tab, history, web):
                     for m in (history or [])[-8:])
     prompt = (f"The user is on the '{SOURCE_NAMES.get(tab, 'all prospects')}' view. Prospects ({len(rows)} best by fit score):\n"
               f"{table}\n\nConversation so far:\n{convo}\nUser: {question}")
-    r = ask_claude(CHAT_SYSTEM, prompt, web=web, turns=12 if web else 3)
+    web = web or bool(ADD_ASK.search(question))
+    r = ask_claude(CHAT_SYSTEM, prompt, web=web, turns=14 if web else 3)
     if not r["ok"]:
         return r
-    low = r["text"].lower()
+    text, add = r["text"], []
+    m = re.search(r"^\s*ADD_TO_RESEARCH:\s*(\[.*\])\s*$", text, re.M | re.S)
+    if m:
+        try:
+            add = [{"name": str(x.get("name") or "")[:150], "link": str(x.get("link") or "")[:500],
+                    "why": str(x.get("why") or "")[:300]} for x in json.loads(m.group(1)) if isinstance(x, dict)]
+            add = [x for x in add if x["name"] or x["link"]][:5]
+        except ValueError:
+            add = []
+        text = text[:m.start()].rstrip()
+    low = text.lower()
     mentions = []
     for s, p in rows:
         name = p.get("company") or ""
         if len(name) > 3 and name.lower() in low and p["id"] not in {m["id"] for m in mentions}:
             mentions.append({"id": p["id"], "name": name, "source": s})
-    return {"ok": True, "text": r["text"], "mentions": mentions, "seconds": r["seconds"]}
+    return {"ok": True, "text": text, "mentions": mentions, "add": add, "seconds": r["seconds"]}
 
 
 RANK_SYSTEM = f"""You are Pebble, who double-checks the StoneDock Prospector's automatic fit scores.
@@ -1978,7 +2068,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
             sync_soon()
             return self.send(200, {"ok": True})
         if path == "/api/ai/research":
-            return self.send(200, ai_research(b.get("id", "")))
+            if b.get("id"):
+                return self.send(200, ai_research(b["id"]))
+            return self.send(200, ai_research_any(b.get("name", ""), b.get("link", ""), b.get("why", "")))
         if path == "/api/ai/email":
             return self.send(200, ai_email(b.get("id", ""), b.get("contact") or {}))
         if path == "/api/ai/chat":

@@ -425,7 +425,7 @@ const S = { prospects: [], newApps: [], funded: [], providers: [], medicare: [],
   filters: {}, tab: 'low', months: 24, limit: 300,
   sel: null, sort: ['score', -1], extra: {} };
 const STATUSES = ['New', 'Researching', 'Contacted', 'Replied', 'Demo booked', 'Not a fit'];
-const SOURCES = { low: 'Low-rated app', new: 'New app', funded: 'Newly funded', prov: 'New provider', cms: 'Medicare-rated' };
+const SOURCES = { low: 'Low-rated app', new: 'New app', funded: 'Newly funded', prov: 'New provider', cms: 'Medicare-rated', web: 'Found by Pebble' };
 const TAB_NAMES = { low: 'Low-rated apps', new: 'New apps', funded: 'Newly funded', prov: 'New providers', cms: 'Medicare-rated', pipe: 'Pipeline', res: 'Research' };
 const PLACES = ['prov', 'cms'];  // tabs of places rather than app companies: state and type filters
 const $ = id => document.getElementById(id);
@@ -494,9 +494,9 @@ function coCell(p) {
     return `<div class="co"><div class="avatar">${esc(initials(p.company))}</div><div><b>${esc(p.company)}${newTag(p)}</b>
       <span>${esc(p.type)}${p.city ? ' · ' + esc(p.city) + ', ' + esc(p.state) : ''}</span></div></div>`;
   }
-  if (p.kind === 'funded') {
+  if (p.kind === 'funded' || p.kind === 'web') {
     return `<div class="co"><div class="avatar">${esc(initials(p.company))}</div><div><b>${esc(p.company)}${newTag(p)}</b>
-      <span>${esc(p.industry || '')}${p.location ? ' · ' + esc(p.location) : ''}</span></div></div>`;
+      <span>${esc(p.industry || p.type || '')}${p.location ? ' · ' + esc(p.location) : ''}</span></div></div>`;
   }
   return `<div class="co"><img src="${esc(p.worst.icon || '')}" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><div><b>${esc(p.company)}${newTag(p)}</b>
     <span>${esc(p.worst.name)}${p.apps.length > 1 ? ` · +${p.apps.length - 1} more` : ''}</span></div></div>`;
@@ -542,6 +542,7 @@ const COLS = {
       ? `<span class="money">${money(p.amount_sold)}</span> <span class="hint">raised · founded ${esc(p.year_of_inc || '')}</span>`
       : p.kind === 'provider' ? `<span class="hint">registered ${ago(p.registered)}</span>`
       : p.kind === 'medicare' ? `<span class="rate ${rateCls(p.rating)}">★ ${p.rating.toFixed(1)}</span> <span class="hint">Medicare</span>`
+      : p.kind === 'web' ? `<span class="hint">${esc(p.type || 'found by Pebble')}</span>`
       : rateCell(p.worst) },
     { k: 'contacts', label: 'Contacts', cell: p => num((p.lead?.contacts || []).length), val: p => (p.lead?.contacts || []).length },
     FIT, STATUS],
@@ -556,10 +557,15 @@ const COLS = {
 const clip = (s, n) => s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s;
 // which tab a company came from (research is kept by id, so look it up)
 const sourceOf = id => ['low', 'new', 'funded', 'prov', 'cms'].find(t => listFor(t).some(p => p.id === id));
+// a company Pebble added from chat: it isn't in any list, so it's built from the research itself
+const webItem = (id, r) => ({ id, kind: 'web', source: 'web', company: r.company || '', website: r.website || '', link: r.link || '',
+  location: r.location || '', type: r.type || '', why_found: r.why_found || '', score: r.fit_score || 0,
+  why: r.fit_score_reason ? [r.fit_score_reason] : [], apps: [], total_ratings: 0 });
 function researched() {
   return Object.entries(S.ai?.research || {}).map(([id, r]) => {
     const lead = S.leads[id], item = findItem(id);
     const p = item ? { ...item, source: item.source || sourceOf(id) }
+      : id.startsWith('web-') ? webItem(id, r)
       : lead ? leadOnly(lead) : { ...leadOnly({ id, company: r.company, source: r.source }), stale: true };
     return { ...p, source: p.source || r.source, lead, research: r };
   });
@@ -823,7 +829,11 @@ async function clearResults() {
 }
 
 // ---------- drawer ----------
-function current() { return rows().find(p => p.id === S.sel) || findItem(S.sel) || (S.leads[S.sel] && leadOnly(S.leads[S.sel])); }
+function current() {
+  return rows().find(p => p.id === S.sel) || findItem(S.sel)
+    || (S.sel?.startsWith('web-') && S.ai?.research?.[S.sel] && webItem(S.sel, S.ai.research[S.sel]))
+    || (S.leads[S.sel] && leadOnly(S.leads[S.sel]));
+}
 function extra() { return S.extra[S.sel] ||= {}; }
 
 function liLinks(company) {
@@ -851,6 +861,16 @@ function playEmails(p) {
   if (!emails.length) return '';
   return `<div class="list" style="margin-top:10px">${emails.map(e => `<div class="item"><div><small>Support email listed on Google Play</small><b>${esc(e)}</b></div>
     ${lead && !(lead.contacts || []).some(c => c.email === e) ? `<button class="btn small" onclick='addContact(${JSON.stringify({ email: e, source: 'Google Play' })})'>Add</button>` : ''}</div>`).join('')}</div>`;
+}
+function webSection(p) {
+  const url = u => /^https?:/.test(u) ? u : 'https://' + u;
+  return `<section>
+      <h3>How Pebble found it</h3>
+      <p class="hint">${esc(p.why_found || 'You asked Pebble to add it.')} It isn't in any of the Prospector's lists, so its fit score is Pebble's own estimate.</p>
+      <div class="links" style="margin-top:8px">
+        ${p.link ? `<a target="_blank" rel="noopener" href="${esc(url(p.link))}">Link Pebble used</a>` : ''}
+        <a target="_blank" rel="noopener" href="https://www.google.com/search?q=${enc(`"${cleanName(p.company)}" ${p.location || ''}`)}">Search Google</a></div>
+    </section>`;
 }
 function appsSection(p) {
   return `<section>
@@ -915,16 +935,17 @@ function renderDrawer() {
   if (!p) { d.classList.remove('open'); return; }
   const lead = S.leads[p.id];
   const x = extra();
-  const funded = p.kind === 'funded', place = p.kind === 'provider' || p.kind === 'medicare';
+  const funded = p.kind === 'funded', place = p.kind === 'provider' || p.kind === 'medicare', web = p.kind === 'web';
   const website = x.website ?? lead?.website ?? p.website ?? '';
-  const sub = place
+  const sub = web ? [p.type, p.location].filter(Boolean).map(esc).join(' · ')
+    : place
     ? [p.type, p.city && `${p.city}, ${p.state}`].filter(Boolean).map(esc).join(' · ')
     : funded
     ? [p.industry, p.location, p.year_of_inc && `founded ${p.year_of_inc}`].filter(Boolean).map(esc).join(' · ')
     : `${p.apps.length} health app${p.apps.length > 1 ? 's' : ''} · ${p.total_ratings.toLocaleString()} ratings${p.terms?.length ? ` · found by: ${esc(p.terms.join(', '))}` : ''}`;
   d.innerHTML = `
   <div class="drawer-head">
-    ${funded || place ? `<div class="avatar">${esc(initials(p.company))}</div>`
+    ${funded || place || web ? `<div class="avatar">${esc(initials(p.company))}</div>`
       : p.worst?.icon ? `<img src="${esc(p.worst.icon)}" alt="" onerror="this.remove()">` : ''}
     <div style="flex:1;min-width:0">
       <h2>${esc(p.company)}</h2>
@@ -945,7 +966,7 @@ function renderDrawer() {
       ${whyList(p)}
     </section>
     ${researchSection(p)}
-    ${place ? placeSection(p) : funded ? fundingSection(p) : appsSection(p)}
+    ${web ? webSection(p) : place ? placeSection(p) : funded ? fundingSection(p) : appsSection(p)}
     <section>
       <h3>Find decision-makers on LinkedIn</h3>
       <div class="links">${liLinks(p.company)}</div>
@@ -1049,6 +1070,10 @@ async function addLead() {
   if (p.kind === 'provider' || p.kind === 'medicare') {
     Object.assign(fields, { category: 'health', app: '', founded: (p.registered || p.certified || '').slice(0, 4),
       contacts: p.official ? [{ name: p.official, title: p.official_title, phone: p.official_phone, source: 'NPI registry' }] : [] });
+  } else if (p.kind === 'web') {
+    const dm = S.ai?.research?.[p.id]?.decision_makers || [];
+    Object.assign(fields, { category: 'health', app: '', founded: '',
+      contacts: dm.map(d => ({ name: d.name, title: d.title, linkedin: /linkedin\.com/i.test(d.source || '') ? d.source : '', source: 'Pebble research' })) });
   } else if (p.kind === 'funded') {
     Object.assign(fields, { founded: p.year_of_inc, raised: p.amount_sold, category: 'health', app: '',
       contacts: (p.people || []).map(pp => ({ name: niceName(pp.name), title: pp.roles.join(', '), source: 'SEC Form D' })) });
@@ -1293,7 +1318,8 @@ function pbRestorePos() {
   window.addEventListener('resize', () => { if (el.classList.contains('moved')) pbPlace(parseFloat(el.style.left), parseFloat(el.style.top)); });
 })();
 function openItem(id, src) {
-  if (!listFor(S.tab).some(p => p.id === id) && src) setTab(src);
+  if (src === 'web') src = 'res';  // companies Pebble added from chat only live in the Research tab
+  if (!(S.tab === 'res' ? researched() : listFor(S.tab)).some(p => p.id === id) && src) setTab(src);
   S.sel = id; render(); $('drawer').classList.add('open');
 }
 async function pebbleRun(line, steps, call) {
@@ -1329,7 +1355,26 @@ async function pbAsk(q) {
   const r = await pebbleRun(web ? 'Searching the web and thinking…' : 'Thinking…',
     web ? ['think', 2000, 'search', 7000, 'read', 5000] : ['think', 2500, 'read', 4500],
     () => api('/api/ai/chat', { question: q, tab: S.tab, history, web }));
-  if (r) pbSay('pebble', r.text, false, r.mentions);
+  if (!r) return;
+  pbSay('pebble', r.text, false, r.mentions);
+  if (r.add?.length) pbAddToResearch(r.add);
+}
+// companies Pebble was asked (in chat) to add: each one gets a full research run, one at a time, into the Research tab
+async function pbAddToResearch(list) {
+  const done = [];
+  pbSay('pebble', `Adding ${list.length === 1 ? `**${list[0].name}**` : `${list.length} companies`} to your Research tab. ` +
+    `I research each one properly first (1–3 minutes each), so you can keep working.`);
+  for (const [i, c] of list.entries()) {
+    const label = c.name || c.link;
+    const r = await pebbleRun(`Researching ${label}${list.length > 1 ? ` (${i + 1} of ${list.length})` : ''}… (1–3 minutes)`,
+      ['think', 2000, 'search', 8000, 'read', 6000], () => api('/api/ai/research', c));
+    if (!r) continue;
+    S.ai.research = { ...(S.ai.research || {}), [r.id]: r.research };
+    done.push({ id: r.id, name: r.research.company || label, source: r.source });
+    render();
+  }
+  if (done.length) pbSay('pebble', `Done! ${done.length === 1 ? 'It\'s' : `${done.length} are`} in the Research tab: ` +
+    done.map(d => `**${d.name}**`).join(', ') + '. Click a name for the brief.', false, done);
 }
 async function pbRank() {
   const tab = S.tab, name = TAB_NAMES[tab];
