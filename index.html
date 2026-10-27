@@ -83,8 +83,25 @@ textarea { resize: vertical; line-height: 1.6; }
 .hint { font-size: 12px; color: var(--muted); margin-top: 6px; }
 main { min-width: 0; overflow: hidden; }
 .toolbar { display: flex; gap: 10px; align-items: center; padding: 14px 16px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
-.tabs { display: flex; gap: 4px; background: var(--panel-2); padding: 4px; border-radius: 11px; }
+.tabs { display: flex; flex-wrap: wrap; max-width: 100%; gap: 4px; background: var(--panel-2); padding: 4px; border-radius: 11px; }
+[hidden] { display: none !important; }  /* e.g. .btn.more sets display, which would otherwise beat the hidden attribute */
 .tabs button { border: 0; background: transparent; padding: 6px 14px; border-radius: 8px; cursor: pointer; color: var(--muted); font-weight: 500; }
+.crit { padding: 18px 20px 26px; display: grid; gap: 22px; }
+.crit > p { margin: 0; color: var(--muted); max-width: 820px; line-height: 1.55; }
+.crit nav { display: flex; flex-wrap: wrap; gap: 6px; }
+.crit nav a { font-size: 12px; padding: 4px 10px; border-radius: 99px; border: 1px solid var(--line); color: var(--accent-strong); text-decoration: none; cursor: pointer; }
+.crit section { border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.crit h3 { margin: 0 0 4px; font-size: 15px; }
+.crit h4 { margin: 14px 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent-strong); }
+.crit .src { font-size: 12.5px; color: var(--muted); margin: 0; line-height: 1.5; }
+.crit table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.crit th, .crit td { text-align: left; vertical-align: top; padding: 7px 10px; border-bottom: 1px solid var(--line); line-height: 1.45; }
+.crit th { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); background: transparent; }
+.crit td:first-child { font-weight: 600; white-space: nowrap; }
+.crit td.pts { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 600; }
+.crit td.pts.neg { color: #d9534f; }
+.crit tr:last-child td { border-bottom: 0; }
+@media (max-width: 720px) { .crit td:first-child { white-space: normal; } }
 .tabs button.on { background: var(--panel); color: var(--text); font-weight: 600; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
 .search { position: relative; max-width: 260px; flex: 1; }
 .search svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--muted); }
@@ -333,6 +350,7 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
         <button data-tab="cms" onclick="setTab('cms')">Medicare-rated</button>
         <button data-tab="pipe" onclick="setTab('pipe')">Pipeline</button>
         <button data-tab="res" onclick="setTab('res')">Research</button>
+        <button data-tab="crit" onclick="setTab('crit')">Criteria</button>
       </div>
       <div class="search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <input type="text" id="filter" placeholder="Filter by name" oninput="render()"></div>
@@ -353,6 +371,7 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
     </table></div>
     <button class="btn more" id="more" hidden onclick="S.limit += 300; render()"></button>
     <div class="empty" id="empty" hidden></div>
+    <div class="crit" id="criteria" hidden></div>
   </main>
 </div>
 </div>
@@ -426,7 +445,7 @@ const S = { prospects: [], newApps: [], funded: [], providers: [], medicare: [],
   sel: null, sort: ['score', -1], extra: {} };
 const STATUSES = ['New', 'Researching', 'Contacted', 'Replied', 'Demo booked', 'Not a fit'];
 const SOURCES = { low: 'Low-rated app', new: 'New app', funded: 'Newly funded', prov: 'New provider', cms: 'Medicare-rated', web: 'Found by Pebble' };
-const TAB_NAMES = { low: 'Low-rated apps', new: 'New apps', funded: 'Newly funded', prov: 'New providers', cms: 'Medicare-rated', pipe: 'Pipeline', res: 'Research' };
+const TAB_NAMES = { low: 'Low-rated apps', new: 'New apps', funded: 'Newly funded', prov: 'New providers', cms: 'Medicare-rated', pipe: 'Pipeline', res: 'Research', crit: 'all tabs' };
 const PLACES = ['prov', 'cms'];  // tabs of places rather than app companies: state and type filters
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -571,6 +590,128 @@ function researched() {
   });
 }
 
+// ---------- Criteria tab: what every column means, where its data comes from, and how Fit is scored ----------
+// (the points mirror the score_* functions in server.py; keep them in step when the scoring changes)
+const FIT_ALL = ['Fit', 'How good a StoneDock Connect customer the company looks, 0–100 (70+ counts as "strong"). It is the automatic score for that tab (points below), plus Pebble\'s adjustment of −20 to +20 when Pebble has re-checked or researched it (shown as a +/− chip and a "Pebble:" line in the company panel). Open any company to see its points one by one under "Why it fits".', 'Calculated by the Prospector from the columns on that tab; Pebble\'s adjustment comes from its own reading and web research.'];
+const STATUS_ALL = ['Status', `Where the company is in your outreach: ${STATUSES.join(' → ')}. Empty means it isn't in your pipeline yet.`, 'You: set it in the company panel after "Add to pipeline".'];
+const CRIT = [
+  { tab: 'low', title: 'Low-rated apps', intro: 'Companies whose own health app has a poor rating: unhappy users are a sign the app needs better health-data, AI or prescription features, which is what StoneDock Connect adds.',
+    src: 'Apple App Store (Apple\'s public iTunes Search API, one search per term in the left panel) and Google Play (each app\'s public store page). Apps are grouped by the company that publishes them; a company in both stores is merged by name.',
+    cols: [
+      ['Company', 'The company that publishes the app, with the app shown in the table (its worst-rated one) and how many other health apps it has.', 'App Store seller / Google Play developer name.'],
+      ['Worst rating', 'The lowest star rating among the company\'s health apps that meet your filters: rated at most the "Rated at most" setting (3.0★ by default) with at least "Min. ratings" ratings (5 by default). Only these apps make a company appear here.', 'Average user rating on the App Store or Google Play.'],
+      ['Ratings', 'Total number of ratings across all the company\'s health apps: a rough measure of how many people use them (small = startup-sized).', 'Rating counts from both stores, added up.'],
+      ['Launched', 'The year the company\'s first health app was released: how long it has been in the market.', 'App Store release date (Google Play doesn\'t publish one).'],
+      ['Last update', 'How long ago any of its apps was last updated: a recent update means the company is active and still investing.', 'App Store "current version" date or Google Play "Updated on".'],
+      FIT_ALL, STATUS_ALL],
+    fit: [['12–35', 'Worst rating: the lower, the more points (3.0★ gives 12, 1.0★ gives 35).'],
+      ['0 / 8 / 14 / 20', 'Relevance: how many StoneDock topics the apps\' names and descriptions mention (0, 1, 2, 3+): telehealth, prescriptions/pharmacy, labs, GLP-1/weight loss, peptides/hormones, wellness/coaching, patient care.'],
+      ['8 / 20 / 12 / 0', 'Size by total ratings: under 20 (very small) 8; 20–5,000 (startup-sized) 20; 5,001–50,000 12; over 50,000 (established) 0.'],
+      ['15 / 9 / 3', 'Youth: first app launched within 3 years 15; within 6 years 9; older 3.'],
+      ['10 / 5 / 0', 'Activity: updated within the last year 10; within 2 years 5; older 0.'],
+      ['−30', 'Name points to a large established organization (university, hospital, health system, insurer, big chains such as CVS or UnitedHealthcare).', true],
+      ['−30', 'The seller looks like an individual developer ("Jane Doe"), not a company. These are hidden by "Hide solo developers".', true]] },
+  { tab: 'new', title: 'New apps', intro: 'Companies whose first health app came out recently (6–36 months, chosen in the toolbar), whatever their rating: new companies are still building their stack and are easier to win.',
+    src: 'The same App Store and Google Play searches as Low-rated apps, kept here by launch date instead of rating.',
+    cols: [
+      ['Company', 'The publishing company, with its newest app.', 'App Store seller / Google Play developer.'],
+      ['First app launched', 'How long ago the company\'s first health app was released.', 'App Store release date.'],
+      ['Rating', 'The newest app\'s star rating ("Not rated yet" with fewer than 3 ratings).', 'App Store / Google Play.'],
+      ['Ratings', 'Total ratings across its health apps.', 'Both stores, added up.'],
+      ['Last update', 'How long ago any of its apps was last updated.', 'Store update dates.'],
+      FIT_ALL, STATUS_ALL],
+    fit: [['35 / 28 / 20 / 12', 'Newness: first app launched within 6 / 12 / 18 months, or older.'],
+      ['0 / 10 / 18 / 25', 'Relevance: StoneDock topics mentioned (0, 1, 2, 3+), same topics as Low-rated apps.'],
+      ['20 / 12 / 4', 'Early user base: under 100 ratings 20; under 1,000 12; more 4.'],
+      ['10 / 6 / 2 / 0', 'Activity: updated within 3 months, 6 months, a year, or longer ago.'],
+      ['10 / 5 / 0', 'Users unhappy: worst app rated 3.5★ or lower 10; not enough ratings yet 5; otherwise 0.'],
+      ['−30', 'Name points to a large established organization.', true],
+      ['−40', 'Looks like an individual developer, not a company.', true]] },
+  { tab: 'funded', title: 'Newly funded', intro: 'Young health and health-tech companies that just raised private money: they have budget and are building their product right now.',
+    src: 'U.S. SEC EDGAR: full-text search for Form D filings (the notice a company files when it raises private money) from the last 90–365 days with a health word in the name, then each Form D read in full. Investment funds are dropped, and only companies incorporated within the last 5 years in a health or tech industry are kept.',
+    cols: [
+      ['Company', 'The company that filed, with its industry and location from the filing.', 'Form D issuer section.'],
+      ['Founded', 'Year of incorporation.', 'Form D (exact only for companies under 5 years old, which is all this tab keeps).'],
+      ['Raised', 'Total money sold in this offering so far.', 'Form D "total amount sold".'],
+      ['Form D filed', 'How long ago the filing was made: how fresh the raise is.', 'EDGAR filing date.'],
+      ['Leaders named', 'How many executive officers, directors or promoters the filing names (they become contacts when you add the company to the pipeline).', 'Form D "related persons".'],
+      FIT_ALL, STATUS_ALL],
+    fit: [['30 / 26 / 20 / 15 / 10', 'Youth: incorporated this year, 1, 2, 3, or 4+ years ago.'],
+      ['5–25', 'Industry: Other Health Care 25; Hospitals & Physicians 22; Health Insurance 18; Pharmaceuticals 14; Other Technology 14; Computers 12; anything else 8; Biotechnology 5 (drug development, weaker fit).'],
+      ['20 / 10 / 8 / 5', 'Raise size: $250K–$25M (has budget, still building) 20; over $25M (may build in-house) 10; smaller 8; not disclosed yet 5.'],
+      ['15 / 10 / 5', 'Freshness: filed within 45 days 15; within 120 days 10; older 5.'],
+      ['10', 'The name points to a health or care business (tele, virtual, Rx, pharmacy, clinic, care, wellness, health, therapy, weight, hormone, labs…).'],
+      ['−40', 'Part of a large established organization, not a startup.', true]] },
+  { tab: 'prov', title: 'New providers', intro: 'Pharmacies and clinics that registered recently: new practices need patient-facing tools and haven\'t chosen them yet. Each comes with a named decision-maker.',
+    src: 'The national NPI Registry (NPPES, run by CMS): every U.S. healthcare organization must register for an NPI number. The Prospector searches pharmacies and clinics/centers ZIP area by ZIP area and keeps active ones registered in the last 30/90/180 days.',
+    cols: [
+      ['Company', 'Legal name (and "doing business as" name), with its type and city.', 'NPI Registry record.'],
+      ['Registered', 'How long ago it got its NPI number: roughly when the business opened or registered.', 'NPI enumeration date.'],
+      ['Type', 'Its primary specialty, e.g. compounding pharmacy, retail pharmacy, mental health clinic.', 'NPI primary taxonomy.'],
+      ['State', 'Where its practice location is.', 'NPI practice address.'],
+      ['Decision-maker', 'The person who signed the registration for the business, with title and phone.', 'NPI "authorized official".'],
+      FIT_ALL, STATUS_ALL],
+    fit: [['35 / 30 / 25 / 18 / 10', 'Newness: registered within 30 / 60 / 90 / 180 days, or older.'],
+      ['12–30', 'Type: compounding pharmacy 30; specialty, mail-order or infusion pharmacy 26; medical-specialty clinic 22; other pharmacy, primary care or multi-specialty 18; anything else 12.'],
+      ['20', 'The name points to a Connect niche: wellness, weight, hormones, peptides, longevity, med spa, IV/infusion, tele/virtual, Rx, aesthetics, men\'s or women\'s health, functional/integrative, anti-aging, concierge, compounding…'],
+      ['15 / 8', 'Decision-maker: the official is an owner, CEO, president, founder, managing member, principal, director or partner 15; someone else named 8.'],
+      ['−40 / −30', 'Looks like part of a chain (CVS, Walgreens, Walmart, Kroger, Optum, MinuteClinic, DaVita…) −40, or has a store number in its name −30.', true]] },
+  { tab: 'cms', title: 'Medicare-rated', intro: 'Home health agencies and dialysis centers that Medicare rates 3 stars or lower: low public quality scores are a reason to improve patient engagement and tracking.',
+    src: 'CMS Care Compare provider data (Medicare\'s official public quality ratings): the home health agency file (quality of patient care star rating) and the dialysis facility file (five-star rating). Refreshed weekly.',
+    cols: [
+      ['Company', 'Agency or facility name, with type and city.', 'Care Compare.'],
+      ['Medicare stars', 'Medicare\'s star rating (1–5). Only those at or under "Rated at most" are listed.', 'Home health: quality of patient care stars; dialysis: five-star rating.'],
+      ['State', 'Where it is located.', 'Care Compare address.'],
+      ['Certified', 'The year Medicare certified it: how established it is.', 'Care Compare certification date.'],
+      ['Ownership', 'For-profit, non-profit or government.', 'Care Compare ownership type.'],
+      FIT_ALL, STATUS_ALL],
+    fit: [['12–35', 'Rating: the lower, the more points (3★ gives 12, 1★ gives 35).'],
+      ['25 / 15 / 8 / 3', 'Newness: Medicare-certified within 3 / 6 / 10 years, or older or unknown.'],
+      ['20 / 12 / 10 / 4', 'Ownership: for-profit 20; non-profit 12; not given 10; government 4.'],
+      ['20 / 10', 'Type: home health (patients managed at home, a good fit for an app) 20; dialysis 10.'],
+      ['−40', 'Part of a large chain (Amedisys, Enhabit, Bayada, DaVita, Fresenius, U.S. Renal…).', true]] },
+  { tab: 'pipe', title: 'Pipeline', intro: 'The companies you added to outreach, from any tab.', src: 'Your own entries, saved in the Prospector (and synced to GitHub). A snapshot of each company is kept, so it stays here even after it leaves its source list.',
+    cols: [
+      ['Found by', 'Which tab the company came from.', 'The source list when you added it.'],
+      ['Signal', 'The key number from that source: worst app rating, money raised, registration date or Medicare stars.', 'Same as the source tab.'],
+      ['Contacts', 'How many people you have saved for it.', 'You, plus anyone added from SEC filings, the NPI registry or Pebble\'s research.'],
+      FIT_ALL, STATUS_ALL] },
+  { tab: 'res', title: 'Research', intro: 'Every company Pebble has researched, newest first, including companies you asked Pebble to add in chat that aren\'t on any list ("Found by Pebble").',
+    src: 'Pebble\'s web research (the company\'s site, news, LinkedIn, Google Maps, Yelp), saved by the Prospector. Every fact should come with a source; anything Pebble couldn\'t find is marked "Not found".',
+    cols: [
+      ['Found by', 'The tab the company came from, or "Found by Pebble" for companies added from chat.', ''],
+      ['Researched', 'When Pebble last researched it.', ''],
+      ["Pebble's take", 'The first lines of Pebble\'s summary of what the company does. Click the row for the full brief.', 'Pebble\'s research.'],
+      ['People found', 'Decision-makers Pebble found, each with the page it saw them on.', 'Pebble\'s research.'],
+      ['Fit', 'For listed companies: the automatic score plus Pebble\'s adjustment. For "Found by Pebble" companies there is no automatic score, so it is Pebble\'s own 0–100 estimate, with its reason under "Why it fits".', ''],
+      STATUS_ALL] },
+];
+const CRIT_TIPS = Object.fromEntries(CRIT.map(c => [c.tab, Object.fromEntries(c.cols.map(([label, what]) => [label.toLowerCase(), what]))]));
+function renderCriteria() {
+  const el = $('criteria');
+  if (el.dataset.done) return;
+  el.dataset.done = 1;
+  const row = r => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td class="src">${esc(r[2] || '')}</td></tr>`;
+  el.innerHTML = `<p>What each column on the dashboard means, where its data comes from, and exactly how the <b>Fit</b> score is worked out on each tab. Every source is public and free, and nothing is guessed: a company only appears when its source lists it. Hover over a column heading on any tab for a short version.</p>
+    <nav>${CRIT.map(c => `<a onclick="document.getElementById('crit-${c.tab}').scrollIntoView({behavior:'smooth',block:'start'})">${esc(c.title)}</a>`).join('')}</nav>
+    ${CRIT.map(c => `<section id="crit-${c.tab}">
+      <h3>${esc(c.title)} <a class="hint" style="font-weight:400;font-size:12px;cursor:pointer" onclick="setTab('${c.tab}')">open tab →</a></h3>
+      <p class="src">${esc(c.intro)}</p>
+      <h4>Data source</h4><p class="src">${esc(c.src)}</p>
+      <h4>Columns</h4>
+      <table><thead><tr><th>Column</th><th>What it shows</th><th>Data behind it</th></tr></thead><tbody>${c.cols.map(row).join('')}</tbody></table>
+      ${c.fit ? `<h4>How Fit is scored (0–100)</h4>
+      <table><thead><tr><th>Points</th><th>For</th></tr></thead><tbody>${c.fit.map(([pts, what, neg]) => `<tr><td class="pts ${neg ? 'neg' : ''}">${esc(pts)}</td><td>${esc(what)}</td></tr>`).join('')}</tbody></table>
+      <p class="src" style="margin-top:8px">Points are added up, penalties taken off, and the total kept between 0 and 100. Pebble's adjustment (−20 to +20) is applied on top.</p>` : ''}
+    </section>`).join('')}
+    <section><h3>Badges and buttons</h3><table><tbody>
+      <tr><td>NEW</td><td>The company first appeared in the last 7 days (the number on a tab counts them). "New this week" shows only these.</td></tr>
+      <tr><td>Strong</td><td>Fit of 70 or more (the counts on the summary cards; solo developers excluded).</td></tr>
+      <tr><td>Pebble +/−</td><td>Pebble changed the fit score after reading about the company ("Pebble: re-check top 25" or "Research with Pebble").</td></tr>
+      <tr><td>Auto-update</td><td>The header chip: the lists refresh on their own (in the cloud every 2 hours when due). App Store and SEC searches re-run every 6 hours by default (Settings), the NPI registry daily, Medicare weekly.</td></tr>
+    </tbody></table></section>`;
+}
+
 const listFor = src => ({ low: S.prospects, new: S.newApps, funded: S.funded, prov: S.providers, cms: S.medicare })[src] || [];
 const findItem = id => [...S.prospects, ...S.newApps, ...S.funded, ...S.providers, ...S.medicare].find(p => p.id === id);
 function fillPlaceFilters() {
@@ -620,6 +761,18 @@ function leadOnly(l) {
 }
 
 function render() {
+  const crit = S.tab === 'crit';
+  document.querySelectorAll('.toolbar > :not(.tabs)').forEach(x => x.style.display = crit ? 'none' : '');
+  $('criteria').hidden = !crit;
+  document.querySelector('.table-wrap').hidden = crit;
+  if (crit) {
+    renderCriteria();
+    document.querySelectorAll('.tabs [data-tab]').forEach(b => b.classList.toggle('on', b.dataset.tab === 'crit'));
+    $('more').hidden = $('empty').hidden = true;
+    renderStats();
+    if (S.sel) renderDrawer();
+    return;
+  }
   const list = rows();
   const counts = { low: S.prospects.length, new: S.newApps.filter(p => !(hiding() && p.solo)).length,
     funded: S.funded.length, prov: S.providers.length, cms: S.medicare.length, pipe: Object.keys(S.leads).length,
@@ -628,11 +781,13 @@ function render() {
   document.querySelectorAll('.tabs [data-tab]').forEach(b => {
     b.classList.toggle('on', b.dataset.tab === S.tab);
     const fresh = b.dataset.tab === 'pipe' ? 0 : listFor(b.dataset.tab).filter(p => isNew(p) && !p.solo).length;
+    if (!(b.dataset.tab in counts)) return;  // Criteria has no count
     b.innerHTML = `${TAB_NAMES[b.dataset.tab]} (${counts[b.dataset.tab].toLocaleString()})`
       + (fresh ? ` <span class="tag new">${fresh} NEW</span>` : '');
   });
   const cols = COLS[S.tab];
-  $('head').innerHTML = cols.map(c => `<th data-k="${c.k}" class="${c.k === S.sort[0] ? 'sorted' : ''}">${c.label}${c.k === S.sort[0] ? (S.sort[1] > 0 ? ' ↑' : ' ↓') : ''}</th>`).join('');
+  const tips = CRIT_TIPS[S.tab] || {};
+  $('head').innerHTML = cols.map(c => `<th data-k="${c.k}" class="${c.k === S.sort[0] ? 'sorted' : ''}" title="${esc(tips[c.label.toLowerCase()] || '')}">${c.label}${c.k === S.sort[0] ? (S.sort[1] > 0 ? ' ↑' : ' ↓') : ''}</th>`).join('');
   // long lists render 300 rows at a time
   $('rows').innerHTML = list.slice(0, S.limit).map(p => `<tr data-id="${esc(p.id)}" class="${p.id === S.sel ? 'sel' : ''}">${cols.map(c => `<td>${c.cell(p)}</td>`).join('')}</tr>`).join('');
   $('more').hidden = list.length <= S.limit;
@@ -704,6 +859,7 @@ $('head').addEventListener('click', e => {
 function setTab(t) {
   S.tab = t;
   S.limit = 300;
+  if (t === 'crit') { render(); return; }
   if (t === 'res') S.sort = ['researched', -1];
   else if (!COLS[t].some(c => c.k === S.sort[0])) S.sort = ['score', -1];
   render();
