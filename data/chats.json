@@ -1,1 +1,29 @@
-{}
+{
+ "cmvr7qqfr": {
+  "id": "cmvr7qqfr",
+  "created": 1793137454.1302748,
+  "title": "Add Mochi Health to my research tab",
+  "tab": "low",
+  "messages": [
+   {
+    "role": "user",
+    "text": "Add Mochi Health to my research tab",
+    "err": null,
+    "mentions": null
+   },
+   {
+    "role": "pebble",
+    "text": "I'm adding Mochi Health to your Research tab. It isn't in your current Low-rated apps list, so the app will research it from scratch. It looks like a strong fit: it's a telehealth company for obesity medicine and GLP-1 weight loss, which is the same space as our live client, MyWellness App. The brief should tell you whether they already have their own patient app.",
+    "err": false,
+    "mentions": []
+   },
+   {
+    "role": "pebble",
+    "text": "Adding **Mochi Health** to your Research tab. I research each one properly first (1–3 minutes each), so you can keep working.",
+    "err": null,
+    "mentions": null
+   }
+  ],
+  "updated": 1793137471.8419118
+ }
+}
