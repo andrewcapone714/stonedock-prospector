@@ -1193,7 +1193,8 @@ def auto_status():
                apps_last=apps_last, funded_last=funded_last,
                apps_next=apps_last + every, funded_next=funded_last + every,
                funded_ready=bool(EMAIL_RE.search(s.get("sec_contact", ""))) or cloud["on"],
-               cloud=cloud["on"], synced_at=cloud["synced_at"], sync_error=cloud["error"])
+               cloud=cloud["on"], synced_at=cloud["synced_at"], sync_error=cloud["error"],
+               cloud_errors=load_json(AUTO_FILE, {}).get("last_errors") if cloud["on"] else None)
     return out
 
 
@@ -1350,9 +1351,13 @@ def sync_loop():
 
 
 def update_once():
-    """What GitHub Actions runs: whichever search is due (or both with --force), then push."""
+    """What GitHub Actions runs: whichever search is due (all with --force; --only=apps,funded,npi,medicare
+    limits it), then push. Errors are printed, kept in auto.json and named in the commit message."""
     s = get_settings()
     force = "--force" in sys.argv
+    only = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--only=")), "")
+    only = {w.strip() for w in only.split(",") if w.strip()}
+    wanted = lambda part: not only or part in only
     if not s.get("auto_update", True) and not force:
         print("Auto-update is off in Settings; nothing to do.")
         return
@@ -1360,15 +1365,16 @@ def update_once():
         track_new()
     every = float(s.get("auto_every_hours") or 6) * 3600
     ran = []
-    if force or time.time() - last_ran("apps") >= every - CLOUD_GRACE:
+    if wanted("apps") and (force or time.time() - last_ran("apps") >= every - CLOUD_GRACE):
         res = load_json(RESULTS_FILE, {})
         f = res.get("filters") or {}
         terms = res.get("terms") or DEFAULT_TERMS
         print(f"App Store search: {len(terms)} terms")
         job.update(running=True, done=0, total=len(terms), term="", found=0, errors=[], finished_at=None)
         run_search(terms, float(f.get("max_rating", 3)), int(f.get("min_reviews", 5)), f.get("country", "us"), True, 0)
-        ran.append(f"App Store: {job['found']} low-rated" + (f", errors: {job['errors']}" if job["errors"] else ""))
-    if EMAIL_RE.search(s.get("sec_contact", "")) and (force or time.time() - last_ran("funded") >= every - CLOUD_GRACE):
+        ran.append(f"App Store: {job['found']} low-rated" + (f", {len(job['errors'])} errors" if job["errors"] else ""))
+    if wanted("funded") and EMAIL_RE.search(s.get("sec_contact", "")) and (
+            force or time.time() - last_ran("funded") >= every - CLOUD_GRACE):
         fres = load_json(FUNDED_FILE, {})
         fterms = fres.get("terms") or FUNDED_TERMS
         print(f"SEC scan: {len(fterms)} name words, last {fres.get('days') or 180} days")
@@ -1377,18 +1383,28 @@ def update_once():
         ran.append(f"SEC: {fjob['found']} startups" + (f", {len(fjob['errors'])} errors" if fjob["errors"] else ""))
     elif not EMAIL_RE.search(s.get("sec_contact", "")):
         print("No SEC_CONTACT secret set, so the SEC scan was skipped.")
-    due_npi = force or time.time() - last_ran("npi") >= NPI_EVERY - CLOUD_GRACE
-    due_med = force or time.time() - last_ran("medicare") >= MEDICARE_EVERY - CLOUD_GRACE
+    due_npi = wanted("npi") and (force or time.time() - last_ran("npi") >= NPI_EVERY - CLOUD_GRACE)
+    due_med = wanted("medicare") and (force or time.time() - last_ran("medicare") >= MEDICARE_EVERY - CLOUD_GRACE)
     if due_npi or due_med:
         print("Providers:", ", ".join(k for k, d in (("NPI registry", due_npi), ("Medicare", due_med)) if d))
         pjob.update(running=True, done=0, total=1, stage="Starting", found=0, errors=[], finished_at=None)
-        run_providers(int(s.get("provider_days") or 90), {"npi", "medicare"}, force)
+        run_providers(int(s.get("provider_days") or 90), {k for k, d in (("npi", due_npi), ("medicare", due_med)) if d},
+                      force)
         ran.append(f"providers: {pjob['found']}" + (f", {len(pjob['errors'])} errors" if pjob["errors"] else ""))
     if not ran:
         print("Nothing due yet.")
         return
+    errors = [f"App Store/Play: {e}" for e in job["errors"]] + [f"SEC: {e}" for e in fjob["errors"]] + \
+             [f"Providers: {e}" for e in pjob["errors"]]
+    for e in errors[:30]:
+        print("Problem:", e)
+    st = load_json(AUTO_FILE, {})
+    st["last_errors"] = {"at": time.time(), "errors": errors[:30]}
+    save_json(AUTO_FILE, st)
     new = auto.get("events", [])
     summary = "; ".join(ran) + f"; {sum(e['new'] for e in new)} new, {sum(e['added'] for e in new)} auto-added"
+    if errors:
+        summary += f" | first problem: {errors[0][:150]}"
     print(summary)
     if cloud_enabled():
         sync(prefer_remote=False, message=f"Cloud update: {summary}")

@@ -647,13 +647,16 @@ function showAuto() {
   const next = Math.min(a.apps_next || Infinity, a.funded_ready ? a.funded_next || Infinity : Infinity) * 1000 - Date.now();
   const inText = ms => ms <= 60e3 ? 'any minute' : ms < 36e5 ? `in ${Math.round(ms / 6e4)} min` : `in ${Math.floor(ms / 36e5)}h ${Math.round(ms % 36e5 / 6e4)}m`;
   // in cloud mode GitHub runs the searches (it wakes every 2 h and runs whichever is due), this copy only syncs
+  const cloudErrs = a.cloud_errors?.errors || [];
   chip.lastElementChild.textContent = busy ? 'Updating…' : !a.on ? 'Auto-update off'
-    : a.cloud ? (a.sync_error ? 'Cloud · sync problem' : `Cloud auto-update · next run ${next < 60e3 ? 'within 2h' : inText(next)}`)
+    : a.cloud ? (a.sync_error ? 'Cloud · sync problem'
+      : `Cloud auto-update${cloudErrs.length ? ` · ${cloudErrs.length} problem${cloudErrs.length > 1 ? 's' : ''} last run` : ''} · next run ${next < 60e3 ? 'within 2h' : inText(next)}`)
     : `Auto-update · next check ${inText(next)}`;
   if (a.cloud && a.sync_error) chip.className = 'auto-chip';
   chip.title = a.sync_error ? `Couldn't sync with GitHub: ${a.sync_error}`
     : a.error ? `Auto-update problem: ${a.error}`
     : a.cloud ? `Runs in GitHub even when this computer is off. Last synced ${a.synced_at ? new Date(a.synced_at * 1000).toLocaleTimeString() : 'not yet'}.`
+      + (cloudErrs.length ? `\nLast cloud run's problems:\n${cloudErrs.slice(0, 5).join('\n')}` : '')
     : 'Auto-update settings';
 }
 function showJob() {

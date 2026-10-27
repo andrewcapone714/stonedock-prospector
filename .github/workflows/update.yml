@@ -1,13 +1,20 @@
 # Runs the Prospector's searches in GitHub's cloud, so new companies keep coming in while
-# your computer is off. Every 2 hours it wakes up, runs whichever search is due (by the
-# "Check every" setting, default 6 hours) and pushes the results; the app on your computer
-# picks them up when it next starts or syncs. "Run workflow" on GitHub forces both searches.
+# your computer is off. Every 2 hours it wakes up, runs whichever search is due (App Store +
+# Google Play and the SEC scan by the "Check every" setting, default 6 hours; the provider
+# registry daily; Medicare weekly) and pushes the results; the app on your computer picks
+# them up when it next starts or syncs. "Run workflow" on GitHub forces everything, or only
+# the parts you name (apps, funded, npi, medicare).
 name: Update prospects
 
 on:
   schedule:
     - cron: "23 */2 * * *"
   workflow_dispatch:
+    inputs:
+      only:
+        description: "Run only these, comma-separated: apps, funded, npi, medicare (leave empty for everything)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -19,7 +26,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -30,7 +37,8 @@ jobs:
       - name: Run the searches and push the results
         env:
           SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
+          ONLY: ${{ inputs.only }}
         run: |
           git config user.name "StoneDock Prospector"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          python server.py --update-once ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+          python server.py --update-once ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }} ${ONLY:+--only=$ONLY}
