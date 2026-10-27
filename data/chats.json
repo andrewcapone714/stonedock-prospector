@@ -52,8 +52,20 @@
     "text": "Adding **Ivim Health** to your Research tab. I research each one properly first (1–3 minutes each), so you can keep working.",
     "err": null,
     "mentions": null
+   },
+   {
+    "role": "pebble",
+    "text": "Done! It's in the Research tab: **Ivím Health**. Click a name for the brief.",
+    "err": false,
+    "mentions": [
+     {
+      "id": "web-ivim-health",
+      "name": "Ivím Health",
+      "source": "web"
+     }
+    ]
    }
   ],
-  "updated": 1793137577.1723683
+  "updated": 1793137640.519386
  }
 }

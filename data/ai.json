@@ -191,6 +191,118 @@
    "source": "new",
    "model": "opus",
    "company": "Mochi Health Corp"
+  },
+  "web-ivim-health": {
+   "summary": "Ivím Health is a physician-led U.S. virtual care company, headquartered in Columbus, Ohio, that runs individualized GLP-1 weight-loss programs. It prescribes compounded semaglutide and tirzepatide as well as branded Ozempic, Wegovy and Zepbound, and has expanded into hormone health, longevity, sleep and recovery. It sells to consumers directly and to employers through Ivim at Work. It reports 470K+ patients served and about 100 board-certified providers, with peptide therapies listed as 'coming soon'.",
+   "website": "https://ivimhealth.com",
+   "fit": "Ivim works in the same areas as our client MyWellness App: GLP-1, hormones, peptides and longevity. But it is a large, established player that already runs its own iOS and Android app (com.ivim.health) and its own medication workflow, so it doesn't need a white-label app and will be hard to win. The best opening is the gap in its stack. A user review says the app has no access to labs, and home testing is only listed as a planned feature. Our AI that reads lab PDFs and turns them into scores and coaching, plus FHIR/EHR sync for its hormone, peptide and corporate programs, could fill that gap. At its patient volume, $8 per member per month is a large contract, so it's worth exploring. Expect build-vs-buy pushback from an in-house product team.",
+   "pain_points": [
+    "No lab data in the app: a user review says there is no access to labs, and home testing is only 'planned'",
+    "Launching peptide and hormone programs, which need lab-driven dosing and monitoring at scale",
+    "Weekly dose-adjustment check-ins with about 100 providers: AI insights and coaching could take some of that load off clinicians",
+    "Corporate program (Ivim at Work) likely needs consented, auditable health data and outcome reporting for employers",
+    "App reviews mention bugs, and Telehealth Ally reviews mention slower support around month three, which points to engagement and retention pressure"
+   ],
+   "decision_makers": [
+    {
+     "name": "Anthony Kantor",
+     "title": "Founder & CEO (co-founder per company site)",
+     "source": "https://www.cbinsights.com/company/ivim/people"
+    },
+    {
+     "name": "Dr. Taylor Kantor",
+     "title": "Co-founder, Chief Innovation Officer",
+     "source": "https://www.cbinsights.com/company/ivim"
+    },
+    {
+     "name": "Kelly Kantor",
+     "title": "Co-founder (title not found)",
+     "source": "https://ivimhealth.com"
+    },
+    {
+     "name": "Tuck Ross",
+     "title": "Chief Marketing Officer",
+     "source": "https://theorg.com/org/ivim-health/org-chart/tuck-ross"
+    },
+    {
+     "name": "Nick Ellis",
+     "title": "Product Manager",
+     "source": "https://village.ai/person/nick-ellis-MzE4NzYwNjc3"
+    }
+   ],
+   "ratings": "Google Maps and Yelp: not found. Apple App Store: 4.7 from about 7.6K ratings on one aggregator page and 4.5 from 822 on an older listing. Google Play: 4.51 from about 1.3K ratings (AppGoblin). BBB, under the name IVIM Services LLC in Columbus, OH: 4.41/5 from 122 reviews. Telehealth Ally: 4.0/5 from 11 reviews. Trustpilot: 4.9 stars, but that figure comes from the company's own November 2024 press release. All figures are from third-party or company sources and may be out of date.",
+   "news": [
+    {
+     "title": "New Peer-Reviewed Research Shows Comprehensive Care Model Drives Superior GLP-1 Outcomes (two Obesity Pillars studies, up to 26.54% average weight loss)",
+     "date": "2026-03-12",
+     "url": "https://www.easternprogress.com/new-peer-reviewed-research-shows-comprehensive-care-model-drives-superior-glp-1-outcomes/article_d84bb081-59d8-5501-81c9-a6eaec0e1efc.html"
+    },
+    {
+     "title": "How Ivím Health built a national voice for its Chief Medical Officer with a comms team of one",
+     "date": "2026-08-24",
+     "url": "https://stacker.com/blog/how-ivím-health-built-a-national-voice-for-its-chief-medical-officer-with-a-comms-team-of-one?hs_amp=true"
+    },
+    {
+     "title": "Ivim at Work launches as GLP-1 corporate wellness program",
+     "date": "",
+     "url": "https://athletechnews.com/ivim-at-work-launches-as-glp-1-corporate-wellness-program"
+    },
+    {
+     "title": "Ivím Health Launches Comprehensive Corporate Wellness Programs to Revolutionize Workplace Health",
+     "date": "2024-11-04",
+     "url": "https://bradfordera.com/2024/11/04/ivim-health-launches-comprehensive-corporate-wellness-programs-to-revolutionize-workplace-health"
+    },
+    {
+     "title": "Ivim Health Partners with Klarna to Expand Access to Personalized GLP-1 Weight Loss Programs",
+     "date": "2024",
+     "url": "https://prnewswire.com/news-releases/ivim-health-partners-with-klarna-to-expand-access-to-personalized-glp-1-weight-loss-programs-302273202.html"
+    },
+    {
+     "title": "New IVIM Protocol Yields Nearly 50% Greater Weight Loss With GLP-1 Therapy via Groundbreaking Virtual Care",
+     "date": "",
+     "url": "https://www.finanzen.net/nachricht/aktien/new-ivim-protocol-yields-nearly-50-greater-weight-loss-with-glp-1-therapy-via-groundbreaking-virtual-care-14663900"
+    }
+   ],
+   "questions": [
+    "Your app handles meds, goals and scheduling. How do patients get lab results to your providers today, and where does home testing sit on your roadmap?",
+    "As you launch peptides and expand hormone care, how will you collect baseline and follow-up labs and use them for dosing decisions?",
+    "Is your app and data stack built in-house or by a vendor, and how many engineers maintain it? How do you decide between building and buying new modules?",
+    "Do you sync with any EHRs or employer systems for Ivim at Work, and what outcome data do employers ask you for?",
+    "How much provider time do the weekly dose check-ins take, and would AI-generated insights from labs and progress data help providers scale?",
+    "Could a white-label module that drops into your existing app (an SDK) work for you, or would you only consider an API-level integration?"
+   ],
+   "fit_adjust": 0,
+   "fit_reason": "This company is not in the Prospector's lists, so it has no automatic score to adjust.",
+   "company": "Ivím Health",
+   "location": "Columbus, Ohio, USA",
+   "type": "GLP-1 / hormone telehealth",
+   "fit_score": 55,
+   "fit_score_reason": "Ivim is squarely in our core market and has a clear lab-data gap, but it is a large company that already has its own app and medication workflow, so a sale would be partial (labs and AI module) and harder than with a smaller telehealth company.",
+   "sources": [
+    "https://ivimhealth.com",
+    "https://www.cbinsights.com/company/ivim/people",
+    "https://www.cbinsights.com/company/ivim",
+    "https://theorg.com/org/ivim-health/org-chart/tuck-ross",
+    "https://theorg.com/org/ivim-health/org-chart/kasey-smith",
+    "https://village.ai/person/nick-ellis-MzE4NzYwNjc3",
+    "https://apps.apple.com/us/app/ivim-health/id1643614105",
+    "https://splitmetrics.com/apps/ivim-health/id1643614105",
+    "https://appgoblin.info/apps/com.ivim.health",
+    "https://prod.bbb.org/us/oh/columbus/profile/weight-loss/ivim-services-llc-0302-70141512/customer-reviews?page=2",
+    "https://www.telehealthally.com/reviews/ivim-health",
+    "https://www.easternprogress.com/new-peer-reviewed-research-shows-comprehensive-care-model-drives-superior-glp-1-outcomes/article_d84bb081-59d8-5501-81c9-a6eaec0e1efc.html",
+    "https://stacker.com/blog/how-ivím-health-built-a-national-voice-for-its-chief-medical-officer-with-a-comms-team-of-one?hs_amp=true",
+    "https://athletechnews.com/ivim-at-work-launches-as-glp-1-corporate-wellness-program",
+    "https://bradfordera.com/2024/11/04/ivim-health-launches-comprehensive-corporate-wellness-programs-to-revolutionize-workplace-health",
+    "https://prnewswire.com/news-releases/ivim-health-partners-with-klarna-to-expand-access-to-personalized-glp-1-weight-loss-programs-302273202.html",
+    "https://www.finanzen.net/nachricht/aktien/new-ivim-protocol-yields-nearly-50-greater-weight-loss-with-glp-1-therapy-via-groundbreaking-virtual-care-14663900"
+   ],
+   "link": "https://ivimhealth.com",
+   "why_found": "U.S. telehealth company for GLP-1 weight loss, the same space as our live client MyWellness App.",
+   "at": 1793137639.9341164,
+   "seconds": 61.7,
+   "source": "web",
+   "model": "opus"
   }
  },
  "rank": {
