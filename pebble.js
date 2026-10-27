@@ -1,7 +1,7 @@
 // Pebble, the StoneDock Prospector's AI helper: the blue middle stone of the StoneDock logo.
 // Pebble.mount(el) draws it; Pebble.set(state) switches what it's doing:
 //   hello · idle · think · search · type · read · done · error   (work)
-//   run · lift · water · meditate                                (idle easter eggs, every 30–60 s when idle and visible)
+//   run · lift · water · meditate                                (idle easter eggs: after 15 s of idle, ~7 s each)
 // Multi-step scenes (drinking, page turning, hello) run on one JavaScript timeline so their parts can't drift apart.
 (function () {
   const CSS = `
@@ -114,7 +114,8 @@
 </svg>`;
 
   const EGGS = ['run', 'lift', 'water', 'meditate'];
-  const LEN = { done: 2600, error: 3200, run: 6000, lift: 6000, meditate: 7000 };
+  const EGG_EVERY = 15000;  // ms of idle before the next easter egg
+  const LEN = { done: 2600, error: 3200, run: 7000, lift: 7000, meditate: 7000 };
   const ease = x => x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2;
   const lerp = (a, b, k) => a + (b - a) * k;
   let svg, timer, raf, eggTimer, state = 'idle', visible = () => true;
@@ -137,7 +138,7 @@
     $('pb-ahh').style.display = n === 'refresh' ? 'inline' : 'none';
   }
   function water() {
-    const t0 = performance.now(), LIFT = 1300, DRINK = 4200, LOWER = 1300, REFRESH = 2400;
+    const t0 = performance.now(), LIFT = 1000, DRINK = 3200, LOWER = 1000, REFRESH = 1800;  // 7 s in all
     function step(now) {
       const e = now - t0;
       let level = 1;
@@ -185,7 +186,7 @@
     eggTimer = setTimeout(() => {
       if (state === 'idle' && visible()) set(EGGS[Math.floor(Math.random() * EGGS.length)]);
       else scheduleEgg();
-    }, 30000 + Math.random() * 30000);
+    }, EGG_EVERY);
   }
 
   function set(s) {
