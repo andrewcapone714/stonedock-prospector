@@ -7,6 +7,11 @@ Finds likely prospects for StoneDock Connect, three ways:
   New apps        - health companies whose first App Store app launched recently.
   Newly funded    - health startups incorporated in the last five years that filed
                     an SEC Form D (raised private money) recently.
+  New providers   - pharmacies and clinics registered in the federal NPI registry in
+                    the last 30-180 days, with the owner/official named.
+  Medicare-rated  - home health agencies and dialysis centers Medicare rates 3 stars
+                    or lower (CMS Care Compare).
+Google Play ratings are merged into the app lists (by developer name).
 Serves the tool at http://localhost:8770. Standard library only, no API keys.
 
 While it runs, it re-runs both searches on a schedule (Settings: every 1-24 hours,
@@ -28,6 +33,12 @@ Sources (no accounts needed):
   Apple iTunes Search API - apps, ratings, review counts, developer and website.
                             Apple allows about 20 calls a minute, so searches run
                             one term every 3 s and each term is cached for a day.
+  Google Play             - search and app pages (no official API; Google's terms forbid
+                            automated access, so this may break or be blocked). One page
+                            every 1.5 s; each app page reused for a week (data/play.json).
+  NPI Registry API        - CMS's public provider registry. Searched by ZIP prefix (its
+                            1,200-result cap is split around); about 1,500 requests, daily.
+  CMS Provider Data       - Medicare Care Compare datasets, weekly.
   Company websites        - home, about, team and contact pages for public emails
                             and LinkedIn links.
   SEC EDGAR               - Form D filings (private fundraising). The search works
@@ -69,7 +80,7 @@ FUNDED_FILE = os.path.join(DATA, "funded.json")
 SEC_CACHE = os.path.join(CACHE, "sec")
 SEEN_FILE = os.path.join(DATA, "seen.json")    # "source:id" -> when it first appeared (0 = before tracking)
 AUTO_FILE = os.path.join(DATA, "auto.json")    # when each search last finished
-BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+TOOL_UA = "StoneDockProspector/1.0"  # every request says what it is; sources that refuse it are left out
 
 ITUNES_GAP = 3.0                 # seconds between iTunes calls (~20/min limit)
 TERM_CACHE_SECONDS = 24 * 3600
@@ -97,7 +108,8 @@ Best,
 {sender}"""
 
 DEFAULT_SETTINGS = {"sec_contact": "", "sender": "", "template": DEFAULT_TEMPLATE,
-                    "auto_update": True, "auto_every_hours": 6, "auto_add_min": 0}
+                    "auto_update": True, "auto_every_hours": 6, "auto_add_min": 0,
+                    "play_enabled": True, "provider_days": 90}
 
 # SEC full-text search only matches words in a filing (in practice, the company name),
 # so these are words health startups tend to put in their names
@@ -113,6 +125,7 @@ FUND_NAME = re.compile(r"\b(fund|spv|series of|l\.?p\.?|lp|capital|ventures|inve
 lock = threading.RLock()
 job = {"running": False, "done": 0, "total": 0, "term": "", "found": 0, "errors": [], "finished_at": None}
 fjob = {"running": False, "done": 0, "total": 0, "stage": "", "found": 0, "errors": [], "finished_at": None}
+pjob = {"running": False, "done": 0, "total": 0, "stage": "", "found": 0, "errors": [], "finished_at": None}
 auto = {"version": 0, "last_new": 0, "last_new_at": None, "last_added": 0, "error": ""}
 
 
@@ -155,7 +168,7 @@ def live_leads():
 
 # ---------- http helpers ----------
 
-def fetch(url, ua=BROWSER_UA, timeout=15, limit=2_000_000):
+def fetch(url, ua=TOOL_UA, timeout=15, limit=2_000_000):
     req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept-Language": "en-US,en;q=0.9"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         raw = r.read(limit)
@@ -179,7 +192,7 @@ def itunes(params):
                 time.sleep(wait)
             _itunes_last = time.time()
         try:
-            text, _ = fetch(url, ua="StoneDockProspector/1.0", limit=30_000_000)
+            text, _ = fetch(url, limit=30_000_000)
             return json.loads(text).get("results", [])
         except urllib.error.HTTPError as e:
             if e.code in (403, 429) and attempt < 2:
@@ -398,7 +411,7 @@ def run_search(terms, max_rating, min_reviews, country, merge, max_age=TERM_CACH
             if term not in c["terms"]:
                 c["terms"].append(term)
             c["apps"][str(a["trackId"])] = {
-                "id": str(a["trackId"]), "name": a.get("trackName"),
+                "id": str(a["trackId"]), "store": "apple", "name": a.get("trackName"),
                 "rating": round(a.get("averageUserRating") or 0, 2),
                 "count": a.get("userRatingCount") or 0,
                 "genre": HEALTH_GENRES.get(a.get("primaryGenreId"), a.get("primaryGenreName")),
@@ -408,6 +421,15 @@ def run_search(terms, max_rating, min_reviews, country, merge, max_age=TERM_CACH
             }
         with lock:
             job["found"] = sum(1 for c in companies.values() if qualifying(c, max_rating, min_reviews))
+    settings = get_settings()
+    if settings.get("play_enabled", True):
+        def report(stage, i, error=None):
+            with lock:
+                if stage:
+                    job.update(term=stage, done=len(terms) + i, total=len(terms) * 2)
+                if error:
+                    job["errors"].append(error)
+        play_into(companies, terms, report)
     prospects = {}
     for cid, c in companies.items():
         q = qualifying(c, max_rating, min_reviews)
@@ -429,7 +451,8 @@ def run_search(terms, max_rating, min_reviews, country, merge, max_age=TERM_CACH
             "max_rating": max_rating, "min_reviews": min_reviews, "country": country},
             "terms": terms, "updated": time.time()})
         mark_ran("apps")
-        job.update(running=False, done=len(terms), term="", found=len(prospects), finished_at=time.time())
+    with lock:
+        job.update(running=False, done=job["total"], term="", found=len(prospects), finished_at=time.time())
     track_new()
 
 
@@ -518,7 +541,7 @@ def norm_name(s):
 
 def sec_search(name):
     q = urllib.parse.quote(f'"{name}"')
-    text, _ = fetch(f"https://efts.sec.gov/LATEST/search-index?q={q}&forms=D", ua="StoneDockProspector/1.0")
+    text, _ = fetch(f"https://efts.sec.gov/LATEST/search-index?q={q}&forms=D")
     latest = {}  # one row per company: its newest Form D
     target = norm_name(name)
     for h in json.loads(text).get("hits", {}).get("hits", []):
@@ -600,8 +623,7 @@ def sec_filing(cik, adsh, contact):
 def efts_page(term, start, end, offset):
     params = {"q": f'"{term}"', "forms": "D", "dateRange": "custom",
               "startdt": start.isoformat(), "enddt": end.isoformat(), "from": offset}
-    text, _ = fetch("https://efts.sec.gov/LATEST/search-index?" + urllib.parse.urlencode(params),
-                    ua="StoneDockProspector/1.0")
+    text, _ = fetch("https://efts.sec.gov/LATEST/search-index?" + urllib.parse.urlencode(params))
     return json.loads(text).get("hits", {}).get("hits", [])
 
 
@@ -743,6 +765,341 @@ def current_funded():
     return res
 
 
+# ---------- Google Play (merged into the app lists) ----------
+
+PLAY_FILE = os.path.join(DATA, "play.json")
+PLAY_GAP = 1.5                  # seconds between Google Play requests
+PLAY_APP_MAX_AGE = 7 * 86400    # re-read an app page weekly
+PLAY_HEALTH = {"MEDICAL": "Medical", "HEALTH_AND_FITNESS": "Health & Fitness"}
+_play_last = 0.0
+
+
+def play_get(url):
+    global _play_last
+    wait = _play_last + PLAY_GAP - time.time()
+    if wait > 0:
+        time.sleep(wait)
+    _play_last = time.time()
+    text, _ = fetch(url, limit=3_000_000)
+    return text
+
+
+def play_search_ids(term):
+    text = play_get("https://play.google.com/store/search?" + urllib.parse.urlencode(
+        {"q": term, "c": "apps", "hl": "en", "gl": "US"}))
+    return list(dict.fromkeys(re.findall(r"/store/apps/details\?id=([\w.]+)", text)))[:30]
+
+
+def play_date(s):
+    try:
+        return datetime.strptime(s.strip(), "%b %d, %Y").replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
+    except (ValueError, AttributeError):
+        return None
+
+
+def play_app(pkg):
+    """One Google Play app page -> the same shape as an App Store app (plus developer, website, email)."""
+    text = play_get(f"https://play.google.com/store/apps/details?id={pkg}&hl=en&gl=US")
+    info = {}
+    for m in re.findall(r'<script type="application/ld\+json"[^>]*>(.*?)</script>', text, re.S):
+        try:
+            j = json.loads(m)
+        except ValueError:
+            continue
+        if j.get("@type") == "SoftwareApplication" or "applicationCategory" in j:
+            info = j
+    rating = info.get("aggregateRating") or {}
+    author = info.get("author") or {}
+    icon = re.search(r'<meta property="og:image" content="([^"]+)"', text)
+    email = next((e for e in re.findall(r"mailto:([\w.+-]+@[\w-]+\.[\w.-]+)", text)), "")
+    dev = re.search(r'href="/store/apps/dev(?:eloper)?\?id=([^"&]+)', text)
+    return {
+        "id": f"gp:{pkg}", "pkg": pkg, "store": "google", "name": html.unescape(info.get("name") or pkg),
+        "rating": round(float(rating.get("ratingValue") or 0), 2), "count": int(float(rating.get("ratingCount") or 0)),
+        "genre": PLAY_HEALTH.get(info.get("applicationCategory"), info.get("applicationCategory")),
+        "health": info.get("applicationCategory") in PLAY_HEALTH,
+        "released": None, "updated": play_date(next(iter(re.findall(r"Updated on</div><div[^>]*>([^<]+)", text)), "")),
+        "url": f"https://play.google.com/store/apps/details?id={pkg}", "icon": icon.group(1) if icon else "",
+        "developer": html.unescape(author.get("name") or ""), "website": author.get("url") or "",
+        "email": email, "dev_id": urllib.parse.unquote_plus(dev.group(1)) if dev else "",
+        "description": html.unescape(info.get("description") or "")[:600], "at": time.time(),
+    }
+
+
+def play_into(companies, terms, report):
+    """Search Google Play for each term and merge its health apps into `companies` (keyed like App Store ones)."""
+    store = load_json(PLAY_FILE, {"apps": {}, "search": {}})
+    by_name = {norm_name(c["company"]): cid for cid, c in companies.items()}
+    failures = 0
+    for i, term in enumerate(terms):
+        report(f"Google Play: {term}", i)
+        try:
+            hit = store["search"].get(term)
+            if not hit or time.time() - hit["at"] > TERM_CACHE_SECONDS:
+                hit = store["search"][term] = {"at": time.time(), "ids": play_search_ids(term)}
+            for pkg in hit["ids"]:
+                app = store["apps"].get(pkg)
+                if not app or time.time() - app["at"] > PLAY_APP_MAX_AGE:
+                    app = store["apps"][pkg] = play_app(pkg)
+                if not app["health"] or not app["developer"]:
+                    continue
+                key = norm_name(app["developer"])
+                cid = by_name.get(key) or f"gp-{re.sub(r'[^a-z0-9]+', '-', key or app['dev_id'].lower())[:60]}"
+                by_name[key] = cid
+                c = companies.setdefault(cid, {"id": cid, "company": app["developer"], "website": app["website"],
+                                               "developer_url": f"https://play.google.com/store/apps/developer?id={urllib.parse.quote_plus(app['dev_id'])}",
+                                               "apps": {}, "terms": []})
+                if not c.get("website") and app["website"]:
+                    c["website"] = app["website"]
+                if term not in c["terms"]:
+                    c["terms"].append(term)
+                c["apps"][app["id"]] = {k: v for k, v in app.items() if k not in ("at", "health", "pkg")}
+            failures = 0
+        except Exception as e:
+            failures += 1
+            report(None, None, f"Google Play {term}: {e}")
+            if failures >= 3:
+                report(None, None, "Google Play stopped answering; skipped the rest this run")
+                break
+        save_json(PLAY_FILE, store)
+
+
+# ---------- new pharmacies & clinics (NPI registry) ----------
+
+PROVIDERS_FILE = os.path.join(DATA, "providers.json")
+NPI_QUERIES = ["Pharmacy", "Clinic/Center"]
+NPI_EVERY = 24 * 3600
+CHAINS = re.compile(r"\b(cvs|walgreens|rite ?aid|wal-?mart|kroger|publix|safeway|albertsons|costco|sam'?s club|h-?e-?b|"
+                    r"meijer|hy-?vee|giant eagle|wegmans|amazon|express scripts|optum|accredo|alto pharmacy|capsule|"
+                    r"minuteclinic|carbon health|one medical|cityblock|oak street|centerwell|vca|banfield|davita|"
+                    r"fresenius|concentra|u\.?s\.? physical therapy|athletico|select physical)\b", re.I)
+STORE_NO = re.compile(r"#\s*\d+|\bstore\s*\d+|\b\d{4,}\b")
+PROVIDER_FIT = re.compile(r"wellness|weight|hormone|peptide|longevity|med ?spa|\biv\b|infusion|tele|virtual|\brx\b|"
+                          r"aesthetic|men'?s health|women'?s health|functional|integrative|anti-?aging|vitality|"
+                          r"optimal|concierge|direct primary|compound", re.I)
+DECIDER = re.compile(r"owner|ceo|chief exec|president|founder|managing|member|principal|director|partner", re.I)
+
+
+def npi_page(query, prefix, skip):
+    url = "https://npiregistry.cms.hhs.gov/api/?" + urllib.parse.urlencode({
+        "version": "2.1", "enumeration_type": "NPI-2", "taxonomy_description": query,
+        "postal_code": prefix + "*", "limit": 200, "skip": skip})
+    for attempt in range(3):
+        try:
+            text, _ = fetch(url, timeout=30)
+            return json.loads(text).get("results", [])
+        except Exception:
+            if attempt == 2:
+                raise
+            time.sleep(3 * (attempt + 1))
+
+
+def npi_scan(query, prefix, keep, cutoff, report, count):
+    """All organizations matching `query` in ZIP codes starting with `prefix`; splits the prefix when
+    it holds more than the registry's 1,200-result cap."""
+    rows = []
+    for skip in range(0, 1200, 200):
+        page = npi_page(query, prefix, skip)
+        count[0] += 1
+        rows += page
+        if len(page) < 200:
+            break
+        time.sleep(.15)
+    else:
+        if len(prefix) < 5:
+            for d in "0123456789":
+                npi_scan(query, prefix + d, keep, cutoff, report, count)
+            return
+    for x in rows:
+        b = x.get("basic", {})
+        if b.get("status") != "A" or (b.get("enumeration_date") or "") < cutoff:
+            continue
+        keep[x["number"]] = x
+
+
+def provider_record(x):
+    b = x["basic"]
+    prim = next((t for t in x.get("taxonomies", []) if t.get("primary")), (x.get("taxonomies") or [{}])[0])
+    loc = next((a for a in x.get("addresses", []) if a.get("address_purpose") == "LOCATION"), {})
+    dba = next((o.get("organization_name") for o in x.get("other_names", []) if o.get("organization_name")), "")
+    official = " ".join(filter(None, [b.get("authorized_official_first_name"), b.get("authorized_official_last_name")]))
+    return {
+        "id": f"npi-{x['number']}", "kind": "provider", "npi": str(x["number"]), "company": b.get("organization_name") or dba,
+        "dba": dba, "type": prim.get("desc") or "", "registered": b.get("enumeration_date"),
+        "city": (loc.get("city") or "").title(), "state": loc.get("state") or "", "zip": (loc.get("postal_code") or "")[:5],
+        "address": (loc.get("address_1") or "").title(), "phone": loc.get("telephone_number") or "",
+        "official": official.title(), "official_title": (b.get("authorized_official_title_or_position") or "").title(),
+        "official_phone": b.get("authorized_official_telephone_number") or "",
+        "npi_url": f"https://npiregistry.cms.hhs.gov/provider-view/{x['number']}",
+    }
+
+
+def score_provider(p):
+    why = []
+    days = (date.today() - date.fromisoformat(p["registered"])).days
+    new = 35 if days <= 30 else 30 if days <= 60 else 25 if days <= 90 else 18 if days <= 180 else 10
+    why.append(f"+{new} registered {days} days ago")
+    t = p["type"].lower()
+    fit = (30 if "compounding" in t else 26 if any(k in t for k in ("specialty", "mail order", "infusion")) else
+           18 if t.startswith("pharmacy") else 22 if "medical specialty" in t else 18 if "primary care" in t or "multi" in t
+           else 12)
+    why.append(f"+{fit} type: {p['type']}")
+    name = f"{p['company']} {p['dba']}"
+    rel = 20 if PROVIDER_FIT.search(name) else 0
+    why.append(f"+{rel} " + ("name points to wellness, weight loss, hormones, IV or compounding" if rel else "name doesn't point to a Connect niche"))
+    decider = 15 if DECIDER.search(p["official_title"]) else 8 if p["official"] else 0
+    if p["official"]:
+        why.append(f"+{decider} decision-maker named: {p['official']}" + (f", {p['official_title']}" if p["official_title"] else ""))
+    chain = 40 if CHAINS.search(name) or LARGE_ORG.search(name) else 30 if STORE_NO.search(name) else 0
+    if chain:
+        why.append(f"−{chain} looks like part of a chain")
+    p["score"] = max(0, new + fit + rel + decider - chain)
+    p["why"] = why
+
+
+# ---------- Medicare star ratings (CMS Care Compare) ----------
+
+MEDICARE_FILE = os.path.join(DATA, "medicare.json")
+MEDICARE_EVERY = 7 * 24 * 3600
+CMS_SETS = [  # dataset, kind, name field, rating field, Care Compare page
+    ("6jpm-sxkc", "Home health agency", "provider_name", "quality_of_patient_care_star_rating", "home-health"),
+    ("23ew-n7w9", "Dialysis center", "facility_name", "five_star", "dialysis-facility"),
+]
+CARE_CHAINS = re.compile(r"\b(amedisys|lhc|enhabit|kindred|centerwell|bayada|interim|gentiva|aveanna|encompass|"
+                         r"davita|fresenius|u\.?s\.? renal|american renal|dialysis clinic|satellite|innovative renal|"
+                         r"atlantic dialysis|northwest kidney)\b", re.I)
+
+
+def cms_rows(dataset):
+    out, offset = [], 0
+    while True:
+        text, _ = fetch(f"https://data.cms.gov/provider-data/api/1/datastore/query/{dataset}/0?limit=1000&offset={offset}",
+                        timeout=60, limit=40_000_000)
+        rows = json.loads(text).get("results", [])
+        out += rows
+        if len(rows) < 1000:
+            return out
+        offset += 1000
+        time.sleep(.3)
+
+
+def score_medicare(p, max_rating):
+    why = []
+    r = p["rating"]
+    need = 12 + 23 * (max_rating - r) / max(max_rating - 1, .5)
+    need = max(0, min(35, need))
+    why.append(f"+{need:.0f} Medicare rates it {r:g}★")
+    years = (date.today() - date.fromisoformat(p["certified"])).days / 365.25 if p.get("certified") else None
+    new = 25 if years is not None and years <= 3 else 15 if years is not None and years <= 6 else 8 if years is not None and years <= 10 else 3
+    if years is not None:
+        why.append(f"+{new} Medicare-certified {years:.0f} yrs ago")
+    own = (p.get("ownership") or "").lower()
+    o = (10 if own.strip(" -") == "" else 4 if "government" in own else 12 if "non" in own and "profit" in own else 20)
+    why.append(f"+{o} ownership: {p.get('ownership').strip(' -') or 'not given'}")
+    fit = 20 if p["type"] == "Home health agency" else 10
+    why.append(f"+{fit} {'home health: patients managed at home, a good fit for an app' if fit == 20 else 'dialysis: weaker fit'}")
+    chain = 40 if CARE_CHAINS.search(p["company"]) or LARGE_ORG.search(p["company"]) else 0
+    if chain:
+        why.append(f"−{chain} part of a large chain")
+    p["score"] = max(0, round(need + new + o + fit - chain))
+    p["why"] = why
+
+
+def fetch_medicare(max_rating, report):
+    out = []
+    for i, (ds, kind, name_f, rate_f, page) in enumerate(CMS_SETS):
+        report(f"Medicare: {kind.lower()}s", i, total=len(CMS_SETS))
+        for row in cms_rows(ds):
+            try:
+                r = float(row.get(rate_f) or "x")
+            except ValueError:
+                continue
+            if r > max_rating:
+                continue
+            ccn = row.get("cms_certification_number_ccn") or row.get("ccn") or ""
+            p = {"id": f"cms-{ccn}", "kind": "medicare", "type": kind, "company": (row.get(name_f) or "").title(),
+                 "rating": r, "ccn": ccn, "city": (row.get("citytown") or row.get("city_town") or "").title(),
+                 "state": row.get("state") or "", "zip": (row.get("zip_code") or "")[:5],
+                 "address": (row.get("address") or row.get("address_line_1") or "").title(),
+                 "phone": row.get("telephone_number") or "",
+                 "ownership": (row.get("type_of_ownership") or row.get("profit_or_nonprofit") or row.get("ownership_type") or "").title(),
+                 "certified": (row.get("certification_date") or "")[:10] or None,
+                 "compare_url": f"https://www.medicare.gov/care-compare/details/{page}/{ccn}"}
+            if p["certified"] and not re.fullmatch(r"\d{4}-\d\d-\d\d", p["certified"]):
+                try:
+                    p["certified"] = datetime.strptime(p["certified"], "%m/%d/%Y").date().isoformat()
+                except ValueError:
+                    p["certified"] = None
+            score_medicare(p, max_rating)
+            out.append(p)
+    out.sort(key=lambda p: -p["score"])
+    return out
+
+
+# ---------- the providers job (NPI + Medicare) ----------
+
+PROVIDER_TYPES_KEEP = re.compile(r"^(pharmacy|clinic/center)", re.I)
+
+
+def run_providers(days, which, force=False):
+    """which: subset of {"npi", "medicare"}. Each part only runs when due unless forced."""
+    try:
+        if "npi" in which and (force or time.time() - last_ran("npi") >= NPI_EVERY - 3600):
+            cutoff = (date.today() - timedelta(days=days)).isoformat()
+            keep, count = {}, [0]
+            prefixes = [f"{i:02d}" for i in range(100)]
+            total = len(prefixes) * len(NPI_QUERIES)
+            for qi, query in enumerate(NPI_QUERIES):
+                for pi, prefix in enumerate(prefixes):
+                    with lock:
+                        pjob.update(stage=f"Registry: {query.lower()} · ZIP {prefix}xxx", done=qi * len(prefixes) + pi,
+                                    total=total, found=len(keep))
+                    try:
+                        npi_scan(query, prefix, keep, cutoff, None, count)
+                    except Exception as e:
+                        with lock:
+                            pjob["errors"].append(f"{query} {prefix}: {e}")
+            recs = [provider_record(x) for x in keep.values()]
+            recs = [r for r in recs if PROVIDER_TYPES_KEEP.search(r["type"])]
+            for r in recs:
+                score_provider(r)
+            recs.sort(key=lambda r: -r["score"])
+            with lock:
+                save_json(PROVIDERS_FILE, {"providers": recs, "days": days, "updated": time.time(), "requests": count[0]})
+                mark_ran("npi")
+        if "medicare" in which and (force or time.time() - last_ran("medicare") >= MEDICARE_EVERY - 3600):
+            max_rating = float((load_json(RESULTS_FILE, {}).get("filters") or {}).get("max_rating", 3))
+
+            def report(stage, i, total=None, error=None):
+                with lock:
+                    if stage:
+                        pjob.update(stage=stage, done=i, total=total or pjob["total"])
+            recs = fetch_medicare(max_rating, report)
+            with lock:
+                save_json(MEDICARE_FILE, {"medicare": recs, "max_rating": max_rating, "updated": time.time()})
+                mark_ran("medicare")
+    except Exception as e:
+        with lock:
+            pjob["errors"].append(str(e))
+    finally:
+        with lock:
+            prov = load_json(PROVIDERS_FILE, {}).get("providers", [])
+            med = load_json(MEDICARE_FILE, {}).get("medicare", [])
+            pjob.update(running=False, stage="", found=len(prov) + len(med), finished_at=time.time())
+        track_new()
+
+
+def current_providers():
+    res = load_json(PROVIDERS_FILE, {"providers": []})
+    for p in res["providers"]:
+        score_provider(p)  # "days ago" points move with the calendar
+    res["providers"].sort(key=lambda p: -p["score"])
+    return res
+
+
+def current_medicare():
+    return load_json(MEDICARE_FILE, {"medicare": []})
+
 # ---------- auto-update ----------
 
 def mark_ran(kind):
@@ -765,7 +1122,7 @@ def nice_name(n):
 
 def lead_from(src, it):
     """The same pipeline record the page makes with "Add to pipeline"."""
-    kind = "funded" if src == "funded" else "app"
+    kind = {"funded": "funded", "prov": "provider", "cms": "medicare"}.get(src, "app")
     item = dict(it, kind=kind, source=src)
     if isinstance(item.get("apps"), list):
         item["apps"] = [{k: v for k, v in a.items() if k != "description"} for a in item["apps"]]
@@ -777,6 +1134,10 @@ def lead_from(src, it):
         lead.update(founded=it.get("year_of_inc"), raised=it.get("amount_sold"), category="health", app="",
                     contacts=[{"name": nice_name(p["name"]), "title": ", ".join(p["roles"]), "source": "SEC Form D"}
                               for p in it.get("people", [])])
+    elif kind in ("provider", "medicare"):
+        who = it.get("official")
+        lead.update(category="health", app="", contacts=[{"name": who, "title": it.get("official_title", ""),
+                    "phone": it.get("official_phone") or it.get("phone", ""), "source": "NPI registry"}] if who else [])
     else:
         w = it["worst"]
         lead.update(app=w.get("name"), rating=w.get("rating"), ratings=it.get("total_ratings"), app_url=w.get("url"),
@@ -793,13 +1154,16 @@ def track_new():
         seen = seen or {}
         now = time.time()
         fresh = []
-        sources = (("low", current_prospects()[0]), ("new", new_apps(24)), ("funded", current_funded()["funded"]))
+        sources = (("low", current_prospects()[0]), ("new", new_apps(24)), ("funded", current_funded()["funded"]),
+                   ("prov", current_providers()["providers"]), ("cms", current_medicare()["medicare"]))
         for src, items in sources:
+            # a source's first results are its starting point, not news (the same as the very first run)
+            first = baseline or not any(k.startswith(src + ":") for k in seen)
             for it in items:
                 key = f"{src}:{it['id']}"
                 if key not in seen:
-                    seen[key] = 0 if baseline else now
-                    if not baseline and not it.get("solo"):
+                    seen[key] = 0 if first else now
+                    if not first and not it.get("solo"):
                         fresh.append((src, it))
         save_json(SEEN_FILE, seen)
         added = 0
@@ -865,6 +1229,14 @@ def scheduler():
                 if start_funded:
                     threading.Thread(target=run_funded, args=(int(fres.get("days") or 180), fterms),
                                      daemon=True).start()
+                with lock:
+                    start_prov = not pjob["running"] and (now - last_ran("npi") >= NPI_EVERY
+                                                          or now - last_ran("medicare") >= MEDICARE_EVERY)
+                    if start_prov:
+                        pjob.update(running=True, done=0, total=1, stage="Starting", found=0, errors=[], finished_at=None)
+                if start_prov:
+                    threading.Thread(target=run_providers, daemon=True,
+                                     args=(int(s.get("provider_days") or 90), {"npi", "medicare"})).start()
             auto["error"] = ""
         except Exception as e:
             auto["error"] = str(e)
@@ -1005,6 +1377,13 @@ def update_once():
         ran.append(f"SEC: {fjob['found']} startups" + (f", {len(fjob['errors'])} errors" if fjob["errors"] else ""))
     elif not EMAIL_RE.search(s.get("sec_contact", "")):
         print("No SEC_CONTACT secret set, so the SEC scan was skipped.")
+    due_npi = force or time.time() - last_ran("npi") >= NPI_EVERY - CLOUD_GRACE
+    due_med = force or time.time() - last_ran("medicare") >= MEDICARE_EVERY - CLOUD_GRACE
+    if due_npi or due_med:
+        print("Providers:", ", ".join(k for k, d in (("NPI registry", due_npi), ("Medicare", due_med)) if d))
+        pjob.update(running=True, done=0, total=1, stage="Starting", found=0, errors=[], finished_at=None)
+        run_providers(int(s.get("provider_days") or 90), {"npi", "medicare"}, force)
+        ran.append(f"providers: {pjob['found']}" + (f", {len(pjob['errors'])} errors" if pjob["errors"] else ""))
     if not ran:
         print("Nothing due yet.")
         return
@@ -1022,8 +1401,9 @@ def leads_csv():
     out = io.StringIO()
     w = csv.writer(out)
     w.writerow(["Company", "Found by", "Status", "Score", "App", "Rating", "Ratings", "Founded", "Raised", "Website",
-                "Contact name", "Title", "Email", "LinkedIn", "Contact source", "Notes", "App Store"])
-    source = {"low": "Low-rated app", "new": "New app", "funded": "Newly funded"}
+                "Contact name", "Title", "Email", "Phone", "LinkedIn", "Contact source", "Notes", "App Store"])
+    source = {"low": "Low-rated app", "new": "New app", "funded": "Newly funded", "prov": "New provider",
+              "cms": "Medicare-rated"}
     for lead in sorted(leads.values(), key=lambda l: -(l.get("score") or 0)):
         base = [lead.get("company"), source.get(lead.get("source"), "Low-rated app"), lead.get("status"),
                 lead.get("score"), lead.get("app"), lead.get("rating"), lead.get("ratings"),
@@ -1031,7 +1411,7 @@ def leads_csv():
         tail = [lead.get("notes", ""), lead.get("app_url")]
         contacts = lead.get("contacts") or [{}]
         for c in contacts:
-            w.writerow(base + [c.get("name", ""), c.get("title", ""), c.get("email", ""),
+            w.writerow(base + [c.get("name", ""), c.get("title", ""), c.get("email", ""), c.get("phone", ""),
                                c.get("linkedin", ""), c.get("source", "")] + tail)
     return out.getvalue()
 
@@ -1069,21 +1449,24 @@ class Handler(http.server.BaseHTTPRequestHandler):
             prospects, filters, updated = current_prospects()
             funded = current_funded()
             newer = new_apps(months)
+            provs, med = current_providers(), current_medicare()
             seen = load_json(SEEN_FILE, {})
-            for src, items in (("low", prospects), ("new", newer), ("funded", funded["funded"])):
+            for src, items in (("low", prospects), ("new", newer), ("funded", funded["funded"]),
+                               ("prov", provs["providers"]), ("cms", med["medicare"])):
                 for it in items:
                     it["first_seen"] = seen.get(f"{src}:{it['id']}", 0)
             with lock:
-                j, fj = dict(job), dict(fjob)
+                j, fj, pj = dict(job), dict(fjob), dict(pjob)
             s = get_settings()
             return self.send(200, {"prospects": prospects, "filters": filters, "updated": updated, "job": j,
                                    "new_apps": newer, "funded": funded["funded"], "auto": auto_status(),
                                    "funded_days": funded.get("days"), "funded_updated": funded.get("updated"),
-                                   "fjob": fj, "leads": live_leads(), "settings": s,
+                                   "fjob": fj, "pjob": pj, "providers": provs["providers"], "providers_days": provs.get("days"),
+                                   "medicare": med["medicare"], "leads": live_leads(), "settings": s,
                                    "default_terms": DEFAULT_TERMS, "funded_terms": FUNDED_TERMS})
         if path == "/api/job":
             with lock:
-                return self.send(200, {"job": dict(job), "fjob": dict(fjob), "auto": auto_status()})
+                return self.send(200, {"job": dict(job), "fjob": dict(fjob), "pjob": dict(pjob), "auto": auto_status()})
         if path == "/api/export.csv":
             name = f"stonedock-prospects-{datetime.now():%Y-%m-%d}.csv"
             return self.send(200, "﻿" + leads_csv(), "text/csv",
@@ -1124,6 +1507,20 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 fjob.update(running=True, done=0, total=len(terms), stage="Starting", found=0, errors=[], finished_at=None)
             days = max(14, min(int(b.get("days", 180)), 730))
             threading.Thread(target=run_funded, args=(days, terms), daemon=True).start()
+            return self.send(200, {"ok": True})
+        if path == "/api/providers":
+            which = {w for w in b.get("which", ["npi", "medicare"]) if w in ("npi", "medicare")}
+            if not which:
+                return self.send(400, {"error": "pick at least one source"})
+            days = max(7, min(int(b.get("days") or get_settings().get("provider_days") or 90), 365))
+            with lock:
+                if pjob["running"]:
+                    return self.send(409, {"error": "already running"})
+                pjob.update(running=True, done=0, total=1, stage="Starting", found=0, errors=[], finished_at=None)
+                s = get_settings()
+                s["provider_days"] = days
+                save_settings(s)
+            threading.Thread(target=run_providers, args=(days, which, True), daemon=True).start()
             return self.send(200, {"ok": True})
         if path == "/api/clear":
             with lock:

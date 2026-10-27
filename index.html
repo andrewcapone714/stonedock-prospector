@@ -52,7 +52,7 @@ header .btn:hover { background: rgba(255,255,255,.18); }
 
 /* layout */
 .wrap { max-width: 1500px; margin: 0 auto; padding: 20px 24px 40px; }
-.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 18px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; margin-bottom: 18px; }
 .stat { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); display: flex; gap: 12px; align-items: center; }
 .stat .ic { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent-strong); flex: none; }
 .stat b { display: block; font-size: 22px; line-height: 1.1; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
@@ -64,6 +64,10 @@ aside.card { padding: 18px; }
 .avatar { width: 38px; height: 38px; border-radius: 10px; flex: none; display: grid; place-items: center; background: #0f172a; color: #6ea0f0; font-weight: 700; font-size: 14px; }
 .drawer-head .avatar { width: 52px; height: 52px; font-size: 18px; background: #1c2740; }
 .list.facts { display: grid; grid-template-columns: 1fr 1fr; }
+.store { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .04em; padding: 1px 6px; border-radius: 4px; margin-right: 4px; vertical-align: 1px; }
+.store.apple { background: #e2e8f0; color: #0f172a; }
+.store.google { background: #dcfce7; color: #166534; }
+.more { display: block; margin: 14px auto; }
 .money { font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
 aside h2, .drawer h3 { display: flex; align-items: center; gap: 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--accent-strong); margin: 0 0 10px; font-weight: 600; }
 label { display: block; font-size: 12px; font-weight: 500; color: var(--muted); margin: 14px 0 5px; }
@@ -237,6 +241,20 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
     <div class="err" id="fErr"></div>
     <div class="hint">Takes a few minutes the first time (up to 400 filings); repeat scans reuse saved filings. Needs your email in Settings.</div>
   </aside>
+
+  <aside class="card">
+    <h2><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2h4v6h6v4h-6v6h-4v-6H4V8h6z"/></svg>Pharmacies, clinics &amp; Medicare</h2>
+    <div class="hint" style="margin:-4px 0 4px">Fills <b>New providers</b> (federal NPI registry) and <b>Medicare-rated</b> (CMS Care Compare).</div>
+    <label for="pDays">Registered in the last</label>
+    <select id="pDays"><option value="30">30 days</option><option value="90" selected>90 days</option><option value="180">180 days</option></select>
+    <label class="check"><input type="checkbox" id="pNpi" checked> New pharmacies &amp; clinics</label>
+    <label class="check" style="margin-top:6px"><input type="checkbox" id="pCms" checked> Medicare 3★ or lower: home health &amp; dialysis</label>
+    <button class="btn primary" id="pBtn" style="width:100%;margin-top:14px" onclick="runProviders()">Scan registries</button>
+    <div class="progress" id="pProg" hidden><div></div></div>
+    <div class="hint" id="pText"></div>
+    <div class="err" id="pErr"></div>
+    <div class="hint">The registry scan covers every US ZIP code (about 1,500 lookups, 5–10 minutes). Runs daily on its own; Medicare weekly.</div>
+  </aside>
   </div>
 
   <main class="card">
@@ -245,11 +263,15 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
         <button data-tab="low" class="on" onclick="setTab('low')">Low-rated apps</button>
         <button data-tab="new" onclick="setTab('new')">New apps</button>
         <button data-tab="funded" onclick="setTab('funded')">Newly funded</button>
+        <button data-tab="prov" onclick="setTab('prov')">New providers</button>
+        <button data-tab="cms" onclick="setTab('cms')">Medicare-rated</button>
         <button data-tab="pipe" onclick="setTab('pipe')">Pipeline</button>
       </div>
       <div class="search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <input type="text" id="filter" placeholder="Filter by name" oninput="render()"></div>
       <select id="genre" onchange="render()" style="width:auto"><option value="">All categories</option><option>Medical</option><option>Health &amp; Fitness</option></select>
+      <select id="stateSel" onchange="S.limit = 300; render()" style="width:auto" hidden><option value="">All states</option></select>
+      <select id="typeSel" onchange="S.limit = 300; render()" style="width:auto" hidden><option value="">All types</option></select>
       <select id="months" onchange="S.months = +this.value; load()" style="width:auto" hidden title="How recently the company's first app launched">
         <option value="6">Launched in last 6 months</option><option value="12">Last 12 months</option><option value="18">Last 18 months</option>
         <option value="24" selected>Last 24 months</option><option value="36">Last 36 months</option></select>
@@ -261,6 +283,7 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
       <thead><tr id="head"></tr></thead>
       <tbody id="rows"></tbody>
     </table></div>
+    <button class="btn more" id="more" hidden onclick="S.limit += 300; render()"></button>
     <div class="empty" id="empty" hidden></div>
   </main>
 </div>
@@ -286,6 +309,9 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
         <select id="autoAdd"><option value="0">Off</option><option value="90">Fit 90 or more</option><option value="80">Fit 80 or more</option><option value="70">Fit 70 or more</option></select></div>
     </div>
     <div class="hint">Uses your last search terms and filters. New companies get a NEW badge for a week. Solo developers are never added.</div>
+    <label>Sources</label>
+    <label class="check" style="margin-top:4px"><input type="checkbox" id="playOn"> Include Google Play apps in App Store searches</label>
+    <div class="hint">Google Play has no official API, so this reads its public pages, which Google's terms forbid; it may stop working or be blocked.</div>
     <label for="template">Outreach template</label>
     <textarea id="template" rows="14"></textarea>
     <div class="hint">Fields: {first_name} {company} {app} {rating} {category} {sender}</div>
@@ -302,10 +328,13 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
 </div>
 
 <script>
-const S = { prospects: [], newApps: [], funded: [], leads: {}, settings: {}, job: {}, fjob: {}, filters: {}, tab: 'low', months: 24,
+const S = { prospects: [], newApps: [], funded: [], providers: [], medicare: [], leads: {}, settings: {}, job: {}, fjob: {}, pjob: {},
+  filters: {}, tab: 'low', months: 24, limit: 300,
   sel: null, sort: ['score', -1], extra: {} };
 const STATUSES = ['New', 'Researching', 'Contacted', 'Replied', 'Demo booked', 'Not a fit'];
-const SOURCES = { low: 'Low-rated app', new: 'New app', funded: 'Newly funded' };
+const SOURCES = { low: 'Low-rated app', new: 'New app', funded: 'Newly funded', prov: 'New provider', cms: 'Medicare-rated' };
+const TAB_NAMES = { low: 'Low-rated apps', new: 'New apps', funded: 'Newly funded', prov: 'New providers', cms: 'Medicare-rated', pipe: 'Pipeline' };
+const PLACES = ['prov', 'cms'];  // tabs of places rather than app companies: state and type filters
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const enc = encodeURIComponent;
@@ -344,6 +373,9 @@ async function load() {
     prospects: st.prospects.map(p => ({ ...p, kind: 'app', source: 'low' })),
     newApps: st.new_apps.map(p => ({ ...p, kind: 'app', source: 'new' })),
     funded: st.funded.map(p => ({ ...p, kind: 'funded', source: 'funded', apps: [] })),
+    providers: st.providers.map(p => ({ ...p, kind: 'provider', source: 'prov', apps: [] })),
+    medicare: st.medicare.map(p => ({ ...p, kind: 'medicare', source: 'cms', apps: [] })),
+    providersDays: st.providers_days, pjob: st.pjob,
     leads: st.leads, settings: st.settings, job: st.job, fjob: st.fjob, filters: st.filters, fundedDays: st.funded_days,
     auto: st.auto, version: st.auto.version,
   });
@@ -351,7 +383,8 @@ async function load() {
   if (!$('fTerms').value) $('fTerms').value = st.funded_terms.join('\n');
   if (st.filters.max_rating) $('maxRating').value = String(st.filters.max_rating);
   if (st.filters.min_reviews) $('minReviews').value = st.filters.min_reviews;
-  render(); showJob(); showFJob(); showAuto();
+  fillPlaceFilters();
+  render(); showJob(); showFJob(); showPJob(); showAuto();
   poll();
 }
 
@@ -363,6 +396,10 @@ const WEEK = 7 * 864e5;
 const isNew = p => p.first_seen > 0 && Date.now() - p.first_seen * 1000 < WEEK;
 const newTag = p => isNew(p) ? ' <span class="tag new" title="First found ' + new Date(p.first_seen * 1000).toLocaleString() + '">NEW</span>' : '';
 function coCell(p) {
+  if (p.kind === 'provider' || p.kind === 'medicare') {
+    return `<div class="co"><div class="avatar">${esc(initials(p.company))}</div><div><b>${esc(p.company)}${newTag(p)}</b>
+      <span>${esc(p.type)}${p.city ? ' · ' + esc(p.city) + ', ' + esc(p.state) : ''}</span></div></div>`;
+  }
   if (p.kind === 'funded') {
     return `<div class="co"><div class="avatar">${esc(initials(p.company))}</div><div><b>${esc(p.company)}${newTag(p)}</b>
       <span>${esc(p.industry || '')}${p.location ? ' · ' + esc(p.location) : ''}</span></div></div>`;
@@ -393,17 +430,41 @@ const COLS = {
     { k: 'filed', label: 'Form D filed', cell: p => num(ago(p.file_date)), val: p => p.file_date || '' },
     { k: 'people', label: 'Leaders named', cell: p => num((p.people || []).length), val: p => (p.people || []).length },
     FIT, STATUS],
+  prov: [COMPANY,
+    { k: 'registered', label: 'Registered', cell: p => num(ago(p.registered)), val: p => p.registered || '' },
+    { k: 'type', label: 'Type', cell: p => esc(p.type.replace(/^Pharmacy, |^Clinic\/Center, /, '')), val: p => p.type },
+    { k: 'state', label: 'State', cell: p => num(esc(p.state)), val: p => p.state, asc: true },
+    { k: 'official', label: 'Decision-maker', cell: p => p.official ? `${esc(p.official)}<br><span class="hint">${esc(p.official_title)}</span>` : '—', val: p => p.official },
+    FIT, STATUS],
+  cms: [COMPANY,
+    { k: 'rating', label: 'Medicare stars', cell: p => `<span class="rate ${rateCls(p.rating)}">★ ${p.rating.toFixed(1)}</span>`, val: p => p.rating, asc: true },
+    { k: 'state', label: 'State', cell: p => num(esc(p.state)), val: p => p.state, asc: true },
+    { k: 'certified', label: 'Certified', cell: p => num(year(p.certified)), val: p => p.certified || '' },
+    { k: 'ownership', label: 'Ownership', cell: p => esc(p.ownership.replace(/^-$/, '') || '—'), val: p => p.ownership },
+    FIT, STATUS],
   pipe: [COMPANY,
     { k: 'source', label: 'Found by', cell: p => `<span class="pill">${SOURCES[p.source] || ''}</span>`, val: p => p.source || '' },
     { k: 'signal', label: 'Signal', val: p => p.score, cell: p => p.kind === 'funded'
       ? `<span class="money">${money(p.amount_sold)}</span> <span class="hint">raised · founded ${esc(p.year_of_inc || '')}</span>`
+      : p.kind === 'provider' ? `<span class="hint">registered ${ago(p.registered)}</span>`
+      : p.kind === 'medicare' ? `<span class="rate ${rateCls(p.rating)}">★ ${p.rating.toFixed(1)}</span> <span class="hint">Medicare</span>`
       : rateCell(p.worst) },
     { k: 'contacts', label: 'Contacts', cell: p => num((p.lead?.contacts || []).length), val: p => (p.lead?.contacts || []).length },
     FIT, STATUS],
 };
 
-const listFor = src => ({ low: S.prospects, new: S.newApps, funded: S.funded })[src] || [];
-const findItem = id => [...S.prospects, ...S.newApps, ...S.funded].find(p => p.id === id);
+const listFor = src => ({ low: S.prospects, new: S.newApps, funded: S.funded, prov: S.providers, cms: S.medicare })[src] || [];
+const findItem = id => [...S.prospects, ...S.newApps, ...S.funded, ...S.providers, ...S.medicare].find(p => p.id === id);
+function fillPlaceFilters() {
+  const keep = (sel, values) => {
+    const v = sel.value;
+    sel.innerHTML = sel.options[0].outerHTML + values.map(x => `<option>${esc(x)}</option>`).join('');
+    sel.value = values.includes(v) ? v : '';
+  };
+  const places = [...S.providers, ...S.medicare];
+  keep($('stateSel'), [...new Set(places.map(p => p.state).filter(Boolean))].sort());
+  keep($('typeSel'), [...new Set(places.map(p => p.type).filter(Boolean))].sort());
+}
 const hiding = () => $('hideSolo').checked && (S.tab === 'low' || S.tab === 'new');
 
 // Rows for the current tab; pipeline leads outlive cleared results via the snapshot saved with them
@@ -418,8 +479,10 @@ function rows() {
     list = listFor(S.tab).map(p => ({ ...p, lead: S.leads[p.id] }));
   }
   const q = $('filter').value.trim().toLowerCase();
-  const g = S.tab === 'funded' ? '' : $('genre').value;
-  list = list.filter(p => (!q || [p.company, p.industry, ...(p.apps || []).map(a => a.name)].join(' ').toLowerCase().includes(q))
+  const g = ['low', 'new', 'pipe'].includes(S.tab) ? $('genre').value : '';
+  const st = PLACES.includes(S.tab) ? $('stateSel').value : '', ty = PLACES.includes(S.tab) ? $('typeSel').value : '';
+  list = list.filter(p => (!q || [p.company, p.dba, p.industry, p.city, p.type, p.official, ...(p.apps || []).map(a => a.name)].join(' ').toLowerCase().includes(q))
+    && (!st || p.state === st) && (!ty || p.type === ty)
     && (!g || p.kind !== 'app' || p.apps.some(a => a.genre === g))
     && !(hiding() && p.solo)
     && (!$('onlyNew').checked || isNew(p)));
@@ -439,19 +502,23 @@ function leadOnly(l) {
 function render() {
   const list = rows();
   const counts = { low: S.prospects.length, new: S.newApps.filter(p => !(hiding() && p.solo)).length,
-    funded: S.funded.length, pipe: Object.keys(S.leads).length };
+    funded: S.funded.length, prov: S.providers.length, cms: S.medicare.length, pipe: Object.keys(S.leads).length };
   if (S.tab !== 'new' && S.tab !== 'low') counts.new = S.newApps.filter(p => !($('hideSolo').checked && p.solo)).length;
   document.querySelectorAll('.tabs [data-tab]').forEach(b => {
     b.classList.toggle('on', b.dataset.tab === S.tab);
     const fresh = b.dataset.tab === 'pipe' ? 0 : listFor(b.dataset.tab).filter(p => isNew(p) && !p.solo).length;
-    b.innerHTML = `${{ low: 'Low-rated apps', new: 'New apps', funded: 'Newly funded', pipe: 'Pipeline' }[b.dataset.tab]} (${counts[b.dataset.tab]})`
+    b.innerHTML = `${TAB_NAMES[b.dataset.tab]} (${counts[b.dataset.tab].toLocaleString()})`
       + (fresh ? ` <span class="tag new">${fresh} NEW</span>` : '');
   });
   const cols = COLS[S.tab];
   $('head').innerHTML = cols.map(c => `<th data-k="${c.k}" class="${c.k === S.sort[0] ? 'sorted' : ''}">${c.label}${c.k === S.sort[0] ? (S.sort[1] > 0 ? ' ↑' : ' ↓') : ''}</th>`).join('');
-  $('rows').innerHTML = list.map(p => `<tr data-id="${esc(p.id)}" class="${p.id === S.sel ? 'sel' : ''}">${cols.map(c => `<td>${c.cell(p)}</td>`).join('')}</tr>`).join('');
+  // long lists render 300 rows at a time
+  $('rows').innerHTML = list.slice(0, S.limit).map(p => `<tr data-id="${esc(p.id)}" class="${p.id === S.sel ? 'sel' : ''}">${cols.map(c => `<td>${c.cell(p)}</td>`).join('')}</tr>`).join('');
+  $('more').hidden = list.length <= S.limit;
+  $('more').textContent = `Show ${Math.min(300, list.length - S.limit).toLocaleString()} more (${(list.length - S.limit).toLocaleString()} not shown)`;
 
-  $('genre').hidden = S.tab === 'funded';
+  $('genre').hidden = !['low', 'new', 'pipe'].includes(S.tab);
+  $('stateSel').hidden = $('typeSel').hidden = !PLACES.includes(S.tab);
   $('months').hidden = S.tab !== 'new';
   $('soloWrap').hidden = !(S.tab === 'low' || S.tab === 'new');
   const empty = $('empty');
@@ -461,12 +528,16 @@ function render() {
     low: S.prospects.length ? 'No companies match the filter.' : 'No results yet. Choose <b>Run search</b> under Search the App Store.',
     new: S.newApps.length ? 'No companies match the filter.' : 'No new apps yet. Run an App Store search, or widen the launch window.',
     funded: S.funded.length ? 'No companies match the filter.' : 'No scan yet. Choose <b>Scan SEC filings</b> on the left.',
+    prov: S.providers.length ? 'No providers match the filter.' : 'No scan yet. Choose <b>Scan registries</b> on the left.',
+    cms: S.medicare.length ? 'No providers match the filter.' : 'No scan yet. Choose <b>Scan registries</b> on the left.',
   })[S.tab] + '</div>';
   const f = S.filters;
   $('meta').textContent = {
     low: f.max_rating ? `Apps rated ≤ ${f.max_rating}★ with ≥ ${f.min_reviews} ratings · ${list.length} shown` : '',
     new: `First health app launched in the last ${S.months} months · ${list.length} shown`,
     funded: S.fundedDays ? `Under 5 years old · Form D filed in the last ${S.fundedDays} days · ${list.length} shown` : '',
+    prov: S.providersDays ? `Pharmacies & clinics registered in the last ${S.providersDays} days · ${list.length.toLocaleString()} shown` : '',
+    cms: `Home health agencies & dialysis centers Medicare rates ≤ ${S.filters.max_rating || 3}★ · ${list.length.toLocaleString()} shown`,
     pipe: `${list.length} companies`,
   }[S.tab];
   renderStats();
@@ -479,6 +550,8 @@ const ICONS = {
   fresh: '<path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1M5.6 18.4l2.1-2.1m8.6-8.6 2.1-2.1"/>',
   money: '<path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>',
   pipe: '<path d="M4 6h16M4 12h10M4 18h6"/>',
+  prov: '<path d="M10 2h4v6h6v4h-6v6h-4v-6H4V8h6z"/>',
+  cms: '<path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/>',
 };
 function renderStats() {
   const leads = Object.values(S.leads);
@@ -489,6 +562,8 @@ function renderStats() {
   $('stats').innerHTML = card('rating', S.prospects.length + sub(`${strong(S.prospects)} strong`), 'Low-rated apps', 'low')
     + card('fresh', S.newApps.filter(p => !p.solo).length + sub(`${strong(S.newApps)} strong`), `New apps (last ${S.months} mo)`, 'new')
     + card('money', S.funded.length + sub(`${strong(S.funded)} strong`), 'Newly funded startups', 'funded')
+    + card('prov', S.providers.length.toLocaleString() + sub(`${strong(S.providers)} strong`), 'New pharmacies & clinics', 'prov')
+    + card('cms', S.medicare.length.toLocaleString() + sub(`${strong(S.medicare)} strong`), 'Medicare 3★ or lower', 'cms')
     + card('pipe', leads.length + sub(`${contacted} contacted`), 'In pipeline', 'pipe');
 }
 
@@ -505,6 +580,7 @@ $('head').addEventListener('click', e => {
 });
 function setTab(t) {
   S.tab = t;
+  S.limit = 300;
   if (!COLS[t].some(c => c.k === S.sort[0])) S.sort = ['score', -1];
   render();
 }
@@ -538,11 +614,11 @@ async function poll() {
   if (watching) return;
   watching = true;
   for (;;) {
-    await new Promise(r => setTimeout(r, S.job.running || S.fjob.running ? 1500 : 20000));
+    await new Promise(r => setTimeout(r, S.job.running || S.fjob.running || S.pjob.running ? 1500 : 20000));
     let j;
     try { j = await api('/api/job'); } catch { continue; }
-    S.job = j.job; S.fjob = j.fjob; S.auto = j.auto;
-    showJob(); showFJob(); showAuto();
+    S.job = j.job; S.fjob = j.fjob; S.pjob = j.pjob; S.auto = j.auto;
+    showJob(); showFJob(); showPJob(); showAuto();
     if (j.auto.version !== S.version) {
       const since = S.announcedAt ??= S.openedAt;
       const events = (j.auto.events || []).filter(e => e.at > since);
@@ -566,7 +642,7 @@ function toast(html) {
 }
 function showAuto() {
   const a = S.auto || {}, chip = $('autoChip');
-  const busy = S.job.running || S.fjob.running;
+  const busy = S.job.running || S.fjob.running || S.pjob.running;
   chip.className = 'auto-chip' + (busy ? ' busy' : a.on ? ' on' : '');
   const next = Math.min(a.apps_next || Infinity, a.funded_ready ? a.funded_next || Infinity : Infinity) * 1000 - Date.now();
   const inText = ms => ms <= 60e3 ? 'any minute' : ms < 36e5 ? `in ${Math.round(ms / 6e4)} min` : `in ${Math.floor(ms / 36e5)}h ${Math.round(ms % 36e5 / 6e4)}m`;
@@ -601,6 +677,25 @@ function showFJob() {
     : S.funded.length ? `${S.funded.length} startups from the last scan.` : '';
   $('fErr').textContent = (j.errors || []).length ? `${j.errors.length} filing(s) couldn't be read: ${j.errors.slice(-2).join('; ')}` : '';
 }
+async function runProviders() {
+  const which = [$('pNpi').checked && 'npi', $('pCms').checked && 'medicare'].filter(Boolean);
+  $('pErr').textContent = '';
+  try {
+    await api('/api/providers', { days: +$('pDays').value, which });
+    S.pjob = { running: true, done: 0, total: 1, stage: 'Starting', found: 0, errors: [] };
+    showPJob(); poll();
+  } catch (e) { $('pErr').textContent = e.message; }
+}
+function showPJob() {
+  const j = S.pjob || {}, running = j.running;
+  $('pBtn').disabled = running;
+  $('pProg').hidden = !running;
+  $('pProg').firstElementChild.style.width = j.total ? `${100 * j.done / j.total}%` : '0';
+  $('pText').textContent = running ? `${j.stage}${j.found ? ` · ${j.found.toLocaleString()} found so far` : ''}`
+    : (S.providers.length || S.medicare.length) ? `${S.providers.length.toLocaleString()} new providers · ${S.medicare.length.toLocaleString()} Medicare-rated.` : '';
+  $('pErr').textContent = (j.errors || []).length ? `${j.errors.length} lookup(s) failed: ${j.errors.slice(-2).join('; ')}` : '';
+  if (S.providersDays) $('pDays').value = String(S.providersDays);
+}
 async function clearResults() {
   if (!confirm('Clear App Store results? Your pipeline is kept.')) return;
   await api('/api/clear', {}); load();
@@ -629,12 +724,20 @@ function whyList(p) {
   }).join('')}</ul>`;
 }
 
+function playEmails(p) {
+  const lead = S.leads[p.id];
+  const emails = [...new Set(p.apps.map(a => a.email).filter(Boolean))];
+  if (!emails.length) return '';
+  return `<div class="list" style="margin-top:10px">${emails.map(e => `<div class="item"><div><small>Support email listed on Google Play</small><b>${esc(e)}</b></div>
+    ${lead && !(lead.contacts || []).some(c => c.email === e) ? `<button class="btn small" onclick='addContact(${JSON.stringify({ email: e, source: 'Google Play' })})'>Add</button>` : ''}</div>`).join('')}</div>`;
+}
 function appsSection(p) {
   return `<section>
       <h3>Apps</h3>
       <div class="apps">${p.apps.map(a => `<div class="app"><img src="${esc(a.icon || '')}" alt="" onerror="this.style.visibility='hidden'">
-        <div><b>${esc(a.name)}</b><span>${a.rating && a.count ? stars(a.rating) : 'not rated yet'} · ${(a.count || 0).toLocaleString()} ratings · ${esc(a.genre || '')}${a.released ? ` · launched ${ago(a.released)}` : ''}${a.updated ? ` · updated ${ago(a.updated)}` : ''}</span></div>
-        ${a.url ? `<a class="btn small" style="text-decoration:none;color:inherit" target="_blank" rel="noopener" href="${esc(a.url)}">App Store</a>` : ''}</div>`).join('')}</div>
+        <div><b><span class="store ${a.store === 'google' ? 'google' : 'apple'}">${a.store === 'google' ? 'PLAY' : 'iOS'}</span>${esc(a.name)}</b><span>${a.rating && a.count ? stars(a.rating) : 'not rated yet'} · ${(a.count || 0).toLocaleString()} ratings · ${esc(a.genre || '')}${a.released ? ` · launched ${ago(a.released)}` : ''}${a.updated ? ` · updated ${ago(a.updated)}` : ''}</span></div>
+        ${a.url ? `<a class="btn small" style="text-decoration:none;color:inherit" target="_blank" rel="noopener" href="${esc(a.url)}">${a.store === 'google' ? 'Google Play' : 'App Store'}</a>` : ''}</div>`).join('')}</div>
+      ${playEmails(p)}
     </section>`;
 }
 
@@ -659,20 +762,48 @@ function fundingSection(p) {
     </section>`;
 }
 
+function placeSection(p) {
+  const lead = S.leads[p.id];
+  // the registry gives "8339907873" or "833-990-7873"
+  const phone = n => { const d = (n || '').replace(/\D/g, ''); return d.length === 10 ? `${d.slice(0, 3)}-${d.slice(3, 6)}-${d.slice(6)}` : (n || ''); };
+  const facts = p.kind === 'provider'
+    ? [['Registered', p.registered], ['Type', p.type], ['Also known as', p.dba], ['Address', [p.address, p.city, p.state, p.zip].filter(Boolean).join(', ')],
+       ['Phone', phone(p.phone)], ['NPI', p.npi]]
+    : [['Medicare rating', `${p.rating}★`], ['Type', p.type], ['Ownership', p.ownership.replace(/^-$/, '')], ['Medicare-certified', p.certified],
+       ['Address', [p.address, p.city, p.state, p.zip].filter(Boolean).join(', ')], ['Phone', phone(p.phone)]];
+  const official = p.official ? `<section>
+      <h3>Decision-maker (from the registry)</h3>
+      <div class="list"><div class="item"><div><b>${esc(p.official)}</b><small>${esc(p.official_title || 'Authorized official')}${p.official_phone ? ' · ' + phone(p.official_phone) : ''}</small></div>
+        <a class="btn small" target="_blank" rel="noopener" href="https://www.linkedin.com/search/results/people/?keywords=${enc(`${p.official} ${cleanName(p.company)}`)}">LinkedIn</a>
+        ${lead && !(lead.contacts || []).some(c => c.name === p.official) ? `<button class="btn small" onclick='addContact(${JSON.stringify({ name: p.official, title: p.official_title, phone: p.official_phone, source: 'NPI registry' }).replace(/'/g, '&#39;')})'>Add</button>` : ''}</div></div>
+      ${lead ? '' : '<div class="hint">Adding this provider to the pipeline adds them as a contact.</div>'}
+    </section>` : '';
+  return `<section>
+      <h3>${p.kind === 'provider' ? 'Registry record' : 'Medicare record'}</h3>
+      <div class="list facts">${facts.filter(([, v]) => v).map(([k, v]) => `<div class="item"><div><small>${k}</small><b>${esc(v)}</b></div></div>`).join('')}</div>
+      <div class="links" style="margin-top:10px">
+        ${p.npi_url ? `<a target="_blank" rel="noopener" href="${esc(p.npi_url)}">NPI registry page</a>` : ''}
+        ${p.compare_url ? `<a target="_blank" rel="noopener" href="${esc(p.compare_url)}">Medicare Care Compare</a>` : ''}
+        <a target="_blank" rel="noopener" href="https://www.google.com/search?q=${enc(`"${cleanName(p.dba || p.company)}" ${p.city || ''} ${p.state || ''}`)}">Search Google</a></div>
+    </section>${official}`;
+}
+
 function renderDrawer() {
   const p = current();
   const d = $('drawer');
   if (!p) { d.classList.remove('open'); return; }
   const lead = S.leads[p.id];
   const x = extra();
-  const funded = p.kind === 'funded';
+  const funded = p.kind === 'funded', place = p.kind === 'provider' || p.kind === 'medicare';
   const website = x.website ?? lead?.website ?? p.website ?? '';
-  const sub = funded
+  const sub = place
+    ? [p.type, p.city && `${p.city}, ${p.state}`].filter(Boolean).map(esc).join(' · ')
+    : funded
     ? [p.industry, p.location, p.year_of_inc && `founded ${p.year_of_inc}`].filter(Boolean).map(esc).join(' · ')
     : `${p.apps.length} health app${p.apps.length > 1 ? 's' : ''} · ${p.total_ratings.toLocaleString()} ratings${p.terms?.length ? ` · found by: ${esc(p.terms.join(', '))}` : ''}`;
   d.innerHTML = `
   <div class="drawer-head">
-    ${funded ? `<div class="avatar">${esc(initials(p.company))}</div>`
+    ${funded || place ? `<div class="avatar">${esc(initials(p.company))}</div>`
       : p.worst?.icon ? `<img src="${esc(p.worst.icon)}" alt="" onerror="this.remove()">` : ''}
     <div style="flex:1;min-width:0">
       <h2>${esc(p.company)}</h2>
@@ -692,7 +823,7 @@ function renderDrawer() {
       <h3 style="margin-top:14px">Why it fits</h3>
       ${whyList(p)}
     </section>
-    ${funded ? fundingSection(p) : appsSection(p)}
+    ${place ? placeSection(p) : funded ? fundingSection(p) : appsSection(p)}
     <section>
       <h3>Find decision-makers on LinkedIn</h3>
       <div class="links">${liLinks(p.company)}</div>
@@ -719,7 +850,7 @@ function renderDrawer() {
     ${lead ? `<section>
       <h3>Contacts</h3>
       <div class="list">${(lead.contacts || []).map((c, i) => `<div class="item"><div><b>${esc(c.name || c.email)}</b>${c.title ? ` · ${esc(c.title)}` : ''}
-        <small>${[c.email, c.linkedin, c.source].filter(Boolean).map(esc).join(' · ')}</small></div>
+        <small>${[c.email, c.phone, c.linkedin, c.source].filter(Boolean).map(esc).join(' · ')}</small></div>
         <button class="x" onclick="removeContact(${i})" aria-label="Remove contact">✕</button></div>`).join('') || '<div class="hint">No contacts yet.</div>'}</div>
       <div class="grid2" style="margin-top:10px">
         <input type="text" id="cName" placeholder="Name"><input type="text" id="cTitle" placeholder="Title">
@@ -793,7 +924,10 @@ async function addLead() {
   item.apps = (item.apps || []).map(({ description, ...a }) => a);  // keep the snapshot small
   const fields = { company: p.company, source: p.source, kind: p.kind, score: p.score, why: p.why, item,
     website: extra().website || p.website || '', status: 'New', contacts: [] };
-  if (p.kind === 'funded') {
+  if (p.kind === 'provider' || p.kind === 'medicare') {
+    Object.assign(fields, { category: 'health', app: '', founded: (p.registered || p.certified || '').slice(0, 4),
+      contacts: p.official ? [{ name: p.official, title: p.official_title, phone: p.official_phone, source: 'NPI registry' }] : [] });
+  } else if (p.kind === 'funded') {
     Object.assign(fields, { founded: p.year_of_inc, raised: p.amount_sold, category: 'health', app: '',
       contacts: (p.people || []).map(pp => ({ name: niceName(pp.name), title: pp.roles.join(', '), source: 'SEC Form D' })) });
   } else {
@@ -853,13 +987,14 @@ function openSettings() {
   $('autoOn').checked = S.settings.auto_update !== false;
   $('autoEvery').value = String(S.settings.auto_every_hours || 6);
   $('autoAdd').value = String(S.settings.auto_add_min || 0);
+  $('playOn').checked = S.settings.play_enabled !== false;
   $('settingsBg').classList.add('open');
 }
 function closeModal(el) { el.classList.remove('open'); }
 async function saveSettings() {
   try {
     S.settings = await api('/api/settings', { sender: $('sender').value.trim(), sec_contact: $('secContact').value.trim(), template: $('template').value,
-      auto_update: $('autoOn').checked, auto_every_hours: +$('autoEvery').value, auto_add_min: +$('autoAdd').value });
+      auto_update: $('autoOn').checked, auto_every_hours: +$('autoEvery').value, auto_add_min: +$('autoAdd').value, play_enabled: $('playOn').checked });
     closeModal($('settingsBg'));
     S.auto = (await api('/api/job')).auto; showAuto();
   } catch (e) {
