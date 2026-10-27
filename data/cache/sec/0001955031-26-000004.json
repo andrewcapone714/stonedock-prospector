@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1955031/000195503126000004/",
+ "entity": "Septal Solutions, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "10000000",
+ "amount_sold": "7319695",
+ "first_sale": "2026-10-16",
+ "people": [
+  {
+   "name": "Ehsan Jabbarzadeh",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "David Wood",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Grant Conway",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Greg Walters",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Wallace",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}
