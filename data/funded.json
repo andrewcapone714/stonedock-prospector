@@ -8431,7 +8431,8 @@
    "file_date": "2026-08-03",
    "location": "Coon Rapids, MN",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002147822&type=D",
    "year_of_inc": "2022",
@@ -10331,5 +10332,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793077494.5443068
+ "updated": 1793079653.1072133
 }
