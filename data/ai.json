@@ -1,0 +1,45 @@
+{
+ "research": {
+  "npi-1851295646": {
+   "summary": "PureHealth Compounding LLC is a newly registered compounding pharmacy in Harleysville, PA (phone 833-990-7873). The NPI registry lists Daniel Nagrudny as owner and pharmacist-in-charge. I found no website, LinkedIn page, reviews or news for it, so its services and customers are not confirmed.",
+   "website": "",
+   "fit": "A brand-new compounding pharmacy is in StoneDock's best-fit segment. Its toll-free 833 number suggests it may ship or serve patients remotely, though I couldn't confirm that. It may need a patient app, lab-PDF AI and a medication workflow (payment, prescription, EHR sync, refills) that StoneDock Connect already runs. This is the same model as the live client MyWellness App with the Wellvi pharmacy. The main uncertainty is whether it focuses on GLP-1s, peptides or hormones, or on general compounding.",
+   "pain_points": [
+    "No patient-facing app or digital channel yet, as a new launch",
+    "Handling prescription, payment, refill and EHR sync without building its own stack",
+    "Retaining patients on recurring compounded therapies such as GLP-1s, peptides and hormones",
+    "Showing patient consent and an audit trail for HIPAA and state pharmacy oversight",
+    "Competing with established compounders and telehealth partners that already offer an app"
+   ],
+   "decision_makers": [
+    {
+     "name": "Daniel Nagrudny",
+     "title": "Owner / Pharmacist-in-Charge (authorized official, NPI registry)",
+     "source": "NPI registry data supplied in the Prospector record. I couldn't find him on LinkedIn or the web."
+    }
+   ],
+   "ratings": "Not found. I found no Google Maps, Yelp or app-store listing for this business. Search results showed only unrelated businesses with similar names, such as Pure Health Veterans Compounding Pharmacy in Ontario and Pure Compounding Pharmacy in Georgia.",
+   "news": [],
+   "questions": [
+    "What are you focused on compounding: GLP-1s, peptides, hormones or general prescriptions? Do you ship outside Pennsylvania?",
+    "How do patients order, pay and refill today? Do you work with telehealth prescribers, or do you plan to build your own?",
+    "Are you planning a branded patient app or portal, and who would build it?",
+    "How do you handle patient data, consent and EHR or prescriber connections now?",
+    "Would lab-result analysis and health coaching help retain patients on ongoing therapies?",
+    "What is your launch timeline, and how many members do you expect in the first year?"
+   ],
+   "fit_adjust": -5,
+   "fit_reason": "The type and recent registration fit well, but I found no website, services, patient volume or online presence to confirm demand, and the name match was unconfirmed.",
+   "sources": [
+    "https://www.datalabs.health/medical.coding.library/npi.registry/pa/harleysville/compounding pharmacy",
+    "https://centralwesthealthline.ca/printService.aspx?id=224247",
+    "https://www.indeed.com/cmp/Pure-Compounding-Pharmacy-1",
+    "https://www.compoundingfinder.com/compounding-pharmacy/pennsylvania"
+   ],
+   "at": 1793116799.9162958,
+   "seconds": 28.5,
+   "company": "PUREHEALTH COMPOUNDING LLC"
+  }
+ },
+ "rank": {}
+}
