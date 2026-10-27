@@ -37,6 +37,7 @@
 #pbSvg .pb-armLL{animation:pb-aL 1.2s ease-in-out infinite}#pbSvg .pb-armLR{animation:pb-aR 1.2s ease-in-out infinite}
 #pbSvg .pb-wave{transform-box:view-box;transform-origin:204px 148px;animation:pb-wave .45s ease-in-out 4 alternate}
 #pbSvg .pb-drop{animation:pb-drop 1.4s ease-in infinite}
+#pbSvg .pb-drip{animation:pb-drop 1s ease-in infinite}
 #pbSvg .pb-spark{transform-box:fill-box;transform-origin:center;animation:pb-spk .9s ease-out infinite}
 @keyframes pb-bob{50%{transform:translateY(-4px)}}
 @keyframes pb-hop{40%{transform:translateY(-20px)}}
@@ -94,7 +95,7 @@
 <g id="pb-fRefresh" display="none"><g stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M127 144q7-8 14 0M159 144q7-8 14 0"/><path d="M138 154q12 14 24 0z" fill="#0f172a"/></g><g fill="#F09595" opacity=".75"><circle cx="122" cy="154" r="5"/><circle cx="178" cy="154" r="5"/></g><g fill="#85B7EB"><path class="pb-spark" d="M206 110l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/><path class="pb-spark" d="M92 118l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" style="animation-delay:.3s"/></g></g>
 <g class="pb-x p-error"><path class="pb-drop" d="M198 118q6 10 0 14q-6-4 0-14z" fill="#85B7EB"/></g>
 <g class="pb-x p-read"><path d="M108 172l42 6 42-6v32l-42 6-42-6z" fill="#185FA5"/><path d="M112 172l38 5v28l-38-5z" fill="#FAF9F5"/><path d="M188 172l-38 5v28l38-5z" fill="#FAF9F5"/><use href="#pb-lines" transform="translate(150 177) scale(-1 1)"/><use href="#pb-lines" transform="translate(150 177)"/><g id="pb-flipPage"><path d="M150 177l36-5v28l-36 5z" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="1"/><use href="#pb-lines" transform="translate(150 177)"/></g><line x1="150" y1="176" x2="150" y2="206" stroke="#0C447C" stroke-width="2.5"/></g>
-<g class="pb-x pb-props"><path id="pb-p-band" d="M-14 0q14-6 28 0" stroke="#E24B4A" stroke-width="6" fill="none" stroke-linecap="round" vector-effect="non-scaling-stroke" display="none"/><g id="pb-p-bar" display="none"><line x1="-76" y1="0" x2="76" y2="0" stroke="#444441" stroke-width="5"/><rect x="-90" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/><rect x="76" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/></g><ellipse id="pb-p-st1" rx="30" ry="12" fill="#6b7280" display="none"/><ellipse id="pb-p-st2" rx="20" ry="9" fill="#4b5563" display="none"/></g>
+<g class="pb-x pb-props"><g id="pb-p-washer" display="none"><rect x="-22" y="-54" width="44" height="54" rx="5" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1.5"/><rect x="-22" y="-54" width="44" height="11" rx="5" fill="#D3D1C7"/><circle cx="-13" cy="-48.5" r="2.3" fill="#888780"/><circle cx="-6" cy="-48.5" r="2.3" fill="#888780"/><rect x="6" y="-50.5" width="11" height="4" rx="1.5" fill="#85B7EB"/><circle cx="0" cy="-22" r="14" fill="#B4B2A9"/><circle cx="0" cy="-22" r="10.5" fill="#378ADD" opacity=".55"/><path d="M-6 -26q4-4 9-1" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".7"/></g><path id="pb-p-band" d="M-14 0q14-6 28 0" stroke="#E24B4A" stroke-width="6" fill="none" stroke-linecap="round" vector-effect="non-scaling-stroke" display="none"/><g id="pb-p-bar" display="none"><line x1="-76" y1="0" x2="76" y2="0" stroke="#444441" stroke-width="5"/><rect x="-90" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/><rect x="76" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/></g><g id="pb-p-sweat" display="none" fill="#85B7EB"><path class="pb-drip" d="M-10 2q2.5 4 0 6q-2.5-2 0-6z"/><path class="pb-drip" d="M0 4q2.5 4 0 6q-2.5-2 0-6z" style="animation-delay:.35s"/><path class="pb-drip" d="M10 2q2.5 4 0 6q-2.5-2 0-6z" style="animation-delay:.7s"/></g><ellipse id="pb-p-st1" rx="30" ry="12" fill="#6b7280" display="none"/><ellipse id="pb-p-st2" rx="20" ry="9" fill="#4b5563" display="none"/></g>
 <g fill="none" stroke="#2f5fbe" stroke-width="6" stroke-linecap="round">
 <g class="pb-x a-down"><path d="M96 152 Q84 168 88 178"/><path d="M204 152 Q216 168 212 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><use ${HAND} transform="translate(212 180) rotate(180)"/></g>
 <g class="pb-x a-hello"><path d="M96 152 Q84 168 88 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><g class="pb-wave"><path d="M204 150 Q224 132 222 108"/><use ${HAND} transform="translate(222 104) rotate(10)"/></g></g>
@@ -208,7 +209,7 @@
   // Arms are drawn freely here: each frame says where the hands go; props (headband, barbell, stones) can sit
   // anywhere, be carried, or be hidden. frames[0] is the starting pose; each later frame is reached over t ms.
   const SH = { L: [96, 152], R: [204, 152] }, HOME = { L: [88, 180], R: [212, 180] };
-  const PROPS = ['band', 'bar', 'st1', 'st2'];
+  const PROPS = ['washer', 'band', 'sweat', 'bar', 'st1', 'st2'];
   const mixA = (a, b, k) => a.map((v, i) => lerp(v, b[i] ?? v, k));
   const pad = q => [q[0], q[1], q[2] ?? 0, q[3] ?? 1, q[4] ?? 1];  // prop: x, y, rotation, scale, opacity
   const EASE = { lin: k => k, in: k => k * k, out: k => 1 - (1 - k) * (1 - k) };
@@ -251,31 +252,38 @@
   }
   const later = (ms, fn) => { timer = setTimeout(fn, ms); };
 
-  // jogging (≈17 s): the right arm reaches behind the body until the hand is hidden, comes back round the side
-  // with the headband, brings it to the chest, both hands stretch it, it goes on the head; jog; then the same
-  // arm carries it back round the side and behind the back, and comes back empty
+  // jogging (≈18.5 s): the right arm reaches behind the body until the hand is hidden, comes back round the side
+  // and the headband pops into its hand; to the chest, both hands stretch it, onto the head; jog; then a washing
+  // machine pops up, Pebble takes the sweaty, dripping headband off and puts it in the machine, which gives a
+  // little wash wiggle and goes away
   function runScene() {
     const BEHIND = [182, 142], SIDE = [216, 136], CHEST = [166, 166], HEAD_L = [104, 126], HEAD_R = [196, 126];
+    const WASHER = [46, 206], DOOR = [46, 182];
     const held = (h, sc = 1, op = 1) => [h[0], h[1] - 5, 0, sc, op];
+    const drips = (h, op = 1) => [h[0], h[1] - 2, 0, 1, op];
     scene([{ t: 0 },
       { t: 650, R: BEHIND, backR: true },                                   // reach behind the back (hand disappears)
-      { t: 450, R: SIDE, band: held(SIDE, 1, 0) },                           // round the side…
-      { t: 450, R: CHEST, backR: false, band: held(CHEST) },                 // …the headband comes out on the way to the chest
+      { t: 380, R: SIDE, band: held(SIDE, 0, 0) },                           // round the side…
+      { t: 200, band: held(SIDE, 1.2, 1), ease: 'out' }, { t: 120, band: held(SIDE) },  // …and the headband pops into its hand
+      { t: 450, R: CHEST, backR: false, band: held(CHEST) },
       { t: 400, L: [124, 164], R: [176, 164], band: [150, 162, 0, 1.6] },    // both hands take the ends
       { t: 520, L: [108, 162], R: [192, 162], band: [150, 162, 0, 3] },      // stretch it out
       { t: 550, L: HEAD_L, R: HEAD_R, band: [150, 129, 0, 3.9] },            // up onto the head
       { t: 200, band: null, hb: true },
       { t: 400, L: HOME.L, R: HOME.R }], () => {
       cls('run');
-      later(10350, () => scene([{ t: 0, hb: true },
+      later(10350, () => scene([{ t: 0, hb: true, washer: [...WASHER, 0, 0, 0] },
+        { t: 300, washer: [...WASHER, 0, 1.12, 1], ease: 'out' }, { t: 150, washer: [...WASHER, 0, 1, 1] },  // the machine pops up
         { t: 450, L: HEAD_L, R: HEAD_R },
-        { t: 0, hb: false, band: [150, 129, 0, 3.9] },
-        { t: 500, L: [116, 162], R: [184, 162], band: [150, 162, 0, 2.6] },
-        { t: 350, L: HOME.L, R: CHEST, band: held(CHEST) },
-        { t: 400, R: SIDE, band: held(SIDE) },                                // the same arm takes it round the side…
-        { t: 450, R: BEHIND, backR: true, band: held(BEHIND, .8, 0) },        // …and behind the back
-        { t: 300, R: SIDE, band: null },                                      // comes back empty
-        { t: 400, R: HOME.R, backR: false }], () => set('idle')));
+        { t: 0, hb: false, band: [150, 129, 0, 3.9], sweat: drips([150, 129]) },                             // off, dripping
+        { t: 550, L: [118, 160], R: [182, 160], band: [150, 160, 0, 2.4], sweat: drips([150, 160]) },
+        { t: 380, L: [134, 166], R: HOME.R, band: held([134, 166]), sweat: drips([134, 162]) },             // into the left hand
+        { t: 550, L: [62, 182], band: held([62, 182], .9), sweat: drips([62, 178]) },                         // to the door
+        { t: 420, L: [58, 182], band: [...DOOR, 0, .4, 0], sweat: drips(DOOR, 0) },                          // in it goes
+        { t: 0, band: null, sweat: null },
+        { t: 140, L: HOME.L, washer: [...WASHER, -4, 1, 1] }, { t: 140, washer: [...WASHER, 4, 1, 1] },    // wash wiggle
+        { t: 140, washer: [...WASHER, -3, 1, 1] }, { t: 140, washer: [...WASHER, 0, 1, 1] },
+        { t: 420, washer: [...WASHER, 0, .5, 0] }, { t: 0, washer: null }], () => set('idle')));
     });
   }
   // weights (≈17 s): the barbell pops up on the floor; grab, chest, overhead; 10 reps; wind back, then one smooth
