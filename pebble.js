@@ -347,7 +347,7 @@
         { t: 0, flex: false, face: 'happy' }, { t: 550, R: HOME.R, Rc: bend('R', HOME.R), face: 'normal' }], () => set('idle')));
     });
   }
-  // balancing stones (≈20 s), like the StoneDock logo: Pebble hops up and the big grey stone pops in underneath,
+  // balancing stones (≈22 s), like the StoneDock logo: Pebble hops up and the big grey stone pops in underneath,
   // it lands sitting cross-legged on top, a small stone pops up beside it and goes on its head (three stones,
   // grey, blue, grey); it meditates, breathing slowly; then the small stone goes back down, it hops off, and the
   // stones shrink away. Positions are in Pebble's own coordinates, which rise with it (by = how far up it sits).
@@ -364,7 +364,7 @@
       { t: 450, R: [256, 201] },                                              // reach for the small stone
       { t: 700, R: [150, 89], st2: ON_HEAD },                                 // onto its head: the logo stack
       { t: 420, L: [140, 188], R: [160, 188], face: 'calm', breathe: true },  // hands in lap
-      { t: 13800 },                                                           // meditate
+      { t: 16800 },                                                           // meditate
       { t: 420, L: HOME.L, R: [150, 89], face: 'normal', breathe: false },
       { t: 650, R: [256, 201], st2: SMALL_GROUND },                           // the small stone goes back down
       { t: 350, R: HOME.R },
