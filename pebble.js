@@ -9,6 +9,10 @@
 #pbSvg.s-idle .f-normal,#pbSvg.s-run .f-normal,#pbSvg.s-lift .f-strain,#pbSvg.s-think .f-think,#pbSvg.s-search .f-search,#pbSvg.s-type .f-down,#pbSvg.s-read .f-read,#pbSvg.s-done .f-happy,#pbSvg.s-error .f-shock,#pbSvg.s-meditate .f-calm,#pbSvg.s-hello .f-hello,#pbSvg.s-hello2 .f-hello{display:inline}
 #pbSvg.s-idle .a-down,#pbSvg.s-hello2 .a-down,#pbSvg.s-think .a-think,#pbSvg.s-search .a-search,#pbSvg.s-type .a-type,#pbSvg.s-read .a-read,#pbSvg.s-done .a-up,#pbSvg.s-error .a-shock,#pbSvg.s-run .a-run,#pbSvg.s-lift .a-lift,#pbSvg.s-meditate .a-lap,#pbSvg.s-water .a-water,#pbSvg.s-hello .a-hello{display:inline}
 #pbSvg.s-think .p-think,#pbSvg.s-type .p-type,#pbSvg.s-read .p-read,#pbSvg.s-done .p-done,#pbSvg.s-error .p-error,#pbSvg.s-run .p-run,#pbSvg.s-meditate .p-meditate,#pbSvg.s-hello .p-hello,#pbSvg.s-hello2 .p-hello2{display:inline}
+#pbSvg.s-dyn .a-dyn,#pbSvg.s-dyn .pb-props{display:inline}
+#pbSvg.s-dyn.fx-normal .f-normal,#pbSvg.s-dyn.fx-strain .f-strain,#pbSvg.s-dyn.fx-happy .f-happy,#pbSvg.s-dyn.fx-calm .f-calm{display:inline}
+#pbSvg.s-run .p-band,#pbSvg.hb .p-band{display:inline}
+#pbSvg.backR .a-dynback{display:inline}#pbSvg.backR #pb-dR,#pbSvg.backR #pb-dHR{display:none}
 #pbSvg .pb-legs{display:inline}#pbSvg.s-meditate .pb-legs{display:none}#pbSvg.s-meditate .p-cross{display:inline}
 #pbSvg #pb-bd{transform-box:view-box;transform-origin:150px 205px}
 #pbSvg.s-idle #pb-bd,#pbSvg.s-read #pb-bd,#pbSvg.s-think #pb-bd,#pbSvg.s-hello2 #pb-bd,#pbSvg.s-search #pb-bd{animation:pb-bob 3s ease-in-out infinite}
@@ -71,9 +75,10 @@
 <g id="pb-bd">
 <g class="pb-legs" stroke="#2f5fbe" stroke-width="6" stroke-linecap="round" fill="#2f5fbe"><g class="pb-lgL"><line x1="134" y1="182" x2="132" y2="200"/><ellipse cx="127" cy="202" rx="9" ry="4.5" stroke="none"/></g><g class="pb-lgR"><line x1="166" y1="182" x2="168" y2="200"/><ellipse cx="173" cy="202" rx="9" ry="4.5" stroke="none"/></g></g>
 <g class="pb-x p-cross" fill="#2f5fbe"><ellipse cx="136" cy="190" rx="22" ry="7"/><ellipse cx="164" cy="190" rx="22" ry="7"/></g>
+<g class="pb-x a-dynback" fill="none" stroke="#2f5fbe" stroke-width="6" stroke-linecap="round"><path id="pb-dRb" d="M204 152 Q216 140 220 124"/><use id="pb-dHRb" ${HAND}/></g>
 <ellipse cx="150" cy="150" rx="58" ry="38" fill="#4f7fd9"/>
 <path d="M110 138q12-8 26-2M162 172q14 4 26-4M118 168q8 4 16 2" stroke="#2f5fbe" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
-<g class="pb-x p-run"><path d="M95 132q55-15 110 0" stroke="#E24B4A" stroke-width="6" fill="none" stroke-linecap="round"/></g>
+<g class="pb-x p-band"><path d="M95 132q55-15 110 0" stroke="#E24B4A" stroke-width="6" fill="none" stroke-linecap="round"/></g>
 <g class="pb-x p-meditate"><ellipse cx="150" cy="106" rx="30" ry="12" fill="#6b7280"/><ellipse cx="150" cy="88" rx="20" ry="9" fill="#4b5563"/></g>
 <g class="pb-x f-normal" id="pb-fNormal"><g class="pb-blink"><ellipse cx="134" cy="142" rx="8" ry="9" fill="#fff"/><ellipse cx="166" cy="142" rx="8" ry="9" fill="#fff"/><circle cx="135" cy="144" r="4" fill="#0f172a"/><circle cx="167" cy="144" r="4" fill="#0f172a"/></g><path d="M143 158q7 6 14 0" stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"/></g>
 <g class="pb-x f-hello"><g class="pb-blink"><ellipse cx="134" cy="142" rx="8" ry="9" fill="#fff"/><ellipse cx="166" cy="142" rx="8" ry="9" fill="#fff"/><circle cx="136" cy="142" r="4" fill="#0f172a"/><circle cx="168" cy="142" r="4" fill="#0f172a"/></g><g stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M126 128q8-5 16 0M158 128q8-5 16 0"/><path d="M140 155q10 12 20 0z" fill="#0f172a"/></g><g fill="#F09595" opacity=".6"><circle cx="122" cy="156" r="5"/><circle cx="178" cy="156" r="5"/></g></g>
@@ -89,6 +94,7 @@
 <g id="pb-fRefresh" display="none"><g stroke="#0f172a" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M127 144q7-8 14 0M159 144q7-8 14 0"/><path d="M138 154q12 14 24 0z" fill="#0f172a"/></g><g fill="#F09595" opacity=".75"><circle cx="122" cy="154" r="5"/><circle cx="178" cy="154" r="5"/></g><g fill="#85B7EB"><path class="pb-spark" d="M206 110l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/><path class="pb-spark" d="M92 118l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" style="animation-delay:.3s"/></g></g>
 <g class="pb-x p-error"><path class="pb-drop" d="M198 118q6 10 0 14q-6-4 0-14z" fill="#85B7EB"/></g>
 <g class="pb-x p-read"><path d="M108 172l42 6 42-6v32l-42 6-42-6z" fill="#185FA5"/><path d="M112 172l38 5v28l-38-5z" fill="#FAF9F5"/><path d="M188 172l-38 5v28l38-5z" fill="#FAF9F5"/><use href="#pb-lines" transform="translate(150 177) scale(-1 1)"/><use href="#pb-lines" transform="translate(150 177)"/><g id="pb-flipPage"><path d="M150 177l36-5v28l-36 5z" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="1"/><use href="#pb-lines" transform="translate(150 177)"/></g><line x1="150" y1="176" x2="150" y2="206" stroke="#0C447C" stroke-width="2.5"/></g>
+<g class="pb-x pb-props"><path id="pb-p-band" d="M-14 0q14-6 28 0" stroke="#E24B4A" stroke-width="5" fill="none" stroke-linecap="round" display="none"/><g id="pb-p-bar" display="none"><line x1="-76" y1="0" x2="76" y2="0" stroke="#444441" stroke-width="5"/><rect x="-90" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/><rect x="76" y="-14" width="14" height="28" rx="3" fill="#2C2C2A"/></g><ellipse id="pb-p-st1" rx="30" ry="12" fill="#6b7280" display="none"/><ellipse id="pb-p-st2" rx="20" ry="9" fill="#4b5563" display="none"/></g>
 <g fill="none" stroke="#2f5fbe" stroke-width="6" stroke-linecap="round">
 <g class="pb-x a-down"><path d="M96 152 Q84 168 88 178"/><path d="M204 152 Q216 168 212 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><use ${HAND} transform="translate(212 180) rotate(180)"/></g>
 <g class="pb-x a-hello"><path d="M96 152 Q84 168 88 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><g class="pb-wave"><path d="M204 150 Q224 132 222 108"/><use ${HAND} transform="translate(222 104) rotate(10)"/></g></g>
@@ -103,11 +109,12 @@
 <g class="pb-x a-lift"><g class="pb-bar"><line x1="74" y1="104" x2="226" y2="104" stroke="#444441" stroke-width="5"/><rect x="60" y="90" width="14" height="28" rx="3" fill="#2C2C2A" stroke="none"/><rect x="226" y="90" width="14" height="28" rx="3" fill="#2C2C2A" stroke="none"/></g><path class="pb-armLL" d="M96 152 Q86 128 112 106"/><path class="pb-armLR" d="M204 152 Q214 128 188 106"/><g class="pb-bar"><use ${HAND} transform="translate(112 106)"/><use ${HAND} transform="translate(188 106)"/></g></g>
 <g class="pb-x a-water"><path d="M96 152 Q84 168 88 178"/><use ${HAND} transform="translate(88 180) rotate(180)"/><path id="pb-armW" d="M204 152 Q218 164 222 172"/>
 <g id="pb-bottle" transform="translate(212 150)">
-<circle cx="11" cy="23" r="7" fill="#4f7fd9" stroke="#2f5fbe" stroke-width="2"/>
+<circle class="pb-grip" cx="11" cy="23" r="7" fill="#4f7fd9" stroke="#2f5fbe" stroke-width="2"/>
 <rect x="-10" y="0" width="20" height="40" rx="6" fill="#F1EFE8" stroke="#185FA5" stroke-width="2.5"/><rect id="pb-liq" x="-7.5" y="4" width="15" height="33" rx="4" fill="#185FA5" stroke="none"/><rect x="-5" y="8" width="3" height="22" rx="1.5" fill="#fff" opacity=".45" stroke="none"/><rect x="-6" y="-5" width="12" height="6" rx="2" fill="#0C447C" stroke="none"/>
-<g fill="#4f7fd9" stroke="#2f5fbe" stroke-width="1.5"><rect x="-4" y="15" width="16" height="5" rx="2.5"/><rect x="-5" y="20.5" width="17" height="5" rx="2.5"/><rect x="-4" y="26" width="16" height="5" rx="2.5"/><ellipse cx="-11" cy="21" rx="3" ry="4.5"/></g>
+<g class="pb-grip" fill="#4f7fd9" stroke="#2f5fbe" stroke-width="1.5"><rect x="-4" y="15" width="16" height="5" rx="2.5"/><rect x="-5" y="20.5" width="17" height="5" rx="2.5"/><rect x="-4" y="26" width="16" height="5" rx="2.5"/><ellipse cx="-11" cy="21" rx="3" ry="4.5"/></g>
 </g>
-<line id="pb-stream" x1="0" y1="0" x2="0" y2="0" stroke="#378ADD" stroke-width="3" display="none"/></g>
+<line id="pb-stream" x1="0" y1="0" x2="0" y2="0" stroke="#378ADD" stroke-width="3" display="none"/><use id="pb-freeH" ${HAND} display="none"/></g>
+<g class="pb-x a-dyn"><path id="pb-dL" d="M96 152 Q84 168 88 178"/><path id="pb-dR" d="M204 152 Q216 168 212 178"/><use id="pb-dHL" ${HAND}/><use id="pb-dHR" ${HAND}/></g>
 </g>
 <g class="pb-x p-type"><rect x="108" y="160" width="84" height="30" rx="4" fill="#5F5E5A"/><rect x="112" y="164" width="76" height="22" rx="2" fill="#444441"/><circle cx="150" cy="175" r="4" fill="#85B7EB"/><path d="M100 206l8-14h84l8 14z" fill="#2C2C2A"/></g>
 </g>
@@ -115,7 +122,7 @@
 
   const EGGS = ['run', 'lift', 'water', 'meditate'];
   const EGG_EVERY = 7000;  // ms of idle before the next easter egg
-  const LEN = { done: 2600, error: 3200, run: 7000, lift: 7000, meditate: 7000 };
+  const LEN = { done: 2600, error: 3200 };
   const ease = x => x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2;
   const lerp = (a, b, k) => a + (b - a) * k;
   let svg, timer, raf, eggTimer, lastEgg, state = 'idle', visible = () => true;
@@ -123,13 +130,14 @@
 
   function cls(s) { svg.setAttribute('class', ''); void svg.getBBox(); svg.setAttribute('class', 's-' + s); }
 
-  // drinking: lift the full bottle to the mouth, drink it empty (stream, gulps, glug), put it back, then look refreshed
-  const REST = { x: 212, y: 150, a: 0 }, MOUTH = { x: 156, y: 158, a: -128 };
-  function pose(k) {
-    const x = lerp(REST.x, MOUTH.x, k), y = lerp(REST.y, MOUTH.y, k), a = lerp(REST.a, MOUTH.a, k);
-    $('pb-bottle').setAttribute('transform', `translate(${x} ${y}) rotate(${a})`);
-    const r = a * Math.PI / 180, px = x + Math.cos(r) * 13 - Math.sin(r) * 23, py = y + Math.sin(r) * 13 + Math.cos(r) * 23;
-    $('pb-armW').setAttribute('d', `M204 152 Q${lerp(220, 204, k)} ${lerp(166, 136, k)} ${px} ${py}`);
+  // drinking: reach down for the bottle, pick it up, drink it empty (stream, gulps, glug), put it back on the
+  // ground, let go, then look refreshed
+  const GROUND = { x: 238, y: 166, a: 0 }, REST = { x: 212, y: 150, a: 0 }, MOUTH = { x: 156, y: 158, a: -128 };
+  const mixP = (A, B, k) => ({ x: lerp(A.x, B.x, k), y: lerp(A.y, B.y, k), a: lerp(A.a, B.a, k) });
+  const gripOf = p => { const r = p.a * Math.PI / 180; return [p.x + Math.cos(r) * 13 - Math.sin(r) * 23, p.y + Math.sin(r) * 13 + Math.cos(r) * 23]; };
+  function grip(on) {
+    svg.querySelectorAll('.pb-grip').forEach(e => e.style.display = on ? '' : 'none');
+    $('pb-freeH').setAttribute('display', on ? 'none' : 'inline');
   }
   function face(n) {
     $('pb-fNormal').style.display = n === 'normal' ? 'inline' : 'none';
@@ -138,29 +146,127 @@
     $('pb-ahh').style.display = n === 'refresh' ? 'inline' : 'none';
   }
   function water() {
-    const t0 = performance.now(), LIFT = 1000, DRINK = 3200, LOWER = 1000, REFRESH = 1800;  // 7 s in all
+    const PHASES = [['reach', 600], ['pick', 600], ['lift', 900], ['drink', 3000], ['lower', 900], ['put', 600], ['let', 500], ['refresh', 1500]];
+    const t0 = performance.now();
     function step(now) {
-      const e = now - t0;
-      let level = 1;
-      if (e < LIFT) { pose(ease(e / LIFT)); face('normal'); }
-      else if (e < LIFT + DRINK) { pose(1); face('drink'); level = 1 - (e - LIFT) / DRINK; $('pb-mouthO').setAttribute('r', 3.5 + Math.abs(Math.sin(e / 120)) * 1.5); }
-      else if (e < LIFT + DRINK + LOWER) { level = 0; pose(1 - ease((e - LIFT - DRINK) / LOWER)); face('drink'); }
-      else { level = 0; pose(0); face('refresh'); }
+      let e = now - t0, name = null, k = 0;
+      for (const [n, d] of PHASES) { if (e < d) { name = n; k = e / d; break; } e -= d; }
+      if (!name) { set('idle'); return; }
+      const K = ease(k);
+      let p = GROUND, hand = null, level = 1, f = 'normal';
+      if (name === 'reach') { grip(false); hand = mixA(HOME.R, gripOf(GROUND), K); }
+      else if (name === 'pick') { grip(true); p = mixP(GROUND, REST, K); }
+      else if (name === 'lift') { p = mixP(REST, MOUTH, K); }
+      else if (name === 'drink') { p = MOUTH; f = 'drink'; level = 1 - k; $('pb-mouthO').setAttribute('r', 3.5 + Math.abs(Math.sin(now / 120)) * 1.5); }
+      else if (name === 'lower') { p = mixP(MOUTH, REST, K); level = 0; f = 'drink'; }
+      else if (name === 'put') { p = mixP(REST, GROUND, K); level = 0; f = 'drink'; }
+      else if (name === 'let') { level = 0; f = 'drink'; grip(false); hand = mixA(gripOf(GROUND), HOME.R, K); }
+      else { level = 0; grip(false); hand = HOME.R; f = 'refresh'; }
+      $('pb-bottle').setAttribute('transform', `translate(${p.x} ${p.y}) rotate(${p.a})`);
+      const h = hand || gripOf(p);
+      $('pb-armW').setAttribute('d', arm('R', h));
+      if (hand) handAt($('pb-freeH'), 'R', hand);
+      face(f);
       $('pb-liq').setAttribute('height', 33 * Math.max(0, level));
-      const drinking = e >= LIFT && e < LIFT + DRINK, l = $('pb-stream');
+      const drinking = name === 'drink', l = $('pb-stream');
       l.setAttribute('display', drinking ? 'inline' : 'none');
       $('pb-glug').setAttribute('display', drinking ? 'inline' : 'none');
       if (drinking) {
         const r = MOUTH.a * Math.PI / 180;
         l.setAttribute('x1', MOUTH.x + Math.sin(r) * 3); l.setAttribute('y1', MOUTH.y - Math.cos(r) * 3);
         l.setAttribute('x2', 151); l.setAttribute('y2', 160);
-        $('pb-glug').setAttribute('opacity', .4 + .6 * Math.abs(Math.sin(e / 250)));
+        $('pb-glug').setAttribute('opacity', .4 + .6 * Math.abs(Math.sin(now / 250)));
       }
-      if (e < LIFT + DRINK + LOWER + REFRESH) raf = requestAnimationFrame(step); else set('idle');
+      raf = requestAnimationFrame(step);
     }
-    pose(0); $('pb-liq').setAttribute('height', 33); face('normal');
+    $('pb-liq').setAttribute('height', 33);
     raf = requestAnimationFrame(step);
   }
+
+
+  // ---------- scenes: the idle routines' start and finish (getting the prop, putting it away) ----------
+  // Arms are drawn freely here: each frame says where the hands go; props (headband, barbell, stones) can sit
+  // anywhere, be carried, or be hidden. frames[0] is the starting pose; each later frame is reached over t ms.
+  const SH = { L: [96, 152], R: [204, 152] }, HOME = { L: [88, 180], R: [212, 180] };
+  const PROPS = ['band', 'bar', 'st1', 'st2'];
+  const mixA = (a, b, k) => a.map((v, i) => lerp(v, b[i] ?? v, k));
+  const pad = q => [q[0], q[1], q[2] ?? 0, q[3] ?? 1];  // prop position: x, y, rotation, scale
+  function arm(side, [hx, hy]) {
+    const [sx, sy] = SH[side], out = side === 'L' ? -1 : 1;
+    return `M${sx} ${sy} Q${(sx + hx) / 2 + out * 12} ${(sy + hy) / 2 + 10} ${hx} ${hy}`;
+  }
+  function handAt(el, side, [hx, hy]) {
+    const [sx, sy] = SH[side];
+    el.setAttribute('transform', `translate(${hx} ${hy}) rotate(${Math.atan2(hy - sy, hx - sx) * 180 / Math.PI + 90})`);
+  }
+  function scene(frames, then) {
+    const full = [];
+    let prev = { L: HOME.L, R: HOME.R, face: 'normal', hb: false };
+    for (const f of frames) { prev = { ...prev, ...f }; full.push(prev); }
+    let i = 0, t0 = performance.now();
+    const step = now => {
+      const a = full[Math.max(0, i - 1)], b = full[i];
+      const k = b.t ? ease(Math.min(1, (now - t0) / b.t)) : 1;
+      svg.setAttribute('class', `s-dyn fx-${b.face}${b.hb ? ' hb' : ''}${b.backR ? ' backR' : ''}`);
+      const L = mixA(a.L, b.L, k), R = mixA(a.R, b.R, k);
+      $('pb-dL').setAttribute('d', arm('L', L)); $('pb-dR').setAttribute('d', arm('R', R));
+      handAt($('pb-dHL'), 'L', L); handAt($('pb-dHR'), 'R', R);
+      $('pb-dRb').setAttribute('d', arm('R', R)); handAt($('pb-dHRb'), 'R', R);  // the same arm, drawn behind the body
+      for (const name of PROPS) {
+        const el = $('pb-p-' + name), to = b[name], from = a[name];
+        if (!to) { el.setAttribute('display', 'none'); continue; }
+        const [x, y, r, sc] = from ? mixA(pad(from), pad(to), k) : pad(to);
+        el.setAttribute('display', 'inline');
+        el.setAttribute('transform', `translate(${x} ${y}) rotate(${r}) scale(${sc})`);
+      }
+      if (k >= 1) {
+        i++; t0 = now;
+        if (i >= full.length) { then(); return; }
+      }
+      raf = requestAnimationFrame(step);
+    };
+    raf = requestAnimationFrame(step);
+  }
+  const later = (ms, fn) => { timer = setTimeout(fn, ms); };
+
+  // jogging: headband out from behind the back, on, jog, off, back behind the back
+  function runScene() {
+    const BACK = [200, 124], HEAD_L = [104, 126], HEAD_R = [196, 126], HELD = [176, 122];  // BACK: hand hidden behind the body
+    scene([{ t: 0 }, { t: 550, R: BACK, backR: true }, { t: 500, R: HELD, backR: false, band: [HELD[0], HELD[1] - 4, 0, 1] },
+      { t: 550, L: HEAD_L, R: HEAD_R, band: [150, 129, 0, 3.9] }, { t: 300, band: null, hb: true },
+      { t: 400, L: HOME.L, R: HOME.R }], () => {
+      cls('run');
+      later(4000, () => scene([{ t: 0, hb: true }, { t: 450, L: HEAD_L, R: HEAD_R },
+        { t: 0, hb: false, band: [150, 129, 0, 3.9] }, { t: 500, R: HELD, band: [HELD[0], HELD[1] - 4, 0, 1] },
+        { t: 550, L: HOME.L, R: BACK, backR: true, band: null },
+        { t: 450, R: HOME.R, backR: false }], () => set('idle')));
+    });
+  }
+  // weights: grab the barbell off the floor, chest, overhead, reps, then throw it away
+  function liftScene() {
+    scene([{ t: 0, bar: [150, 198, 0] }, { t: 600, L: [112, 196], R: [188, 196] },
+      { t: 650, L: [112, 150], R: [188, 150], bar: [150, 150, 0], face: 'strain' },
+      { t: 550, L: [112, 106], R: [188, 106], bar: [150, 104, 0] }], () => {
+      cls('lift');
+      later(3600, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain' },
+        { t: 350, L: [104, 98], R: [180, 96], bar: [142, 94, -8] },
+        { t: 450, L: [120, 118], R: [236, 112], bar: [340, 150, 80], face: 'happy' },
+        { t: 250, bar: null }, { t: 450, L: HOME.L, R: HOME.R, face: 'normal' }], () => set('idle')));
+    });
+  }
+  // balancing stones: pick each up from the ground, stack them on its head, meditate, put them back
+  function meditateScene() {
+    const S1 = [226, 200, 0], S2 = [262, 202, 0], H1 = [150, 106, 0], H2 = [150, 88, 0];
+    scene([{ t: 0, st1: S1, st2: S2 }, { t: 500, R: [226, 186] }, { t: 700, R: [150, 92], st1: H1 },
+      { t: 500, R: [262, 191] }, { t: 700, R: [150, 75], st2: H2 },
+      { t: 450, L: [140, 188], R: [160, 188], face: 'calm' }], () => {
+      cls('meditate');
+      later(3000, () => scene([{ t: 0, L: [140, 188], R: [160, 188], st1: H1, st2: H2, face: 'calm' },
+        { t: 450, L: HOME.L, R: [150, 75], face: 'normal' }, { t: 650, R: [262, 191], st2: S2 },
+        { t: 450, R: [150, 92] }, { t: 650, R: [226, 186], st1: S1 }, { t: 400, R: HOME.R }], () => set('idle')));
+    });
+  }
+  const SCENES = { run: runScene, lift: liftScene, meditate: meditateScene };
 
   // reading: eyes sweep the lines, the right hand carries each page over the spine, then reaches back for the next
   function read() {
@@ -199,9 +305,13 @@
     state = s;
     cls(s);
     ['pb-fDrink', 'pb-fRefresh'].forEach(i => $(i).style.display = 'none');
+    PROPS.forEach(n => $('pb-p-' + n).setAttribute('display', 'none'));
+    svg.querySelectorAll('.pb-grip').forEach(e => e.style.display = '');
+    $('pb-freeH').setAttribute('display', 'none');
     $('pb-fNormal').style.display = ''; $('pb-ahh').style.display = 'none'; $('pb-glug').setAttribute('display', 'none');
     if (s === 'hello') timer = setTimeout(() => { cls('hello2'); timer = setTimeout(() => set('idle'), 3200); }, 2300);
     else if (s === 'water') water();
+    else if (SCENES[s]) SCENES[s]();
     else if (s === 'read') read();
     else if (LEN[s]) timer = setTimeout(() => set('idle'), LEN[s]);
     if (s === 'idle') scheduleEgg();
