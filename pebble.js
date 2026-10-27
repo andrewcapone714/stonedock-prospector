@@ -1,7 +1,7 @@
 // Pebble, the StoneDock Prospector's AI helper: the blue middle stone of the StoneDock logo.
 // Pebble.mount(el) draws it; Pebble.set(state) switches what it's doing:
 //   hello · idle · think · search · type · read · done · error   (work)
-//   run · lift · water · meditate                                (idle easter eggs: 7 s idle, ~10 s routine, repeat)
+//   run · lift · water · meditate                                (idle easter eggs: 8 s idle, then a routine, repeat)
 // Multi-step scenes (drinking, page turning, hello) run on one JavaScript timeline so their parts can't drift apart.
 (function () {
   const CSS = `
@@ -33,8 +33,8 @@
 #pbSvg .pb-lgR{transform-box:view-box;transform-origin:166px 182px;animation:pb-sw .35s infinite alternate;animation-play-state:paused}
 #pbSvg.s-run .pb-lgL,#pbSvg.s-run .pb-lgR{animation-play-state:running}
 #pbSvg .pb-wind{animation:pb-wind .7s linear infinite}
-#pbSvg .pb-bar{animation:pb-bar 1.4s ease-in-out infinite;transform-box:view-box}
-#pbSvg .pb-armLL{animation:pb-aL 1.4s ease-in-out infinite}#pbSvg .pb-armLR{animation:pb-aR 1.4s ease-in-out infinite}
+#pbSvg .pb-bar{animation:pb-bar 1.2s ease-in-out infinite;transform-box:view-box}
+#pbSvg .pb-armLL{animation:pb-aL 1.2s ease-in-out infinite}#pbSvg .pb-armLR{animation:pb-aR 1.2s ease-in-out infinite}
 #pbSvg .pb-wave{transform-box:view-box;transform-origin:204px 148px;animation:pb-wave .45s ease-in-out 4 alternate}
 #pbSvg .pb-drop{animation:pb-drop 1.4s ease-in infinite}
 #pbSvg .pb-spark{transform-box:fill-box;transform-origin:center;animation:pb-spk .9s ease-out infinite}
@@ -122,7 +122,8 @@
 </svg>`;
 
   const EGGS = ['run', 'lift', 'water', 'meditate'];
-  const EGG_EVERY = 7000;  // ms of idle before the next easter egg
+  const EGG_EVERY = 8000;  // ms of idle before the next easter egg
+  const REPS = 10, REP_MS = 1200;  // weights: ten reps overhead, then the throw
   const LEN = { done: 2600, error: 3200 };
   const ease = x => x < .5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2;
   const lerp = (a, b, k) => a + (b - a) * k;
@@ -250,7 +251,7 @@
   }
   const later = (ms, fn) => { timer = setTimeout(fn, ms); };
 
-  // jogging (≈10 s): the right arm reaches behind the body until the hand is hidden, comes back round the side
+  // jogging (≈15 s): the right arm reaches behind the body until the hand is hidden, comes back round the side
   // with the headband, brings it to the chest, both hands stretch it, it goes on the head; jog; then the same
   // arm carries it back round the side and behind the back, and comes back empty
   function runScene() {
@@ -266,7 +267,7 @@
       { t: 200, band: null, hb: true },
       { t: 400, L: HOME.L, R: HOME.R }], () => {
       cls('run');
-      later(3550, () => scene([{ t: 0, hb: true },
+      later(8350, () => scene([{ t: 0, hb: true },
         { t: 450, L: HEAD_L, R: HEAD_R },
         { t: 0, hb: false, band: [150, 129, 0, 3.9] },
         { t: 500, L: [116, 162], R: [184, 162], band: [150, 162, 0, 2.6] },
@@ -277,7 +278,7 @@
         { t: 400, R: HOME.R, backR: false }], () => set('idle')));
     });
   }
-  // weights (≈10 s): the barbell pops up on the floor; grab, chest, overhead; reps; wind back, then one smooth
+  // weights (≈17 s): the barbell pops up on the floor; grab, chest, overhead; 10 reps; wind back, then one smooth
   // throw: the bar leaves the hands and flies a single arc (up, over, down off-screen) spinning steadily
   function liftScene() {
     const FLOOR = [150, 198, 0];
@@ -305,13 +306,13 @@
       { t: 700, L: [112, 150], R: [188, 150], bar: [150, 150, 0], face: 'strain' },
       { t: 600, L: [112, 106], R: [188, 106], bar: [150, 104, 0] }], () => {
       cls('lift');
-      later(5400, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain' },
+      later(REPS * REP_MS, () => scene([{ t: 0, L: [112, 106], R: [188, 106], bar: [150, 104, 0], face: 'strain' },
         { t: 600, ...grips(134, 100, -14), bar: [134, 100, -14] },             // wind back
         ...throwFrames(), { t: 0, bar: null },
         { t: 500, L: HOME.L, R: HOME.R, face: 'normal' }], () => set('idle')));
     });
   }
-  // balancing stones (≈10 s): both stones pop up beside Pebble; it stacks them on its head, meditates, puts them
+  // balancing stones (≈15 s): both stones pop up beside Pebble; it stacks them on its head, meditates, puts them
   // back, and they shrink away
   function meditateScene() {
     const S1 = [226, 200, 0], S2 = [262, 202, 0], H1 = [150, 106, 0], H2 = [150, 88, 0];
@@ -322,7 +323,7 @@
       { t: 450, R: [262, 191] }, { t: 650, R: [150, 75], st2: H2 },
       { t: 420, L: [140, 188], R: [160, 188], face: 'calm' }], () => {
       cls('meditate');
-      later(4000, () => scene([{ t: 0, L: [140, 188], R: [160, 188], st1: H1, st2: H2, face: 'calm' },
+      later(8800, () => scene([{ t: 0, L: [140, 188], R: [160, 188], st1: H1, st2: H2, face: 'calm' },
         { t: 420, L: HOME.L, R: [150, 75], face: 'normal' }, { t: 600, R: [262, 191], st2: S2 },
         { t: 420, R: [150, 92] }, { t: 600, R: [226, 186], st1: S1 }, { t: 380, R: HOME.R },
         { t: 420, st1: [...S1, .5, 0], st2: [...S2, .5, 0] }, { t: 0, st1: null, st2: null }], () => set('idle')));
