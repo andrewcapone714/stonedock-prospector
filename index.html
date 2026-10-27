@@ -332,6 +332,7 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
         <button data-tab="prov" onclick="setTab('prov')">New providers</button>
         <button data-tab="cms" onclick="setTab('cms')">Medicare-rated</button>
         <button data-tab="pipe" onclick="setTab('pipe')">Pipeline</button>
+        <button data-tab="res" onclick="setTab('res')">Research</button>
       </div>
       <div class="search"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <input type="text" id="filter" placeholder="Filter by name" oninput="render()"></div>
@@ -425,7 +426,7 @@ const S = { prospects: [], newApps: [], funded: [], providers: [], medicare: [],
   sel: null, sort: ['score', -1], extra: {} };
 const STATUSES = ['New', 'Researching', 'Contacted', 'Replied', 'Demo booked', 'Not a fit'];
 const SOURCES = { low: 'Low-rated app', new: 'New app', funded: 'Newly funded', prov: 'New provider', cms: 'Medicare-rated' };
-const TAB_NAMES = { low: 'Low-rated apps', new: 'New apps', funded: 'Newly funded', prov: 'New providers', cms: 'Medicare-rated', pipe: 'Pipeline' };
+const TAB_NAMES = { low: 'Low-rated apps', new: 'New apps', funded: 'Newly funded', prov: 'New providers', cms: 'Medicare-rated', pipe: 'Pipeline', res: 'Research' };
 const PLACES = ['prov', 'cms'];  // tabs of places rather than app companies: state and type filters
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -544,7 +545,25 @@ const COLS = {
       : rateCell(p.worst) },
     { k: 'contacts', label: 'Contacts', cell: p => num((p.lead?.contacts || []).length), val: p => (p.lead?.contacts || []).length },
     FIT, STATUS],
+  // everything Pebble has researched, newest first (click a row for the full brief in the company panel)
+  res: [COMPANY,
+    { k: 'source', label: 'Found by', cell: p => `<span class="pill">${SOURCES[p.source] || ''}</span>`, val: p => p.source || '' },
+    { k: 'researched', label: 'Researched', cell: p => num(new Date(p.research.at * 1000).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })), val: p => p.research.at || 0 },
+    { k: 'take', label: "Pebble's take", cell: p => `<span class="hint" style="display:block;min-width:260px">${esc(clip(p.research.summary || p.research.fit || '', 140))}</span>`, val: p => p.research.summary || '' },
+    { k: 'people', label: 'People found', cell: p => num((p.research.decision_makers || []).length), val: p => (p.research.decision_makers || []).length },
+    FIT, STATUS],
 };
+const clip = (s, n) => s.length > n ? s.slice(0, n - 1).trimEnd() + '…' : s;
+// which tab a company came from (research is kept by id, so look it up)
+const sourceOf = id => ['low', 'new', 'funded', 'prov', 'cms'].find(t => listFor(t).some(p => p.id === id));
+function researched() {
+  return Object.entries(S.ai?.research || {}).map(([id, r]) => {
+    const lead = S.leads[id], item = findItem(id);
+    const p = item ? { ...item, source: item.source || sourceOf(id) }
+      : lead ? leadOnly(lead) : { ...leadOnly({ id, company: r.company, source: r.source }), stale: true };
+    return { ...p, source: p.source || r.source, lead, research: r };
+  });
+}
 
 const listFor = src => ({ low: S.prospects, new: S.newApps, funded: S.funded, prov: S.providers, cms: S.medicare })[src] || [];
 const findItem = id => [...S.prospects, ...S.newApps, ...S.funded, ...S.providers, ...S.medicare].find(p => p.id === id);
@@ -568,6 +587,8 @@ function rows() {
       const p = listFor(l.source || 'low').find(x => x.id === l.id) || findItem(l.id);
       return p ? { ...p, lead: l } : leadOnly(l);
     });
+  } else if (S.tab === 'res') {
+    list = researched();
   } else {
     list = listFor(S.tab).map(p => ({ ...p, lead: S.leads[p.id] }));
   }
@@ -595,7 +616,8 @@ function leadOnly(l) {
 function render() {
   const list = rows();
   const counts = { low: S.prospects.length, new: S.newApps.filter(p => !(hiding() && p.solo)).length,
-    funded: S.funded.length, prov: S.providers.length, cms: S.medicare.length, pipe: Object.keys(S.leads).length };
+    funded: S.funded.length, prov: S.providers.length, cms: S.medicare.length, pipe: Object.keys(S.leads).length,
+    res: Object.keys(S.ai?.research || {}).length };
   if (S.tab !== 'new' && S.tab !== 'low') counts.new = S.newApps.filter(p => !($('hideSolo').checked && p.solo)).length;
   document.querySelectorAll('.tabs [data-tab]').forEach(b => {
     b.classList.toggle('on', b.dataset.tab === S.tab);
@@ -618,6 +640,7 @@ function render() {
   empty.hidden = list.length > 0;
   empty.innerHTML = EMPTY_ICON + '<div>' + ({
     pipe: 'Nothing in the pipeline yet. Open a company and choose <b>Add to pipeline</b>.',
+    res: Object.keys(S.ai?.research || {}).length ? 'No research matches the filter.' : "Nothing researched yet. Open a company and choose <b>Research with Pebble</b>: Pebble's brief lands here.",
     low: S.prospects.length ? 'No companies match the filter.' : 'No results yet. Choose <b>Run search</b> under Search the App Store.',
     new: S.newApps.length ? 'No companies match the filter.' : 'No new apps yet. Run an App Store search, or widen the launch window.',
     funded: S.funded.length ? 'No companies match the filter.' : 'No scan yet. Choose <b>Scan SEC filings</b> on the left.',
@@ -632,6 +655,7 @@ function render() {
     prov: S.providersDays ? `Pharmacies & clinics registered in the last ${S.providersDays} days · ${list.length.toLocaleString()} shown` : '',
     cms: `Home health agencies & dialysis centers Medicare rates ≤ ${S.filters.max_rating || 3}★ · ${list.length.toLocaleString()} shown`,
     pipe: `${list.length} companies`,
+    res: `Companies Pebble has researched · ${list.length} shown · click one for the full brief`,
   }[S.tab];
   renderStats();
   if (S.sel) renderDrawer();
@@ -674,7 +698,8 @@ $('head').addEventListener('click', e => {
 function setTab(t) {
   S.tab = t;
   S.limit = 300;
-  if (!COLS[t].some(c => c.k === S.sort[0])) S.sort = ['score', -1];
+  if (t === 'res') S.sort = ['researched', -1];
+  else if (!COLS[t].some(c => c.k === S.sort[0])) S.sort = ['score', -1];
   render();
 }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
@@ -1127,7 +1152,8 @@ function pebbleOpen(on = !PB.open) {
     pbToggleSide(side);
     pbRestorePos();
   }
-  if (!PB.busy) Pebble.hello();
+  // the hello only plays the first time Pebble opens; after that it comes back to whatever it was doing (idle)
+  if (!PB.busy && !PB.greeted) { PB.greeted = true; Pebble.hello(); }
   if (!PB.log.length) pbWelcome();
   checkAI();
   setTimeout(() => $('pbInput').focus(), 60);
@@ -1328,7 +1354,8 @@ async function pbResearch() {
   if (!r) return;
   S.ai.research = { ...(S.ai.research || {}), [id]: r.research };
   const dm = (r.research.decision_makers || []).length;
-  pbSay('pebble', `Done! I put a brief on **${p.company}** in its panel${dm ? `, with ${dm} decision-maker${dm > 1 ? 's' : ''}` : ''}.`, false,
+  if (S.tab === 'res') render();
+  pbSay('pebble', `Done! I put a brief on **${p.company}** in its panel and the Research tab${dm ? `, with ${dm} decision-maker${dm > 1 ? 's' : ''}` : ''}.`, false,
     [{ id, name: p.company, source: p.source }]);
   render();
 }

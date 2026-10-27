@@ -1714,7 +1714,8 @@ def ai_research(item_id):
     except ValueError as e:
         return {"ok": False, "error": str(e), "raw": r["text"][:500]}
     data["fit_adjust"] = max(-20, min(20, int(data.get("fit_adjust") or 0)))
-    data.update(at=time.time(), seconds=r["seconds"], company=p.get("company"))
+    # source and model too, so the Research tab can say where the company came from even after it leaves the lists
+    data.update(at=time.time(), seconds=r["seconds"], company=p.get("company"), source=src, model=ai_model()[0])
     ai_save({"research": {item_id: data}})
     return {"ok": True, "research": data}
 
