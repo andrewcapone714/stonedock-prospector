@@ -147,6 +147,12 @@ tbody tr:last-child td { border-bottom: 0; }
 .pb-head b { font-size: 15px; }
 .pb-head .pb-sub { color: #b9c4d8; font-size: 12px; flex: 1; }
 .pb-head .x { color: #b9c4d8; }
+.pb-head { cursor: grab; user-select: none; touch-action: none; }
+.pb-panel.dragging { transition: none; box-shadow: 0 24px 64px rgba(15,23,42,.38); }
+.pb-panel.dragging .pb-head { cursor: grabbing; }
+.pb-panel.moved { right: auto !important; bottom: auto !important; }
+.pw { opacity: 0; transition: opacity .28s ease-out; }
+.pw.in { opacity: 1; }
 .pb-stage { background: var(--panel-2); padding: 4px 70px 0; flex: none; }
 .pb-line { font-size: 12px; color: var(--accent-strong); padding: 6px 14px; min-height: 28px; border-bottom: 1px solid var(--line); flex: none; }
 .pb-line.warn { color: var(--mid); }
@@ -329,7 +335,7 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
 <div class="drawer" id="drawer"></div>
 <button class="pb-launch" id="pbLauncher" onclick="pebbleOpen(true)" aria-label="Open Pebble, your AI helper"><svg viewBox="0 0 40 32" aria-hidden="true"><ellipse cx="20" cy="18" rx="17" ry="12" fill="#4f7fd9"/><ellipse cx="14" cy="16" rx="3" ry="3.4" fill="#fff"/><ellipse cx="26" cy="16" rx="3" ry="3.4" fill="#fff"/><circle cx="14.4" cy="16.8" r="1.6" fill="#0f172a"/><circle cx="26.4" cy="16.8" r="1.6" fill="#0f172a"/><path d="M17 22q3 2.5 6 0" stroke="#0f172a" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg><span>Pebble</span></button>
 <div class="pb-panel" id="pbPanel" role="dialog" aria-label="Pebble, your AI helper">
-  <div class="pb-head"><b>Pebble</b><span class="pb-sub" id="pbSub">Your AI helper and researcher</span><button class="x" onclick="pebbleOpen(false)" aria-label="Close Pebble">✕</button></div>
+  <div class="pb-head"><b>Pebble</b><span class="pb-sub" id="pbSub" title="Drag to move · double-click to put it back">Your AI helper and researcher</span><button class="x" onclick="pebbleOpen(false)" aria-label="Close Pebble">✕</button></div>
   <div class="pb-stage" id="pbStage"></div>
   <div class="pb-line" id="pbLine"></div>
   <div class="pb-log" id="pbLog"></div>
@@ -1081,7 +1087,7 @@ function pebbleOpen(on = !PB.open) {
   $('pbPanel').classList.toggle('open', on);
   $('pbLauncher').hidden = on;
   if (!on) return;
-  if (!PB.mounted) { Pebble.mount($('pbStage'), () => PB.open && !document.hidden); PB.mounted = true; }
+  if (!PB.mounted) { Pebble.mount($('pbStage'), () => PB.open && !document.hidden); PB.mounted = true; pbRestorePos(); }
   if (!PB.busy) Pebble.hello();
   if (!PB.log.length) pbSay('pebble', "Hi! Ask me about the prospects in the view you're on, or open a company and choose **Research with Pebble**. I can also write outreach emails and re-check fit scores.");
   checkAI();
@@ -1110,9 +1116,91 @@ function pbFormat(text, mentions) {
 }
 function pbSay(role, text, err, mentions) {
   PB.log.push({ role, text, err, mentions });
-  $('pbLog').innerHTML = PB.log.map(m => `<div class="pb-msg ${m.role}${m.err ? ' err' : ''}">${m.role === 'user' ? esc(m.text) : pbFormat(m.text, m.mentions)}</div>`).join('');
+  const el = document.createElement('div');
+  el.className = `pb-msg ${role}${err ? ' err' : ''}`;
+  el.innerHTML = role === 'user' ? esc(text) : pbFormat(text, mentions);
+  $('pbLog').appendChild(el);
+  if (role === 'pebble') pbFlow(el);
   $('pbLog').scrollTop = $('pbLog').scrollHeight;
 }
+// Pebble's replies flow in word by word (like the terminal's analyst): every word is wrapped and faded in
+// in order, faster for long answers, keeping links and formatting; the log follows unless you've scrolled up.
+function pbFlow(el) {
+  const words = [];
+  const walk = node => {
+    for (const n of [...node.childNodes]) {
+      if (n.nodeType === 3) {
+        const parts = n.textContent.split(/(\s+)/);
+        const frag = document.createDocumentFragment();
+        for (const part of parts) {
+          if (!part) continue;
+          if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); continue; }
+          const w = document.createElement('span');
+          w.className = 'pw'; w.textContent = part;
+          frag.appendChild(w); words.push(w);
+        }
+        n.replaceWith(frag);
+      } else if (n.nodeType === 1) walk(n);
+    }
+  };
+  walk(el);
+  const log = $('pbLog'), perSec = words.length > 250 ? 90 : words.length > 80 ? 55 : 32;
+  if (document.hidden) { words.forEach(w => w.classList.add('in')); return; }
+  // a timer rather than animation frames, so a reply still finishes if you switch away mid-sentence;
+  // each tick shows however many words are due, so it catches up after any pause
+  const t0 = performance.now();
+  let i = 0;
+  const tick = () => {
+    const due = Math.min(words.length, Math.floor((performance.now() - t0) * perSec / 1000) + 1);
+    const follow = log.scrollHeight - log.scrollTop - log.clientHeight < 60;
+    while (i < due) words[i++].classList.add('in');
+    if (follow) log.scrollTop = log.scrollHeight;
+    if (i < words.length) setTimeout(tick, 1000 / perSec);
+  };
+  tick();
+}
+
+// ---------- moving the Pebble panel: drag its title bar; the spot is remembered; double-click puts it back ----------
+const PB_POS = 'pebble.pos';
+function pbPlace(x, y) {
+  const el = $('pbPanel'), w = el.offsetWidth, h = el.offsetHeight;
+  x = Math.max(8, Math.min(window.innerWidth - w - 8, x));
+  y = Math.max(8, Math.min(window.innerHeight - Math.min(h, 120) - 8, y));
+  el.classList.add('moved');
+  el.style.left = x + 'px'; el.style.top = y + 'px';
+  return { x, y };
+}
+function pbRestorePos() {
+  try {
+    const p = JSON.parse(localStorage.getItem(PB_POS) || 'null');
+    if (p) pbPlace(p.x, p.y);
+  } catch {}
+}
+(() => {
+  const head = document.querySelector('.pb-head'), el = $('pbPanel');
+  let start = null;
+  head.addEventListener('pointerdown', e => {
+    if (e.button !== 0 || e.target.closest('button')) return;
+    const r = el.getBoundingClientRect();
+    start = { dx: e.clientX - r.left, dy: e.clientY - r.top };
+    el.classList.add('dragging');
+    head.setPointerCapture(e.pointerId);
+  });
+  head.addEventListener('pointermove', e => { if (start) pbPlace(e.clientX - start.dx, e.clientY - start.dy); });
+  const end = () => {
+    if (!start) return;
+    start = null; el.classList.remove('dragging');
+    try { localStorage.setItem(PB_POS, JSON.stringify({ x: parseFloat(el.style.left), y: parseFloat(el.style.top) })); } catch {}
+  };
+  head.addEventListener('pointerup', end);
+  head.addEventListener('pointercancel', end);
+  head.addEventListener('dblclick', e => {
+    if (e.target.closest('button')) return;
+    el.classList.remove('moved'); el.style.left = el.style.top = '';
+    try { localStorage.removeItem(PB_POS); } catch {}
+  });
+  window.addEventListener('resize', () => { if (el.classList.contains('moved')) pbPlace(parseFloat(el.style.left), parseFloat(el.style.top)); });
+})();
 function openItem(id, src) {
   if (!listFor(S.tab).some(p => p.id === id) && src) setTab(src);
   S.sel = id; render(); $('drawer').classList.add('open');
