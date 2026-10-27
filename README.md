@@ -20,6 +20,19 @@ python server.py
 
 Your browser opens at http://localhost:8770. Leave the window running while you use the tool; press Ctrl+C to stop it.
 
+## Pebble, your AI helper
+
+Click **Pebble** at the bottom-right. Pebble (the blue stone from the StoneDock logo) waves hello, then:
+
+- **Answers questions** about the view you're on: "Which 10 should I contact first?", "Summarize this view", anything else. Company names in its answers are links. Tick **Let Pebble search the web** for questions that need fresh information.
+- **Researches a company:** open one and choose **Research with Pebble**. It searches the web (the company's site, news, LinkedIn, Google Maps, Yelp) and writes a brief: what they do, why they'd need Connect, decision-makers (add them as contacts with one click), ratings, pain points and first-call questions. Takes about 30 seconds to 3 minutes.
+- **Writes outreach emails:** in a pipeline company's **Draft outreach**, choose **Have Pebble write it** for a personal email to that contact, using its research.
+- **Re-checks fit scores:** **Pebble: re-check top 25** reads the top 25 in a tab and raises or lowers scores the keyword rules got wrong (an investment fund named "Health", a device maker, a drug developer…). Changes show as a small +/− next to the score.
+
+Pebble acts out what it's doing (thinking, searching with a magnifying glass, typing, reading a book) and, when idle, goes for a jog, lifts weights, drinks water or balances stones.
+
+Pebble runs through **Claude Code on your own Claude plan** (no API key), on this computer only: each answer, research or email uses some of your Claude usage. Change the model in **Settings** (Sonnet by default). LinkedIn, Google Maps and Yelp pages may be opened during research at your request; their terms don't allow automated access, and they often show sign-in walls or block it, so search results do most of the work.
+
 ## It keeps itself up to date
 
 While `python server.py` is running, the tool re-runs both searches on its own (every 6 hours by default) using your last search terms and filters. The chip in the header shows when the next check is.

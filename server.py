@@ -12,6 +12,9 @@ Finds likely prospects for StoneDock Connect, three ways:
   Medicare-rated  - home health agencies and dialysis centers Medicare rates 3 stars
                     or lower (CMS Care Compare).
 Google Play ratings are merged into the app lists (by developer name).
+
+Pebble, the AI helper (pebble.js on the page), researches companies, writes outreach emails, answers questions about
+the prospects and double-checks fit scores, through Claude Code on the owner's Claude plan (this computer only).
 Serves the tool at http://localhost:8770. Standard library only, no API keys.
 
 While it runs, it re-runs both searches on a schedule (Settings: every 1-24 hours,
@@ -109,7 +112,7 @@ Best,
 
 DEFAULT_SETTINGS = {"sec_contact": "", "sender": "", "template": DEFAULT_TEMPLATE,
                     "auto_update": True, "auto_every_hours": 6, "auto_add_min": 0,
-                    "play_enabled": True, "provider_days": 90}
+                    "play_enabled": True, "provider_days": 90, "ai_model": "sonnet"}
 
 # SEC full-text search only matches words in a filing (in practice, the company name),
 # so these are words health startups tend to put in their names
@@ -1410,6 +1413,328 @@ def update_once():
         sync(prefer_remote=False, message=f"Cloud update: {summary}")
         print("Pushed.")
 
+# ---------- AI (Pebble) through Claude Code on the owner's Claude plan (no API key) ----------
+# The same bridge as Atlas Terminal's ASK: Claude Code in print mode, in an empty folder outside the project (Claude Code
+# reads CLAUDE.md files from parent folders), nothing saved, MCP servers off. Research may use WebSearch and WebFetch
+# (LinkedIn, Google Maps and Yelp included, at the user's request); everything else gets no tools at all.
+# Only works on this computer: GitHub's cloud runs have no Claude sign-in. Every call uses the owner's Claude usage.
+AI_FILE = os.path.join(DATA, "ai.json")
+CLAUDE_EXE = os.path.join(os.path.expanduser("~"), ".local", "bin", "claude.exe")
+AI_DIR = os.path.join(os.environ.get("LOCALAPPDATA") or os.path.expanduser("~"), "StoneDockProspector", "ai_sandbox")
+AI_LOCK = threading.Lock()
+AI_STATE = {"auth": None, "auth_at": 0}
+AI_MODELS = ("sonnet", "opus", "haiku")
+
+STONEDOCK = """StoneDock (formerly OnePATH Health) sells StoneDock Connect: a white-label health data and AI engine that runs \
+inside a partner's own app, under the partner's brand. It is built on FHIR, the data standard Epic and other EHRs use; it is \
+HIPAA-ready with patient consent on every request and a full audit trail; its AI reads lab PDFs and turns them into health \
+scores, insights and coaching; it already runs a medication workflow (payment, prescription, EHR sync, refills); patients never \
+leave the partner's app; partners get SDKs and a no-account sandbox demo at onepathhealth.com. Price: $8 per member per month. \
+Live client: MyWellness App, a telehealth app for peptides and GLP-1s supplied by the Wellvi pharmacy. Best-fit customers: \
+telehealth companies, online and compounding pharmacies, GLP-1/weight-loss, hormone, peptide, longevity, wellness and \
+coaching companies, and clinics or care organizations that want a patient app without building the health-data and AI stack."""
+
+
+def claude_exe():
+    import shutil
+    return CLAUDE_EXE if os.path.exists(CLAUDE_EXE) else shutil.which("claude")
+
+
+def ai_status():
+    """Is Claude Code installed and signed in? (checked at most once a minute)"""
+    exe = claude_exe()
+    if not exe:
+        return {"installed": False, "loggedIn": False}
+    if AI_STATE["auth"] is None or time.time() - AI_STATE["auth_at"] > 60:
+        try:
+            r = subprocess.run([exe, "auth", "status"], capture_output=True, text=True, timeout=30, encoding="utf-8",
+                               errors="replace", creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+            AI_STATE["auth"] = json.loads(r.stdout or "{}")
+        except Exception as e:
+            AI_STATE["auth"] = {"loggedIn": False, "error": str(e)[:120]}
+        AI_STATE["auth_at"] = time.time()
+    a = AI_STATE["auth"] or {}
+    return {"installed": True, "loggedIn": bool(a.get("loggedIn")), "busy": AI_LOCK.locked(),
+            "model": get_settings().get("ai_model") or "sonnet"}
+
+
+def ask_claude(system, prompt, web=False, turns=None):
+    """One request to Claude Code. Returns {"ok", "text", "seconds", "error"}."""
+    exe = claude_exe()
+    if not exe:
+        return {"ok": False, "error": "Claude Code isn't installed on this computer."}
+    if not AI_LOCK.acquire(blocking=False):
+        return {"ok": False, "error": "Pebble is still working on the last request. Try again when it's done."}
+    try:
+        os.makedirs(AI_DIR, exist_ok=True)
+        model = get_settings().get("ai_model") or "sonnet"
+        tools = "WebSearch,WebFetch" if web else ""
+        cmd = [exe, "-p", "--output-format", "json", "--model", model if model in AI_MODELS else "sonnet",
+               "--tools", tools, "--strict-mcp-config", "--disallowedTools", "mcp__*", "--no-session-persistence",
+               "--max-turns", str(turns or (18 if web else 3)), "--system-prompt", system]
+        if web:  # pre-approved, so print mode never stops to ask
+            cmd[cmd.index("--tools") + 2:cmd.index("--tools") + 2] = ["--allowedTools", tools]
+        t0 = time.time()
+        r = subprocess.run(cmd, input=prompt, capture_output=True, text=True, timeout=420 if web else 180, cwd=AI_DIR,
+                           encoding="utf-8", errors="replace", creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+        secs = round(time.time() - t0, 1)
+        try:
+            out = json.loads(r.stdout or "{}")
+        except ValueError:
+            out = {}
+        text = out.get("result") or ""
+        if r.returncode != 0 or out.get("is_error") or not text:
+            msg = text or (r.stderr or r.stdout or "").strip()[:400] or f"exit code {r.returncode}"
+            if re.search(r"log ?in|not logged|authenticat|/login", msg, re.I):
+                AI_STATE["auth_at"] = 0
+                msg = "Claude Code isn't signed in on this computer. Run `claude` in a terminal and sign in."
+            elif re.search(r"usage limit|rate limit|limit reached", msg, re.I):
+                msg = "Your Claude usage limit is reached for now. Pebble can try again once it resets."
+            return {"ok": False, "error": msg, "seconds": secs}
+        return {"ok": True, "text": text, "seconds": secs, "turns": out.get("num_turns")}
+    except subprocess.TimeoutExpired:
+        return {"ok": False, "error": f"Pebble took longer than {7 if web else 3} minutes, so it stopped."}
+    except Exception as e:
+        return {"ok": False, "error": str(e)[:300]}
+    finally:
+        AI_LOCK.release()
+
+
+def json_from(text):
+    """The first JSON object in a reply (models sometimes wrap it in a sentence or code fence)."""
+    m = re.search(r"\{.*\}", text or "", re.S)
+    if not m:
+        raise ValueError("Pebble's answer wasn't in the expected format")
+    return json.loads(m.group(0))
+
+
+def all_items():
+    """(source, item) for everything the app has found, newest lists first; pipeline snapshots fill the gaps."""
+    out = [("low", p) for p in current_prospects()[0]] + [("new", p) for p in new_apps(36)] + \
+          [("funded", p) for p in current_funded()["funded"]] + [("prov", p) for p in current_providers()["providers"]] + \
+          [("cms", p) for p in current_medicare()["medicare"]]
+    seen = {p["id"] for _, p in out}
+    for lead in live_leads().values():
+        if lead["id"] not in seen and lead.get("item"):
+            out.append((lead.get("source", "low"), lead["item"]))
+    return out
+
+
+def find_item(item_id):
+    return next(((s, p) for s, p in all_items() if p["id"] == item_id), (None, None))
+
+
+def describe(src, p, full=True):
+    """What the app knows about one company, as plain lines for a prompt."""
+    lines = [f"Company: {p.get('company')}"]
+    if p.get("dba"):
+        lines.append(f"Also known as: {p['dba']}")
+    if src in ("low", "new") or p.get("apps"):
+        if p.get("website"):
+            lines.append(f"Website: {p['website']}")
+        for a in (p.get("apps") or [])[:6 if full else 2]:
+            lines.append(f"App: {a.get('name')} ({'Google Play' if a.get('store') == 'google' else 'App Store'}), "
+                         f"{a.get('rating') or 'no'} stars from {a.get('count', 0)} ratings, {a.get('genre') or ''}, "
+                         f"launched {(a.get('released') or '?')[:10]}, updated {(a.get('updated') or '?')[:10]}")
+            if full and a.get("description"):
+                lines.append(f"  Description: {a['description'][:300]}")
+    if src == "funded":
+        lines.append(f"SEC Form D: founded {p.get('year_of_inc')}, industry {p.get('industry')}, raised "
+                     f"${float(p.get('amount_sold') or 0):,.0f}, filed {p.get('file_date')}, based in {p.get('location')}")
+        if p.get("people"):
+            lines.append("People in the filing: " + "; ".join(f"{x['name'].title()} ({', '.join(x['roles'])})" for x in p["people"]))
+    if src in ("prov", "cms"):
+        lines.append(f"Type: {p.get('type')}; located in {p.get('city')}, {p.get('state')}; phone {p.get('phone')}")
+        if src == "prov":
+            lines.append(f"Registered in the NPI registry {p.get('registered')}; authorized official: {p.get('official')}, {p.get('official_title')}")
+        else:
+            lines.append(f"Medicare rating {p.get('rating')} stars; ownership {p.get('ownership')}; certified {p.get('certified')}")
+    lines.append(f"Prospector fit score: {p.get('score')} ({'; '.join(p.get('why') or [])})")
+    lead = live_leads().get(p["id"])
+    if full and lead:
+        if lead.get("contacts"):
+            lines.append("Contacts saved: " + "; ".join(f"{c.get('name') or c.get('email')} {c.get('title') or ''}".strip()
+                                                       for c in lead["contacts"]))
+        if lead.get("notes"):
+            lines.append(f"Notes: {lead['notes'][:400]}")
+    return "\n".join(lines)
+
+
+def ai_store():
+    return load_json(AI_FILE, {"research": {}, "rank": {}})
+
+
+def ai_save(update):
+    with lock:
+        store = ai_store()
+        for k, v in update.items():
+            store.setdefault(k, {}).update(v)
+        save_json(AI_FILE, store)
+    sync_soon()
+
+
+RESEARCH_SYSTEM = f"""You are Pebble, the research assistant inside StoneDock Prospector, a tool StoneDock's sales team uses \
+to find companies that could buy StoneDock Connect.
+
+{STONEDOCK}
+
+Research the company you're given using web search. Always search for: the company's own website; its founders and \
+leaders on LinkedIn (for example `site:linkedin.com "Company" founder OR CEO`); its reviews and rating on Google Maps and \
+Yelp; recent news, funding and press releases. You may open the company's website, news articles, LinkedIn, Google Maps \
+and Yelp pages; if a page is blocked, behind a sign-in, or empty, use what the search results show instead. Never invent \
+people, emails, numbers or quotes: everything must come from a source you saw, and say "not found" when you can't find \
+something. Keep the research to what a salesperson needs before a first call.
+
+Answer with ONLY a JSON object, no other text:
+{{"summary": "2-3 sentences: what the company does and who it serves",
+ "website": "the company's main website, or empty",
+ "fit": "2-3 specific sentences on why they would (or wouldn't) need StoneDock Connect",
+ "pain_points": ["3-5 short, specific likely pain points Connect could solve"],
+ "decision_makers": [{{"name": "...", "title": "...", "source": "URL where you saw it"}}],
+ "ratings": "what you found about their Google, Yelp or app-store ratings and reviews, with numbers, or empty",
+ "news": [{{"title": "...", "date": "YYYY-MM or YYYY-MM-DD if known", "url": "..."}}],
+ "questions": ["4-6 discovery-call questions tailored to them"],
+ "fit_adjust": an integer from -20 to 20 to adjust the Prospector's fit score after what you learned,
+ "fit_reason": "one sentence explaining fit_adjust",
+ "sources": ["URLs you used"]}}"""
+
+
+def ai_research(item_id):
+    src, p = find_item(item_id)
+    if not p:
+        return {"ok": False, "error": "That company isn't in the Prospector's lists any more."}
+    r = ask_claude(RESEARCH_SYSTEM, "Research this company:\n\n" + describe(src, p), web=True)
+    if not r["ok"]:
+        return r
+    try:
+        data = json_from(r["text"])
+    except ValueError as e:
+        return {"ok": False, "error": str(e), "raw": r["text"][:500]}
+    data["fit_adjust"] = max(-20, min(20, int(data.get("fit_adjust") or 0)))
+    data.update(at=time.time(), seconds=r["seconds"], company=p.get("company"))
+    ai_save({"research": {item_id: data}})
+    return {"ok": True, "research": data}
+
+
+EMAIL_SYSTEM = f"""You are Pebble, who writes first-touch sales emails for StoneDock.
+
+{STONEDOCK}
+
+Write one short, warm, specific cold email (under 170 words) from the sender to the contact, inviting them to a 20-minute \
+demo of StoneDock Connect. Open with something specific to their company from the research (not flattery), connect one or \
+two of their likely pain points to what Connect does, and end with a clear, low-pressure ask. Plain text, no markdown, no \
+emojis, no placeholders left unfilled; if you don't know the contact's first name, greet with "Hi there". Never invent facts.
+Answer with ONLY a JSON object: {{"subject": "...", "body": "..."}}"""
+
+
+def ai_email(item_id, contact):
+    src, p = find_item(item_id)
+    if not p:
+        return {"ok": False, "error": "That company isn't in the Prospector's lists any more."}
+    s = get_settings()
+    research = ai_store()["research"].get(item_id)
+    prompt = "Company:\n" + describe(src, p) + "\n\n"
+    if research:
+        prompt += "Research Pebble did earlier:\n" + json.dumps({k: research.get(k) for k in (
+            "summary", "fit", "pain_points", "ratings", "news")}, ensure_ascii=False) + "\n\n"
+    prompt += (f"Contact: {contact.get('name') or 'unknown name'}, {contact.get('title') or 'title unknown'}\n"
+               f"Sender: {s.get('sender') or 'the StoneDock team'}, StoneDock\n\n"
+               f"The team's usual template, for tone only:\n{s.get('template', '')[:1200]}")
+    r = ask_claude(EMAIL_SYSTEM, prompt)
+    if not r["ok"]:
+        return r
+    try:
+        data = json_from(r["text"])
+    except ValueError as e:
+        return {"ok": False, "error": str(e), "raw": r["text"][:500]}
+    return {"ok": True, "subject": data.get("subject", ""), "body": data.get("body", ""), "seconds": r["seconds"]}
+
+
+SOURCE_NAMES = {"low": "Low-rated apps", "new": "New apps", "funded": "Newly funded startups",
+                "prov": "New pharmacies and clinics", "cms": "Medicare-rated providers", "pipe": "Pipeline"}
+
+
+def snapshot(tab, limit=120):
+    """The rows Pebble can see for a chat question: the best-scoring ones of the tab (or every tab's top rows)."""
+    items = all_items()
+    leads = live_leads()
+    if tab == "pipe":
+        rows = [(s, p) for s, p in items if p["id"] in leads]
+    elif tab in SOURCE_NAMES:
+        rows = [(s, p) for s, p in items if s == tab and not p.get("solo")]
+    else:
+        rows = [(s, p) for s, p in items if not p.get("solo")]
+    rows.sort(key=lambda sp: -(sp[1].get("score") or 0))
+    rows = rows[:limit]
+    lines = []
+    for s, p in rows:
+        lead = leads.get(p["id"])
+        extra = (f" | pipeline: {lead.get('status')}" if lead else "")
+        lines.append(f"[{SOURCE_NAMES.get(s, s)}] " + describe(s, p, full=False).replace("\n", " | ") + extra)
+    return rows, "\n".join(lines)
+
+
+CHAT_SYSTEM = f"""You are Pebble, the friendly AI helper inside StoneDock Prospector, the tool StoneDock's sales team uses \
+to find companies that could buy StoneDock Connect.
+
+{STONEDOCK}
+
+You're given the prospects the user is looking at. Answer their question using those rows (and web search, if it's \
+available and the question needs it). Be concise and practical: short paragraphs or a short list, plain language. Always \
+write company names exactly as they appear in the rows, so the app can link them. Don't invent facts about companies; say \
+when the data doesn't show something. You can't change anything in the app yourself; suggest what the user can do."""
+
+
+def ai_chat(question, tab, history, web):
+    rows, table = snapshot(tab)
+    convo = "".join(f"{'User' if m.get('role') == 'user' else 'Pebble'}: {m.get('text', '')[:1500]}\n"
+                    for m in (history or [])[-8:])
+    prompt = (f"The user is on the '{SOURCE_NAMES.get(tab, 'all prospects')}' view. Prospects ({len(rows)} best by fit score):\n"
+              f"{table}\n\nConversation so far:\n{convo}\nUser: {question}")
+    r = ask_claude(CHAT_SYSTEM, prompt, web=web, turns=12 if web else 3)
+    if not r["ok"]:
+        return r
+    low = r["text"].lower()
+    mentions = []
+    for s, p in rows:
+        name = p.get("company") or ""
+        if len(name) > 3 and name.lower() in low and p["id"] not in {m["id"] for m in mentions}:
+            mentions.append({"id": p["id"], "name": name, "source": s})
+    return {"ok": True, "text": r["text"], "mentions": mentions, "seconds": r["seconds"]}
+
+
+RANK_SYSTEM = f"""You are Pebble, who double-checks the StoneDock Prospector's automatic fit scores.
+
+{STONEDOCK}
+
+For each company, read everything given (names, app descriptions, ratings, funding, type, location) and decide how much \
+the automatic score over- or under-rates it as a StoneDock Connect customer. Look for things keyword rules miss: a giant \
+brand hiding behind a small name, a company that isn't really in healthcare, a perfect-fit telehealth or compounding \
+business, a product that already has its own health-data stack, and so on.
+Answer with ONLY a JSON object: {{"items": [{{"id": "...", "adjust": integer -20 to 20, "reason": "one short sentence"}}]}}"""
+
+
+def ai_rank(tab, count=25):
+    rows, _ = snapshot(tab, count)
+    if not rows:
+        return {"ok": False, "error": "There's nothing to rank in this view yet."}
+    prompt = "Companies:\n\n" + "\n\n".join(f"id: {p['id']}\n" + describe(s, p) for s, p in rows)
+    r = ask_claude(RANK_SYSTEM, prompt, turns=3)
+    if not r["ok"]:
+        return r
+    try:
+        items = json_from(r["text"]).get("items") or []
+    except ValueError as e:
+        return {"ok": False, "error": str(e), "raw": r["text"][:500]}
+    known = {p["id"] for _, p in rows}
+    out = {}
+    for it in items:
+        if it.get("id") in known:
+            out[it["id"]] = {"adjust": max(-20, min(20, int(it.get("adjust") or 0))), "reason": it.get("reason", ""),
+                             "at": time.time()}
+    ai_save({"rank": out})
+    return {"ok": True, "rank": out, "seconds": r["seconds"], "count": len(out)}
+
 # ---------- CSV ----------
 
 def leads_csv():
@@ -1475,11 +1800,17 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 j, fj, pj = dict(job), dict(fjob), dict(pjob)
             s = get_settings()
             return self.send(200, {"prospects": prospects, "filters": filters, "updated": updated, "job": j,
+                                   "ai": ai_store(),
                                    "new_apps": newer, "funded": funded["funded"], "auto": auto_status(),
                                    "funded_days": funded.get("days"), "funded_updated": funded.get("updated"),
                                    "fjob": fj, "pjob": pj, "providers": provs["providers"], "providers_days": provs.get("days"),
                                    "medicare": med["medicare"], "leads": live_leads(), "settings": s,
                                    "default_terms": DEFAULT_TERMS, "funded_terms": FUNDED_TERMS})
+        if path == "/pebble.js":
+            with open(os.path.join(HERE, "pebble.js"), "rb") as f:
+                return self.send(200, f.read(), "text/javascript")
+        if path == "/api/ai/status":
+            return self.send(200, ai_status())
         if path == "/api/job":
             with lock:
                 return self.send(200, {"job": dict(job), "fjob": dict(fjob), "pjob": dict(pjob), "auto": auto_status()})
@@ -1524,6 +1855,17 @@ class Handler(http.server.BaseHTTPRequestHandler):
             days = max(14, min(int(b.get("days", 180)), 730))
             threading.Thread(target=run_funded, args=(days, terms), daemon=True).start()
             return self.send(200, {"ok": True})
+        if path == "/api/ai/research":
+            return self.send(200, ai_research(b.get("id", "")))
+        if path == "/api/ai/email":
+            return self.send(200, ai_email(b.get("id", ""), b.get("contact") or {}))
+        if path == "/api/ai/chat":
+            q = (b.get("question") or "").strip()
+            if not q:
+                return self.send(400, {"error": "ask Pebble something first"})
+            return self.send(200, ai_chat(q[:2000], b.get("tab", ""), b.get("history") or [], bool(b.get("web"))))
+        if path == "/api/ai/rank":
+            return self.send(200, ai_rank(b.get("tab", "low")))
         if path == "/api/providers":
             which = {w for w in b.get("which", ["npi", "medicare"]) if w in ("npi", "medicare")}
             if not which:

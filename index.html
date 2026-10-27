@@ -135,6 +135,42 @@ tbody tr:last-child td { border-bottom: 0; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
 .toast .btn { margin-left: 12px; }
 .toast b { color: #6ea0f0; }
+/* Pebble, the AI helper */
+.pb-launch { position: fixed; right: 20px; bottom: 20px; z-index: 15; display: flex; align-items: center; gap: 8px; padding: 6px 16px 6px 8px; border-radius: 99px; border: 1px solid #2d3b5c; background: #0f172a; color: #fff; font-weight: 600; cursor: pointer; box-shadow: 0 8px 24px rgba(15,23,42,.3); }
+.pb-launch:hover { background: #1c2740; }
+.pb-launch[hidden] { display: none; }
+.pb-launch svg { width: 40px; height: 32px; animation: pb-bob 3s ease-in-out infinite; }
+.pb-panel { position: fixed; right: 20px; bottom: 20px; z-index: 15; width: min(390px, calc(100vw - 32px)); max-height: calc(100vh - 100px); display: none; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 16px 48px rgba(15,23,42,.28); overflow: hidden; transition: right .2s; }
+.pb-panel.open { display: flex; }
+.drawer.open ~ .pb-panel { right: min(560px, calc(100vw - 410px)); }
+.pb-head { display: flex; align-items: center; gap: 8px; padding: 10px 14px; background: #0f172a; color: #fff; }
+.pb-head b { font-size: 15px; }
+.pb-head .pb-sub { color: #b9c4d8; font-size: 12px; flex: 1; }
+.pb-head .x { color: #b9c4d8; }
+.pb-stage { background: var(--panel-2); padding: 4px 70px 0; flex: none; }
+.pb-line { font-size: 12px; color: var(--accent-strong); padding: 6px 14px; min-height: 28px; border-bottom: 1px solid var(--line); flex: none; }
+.pb-line.warn { color: var(--mid); }
+.pb-log { flex: 1; overflow-y: auto; padding: 12px 14px; display: flex; flex-direction: column; gap: 10px; min-height: 80px; }
+.pb-msg { font-size: 13px; line-height: 1.55; padding: 8px 11px; border-radius: 12px; max-width: 92%; overflow-wrap: anywhere; }
+.pb-msg.user { align-self: flex-end; background: #2f5fbe; color: #fff; border-bottom-right-radius: 4px; }
+.pb-msg.pebble { align-self: flex-start; background: var(--panel-2); border-bottom-left-radius: 4px; }
+.pb-msg.err { background: var(--bad-bg); color: var(--bad); }
+.pb-msg a { color: var(--accent-strong); cursor: pointer; font-weight: 600; text-decoration: underline; }
+.pb-msg ul { margin: 4px 0; padding-left: 18px; }
+.pb-chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 14px 8px; flex: none; }
+.pb-chips button { font-size: 12px; padding: 4px 10px; border-radius: 99px; border: 1px solid var(--line); background: var(--panel); color: var(--text); cursor: pointer; }
+.pb-chips button:hover { border-color: var(--accent); color: var(--accent-strong); }
+.pb-ask { display: flex; gap: 8px; padding: 10px 14px 4px; border-top: 1px solid var(--line); flex: none; }
+.pb-ask textarea { resize: none; }
+.pb-web { margin: 0 14px 10px; font-size: 12px; flex: none; }
+.pbadj { display: inline-block; font-size: 10px; font-weight: 700; padding: 1px 5px; border-radius: 4px; margin-left: 4px; vertical-align: 1px; }
+.pbadj.up { background: #dcfce7; color: #166534; }
+.pbadj.down { background: var(--bad-bg); color: var(--bad); }
+.why li.pebble b { color: var(--accent-strong); }
+.brief p { margin: 4px 0 10px; font-size: 13px; }
+.brief h4 { margin: 12px 0 4px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.brief ul { margin: 0; padding-left: 18px; font-size: 13px; }
+@keyframes pb-bob { 50% { transform: translateY(-3px); } }
 .empty { padding: 64px 20px; text-align: center; color: var(--muted); }
 .empty svg { color: var(--accent); opacity: .7; margin-bottom: 10px; }
 
@@ -277,6 +313,7 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
         <option value="24" selected>Last 24 months</option><option value="36">Last 36 months</option></select>
       <label class="check" id="soloWrap" style="margin:0" hidden><input type="checkbox" id="hideSolo" checked onchange="render()"> Hide solo developers</label>
       <label class="check" style="margin:0"><input type="checkbox" id="onlyNew" onchange="render()"> New this week</label>
+      <button class="btn small pb-busy-off" onclick="pbRank()" title="Pebble reads the top 25 here and adjusts their fit scores">Pebble: re-check top 25</button>
       <span class="meta" id="meta"></span>
     </div>
     <div class="table-wrap"><table>
@@ -290,6 +327,20 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
 </div>
 
 <div class="drawer" id="drawer"></div>
+<button class="pb-launch" id="pbLauncher" onclick="pebbleOpen(true)" aria-label="Open Pebble, your AI helper"><svg viewBox="0 0 40 32" aria-hidden="true"><ellipse cx="20" cy="18" rx="17" ry="12" fill="#4f7fd9"/><ellipse cx="14" cy="16" rx="3" ry="3.4" fill="#fff"/><ellipse cx="26" cy="16" rx="3" ry="3.4" fill="#fff"/><circle cx="14.4" cy="16.8" r="1.6" fill="#0f172a"/><circle cx="26.4" cy="16.8" r="1.6" fill="#0f172a"/><path d="M17 22q3 2.5 6 0" stroke="#0f172a" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg><span>Pebble</span></button>
+<div class="pb-panel" id="pbPanel" role="dialog" aria-label="Pebble, your AI helper">
+  <div class="pb-head"><b>Pebble</b><span class="pb-sub" id="pbSub">Your AI helper and researcher</span><button class="x" onclick="pebbleOpen(false)" aria-label="Close Pebble">✕</button></div>
+  <div class="pb-stage" id="pbStage"></div>
+  <div class="pb-line" id="pbLine"></div>
+  <div class="pb-log" id="pbLog"></div>
+  <div class="pb-chips" id="pbChips">
+    <button onclick="pbAsk('Which 10 companies in this view should I contact first, and why?')">Who to contact first?</button>
+    <button onclick="pbAsk('Summarize this view: what kinds of companies are here and which stand out?')">Summarize this view</button>
+    <button onclick="pbRank()">Re-check fit scores</button>
+  </div>
+  <div class="pb-ask"><textarea id="pbInput" rows="2" placeholder="Ask Pebble about your prospects"></textarea><button class="btn primary" id="pbSend" style="flex:0" onclick="pbAsk()">Ask</button></div>
+  <label class="check pb-web"><input type="checkbox" id="pbWeb"> Let Pebble search the web for this question</label>
+</div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <div class="modal-bg" id="settingsBg" onclick="if(event.target===this)closeModal(this)">
@@ -309,6 +360,9 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
         <select id="autoAdd"><option value="0">Off</option><option value="90">Fit 90 or more</option><option value="80">Fit 80 or more</option><option value="70">Fit 70 or more</option></select></div>
     </div>
     <div class="hint">Uses your last search terms and filters. New companies get a NEW badge for a week. Solo developers are never added.</div>
+    <label for="aiModel">Pebble's AI model</label>
+    <select id="aiModel"><option value="sonnet">Sonnet: smart and quick (recommended)</option><option value="opus">Opus: the smartest, slower and uses more</option><option value="haiku">Haiku: fastest, uses the least</option></select>
+    <div class="hint">Pebble runs on Claude Code with your own Claude plan, on this computer only. Each research, email or answer uses some of your usage.</div>
     <label>Sources</label>
     <label class="check" style="margin-top:4px"><input type="checkbox" id="playOn"> Include Google Play apps in App Store searches</label>
     <div class="hint">Google Play has no official API, so this reads its public pages, which Google's terms forbid; it may stop working or be blocked.</div>
@@ -327,6 +381,7 @@ pre.draft { white-space: pre-wrap; background: var(--panel-2); padding: 14px; bo
   <div class="modal card" id="draftBox"></div>
 </div>
 
+<script src="/pebble.js"></script>
 <script>
 const S = { prospects: [], newApps: [], funded: [], providers: [], medicare: [], leads: {}, settings: {}, job: {}, fjob: {}, pjob: {},
   filters: {}, tab: 'low', months: 24, limit: 300,
@@ -377,7 +432,7 @@ async function load() {
     medicare: st.medicare.map(p => ({ ...p, kind: 'medicare', source: 'cms', apps: [] })),
     providersDays: st.providers_days, pjob: st.pjob,
     leads: st.leads, settings: st.settings, job: st.job, fjob: st.fjob, filters: st.filters, fundedDays: st.funded_days,
-    auto: st.auto, version: st.auto.version,
+    auto: st.auto, version: st.auto.version, ai: st.ai || { research: {}, rank: {} },
   });
   if (!$('terms').value) $('terms').value = st.default_terms.join('\n');
   if (!$('fTerms').value) $('fTerms').value = st.funded_terms.join('\n');
@@ -389,7 +444,8 @@ async function load() {
 }
 
 // ---------- table ----------
-const fitCell = p => `<div class="fit" title="${esc(p.why.join('\n'))}"><div class="bar"><i class="${p.score < 50 ? 'lo' : ''}" style="width:${p.score}%"></i></div><b>${p.score}</b></div>`;
+const fitCell = p => { const f = fitOf(p), a = aiAdj(p);
+  return `<div class="fit" title="${esc(p.why.join('\n') + (a ? `\nPebble ${a > 0 ? '+' : ''}${a}: ${aiReason(p)}` : ''))}"><div class="bar"><i class="${f < 50 ? 'lo' : ''}" style="width:${f}%"></i></div><b>${f}</b>${a ? `<span class="pbadj ${a > 0 ? 'up' : 'down'}">${a > 0 ? '+' : ''}${a}</span>` : ''}</div>`; };
 const rateCell = a => a && a.count >= 3 && a.rating ? `<span class="rate ${rateCls(a.rating)}">★ ${a.rating.toFixed(1)}</span>` : '<span class="pill">Not rated yet</span>';
 const num = v => `<span class="num">${v}</span>`;
 const WEEK = 7 * 864e5;
@@ -408,7 +464,7 @@ function coCell(p) {
     <span>${esc(p.worst.name)}${p.apps.length > 1 ? ` · +${p.apps.length - 1} more` : ''}</span></div></div>`;
 }
 const COMPANY = { k: 'company', label: 'Company', cell: coCell, val: p => p.company.toLowerCase(), asc: true };
-const FIT = { k: 'score', label: 'Fit', cell: fitCell, val: p => p.score };
+const FIT = { k: 'score', label: 'Fit', cell: fitCell, val: p => fitOf(p) };
 const STATUS = { k: 'status', label: 'Status', cell: p => p.lead ? `<span class="pill on">${esc(p.lead.status)}</span>` : '', val: p => p.lead?.status || '' };
 const rated = a => a && a.count >= 3 && a.rating ? a.rating : 99;
 const COLS = {
@@ -724,7 +780,7 @@ function whyList(p) {
   return `<ul class="why">${p.why.map(w => {
     const [, pts, rest] = w.match(/^([+−-]\d+)\s(.*)$/) || [, '', w];
     return `<li class="${/^[−-]/.test(pts) ? 'neg' : ''}"><b>${esc(pts)}</b><span>${esc(rest)}</span></li>`;
-  }).join('')}</ul>`;
+  }).join('')}${aiAdj(p) ? `<li class="pebble ${aiAdj(p) < 0 ? 'neg' : ''}"><b>${aiAdj(p) > 0 ? '+' : ''}${aiAdj(p)}</b><span>Pebble: ${esc(aiReason(p))}</span></li>` : ''}</ul>`;
 }
 
 function playEmails(p) {
@@ -826,6 +882,7 @@ function renderDrawer() {
       <h3 style="margin-top:14px">Why it fits</h3>
       ${whyList(p)}
     </section>
+    ${researchSection(p)}
     ${place ? placeSection(p) : funded ? fundingSection(p) : appsSection(p)}
     <section>
       <h3>Find decision-makers on LinkedIn</h3>
@@ -964,12 +1021,14 @@ function draft(ci = 0) {
   const c = cs[ci] || {};
   const fill = { first_name: (c.name || '').split(' ')[0] || 'there', company: cleanName(lead.company), app: lead.app || cleanName(lead.company),
     rating: lead.rating ? (+lead.rating).toFixed(1) : '', category: (lead.category || 'health').toLowerCase(), sender: S.settings.sender || '[your name]' };
-  const text = (S.settings.template || '').replace(/\{(\w+)\}/g, (m, k) => fill[k] ?? m);
+  const ai = PB.drafts?.[`${S.sel}:${ci}`];
+  const text = ai ? `Subject: ${ai.subject}\n\n${ai.body}` : (S.settings.template || '').replace(/\{(\w+)\}/g, (m, k) => fill[k] ?? m);
   const to = c.email || '';
   const [subjLine, ...rest] = text.split('\n');
   const subject = subjLine.replace(/^Subject:\s*/i, '');
   const body = rest.join('\n').replace(/^\n+/, '');
   $('draftBox').innerHTML = `<h2>Outreach draft</h2>
+    <div class="hint">${ai ? 'Written by Pebble for this contact.' : 'From your template.'} <button class="btn small pb-busy-off" onclick="pbEmail(${ci})" ${PB.busy ? 'disabled' : ''}>${ai ? 'Have Pebble rewrite it' : 'Have Pebble write it'}</button></div>
     ${cs.length > 1 ? `<label>To</label><select onchange="draft(+this.value)">${cs.map((x, i) => `<option value="${i}" ${i === ci ? 'selected' : ''}>${esc(x.name || x.email)}</option>`).join('')}</select>` : ''}
     <pre class="draft" id="draftText">${esc(text)}</pre>
     <div class="row" style="justify-content:flex-end">
@@ -991,13 +1050,14 @@ function openSettings() {
   $('autoEvery').value = String(S.settings.auto_every_hours || 6);
   $('autoAdd').value = String(S.settings.auto_add_min || 0);
   $('playOn').checked = S.settings.play_enabled !== false;
+  $('aiModel').value = S.settings.ai_model || 'sonnet';
   $('settingsBg').classList.add('open');
 }
 function closeModal(el) { el.classList.remove('open'); }
 async function saveSettings() {
   try {
     S.settings = await api('/api/settings', { sender: $('sender').value.trim(), sec_contact: $('secContact').value.trim(), template: $('template').value,
-      auto_update: $('autoOn').checked, auto_every_hours: +$('autoEvery').value, auto_add_min: +$('autoAdd').value, play_enabled: $('playOn').checked });
+      auto_update: $('autoOn').checked, auto_every_hours: +$('autoEvery').value, auto_add_min: +$('autoAdd').value, play_enabled: $('playOn').checked, ai_model: $('aiModel').value });
     closeModal($('settingsBg'));
     S.auto = (await api('/api/job')).auto; showAuto();
   } catch (e) {
@@ -1009,6 +1069,157 @@ async function resetTemplate() {
   S.settings = await api('/api/settings', { template: null });
   $('template').value = (await api('/api/state')).settings.template;
 }
+
+// ---------- Pebble, the AI helper (Claude Code on your Claude plan; see pebble.js for the character) ----------
+const PB = { open: false, busy: false, log: [], mounted: false, status: null };
+const aiAdj = p => S.ai?.rank?.[p.id]?.adjust ?? S.ai?.research?.[p.id]?.fit_adjust ?? 0;
+const aiReason = p => S.ai?.rank?.[p.id]?.reason || S.ai?.research?.[p.id]?.fit_reason || '';
+const fitOf = p => Math.max(0, Math.min(100, (p.score || 0) + aiAdj(p)));
+
+function pebbleOpen(on = !PB.open) {
+  PB.open = on;
+  $('pbPanel').classList.toggle('open', on);
+  $('pbLauncher').hidden = on;
+  if (!on) return;
+  if (!PB.mounted) { Pebble.mount($('pbStage'), () => PB.open && !document.hidden); PB.mounted = true; }
+  if (!PB.busy) Pebble.hello();
+  if (!PB.log.length) pbSay('pebble', "Hi! Ask me about the prospects in the view you're on, or open a company and choose **Research with Pebble**. I can also write outreach emails and re-check fit scores.");
+  checkAI();
+  setTimeout(() => $('pbInput').focus(), 60);
+}
+async function checkAI() {
+  try { PB.status = await api('/api/ai/status'); } catch { PB.status = null; }
+  const st = PB.status, line = $('pbLine');
+  line.classList.toggle('warn', !st || !st.installed || !st.loggedIn);
+  if (PB.busy) return;
+  line.textContent = !st ? "Can't reach the server."
+    : !st.installed ? "Claude Code isn't installed on this computer, so Pebble can't think yet."
+    : !st.loggedIn ? 'Claude Code needs signing in: run "claude" in a terminal once.'
+    : `Ready · ${({ sonnet: 'Sonnet', opus: 'Opus', haiku: 'Haiku' })[st.model] || st.model} · uses your Claude plan`;
+}
+function pbFormat(text, mentions) {
+  let h = esc(text).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  h = h.replace(/(^|\n)((?:[-*•] .*(?:\n|$))+)/g, (m, pre, block) =>
+    pre + '<ul>' + block.trim().split('\n').map(l => `<li>${l.replace(/^[-*•] /, '')}</li>`).join('') + '</ul>');
+  h = h.replace(/\n/g, '<br>');
+  for (const m of mentions || []) {
+    const name = esc(m.name);
+    h = h.split(name).join(`<a onclick="openItem('${m.id}','${m.source}')">${name}</a>`);
+  }
+  return h;
+}
+function pbSay(role, text, err, mentions) {
+  PB.log.push({ role, text, err, mentions });
+  $('pbLog').innerHTML = PB.log.map(m => `<div class="pb-msg ${m.role}${m.err ? ' err' : ''}">${m.role === 'user' ? esc(m.text) : pbFormat(m.text, m.mentions)}</div>`).join('');
+  $('pbLog').scrollTop = $('pbLog').scrollHeight;
+}
+function openItem(id, src) {
+  if (!listFor(S.tab).some(p => p.id === id) && src) setTab(src);
+  S.sel = id; render(); $('drawer').classList.add('open');
+}
+async function pebbleRun(line, steps, call) {
+  if (PB.busy) { pebbleOpen(true); pbSay('pebble', "I'm still working on the last request. One thing at a time!"); return null; }
+  pebbleOpen(true);
+  PB.busy = true;
+  $('pbLine').classList.remove('warn'); $('pbLine').textContent = line;
+  document.querySelectorAll('.pb-busy-off').forEach(b => b.disabled = true);
+  Pebble.work(steps);
+  try {
+    const r = await call();
+    if (r.ok === false) throw new Error(r.error || 'Something went wrong');
+    Pebble.finish(true);
+    return r;
+  } catch (e) {
+    Pebble.finish(false);
+    pbSay('pebble', `Sorry, that didn't work: ${e.message}`, true);
+    return null;
+  } finally {
+    PB.busy = false;
+    document.querySelectorAll('.pb-busy-off').forEach(b => b.disabled = false);
+    checkAI();
+    if (S.sel) renderDrawer();
+  }
+}
+async function pbAsk(q) {
+  q = (q ?? $('pbInput').value).trim();
+  if (!q) { pebbleOpen(true); return; }
+  $('pbInput').value = '';
+  const history = PB.log.filter(m => !m.err).slice(-8).map(m => ({ role: m.role, text: m.text }));
+  pbSay('user', q);
+  const web = $('pbWeb').checked;
+  const r = await pebbleRun(web ? 'Searching the web and thinking…' : 'Thinking…',
+    web ? ['think', 2000, 'search', 7000, 'read', 5000] : ['think', 2500, 'read', 4500],
+    () => api('/api/ai/chat', { question: q, tab: S.tab, history, web }));
+  if (r) pbSay('pebble', r.text, false, r.mentions);
+}
+async function pbRank() {
+  const tab = S.tab, name = TAB_NAMES[tab];
+  pbSay('user', `Re-check the fit scores of the top 25 in ${name}.`);
+  const r = await pebbleRun(`Re-checking the top 25 in ${name}…`, ['think', 2500, 'read', 5000],
+    () => api('/api/ai/rank', { tab }));
+  if (!r) return;
+  S.ai.rank = { ...(S.ai.rank || {}), ...r.rank };
+  const items = Object.entries(r.rank).map(([id, x]) => ({ id, ...x, p: findItem(id) })).filter(x => x.p && x.adjust);
+  items.sort((a, b) => Math.abs(b.adjust) - Math.abs(a.adjust));
+  const up = items.filter(x => x.adjust > 0).length, down = items.filter(x => x.adjust < 0).length;
+  pbSay('pebble', `I re-checked ${r.count} companies in ${name}: raised ${up}, lowered ${down}, left the rest.` +
+    (items.length ? '\n' + items.slice(0, 6).map(x => `- ${x.p.company}: ${x.adjust > 0 ? '+' : ''}${x.adjust} (${x.reason})`).join('\n') : ''),
+    false, items.slice(0, 6).map(x => ({ id: x.id, name: x.p.company, source: x.p.source })));
+  render();
+}
+async function pbResearch() {
+  const p = current(), id = p.id;
+  pbSay('user', `Research ${p.company}.`);
+  const r = await pebbleRun(`Researching ${p.company}… (1–3 minutes)`, ['think', 2000, 'search', 8000, 'read', 6000],
+    () => api('/api/ai/research', { id }));
+  if (!r) return;
+  S.ai.research = { ...(S.ai.research || {}), [id]: r.research };
+  const dm = (r.research.decision_makers || []).length;
+  pbSay('pebble', `Done! I put a brief on **${p.company}** in its panel${dm ? `, with ${dm} decision-maker${dm > 1 ? 's' : ''}` : ''}.`, false,
+    [{ id, name: p.company, source: p.source }]);
+  render();
+}
+function researchSection(p) {
+  const r = S.ai?.research?.[p.id];
+  const btn = `<button class="btn small pb-busy-off" onclick="pbResearch()" ${PB.busy ? 'disabled' : ''}>${r ? 'Research again' : 'Research with Pebble'}</button>`;
+  if (!r) return `<section><h3>Pebble's research</h3>
+    <div class="hint">Pebble searches the web (the company's site, news, LinkedIn, Google Maps, Yelp) and writes a brief: what they do, why they'd need Connect, decision-makers, pain points and first-call questions. Takes 1–3 minutes and uses some of your Claude usage.</div>
+    <div style="margin-top:10px">${btn}</div></section>`;
+  const lead = S.leads[p.id];
+  const li = arr => (arr || []).length ? `<ul>${arr.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '<p class="hint">Not found.</p>';
+  const people = (r.decision_makers || []).map(d => {
+    const isLi = /linkedin\.com/i.test(d.source || '');
+    const c = { name: d.name, title: d.title, linkedin: isLi ? d.source : '', source: 'Pebble research' };
+    return `<div class="item"><div><b>${esc(d.name)}</b><small>${esc(d.title || '')}${d.source ? ` · <a target="_blank" rel="noopener" href="${esc(d.source)}">source</a>` : ''}</small></div>
+      ${lead && !(lead.contacts || []).some(x => x.name === d.name) ? `<button class="btn small" onclick='addContact(${JSON.stringify(c).replace(/'/g, '&#39;')})'>Add</button>` : ''}</div>`;
+  }).join('');
+  return `<section class="brief"><h3>Pebble's research</h3>
+    <div class="hint">${new Date(r.at * 1000).toLocaleDateString()} · ${btn}</div>
+    <h4>What they do</h4><p>${esc(r.summary || '')}${r.website ? ` <a target="_blank" rel="noopener" href="${esc(/^https?:/.test(r.website) ? r.website : 'https://' + r.website)}">website</a>` : ''}</p>
+    <h4>Why they'd need Connect</h4><p>${esc(r.fit || '')}</p>
+    ${r.fit_adjust ? `<p class="hint">Pebble ${r.fit_adjust > 0 ? 'raised' : 'lowered'} the fit score by ${Math.abs(r.fit_adjust)}: ${esc(r.fit_reason || '')}</p>` : ''}
+    <h4>Decision-makers</h4>${people ? `<div class="list">${people}</div>` : '<p class="hint">Not found.</p>'}
+    ${lead ? '' : (r.decision_makers || []).length ? '<div class="hint">Add the company to the pipeline to save these as contacts.</div>' : ''}
+    <h4>Ratings and reviews</h4><p>${esc(r.ratings || 'Not found.')}</p>
+    <h4>Likely pain points</h4>${li(r.pain_points)}
+    <h4>Questions for the first call</h4>${li(r.questions)}
+    ${(r.news || []).length ? `<h4>News</h4><ul>${r.news.map(n => `<li><a target="_blank" rel="noopener" href="${esc(n.url)}">${esc(n.title)}</a>${n.date ? ` <span class="hint">${esc(n.date)}</span>` : ''}</li>`).join('')}</ul>` : ''}
+    ${(r.sources || []).length ? `<h4>Sources</h4><ul>${r.sources.slice(0, 8).map(u => `<li><a target="_blank" rel="noopener" href="${esc(u)}">${esc(u.replace(/^https?:\/\/(www\.)?/, '').slice(0, 60))}</a></li>`).join('')}</ul>` : ''}
+  </section>`;
+}
+async function pbEmail(ci) {
+  const lead = S.leads[S.sel], c = (lead.contacts || [])[ci] || {}, id = S.sel;
+  closeModal($('draftBg'));
+  pbSay('user', `Write an email to ${c.name || 'this company'} at ${lead.company}.`);
+  const r = await pebbleRun(`Writing an email to ${c.name || lead.company}…`, ['think', 1500, 'type', 6000],
+    () => api('/api/ai/email', { id, contact: c }));
+  if (!r) return;
+  PB.drafts = PB.drafts || {};
+  PB.drafts[`${id}:${ci}`] = r;
+  pbSay('pebble', `Here's a draft for ${c.name || lead.company}. It's open in the outreach window: check it, then copy it or open it in your email app.`);
+  S.sel = id; draft(ci);
+}
+$('pbInput').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); pbAsk(); } });
 
 load().catch(e => { $('empty').hidden = false; $('empty').textContent = `Can't reach the server: ${e.message}. Is python server.py running?`; });
 </script>
