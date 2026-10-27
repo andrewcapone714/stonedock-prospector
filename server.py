@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """StoneDock Prospector.
 
 Finds likely prospects for StoneDock Connect, three ways:
