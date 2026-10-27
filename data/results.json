@@ -713,7 +713,8 @@
     }
    },
    "terms": [
-    "telehealth"
+    "telehealth",
+    "telemedicine"
    ]
   },
   "1189602154": {
@@ -1777,7 +1778,8 @@
    },
    "terms": [
     "telehealth",
-    "telemedicine"
+    "telemedicine",
+    "remote patient monitoring"
    ]
   },
   "574337110": {
@@ -2437,11 +2439,25 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/cc/55/f1cc5582-5f65-793a-9c7e-72d98e4795e4/CarbyHealthLiquidGlass-0-0-1x_U007epad-0-1-0-P3-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "The official app for Carbon Health patients: book appointments, check past records, message your care team, and manage your family's care all from one easy-to-use app.\n\nGreat healthcare should be easy and at Carbon Health, it is.\n\nUse the Carby Health app to:\n- Book a virtual or in-person visit\n- Find nearby and same-day availability\n- Meet a primary care provider\n- Message your care team\n- View medical records: lab results, prescriptions, care plans, X-rays, and more\n- Manage care for your whole family, including kids\n\nTo access your medical records, you'll need to be a Carbon Health patient."
+    },
+    "1153040105": {
+     "id": "1153040105",
+     "name": "Carby Care",
+     "rating": 4,
+     "count": 19,
+     "genre": "Medical",
+     "released": "2016-12-22T18:07:09Z",
+     "updated": "2026-09-30T17:39:41Z",
+     "url": "https://apps.apple.com/us/app/carby-care/id1153040105",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/ef/bc/07efbc5b-e28e-4f9b-4001-ff38cad9b57b/CarbyCareLiquidGlass-0-0-1x_U007epad-0-1-0-P3-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Carbon Health – For Providers is an all-in-one EHR, providing telemedicine, billing, scheduling, messaging, and orders, all in the same place."
     }
    },
    "terms": [
     "telehealth",
-    "virtual primary care"
+    "virtual primary care",
+    "chronic care"
    ]
   },
   "450493632": {
@@ -5401,7 +5417,8 @@
    "terms": [
     "telemedicine",
     "virtual primary care",
-    "remote patient monitoring"
+    "remote patient monitoring",
+    "functional medicine"
    ]
   },
   "1287775028": {
@@ -7864,7 +7881,8 @@
     }
    },
    "terms": [
-    "online pharmacy"
+    "online pharmacy",
+    "prescription delivery"
    ]
   },
   "281935791": {
@@ -19175,6 +19193,19 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/41/17/4c4117c2-d47a-d71f-2d8f-63bd69b1adf4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Calculate and track your Body Mass Index (BMI) with the most accurate and user-friendly BMI calculator app.\n\nKEY FEATURES:\n• Instant BMI calculation with animated visual gauge\n• Personalized health insights and ideal weight recommendations\n• Support for metric kg/cm, imperial lbs/ft, and British stones units\n• Choice of WHO or DGE German Nutrition Society classification systems\n• Age-specific calculations for children ages 7 and up, plus adults\n• Gender-specific BMI evaluation for accurate results\n• Color-coded BMI categories with real-time visual feedback\n• Clean, intuitive interface with ins"
+    },
+    "1400029246": {
+     "id": "1400029246",
+     "name": "WeightFit: Weight Loss Tracker",
+     "rating": 4.73,
+     "count": 542,
+     "genre": "Health & Fitness",
+     "released": "2018-09-06T07:23:49Z",
+     "updated": "2026-10-21T13:49:16Z",
+     "url": "https://apps.apple.com/us/app/weightfit-weight-loss-tracker/id1400029246",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/14/29/57142965-33bc-4923-61b5-7787e85fcda7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "WeightFit is a weight diary that helps you log your body weight, track your progress, and reach your goal — on iPhone and Apple Watch.\n\nWHY WEIGHTFIT\n- Clean dashboard with current weight, goal progress, and trend chart\n- Realistic \"Days to Goal\" estimate based on your actual data\n- Detailed statistics: weekly, monthly, and long-term trends\n- BMI calculator with WHO and DGE classification systems\n- Fast manual entries with date and time\n- Apple Watch companion app for quick weight logging on your wrist\n- Watch complications showing weight, goal progress, and trends\n- HealthKit integration — yo"
     }
    },
    "terms": [
@@ -20420,10 +20451,24 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/b3/6e/efb36eb3-4841-32a8-94ae-b9bff71aa794/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Losing weight starts with knowing what you eat — and Arise makes that effortless. Arise is a calorie counting and food tracking app for iPhone that helps you lose weight, eat healthier, and build habits that actually last. It fixes the reason most people quit tracking — it's slow, fiddly, and easy to forget — by letting you log any meal in seconds with an AI food scanner, a barcode scanner, or your voice. Set a weight-loss goal, see exactly how every meal fits your daily calories and macros, and stay on track with streaks, reminders, and clear progress charts until healthy eating feels automat"
+    },
+    "943147347": {
+     "id": "943147347",
+     "name": "7 Minute High Fitness Work Out",
+     "rating": 4.71,
+     "count": 313,
+     "genre": "Health & Fitness",
+     "released": "2014-12-30T09:38:42Z",
+     "updated": "2021-05-23T10:11:16Z",
+     "url": "https://apps.apple.com/us/app/7-minute-high-fitness-work-out/id943147347",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/04/c4/43/04c4431d-d60d-a239-ac35-22dd712350fb/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Want to get fit, tone your body, or lose weight? This has never been so fun or easy. Doing a few short, high-intensity workouts each week has been scientifically proven to be the best way to achieve these goals. You will be surprised by how quickly you will see results!\n\nTo keep you motivated, we will remind you of when you should work out at the times of day that you choose. We will also show how you perform compared to a pledge goal you can set, allowing you to clearly track your progress.\n\nBut that's not all: Our app allows you to customize your workouts based on different intensity levels "
     }
    },
    "terms": [
-    "weight loss program"
+    "weight loss program",
+    "men's health"
    ]
   },
   "1295238397": {
@@ -23022,16 +23067,16 @@
    "apps": {
     "6740525224": {
      "id": "6740525224",
-     "name": "Peptide Calculator: PepFlow",
+     "name": "Peptide Tracker: PepFlow",
      "rating": 4.8,
      "count": 438,
      "genre": "Health & Fitness",
      "released": "2025-03-19T07:00:00Z",
-     "updated": "2026-10-12T21:28:06Z",
-     "url": "https://apps.apple.com/us/app/peptide-calculator-pepflow/id6740525224",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/fc/04/23fc04df-abcc-d1c2-0411-628838be2250/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/60x60bb.jpg",
+     "updated": "2026-10-27T03:38:48Z",
+     "url": "https://apps.apple.com/us/app/peptide-tracker-pepflow/id6740525224",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/23/90/cc2390bc-3e72-53c4-9cb3-9285540e3c93/AppIconA0-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/60x60bb.jpg",
      "price": "Free",
-     "description": "Get the right peptide dosage in seconds and track your shot's time so you never miss it. Simply enter your peptide information, see the optimal syringe size, and dosage, and save your favorite formulas and cycles to your device. Visualize today’s doses with widget and get Reminders and Live activities so you never miss a shot. With iCloud sync, your peptides, dosages and schedules stay up to date across all your Apple devices—no hassles, just accurate results and easy tracking every time.\n\n=======================\n\nIf you purchase Peptide Calculator, the payment will be charged to your iTunes a"
+     "description": "Track your peptide routines with a clear dose log, flexible schedules and reminders. PepFlow keeps your protocols and history together so you can see what is next and review what you have recorded.\n\nKeep your routine on track\n- Manage protocols for injections, injectable pens, oral medications, nasal sprays and topical products.\n- Save preparation details for your peptides for easy reference.\n- Keep separate schedules and reminders for each protocol.\n- Record doses and review your history.\n- See upcoming and recorded doses in the calendar.\n- Check your schedule with widgets and Live Activities"
     }
    },
    "terms": [
@@ -29676,7 +29721,8 @@
     }
    },
    "terms": [
-    "hormone therapy"
+    "hormone therapy",
+    "men's health"
    ]
   },
   "427380448": {
@@ -40877,7 +40923,8 @@
     }
    },
    "terms": [
-    "health coaching"
+    "health coaching",
+    "nutrition coaching"
    ]
   },
   "307386667": {
@@ -44690,7 +44737,8 @@
     }
    },
    "terms": [
-    "virtual primary care"
+    "virtual primary care",
+    "telehealth"
    ]
   },
   "1731404962": {
@@ -45363,7 +45411,8 @@
     }
    },
    "terms": [
-    "virtual primary care"
+    "virtual primary care",
+    "women's health"
    ]
   },
   "1538778815": {
@@ -51454,6 +51503,19 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/60/90/e56090fe-2021-4879-a1be-aa4384410f73/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "The Beyond Wellness app makes it very easy for you to manage your Beyond Wellness account, book into our classes and events and keep in touch with us. You can easily message us if you have a question or want to share something with us. You can also follow our public feed to see any announcements we make, promos we run, or content we share."
+    },
+    "6805916540": {
+     "id": "6805916540",
+     "name": "The Set - Longevity",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-09-20T07:00:00Z",
+     "updated": "2026-09-20T14:15:40Z",
+     "url": "https://apps.apple.com/us/app/the-set-longevity/id6805916540",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/2a/de/d02adee1-9a48-217d-a24a-e2fdf7909b80/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The The Set - Longevity app makes it very easy for you to manage your The Set - Longevity account, book into our classes and events and keep in touch with us. You can easily message us if you have a question or want to share something with them. You can also follow our public feed to see any announcements we make, promos we run, or content we share."
     }
    },
    "terms": [
@@ -53128,7 +53190,8 @@
     }
    },
    "terms": [
-    "wellness clinic"
+    "wellness clinic",
+    "IV therapy"
    ]
   },
   "1476282263": {
@@ -55829,7 +55892,8 @@
     }
    },
    "terms": [
-    "wellness clinic"
+    "wellness clinic",
+    "functional medicine"
    ]
   },
   "1643169344": {
@@ -61828,7 +61892,8 @@
     }
    },
    "terms": [
-    "nutrition coaching"
+    "nutrition coaching",
+    "health coaching"
    ]
   },
   "1894955008": {
@@ -65717,7 +65782,8 @@
    },
    "terms": [
     "chronic care",
-    "remote patient monitoring"
+    "remote patient monitoring",
+    "virtual primary care"
    ]
   },
   "1826405545": {
@@ -68483,7 +68549,8 @@
     }
    },
    "terms": [
-    "remote patient monitoring"
+    "remote patient monitoring",
+    "chronic care"
    ]
   },
   "646973492": {
@@ -69380,10 +69447,24 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/ec/04/08ec0405-155c-a386-150b-54cb70224811/MyChartAppIcon-0-0-1x_U007epad-0-1-sRGB-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Michigan Medicine offers easy access to your medical care through the patient portal at MyUofMHealth.\n\nIf you are a current patient at Michigan Medicine, you can request a patient portal account during a clinic visit or at MyUofMHealth.org.\n\nSome of the features and functions available to you through your MyUofMHealth patient portal include*:\n•eCheck-In: Verify information to save time when you arrive for your visit\n•Fast Pass: Get notification if earlier appointments become available\n•Communicate with your care team \n•Request appointments for you and your children\n•View appointments and recei"
+    },
+    "1217459086": {
+     "id": "1217459086",
+     "name": "Michigan MAGIC",
+     "rating": 4.67,
+     "count": 9,
+     "genre": "Medical",
+     "released": "2017-05-31T00:25:01Z",
+     "updated": "2018-01-18T23:55:10Z",
+     "url": "https://apps.apple.com/us/app/michigan-magic/id1217459086",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/e3/76/07/e3760753-ffa8-4716-c775-f7723e0ebabc/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Peripherally inserted central catheters (PICCs) are among the most commonly used central venous catheter (CVC) in contemporary medical practice. The rise in popularity of PICCs reflects several advantages, including safe insertion and growing availability of vascular access nurses that offer convenient bedside insertion. However, PICCs are also associated with important complications, including deep vein thrombosis (DVT) and central line-associated bloodstream infection (CLABSI). Judicious use of PICCs to balance these risks against benefits is therefore necessary.\n\nMichigan MAGIC is designed "
     }
    },
    "terms": [
-    "remote patient monitoring"
+    "remote patient monitoring",
+    "IV therapy"
    ]
   },
   "1580014433": {
@@ -74951,6 +75032,968 @@
    "terms": [
     "mental health therapy"
    ]
+  },
+  "6776681748": {
+   "id": "6776681748",
+   "company": "Eosis",
+   "developer_url": "https://apps.apple.com/us/developer/eosis/id6776681748?uo=4",
+   "website": "",
+   "apps": {
+    "6776681746": {
+     "id": "6776681746",
+     "name": "EOSIS Patient Portal",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2026-06-09T07:00:00Z",
+     "updated": "2026-08-26T22:19:04Z",
+     "url": "https://apps.apple.com/us/app/eosis-patient-portal/id6776681746",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/75/d2/ca75d26d-1ae6-c8c8-7aa2-2158089004c8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "We are excited to introduce our app designed exclusively for you. This new platform will give clients on demand access to their care. Here is what you can expect from our comprehensive app:\n\nConvenient Appointment Management\n- Scheduling and canceling appointments is simple and effortless, our user-friendly interface gives you the flexibility to manage your care conveniently\n\nTimely Appointment Reminders\n-Stay on top of your appointments effortlessly with our timely reminders, ensuring you never miss a session with your providers\n\nAccess to Telehealth Video Sessions\n-Easily and securely connec"
+    }
+   },
+   "terms": [
+    "telehealth"
+   ]
+  },
+  "1797751219": {
+   "id": "1797751219",
+   "company": "Azodha Inc",
+   "developer_url": "https://apps.apple.com/us/developer/azodha/id1797751219?uo=4",
+   "website": "https://azodha.com/",
+   "apps": {
+    "6773867462": {
+     "id": "6773867462",
+     "name": "Azodha Clinician App",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2026-06-10T07:00:00Z",
+     "updated": "2026-10-24T08:27:40Z",
+     "url": "https://apps.apple.com/us/app/azodha-clinician-app/id6773867462",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/9c/0f/f39c0fb9-5aac-f033-7998-6d511c517996/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Azodha is the AI Operating System for decentralized care — purpose-built to handle the dispatch, logistics, and coordination complexity of delivering care at home at scale.\n\nBuilt for Hospital at Home, community paramedicine, mobile integrated health, and acute care at home programs.\n\nBuilt for field teams and care coordinators:\n\n• Smart dispatch, logistics and route-optimized home visit scheduling\n\n• Real-time field team tracking and live location sharing\n\n• Vendor and logistics orchestration across your care network\n\n• Remote patient monitoring with configurable clinical alerts\n\n• Secure tel"
+    }
+   },
+   "terms": [
+    "telehealth"
+   ]
+  },
+  "1437235154": {
+   "id": "1437235154",
+   "company": "TRUDOC HEALTH CARE L.L.C",
+   "developer_url": "https://apps.apple.com/us/developer/trudoc-health-care-l-l-c/id1437235154?uo=4",
+   "website": "https://trudocgroup.com",
+   "apps": {
+    "1015588412": {
+     "id": "1015588412",
+     "name": "TruDoc",
+     "rating": 3.23,
+     "count": 26,
+     "genre": "Medical",
+     "released": "2015-07-11T04:15:28Z",
+     "updated": "2026-10-12T04:10:34Z",
+     "url": "https://apps.apple.com/us/app/trudoc/id1015588412",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/f8/00/d2f800df-f748-b5fe-0db0-944b02b6ce30/uaeAppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "TruDoc offers a one-stop-care-destination for people who are healthy, acute, or chronic through different entry points including Integrated Mobile Application, Virtual Clinic, Hospital at Home Program and Hospitalist Program that are all connected to our 24x7 Doctor Call Center.\n\nTruDoc integrated mobile application allows you to speak to a TruDoc doctor via voice/video call and live chat.\n\n\nServices: \n• Teleconsultation \n• Medication prescription and delivery, where available\n• Lab tests, where available\n• Referrals and appointment booking, if required\n• Holistic care including nutrition care"
+    }
+   },
+   "terms": [
+    "telemedicine"
+   ]
+  },
+  "1460573164": {
+   "id": "1460573164",
+   "company": "thedocapp LLC",
+   "developer_url": "https://apps.apple.com/us/developer/thedocapp-llc/id1460573164?uo=4",
+   "website": "https://thedocapp.com/",
+   "apps": {
+    "1193483405": {
+     "id": "1193483405",
+     "name": "The Doc App",
+     "rating": 4,
+     "count": 52,
+     "genre": "Medical",
+     "released": "2017-01-24T21:57:13Z",
+     "updated": "2026-05-25T22:50:00Z",
+     "url": "https://apps.apple.com/us/app/the-doc-app/id1193483405",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/af/17/0baf1707-d2b9-71e4-01f9-aea2ded7b9d3/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "YOUR DOCTOR VISITS ARE ABOUT TO GET EASIER.\n\nWe streamline workflow, time management, and patient satisfaction by electronically connecting qualified patients with medical documents to premium physicians. Skip the waiting room and the tedious intake process, We’ve got this!"
+    }
+   },
+   "terms": [
+    "telemedicine"
+   ]
+  },
+  "969221155": {
+   "id": "969221155",
+   "company": "Telemedicine Solutions LLC",
+   "developer_url": "https://apps.apple.com/us/developer/telemedicine-solutions-llc/id969221155?uo=4",
+   "website": "http://www.woundrounds.com/",
+   "apps": {
+    "6761193615": {
+     "id": "6761193615",
+     "name": "WoundRounds Mobile",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2026-04-19T07:00:00Z",
+     "updated": "2026-09-15T12:18:49Z",
+     "url": "https://apps.apple.com/us/app/woundrounds-mobile/id6761193615",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/93/e8/3693e8f0-f581-200b-eb44-c328c744bd7e/appicon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "WoundRounds, a service of Wound Solutions AI, LLC, is the point-of-care wound management and prevention solution that empowers clinicians to deliver better wound care in less time. WoundRounds drives consistency in nursing practice, completeness in wound documentation, and compliance with organizational policies and standards. This app is intended to integrate with the WoundRounds solution. If you are not a current WoundRounds client, but would like this solution, we suggest you contact WoundRounds.\n\nKey Benefits include:\n\n- WoundRounds empowers nurses to improve both the quality of wound care"
+    }
+   },
+   "terms": [
+    "telemedicine"
+   ]
+  },
+  "1134060798": {
+   "id": "1134060798",
+   "company": "UNITED HEALTHCARE SERVICES, INC.",
+   "developer_url": "https://apps.apple.com/us/developer/united-healthcare-services-inc/id1134060798?uo=4",
+   "website": "",
+   "apps": {
+    "1448722789": {
+     "id": "1448722789",
+     "name": "UnitedHealthcare Doctor Chat",
+     "rating": 2.88,
+     "count": 40,
+     "genre": "Health & Fitness",
+     "released": "2019-01-14T22:39:11Z",
+     "updated": "2023-11-04T10:00:16Z",
+     "url": "https://apps.apple.com/us/app/unitedhealthcare-doctor-chat/id1448722789",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/34/6d/43346d1b-a213-e463-a0d6-ca04edf57dc2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "UnitedHealthcare Doctor Chat is your access to in-network emergency doctors for answers to your health questions through your phone or computer.\nFeeling sick and think you might need a prescription? Have a bad cut and aren’t sure if you need stitches? Doctor Chat's doctors can answer all your questions.\nWherever you are, Doctor Chat gives you the peace of mind of knowing if you should “just go back to bed and touch base in the morning, or if you should “go to the emergency room.\nCurrently, UnitedHealthcare Doctor Chat is only available to UnitedHealthcare Community Plan members in select state"
+    }
+   },
+   "terms": [
+    "telemedicine"
+   ],
+   "worst": {
+    "id": "1448722789",
+    "name": "UnitedHealthcare Doctor Chat",
+    "rating": 2.88,
+    "count": 40,
+    "genre": "Health & Fitness",
+    "released": "2019-01-14T22:39:11Z",
+    "updated": "2023-11-04T10:00:16Z",
+    "url": "https://apps.apple.com/us/app/unitedhealthcare-doctor-chat/id1448722789",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/43/34/6d/43346d1b-a213-e463-a0d6-ca04edf57dc2/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg",
+    "price": "Free",
+    "description": "UnitedHealthcare Doctor Chat is your access to in-network emergency doctors for answers to your health questions through your phone or computer.\nFeeling sick and think you might need a prescription? Have a bad cut and aren’t sure if you need stitches? Doctor Chat's doctors can answer all your questions.\nWherever you are, Doctor Chat gives you the peace of mind of knowing if you should “just go back to bed and touch base in the morning, or if you should “go to the emergency room.\nCurrently, UnitedHealthcare Doctor Chat is only available to UnitedHealthcare Community Plan members in select state"
+   },
+   "total_ratings": 40,
+   "first_released": "2019-01-14T22:39:11Z",
+   "last_updated": "2023-11-04T10:00:16Z",
+   "score": 44,
+   "solo": false,
+   "why": [
+    "+13 worst app rated 2.9★",
+    "+8 apps mention prescriptions",
+    "+20 40 ratings (startup-sized audience)",
+    "+3 first app launched 7.8 yrs ago",
+    "+0 last update 3.0 yrs ago (may be inactive)"
+   ]
+  },
+  "1801990180": {
+   "id": "1801990180",
+   "company": "KC PHARMACY HEALTHMART INC",
+   "developer_url": "https://apps.apple.com/us/developer/kc-pharmacy/id1801990180?uo=4",
+   "website": "",
+   "apps": {
+    "6743233743": {
+     "id": "6743233743",
+     "name": "KC Pharmacy",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2025-03-22T07:00:00Z",
+     "updated": "2026-06-04T22:59:42Z",
+     "url": "https://apps.apple.com/us/app/kc-pharmacy/id6743233743",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/8b/9d/698b9d58-da59-784c-174e-5ce883521220/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Our user-friendly mobile app makes it easier than ever to manage prescriptions, schedule appointments, chat with our team members, and access health resources from wherever, whenever.\n\n \n\nWith our app you can easily:\n\n \n\nManage medication refills: Submit refill requests, receive pickup/refill reminders, and view your order history with just a few clicks.\n\n \n\nUpdate your patient profile: Keep track of your medication history and never forget an Rx number again. Our app allows you to access a comprehensive history of your prescriptions, including dosage information, refill dates, and instruction"
+    }
+   },
+   "terms": [
+    "online pharmacy"
+   ]
+  },
+  "1275567758": {
+   "id": "1275567758",
+   "company": "Koshland Pharmacy, Inc.",
+   "developer_url": "https://apps.apple.com/us/developer/koshland-pharmacy-inc/id1275567758?uo=4",
+   "website": "",
+   "apps": {
+    "1275567759": {
+     "id": "1275567759",
+     "name": "Koshland Pharm",
+     "rating": 5,
+     "count": 2,
+     "genre": "Medical",
+     "released": "2017-09-05T15:12:54Z",
+     "updated": "2025-03-10T22:08:01Z",
+     "url": "https://apps.apple.com/us/app/koshland-pharm/id1275567759",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/db/5a/c7db5ae5-d983-92c8-e9b5-6771024d5fca/koshland-AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "This App for Koshland Pharm patients makes ordering compounded prescription refills easy.\n\nKoshland Pharm is a compounding pharmacy that serves patients throughout California by providing them with high-quality, customized prescription medications for hormone replacement, thyroid treatments, pain management, urologic medications, veterinary medications and more.\n\nThrough this app, Koshland Pharm patients can:\n\n    Access their compounded prescription information quickly and accurately\n    Easily order compounded prescription refills\n    Receive reminders when their compounded prescription refi"
+    }
+   },
+   "terms": [
+    "prescription delivery"
+   ]
+  },
+  "1720473895": {
+   "id": "1720473895",
+   "company": "Revealsite LLC",
+   "developer_url": "https://apps.apple.com/us/developer/revealsite-llc/id1720473895?uo=4",
+   "website": "",
+   "apps": {
+    "6517353130": {
+     "id": "6517353130",
+     "name": "Quick Rx",
+     "rating": 4.57,
+     "count": 49,
+     "genre": "Medical",
+     "released": "2024-09-20T07:00:00Z",
+     "updated": "2025-10-22T01:21:36Z",
+     "url": "https://apps.apple.com/us/app/quick-rx/id6517353130",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/8f/fd/fa8ffd81-eadd-cf0b-cdd9-d901c52453f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Welcome to Quick RX App, the ultimate digital solution designed to streamline your pharmacy needs and enhance your health management. With our user-friendly app, you can effortlessly manage your health care routine from the palm of your hand. Here's what you can do with our app:\n\nPrescription Refills: Say goodbye to waiting in line. Refill your prescriptions anytime, anywhere with just a few taps.\n\nNew Patient Transfer: Transferring to Quick RX has never been easier. Use our app to securely transfer your patient profile and prescriptions to our care.\n\nHealth News: Stay informed with the latest"
+    }
+   },
+   "terms": [
+    "prescription delivery"
+   ]
+  },
+  "1750219408": {
+   "id": "1750219408",
+   "company": "Realo Specialty Care Pharmacy, Inc.",
+   "developer_url": "https://apps.apple.com/us/developer/realo-specialty-care-pharmacy/id1750219408?uo=4",
+   "website": "",
+   "apps": {
+    "6503872633": {
+     "id": "6503872633",
+     "name": "RealoCares",
+     "rating": 4,
+     "count": 8,
+     "genre": "Health & Fitness",
+     "released": "2024-07-25T07:00:00Z",
+     "updated": "2026-10-06T12:31:29Z",
+     "url": "https://apps.apple.com/us/app/realocares/id6503872633",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/b9/94/a5b994d0-07cb-b813-91cb-06c9784914d6/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/60x60bb.jpg",
+     "price": "Free",
+     "description": "Our Realo Specialty Care Pharmacy \"RealoCares\" app connects patients and healthcare partners directly with our pharmacy staff via your phone or mobile device.  Connect instantly with our team for answers to your questions, delivery setup, help with an infusion, submission of orders or supply requests and so much more!"
+    }
+   },
+   "terms": [
+    "prescription delivery"
+   ]
+  },
+  "945507146": {
+   "id": "945507146",
+   "company": "Digital Simplistics, LLC",
+   "developer_url": "https://apps.apple.com/us/developer/digital-simplistics-llc/id945507146?uo=4",
+   "website": "https://www.rxctrl.com",
+   "apps": {
+    "6762158046": {
+     "id": "6762158046",
+     "name": "RxCTRL",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2026-05-11T07:00:00Z",
+     "updated": "2026-10-24T00:09:14Z",
+     "url": "https://apps.apple.com/us/app/rxctrl/id6762158046",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/73/b1/8b73b1fa-f837-76cf-6d1e-66b0f65ef22a/appicon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "RxCTRL helps you securely access and manage your prescription information from your pharmacy.\n\nWith RxCTRL, you can:\n• View prescription details and status\n• Track refill availability\n• Access your information anytime, anywhere\n• Stay connected with your pharmacy through a secure experience\n\nRxCTRL is designed with privacy and simplicity in mind, making it easy for patients to view important prescription information without unnecessary complexity.\n\nImportant:\nAn active prescription is required to use this app."
+    }
+   },
+   "terms": [
+    "prescription delivery"
+   ]
+  },
+  "1872666998": {
+   "id": "1872666998",
+   "company": "HYPNOPULSE, UAB",
+   "developer_url": "https://apps.apple.com/us/developer/hypnopulse-uab/id1872666998?uo=4",
+   "website": "https://hypnozio.com",
+   "apps": {
+    "6590624626": {
+     "id": "6590624626",
+     "name": "Hypnozio: Sleep & Hypnotherapy",
+     "rating": 4.63,
+     "count": 12724,
+     "genre": "Health & Fitness",
+     "released": "2025-02-21T08:00:00Z",
+     "updated": "2026-10-11T15:59:18Z",
+     "url": "https://apps.apple.com/us/app/hypnozio-sleep-hypnotherapy/id6590624626",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/c9/13/c5c913c2-b6ab-c047-7d17-7e830c311303/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Hypnozio brings expert-guided hypnotherapy to your fingertips, helping you achieve personal goals like weight loss, better sleep, and enhanced confidence. Our science-backed audio sessions combine effective hypnotherapy with mindful relaxation, promoting lasting and meaningful change.\n\n\nPersonalized Hypnotherapy Programs\n\nHypnozio offers an extensive library of over 100 audio sessions, including tailored 20-minute daily sessions for weight loss, sleep improvement, anxiety relief, and more. Each session is crafted by certified hypnotherapists for impactful, long-term results.\n\n\nQuick Relief Ses"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1195165108": {
+   "id": "1195165108",
+   "company": "Lukas Ehlers",
+   "developer_url": "https://apps.apple.com/us/developer/lukas-ehlers/id1195165108?uo=4",
+   "website": "http://www.90daydiet.net/",
+   "apps": {
+    "871130014": {
+     "id": "871130014",
+     "name": "90 Day Diet - Weight Loss Plan",
+     "rating": 3.84,
+     "count": 75,
+     "genre": "Health & Fitness",
+     "released": "2014-05-06T01:03:08Z",
+     "updated": "2025-12-31T00:07:25Z",
+     "url": "https://apps.apple.com/us/app/90-day-diet-weight-loss-plan/id871130014",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/36/5d/c6365d12-1d5e-1dad-76a0-f0c574b3d39e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Say goodbye to your weight problems and lose weight effectively through a tested diet. This application is based on the 90 Day Diet and will organize the way you eat so you can achieve your long term weight goals. The main idea of the diet is the selective/separate eating, which means not mixing different kind of food (proteins, starches, carbohydrates and fruits).\n\nIMPROVE YOUR METABOLISM \nThe 90 Day Diet managed to convince people that metabolism is very important part of our health and controlling the body weight. Improper metabolism is a major cause of weight loss or excessive weight gain."
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "6820287701": {
+   "id": "6820287701",
+   "company": "Injivo, Inc",
+   "developer_url": "https://apps.apple.com/us/developer/injivo-inc/id6820287701?uo=4",
+   "website": "https://injivo.com",
+   "apps": {
+    "6820287699": {
+     "id": "6820287699",
+     "name": "Injivo: Peptide & Dose Log",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-10-22T07:00:00Z",
+     "updated": "2026-10-26T14:56:55Z",
+     "url": "https://apps.apple.com/us/app/injivo-peptide-dose-log/id6820287699",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/0a/2b/6a0a2b66-b39e-0ad8-5708-3611651dfba3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Injivo keeps your injections, medications and daily routine in one calm, private place. Free to download. Track medications, reminders, workouts, food and more. In English and Spanish.\n\nKNOW WHAT'S DUE\n• Add what you take: vials you mix, ready-made liquids, blends, manufacturer pens and tablets\n• See the exact syringe line for the dose you or your prescriber entered, with the full math shown\n• Dose plans: enter the steps your prescriber gave you, and record each dose change they give you\n• Schedules for every day, every few days or set weekdays, with reminders you can answer right from the not"
+    }
+   },
+   "terms": [
+    "peptides"
+   ]
+  },
+  "1081920830": {
+   "id": "1081920830",
+   "company": "Swiss Sana AG",
+   "developer_url": "https://apps.apple.com/us/developer/swiss-sana-ag/id1081920830?uo=4",
+   "website": "https://www.phallosan.com/phallosan-forte-app.html",
+   "apps": {
+    "1543424330": {
+     "id": "1543424330",
+     "name": "PHALLOSAN® forte",
+     "rating": 4.77,
+     "count": 280,
+     "genre": "Health & Fitness",
+     "released": "2020-12-09T08:00:00Z",
+     "updated": "2026-09-14T06:13:21Z",
+     "url": "https://apps.apple.com/us/app/phallosan-forte/id1543424330",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/74/7c/dc747cdc-441a-a200-7914-26bc9b000d12/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Even better results in less time - with your PHALLOSAN forte and this app you can achieve your goals even quicker Based on your individual requirements and training goals the PHALLOSAN forte App develops a personal training plan for your maximum success.\n\nThe app is your daily companion during your training with PHALLOSAN forte. It reminds you of your training times, records the length of your training time as well as the frequency of your sessions. Clear statistics quickly show you the progress you have made with PHALLOSAN forte and encourage you to keep training."
+    }
+   },
+   "terms": [
+    "men's health"
+   ]
+  },
+  "1398321862": {
+   "id": "1398321862",
+   "company": "YOUNG MEN'S CHRISTIAN ASSOCIATION OF THE NORTH SHORE, INC.",
+   "developer_url": "https://apps.apple.com/us/developer/young-mens-christian-association-of-the-north-shore-inc/id1398321862?uo=4",
+   "website": "https://northshoreymca.netpulse.com",
+   "apps": {
+    "1398321863": {
+     "id": "1398321863",
+     "name": "North Shore YMCA",
+     "rating": 4.75,
+     "count": 486,
+     "genre": "Health & Fitness",
+     "released": "2018-08-05T15:33:48Z",
+     "updated": "2026-08-10T21:43:59Z",
+     "url": "https://apps.apple.com/us/app/north-shore-ymca/id1398321863",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/27/51/be27511a-1946-a838-3996-4962820df74b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Elevate your fitness routine with North Shore YMCA app! It's your all-in-one solution to easily monitor your workouts, track progress, and achieve your fitness goals with engaging insights and motivation.\n\nNorth Shore YMCA app offers an array of features, including:\n\nWorkout Tracking\nSeamlessly capture all your workout data from gym equipment or manually enter it for a complete record.\n\nTraining Plans\nOptimize your workouts with personalized plans provided by your fitness facility or trainer.\n\nActivity Levels\nStay motivated with encouraging milestones as you progress to higher levels.\n\nFun Cha"
+    }
+   },
+   "terms": [
+    "men's health"
+   ]
+  },
+  "1037205060": {
+   "id": "1037205060",
+   "company": "Scopely Explore, Inc.",
+   "developer_url": "https://apps.apple.com/us/developer/scopely-explore-inc/id1037205060?uo=4",
+   "website": "https://pikminbloom.com/",
+   "apps": {
+    "1556357398": {
+     "id": "1556357398",
+     "name": "Pikmin Bloom Walking Adventure",
+     "rating": 4.81,
+     "count": 70144,
+     "genre": "Games",
+     "released": "2021-10-28T07:00:00Z",
+     "updated": "2026-10-22T07:54:24Z",
+     "url": "https://apps.apple.com/us/app/pikmin-bloom-walking-adventure/id1556357398",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/f0/eb/78f0eb01-8dd6-51a3-8077-1bb19f900964/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Pikmin Bloom offers a fun way to earn rewards for going outside and exploring with friends! With the brand-new Weekly Challenges feature, you can team up with others, no matter how far away they might be, and work towards a shared steps goal!\n\n__\nCOLLECT over 150 types of unique Decor Pikmin! Some wear fishing lures, some don hamburger buns, and others flaunt paper airplanes, just to name a few.\n\nEXPLORE your neighborhood to add more Pikmin to your squad! The more you walk, the more seedlings and fruit you’ll find.\n\nTEAM UP with friends to take down mushrooms and earn rewards! Select a dream t"
+    }
+   },
+   "terms": [
+    "men's health"
+   ]
+  },
+  "1338730173": {
+   "id": "1338730173",
+   "company": "THE WOMEN'S VITALITY CENTER NATUROPATHIC CLINIC, INC.",
+   "developer_url": "https://apps.apple.com/us/developer/the-womens-vitality-center-naturopathic-clinic-inc/id1338730173?uo=4",
+   "website": "",
+   "apps": {
+    "1338730174": {
+     "id": "1338730174",
+     "name": "The Women's Vitality Center",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2018-01-24T04:58:32Z",
+     "updated": "2021-12-04T00:14:24Z",
+     "url": "https://apps.apple.com/us/app/the-womens-vitality-center/id1338730174",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/af/3d/30/af3d308e-ee0e-065b-6bb8-1f2c2db459a1/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/60x60bb.jpg",
+     "price": "Free",
+     "description": "Dr. Amy Day's patient access to Charm patient portal.\n\nBook appointments, send messages, access files shared (Lab results, Encounters) with your practice from your mobile.\nYou can also check the day-to-day medications to be taken using this app.\nAccess the announcements made by your practice and quick links of your practice using this app.\nAccess your invoices and receipts in a tap from your mobile any time, anywhere."
+    }
+   },
+   "terms": [
+    "women's health"
+   ]
+  },
+  "1733573391": {
+   "id": "1733573391",
+   "company": "Mpowering Benefits, Inc",
+   "developer_url": "https://apps.apple.com/us/developer/mpb-health/id1733573391?uo=4",
+   "website": "https://mpb.health/",
+   "apps": {
+    "6747984750": {
+     "id": "6747984750",
+     "name": "MPB.Health",
+     "rating": 5,
+     "count": 11,
+     "genre": "Health & Fitness",
+     "released": "2025-07-18T07:00:00Z",
+     "updated": "2026-10-24T00:07:15Z",
+     "url": "https://apps.apple.com/us/app/mpb-health/id6747984750",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/5e/e9/ab5ee919-a2ee-098f-5a09-0b094be3c475/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "MPB Health App – Your All-In-One Healthshare Companion\n\nThe MPB Health App gives members a streamlined, intuitive way to manage their healthshare membership anytime. Access care, track your sharing activity, and stay organized with everything you need in one secure place.\n\nPowerful Virtual Care Included\n\nGet fast access to a full suite of virtual healthcare services at no additional cost:\n• Urgent Care – Available when you need quick attention\n• Primary Care – Ongoing care and follow-ups for everyday health needs\n• Dermatology – Skin issues evaluated and treated by specialists\n• Psychology – S"
+    }
+   },
+   "terms": [
+    "virtual primary care"
+   ]
+  },
+  "1310053735": {
+   "id": "1310053735",
+   "company": "MYOWN DOCTOR LLC",
+   "developer_url": "https://apps.apple.com/us/developer/myowndoctor-llc/id1310053735?uo=4",
+   "website": "",
+   "apps": {
+    "6448946143": {
+     "id": "6448946143",
+     "name": "BigHeart Health",
+     "rating": 3.67,
+     "count": 3,
+     "genre": "Medical",
+     "released": "2023-05-11T07:00:00Z",
+     "updated": "2026-10-12T08:44:03Z",
+     "url": "https://apps.apple.com/us/app/bigheart-health/id6448946143",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/09/ee/2309ee34-2b0f-6ca5-f277-17abd439d7c4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "DISCLAIMER: Seek doctor’s advice in addition to using this app and before making any medical decisions. If you are experiencing a medical emergency or life-threatening medical condition, contact your doctor or emergency service - do not request a virtual visit using this app.\n\nWhole health starts here. Our team of dedicated healthcare professionals will help you every step of the way! We bridge the gap between the convenience of telemedicine and the connection to local, in-person care for immediate health needs and access to community resources.\n\nCARE NAVIGATORS\nOur care navigators take the ti"
+    }
+   },
+   "terms": [
+    "virtual primary care"
+   ]
+  },
+  "1515361448": {
+   "id": "1515361448",
+   "company": "Digital Neuro Innovations CIC",
+   "developer_url": "https://apps.apple.com/us/developer/digital-neuro-innovations-cic/id1515361448?uo=4",
+   "website": "https://myfnd.co.uk",
+   "apps": {
+    "1515361449": {
+     "id": "1515361449",
+     "name": "myFND",
+     "rating": 3.38,
+     "count": 8,
+     "genre": "Medical",
+     "released": "2020-06-02T07:00:00Z",
+     "updated": "2022-06-27T22:05:45Z",
+     "url": "https://apps.apple.com/us/app/myfnd/id1515361449",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/c1/fd/f2/c1fdf2fc-05fa-0793-1de4-85c27b611104/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "myFND is a secure and friendly app that has been designed to help you with your symptoms of FND.\n\nAt myFND, we want to help anyone with FND understand their symptoms, learn about how they change over time and what they can do to manage them.\n\n While we understand that symptoms differ from person to person, and that everyone will be at a different stage of treatment, we know that every myFND user has one thing in common — they want to reduce their symptoms and improve their quality of life. And that’s what we’re here for.\n\nIn the first section, you’ll find a few pages explaining exactly what ha"
+    }
+   },
+   "terms": [
+    "functional medicine"
+   ]
+  },
+  "1533592429": {
+   "id": "1533592429",
+   "company": "Connectful LLC",
+   "developer_url": "https://apps.apple.com/us/developer/connectful-llc/id1533592429?uo=4",
+   "website": "https://corecircle.com",
+   "apps": {
+    "1553742219": {
+     "id": "1553742219",
+     "name": "Corecircle: Social Fitness",
+     "rating": 4.76,
+     "count": 2699,
+     "genre": "Health & Fitness",
+     "released": "2021-09-21T07:00:00Z",
+     "updated": "2025-06-05T07:21:13Z",
+     "url": "https://apps.apple.com/us/app/corecircle-social-fitness/id1553742219",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/15/cd/ed15cd49-13de-9a05-6b3e-b6e429806857/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Ditch the Stone Age workout tracking methods. Yes, we’re talking about the Notes app! \nOr you may be that person who says, “but I just use my head to track my –” No, if our team can’t remember what we wore yesterday, then we can guarantee that you don’t remember the reps and weight you used on those Squats from 6 days ago. \n\nTo consistently improve and make progress both with your physique and strength, your workouts need to be tracked. Corecircle not only makes that experience easy, but we also provide a like-minded community to do it with. \n\nHere’s what you can do on Corecircle: \nCreate a fi"
+    }
+   },
+   "terms": [
+    "functional medicine"
+   ]
+  },
+  "1889900043": {
+   "id": "1889900043",
+   "company": "Eterna Technologies Corporation",
+   "developer_url": "https://apps.apple.com/us/developer/noho-labs/id1889900043?uo=4",
+   "website": "https://noholabs.com",
+   "apps": {
+    "6761486230": {
+     "id": "6761486230",
+     "name": "NOHO Labs - Health Optimized",
+     "rating": 5,
+     "count": 1,
+     "genre": "Medical",
+     "released": "2026-08-03T07:00:00Z",
+     "updated": "2026-10-12T15:10:49Z",
+     "url": "https://apps.apple.com/us/app/noho-labs-health-optimized/id6761486230",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/b8/ce/67b8cef4-3f24-71c9-c834-5bb681f0efa4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "NOHO is your companion for personalized, clinician-guided wellness.\n\nTrack your protocols, understand your progress, and stay connected to expert clinical oversight from world-class doctors. NOHO helps you manage your personalized care plan in one place, from daily protocol tracking to biomarker insights and product discovery.\n\nWith NOHO, you can follow your active protocols, view important dosing details, monitor trends over time, and better understand how your wellness plan may be influencing your biomarkers. Your care experience is supported by leading clinicians who provide oversight, guid"
+    }
+   },
+   "terms": [
+    "functional medicine"
+   ]
+  },
+  "1597336314": {
+   "id": "1597336314",
+   "company": "Vladimir Panov",
+   "developer_url": "https://apps.apple.com/us/developer/vladimir-panov/id1597336314?uo=4",
+   "website": "https://svetofon.su",
+   "apps": {
+    "6737197083": {
+     "id": "6737197083",
+     "name": "Svetofon",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2025-05-06T07:00:00Z",
+     "updated": "2026-06-12T01:39:47Z",
+     "url": "https://apps.apple.com/us/app/svetofon/id6737197083",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/9b/37/9c9b3764-08e5-45a8-902c-fba911e36214/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The Svetofon application is a training and diagnostic system for assessing and developing sensorimotor response and coordination, correcting cognitive functions, and enhancing a person’s motor skills.\n\nA key feature of the system is its controlled stimulation of functional areas of the central and peripheral nervous systems, linking goal-directed motor activity with components of a person’s mental processes.\n\nThe main screen of the application presents a catalog of exercises divided into six categories. The exercises are grouped thematically and include textual instructions for their performan"
+    }
+   },
+   "terms": [
+    "functional medicine"
+   ]
+  },
+  "1734094747": {
+   "id": "1734094747",
+   "company": "ANDREA SOLUTIONS DOO NOVI SAD",
+   "developer_url": "https://apps.apple.com/us/developer/andrea-solutions/id1734094747?uo=4",
+   "website": "",
+   "apps": {
+    "6667106405": {
+     "id": "6667106405",
+     "name": "Flex Longevity",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2024-09-16T07:00:00Z",
+     "updated": "2026-05-29T13:31:51Z",
+     "url": "https://apps.apple.com/us/app/flex-longevity/id6667106405",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/da/cf/fadacfde-44b9-371a-9f49-c5f6302f04ca/AppIcon-FlexNoviSad-0-0-1x_U007ephone-0-11-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Otkrivite novi način upravljanja svojim fitnes i wellness putem sa našom sveobuhvatnom aplikacijom. Bez napora pratite svoja aktivna članstva, pregledajte zakazane usluge i istražite detaljne istorije kupovina – sve na dohvat ruke.\n\nZaboravite na stare RFID kartice ili tokene. Koristite svoj personalizovani QR kod za lak prijem pri dolasku u fitnes centar. Pored toga, dobijajte pravovremene obaveštenja kada vam članstvo ističe ili kada imate zakazanu uslugu.\n\nOstanite povezani sa svojim fitnes centrom, ostavite recenzije i saznajte više o organizaciji putem aplikacije. Preuzmite sada i počnite"
+    }
+   },
+   "terms": [
+    "longevity"
+   ]
+  },
+  "1881680859": {
+   "id": "1881680859",
+   "company": "Penlar LLC",
+   "developer_url": "https://apps.apple.com/us/developer/penlar-llc/id1881680859?uo=4",
+   "website": "",
+   "apps": {
+    "6760342979": {
+     "id": "6760342979",
+     "name": "Puplet Longevity",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-03-21T07:00:00Z",
+     "updated": "2026-03-21T12:54:18Z",
+     "url": "https://apps.apple.com/us/app/puplet-longevity/id6760342979",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/58/e3/6258e3da-935b-a302-b1be-a90338accbd7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Puplet Longevity helps you build better daily habits for your dog. Answer a few questions about your dog's breed, age, weight, and lifestyle — and the app creates a personalized daily routine to help them thrive.\n\nLongevity Score — See your dog's overall wellness score and watch it improve as you complete daily care tasks.\n\nDaily Tasks — Get a fresh set of 6-8 daily tasks tailored to your dog. From morning walks to evening feeding routines, everything is organized and easy to follow.\n\nWeekly Plan — A 7-day overview with themed daily focus areas like Nutrition, Active Day, and Dental Care.\n\nPro"
+    }
+   },
+   "terms": [
+    "longevity"
+   ]
+  },
+  "1694575610": {
+   "id": "1694575610",
+   "company": "LIQUID, Limited Liability Company",
+   "developer_url": "https://apps.apple.com/us/developer/liquid-limited-liability-company/id1694575610?uo=4",
+   "website": "https://liquidmobileiv.com/",
+   "apps": {
+    "6794319224": {
+     "id": "6794319224",
+     "name": "Liquid Wellness & IV",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-10-01T07:00:00Z",
+     "updated": "2026-10-12T10:58:49Z",
+     "url": "https://apps.apple.com/us/app/liquid-wellness-iv/id6794319224",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/95/6c/fb956cc1-3ec7-60d5-ada9-6177102472ef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Your wellness, made more convenient.\n\nThe Liquid Wellness & IV app gives you a simple way to explore wellness services, discover current offers, manage your profile, and earn rewards and unlock benefits through the Liquid Wellness & IV loyalty program—all in one place.\nWhether you're focused on hydration, recovery, energy, weight management, longevity, or overall wellness, the app makes it easier to explore options designed around your individual goals.\n\nExplore Wellness Services\n• IV hydration\n• Vitamin injections\n• Peptides and supplements\n• Wellness treatments\n• Medical weight management\n• "
+    }
+   },
+   "terms": [
+    "wellness clinic",
+    "IV therapy"
+   ]
+  },
+  "1083969863": {
+   "id": "1083969863",
+   "company": "POSHER DO BRASIL TECNOLOGIA EM SERVICOS LTDA.",
+   "developer_url": "https://apps.apple.com/us/developer/posher-do-brasil-tecnologia-em-servicos-ltda/id1083969863?uo=4",
+   "website": "https://www.posherapp.com/",
+   "apps": {
+    "1083969864": {
+     "id": "1083969864",
+     "name": "POSHER, Wellness for you",
+     "rating": 4.56,
+     "count": 25,
+     "genre": "Lifestyle",
+     "released": "2016-07-05T20:12:49Z",
+     "updated": "2026-08-15T21:31:17Z",
+     "url": "https://apps.apple.com/us/app/posher-wellness-for-you/id1083969864",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/d2/dc/c7d2dc6d-e0a7-a916-7177-3b13c62fc974/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "POSHER is The Employee Experience Company: we help more than 1000 companies to promote well-being and health in the workplace.\n\nOffer your employees weekly wellness services (such as massage, manicure), physical activities (such as workplace gymnastics and jogging) and health services (such as exams, consultation with psychologists and nutritionists) inside the office or factory. And employees only need to schedule services through the POSHER app.\n\nFor home office workers, offer services online, live (such as mindfulness and yoga) - and all through the same app.\n\nYou can also count on tools th"
+    }
+   },
+   "terms": [
+    "wellness clinic"
+   ]
+  },
+  "1880931823": {
+   "id": "1880931823",
+   "company": "Michael Gibson",
+   "developer_url": "https://apps.apple.com/us/developer/michael-gibson/id1880931823?uo=4",
+   "website": "https://itsok-callmemichael.github.io/ivpushtimer-site",
+   "apps": {
+    "6759823376": {
+     "id": "6759823376",
+     "name": "IV Push Timer",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2026-03-03T08:00:00Z",
+     "updated": "2026-03-12T01:48:12Z",
+     "url": "https://apps.apple.com/us/app/iv-push-timer/id6759823376",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/f8/63/aff86392-8055-facd-e875-e72fdea8a4ec/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "IV Push Timer is a precision timing tool for Apple Watch built by a flight nurse for medical professionals\n\nAccurate timing matters. IV Push Timer gives you a simple, reliable stopwatch with haptic feedback at configurable intervals so you can keep your eyes on the patient, not the clock.\n\nFEATURES:\n• One-tap start or quick countdown presets (1, 2, 4, 5 min)\n• Configurable haptic intervals every 15, 30, or 60 seconds\n• Morse code haptic pattern with distinct vibrations mark time\n• Optional audio tones alongside haptics\n• Pause and resume\n• Push history log with timestamps\n• Always-on display\n•"
+    }
+   },
+   "terms": [
+    "IV therapy"
+   ]
+  },
+  "1802774510": {
+   "id": "1802774510",
+   "company": "Revive Health Corporate, LLC",
+   "developer_url": "https://apps.apple.com/us/developer/modwella/id1802774510?uo=4",
+   "website": "https://www.modwella.com/",
+   "apps": {
+    "6743423079": {
+     "id": "6743423079",
+     "name": "Modwella",
+     "rating": 3.67,
+     "count": 6,
+     "genre": "Lifestyle",
+     "released": "2025-03-26T07:00:00Z",
+     "updated": "2026-05-22T20:31:38Z",
+     "url": "https://apps.apple.com/us/app/modwella/id6743423079",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/21/60/53216011-6812-3d8d-79ea-c47d88ea9754/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Helping you look and feel your best from the comfort of your home, the Modwella app puts the power of modern wellness at your fingertips. Effortlessly book in-home IV therapy, labs, botox, hormone optimization, and cutting-edge longevity treatments designed for people who prioritize their health. Our expert concierge team delivers science-backed care directly to you—no waiting rooms, no hassle, just personalized wellness on your terms.\n\nKey Features:\n\t•\tSeamless Booking: Schedule in-home treatments with just a few taps.\n\t•\tPersonalized Wellness: Customized therapies tailored to your goals.\n\t•\t"
+    }
+   },
+   "terms": [
+    "IV therapy"
+   ]
+  },
+  "1896761079": {
+   "id": "1896761079",
+   "company": "Liv Wellness Solutions Inc.",
+   "developer_url": "https://apps.apple.com/us/developer/liv-wellness/id1896761079?uo=4",
+   "website": "https://ayvrwellness.com",
+   "apps": {
+    "6770683433": {
+     "id": "6770683433",
+     "name": "AYVR Wellness",
+     "rating": 0,
+     "count": 0,
+     "genre": "Lifestyle",
+     "released": "2026-06-11T07:00:00Z",
+     "updated": "2026-10-25T19:51:05Z",
+     "url": "https://apps.apple.com/us/app/ayvr-wellness/id6770683433",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/bd/3f/56bd3f1e-c498-3b3a-8eb3-e43ebc7b60c1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "IV therapy at home, delivered by a licensed nurse anywhere in Greater Los Angeles.\n\nChoose your treatment, pick a time and an address, and a nurse comes to you. No clinic, no waiting room, no travel.\n\nWHAT YOU CAN BOOK:\nFive IV treatments, each with its full price shown before you book:\n• Flow: Body Balance\n• Peak: Immune Booster\n• Prime: Beauty Boost\n• Recover: Hangover Helper\n• Soothe: Stomach Flu\nSome treatments give the option to add glutathione, B12, vitamin D3 and/or L-taurine.\n\nHOW IT WORKS:\n• Browse treatments and add-ons with prices up front\n• Choose your date, time and address\n• Book"
+    }
+   },
+   "terms": [
+    "IV therapy"
+   ]
+  },
+  "1585629776": {
+   "id": "1585629776",
+   "company": "Face to Face Spa, LLC",
+   "developer_url": "https://apps.apple.com/us/developer/face-to-face-spa/id1585629776?uo=4",
+   "website": "https://facetofacespa.com/",
+   "apps": {
+    "1585629774": {
+     "id": "1585629774",
+     "name": "Face to Face Spa",
+     "rating": 0,
+     "count": 0,
+     "genre": "Lifestyle",
+     "released": "2021-10-04T07:00:00Z",
+     "updated": "2023-12-04T16:53:30Z",
+     "url": "https://apps.apple.com/us/app/face-to-face-spa/id1585629774",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/38/fd/48/38fd48b7-167c-0519-c1a2-5afcaed9324d/AppIcon-1x_U007emarketing-0-6-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The all new Face to Face Spa app will enable you to: \n - Find the nearest Face to Face Spa and book your appointments with a click of a button.\n - Re-book past appointments\n - Reschedule or cancel appointments\n - Purchase gift cards online\n - Receive appointment reminders \n - Auto check-in/check-out for your visit\nand more!"
+    }
+   },
+   "terms": [
+    "med spa"
+   ]
+  },
+  "1841187915": {
+   "id": "1841187915",
+   "company": "GARDEN MEDICAL SPA LLC",
+   "developer_url": "https://apps.apple.com/us/developer/the-garden-medical-spa/id1841187915?uo=4",
+   "website": "https://www.thegardenmedspanj.com/",
+   "apps": {
+    "6752820454": {
+     "id": "6752820454",
+     "name": "The Garden Medical Spa",
+     "rating": 0,
+     "count": 0,
+     "genre": "Lifestyle",
+     "released": "2025-09-22T07:00:00Z",
+     "updated": "2025-11-22T22:16:39Z",
+     "url": "https://apps.apple.com/us/app/the-garden-medical-spa/id6752820454",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fe/cb/02/fecb02fa-d389-720c-bb92-7c85be4d4ae8/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Luxury Aesthetics, Made Effortless.\nExperience The Garden Medical Spa at your fingertips.\n\nFrom booking your favorite treatments to managing your membership and unlocking exclusive offers, The Garden app brings New Jersey’s premier medical spa directly to you - with no fluff, just results.\n\nKey Features:\n- Book and manage appointments 24/7.\n- Access exclusive promotions and VIP event invites.\n- Shop gift cards and memberships.\n- Explore our curated service menu.\n- Receive personalized updates and reminders.\n- Stay connected to all Garden locations in one place.\n\nYour glow. Your schedule. Your "
+    }
+   },
+   "terms": [
+    "med spa"
+   ]
+  },
+  "6780696011": {
+   "id": "6780696011",
+   "company": "Brendon Wharton",
+   "developer_url": "https://apps.apple.com/us/developer/brendon-wharton/id6780696011?uo=4",
+   "website": "https://getleanr.com",
+   "apps": {
+    "6790440527": {
+     "id": "6790440527",
+     "name": "LeanR Coaching",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-08-26T07:00:00Z",
+     "updated": "2026-09-29T18:11:58Z",
+     "url": "https://apps.apple.com/us/app/leanr-coaching/id6790440527",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/1e/45/d51e4588-4b21-e3e2-63ad-4a239b2329b6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "LeanR gives you a real coaching experience from your phone: personalized macros, workouts, progress photos, weekly check-ins reviewed by Lean Coach, and smart adjustments based on your results. You get a clear plan, simple nutrition targets, training built around your starting point, and weekly guidance so you know exactly what to focus on next.\n\nUse LeanR to:\n- Follow personalized macros and workouts\n- Submit weekly check-ins with weight, notes, photos, and progress data\n- Review coach feedback and plan adjustments\n- Track your progress over time\n- Build habits you can keep after the diet is "
+    }
+   },
+   "terms": [
+    "nutrition coaching"
+   ]
+  },
+  "311986147": {
+   "id": "311986147",
+   "company": "Acumantra Solutions, Inc.",
+   "developer_url": "https://apps.apple.com/us/developer/acumantra-solutions-inc/id311986147?uo=4",
+   "website": "https://www.oncallcentral.com",
+   "apps": {
+    "1168997000": {
+     "id": "1168997000",
+     "name": "On Call Central",
+     "rating": 4,
+     "count": 11,
+     "genre": "Medical",
+     "released": "2017-07-12T15:07:08Z",
+     "updated": "2026-10-27T01:33:45Z",
+     "url": "https://apps.apple.com/us/app/on-call-central/id1168997000",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/43/cd/7443cddc-eb8e-7251-542f-0c79c5c255dc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "On Call Central puts your medical answering service in your pocket. Take call, return patient calls, and manage your practice's after-hours communication from a fast, secure app.\n\nCompletely rebuilt from the ground up for iPhone, iPad, and Apple Watch, the new On Call Central opens faster, feels instantly responsive, and uses up to 77% less memory than the previous version, so it stays quick even on older devices.\n\nCALL PATIENTS DIRECTLY, IN THE APP\n• Tap to call patients back right from a message, using your practice's caller ID instead of your personal number\n• Receive incoming calls in the "
+    }
+   },
+   "terms": [
+    "remote patient monitoring"
+   ]
+  },
+  "367592244": {
+   "id": "367592244",
+   "company": "PerfectServe, Inc.",
+   "developer_url": "https://apps.apple.com/us/developer/perfectserve-inc/id367592244?uo=4",
+   "website": "http://www.perfectserve.com/",
+   "apps": {
+    "1324268983": {
+     "id": "1324268983",
+     "name": "PerfectServe Care Team",
+     "rating": 5,
+     "count": 4,
+     "genre": "Medical",
+     "released": "2018-10-02T09:50:40Z",
+     "updated": "2026-07-22T13:54:05Z",
+     "url": "https://apps.apple.com/us/app/perfectserve-care-team/id1324268983",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/77/d6/0277d629-5d8a-79f5-e5d7-93866d24485e/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "This mobile application is designed for nurses and other care team members to use to reach the physicians, nurses and other care team members they need, right when they need them. \n\nPerfectServe® is healthcare’s most intelligent solution for clinical communications – an integrated system designed to unite physicians, nurses and other care team members across inpatient and outpatient settings and facilitate communication-driven workflows for timely care team collaboration. \n\nWITH THE PERFECTSERVE CARE TEAM APP, YOU CAN:\n- View your patients and communicate with their real-time dynamic care team"
+    }
+   },
+   "terms": [
+    "remote patient monitoring"
+   ]
+  },
+  "1405536288": {
+   "id": "1405536288",
+   "company": "Digital Mind Solutions SL",
+   "developer_url": "https://apps.apple.com/us/developer/ifeel/id1405536288?uo=4",
+   "website": "https://ifeelonline.com/en/",
+   "apps": {
+    "1405536289": {
+     "id": "1405536289",
+     "name": "ifeel | Online Therapy",
+     "rating": 4.43,
+     "count": 74,
+     "genre": "Health & Fitness",
+     "released": "2018-08-02T10:36:35Z",
+     "updated": "2026-10-07T20:27:01Z",
+     "url": "https://apps.apple.com/us/app/ifeel-online-therapy/id1405536289",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/7a/2f/4f7a2f23-c83f-7e59-96b8-14b880a911fc/AppIconRelease-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "One minute a day to look after your emotional health. Make a note of your emotions, receive customised exercises and, if you wish, start your therapy with one of our psychologists.\n\nifeel: Emotional well-being for today.\n\nIfeel joins forces with companies to help employees to overcome the challenges of daily life with the support of registered psychologists specialising in a range of areas. Whether you need professional help or you simply want to take your personal development a step further, at ifeel you'll find the help you need through our comprehensive emotional well-being service for busi"
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
+  },
+  "1629383669": {
+   "id": "1629383669",
+   "company": "Project ON PTE. LTD.",
+   "developer_url": "https://apps.apple.com/us/developer/writenow-care/id1629383669?uo=4",
+   "website": "https://www.writenow.care/",
+   "apps": {
+    "1629407629": {
+     "id": "1629407629",
+     "name": "WriteNow Care: Mental Health",
+     "rating": 5,
+     "count": 4,
+     "genre": "Health & Fitness",
+     "released": "2022-09-16T07:00:00Z",
+     "updated": "2025-11-18T01:31:15Z",
+     "url": "https://apps.apple.com/us/app/writenow-care-mental-health/id1629407629",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/4a/0d/8c4a0d54-6feb-dbb6-3b5f-c3966f8fad74/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Get high-quality care at just $25/week. WriteNow Care connects you with licensed, real human counselors — not bots — available via text, audio, or live video. Whether you're at home, commuting, or winding down after a long day, our flexible platform fits into your life. \n\nCurrently available in Texas, Florida, and New York. \n\n# Why Choose WriteNow Care? \n\n- Affordable \nWe believe mental health care should be accessible to everyone. Our subscriptions are just $25 per week, billed every 4 weeks, with no hidden fees. It’s therapy that fits into your budget—and your life. \n\n- Real, Human Counselor"
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
+  },
+  "1067220443": {
+   "id": "1067220443",
+   "company": "Source of Life Technologies, Inc.",
+   "developer_url": "https://apps.apple.com/us/developer/source-of-life-technologies-inc/id1067220443?uo=4",
+   "website": "https://www.mannkaa.com",
+   "apps": {
+    "1504060176": {
+     "id": "1504060176",
+     "name": "Mannkaa",
+     "rating": 4.83,
+     "count": 6,
+     "genre": "Medical",
+     "released": "2020-04-02T07:00:00Z",
+     "updated": "2026-10-09T05:39:25Z",
+     "url": "https://apps.apple.com/us/app/mannkaa/id1504060176",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/42/fc/d142fc4c-3d62-996a-c099-7ce9a940e97f/AppIcon-0-0-1x_U007emarketing-0-8-0-0-GLES2_U002c0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Introducing Mannkaa, the transformed and enhanced version of ChatADoc, now available on iOS! Mannkaa offers easy access to professional therapy, connecting you with licensed wellness advisors. With a diverse array of verified and certified psychologists and psychiatrists, covering areas from depression and anxiety to family and couples therapy, receiving personalized, wellness advisor help has never been more convenient.\n\nWhen you don’t feel like yourself, and having a lingering feeling of depression, low, sad or hopeless mood, stress, low self-esteem, anxiety, lack of sleep, worry or nervousn"
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
   }
  },
  "filters": {
@@ -74982,5 +76025,5 @@
   "remote patient monitoring",
   "mental health therapy"
  ],
- "updated": 1793076628.347851
+ "updated": 1793077403.0640225
 }
