@@ -82,9 +82,31 @@
     "text": "Can you do a little research on the web?",
     "err": null,
     "mentions": null
+   },
+   {
+    "role": "pebble",
+    "text": "Yes. You didn't name a topic, so I looked up three companies from your list that look like a good match for us and that you haven't added yet.\n\n**DEFY MEDICAL, LLC (best fit)**\n- A telehealth clinic in Tampa, FL. It offers testosterone and other hormone therapy, peptides, weight-loss plans and virtual primary care.\n- That's the hormone and peptide market we're aiming at, and close to what MyWellness App does.\n- Patients pay cash. One review says lab work can sometimes be claimed on insurance, so they likely deal with a lot of lab results, which our AI can read.\n- Their app launched about a year ago and is rated 1.4★, so they may be open to a better one.\n- Websites disagree on when it was founded (2011, 2013 or 2016) and on its prices, so check those before you reach out.\n\n**Primestin Care, LLC (good fit)**\n- A membership primary-care service with a telehealth app. Members get 24/7 access to providers, virtual urgent care and prescription refills.\n- It's sold through Zion HealthShare, where members can add it for $5–10 a month. That means its app has to work across that whole membership base.\n- Their app is rated 2.2★, with only 17 ratings.\n\n**Ritch's Pharmacy (weaker fit)**\n- An independent community pharmacy in Mountain Brook, Alabama. It offers refill syncing, pill packaging and home delivery.\n- I couldn't confirm that it does compounding. A business called \"Ritch's Vital Care\" in Birmingham, AL does infusion and nutrition, but I couldn't tell whether the two are connected.\n- It's a small pharmacy, so it may not be able to pay $8 per member per month.\n\nWant me to add DEFY MEDICAL, LLC and Primestin Care, LLC to your Research tab? Or tell me what you'd like looked up instead, such as finding new GLP-1 or peptide companies.\n\nSources:\n- [Defy Medical: Why patients choose Defy](https://www.defymedical.com/blog/why-patients-choose-defy-medical-over-other-hormone-clinics/)\n- [Telehealth Ally: Defy Medical](https://telehealthally.com/providers/defy-medical)\n- [PeptideVerdict: Defy Medical](https://peptideverdict.pages.dev/clinics/defy-medical)\n- [Zion HealthShare: How to use Primestin Care](https://zion-healthshare.helpjuice.com/en_US/how-to-utilize-primestin-care-)\n- [Chrome-Stats: Primestin Care Android](https://chrome-stats.com/d/com.primestincaremobile)\n- [Village Living: Ritch's Pharmacy](https://www.villagelivingonline.com/locations/ritchs-pharmacy-offers-community-care)\n- [Vitadox: Ritch's Vital Care](https://www.vitadox.com/practice/birmingham-al-35223/ritchs-vital-care/7LGFWMmitKaiMpcUoVAHe4)",
+    "err": false,
+    "mentions": [
+     {
+      "id": "1563968773",
+      "name": "DEFY MEDICAL, LLC",
+      "source": "low"
+     },
+     {
+      "id": "520516558",
+      "name": "Ritch's Pharmacy",
+      "source": "low"
+     },
+     {
+      "id": "1777845267",
+      "name": "Primestin Care, LLC",
+      "source": "low"
+     }
+    ]
    }
   ],
-  "updated": 1793148576.3489838
+  "updated": 1793148606.1025298
  },
  "cmvre4kku": {
   "id": "cmvre4kku",
