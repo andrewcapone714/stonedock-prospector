@@ -339,7 +339,8 @@
    "file_date": "2026-08-28",
    "location": "Annapolis, MD",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151959&type=D",
    "year_of_inc": "2026",
@@ -1314,7 +1315,8 @@
    "file_date": "2026-10-26",
    "location": "Denver, CO",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002160103&type=D",
    "year_of_inc": "2025",
@@ -2128,8 +2130,7 @@
    "file_date": "2026-08-21",
    "location": "Temple, TX",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151144&type=D",
    "year_of_inc": "2026",
@@ -2868,6 +2869,62 @@
    ]
   },
   {
+   "id": "sec-2162505",
+   "kind": "funded",
+   "company": "Agilis Medical, Inc.",
+   "cik": "0002162505",
+   "adsh": "0002162505-26-000001",
+   "file_date": "2026-10-28",
+   "location": "Cardiff, CA",
+   "terms": [
+    "medical"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002162505&type=D",
+   "year_of_inc": "2026",
+   "industry": "Other",
+   "entity_type": "Corporation",
+   "amount_sold": "4000000",
+   "offering_total": "10000000",
+   "first_sale": "2026-10-26",
+   "people": [
+    {
+     "name": "Michael Collins",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Benjamin Arnold",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Renu Parker",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Brian Bowman",
+     "roles": [
+      "Executive Officer"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2162505/000216250526000001/",
+   "score": 83,
+   "why": [
+    "+30 incorporated in 2026",
+    "+8 industry: Other",
+    "+20 raised $4,000,000 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 0 days ago",
+    "+10 name points to a health or care business"
+   ]
+  },
+  {
    "id": "sec-2156770",
    "kind": "funded",
    "company": "Restara Medical, Inc.",
@@ -3507,8 +3564,7 @@
    "file_date": "2026-08-03",
    "location": "Biddeford, ME",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002069651&type=D",
    "year_of_inc": "2025",
@@ -3594,6 +3650,104 @@
     "+25 industry: Other Health Care",
     "+20 raised $505,000 (seed or Series A-sized raise: has budget, still building)",
     "+10 filed 100 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
+   "id": "sec-2141283",
+   "kind": "funded",
+   "company": "SymKardia, Inc.",
+   "cik": "0002141283",
+   "adsh": "0002141283-26-000002",
+   "file_date": "2026-10-28",
+   "location": "Westlake, OH",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002141283&type=D",
+   "year_of_inc": "2024",
+   "industry": "Other Health Care",
+   "entity_type": "Corporation",
+   "amount_sold": "4000000",
+   "offering_total": "4000000",
+   "first_sale": "2025-01-10",
+   "people": [
+    {
+     "name": "Anthony Caparso",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Bruce KenKnight",
+     "roles": [
+      "Executive Officer"
+     ]
+    },
+    {
+     "name": "Steven Girouard",
+     "roles": [
+      "Executive Officer"
+     ]
+    },
+    {
+     "name": "Jonathan Piccini",
+     "roles": [
+      "Executive Officer"
+     ]
+    },
+    {
+     "name": "Imad Libbus",
+     "roles": [
+      "Executive Officer"
+     ]
+    },
+    {
+     "name": "Dwight Skinner",
+     "roles": [
+      "Executive Officer"
+     ]
+    },
+    {
+     "name": "Robert Picarel",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Arun Sridhar",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Claudio Rumazza",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Alain Garcinuno Collet",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "James Blouzard",
+     "roles": [
+      "Director"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2141283/000214128326000002/",
+   "score": 80,
+   "why": [
+    "+20 incorporated in 2024",
+    "+25 industry: Other Health Care",
+    "+20 raised $4,000,000 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 0 days ago",
     "+0 name doesn't say health"
    ]
   },
@@ -9815,81 +9969,6 @@
    ]
   },
   {
-   "id": "sec-2143233",
-   "kind": "funded",
-   "company": "Fresenius Medical Care North Dallas, LLC",
-   "cik": "0002143233",
-   "adsh": "0002143233-26-000001",
-   "file_date": "2026-07-06",
-   "location": "Waltham, MA",
-   "terms": [
-    "health",
-    "medical",
-    "care"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002143233&type=D",
-   "year_of_inc": "2026",
-   "industry": "Other Health Care",
-   "entity_type": "Limited Liability Company",
-   "amount_sold": "1026675",
-   "offering_total": "1026675",
-   "first_sale": "2026-06-30",
-   "people": [
-    {
-     "name": "Erik Lyesiuk",
-     "roles": [
-      "Director",
-      "Manager"
-     ]
-    },
-    {
-     "name": "Breann Montesanto",
-     "roles": [
-      "Director",
-      "Manager"
-     ]
-    },
-    {
-     "name": "Christina Denman",
-     "roles": [
-      "Director",
-      "Manager"
-     ]
-    },
-    {
-     "name": "Maryann Carumba",
-     "roles": [
-      "Director",
-      "Manager"
-     ]
-    },
-    {
-     "name": "Geoffrey Walker, M.D.",
-     "roles": [
-      "Director",
-      "Manager"
-     ]
-    },
-    {
-     "name": "Steven Gieser, M.D.",
-     "roles": [
-      "Director",
-      "Manager"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2143233/000214323326000001/",
-   "score": 55,
-   "why": [
-    "+30 incorporated in 2026",
-    "+25 industry: Other Health Care",
-    "+20 raised $1,026,675 (seed or Series A-sized raise: has budget, still building)",
-    "+10 filed 114 days ago",
-    "+10 name points to a health or care business",
-    "−40 part of a large established organization, not a startup"
-   ]
-  },
-  {
    "id": "sec-1985603",
    "kind": "funded",
    "company": "RHEOS MEDICAL CORP.",
@@ -10407,5 +10486,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793205893.993751
+ "updated": 1793227363.0903885
 }
