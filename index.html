@@ -196,8 +196,9 @@ tbody tr:last-child td { border-bottom: 0; }
 .pb-rs.ne { top: 0; right: 0; cursor: nesw-resize; } .pb-rs.sw { bottom: 0; left: 0; cursor: nesw-resize; }
 .pb-rs.nw { top: 0; left: 0; cursor: nwse-resize; } .pb-rs.se { bottom: 0; right: 0; cursor: nwse-resize; }
 .pb-panel.resizing { transition: none; user-select: none; }
-.pw { opacity: 0; transition: opacity .28s ease-out; }
-.pw.in { opacity: 1; }
+.pb-msg.typing { cursor: pointer; }
+.pb-caret { color: var(--accent-strong); margin-left: 1px; animation: pb-caret .7s steps(1) infinite; }
+@keyframes pb-caret { 50% { opacity: 0; } }
 .pb-stage { background: var(--panel-2); padding: 4px 20px 0; flex: none; }
 .pb-line { font-size: 12px; color: var(--accent-strong); padding: 6px 14px; min-height: 28px; border-bottom: 1px solid var(--line); flex: none; }
 .pb-line.warn { color: var(--mid); }
@@ -1398,39 +1399,53 @@ function pbSay(role, text, err, mentions) {
   $('pbLog').scrollTop = $('pbLog').scrollHeight;
   pbSaveChat();
 }
-// Pebble's replies flow in word by word (like the terminal's analyst): every word is wrapped and faded in
-// in order, faster for long answers, keeping links and formatting; the log follows unless you've scrolled up.
+// Pebble's replies type themselves in letter by letter behind a blinking cursor, like the Atlas Terminal's analyst:
+// about 120 characters a second, sped up for long answers so any reply finishes within about 5 seconds. Bold text,
+// bullet points and company links keep their formatting (each bullet appears when the typing reaches it). Click the
+// reply to show it all at once; the log follows unless you've scrolled up; reduced-motion users get it at once.
 function pbFlow(el) {
-  const words = [];
+  if (document.hidden || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const parts = [];  // every piece of text in order, with the bullet it belongs to (hidden until reached)
   const walk = node => {
     for (const n of [...node.childNodes]) {
-      if (n.nodeType === 3) {
-        const parts = n.textContent.split(/(\s+)/);
-        const frag = document.createDocumentFragment();
-        for (const part of parts) {
-          if (!part) continue;
-          if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); continue; }
-          const w = document.createElement('span');
-          w.className = 'pw'; w.textContent = part;
-          frag.appendChild(w); words.push(w);
-        }
-        n.replaceWith(frag);
-      } else if (n.nodeType === 1) walk(n);
+      if (n.nodeType === 3) { if (n.textContent) parts.push({ n, text: n.textContent, li: n.parentElement.closest('li') }); }
+      else if (n.nodeType === 1) walk(n);
     }
   };
   walk(el);
-  const log = $('pbLog'), perSec = words.length > 250 ? 90 : words.length > 80 ? 55 : 32;
-  if (document.hidden) { words.forEach(w => w.classList.add('in')); return; }
+  const total = parts.reduce((s, p) => s + p.text.length, 0);
+  if (!total) return;
+  parts.forEach(p => { p.n.textContent = ''; if (p.li) p.li.hidden = true; });
+  const caret = document.createElement('span');
+  caret.className = 'pb-caret'; caret.textContent = '▍';
+  const log = $('pbLog'), rate = Math.max(120, total / 4.5);  // characters a second
+  let shown = 0, done = false;
+  const draw = upto => {
+    let left = upto, last = null;
+    for (const p of parts) {
+      const k = Math.max(0, Math.min(p.text.length, left));
+      if (p.n.textContent.length !== k) p.n.textContent = p.text.slice(0, k);
+      if (p.li && k) p.li.hidden = false;
+      if (k) last = p;
+      left -= k;
+      if (left <= 0) break;
+    }
+    if (last && upto < total) last.n.after(caret);  // the cursor sits right after the newest letter
+  };
+  const finish = () => { done = true; draw(total); caret.remove(); el.removeAttribute('title'); el.classList.remove('typing'); };
+  el.classList.add('typing');
+  el.title = 'Click to show the whole reply now';
+  el.addEventListener('click', finish, { once: true });
   // a timer rather than animation frames, so a reply still finishes if you switch away mid-sentence;
-  // each tick shows however many words are due, so it catches up after any pause
+  // each tick shows however many characters are due, so it catches up after any pause
   const t0 = performance.now();
-  let i = 0;
   const tick = () => {
-    const due = Math.min(words.length, Math.floor((performance.now() - t0) * perSec / 1000) + 1);
+    if (done || !el.isConnected) return;
     const follow = log.scrollHeight - log.scrollTop - log.clientHeight < 60;
-    while (i < due) words[i++].classList.add('in');
+    shown = Math.min(total, Math.ceil((performance.now() - t0) * rate / 1000));
+    draw(shown);
     if (follow) log.scrollTop = log.scrollHeight;
-    if (i < words.length) setTimeout(tick, 1000 / perSec);
+    if (shown < total) setTimeout(tick, 16); else finish();
   };
   tick();
 }
