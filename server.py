@@ -2003,6 +2003,13 @@ class Handler(http.server.BaseHTTPRequestHandler):
         if path == "/pebble.js":
             with open(os.path.join(HERE, "pebble.js"), "rb") as f:
                 return self.send(200, f.read(), "text/javascript")
+        # the browser-tab icon: the StoneDock stones (SVG, with PNGs for browsers and bookmarks that want one)
+        icons = {"/favicon.svg": ("favicon.svg", "image/svg+xml"), "/favicon-32.png": ("favicon-32.png", "image/png"),
+                 "/favicon.ico": ("favicon-32.png", "image/png"), "/favicon-180.png": ("favicon-180.png", "image/png")}
+        if path in icons:
+            name, ctype = icons[path]
+            with open(os.path.join(HERE, name), "rb") as f:
+                return self.send(200, f.read(), ctype)
         if path == "/api/ai/status":
             return self.send(200, ai_status())
         if path == "/api/chats":
