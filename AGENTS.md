@@ -4,7 +4,7 @@ Instructions for coding agents (Codex and others; Claude Code reads the matching
 
 Prospecting tool for StoneDock Connect (white-label health data + AI API, $8/member/month): finds health companies that may need it (low-rated health apps, new apps, newly funded startups, new pharmacies/clinics, low Medicare ratings) and helps research and contact them. **Full context (StoneDock background, decisions, sources, scoring, API, files, the user's preferences, and a dated change log) lives in the Obsidian note:**
 
-`C:\Users\andre\OneDrive\Documents\Obsidian Vault\StoneDock\StoneDock - Project Context.md`
+`C:\Users\andre\OneDrive\Documents\Obsidian Vault\StoneDock (Obsidian Notes)\StoneDock - Project Context.md`
 
 Read it before making changes.
 

@@ -2,7 +2,7 @@
 
 Prospecting tool for StoneDock Connect: finds health companies whose apps are rated 3 stars or lower. **Full context (StoneDock background, decisions, sources, scoring, API, preferences) lives in the Obsidian note:**
 
-`C:\Users\andre\OneDrive\Documents\Obsidian Vault\StoneDock\StoneDock - Project Context.md`
+`C:\Users\andre\OneDrive\Documents\Obsidian Vault\StoneDock (Obsidian Notes)\StoneDock - Project Context.md`
 
 Read it before making changes.
 
