@@ -1426,6 +1426,7 @@
    "file_date": "2026-10-02",
    "location": "Logan, UT",
    "terms": [
+    "health",
     "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158363&type=D",
@@ -4910,6 +4911,44 @@
     "+8 raised $35,000 (small raise)",
     "+15 filed 8 days ago",
     "+10 name points to a health or care business"
+   ]
+  },
+  {
+   "id": "sec-2161717",
+   "kind": "funded",
+   "company": "Oncology AI Fleet, Inc.",
+   "cik": "0002161717",
+   "adsh": "0002161717-26-000001",
+   "file_date": "2026-10-28",
+   "location": "Lewes, DE",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002161717&type=D",
+   "year_of_inc": "2026",
+   "industry": "Other Health Care",
+   "entity_type": "Corporation",
+   "amount_sold": "0",
+   "offering_total": "500000",
+   "first_sale": "",
+   "people": [
+    {
+     "name": "Phyllis Mullen",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2161717/000216171726000001/",
+   "score": 75,
+   "why": [
+    "+30 incorporated in 2026",
+    "+25 industry: Other Health Care",
+    "+5 amount not disclosed yet",
+    "+15 filed 0 days ago",
+    "+0 name doesn't say health"
    ]
   },
   {
@@ -8977,6 +9016,62 @@
    ]
   },
   {
+   "id": "sec-1926185",
+   "kind": "funded",
+   "company": "Siftwell Analytics, Inc.",
+   "cik": "0001926185",
+   "adsh": "0001926185-26-000004",
+   "file_date": "2026-10-02",
+   "location": "Charlotte, NC",
+   "terms": [
+    "health"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001926185&type=D",
+   "year_of_inc": "2021",
+   "industry": "Other Technology",
+   "entity_type": "Corporation",
+   "amount_sold": "1551300",
+   "offering_total": "2500000",
+   "first_sale": "2026-09-22",
+   "people": [
+    {
+     "name": "Charles Sutten, III",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Wallace Hollowell, III",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "David Jones",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "William Georges",
+     "roles": [
+      "Director"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/1926185/000192618526000004/",
+   "score": 59,
+   "why": [
+    "+10 incorporated in 2021",
+    "+14 industry: Other Technology",
+    "+20 raised $1,551,300 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 26 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
    "id": "sec-2154035",
    "kind": "funded",
    "company": "Phoenix Brain Wellness Inc.",
@@ -10312,5 +10407,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793177143.0309732
+ "updated": 1793205893.993751
 }
