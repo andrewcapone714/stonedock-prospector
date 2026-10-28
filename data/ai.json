@@ -303,6 +303,81 @@
    "seconds": 61.7,
    "source": "web",
    "model": "opus"
+  },
+  "1752565187": {
+   "summary": "Adonis Health Inc., doing business as Henry Meds, operates a subscription telehealth platform for adults seeking weight management, women's hormone therapy, testosterone therapy and erectile dysfunction treatment. It coordinates independent clinicians, pharmacies and laboratories, with virtual consultations and home-delivered prescriptions.",
+   "website": "https://henrymeds.com/",
+   "fit": "Henry Meds closely matches Connect's target market: branded digital care involving GLP-1s, hormones, laboratories and recurring prescriptions. Its existing app already supports visits, messaging, prescription tracking and lab uploads, so the strongest opportunity is adding lab interpretation, longitudinal health data and coaching while improving integrations. Existing engineering investment makes replacement less attractive, and low app-rating counts do not establish a small customer base.",
+   "pain_points": [
+    "Likely integration burden across independent providers, pharmacies, labs and patient records.",
+    "Potential manual work converting uploaded lab reports into structured results and patient explanations.",
+    "Reported refill and fulfillment delays suggest a need to investigate prescription-status synchronization.",
+    "Potential opportunity for personalized coaching and progress insights between consultations.",
+    "Likely need to maintain consistent consent and audit records across care partners."
+   ],
+   "decision_makers": [
+    {
+     "name": "Nathaniel Armer",
+     "title": "Founder / Board; directory-listed role, current remit needs confirmation",
+     "source": "https://theorg.com/org/henry-meds/person/nathaniel-armer"
+    },
+    {
+     "name": "Steven Peacock",
+     "title": "Chief Medical Officer, identified in April 2025 company announcement",
+     "source": "https://www.bastillepost.com/global/article/4795869-henry-meds-brings-hormone-replacement-therapies-and-personalized-care-to-patients-suffering-with-menopause-and-perimenopause-symptoms"
+    },
+    {
+     "name": "Brian Cook",
+     "title": "Senior IT & Security Manager, identified in July 2025 partner announcement",
+     "source": "https://www.squalify.io/en/insights/squalify-enters-us-market"
+    }
+   ],
+   "ratings": "Google Maps and Yelp ratings: not found. The indexed US App Store listing showed 2.8/5 from 5 ratings, differing from the supplied Prospector snapshot of 2.09/5 from 11; the latest figure could not be reconciled. Google Play showed 3.0/5 from 6 reviews and 1K+ downloads. Trustpilot showed 4.4/5 from 12,532 reviews, with praise for providers and convenience alongside complaints about communication, refills and billing. BBB showed an F rating and 236 complaints, highlighting billing, cancellation and fulfillment issues; this is a business rating, not a customer-star average.",
+   "news": [
+    {
+     "title": "Court issues discovery order in Eli Lilly v. Adonis Health over alleged false advertising of personalized compounded tirzepatide; allegations are not findings of wrongdoing",
+     "date": "2026-10-16",
+     "url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_25-cv-03536/pdf/USCOURTS-cand-4_25-cv-03536-3.pdf"
+    },
+    {
+     "title": "Squalify names Henry Meds its first major US customer for cyber-risk assessment",
+     "date": "2025-07-17",
+     "url": "https://www.squalify.io/en/insights/squalify-enters-us-market"
+    },
+    {
+     "title": "Henry Meds announces hormone replacement care for menopause and perimenopause",
+     "date": "2025-04-29",
+     "url": "https://www.bastillepost.com/global/article/4795869-henry-meds-brings-hormone-replacement-therapies-and-personalized-care-to-patients-suffering-with-menopause-and-perimenopause-symptoms"
+    }
+   ],
+   "questions": [
+    "Which pharmacy, lab and EHR integrations create the most manual work for your care team today?",
+    "After patients upload lab results, how are values extracted, trended and explained within the app?",
+    "Where do refill or fulfillment exceptions arise, and how quickly does the app reflect those changes?",
+    "What coaching or progress insights would you like patients to receive between weight-management and hormone-care visits?",
+    "Which parts of your platform would you consider buying rather than maintaining internally, and who owns that decision?",
+    "Would an $8-per-member-per-month integration make economic sense for a targeted pilot measured against support workload and retention?"
+   ],
+   "fit_adjust": -5,
+   "fit_reason": "Strong clinical alignment is offset by substantial existing app functionality and an established customer footprint that contradicts the small-user-base inference from 11 app ratings.",
+   "sources": [
+    "https://henrymeds.com/",
+    "https://henrymeds.com/legal/terms-of-service/",
+    "https://apps.apple.com/us/app/henry-meds/id6504500302",
+    "https://play.google.com/store/apps/details?id=com.henrymeds.app",
+    "https://www.trustpilot.com/review/henrymeds.com",
+    "https://www.bbb.org/us/ca/san-francisco/profile/health-and-wellness/henry-meds-1116-951367",
+    "https://www.linkedin.com/in/nathanielarmer",
+    "https://theorg.com/org/henry-meds/person/nathaniel-armer",
+    "https://www.squalify.io/en/insights/squalify-enters-us-market",
+    "https://www.bastillepost.com/global/article/4795869-henry-meds-brings-hormone-replacement-therapies-and-personalized-care-to-patients-suffering-with-menopause-and-perimenopause-symptoms",
+    "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_25-cv-03536/pdf/USCOURTS-cand-4_25-cv-03536-3.pdf"
+   ],
+   "at": 1793148264.3373215,
+   "seconds": 62.2,
+   "source": "low",
+   "model": "gpt-6-astra",
+   "company": "Adonis Health Inc."
   }
  },
  "rank": {

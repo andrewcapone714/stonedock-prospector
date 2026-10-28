@@ -64,9 +64,21 @@
       "source": "web"
      }
     ]
+   },
+   {
+    "role": "pebble",
+    "text": "Done! It's in the Research tab: **Adonis Health Inc.**. Click a name for the brief.",
+    "err": false,
+    "mentions": [
+     {
+      "id": "1752565187",
+      "name": "Adonis Health Inc.",
+      "source": "low"
+     }
+    ]
    }
   ],
-  "updated": 1793137640.519386
+  "updated": 1793148264.8902516
  },
  "cmvre4kku": {
   "id": "cmvre4kku",
