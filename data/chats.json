@@ -104,9 +104,37 @@
       "source": "low"
      }
     ]
+   },
+   {
+    "role": "user",
+    "text": "draft me an email I can say to this company",
+    "err": null,
+    "mentions": null
+   },
+   {
+    "role": "pebble",
+    "text": "I wrote this for **DEFY MEDICAL, LLC**, the best fit from my last answer. Tell me if you meant **Primestin Care, LLC** or **Ritch's Pharmacy** instead.\n\n---\n\n**Subject:** Labs, hormones and peptides, all in the Defy app\n\nHi [Name],\n\nI saw that Defy launched its patient app last year. For a practice focused on hormone therapy, peptides and weight loss, the app is where patients see their labs, refills and progress, so it has a big effect on how they feel about the care.\n\nI'm with StoneDock. We make StoneDock Connect, a white-label health data and AI engine that runs inside your app, under your brand. A few things it could do for Defy:\n\n- **Reads lab PDFs automatically** and turns them into health scores, plain-language insights and coaching for patients.\n- **Handles the medication workflow** (payment, prescription, EHR sync and refills) so patients never leave your app.\n- **Built on FHIR and HIPAA-ready**, with patient consent on every request and a full audit trail.\n\nWe already power MyWellness App, a telehealth app for peptides and GLP-1s, so we know your space well. Pricing is simple: $8 per member per month, so you don't have to build the health-data and AI stack yourself.\n\nYou can try it now in our no-account sandbox at onepathhealth.com. Or I'm happy to walk you through it in 20 minutes. Would next week work?\n\nBest,\n[Your name]\n[Title], StoneDock\n[Phone] · [Email]\n\n---\n\n**Tips:**\n- I didn't name their 1.4★ rating, so it doesn't read as criticism. You can mention it if you'd rather be direct.\n- The data doesn't show a contact name. Look for their founder or medical director on LinkedIn.\n- You could add Defy to your Research tab for a full brief before you send. Just ask me.",
+    "err": false,
+    "mentions": [
+     {
+      "id": "1563968773",
+      "name": "DEFY MEDICAL, LLC",
+      "source": "low"
+     },
+     {
+      "id": "520516558",
+      "name": "Ritch's Pharmacy",
+      "source": "low"
+     },
+     {
+      "id": "1777845267",
+      "name": "Primestin Care, LLC",
+      "source": "low"
+     }
+    ]
    }
   ],
-  "updated": 1793148606.1025298
+  "updated": 1793148674.9516478
  },
  "cmvre4kku": {
   "id": "cmvre4kku",
