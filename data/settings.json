@@ -6,5 +6,5 @@
  "auto_add_min": 0,
  "play_enabled": true,
  "provider_days": 90,
- "ai_model": "opus"
+ "ai_model": "gpt-6-astra"
 }
