@@ -11,7 +11,7 @@
      "store": "apple",
      "name": "Telehealth by SimplePractice",
      "rating": 4.76,
-     "count": 400904,
+     "count": 401108,
      "genre": "Medical",
      "released": "2018-05-24T14:22:32Z",
      "updated": "2026-10-28T20:26:38Z",
@@ -25,7 +25,7 @@
      "store": "apple",
      "name": "SimplePractice Client Portal",
      "rating": 4.9,
-     "count": 39135,
+     "count": 39140,
      "genre": "Medical",
      "released": "2022-11-07T08:00:00Z",
      "updated": "2026-10-28T20:26:55Z",
@@ -453,7 +453,7 @@
      "store": "apple",
      "name": "PlushCare: Online Doctor",
      "rating": 4.9,
-     "count": 145637,
+     "count": 145643,
      "genre": "Medical",
      "released": "2015-02-27T01:05:01Z",
      "updated": "2026-10-23T16:14:58Z",
@@ -567,7 +567,7 @@
      "store": "apple",
      "name": "Sesame: Telehealth Care & More",
      "rating": 4.94,
-     "count": 10948,
+     "count": 10949,
      "genre": "Medical",
      "released": "2024-09-30T07:00:00Z",
      "updated": "2026-10-20T12:33:49Z",
@@ -610,7 +610,7 @@
      "store": "apple",
      "name": "Zocdoc - Find and book doctors",
      "rating": 4.88,
-     "count": 183526,
+     "count": 183622,
      "genre": "Medical",
      "released": "2010-10-05T06:58:14Z",
      "updated": "2026-10-26T15:13:25Z",
@@ -732,7 +732,7 @@
      "store": "apple",
      "name": "QuickMD - Online Doctor Visits",
      "rating": 4.84,
-     "count": 6712,
+     "count": 6715,
      "genre": "Medical",
      "released": "2019-10-28T07:00:00Z",
      "updated": "2026-10-16T04:33:10Z",
@@ -815,7 +815,7 @@
      "store": "apple",
      "name": "Sydney Health",
      "rating": 4.82,
-     "count": 576224,
+     "count": 576263,
      "genre": "Medical",
      "released": "2019-08-30T07:00:00Z",
      "updated": "2026-10-20T18:00:10Z",
@@ -933,7 +933,7 @@
      "store": "apple",
      "name": "athenaPatient",
      "rating": 4.88,
-     "count": 185129,
+     "count": 185179,
      "genre": "Medical",
      "released": "2022-11-16T08:00:00Z",
      "updated": "2026-10-28T15:47:16Z",
@@ -1247,7 +1247,7 @@
      "store": "apple",
      "name": "98point6 by Transcarent",
      "rating": 4.76,
-     "count": 50788,
+     "count": 50785,
      "genre": "Medical",
      "released": "2017-07-15T11:08:40Z",
      "updated": "2026-10-05T20:52:59Z",
@@ -1261,7 +1261,7 @@
      "store": "apple",
      "name": "Transcarent",
      "rating": 4.82,
-     "count": 2829,
+     "count": 2834,
      "genre": "Medical",
      "released": "2021-06-18T07:00:00Z",
      "updated": "2026-10-23T21:11:48Z",
@@ -1287,7 +1287,7 @@
      "store": "apple",
      "name": "AdventHealth",
      "rating": 4.61,
-     "count": 24914,
+     "count": 24919,
      "genre": "Medical",
      "released": "2019-07-06T07:00:00Z",
      "updated": "2026-10-12T13:01:00Z",
@@ -1312,7 +1312,7 @@
      "store": "apple",
      "name": "Simple Habit Sleep, Meditation",
      "rating": 4.81,
-     "count": 78028,
+     "count": 78025,
      "genre": "Health & Fitness",
      "released": "2016-04-01T18:28:27Z",
      "updated": "2024-12-16T17:52:30Z",
@@ -1351,7 +1351,7 @@
      "store": "apple",
      "name": "Airvet for Pet Parents",
      "rating": 4.93,
-     "count": 11313,
+     "count": 11311,
      "genre": "Medical",
      "released": "2019-04-03T12:24:08Z",
      "updated": "2026-10-22T18:56:15Z",
@@ -4330,7 +4330,7 @@
      "store": "apple",
      "name": "myDaVita",
      "rating": 4.44,
-     "count": 1912,
+     "count": 1910,
      "genre": "Health & Fitness",
      "released": "2019-01-18T17:22:29Z",
      "updated": "2026-10-22T00:03:16Z",
@@ -4617,7 +4617,7 @@
      "store": "apple",
      "name": "Health100",
      "rating": 4.26,
-     "count": 551,
+     "count": 556,
      "genre": "Medical",
      "released": "2026-07-01T07:00:00Z",
      "updated": "2026-10-26T22:28:31Z",
@@ -4931,8 +4931,8 @@
      "id": "1505582085",
      "store": "apple",
      "name": "myPatientVisit",
-     "rating": 4.6,
-     "count": 7760,
+     "rating": 4.59,
+     "count": 7770,
      "genre": "Medical",
      "released": "2020-04-04T07:00:00Z",
      "updated": "2026-10-28T12:36:28Z",
@@ -5128,13 +5128,13 @@
      "id": "1481479389",
      "store": "apple",
      "name": "Form Health",
-     "rating": 4.28,
-     "count": 626,
+     "rating": 4.29,
+     "count": 630,
      "genre": "Health & Fitness",
      "released": "2019-12-19T08:00:00Z",
-     "updated": "2026-10-16T19:17:03Z",
+     "updated": "2026-10-29T16:29:25Z",
      "url": "https://apps.apple.com/us/app/form-health/id1481479389",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/49/b3/6f49b385-23b1-273e-e200-73847b219f2c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/40/f4/6140f4a0-55f5-56b0-3a09-537e23dbe0d0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Form Health offers a unique, medically supervised weight loss program delivered through telehealth.\n\nMedical Supervision and Support: Work with a doctor to discuss your history, determine weight loss goals, review existing medications and chart a path for lasting success.\n\nEvidence-Based Guidance from a Dietitian: Ongoing, one-on-one conversations with your dietitian will help you change behaviors and shopping lists, and guide you on your journey to wellness.\n\nA Modern Treatment Approach: We combine FDA approved weight loss medications when appropriate, board certified clinicians, and modern t"
     }
@@ -5155,7 +5155,7 @@
      "store": "apple",
      "name": "APPatient",
      "rating": 4.13,
-     "count": 23200,
+     "count": 23205,
      "genre": "Medical",
      "released": "2016-03-08T23:42:16Z",
      "updated": "2026-09-04T05:09:50Z",
@@ -5910,7 +5910,7 @@
      "store": "apple",
      "name": "Klara – Patient communication",
      "rating": 4.59,
-     "count": 12920,
+     "count": 12923,
      "genre": "Medical",
      "released": "2016-04-11T16:44:11Z",
      "updated": "2025-10-23T12:58:45Z",
@@ -6010,7 +6010,7 @@
      "store": "apple",
      "name": "NowServing by SeriousMD",
      "rating": 4.87,
-     "count": 754,
+     "count": 755,
      "genre": "Medical",
      "released": "2020-01-08T08:00:00Z",
      "updated": "2026-09-04T07:33:21Z",
@@ -6195,7 +6195,7 @@
      "store": "apple",
      "name": "Anytime Telecare",
      "rating": 4.95,
-     "count": 7331,
+     "count": 7330,
      "genre": "Medical",
      "released": "2018-04-10T12:28:34Z",
      "updated": "2026-04-01T13:27:23Z",
@@ -6364,7 +6364,7 @@
      "store": "apple",
      "name": "Blueberry Pediatrics",
      "rating": 4.7,
-     "count": 751,
+     "count": 758,
      "genre": "Health & Fitness",
      "released": "2018-11-29T02:47:15Z",
      "updated": "2026-08-03T17:46:02Z",
@@ -6401,7 +6401,8 @@
    },
    "terms": [
     "telemedicine",
-    "virtual primary care"
+    "virtual primary care",
+    "telehealth"
    ]
   },
   "566427471": {
@@ -6480,7 +6481,7 @@
      "store": "apple",
      "name": "myPrivia",
      "rating": 3.83,
-     "count": 9817,
+     "count": 9825,
      "genre": "Medical",
      "released": "2018-04-22T03:35:18Z",
      "updated": "2026-09-28T15:52:44Z",
@@ -6800,8 +6801,8 @@
      "id": "1587327842",
      "store": "apple",
      "name": "HelpCare - TeleHealth Services",
-     "rating": 3.96,
-     "count": 134,
+     "rating": 3.95,
+     "count": 133,
      "genre": "Health & Fitness",
      "released": "2022-03-09T08:00:00Z",
      "updated": "2026-10-09T05:22:52Z",
@@ -6915,7 +6916,7 @@
      "store": "apple",
      "name": "TytoCare",
      "rating": 4.9,
-     "count": 4098,
+     "count": 4100,
      "genre": "Medical",
      "released": "2017-01-11T11:49:15Z",
      "updated": "2026-09-06T09:00:15Z",
@@ -7201,9 +7202,9 @@
      "count": 0,
      "genre": "Medical",
      "released": "2025-09-15T07:00:00Z",
-     "updated": "2026-10-22T05:03:01Z",
+     "updated": "2026-10-29T05:32:11Z",
      "url": "https://apps.apple.com/us/app/doctors-now/id6751541361",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/28/dd/0428dda3-4f25-6bf2-b96f-8c828c602df1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/4d/fc/8b4dfc4e-bcd9-fdf5-1782-a3b173a17b0a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Your practice streamlined. Exclusively for the Doctors Now Network.\nThis app is designed specifically for licensed healthcare professionals who are part of the Doctors Now team. It enables you to deliver virtual care efficiently and manage your entire practice workflow — all from your mobile device.\n\nWith the Doctors Now app, you can:\n• Conduct secure video and asynchronous consultations\n• Document SOAP notes and write prescriptions\n• View lab reports submitted by patients\n• Track commissions and request payouts\n• Manage your availability, state licenses, and account settings\n\nBuilt with a foc"
     }
@@ -7274,12 +7275,12 @@
      "store": "apple",
      "name": "Healthfirst NY",
      "rating": 4.85,
-     "count": 24939,
+     "count": 24946,
      "genre": "Health & Fitness",
      "released": "2020-04-15T07:00:00Z",
-     "updated": "2026-10-22T12:39:44Z",
+     "updated": "2026-10-29T13:25:42Z",
      "url": "https://apps.apple.com/us/app/healthfirst-ny/id1464792066",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/b7/95/fdb795b0-9a60-5807-530e-6f349dc09384/AppIcon-0-0-1x_U007epad-0-4-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/ad/8c/84ad8c61-4397-3d59-f136-b70bd437bd81/AppIcon-0-0-1x_U007epad-0-4-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Healthfirst members can:\n• Search for in-network care providers by specialty and location.\n• Find essential services nearby—food, housing, education, employment, financial and legal assistance, and more.\n• Access their digital Member ID and save, email, and text it.\n• Use our Healthfirst Virtual Community Office to search for a local sales rep by borough, office location, language, and gender.\n• View membership information.\n• Access Teladoc to speak with U.S. board-certified doctors 24/7 by phone and video.\n• Contact Healthfirst Member Services to get answers to benefit questions.\n• Get instan"
     }
@@ -7656,7 +7657,7 @@
      "store": "apple",
      "name": "Smile Doctors Anywhere",
      "rating": 4.86,
-     "count": 6989,
+     "count": 6990,
      "genre": "Medical",
      "released": "2020-11-17T08:00:00Z",
      "updated": "2026-10-01T07:28:39Z",
@@ -7722,7 +7723,7 @@
      "store": "apple",
      "name": "My Doctor Online (NCAL Only)",
      "rating": 4.82,
-     "count": 88484,
+     "count": 88485,
      "genre": "Medical",
      "released": "2012-03-05T08:00:00Z",
      "updated": "2026-07-16T15:52:05Z",
@@ -8618,7 +8619,7 @@
      "store": "apple",
      "name": "Tata 1mg - Healthcare App",
      "rating": 4.75,
-     "count": 1506,
+     "count": 1509,
      "genre": "Medical",
      "released": "2012-09-14T04:13:56Z",
      "updated": "2026-10-20T05:57:27Z",
@@ -8697,9 +8698,9 @@
      "count": 0,
      "genre": "Medical",
      "released": "2026-07-02T07:00:00Z",
-     "updated": "2026-10-02T00:10:36Z",
+     "updated": "2026-10-29T16:09:49Z",
      "url": "https://apps.apple.com/us/app/1b-pharmacy-online-pharmacy/id6780380229",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/71/ff/1871ff1a-7634-0259-ed65-6877fb969a5e/AppIcon-0-0-1x_U007emarketing-0-3-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/13/3b/1d133b25-fa85-5c29-7d52-20597ec04711/AppIcon-0-0-1x_U007emarketing-0-3-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "1B Pharmacy – Online Pharmacy\n\nYour Health. Your Family. Your Trusted Pharmacy.\n\nWelcome to 1B Pharmacy, your one-stop destination for medicines, healthcare essentials, wellness products, Ayurvedic remedies, nutrition supplements, personal care products, and much more. We are committed to making quality healthcare accessible, affordable, and convenient for every household across India.\n\nWith the 1B Pharmacy app, you can order medicines online, upload prescriptions, shop healthcare products, track deliveries in real-time, earn rewards, and enjoy a seamless healthcare shopping experience from th"
     }
@@ -9079,8 +9080,8 @@
      "id": "1241253803",
      "store": "apple",
      "name": "Clicks – ClubCard and Pharmacy",
-     "rating": 4.33,
-     "count": 106,
+     "rating": 4.34,
+     "count": 107,
      "genre": "Shopping",
      "released": "2017-07-23T15:26:07Z",
      "updated": "2026-10-01T11:18:39Z",
@@ -9200,9 +9201,9 @@
      "count": 3,
      "genre": "Shopping",
      "released": "2022-08-16T07:00:00Z",
-     "updated": "2026-10-15T06:21:02Z",
+     "updated": "2026-10-29T07:04:24Z",
      "url": "https://apps.apple.com/us/app/binsina/id1633403246",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/6d/81/ed6d81c2-483f-7310-7d76-3cdcc616aac1/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/50/a0/5b50a0b8-c9d2-10f7-19af-06411c885bf1/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "BinSina is one of the leading pharmacies in the UAE with a growing network of more than 120+ stores and now online across the GCC.\n\nEstablished in 1965, as part of Al Khayyat Investments, we are the UAE’s oldest pharmacy chain bringing to you more than 55 years of expertise in the worlds of Beauty, Health, Wellness and Nutrition.\n\n We think differently, always putting the customer first, breaking the conventional role of a traditional pharmacy.\n\nWe take pride in our sourcing, selecting only the best brands across the globe to cater to ever changing customer needs.\n\n We focus on our community's"
     }
@@ -9323,7 +9324,7 @@
      "store": "apple",
      "name": "النهدي - Nahdi",
      "rating": 4.61,
-     "count": 64589,
+     "count": 64643,
      "genre": "Shopping",
      "released": "2014-07-06T04:37:21Z",
      "updated": "2026-10-14T13:57:28Z",
@@ -9556,7 +9557,7 @@
      "store": "apple",
      "name": "Ютека. Все аптеки города",
      "rating": 4.92,
-     "count": 1032,
+     "count": 1035,
      "genre": "Medical",
      "released": "2018-08-05T16:00:57Z",
      "updated": "2026-10-23T14:56:08Z",
@@ -9635,9 +9636,9 @@
      "count": 0,
      "genre": "Shopping",
      "released": "2026-03-28T07:00:00Z",
-     "updated": "2026-10-27T02:01:37Z",
+     "updated": "2026-10-29T19:36:05Z",
      "url": "https://apps.apple.com/us/app/medon-pharmacy/id6761003996",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/82/03/83820321-1f38-d385-6713-4eaa8c89a475/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/c9/fa/d8c9fa6f-c8b6-a80a-741a-d82f4074e23a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Your neighbourhood pharmacy, now in your pocket. Shop medicines, vitamins, skincare, baby care and personal care from Medon pharmacies across the UAE - delivered to your door, often within 45 minutes.\n\nWHY MEDON\n• Express delivery from your nearest Medon branch in as little as 45 minutes\n• Free delivery on orders over AED 20\n• Next-day delivery everywhere else in the UAE\n• Genuine products from a licensed UAE pharmacy\n• Over 10,000 products from the brands you trust\n\nFIND IT IN SECONDS\n• Smart search that understands brands, ingredients and symptoms - in English and Arabic\n• Search by voice, o"
     }
@@ -9686,9 +9687,9 @@
      "count": 18,
      "genre": "Medical",
      "released": "2025-01-23T08:00:00Z",
-     "updated": "2026-10-20T08:20:04Z",
+     "updated": "2026-10-29T07:55:04Z",
      "url": "https://apps.apple.com/us/app/liki24-online-health-shop/id1577477032",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/3d/40/193d401f-63ef-7420-1bb7-a0a37ec79b1c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/05/eb/6d05eb58-c806-933b-1f3a-d683adf68478/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "LIKI24 — BEAUTY, WELLNESS & HEALTH\n\nLiki24 is Europe's health and wellness marketplace — more than a typical online pharmacy.\n\nWith 250K+ products from verified pharmacies and stores across European markets, Liki24 monitors prices from thousands of sellers to always find you the best deal. \n\nMedicines, vitamins, dietary supplements, skincare and body care products — with delivery across Europe directly to your door.\n\nEVERYTHING YOU NEED, IN ONE PLACE\n\nExplore a wide catalogue:\n\n• Beauty and skincare — makeup, Korean skincare, facial care and treatments from top European brands\n\n• Vitamins, die"
     }
@@ -9758,12 +9759,12 @@
      "store": "apple",
      "name": "Doctolib - Your health partner",
      "rating": 4.76,
-     "count": 1879,
+     "count": 1901,
      "genre": "Medical",
      "released": "2020-03-11T07:00:00Z",
-     "updated": "2026-10-27T10:59:03Z",
+     "updated": "2026-10-29T08:31:04Z",
      "url": "https://apps.apple.com/us/app/doctolib-your-health-partner/id925339063",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/f0/76/07f0769b-9202-59a9-147e-014f7a5b69df/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/35/07/7e35072a-241b-0fc8-c9b9-f68cc0b8c760/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Easily keep track of your health with the Doctolib app:\n• Access the availabilities of thousands of healthcare professionals from all specialities\n• Find and book medical appointments 24/7 online for in-person or video consultations\n• Send messages to doctors and therapists for follow up prescriptions, test results and more\n• Add relatives to your account to easily manage their appointments\n• Look after your child's appointments and documents together with another parent\n• Get automatic reminders for appointments in the app so you never miss one\n• Share prescriptions and other medical document"
     }
@@ -10350,7 +10351,7 @@
      "store": "apple",
      "name": "Max - Pill reminder",
      "rating": 4.77,
-     "count": 9861,
+     "count": 9864,
      "genre": "Medical",
      "released": "2020-03-10T07:00:00Z",
      "updated": "2026-07-14T00:28:36Z",
@@ -14965,7 +14966,7 @@
      "store": "apple",
      "name": "MeAgain: GLP-1 Tracker App",
      "rating": 4.79,
-     "count": 39353,
+     "count": 39385,
      "genre": "Health & Fitness",
      "released": "2025-04-11T07:00:00Z",
      "updated": "2026-09-10T15:44:49Z",
@@ -15033,7 +15034,7 @@
      "store": "apple",
      "name": "DreamMe: GLP-1 Tracker Pet",
      "rating": 4.7,
-     "count": 3247,
+     "count": 3252,
      "genre": "Health & Fitness",
      "released": "2025-12-16T08:00:00Z",
      "updated": "2026-10-05T21:56:56Z",
@@ -15209,7 +15210,7 @@
      "store": "apple",
      "name": "Zepbound & Mounjaro Tracker",
      "rating": 4.81,
-     "count": 3338,
+     "count": 3341,
      "genre": "Health & Fitness",
      "released": "2024-11-19T08:00:00Z",
      "updated": "2026-10-16T18:10:09Z",
@@ -15284,7 +15285,7 @@
      "store": "apple",
      "name": "Healthi: Weight Loss, Diet App",
      "rating": 4.76,
-     "count": 89970,
+     "count": 89967,
      "genre": "Health & Fitness",
      "released": "2010-11-22T23:24:06Z",
      "updated": "2026-10-12T15:08:05Z",
@@ -15395,7 +15396,7 @@
      "store": "apple",
      "name": "GLP-1 Weight Loss Tracker: Pep",
      "rating": 4.68,
-     "count": 956,
+     "count": 955,
      "genre": "Health & Fitness",
      "released": "2024-09-19T07:00:00Z",
      "updated": "2026-10-26T13:31:43Z",
@@ -15581,7 +15582,7 @@
      "store": "apple",
      "name": "GLP-1 Tracker • Pokii",
      "rating": 4.74,
-     "count": 820,
+     "count": 821,
      "genre": "Health & Fitness",
      "released": "2025-07-18T07:00:00Z",
      "updated": "2026-10-14T09:10:33Z",
@@ -15631,7 +15632,7 @@
      "store": "apple",
      "name": "MyFitnessPal: Calorie Counter",
      "rating": 4.71,
-     "count": 2385740,
+     "count": 2385742,
      "genre": "Health & Fitness",
      "released": "2009-12-08T02:04:45Z",
      "updated": "2026-10-27T18:06:58Z",
@@ -15701,7 +15702,7 @@
      "store": "apple",
      "name": "Glowise: GLP-1 Tracker & Diary",
      "rating": 4.77,
-     "count": 6705,
+     "count": 6704,
      "genre": "Health & Fitness",
      "released": "2024-11-06T08:00:00Z",
      "updated": "2026-10-26T02:23:17Z",
@@ -15825,8 +15826,8 @@
      "id": "6757181430",
      "store": "apple",
      "name": "GLP Diet: GLP-1 Weight Loss",
-     "rating": 4.27,
-     "count": 755,
+     "rating": 4.26,
+     "count": 757,
      "genre": "Health & Fitness",
      "released": "2026-01-26T08:00:00Z",
      "updated": "2026-10-19T05:42:31Z",
@@ -15851,8 +15852,8 @@
      "id": "6761790660",
      "store": "apple",
      "name": "Monju: Lose Weight on GLP-1",
-     "rating": 4.88,
-     "count": 189,
+     "rating": 4.89,
+     "count": 194,
      "genre": "Health & Fitness",
      "released": "2026-05-27T07:00:00Z",
      "updated": "2026-10-27T23:31:32Z",
@@ -15961,7 +15962,7 @@
      "store": "apple",
      "name": "GlowBack: GLP-1 Tracker",
      "rating": 4.64,
-     "count": 117,
+     "count": 118,
      "genre": "Health & Fitness",
      "released": "2025-09-11T07:00:00Z",
      "updated": "2026-10-27T18:30:22Z",
@@ -16061,7 +16062,7 @@
      "store": "apple",
      "name": "Dose AI: GLP-1 Shot Tracker",
      "rating": 4.7,
-     "count": 1011,
+     "count": 1012,
      "genre": "Health & Fitness",
      "released": "2025-04-14T07:00:00Z",
      "updated": "2026-10-28T22:28:19Z",
@@ -16450,8 +16451,8 @@
      "id": "6753928703",
      "store": "apple",
      "name": "GlowAgain: GLP-1 Shot Tracker",
-     "rating": 4.61,
-     "count": 296,
+     "rating": 4.6,
+     "count": 297,
      "genre": "Health & Fitness",
      "released": "2025-11-04T08:00:00Z",
      "updated": "2026-04-01T19:11:14Z",
@@ -16550,8 +16551,8 @@
      "id": "6761775005",
      "store": "apple",
      "name": "OneGLP: Zepbound GLP 1 Tracker",
-     "rating": 4.8,
-     "count": 56,
+     "rating": 4.81,
+     "count": 57,
      "genre": "Health & Fitness",
      "released": "2026-04-10T07:00:00Z",
      "updated": "2026-10-27T10:22:13Z",
@@ -16576,7 +16577,7 @@
      "store": "apple",
      "name": "GLP-1 Tracker: Dosely",
      "rating": 4.63,
-     "count": 429,
+     "count": 430,
      "genre": "Health & Fitness",
      "released": "2026-08-13T07:00:00Z",
      "updated": "2026-09-04T17:00:08Z",
@@ -16723,7 +16724,7 @@
      "store": "apple",
      "name": "GLP-1 Tracker Diet App: GLP AI",
      "rating": 4.69,
-     "count": 816,
+     "count": 817,
      "genre": "Health & Fitness",
      "released": "2025-12-29T08:00:00Z",
      "updated": "2026-10-15T22:30:05Z",
@@ -16974,8 +16975,8 @@
      "id": "6788222561",
      "store": "apple",
      "name": "DoseFit: GLP-1 Tracker & Diary",
-     "rating": 4.75,
-     "count": 382,
+     "rating": 4.76,
+     "count": 385,
      "genre": "Health & Fitness",
      "released": "2026-08-31T07:00:00Z",
      "updated": "2026-10-29T01:47:47Z",
@@ -17800,7 +17801,7 @@
      "store": "apple",
      "name": "Walking for Weight Loss",
      "rating": 4.89,
-     "count": 5587,
+     "count": 5586,
      "genre": "Health & Fitness",
      "released": "2018-09-10T05:19:25Z",
      "updated": "2026-04-05T03:56:32Z",
@@ -18845,9 +18846,9 @@
      "count": 2,
      "genre": "Health & Fitness",
      "released": "2026-05-21T07:00:00Z",
-     "updated": "2026-10-28T23:40:38Z",
+     "updated": "2026-10-29T18:52:00Z",
      "url": "https://apps.apple.com/us/app/macroline-glp-1-food-tracker/id6765770579",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/5a/f3/1b5af349-eecf-7fcc-ccfe-9d2c331ecb6e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/b6/91/89b691e5-8a46-7219-69dc-e095249b32a7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Macroline is a calorie and macro tracker that shows where every number comes from. Each food carries its source: USDA, the manufacturer, the restaurant, the Open Food Facts community, or an estimate that says it is one. Type what you ate, scan a barcode, or search, and see what's left for the day at a glance.\n\nKNOW WHERE YOUR NUMBERS COME FROM\nEvery food shows a source badge. Tap the badge to see exactly where the numbers came from. We never pass a guess off as a fact: an AI estimate is always labeled as one, and you can always adjust it.\n\nLOG WITHOUT THE BURDEN\n- Describe: type \"grilled chick"
     }
@@ -18969,7 +18970,7 @@
      "store": "apple",
      "name": "Foodnoms: Nutrition Tracker",
      "rating": 4.74,
-     "count": 7864,
+     "count": 7866,
      "genre": "Health & Fitness",
      "released": "2019-11-12T08:00:00Z",
      "updated": "2026-10-28T22:08:44Z",
@@ -19185,7 +19186,7 @@
      "store": "apple",
      "name": "Glippy: GLP-1 Shot Tracker",
      "rating": 4.77,
-     "count": 463,
+     "count": 462,
      "genre": "Health & Fitness",
      "released": "2025-09-30T07:00:00Z",
      "updated": "2026-10-23T23:20:15Z",
@@ -20178,7 +20179,7 @@
      "store": "apple",
      "name": "Weight Monitor, BMI Calculator",
      "rating": 4.82,
-     "count": 758,
+     "count": 761,
      "genre": "Health & Fitness",
      "released": "2022-02-06T08:00:00Z",
      "updated": "2026-10-26T07:55:08Z",
@@ -20551,6 +20552,20 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/14/ff/1614ffa3-5153-3824-73a0-9f555a1e70e6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Take the step towards a healthier you with Window, your in-hand intermittent fasting companion. We use a science-based approach, guided by experts, and offer personalized recommendations suited to you and your lifestyle!\n\nIntermittent fasting is a popular eating pattern that can help you lose weight and feel healthier. Window will help you do it confidently – the right way. Track your fasting and eating, set weight loss goals and monitor them, track your water consumption, and get healthy insights from nutritionists. Window has everything you need (and more) to create a healthier lifestyle!\n\n*"
+    },
+    "1099771240": {
+     "id": "1099771240",
+     "store": "apple",
+     "name": "30 Day Fitness - Home Workout",
+     "rating": 4.28,
+     "count": 58567,
+     "genre": "Health & Fitness",
+     "released": "2016-04-09T01:30:45Z",
+     "updated": "2026-03-30T07:40:55Z",
+     "url": "https://apps.apple.com/us/app/30-day-fitness-home-workout/id1099771240",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/f2/6f/18f26faf-56f3-54a0-1962-44d40131d52d/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Ready for the 30 Day Fitness Challenge? Start training today to see tangible results and get fit! New workouts, fitness plans, and exercises with HD video tutorial are now available.\nGet your whole body toned and feel like the best version of yourself. Drop any extra weight with minimum struggle (nothing comes without any effort!) and see a noticeable difference in your shape in 30 days. Try it now, follow the 30 Day Fitness Challenge and see your fat cells melt away.\n\nInvest some minutes everyday for 30 days of your life and observe your body getting into the shape you aim for. Start with reg"
     }
    },
    "terms": [
@@ -20570,7 +20585,7 @@
      "store": "apple",
      "name": "Omo: Healthy Weight Loss App",
      "rating": 4.48,
-     "count": 32601,
+     "count": 32598,
      "genre": "Health & Fitness",
      "released": "2020-06-16T07:00:00Z",
      "updated": "2026-09-11T16:31:17Z",
@@ -20598,7 +20613,7 @@
      "store": "apple",
      "name": "WalkFit: Steps counter",
      "rating": 4.73,
-     "count": 165187,
+     "count": 165191,
      "genre": "Health & Fitness",
      "released": "2019-05-01T11:58:11Z",
      "updated": "2026-10-22T21:05:59Z",
@@ -20612,7 +20627,7 @@
      "store": "apple",
      "name": "Yoga-Go: Tai Chi & Pilates",
      "rating": 4.59,
-     "count": 89401,
+     "count": 89400,
      "genre": "Health & Fitness",
      "released": "2018-04-22T05:15:15Z",
      "updated": "2026-10-22T08:25:16Z",
@@ -20701,7 +20716,7 @@
      "store": "apple",
      "name": "Lose Weight at Home in 30 Days",
      "rating": 4.83,
-     "count": 21571,
+     "count": 21569,
      "genre": "Health & Fitness",
      "released": "2017-08-10T02:19:19Z",
      "updated": "2026-09-24T10:16:01Z",
@@ -21070,7 +21085,7 @@
      "store": "apple",
      "name": "Kompanion: Weight Loss Plan",
      "rating": 4.73,
-     "count": 9301,
+     "count": 9300,
      "genre": "Health & Fitness",
      "released": "2021-11-11T08:00:00Z",
      "updated": "2026-10-16T06:37:26Z",
@@ -21278,7 +21293,7 @@
      "store": "apple",
      "name": "Found – Weight Care",
      "rating": 4.66,
-     "count": 8860,
+     "count": 8861,
      "genre": "Health & Fitness",
      "released": "2021-11-28T08:00:00Z",
      "updated": "2026-10-05T19:14:45Z",
@@ -21303,7 +21318,7 @@
      "store": "apple",
      "name": "Fasting For Weight Loss App",
      "rating": 4.71,
-     "count": 6327,
+     "count": 6326,
      "genre": "Health & Fitness",
      "released": "2022-06-21T07:00:00Z",
      "updated": "2026-01-26T14:51:18Z",
@@ -21393,7 +21408,7 @@
      "store": "apple",
      "name": "Weight Loss Walking by Slimkit",
      "rating": 4.41,
-     "count": 14891,
+     "count": 14893,
      "genre": "Health & Fitness",
      "released": "2015-01-11T18:22:30Z",
      "updated": "2026-09-09T09:07:23Z",
@@ -21419,7 +21434,7 @@
      "store": "apple",
      "name": "BMI Calculator – Weight Loss",
      "rating": 4.51,
-     "count": 29562,
+     "count": 29595,
      "genre": "Health & Fitness",
      "released": "2013-07-03T23:26:13Z",
      "updated": "2026-10-04T06:01:26Z",
@@ -21432,8 +21447,8 @@
      "id": "1400029246",
      "store": "apple",
      "name": "WeightFit: Weight Loss Tracker",
-     "rating": 4.73,
-     "count": 544,
+     "rating": 4.74,
+     "count": 550,
      "genre": "Health & Fitness",
      "released": "2018-09-06T07:23:49Z",
      "updated": "2026-10-21T13:49:16Z",
@@ -21572,7 +21587,7 @@
      "store": "apple",
      "name": "Weight Diary Lite",
      "rating": 4.84,
-     "count": 7302,
+     "count": 7307,
      "genre": "Health & Fitness",
      "released": "2011-10-13T02:07:12Z",
      "updated": "2026-10-18T19:01:14Z",
@@ -21597,7 +21612,7 @@
      "store": "apple",
      "name": "Value Diary - Weight Loss Diet",
      "rating": 4.65,
-     "count": 3625,
+     "count": 3626,
      "genre": "Health & Fitness",
      "released": "2011-12-05T22:36:36Z",
      "updated": "2026-10-26T05:50:54Z",
@@ -21730,7 +21745,7 @@
      "store": "apple",
      "name": "Calorie Counter by fatsecret",
      "rating": 4.72,
-     "count": 15411,
+     "count": 15422,
      "genre": "Health & Fitness",
      "released": "2009-12-23T07:43:00Z",
      "updated": "2026-10-06T02:37:38Z",
@@ -21780,7 +21795,7 @@
      "store": "apple",
      "name": "HASfit: Home Workout Programs",
      "rating": 4.89,
-     "count": 7166,
+     "count": 7168,
      "genre": "Health & Fitness",
      "released": "2014-04-10T22:22:02Z",
      "updated": "2026-10-14T12:12:06Z",
@@ -21830,7 +21845,7 @@
      "store": "apple",
      "name": "BMI Calculator for Weight Loss",
      "rating": 4.71,
-     "count": 2081,
+     "count": 2084,
      "genre": "Health & Fitness",
      "released": "2013-05-31T16:19:51Z",
      "updated": "2023-05-29T01:32:51Z",
@@ -21844,7 +21859,7 @@
      "store": "apple",
      "name": "WeightDrop Weight Loss Tracker",
      "rating": 4.75,
-     "count": 4286,
+     "count": 4291,
      "genre": "Health & Fitness",
      "released": "2014-01-07T09:38:22Z",
      "updated": "2026-03-05T21:20:20Z",
@@ -21911,7 +21926,7 @@
      "store": "apple",
      "name": "Intermittent Fasting: PureFast",
      "rating": 4.8,
-     "count": 14913,
+     "count": 14911,
      "genre": "Health & Fitness",
      "released": "2014-03-12T23:13:40Z",
      "updated": "2025-10-24T18:00:40Z",
@@ -22093,6 +22108,20 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/6d/be/e8/6dbee817-6eaa-a254-7349-e2954ab50149/AppIcon-1x_U007emarketing-85-220-3.png/60x60bb.jpg",
      "price": "Free",
      "description": "Need to lose some weight? \n\nThis cool app gives you very easy weight loss tips as well as the best diet tips! \n\nThis app is entirely FREE! So be sure to check it out today! \n\nThese easy weight loss tip are referenced from the top experts in diet, exercise, beauty, health, food & nutrition. \n \nApp Features:\n\n- Save your favorite weight loss tips!\n- Share your favorite weight loss tips via Email!\n- SMS your favorite weight loss tips! \n- Paste your favorite weight loss tips into Facebook, Twitter, or Safari via copy/paste function!\n- Post your favorite weight loss tips directly to Facebook! \n\nRea"
+    },
+    "330573644": {
+     "id": "330573644",
+     "store": "apple",
+     "name": "Best Diet Tips & Simple Plan for Easy Weight Loss",
+     "rating": 4.17,
+     "count": 6,
+     "genre": "Medical",
+     "released": "2009-09-11T00:00:47Z",
+     "updated": "2017-05-29T20:58:50Z",
+     "url": "https://apps.apple.com/us/app/best-diet-tips-simple-plan-for-easy-weight-loss/id330573644",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/dc/4c/b2/dc4cb24d-e1d3-176d-48b2-44785174bb9a/pr_source.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Best Diet Tips!\n\nNeed to lose some weight?\n\nWant to improve your overall health and self-esteem? \n\nThis great app gives you the best and most practical diet tips, referenced from top experts in diet, food and nutrition.  \n\nApp Features:\n \n• Save your favorite diet tips!\n• Share your favorite diet tips via Email!\n• SMS your favorite diet tips!\n• Paste your favorite diet tips into Facebook, Twitter, or Safari via copy/paste function!\n \nEnjoy!\n\nGreat reviews from our loyal users:\n\n\"Great! This app is really good.  I love it!\"\n\n\"Amazing app!\"\n\n\"Great free app! This app is really what it says, a di"
     }
    },
    "terms": [
@@ -22110,7 +22139,7 @@
      "store": "apple",
      "name": "Xeela: Weight Loss & Fitness",
      "rating": 4.76,
-     "count": 2521,
+     "count": 2530,
      "genre": "Health & Fitness",
      "released": "2024-02-16T08:00:00Z",
      "updated": "2026-10-15T10:50:01Z",
@@ -22237,7 +22266,7 @@
      "store": "apple",
      "name": "Organic Dance: Weight Loss App",
      "rating": 4.15,
-     "count": 5413,
+     "count": 5412,
      "genre": "Health & Fitness",
      "released": "2020-11-02T08:00:00Z",
      "updated": "2026-08-27T08:03:37Z",
@@ -22327,7 +22356,7 @@
      "store": "apple",
      "name": "Foodvisor - AI Calorie Counter",
      "rating": 4.6,
-     "count": 18187,
+     "count": 18197,
      "genre": "Health & Fitness",
      "released": "2016-02-12T11:01:37Z",
      "updated": "2026-10-22T10:03:56Z",
@@ -22369,7 +22398,7 @@
      "store": "apple",
      "name": "Monitor Your Weight",
      "rating": 4.83,
-     "count": 23837,
+     "count": 23838,
      "genre": "Health & Fitness",
      "released": "2011-01-08T00:16:50Z",
      "updated": "2026-10-21T19:23:05Z",
@@ -22512,7 +22541,7 @@
      "store": "apple",
      "name": "Formula － weight loss diet app",
      "rating": 4.47,
-     "count": 35734,
+     "count": 35761,
      "genre": "Health & Fitness",
      "released": "2024-09-18T07:00:00Z",
      "updated": "2026-10-27T14:35:51Z",
@@ -22554,7 +22583,7 @@
      "store": "apple",
      "name": "SkinnyRx: Weight Loss & Health",
      "rating": 4.68,
-     "count": 528,
+     "count": 530,
      "genre": "Health & Fitness",
      "released": "2024-09-26T07:00:00Z",
      "updated": "2026-10-26T10:18:12Z",
@@ -22587,6 +22616,20 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/d2/ea/a6/d2eaa6c2-a427-ec5f-c197-f5d9355efdbb/AppIcon-1x_U007emarketing-0-10-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "If you're looking to lose belly fat, try these expert tips. This application for home fitness workouts is ideal for those who want to work out at home, lose weight, lose belly fat fast, feel the body tone up and get in shape.\n\nFor best results follow a healthy diet and do this fat burning workout at least 4 times a week and you will be amazed with the results. Start to lose weight and get the lean body you've always wanted with this total body workout, designed to burn fat and build lean muscle. This exercise routine is your best bet if you want to lose weight and burn fat fast.\n\nFeatures\n• Co"
+    },
+    "1448846628": {
+     "id": "1448846628",
+     "store": "apple",
+     "name": "Weight Loss Workout at Home",
+     "rating": 4.9,
+     "count": 10,
+     "genre": "Health & Fitness",
+     "released": "2019-01-09T01:13:12Z",
+     "updated": "2019-08-12T20:43:43Z",
+     "url": "https://apps.apple.com/us/app/weight-loss-workout-at-home/id1448846628",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/ca/25/ae/ca25ae0a-81ce-34c2-a282-d9802bbf9b55/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Do you want to lose weight in four weeks! This Application, lose weight and exercise in 30 days for men and women consists of a healthy diet to lose 10 kg of weight to reduce fat very quickly with 30 days of training\n\nHow to lose weight naturally:\n\nThe application gives you the best and faster diet for normal person, vegetarian, gout, and diverticulitis or for diabetes, tougher and quicker diet for weight loss with a healthy and balanced diet of slimming and drying foods divided into two systems\n\nWeight loss with a healthy and balanced diet of slimming and draining foods divided into two modes"
     }
    },
    "terms": [
@@ -22645,7 +22688,7 @@
      "store": "apple",
      "name": "Ivim Health",
      "rating": 4.69,
-     "count": 8159,
+     "count": 8163,
      "genre": "Medical",
      "released": "2022-11-16T08:00:00Z",
      "updated": "2026-10-21T13:22:09Z",
@@ -22801,7 +22844,7 @@
      "store": "apple",
      "name": "Arise: AI Food Calorie Counter",
      "rating": 4.63,
-     "count": 3394,
+     "count": 3397,
      "genre": "Health & Fitness",
      "released": "2012-11-03T00:03:50Z",
      "updated": "2026-10-01T09:17:23Z",
@@ -22866,7 +22909,7 @@
      "store": "apple",
      "name": "Perfect Body - Meal planner",
      "rating": 4.29,
-     "count": 6924,
+     "count": 6922,
      "genre": "Health & Fitness",
      "released": "2020-09-23T07:00:00Z",
      "updated": "2026-07-01T16:24:59Z",
@@ -22905,7 +22948,7 @@
      "store": "apple",
      "name": "Legacy FuturHealth",
      "rating": 4.71,
-     "count": 23363,
+     "count": 23364,
      "genre": "Medical",
      "released": "2024-01-12T08:00:00Z",
      "updated": "2026-08-19T10:51:36Z",
@@ -23021,7 +23064,7 @@
      "store": "apple",
      "name": "V Shred: Nutrition & Fitness",
      "rating": 4.73,
-     "count": 107233,
+     "count": 107251,
      "genre": "Health & Fitness",
      "released": "2018-12-23T04:22:01Z",
      "updated": "2026-10-12T20:17:27Z",
@@ -23149,7 +23192,7 @@
      "store": "apple",
      "name": "Weight Loss Walking Step Count",
      "rating": 4.57,
-     "count": 12196,
+     "count": 12194,
      "genre": "Health & Fitness",
      "released": "2018-01-20T20:21:43Z",
      "updated": "2026-01-19T22:08:16Z",
@@ -23173,8 +23216,8 @@
      "id": "1433981357",
      "store": "apple",
      "name": "Munch: Healthy Weight Loss",
-     "rating": 4.38,
-     "count": 255,
+     "rating": 4.37,
+     "count": 254,
      "genre": "Health & Fitness",
      "released": "2018-09-11T21:24:10Z",
      "updated": "2019-04-24T23:25:18Z",
@@ -23199,7 +23242,7 @@
      "store": "apple",
      "name": "BodyFast: Intermittent Fasting",
      "rating": 4.7,
-     "count": 146303,
+     "count": 146311,
      "genre": "Health & Fitness",
      "released": "2018-01-22T16:22:34Z",
      "updated": "2026-10-25T12:40:29Z",
@@ -23241,7 +23284,7 @@
      "store": "apple",
      "name": "Weight Loss Simple Tracker App",
      "rating": 4.7,
-     "count": 2200,
+     "count": 2202,
      "genre": "Health & Fitness",
      "released": "2017-04-29T06:52:18Z",
      "updated": "2026-09-28T11:19:55Z",
@@ -23266,7 +23309,7 @@
      "store": "apple",
      "name": "MyBody: Health & Weight Loss",
      "rating": 4.08,
-     "count": 1285,
+     "count": 1286,
      "genre": "Health & Fitness",
      "released": "2020-07-14T07:00:00Z",
      "updated": "2026-10-05T06:37:08Z",
@@ -23361,7 +23404,7 @@
    "id": "1368434055",
    "company": "Rumble Enterprise",
    "developer_url": "https://apps.apple.com/us/developer/rumble/id1368434055?uo=4",
-   "website": "",
+   "website": "https://www.lauruss.com",
    "apps": {
     "1377026538": {
      "id": "1377026538",
@@ -23376,6 +23419,20 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/17/2d/0d/172d0d55-f59d-c118-7355-0b8a132ae62c/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/60x60bb.jpg",
      "price": "Free",
      "description": "Do you want to lose weight fast and efficiently? Do you want to do it at home with an app, without gym or hard workouts? Then, take on the 30 Day Weight Loss Challenge! Specially designed for women who are looking to transform their body in an easy and safe way within a time span of just a month.\n\nStop looking for workouts to lose weight and weight loss training plans for women! Just download this simple workout app and let the transformation begin.\n\nPICK THE RIGHT LEVEL & START\nThe women home workout plan for weight loss app consists of 6 different levels of weight loss program. You can start"
+    },
+    "1544243030": {
+     "id": "1544243030",
+     "store": "apple",
+     "name": "Walking For Weight Loss App",
+     "rating": 4.92,
+     "count": 12,
+     "genre": "Health & Fitness",
+     "released": "2021-03-06T08:00:00Z",
+     "updated": "2025-12-20T19:26:29Z",
+     "url": "https://apps.apple.com/us/app/walking-for-weight-loss-app/id1544243030",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/75/e1/0c75e18f-1608-fae3-4e6d-2c6995a128c7/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Walking is the best possible exercise which anyone can do, at anytime, anywhere, without using any equipment. It helps to keep weight gain away. Walk smart with fun and lose weight your chubby fat  with a powerful walking for weight loss app with a walking workout plan to make you stronger enough and 100’s of diet recipes with 5 types of meal plan. It is a virtual run coach, GPS run tracker, distance and speed tracker to make you motivated to walk everyday and start your fitness activity.\n\nAre you walking to lose weight? then this app is the perfect solution for you It provides intensive inter"
     }
    },
    "terms": [
@@ -23536,9 +23593,9 @@
      "count": 5976,
      "genre": "Health & Fitness",
      "released": "2014-12-17T18:53:36Z",
-     "updated": "2026-10-07T08:18:13Z",
+     "updated": "2026-10-29T05:14:52Z",
      "url": "https://apps.apple.com/us/app/healthify-ai-calorie-tracker/id943712366",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/7e/1b/537e1b85-e5c1-56fc-9e5a-be9470b08bc4/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/85/c3/d285c353-c25d-5bc3-fa36-69fadcb9ad19/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Healthify is trusted by over 40 million users globally to simplify their health journey. Whether your goal is weight loss, improved nutrition, or enhanced fitness, Healthify provides you with world class technology & services to support you make data driven decisions through every step of the way. With Healthify you can\n\n- Track Calories with photo or voice\n- Log Meals\n- Get personalized AI Insights & actionables\n- Track Water\n- Track Sleep\n- Track Weight\n- Track Workouts & Activity\n\nHealthify uses image based smart AI recognition technology to bring you the convenience of tracking calories an"
     }
@@ -23583,12 +23640,12 @@
      "store": "apple",
      "name": "AI Calorie Counter - Appediet",
      "rating": 4.78,
-     "count": 47573,
+     "count": 47572,
      "genre": "Health & Fitness",
      "released": "2023-08-21T07:00:00Z",
-     "updated": "2026-10-16T21:55:51Z",
+     "updated": "2026-10-29T19:16:58Z",
      "url": "https://apps.apple.com/us/app/ai-calorie-counter-appediet/id6450329545",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/32/19/e2321964-f792-3ee9-3721-0ac8617043d1/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/df/e5/35dfe56d-3032-a148-a5e3-b09b7c80ec52/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "If you are looking for a calorie counter with a barcode scanner, food scanner, and macros tracker, or effective diet plans that fit your lifestyle, including intermittent fasting, Appediet is your answer. Sleek, smart, and simple, it's the ultimate personal assistant for weight loss, diet, and nutrition.\n\nDIFFERENT FROM OTHER DIET APPS\n• Appediet is simple, straightforward, and packed with generous features. \n• Snap any food photo and get calories & nutritional breakdown;\n• Lightning-fast food entry with a barcode scanner - log foods faster than anywhere else\n• The only diet app with an accura"
     }
@@ -23881,7 +23938,7 @@
      "store": "apple",
      "name": "Volt: Strength Training Plans",
      "rating": 4.72,
-     "count": 16925,
+     "count": 16924,
      "genre": "Health & Fitness",
      "released": "2017-02-21T22:09:03Z",
      "updated": "2026-10-20T18:42:53Z",
@@ -23932,7 +23989,7 @@
      "store": "apple",
      "name": "Dancefitme: Fun weight loss",
      "rating": 4.59,
-     "count": 18217,
+     "count": 18218,
      "genre": "Health & Fitness",
      "released": "2022-12-10T08:00:00Z",
      "updated": "2026-10-26T01:03:20Z",
@@ -24240,7 +24297,7 @@
      "store": "apple",
      "name": "SHRED: Gym & Home Workouts",
      "rating": 4.82,
-     "count": 40386,
+     "count": 40385,
      "genre": "Health & Fitness",
      "released": "2018-11-27T08:16:52Z",
      "updated": "2026-10-23T23:59:20Z",
@@ -24265,7 +24322,7 @@
      "store": "apple",
      "name": "DDP Yoga Fitness & Motivation",
      "rating": 4.92,
-     "count": 14905,
+     "count": 14918,
      "genre": "Health & Fitness",
      "released": "2015-12-11T15:48:47Z",
      "updated": "2026-10-26T10:47:34Z",
@@ -24290,7 +24347,7 @@
      "store": "apple",
      "name": "Yoga for Weight Loss | Nandy",
      "rating": 4.5,
-     "count": 5188,
+     "count": 5189,
      "genre": "Health & Fitness",
      "released": "2020-08-04T07:00:00Z",
      "updated": "2024-07-02T18:18:31Z",
@@ -24492,7 +24549,7 @@
      "store": "apple",
      "name": "Fasting + Intermittent Fasting",
      "rating": 4.83,
-     "count": 6826,
+     "count": 6825,
      "genre": "Health & Fitness",
      "released": "2019-03-04T22:30:56Z",
      "updated": "2025-06-28T19:45:26Z",
@@ -24995,7 +25052,7 @@
      "store": "apple",
      "name": "Walking & Weight Loss Tracker",
      "rating": 3.19,
-     "count": 1785,
+     "count": 1784,
      "genre": "Health & Fitness",
      "released": "2021-07-31T07:00:00Z",
      "updated": "2025-05-16T07:05:16Z",
@@ -25187,7 +25244,7 @@
      "store": "apple",
      "name": "Weigh In: Weight Tracker",
      "rating": 4.71,
-     "count": 623,
+     "count": 624,
      "genre": "Health & Fitness",
      "released": "2016-04-14T19:27:01Z",
      "updated": "2026-09-23T16:53:11Z",
@@ -57542,14 +57599,14 @@
    "total_ratings": 12,
    "first_released": "2017-06-17T19:23:37Z",
    "last_updated": "2025-10-28T16:52:01Z",
-   "score": 58,
+   "score": 54,
    "solo": false,
    "why": [
     "+24 worst app rated 2.0★",
     "+14 apps mention wellness / coaching, patient care",
     "+8 12 ratings (very small user base)",
     "+3 first app launched 9.4 yrs ago",
-    "+10 last update 1.0 yrs ago"
+    "+5 last update 1.0 yrs ago"
    ]
   },
   "542028798": {
@@ -64848,7 +64905,8 @@
     }
    },
    "terms": [
-    "med spa"
+    "med spa",
+    "telehealth"
    ]
   },
   "1670192872": {
@@ -69810,7 +69868,8 @@
     }
    },
    "terms": [
-    "nutrition coaching"
+    "nutrition coaching",
+    "weight loss program"
    ]
   },
   "1594262646": {
@@ -80088,10 +80147,25 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/cc/ea/75ccead8-7b46-5ff1-5c83-26f6db1f773f/AppIcon-psychotherapy-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Introducing \"AI Psychotherapy,\" a pioneering app that redefines mental health care through cutting-edge AI technology. Designed to provide personalized support, AI Psychotherapy is here to help you navigate life's challenges, manage stress, anxiety, or depression, and offer guidance when you need it most.\n\nAt the core of AI Psychotherapy is its advanced AI system, developed to understand and adapt to your individual mental health needs. This app goes beyond simple mental health tracking; it delivers real-time, personalized support based on your conversations and emotional state, helping you fe"
+    },
+    "6639612156": {
+     "id": "6639612156",
+     "store": "apple",
+     "name": "AI Weight Loss Coach",
+     "rating": 4.59,
+     "count": 17,
+     "genre": "Health & Fitness",
+     "released": "2024-10-15T07:00:00Z",
+     "updated": "2024-10-15T18:23:00Z",
+     "url": "https://apps.apple.com/us/app/ai-weight-loss-coach/id6639612156",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/0d/92/7a0d9256-b7d6-8111-2175-b913610bb949/AppIcon-weightLoss-0-0-1x_U007emarketing-0-10-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Introducing AI Weight Loss Coach, the innovative app designed to transform your weight loss journey with personalized, AI-driven support. Whether you're aiming to shed a few pounds, maintain a healthy lifestyle, or simply need guidance on making smarter nutritional choices, AI Weight Loss Coach provides a tailored solution to meet your specific goals.  \n\nAt its core, AI Weight Loss Coach harnesses advanced AI technology to understand your unique body, habits, and preferences. It's not just about tracking your weight or calories—it’s about delivering meaningful, customized advice and motivation"
     }
    },
    "terms": [
-    "mental health therapy"
+    "mental health therapy",
+    "weight loss program"
    ]
   },
   "1541211653": {
@@ -95228,10 +95302,25 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/11/84/5c/11845c0b-745d-2d27-16cf-76bd51fe2be1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
      "price": "Free",
      "description": "Meet your very own Patronus - personal mental health guide.\nThe simple path to a more holistic lifestyle.\n\nDo you struggle with some of your feelings and thoughts? Do you want to improve your emotional wellbeing? Patronus is here to help you achieve deep relaxation and keep resourceful state of mind, to be productive and inspired every day of your life.\n\nStart your journey to mindful living and improve your mental health with Patronus: your personal course awaits!\n\nPatronus focuses on each aspect of your wellbeing and uses individual approach to various essences of mental health. Patronus offe"
+    },
+    "1481864197": {
+     "id": "1481864197",
+     "store": "apple",
+     "name": "Youth: Home Workout & Fitness",
+     "rating": 4.53,
+     "count": 2529,
+     "genre": "Health & Fitness",
+     "released": "2019-10-06T07:00:00Z",
+     "updated": "2026-04-02T11:13:40Z",
+     "url": "https://apps.apple.com/us/app/youth-home-workout-fitness/id1481864197",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/ec/86/c7ec8631-e1cd-2939-fb40-2aba2c8de21b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "All you need to stay fit & young in one app! Complex approach to rejuvenation with body age reduction tracking, personalised programs and multiple handy features packed together.\n\nWant to look 10 years younger? Youth makes it simple – we provide you with an all-in-one solution for body age reduction, including smart body age tracking, healthy habits, clever guidance, tons of content, and many other features! \n\nEnjoy targeted at-home workouts for all problem areas of your body! Dozens of programs and hundreds of thoroughly created and combined exercises are waiting.\n\nTry our back pain relief pr"
     }
    },
    "terms": [
-    "mental health therapy"
+    "mental health therapy",
+    "weight loss program"
    ]
   },
   "1473155604": {
@@ -97034,7 +97123,7 @@
      "store": "apple",
      "name": "Weight Loss & Fitness in 5 min",
      "rating": 4.68,
-     "count": 2337,
+     "count": 2338,
      "genre": "Health & Fitness",
      "released": "2017-12-11T21:58:25Z",
      "updated": "2026-10-24T18:32:51Z",
@@ -97045,7 +97134,8 @@
     }
    },
    "terms": [
-    "women's health"
+    "women's health",
+    "weight loss program"
    ]
   },
   "1841876903": {
@@ -98028,7 +98118,7 @@
      "store": "apple",
      "name": "Solv: Easy Same-Day Healthcare",
      "rating": 4.88,
-     "count": 26451,
+     "count": 26450,
      "genre": "Medical",
      "released": "2019-08-23T19:46:26Z",
      "updated": "2023-01-09T20:06:57Z",
@@ -98053,7 +98143,7 @@
      "store": "apple",
      "name": "pMD",
      "rating": 4.79,
-     "count": 7786,
+     "count": 7789,
      "genre": "Medical",
      "released": "2008-12-11T08:00:00Z",
      "updated": "2026-10-23T21:33:47Z",
@@ -99319,6 +99409,1026 @@
    "terms": [
     "mental health therapy"
    ]
+  },
+  "1821660381": {
+   "id": "1821660381",
+   "company": "Jeppe Falk Leth",
+   "developer_url": "https://apps.apple.com/us/developer/jeppe-falk-leth/id1821660381?uo=4",
+   "website": "https://runnr.dk",
+   "apps": {
+    "6779572184": {
+     "id": "6779572184",
+     "store": "apple",
+     "name": "Running Route - Runnr",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-06-14T07:00:00Z",
+     "updated": "2026-10-05T18:38:11Z",
+     "url": "https://apps.apple.com/us/app/running-route-runnr/id6779572184",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/b6/24/3db624c3-2264-f604-0ef0-bd112de7cb58/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "A new running route in 10 seconds.\n\nRunnr helps you want to run. Pick a distance, tap generate, and get a unique loop from wherever you are. No planning. Just a new route.\n\nFor you if you are tired of the same old loop and want more variety.\n\nHow it works:\n1. Pick a distance - 3, 5, 10, 15 km, half marathon, marathon, your own or random\n2. Tap generate - Runnr builds a loop from your position\n3. Run - follow the route live on the map, with voice guidance, Apple Watch or GPX\n\nNEW: SHARE YOUR ROUTES, RUN OTHER PEOPLE'S\nRunnr now has a feed of routes made by other runners. Save them and run them "
+    }
+   },
+   "terms": [
+    "telehealth"
+   ]
+  },
+  "1273268002": {
+   "id": "1273268002",
+   "company": "CADUCEUS OCCUPATIONAL MEDICINE LLC",
+   "developer_url": "https://apps.apple.com/us/developer/caduceus-usa/id1273268002?uo=4",
+   "website": "https://www.caduceususa.com",
+   "apps": {
+    "1401949708": {
+     "id": "1401949708",
+     "store": "apple",
+     "name": "Caduceus TeleMed",
+     "rating": 4.56,
+     "count": 9,
+     "genre": "Medical",
+     "released": "2018-07-30T17:32:56Z",
+     "updated": "2026-08-05T05:44:46Z",
+     "url": "https://apps.apple.com/us/app/caduceus-telemed/id1401949708",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/f6/b4/baf6b429-7706-e5a8-682a-619763401708/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "HAVE A DOCTOR’ VISIT ANYTIME, FROM ANY PLACE, WITHIN MINUTES.\n\nCaduceus TeleMed provides occupational health services via a smartphone or tablet.\n\nOCCUPATIONAL ders diagnose, determine treatment and as needed prescribe medications, MRIs, etc. for medical issues including:\n\n      •   Injuries\n      •   Cuts\n      •   Burns\n      •   Insect bites\n      •   Sprains\n      •   Strains\n      •   Exposures\n\nHOW DOES IT WORK? MEDICINE AT YOUR CONVENIENCE!\n\nCaduceus TeleMed provides\n\nRequest a visit – Open the TeleMed app or call 1-542-TELEMED\n\nTalk to a doctor – Connect to a Caduceus TeleMed provider "
+    }
+   },
+   "terms": [
+    "telehealth",
+    "telemedicine"
+   ]
+  },
+  "1544762319": {
+   "id": "1544762319",
+   "company": "WASPITO INC.",
+   "developer_url": "https://apps.apple.com/us/developer/waspito-inc/id1544762319?uo=4",
+   "website": "",
+   "apps": {
+    "1544762317": {
+     "id": "1544762317",
+     "store": "apple",
+     "name": "Waspito",
+     "rating": 4.56,
+     "count": 27,
+     "genre": "Health & Fitness",
+     "released": "2021-02-02T08:00:00Z",
+     "updated": "2026-04-11T17:46:11Z",
+     "url": "https://apps.apple.com/us/app/waspito/id1544762317",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/1f/d6/9e1fd657-a2ca-84b5-1d70-d17257cb1a96/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Waspito is a telehealth app. We pull the whole African healthcare ecosystem into one platform with an objective to make basic healthcare more accessible and affordable across the continent. \nSelect from a pool of thousands of certified medical Doctors from different specialties and have a Video call visit to get the care that you need from where ever you may be. \nReceive your prescription on your phone as a pdf that you can print anytime or just use the prescription code at any of our partner pharmacies where they can download your prescription from our system and then serve you.\nGet health ti"
+    }
+   },
+   "terms": [
+    "telehealth",
+    "telemedicine"
+   ]
+  },
+  "1776214443": {
+   "id": "1776214443",
+   "company": "Georgia Mountains Community Services",
+   "developer_url": "https://apps.apple.com/us/developer/avita-community-partners/id1776214443?uo=4",
+   "website": "",
+   "apps": {
+    "6737422542": {
+     "id": "6737422542",
+     "store": "apple",
+     "name": "Avita Client Portal",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2024-10-30T07:00:00Z",
+     "updated": "2026-06-19T23:39:13Z",
+     "url": "https://apps.apple.com/us/app/avita-client-portal/id6737422542",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/e5/62/a4e56201-3a31-4b98-af08-0f9659d69b58/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "We’re thrilled to introduce the Avita Client Portal, designed with you in mind. This platform offers clients on-demand access to their care. Here’s what you can expect from our all-in-one app:\n\nEffortless Appointment Management\nEasily schedule or cancel appointments with a user-friendly interface that simplifies managing your care.\n\nTimely Appointment Reminders\nStay on track with timely reminders to ensure you never miss an appointment with your provider.\n\nTelehealth Video Access\nSecurely connect to telehealth visits with direct access right from the app.\n\nDocument Management Made Easy\nSafely "
+    }
+   },
+   "terms": [
+    "telehealth"
+   ]
+  },
+  "1656186719": {
+   "id": "1656186719",
+   "company": "Venture Startups Pty Ltd",
+   "developer_url": "https://apps.apple.com/us/developer/venture-startups-pty-ltd/id1656186719?uo=4",
+   "website": "https://updoc.com.au",
+   "apps": {
+    "6444691493": {
+     "id": "6444691493",
+     "store": "apple",
+     "name": "Updoc - Same-day Healthcare",
+     "rating": 4.38,
+     "count": 16,
+     "genre": "Medical",
+     "released": "2023-01-19T08:00:00Z",
+     "updated": "2026-10-21T18:59:56Z",
+     "url": "https://apps.apple.com/us/app/updoc-same-day-healthcare/id6444691493",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/cf/e0/a8cfe097-499c-8a45-feb8-09e4b9834b4b/AppIcon-0-0-1x_U007epad-0-10-0-0-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Updoc: Your Digital Health Partner\n\nDiscover a new era of healthcare with Updoc, the premier online health platform designed to bring Australian Health Practitioners right to your fingertips. Experience the future of medical consultations with confidentiality, convenience, and comprehensive care that over 200,000 Australians already trust.\n\n\nWhy Updoc?\n\nConfidential Consultations: Engage in private health discussions with certified Australian Health Practitioners, ensuring your health information remains secure.\n\nEffortless Access: Say goodbye to waiting rooms. Updoc offers immediate access to"
+    }
+   },
+   "terms": [
+    "telehealth"
+   ]
+  },
+  "1289880515": {
+   "id": "1289880515",
+   "company": "JOHNSON'S PHARMACY",
+   "developer_url": "https://apps.apple.com/us/developer/johnsons-pharmacy/id1289880515?uo=4",
+   "website": "https://johnsonsrxbonifay.com/",
+   "apps": {
+    "1289880516": {
+     "id": "1289880516",
+     "store": "apple",
+     "name": "Johnsons Pharmacy",
+     "rating": 5,
+     "count": 2,
+     "genre": "Medical",
+     "released": "2017-10-13T01:41:55Z",
+     "updated": "2025-02-27T22:45:41Z",
+     "url": "https://apps.apple.com/us/app/johnsons-pharmacy/id1289880516",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/c6/a2/f1c6a2e7-30d7-e427-b22d-38337712a39c/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "At Johnsons Pharmacy, your time and health is important to us! We make it convenient for you to access your prescriptions while on the go and here's how:\n\nApp Features:\n- Manage your family's prescriptions under one login account.\n- View important information about your medication — uses, side effects, precautions, etc.\n- Request a refill without logging in through the Quick Refill feature.\n- Search through our extensive drug library better understand your medication.\n- Read up-to-date health related articles and videos.\n- Get directions to our store and view store hours."
+    }
+   },
+   "terms": [
+    "online pharmacy"
+   ]
+  },
+  "1429350881": {
+   "id": "1429350881",
+   "company": "G&G RX, INC.",
+   "developer_url": "https://apps.apple.com/us/developer/g-g-pharmacy/id1429350881?uo=4",
+   "website": "https://servicedrugpharmacy.com",
+   "apps": {
+    "6467016922": {
+     "id": "6467016922",
+     "store": "apple",
+     "name": "Service Drug Pharmacy",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2023-09-20T07:00:00Z",
+     "updated": "2025-02-26T05:16:07Z",
+     "url": "https://apps.apple.com/us/app/service-drug-pharmacy/id6467016922",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/1b/bb/8f1bbbe9-f1e0-6a99-0436-7ffece6145a2/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "At Service Drug Pharmacy, your time and health is important to us! We make it convenient for you to access your prescriptions while on the go and here's how:\n\n  App Features:\n\t- Manage your family's prescriptions under ONE account.\n  \t- View important information about your medication — uses, side effects, precautions, etc.\n  \t- Request a refill without logging in through the Quick Refill feature.\n  \t- Search through our extensive drug library better understand your medication.\n  \t- Read up-to-date health related articles and videos.\n  \t- Get directions to our store and view store hours."
+    }
+   },
+   "terms": [
+    "online pharmacy"
+   ]
+  },
+  "1778269563": {
+   "id": "1778269563",
+   "company": "BUNCH PHARMACY, INC.",
+   "developer_url": "https://apps.apple.com/us/developer/bunch-pharmacy-rx/id1778269563?uo=4",
+   "website": "",
+   "apps": {
+    "6737850817": {
+     "id": "6737850817",
+     "store": "apple",
+     "name": "Bunch Pharmacy Rx",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2024-11-06T08:00:00Z",
+     "updated": "2025-02-28T09:23:45Z",
+     "url": "https://apps.apple.com/us/app/bunch-pharmacy-rx/id6737850817",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/c2/83/b0c28358-433d-e001-0630-631244350a8e/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "At Bunch Pharmacy, your time and health is important to us! We make it convenient for you to access your prescriptions while on the go and here's how:\n\n  App Features:\n\t- Manage your family's prescriptions under ONE account.\n  \t- View important information about your medication — uses, side effects, precautions, etc.\n  \t- Request a refill without logging in through the Quick Refill feature.\n  \t- Search through our extensive drug library better understand your medication.\n  \t- Read up-to-date health related articles and videos.\n  \t- Get directions to our store and view store hours."
+    }
+   },
+   "terms": [
+    "online pharmacy"
+   ]
+  },
+  "1207723000": {
+   "id": "1207723000",
+   "company": "Drinn Virtual Clinic Private Limited",
+   "developer_url": "https://apps.apple.com/us/developer/drinn/id1207723000?uo=4",
+   "website": "",
+   "apps": {
+    "1635525239": {
+     "id": "1635525239",
+     "store": "apple",
+     "name": "Metromed Pharmacy by Drinn",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2022-07-21T07:00:00Z",
+     "updated": "2024-06-24T16:09:09Z",
+     "url": "https://apps.apple.com/us/app/metromed-pharmacy-by-drinn/id1635525239",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/a1/7a/cea17a90-f0d9-29a6-2619-44116d02cb10/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Using Metromed Pharmacy by Drinn App, users can order medicine by uploading prescriptions."
+    }
+   },
+   "terms": [
+    "online pharmacy"
+   ]
+  },
+  "1436254266": {
+   "id": "1436254266",
+   "company": "Quick Rx Drugs, Inc.",
+   "developer_url": "https://apps.apple.com/us/developer/quick-rx-drugs/id1436254266?uo=4",
+   "website": "https://www.digitalpharmacist.com/",
+   "apps": {
+    "1153720888": {
+     "id": "1153720888",
+     "store": "apple",
+     "name": "Quick Rx Drugs",
+     "rating": 4.36,
+     "count": 73,
+     "genre": "Health & Fitness",
+     "released": "2016-09-18T05:35:57Z",
+     "updated": "2020-01-09T18:56:55Z",
+     "url": "https://apps.apple.com/us/app/quick-rx-drugs/id1153720888",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/33/fe/8a/33fe8a0a-17c7-583b-61b5-63a5729a7918/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The Quick Rx Drugs app allows you and your family to securely communicate with your local pharmacy.  Refill your prescriptions with one click, get refill reminders, get discounts at your local pharmacy, get savings on brand drugs and access Pharmacist written pages that help you understand your condition or medications. \n\nOur App Features: \n \n* HIPAA secure \n* Easily refill your prescriptions at your local independent pharmacy \n* Access a history of your medications and Rx numbers \n* Set reminders when to refill your medications \n* Set reminders when to take your medications \n* Save up to $450"
+    }
+   },
+   "terms": [
+    "online pharmacy"
+   ]
+  },
+  "1816777155": {
+   "id": "1816777155",
+   "company": "THINK IT FUTURE S.R.L.",
+   "developer_url": "https://apps.apple.com/us/developer/think-it-future-s-r-l/id1816777155?uo=4",
+   "website": "https://tilly.day",
+   "apps": {
+    "6808597407": {
+     "id": "6808597407",
+     "store": "apple",
+     "name": "Tilly: GLP-1 & Protein Tracker",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-09-14T07:00:00Z",
+     "updated": "2026-10-29T16:09:32Z",
+     "url": "https://apps.apple.com/us/app/tilly-glp-1-protein-tracker/id6808597407",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/f5/ae/0cf5ae64-4f80-5a23-d406-355e83b4bdff/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Tilly is a free GLP-1 tracker for iPhone, built around protein. Type a meal the way you’d say it, “two eggs and toast”, and Tilly counts its protein toward your daily target, next to your shot or pill, your side effects and your weight. For people on Ozempic, Wegovy, Mounjaro, Zepbound, the Wegovy pill or Foundayo, and for anyone who wants to log meals without counting by hand. In English, German, French and Romanian.\n\nWHAT’S FREE\nMeals by typing, the barcode scanner, the protein ring, Trends, the doctor report and Apple Health. Three meals by photo, three questions to Tilly and five meals by "
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "1810754507": {
+   "id": "1810754507",
+   "company": "Edo Reshef",
+   "developer_url": "https://apps.apple.com/us/developer/edo-reshef/id1810754507?uo=4",
+   "website": "",
+   "apps": {
+    "6745103917": {
+     "id": "6745103917",
+     "store": "apple",
+     "name": "GLP-1 Clicker",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2025-05-08T07:00:00Z",
+     "updated": "2025-05-13T11:57:04Z",
+     "url": "https://apps.apple.com/us/app/glp-1-clicker/id6745103917",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/f7/4e/56f74e38-cc90-a8c7-aa07-2ebed69ccfef/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Accurate GLP-1 dose tracking — powered by sound.\n\nGLP-1 Clicker helps you count injection pen clicks by listening to the sound your pen makes as you dial the dose. Designed for use with Wegovy, Ozempic®, and other GLP-1 pens, the app turns your phone into a reliable click counter.\n\nPerfect for anyone micro-dosing, titrating slowly, or aiming to get more out of each pen — all without having to manually track clicks.\nHow it works:\n\n    Place your phone near the pen while dialing\n\n    The app listens and detects the click sounds\n\n    Visual counter shows your dose as you go\n\n    Hit your target d"
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "1847440401": {
+   "id": "1847440401",
+   "company": "Tres Chorizos Limited",
+   "developer_url": "https://apps.apple.com/us/developer/tres-chorizos-limited/id1847440401?uo=4",
+   "website": "https://www.doses.app",
+   "apps": {
+    "6754257278": {
+     "id": "6754257278",
+     "store": "apple",
+     "name": "Doses App - GLP-1 Tracker",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2025-12-06T08:00:00Z",
+     "updated": "2026-03-10T01:33:05Z",
+     "url": "https://apps.apple.com/us/app/doses-app-glp-1-tracker/id6754257278",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/59/8d/ad598d47-b049-b441-dcbe-1a0dc1fd3546/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Doses is a simple, and effective way to track your GLP-1 medication journey. Whether you're taking Mounjaro, Ozempic, Wegovy, or another GLP-1 medication, Doses helps you stay on track with your treatment plan and monitor your progress over time.\n\nKEY FEATURES\n\nSmart Dose Reminders\nNever miss a dose with intelligent push notifications. Get timely reminders when it's time to take your medication, with details about your dose amount and medication name. Tap notifications directly to mark your dose as taken, making it effortless to stay on schedule.\n\nHealthKit Integration\nSeamlessly sync your wei"
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "6777413834": {
+   "id": "6777413834",
+   "company": "Smart IT US Inc.",
+   "developer_url": "https://apps.apple.com/us/developer/smart-it-us-inc/id6777413834?uo=4",
+   "website": "",
+   "apps": {
+    "6813433792": {
+     "id": "6813433792",
+     "store": "apple",
+     "name": "GLP 1 Tracker: Forwell",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-10-29T07:00:00Z",
+     "updated": "2026-10-29T17:49:25Z",
+     "url": "https://apps.apple.com/us/app/glp-1-tracker-forwell/id6813433792",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/11/86/8d118631-9bc2-3dcc-59a9-68d5cc8469e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Forwell is a free GLP-1 tracker for your weekly shot: log a dose in two taps or just say it, rotate injection sites automatically, and see how side effects line up with your dose cycle.\n\nONE TIMELINE FOR YOUR WEEKLY SHOT\nOn a weekly shot, every day of the week feels different. Day 2 might be nausea, day 6 might be food noise coming back. Forwell keeps it all in one journal, with every entry marked with the day of your dose cycle.\n\nLOG YOUR SHOT IN TWO TAPS\nToday, now, your current dose and the next injection site are filled in for you. Change anything, or just save. Forgot to log a dose? Add i"
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "1525345716": {
+   "id": "1525345716",
+   "company": "Strong Fitness PTE Limited",
+   "developer_url": "https://apps.apple.com/us/developer/strong-fitness-pte-limited/id1525345716?uo=4",
+   "website": "https://strong.app/",
+   "apps": {
+    "464254577": {
+     "id": "464254577",
+     "store": "apple",
+     "name": "Strong Workout Tracker Gym Log",
+     "rating": 4.86,
+     "count": 108535,
+     "genre": "Health & Fitness",
+     "released": "2011-09-15T23:36:10Z",
+     "updated": "2026-10-08T07:30:06Z",
+     "url": "https://apps.apple.com/us/app/strong-workout-tracker-gym-log/id464254577",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/54/be/8d54beea-e0d4-0691-ce75-176226a03458/AppIcon_PROD-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The most intuitive workout and exercise tracker for any fitness routine.\n\nStrong is the simplest and most intuitive workout tracker, designed to help you get better results from your workouts. Whether you want to gain strength or just stay healthy, join over 1.2 million people who have downloaded Strong to stay on track in the gym.\n\n“I’d suggest downloading the “Strong” app before you return to the gym. It’s that good” - CNBC\n“with apps like Strong, working out feels more like a game” - The Verge\n“I have used nearly every logging app since the App Store launched. This is the best bar none”\n“I "
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1481315768": {
+   "id": "1481315768",
+   "company": "Shenzhen Xindie Technology Co.,Ltd.",
+   "developer_url": "https://apps.apple.com/us/developer/shenzhen-xindie-technology-co-ltd/id1481315768?uo=4",
+   "website": "",
+   "apps": {
+    "6739873948": {
+     "id": "6739873948",
+     "store": "apple",
+     "name": "WeightWell:Weight Loss Tracker",
+     "rating": 4.88,
+     "count": 17,
+     "genre": "Health & Fitness",
+     "released": "2025-01-21T08:00:00Z",
+     "updated": "2026-08-30T21:48:18Z",
+     "url": "https://apps.apple.com/us/app/weightwell-weight-loss-tracker/id6739873948",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/45/a0/c645a08c-6c09-3b45-0669-352444f1b41d/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Start Your Weight Loss Journey with Joy!\nTransform your weight management journey with WeightWell - the intelligent companion that makes tracking your progress both effortless and enjoyable. Trusted by over 10 million users worldwide with a remarkable 4.9-star rating.\nWhy Choose WeightWell:\nSmart Weight Tracking\n- Crystal-clear number pad for precise weight logging\n- Support multiple daily records in kg/lb\n- Capture your transformation with progress photos\n- Seamless Apple Health integration\nVisualize Your Success\n- Dynamic progress tracking with interactive charts\n- Comprehensive weight calen"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1720240328": {
+   "id": "1720240328",
+   "company": "ERAKULIS LDA",
+   "developer_url": "https://apps.apple.com/us/developer/erakulis/id1720240328?uo=4",
+   "website": "https://erakulis.com/en-GB/",
+   "apps": {
+    "6473955690": {
+     "id": "6473955690",
+     "store": "apple",
+     "name": "ERAKULIS®: Weight Loss",
+     "rating": 3.89,
+     "count": 36,
+     "genre": "Health & Fitness",
+     "released": "2024-04-03T07:00:00Z",
+     "updated": "2026-10-28T17:22:27Z",
+     "url": "https://apps.apple.com/us/app/erakulis-weight-loss/id6473955690",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/66/74/7d667452-e8d3-23b1-82dd-af0828abd47b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Erakulis is an AI-powered weight management app with a strong focus on weight loss. It helps you become the best version of yourself by improving your nutrition habits, activity, and sleep through personalised plans, daily tracking, and an AI assistant. The app combines automated guidance with feedback loops and, on higher tiers, access to real human professionals.\n\nPersonalised plans\nA nutrition plan built around your calorie and macro goals, your preferences, and your allergies — with real recipes and a ready-made grocery list. Plus a personalised activity plan with playable workouts.\n\nEffor"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1792244366": {
+   "id": "1792244366",
+   "company": "Total Weight Loss LLC",
+   "developer_url": "https://apps.apple.com/us/developer/total-weight-loss/id1792244366?uo=4",
+   "website": "https://www.totalweightlosscookbook.com/",
+   "apps": {
+    "6740921664": {
+     "id": "6740921664",
+     "store": "apple",
+     "name": "Total Weight Loss",
+     "rating": 4.83,
+     "count": 460,
+     "genre": "Health & Fitness",
+     "released": "2025-06-12T07:00:00Z",
+     "updated": "2026-10-29T18:35:00Z",
+     "url": "https://apps.apple.com/us/app/total-weight-loss/id6740921664",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/bb/6d/eabb6d25-7946-1391-8ba3-706a0d4985fe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The Total Weight Loss App is your all-in-one solution for managing your health and fitness goals. Designed for individuals seeking to lose weight, eat healthier, or optimize their workouts, this app combines cutting-edge features with an intuitive interface to help you achieve your wellness objectives.\n\nFeatures:\n\n● Personalized Onboarding: Enter key details like your goals, current stats, and\ndaily habits to receive a tailored experience.\n● Comprehensive Progress Tracking: Visualize your weight trends and monitor\nyour progress through detailed graphs and monthly summaries.\n● Workout Programs:"
+    },
+    "gp:com.totalweightloss.twlp": {
+     "id": "gp:com.totalweightloss.twlp",
+     "store": "google",
+     "name": "Total Weight Loss",
+     "rating": 4.86,
+     "count": 129,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-14T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.totalweightloss.twlp",
+     "icon": "https://play-lh.googleusercontent.com/t7QsG6jggKU49sPo9Qn-q8zp6MLKpn3x4fX4Ohx3pPVcbPp05KeAVFPxkh26WmGfXrbR3V3kNicxmtpwpsCDAw=s0-br30",
+     "developer": "Total Weight Loss",
+     "website": "https://shoptotalweightloss.com/",
+     "email": "johnnytotalweightloss@gmail.com",
+     "dev_id": "Total Weight Loss",
+     "description": "Track Progress, Meet Goals"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "6792549774": {
+   "id": "6792549774",
+   "company": "NAIZI SOFTWARE SOLUTIONS S.R.L.",
+   "developer_url": "https://apps.apple.com/us/developer/bodyfuture/id6792549774?uo=4",
+   "website": "",
+   "apps": {
+    "6792549292": {
+     "id": "6792549292",
+     "store": "apple",
+     "name": "Weight Loss Tracker: Lose Fat",
+     "rating": 4.82,
+     "count": 11,
+     "genre": "Health & Fitness",
+     "released": "2026-07-31T07:00:00Z",
+     "updated": "2026-10-27T14:37:23Z",
+     "url": "https://apps.apple.com/us/app/weight-loss-tracker-lose-fat/id6792549292",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/bf/40/34bf4001-6d7b-52c8-cfaa-7ca96a94657c/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.jpeg/60x60bb.jpg",
+     "price": "Free",
+     "description": "See your future body before you transform it.\n\nBody Visualizer is an AI body predictor, calorie counter, food scanner, step tracker, and progress tracker designed to turn weight-loss and muscle-gain goals into a clear visual journey. Upload a full-body photo and create an AI-generated preview of how your body could change as you work toward your goal.\n\nMore than a calorie tracker.\n\nBody Visualizer helps make an abstract goal feel tangible. Set your current weight, target weight, and timeframe, then keep the result you’re working toward in sight.\n\nAI BODY VISUALIZER — PREVIEW YOUR TRANSFORMATIO"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1088093463": {
+   "id": "1088093463",
+   "company": "Zaminiti Pty Ltd",
+   "developer_url": "https://apps.apple.com/us/developer/zaminiti-pty-ltd/id1088093463?uo=4",
+   "website": "https://www.facebook.com/KhouryApps/",
+   "apps": {
+    "1179967739": {
+     "id": "1179967739",
+     "store": "apple",
+     "name": "ReAct - Willpower For Weight Loss Program",
+     "rating": 2,
+     "count": 5,
+     "genre": "Health & Fitness",
+     "released": "2016-12-13T22:19:53Z",
+     "updated": "2016-12-13T22:19:53Z",
+     "url": "https://apps.apple.com/us/app/react-willpower-for-weight-loss-program/id1179967739",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/8a/10/7f/8a107ffb-71da-11c8-757b-0c6ddaba64e4/pr_source.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Lose weight by strengthening willpower to avoid overeating in just 2 steps.\n\nFeatures\n\n - Create 2-step plans to redirect your habitual action of overeating with new, healthy alternative actions.\n\n - Track the number of times you have performed your new plan.\n\n - Choose not to complete your plan, which will not add to your completion number.\n\n - View all your plans in a grid list each integrated with your successful completions.\n\n - Edit your plans for greater success by choosing actions that work better for you.\n\n - Choose from suggested scenarios and actions, or write your own.\n\n - Get help "
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ],
+   "worst": {
+    "id": "1179967739",
+    "store": "apple",
+    "name": "ReAct - Willpower For Weight Loss Program",
+    "rating": 2,
+    "count": 5,
+    "genre": "Health & Fitness",
+    "released": "2016-12-13T22:19:53Z",
+    "updated": "2016-12-13T22:19:53Z",
+    "url": "https://apps.apple.com/us/app/react-willpower-for-weight-loss-program/id1179967739",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/8a/10/7f/8a107ffb-71da-11c8-757b-0c6ddaba64e4/pr_source.png/60x60bb.jpg",
+    "price": "Free",
+    "description": "Lose weight by strengthening willpower to avoid overeating in just 2 steps.\n\nFeatures\n\n - Create 2-step plans to redirect your habitual action of overeating with new, healthy alternative actions.\n\n - Track the number of times you have performed your new plan.\n\n - Choose not to complete your plan, which will not add to your completion number.\n\n - View all your plans in a grid list each integrated with your successful completions.\n\n - Edit your plans for greater success by choosing actions that work better for you.\n\n - Choose from suggested scenarios and actions, or write your own.\n\n - Get help "
+   },
+   "total_ratings": 5,
+   "first_released": "2016-12-13T22:19:53Z",
+   "last_updated": "2016-12-13T22:19:53Z",
+   "score": 42,
+   "solo": false,
+   "why": [
+    "+24 worst app rated 2.0★",
+    "+8 apps mention GLP-1 / weight loss",
+    "+8 5 ratings (very small user base)",
+    "+3 first app launched 9.9 yrs ago",
+    "+0 last update 9.9 yrs ago (may be inactive)"
+   ]
+  },
+  "1647576925": {
+   "id": "1647576925",
+   "company": "Lightweight Labs LLC",
+   "developer_url": "https://apps.apple.com/us/developer/lightweight-labs-llc/id1647576925?uo=4",
+   "website": "https://supportive.net",
+   "apps": {
+    "6443602611": {
+     "id": "6443602611",
+     "store": "apple",
+     "name": "Supportive: Social Weight Loss",
+     "rating": 5,
+     "count": 4,
+     "genre": "Health & Fitness",
+     "released": "2023-08-10T07:00:00Z",
+     "updated": "2023-12-13T16:07:18Z",
+     "url": "https://apps.apple.com/us/app/supportive-social-weight-loss/id6443602611",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/2f/8c/da/2f8cdae8-3284-0d04-ed1a-5d9a9b079ff1/AppIcon-0-0-1x_U007epad-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Supportive adds a social accountability layer to your weight-loss effort.\n\nIt syncs with your scale, graphs your weight trend, and lets you share data with friends.  You can also \"check in\" with notes about how you're doing toward your weight goal and how well you are following your weight-loss strategy, so that you and your friends can offer mutual support.\n\nLosing weight is really hard.  Doing it with the support of friends helps significantly.  It feels less scary, less lonely, and can even be fun.  Also, having someone else look at your weight has a profound psychological effect. You'll no"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1475488390": {
+   "id": "1475488390",
+   "company": "Cevene Care Clinic inc.",
+   "developer_url": "https://apps.apple.com/us/developer/cevene-care-clinic/id1475488390?uo=4",
+   "website": "https://secretforweightloss.com/",
+   "apps": {
+    "1552718027": {
+     "id": "1552718027",
+     "store": "apple",
+     "name": "Secret for Weight Loss",
+     "rating": 3.88,
+     "count": 49,
+     "genre": "Health & Fitness",
+     "released": "2021-02-18T08:00:00Z",
+     "updated": "2026-01-15T10:10:44Z",
+     "url": "https://apps.apple.com/us/app/secret-for-weight-loss/id1552718027",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/61/3f/10613ff9-ad5a-5c9d-e727-15f99f2ae960/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The Secret for Weight Loss app connects you with your wellness plan. Receive daily meal planning, exercise guidance, lifestyle modification support and motivation.\n\nAs a Secret for Weight Loss patient, you will receive the specific content of your custom wellness plan in the app. Track your progress including calories, activities, body metrics, steps, water, and sleep in an interface shared with your provider. Communicate with Secret for Weight Loss in realtime through personal journals and direct private messages.\n\nThis app is integrated with the Apple HealthKit. Choose to share your steps, c"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1689499798": {
+   "id": "1689499798",
+   "company": "PCWL",
+   "developer_url": "https://apps.apple.com/us/developer/physicians-choice-for-weight-loss-inc/id1689499798?uo=4",
+   "website": "",
+   "apps": {
+    "6449506427": {
+     "id": "6449506427",
+     "store": "apple",
+     "name": "Slice Weight Loss",
+     "rating": 5,
+     "count": 3,
+     "genre": "Health & Fitness",
+     "released": "2024-02-28T08:00:00Z",
+     "updated": "2025-10-07T08:36:25Z",
+     "url": "https://apps.apple.com/us/app/slice-weight-loss/id6449506427",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/b4/83/91b483b2-c201-f756-30a2-07559e70672b/appicon_slice-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Slice is a plant-based lifestyle program advocating healthy eating and exercise. It follows the characteristics of both the Mediterranean diet and diets followed by centenarians researched in the Blue Zones. Slice assists clients in achieving personal weight loss and life goals by providing support through immediate feedback that guides their choices.\n\nYou may purchase an auto-renewing subscription through an In-App Purchase.\n• Auto-renewable subscription\n• 1 month ($4.99), 3 month ($13.99) and 12 month ($49.99) durations\n• Your subscription will be charged to your account at confirmation of p"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1670581511": {
+   "id": "1670581511",
+   "company": "LUCKY LABS LP",
+   "developer_url": "https://apps.apple.com/us/developer/lucky-labs/id1670581511?uo=4",
+   "website": "http://lifeplusfitness.net",
+   "apps": {
+    "1559178203": {
+     "id": "1559178203",
+     "store": "apple",
+     "name": "Weight Loss Dance",
+     "rating": 4.68,
+     "count": 102,
+     "genre": "Health & Fitness",
+     "released": "2021-04-18T07:00:00Z",
+     "updated": "2022-07-19T21:43:57Z",
+     "url": "https://apps.apple.com/us/app/weight-loss-dance/id1559178203",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f5/c6/fc/f5c6fc73-fa0c-e8d2-f08a-d221fbd2d651/AppIcon-5-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "24 Hour Fitness+ by LIFE+ is a smart coach that brings you the best workout routines, including cardio dancing and yoga flows for weight loss. 24 Hour Fitness+ will tailor you a lifestyle plan containing recommendations on calorie and water intake. Weight loss has never been easier!\n\nYour personal smart coach will be there to show you the innovative approach to working out. The time of your workout will fly by unnoticed.\n\nCalorie Counter to get data on the number of calories consumed fast or scan a QR code on food labels to track calories.\nEveryday meal plans offered by 24 Hour Fitness+ contai"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1671630891": {
+   "id": "1671630891",
+   "company": "DAYDI WEIGHT LOSS, HEALTH APP, LLC",
+   "developer_url": "https://apps.apple.com/us/developer/daydi-weight-loss-health-app-llc/id1671630891?uo=4",
+   "website": "https://daydiapp.com/",
+   "apps": {
+    "1671630889": {
+     "id": "1671630889",
+     "store": "apple",
+     "name": "Weight Loss App - DayDi",
+     "rating": 4.8,
+     "count": 202,
+     "genre": "Health & Fitness",
+     "released": "2023-06-21T07:00:00Z",
+     "updated": "2025-08-08T20:35:47Z",
+     "url": "https://apps.apple.com/us/app/weight-loss-app-daydi/id1671630889",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/be/06/0fbe0681-c42a-3b8b-ae20-2a2a754257da/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Stress-free weight loss without calorie counting! Enjoy game-like quests and establish lifelong healthy habits. Try it now!\n\nStart your wellness journey with DAYDI, your gamified companion for building healthy habits and weight management. Say goodbye to calorie counting and hello to a fun, effective approach to a better you. Discover the joy of healthier living, one day at a time, with DAYDI!\n\nExperience the revolution in wellness with DAYDI, an innovative mobile application designed to assist you in establishing beneficial habits for weight loss, muscle gain, fitness maintenance, or overall "
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1131609829": {
+   "id": "1131609829",
+   "company": "VoloAcademy.com Inc",
+   "developer_url": "https://apps.apple.com/us/developer/volo-academy/id1131609829?uo=4",
+   "website": "http://getburrn.com",
+   "apps": {
+    "1131609830": {
+     "id": "1131609830",
+     "store": "apple",
+     "name": "Burrn - Lose weight every minute! - Weight Loss",
+     "rating": 5,
+     "count": 3,
+     "genre": "Health & Fitness",
+     "released": "2016-07-07T19:45:48Z",
+     "updated": "2016-09-16T12:49:51Z",
+     "url": "https://apps.apple.com/us/app/burrn-lose-weight-every-minute-weight-loss/id1131609830",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/7d/e3/d1/7de3d129-6e3d-4244-c0af-533c0bb1aa3e/mzl.zkkedfpo.jpg/60x60bb.jpg",
+     "price": "Free",
+     "description": "Download our FREE app today!. Eat anything you want, when you want, and start losing weight. Backed by science, Burrn provides you accurate information to eat only what your body can use so you stop storing fat. Weight loss remodeled to fit any lifestyle. No subscriptions. No fees. No food to purchase. No points. A simple and easy plan to follow to lose weight.\n\nTHE SCIENCE\nFor over 40 years, we’ve helped tens of thousands of individuals lose millions of pounds of weight and keep it off!\n\n- Dieters are most successful when they eat foods they enjoy in portions that do not turn off weight loss."
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1896708655": {
+   "id": "1896708655",
+   "company": "Iryna Harbuz",
+   "developer_url": "https://apps.apple.com/us/developer/iryna-harbuz/id1896708655?uo=4",
+   "website": "",
+   "apps": {
+    "1632394159": {
+     "id": "1632394159",
+     "store": "apple",
+     "name": "Weight Loss Workouts at Home",
+     "rating": 4.66,
+     "count": 29,
+     "genre": "Health & Fitness",
+     "released": "2022-09-21T07:00:00Z",
+     "updated": "2024-12-16T22:56:25Z",
+     "url": "https://apps.apple.com/us/app/weight-loss-workouts-at-home/id1632394159",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/90/03/0b900306-8674-e925-60f1-9c0750e27b24/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Not losing weight? This fitness app provides workouts for women dreaming of getting better every new day! All exercises are carefully selected, tested and performed by professionals, so you do not have to doubt and worry about the quality of the material. Each workout for women is compiled and selected based on your goals, weight, problem areas and the availability of additional equipment.\n\nWHAT AWAITS YOU INSIDE THE BEST APP FOR WEIGHT LOSS? \n \n•  Personalized Workout Plans\nDon`t you know how to start losing weight? Customize your own profile based on which the program will suggest the best w"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1845050268": {
+   "id": "1845050268",
+   "company": "Link Heart Limited",
+   "developer_url": "https://apps.apple.com/us/developer/link-heart-limited/id1845050268?uo=4",
+   "website": "",
+   "apps": {
+    "6753791228": {
+     "id": "6753791228",
+     "store": "apple",
+     "name": "NanoRhino: AI Weight-Loss",
+     "rating": 5,
+     "count": 4,
+     "genre": "Health & Fitness",
+     "released": "2025-11-18T08:00:00Z",
+     "updated": "2026-02-10T20:43:13Z",
+     "url": "https://apps.apple.com/us/app/nanorhino-ai-weight-loss/id6753791228",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/89/5c/1b895c2b-dddf-29bd-3129-3f28db21c75e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "NanoRhino is an AI-powered weight loss and wellness coach that helps you achieve your fitness goals. With personalized plans tailored to your needs, you can track your nutrition, workouts, and daily progress effortlessly. Whether you’re looking to lose weight, stay fit, or improve overall health, NanoRhino offers detailed insights and actionable advice. Our AI coach continuously adapts to your progress, ensuring you stay motivated and on track. Get started today and embark on your journey to a healthier, happier you!\n\nPricing & Payment Information: \nAs your dedicated weight-loss companion, Nan"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "922851092": {
+   "id": "922851092",
+   "company": "IntenseLife AG",
+   "developer_url": "https://apps.apple.com/us/developer/intenselife-ag/id922851092?uo=4",
+   "website": "https://www.healary.com/",
+   "apps": {
+    "1624660640": {
+     "id": "1624660640",
+     "store": "apple",
+     "name": "Healary: Diet-Free Weight Loss",
+     "rating": 4.58,
+     "count": 45,
+     "genre": "Health & Fitness",
+     "released": "2024-04-28T07:00:00Z",
+     "updated": "2026-05-28T09:15:10Z",
+     "url": "https://apps.apple.com/us/app/healary-diet-free-weight-loss/id1624660640",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/5b/3a/b45b3a85-edb4-4c87-55aa-8e0979e1cb2a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "DIETS DON'T WORK - SCIENCE DOES!\nHealary isn't just another weight loss app—it's a breakthrough in personalized health. Our AI-powered Metabolic Intelligence creates your personal metabolic profile, helping you understand why your body holds onto stubborn fat and providing science-based solutions that work—no calorie counting required.\n\nSPECIFICALLY DESIGNED FOR WOMEN 35-65\nHealary addresses the unique metabolic challenges of hormonal transitions, understanding the specific needs of women during midlife weight gain that conventional diets can't solve.\n\nYOUR PERSONAL WEIGHT LOSS GPS\nWhen weight"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1117355775": {
+   "id": "1117355775",
+   "company": "Carmen Walsh",
+   "developer_url": "https://apps.apple.com/us/developer/carmen-walsh/id1117355775?uo=4",
+   "website": "https://start.proweightloss.org/",
+   "apps": {
+    "6820033015": {
+     "id": "6820033015",
+     "store": "apple",
+     "name": "Pro Weight Loss Support",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-10-19T07:00:00Z",
+     "updated": "2026-10-27T19:59:32Z",
+     "url": "https://apps.apple.com/us/app/pro-weight-loss-support/id6820033015",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/91/ad/fe91adb4-1f3d-25d1-244c-790be5dbf454/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Pro Weight Loss helps clients stay organized, motivated, and connected throughout their weight loss program.\nClients enrolled in our 21-, 42-, or 84-day programs can use the app to follow their program, track daily progress, record weight and habits, access program guidance, and stay connected with their coach.\nOur programs are organized around different weight-loss goals:\n• 21-Day Jumpstart — for weight-loss goals around 10–15 lb\n• 42-Day Transformation — for weight-loss goals around 20–40 lb\n• 84-Day Lifestyle Transformation — for weight-loss goals around 40–80 lb\nApp features include:\n• Wei"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1648272648": {
+   "id": "1648272648",
+   "company": "Social First Ltd.",
+   "developer_url": "https://apps.apple.com/us/developer/social-first-ltd/id1648272648?uo=4",
+   "website": "https://www.bettertogether-app.com/",
+   "apps": {
+    "1503465416": {
+     "id": "1503465416",
+     "store": "apple",
+     "name": "BetterTogether: Weight Loss",
+     "rating": 4.71,
+     "count": 7816,
+     "genre": "Health & Fitness",
+     "released": "2020-04-05T07:00:00Z",
+     "updated": "2026-10-23T19:44:33Z",
+     "url": "https://apps.apple.com/us/app/bettertogether-weight-loss/id1503465416",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/8c/db/fb8cdb98-46ad-240e-2ec1-f40e4f4f604c/AppIcon-0-0-1x_U007emarketing-0-7-0-0-sRGB-GLES2_U002c0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Lose weight with the people you already know. BetterTogether turns weight loss into a group challenge with friends, family or coworkers, so you stay motivated and accountable every day.\n\nSTART A GROUP CHALLENGE\nCreate a challenge in seconds, invite your crew with a link, and compete on weight loss, steps or water, and set a prize for the winner. Weigh in daily, follow the leaderboard, chat with your group and cheer each other on. Join 300,000+ people who are getting fit together.\n\nWHAT YOU GET\n• Group challenges for weight loss, steps and water\n• Set a prize for the winner\n• Leaderboards that "
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1824195557": {
+   "id": "1824195557",
+   "company": "1C-RARUS TAS, MAS ULIYATI CHEKLANGAN JAMIYATI XORIJIY KORXONASI",
+   "developer_url": "https://apps.apple.com/us/developer/1c-rarus-tas-mas-uliyati-cheklangan-jamiyati-xorijiy/id1824195557?uo=4",
+   "website": "",
+   "apps": {
+    "1457540867": {
+     "id": "1457540867",
+     "store": "apple",
+     "name": "Diet: Weight loss Healthy food",
+     "rating": 4.51,
+     "count": 168,
+     "genre": "Health & Fitness",
+     "released": "2019-04-23T04:39:07Z",
+     "updated": "2025-09-30T23:26:36Z",
+     "url": "https://apps.apple.com/us/app/diet-weight-loss-healthy-food/id1457540867",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/d1/1c/32d11c88-73eb-9f6e-40c5-2016c13db2aa/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Follow personal ready meal plans, built for you by nutritionists, based on your body parameters, activity level, and fitness objectives. Get on track with eating healthy and achieving your fitness goals with Diet plans.\nYou can follow daily meal plans, offered by the app as it is. Or customize the diet by creating your plan according to what you like. The app offers a large database of food items with nutrition information you can choose from. It automatically calculates nutrients for each meal intake to help you stay on track.\n\nWith Diet plans you can:\nAccess diet plans built by fitness and n"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1542573107": {
+   "id": "1542573107",
+   "company": "Beijing Youngsense Health Technology Co., Ltd.",
+   "developer_url": "https://apps.apple.com/us/developer/beijing-youngsense-health-technology-co-ltd/id1542573107?uo=4",
+   "website": "",
+   "apps": {
+    "1542573197": {
+     "id": "1542573197",
+     "store": "apple",
+     "name": "Calorie Counter：Lose Weight",
+     "rating": 4.44,
+     "count": 16,
+     "genre": "Health & Fitness",
+     "released": "2020-12-11T08:00:00Z",
+     "updated": "2026-06-13T19:43:01Z",
+     "url": "https://apps.apple.com/us/app/calorie-counter-lose-weight/id1542573197",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/6a/e8/b86ae87d-f77b-2642-d655-7f095f87e854/AppIcon-1x_U007emarketing-0-11-0-0-85-220-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Weight Loss Counter\nLearn your body index:BMI/BFP/BM/Ideal Body Weight\nDiet Calories Counter & Diet Record\nExercise Calories Burned & Exercise Record\n\nPrivacy Policy for Healthkit:\nThis app will ask you to access to your Apple Health.You can close it on Settings>Privacy Policy>Health.\nThis app needs to connect your Aplle Health by Healthkit.It will import your body weight/height/birthday/sex/your steps data from Apple Health after you connected successfully.\n\nWeight Loss App’s Subscriptions:\n——————————————\n*Weekly VIP (USD$5.99/week)\nThese subscriptions auto-renews at the end of each term at U"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1813275886": {
+   "id": "1813275886",
+   "company": "LABMELO LLC",
+   "developer_url": "https://apps.apple.com/us/developer/labmelo-llc/id1813275886?uo=4",
+   "website": "",
+   "apps": {
+    "6757343215": {
+     "id": "6757343215",
+     "store": "apple",
+     "name": "SlimApp - Weight Loss Tracker",
+     "rating": 5,
+     "count": 3,
+     "genre": "Health & Fitness",
+     "released": "2026-01-05T08:00:00Z",
+     "updated": "2026-03-26T22:53:43Z",
+     "url": "https://apps.apple.com/us/app/slimapp-weight-loss-tracker/id6757343215",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/d2/e1/e8d2e1dd-7d83-8b0f-16b5-8c259396234b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "SlimApp is a clean, simple companion for patients using GLP-1–based weight management plans. Track the habits and milestones that matter most—without clutter.\n\nInside SlimApp you can:\n\nLog GLP-1 injection timing and dosage\n\nTrack weight and visualize progress over time\n\nTrack daily calories and protein intake\n\nView personalized goals that can adjust as your weight changes\n\nComplete quick daily check-ins to stay consistent\n\nConnect Apple Health (optional) to track steps automatically\n\nLearn through clear, patient-friendly education (including medication basics)\n\nClinic access + subscriptions\nSo"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1565356297": {
+   "id": "1565356297",
+   "company": "Francesco Pelanda",
+   "developer_url": "https://apps.apple.com/us/developer/francesco-pelanda/id1565356297?uo=4",
+   "website": "",
+   "apps": {
+    "6443739023": {
+     "id": "6443739023",
+     "store": "apple",
+     "name": "Weight Loss Tracker +",
+     "rating": 4.83,
+     "count": 18,
+     "genre": "Health & Fitness",
+     "released": "2022-10-11T07:00:00Z",
+     "updated": "2023-08-09T09:18:48Z",
+     "url": "https://apps.apple.com/us/app/weight-loss-tracker/id6443739023",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/77/43/4d/77434d8d-adaa-5339-b37b-2773bee147a5/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Weigh in, monitor your weight to track weight loss or weight gain with our weight tracker application that helps you reach your ideal weight by showing you statistics and graphs related to your weight goals.\n\nAlways, ​stay on track with our user-friendly interface and helpful reminders, and easily analyze your weight loss progress with our detailed reports. Whether you're a weight watcher or simply looking to track, our weight tracker app makes it easy and convenient to stay motivated and focused on your journey towards a healthier you.\n\nIt's important to monitor your weight regularly to ensur"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "917265318": {
+   "id": "917265318",
+   "company": "Outside the box innovations",
+   "developer_url": "https://apps.apple.com/us/developer/www-privemd-com/id917265318?uo=4",
+   "website": "",
+   "apps": {
+    "6740008092": {
+     "id": "6740008092",
+     "store": "apple",
+     "name": "Achieve Health and Weight Loss",
+     "rating": 5,
+     "count": 6,
+     "genre": "Health & Fitness",
+     "released": "2025-01-27T08:00:00Z",
+     "updated": "2026-10-11T18:12:53Z",
+     "url": "https://apps.apple.com/us/app/achieve-health-and-weight-loss/id6740008092",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/51/30/f551309e-cce2-b716-aded-8753f5a76c25/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Achieve Health and Weight Loss\n\nTake control of your health and achieve your weight loss goals with the Achieve Health and Weight Loss app. Designed exclusively for members of the Achieve program, this app seamlessly integrates your weight and body composition data from your smart scale with other key health metrics, providing a comprehensive view of your progress.\n\nYour data is synced to a personalized dashboard accessible by your health coach, enabling real-time insights and tailored guidance. Track your progress, stay accountable, and access the support you need to succeed. With over 90% of"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "870718126": {
+   "id": "870718126",
+   "company": "APP KTCHN LTD",
+   "developer_url": "https://apps.apple.com/us/developer/app-ktchn-ltd/id870718126?uo=4",
+   "website": "",
+   "apps": {
+    "1367738996": {
+     "id": "1367738996",
+     "store": "apple",
+     "name": "Weight Loss Progress Tracker",
+     "rating": 4.8,
+     "count": 158,
+     "genre": "Health & Fitness",
+     "released": "2018-04-22T11:36:28Z",
+     "updated": "2018-06-20T15:21:13Z",
+     "url": "https://apps.apple.com/us/app/weight-loss-progress-tracker/id1367738996",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/15/a7/12/15a7127b-6a79-4cc8-f345-48e58b10fe6f/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-3.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "\"Just keeps me focused & gives me a true picture of where things are at. With the aim of getting to a healthy weight this is my guide. Easy & reliable. Highly recommend this app.\" - Janet Higgins\n\nWeight Tracker designed to help motivate people following diets and/or exercise programs to reach their goal weight.\nAwesome progress graph & full history tracking of your weight loss journey."
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1614300396": {
+   "id": "1614300396",
+   "company": "Erhan Namal",
+   "developer_url": "https://apps.apple.com/us/developer/erhan-namal/id1614300396?uo=4",
+   "website": "",
+   "apps": {
+    "1560864535": {
+     "id": "1560864535",
+     "store": "apple",
+     "name": "Simple Weight Loss Calendar",
+     "rating": 4,
+     "count": 3,
+     "genre": "Health & Fitness",
+     "released": "2021-04-04T07:00:00Z",
+     "updated": "2026-09-11T23:55:55Z",
+     "url": "https://apps.apple.com/us/app/simple-weight-loss-calendar/id1560864535",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/18/4b/4a184b5a-a939-54ba-393a-f97749dc39e8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Weight Calendar helps you understand your weight trend and stay consistent without pressure.\n\nLOG YOUR PROGRESS\n• Record your daily weight, mood, and optional notes\n• Review every check-in in a simple monthly calendar\n• See your 7-day change and longer-term progress clearly\n\nSTAY FOCUSED\n• Set a starting weight and personal goal\n• Choose kilograms or pounds\n• Use a gentle daily 8 AM reminder\n• Celebrate milestones and check-in streaks\n\nPRIVATE BY DESIGN\n• No account required\n• Your progress stays on your device\n• Available in 10 interface languages\n\nDaily changes are normal. Weight Calendar he"
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
+  },
+  "1827890820": {
+   "id": "1827890820",
+   "company": "Vijay Kumar",
+   "developer_url": "https://apps.apple.com/us/developer/vijay-kumar/id1827890820?uo=4",
+   "website": "",
+   "apps": {
+    "6752851479": {
+     "id": "6752851479",
+     "store": "apple",
+     "name": "Slimji - Weight Loss App India",
+     "rating": 5,
+     "count": 1,
+     "genre": "Health & Fitness",
+     "released": "2025-11-26T08:00:00Z",
+     "updated": "2026-04-30T19:02:53Z",
+     "url": "https://apps.apple.com/us/app/slimji-weight-loss-app-india/id6752851479",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/33/59/90335911-e223-d004-1d06-7e058994b2bd/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Struggling with weight loss, diet control, or staying consistent with your fitness? Your solution starts here. SlimJi brings you a personalised, science-based health and weight-management experience — designed for real people with real goals.\n\nSlimJi is built to help you lose weight, build healthy habits, manage your diet, and track your progress effortlessly. Whether you want to lose fat, control cravings, follow a customised diet plan, or simply stay active, SlimJi gives you everything you need in ONE simple app."
+    }
+   },
+   "terms": [
+    "weight loss program"
+   ]
   }
  },
  "filters": {
@@ -99350,5 +100460,5 @@
   "remote patient monitoring",
   "mental health therapy"
  ],
- "updated": 1793279687.287644
+ "updated": 1793302961.121236
 }
