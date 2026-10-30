@@ -1,6 +1,45 @@
 {
  "funded": [
   {
+   "id": "sec-2162401",
+   "kind": "funded",
+   "company": "Teos Health, LLC",
+   "cik": "0002162401",
+   "adsh": "0002162401-26-000001",
+   "file_date": "2026-10-30",
+   "location": "Austin, TX",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002162401&type=D",
+   "year_of_inc": "2026",
+   "industry": "Other Health Care",
+   "entity_type": "Limited Liability Company",
+   "amount_sold": "3113000",
+   "offering_total": "3113000",
+   "first_sale": "2026-09-24",
+   "people": [
+    {
+     "name": "Christopher Gallagher",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Manager of the Issuer"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2162401/000216240126000001/",
+   "score": 100,
+   "why": [
+    "+30 incorporated in 2026",
+    "+25 industry: Other Health Care",
+    "+20 raised $3,113,000 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 0 days ago",
+    "+10 name points to a health or care business"
+   ]
+  },
+  {
    "id": "sec-2153524",
    "kind": "funded",
    "company": "Ellipsys Medical, Inc.",
@@ -339,8 +378,7 @@
    "file_date": "2026-08-28",
    "location": "Annapolis, MD",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151959&type=D",
    "year_of_inc": "2026",
@@ -1315,8 +1353,7 @@
    "file_date": "2026-10-26",
    "location": "Denver, CO",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002160103&type=D",
    "year_of_inc": "2025",
@@ -2130,7 +2167,8 @@
    "file_date": "2026-08-21",
    "location": "Temple, TX",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151144&type=D",
    "year_of_inc": "2026",
@@ -3564,7 +3602,8 @@
    "file_date": "2026-08-03",
    "location": "Biddeford, ME",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002069651&type=D",
    "year_of_inc": "2025",
@@ -8519,7 +8558,8 @@
    "file_date": "2026-09-16",
    "location": "San Antonio, TX",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001998501&type=D",
    "year_of_inc": "2023",
@@ -10485,5 +10525,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793339941.8418977
+ "updated": 1793365664.171458
 }
