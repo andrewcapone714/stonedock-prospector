@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2157581/000215758126000001/",
+ "entity": "Angle Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other",
+ "offering_total": "600000001",
+ "amount_sold": "591524799",
+ "first_sale": "2026-10-15",
+ "people": [
+  {
+   "name": "Tylon Wang",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Arthur Roberts",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Anirban Gangopadhyay",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Leeka",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Ricky Lai",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jeremy Gelber",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Caleb Parker",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}
