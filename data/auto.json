@@ -1,10 +1,15 @@
 {
- "apps_last": 1793365573.2474546,
- "funded_last": 1793365664.181563,
- "npi_last": 1793280427.0172057,
+ "apps_last": 1793388595.5365074,
+ "funded_last": 1793388687.4583137,
+ "npi_last": 1793389114.8521125,
  "medicare_last": 1793079259.8991861,
  "last_errors": {
-  "at": 1793365664.6529822,
-  "errors": []
+  "at": 1793389115.3483684,
+  "errors": [
+   "SEC: care: HTTP Error 500: Internal Server Error",
+   "SEC: clinic: HTTP Error 500: Internal Server Error",
+   "SEC: wellness: HTTP Error 500: Internal Server Error",
+   "SEC: pharmacy: HTTP Error 500: Internal Server Error"
+  ]
  }
 }
