@@ -378,8 +378,7 @@
    "file_date": "2026-08-28",
    "location": "Annapolis, MD",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151959&type=D",
    "year_of_inc": "2026",
@@ -1393,8 +1392,7 @@
    "file_date": "2026-10-26",
    "location": "Denver, CO",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002160103&type=D",
    "year_of_inc": "2025",
@@ -10552,5 +10550,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793426133.48073
+ "updated": 1793450756.9947426
 }
