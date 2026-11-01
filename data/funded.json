@@ -3604,8 +3604,7 @@
    "file_date": "2026-08-03",
    "location": "Biddeford, ME",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002069651&type=D",
    "year_of_inc": "2025",
@@ -4324,6 +4323,7 @@
    "file_date": "2026-09-29",
    "location": "Coolidge, AZ",
    "terms": [
+    "health",
     "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002097935&type=D",
@@ -7870,7 +7870,8 @@
    "file_date": "2026-07-31",
    "location": "Knoxville, TN",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146604&type=D",
    "year_of_inc": "2023",
@@ -10550,5 +10551,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793514069.480684
+ "updated": 1793540180.329347
 }
