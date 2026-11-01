@@ -19921,6 +19921,23 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/65/23/4d6523ef-ab8c-8e52-3ea5-bc5ad32ff43b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Pep AI is the GLP-1 tracker for shots, nutrition, side effects, weight, wellness, and everything in between.\n\nTrack doses of Ozempic®, Wegovy®, Mounjaro®, Zepbound®, Foundayo®, semaglutide, tirzepatide, oral GLP-1s, and weekly injection routines.\n\nGLP-1 tracking shouldn’t mean scattered notes, forgotten injection sites, missed protein goals, and trying to remember how you felt after your last dose. Pep AI brings your routine together so you can stay consistent and understand your progress over time.\n\nTRACK SHOTS, DOSES AND INJECTION SITES\n• Log GLP-1 shots and doses\n• Give each medication its "
+    },
+    "gp:app.replit.pepai": {
+     "id": "gp:app.replit.pepai",
+     "store": "google",
+     "name": "Pep AI: GLP-1 Peptide Tracker",
+     "rating": 4.61,
+     "count": 349,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-08T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=app.replit.pepai",
+     "icon": "https://play-lh.googleusercontent.com/EXRTQ_uaMozDi6yjQeTBhocbL39U3hpfoV77DmLal2bw7q0Qj5WFpmTTuteNvgc1DBW8Rj1fNRs1rjucuE-J=s0-br30",
+     "developer": "Zode Development LLC",
+     "website": "https://pepaiapp.com/",
+     "email": "support@pepaiapp.com",
+     "dev_id": "Zode Development LLC",
+     "description": "Peptide Wegovy Zepbound GLP1"
     }
    },
    "terms": [
@@ -31113,6 +31130,23 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/9c/e0/359ce09d-e531-be49-7082-43ac9da62dc3/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Make accurate nursing diagnoses and develop effective care plans with this comprehensive app. Each diagnosis listing includes a definition, related factors, defining characteristics, prioritized actions/interventions, NIC/NOC classifications, and documentation guidelines. Or, choose by patient symptom and link directly to associated nursing diagnoses. \n\nFeatures of Nurse’s Pocket Guide include: \n• 400+ medical conditions with associated nursing diagnoses\n• NEW! Each diagnosis updated to incorporate the NCSBN Clinical Judgment Measurement Model (NCJMM) terminology\n• NEW! Completely up to date w"
+    },
+    "gp:com.unbound.android.ubmci": {
+     "id": "gp:com.unbound.android.ubmci",
+     "store": "google",
+     "name": "Medicine Central",
+     "rating": 4.66,
+     "count": 94,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-04-28T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.unbound.android.ubmci",
+     "icon": "https://play-lh.googleusercontent.com/DS228FFwpGW-48lAv6igTcqlaO0YA98CUJe2IpZ4O9wHY0_JDKU3WU8SiJpTKK8ZEem3dz667W0hDiyTlejmGic=s0-br30",
+     "developer": "Unbound Medicine, Inc",
+     "website": "https://www.unboundmedicine.com/products/android",
+     "email": "support@unboundmedicine.com",
+     "dev_id": "8798245466605217500",
+     "description": "FREE PREVIEW – View select topics in each resource"
     }
    },
    "terms": [
@@ -34312,7 +34346,7 @@
     "+18 worst app rated 2.4★",
     "+8 apps mention wellness / coaching",
     "+12 7,472 ratings (mid-sized audience)",
-    "+3 first app launched 15.0 yrs ago",
+    "+3 first app launched 15.1 yrs ago",
     "+10 last update 0.0 yrs ago"
    ]
   },
@@ -41613,7 +41647,7 @@
     "+14 apps mention labs, patient care",
     "+20 52 ratings (startup-sized audience)",
     "+3 first app launched 12.3 yrs ago",
-    "+0 last update 7.3 yrs ago (may be inactive)"
+    "+0 last update 7.4 yrs ago (may be inactive)"
    ]
   },
   "1071740730": {
@@ -45749,10 +45783,28 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/fa/37/20fa37a9-f4e2-b36e-ee3c-778a7abc4914/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "The Earkick Panda is looking for a new friend. 100% private. Trusted by 250,000+ users, and loved by Apple, TIME, BBC, Forbes & more.\n\nA SAFE SPACE\n100% private. Swiss-Made. No registration. No tracking. No stored data. Earkick keeps everything on your device or in secure iCloud. Your mental health journey stays yours—always.\n\nA PERSONAL COACH THAT GETS YOU\nYour intelligent AI companion is ready when you are. Whether you need to talk, breathe, reflect, or reset, Earkick is here. Choose your tone: calm, motivational, supportive. You’re in control.\n\nTOOLS THAT ACTUALLY HELP\nSmart Check-ins – Tra"
+    },
+    "gp:com.elomia.health": {
+     "id": "gp:com.elomia.health",
+     "store": "google",
+     "name": "Elomia: Mental Health AI Chat",
+     "rating": 3.58,
+     "count": 87,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-20T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.elomia.health",
+     "icon": "https://play-lh.googleusercontent.com/k-ZzmW3TJ_PVA9We3qo6tDEBPJsF6I-C-kmaO6RNOrLzl3YfW3gfWNAiowmbv6n9rV0BzkexOX_68EoZX3rv5sI=s0-br30",
+     "developer": "Elomia Health",
+     "website": "https://elomia.com/",
+     "email": "anna@elomia.com",
+     "dev_id": "8453062258702700405",
+     "description": "AI chat for emotional support, self reflect & clarity. Anxiety, stress tracker."
     }
    },
    "terms": [
-    "health coaching"
+    "health coaching",
+    "mental health therapy"
    ]
   },
   "1760419109": {
@@ -47128,6 +47180,23 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/10/7b/a4107b76-0928-a930-96d2-229b9607ffff/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Clarity is your all-in-one mental health hub for managing stress, anxiety, and low mood. Learn what affects your mood, develop healthier thought patterns, problem solve with the AI chatbot, practice effective coping skills, build resilience, and foster personal growth.\n\nHOW IT WORKS\nClarity is built on proven methods widely studied and endorsed in the world of mental health. The core principle is simple yet powerful: by understanding and changing your thoughts, you can better manage your emotions and actions.\n\nClarity integrates approaches from behavioral science, positive psychology, and mind"
+    },
+    "gp:com.moodtools.cbtassistant.app": {
+     "id": "gp:com.moodtools.cbtassistant.app",
+     "store": "google",
+     "name": "Clarity - CBT Thought Diary",
+     "rating": 3.87,
+     "count": 8034,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-12T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.moodtools.cbtassistant.app",
+     "icon": "https://play-lh.googleusercontent.com/5mlwXLTmKzG7yish8oOphyH0Hqzqzkyj0KHwjLxHAvb18Zq9gpJUt3QyzWYxUHJ6vq1zP_X9CACCJAE8zeDTlEA=s0-br30",
+     "developer": "Inquiry Health LLC",
+     "website": "https://www.thinkwithclarity.com/",
+     "email": "support@inquiryhealth.com",
+     "dev_id": "7258937055553566931",
+     "description": "Mood Tracker & Cognitive Behavioral Therapy Journal. Record & log your emotions!"
     }
    },
    "terms": [
@@ -57892,7 +57961,8 @@
    "terms": [
     "wellness clinic",
     "telehealth",
-    "telemedicine"
+    "telemedicine",
+    "virtual primary care"
    ]
   },
   "1391601672": {
@@ -58887,7 +58957,7 @@
     "+8 apps mention wellness / coaching",
     "+20 31 ratings (startup-sized audience)",
     "+3 first app launched 8.7 yrs ago",
-    "+10 last update 0.0 yrs ago"
+    "+10 last update 0.1 yrs ago"
    ]
   },
   "1624636368": {
@@ -61713,6 +61783,23 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/8e/41/6c8e41b3-6436-b8cb-f4dd-60a7eaac517d/AppIconADVWT-0-0-1x_U007emarketing-0-6-0-85-220.png/60x60bb.jpg",
      "price": "$29.99",
      "description": "The fourth and final app in the Advanced Language Therapy series! \n\nAdvanced Writing Therapy is designed to pick up where Writing Therapy left off by delving deeper into phoneme-grapheme correspondence to strengthen writing skills. Next,​ you apply those skills to write common words and sentences to dictation, and then you can practice generating your own content. Take your writing skills to the next level! \n\n**Try this app for free with Advanced Language Therapy Lite! **\n**Get this app as part of the Advanced Language Therapy 4-in-1 value-priced app!**\n\nFour activities with built-in therapeut"
+    },
+    "gp:com.tactustherapy.vat.lite": {
+     "id": "gp:com.tactustherapy.vat.lite",
+     "store": "google",
+     "name": "Visual Attention Therapy Lite",
+     "rating": 4.43,
+     "count": 188,
+     "genre": "Medical",
+     "released": null,
+     "updated": "2026-08-17T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.tactustherapy.vat.lite",
+     "icon": "https://play-lh.googleusercontent.com/ItqRx2GSrqh6qUMuB_qwcyvhm9ZHr-vu_4z__Kx99JBd8VTOgGkKYqoPtIJfet6OxBFZkaJL_tYYBDPwVqfv=s0-br30",
+     "developer": "Tactus Therapy Solutions Ltd.",
+     "website": "https://tactustherapy.com/app/vat",
+     "email": "support@tactustherapy.com",
+     "dev_id": "6003967168349386457",
+     "description": "Your trial of the app that lets you assess and treat left neglect"
     }
    },
    "terms": [
@@ -67457,7 +67544,7 @@
     "+16 worst app rated 2.7★",
     "+0 no telehealth, pharmacy or lab focus",
     "+20 626 ratings (startup-sized audience)",
-    "+3 first app launched 15.0 yrs ago",
+    "+3 first app launched 15.1 yrs ago",
     "+10 last update 0.7 yrs ago"
    ]
   },
@@ -75075,7 +75162,7 @@
     "+19 worst app rated 2.4★",
     "+8 apps mention patient care",
     "+20 141 ratings (startup-sized audience)",
-    "+3 first app launched 9.5 yrs ago",
+    "+3 first app launched 9.6 yrs ago",
     "+10 last update 0.4 yrs ago",
     "−30 seller looks like an individual developer, not a company"
    ]
@@ -79825,6 +79912,23 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/b2/3e/7fb23e31-ad92-5a61-c1e7-a1c0d4c499d2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "ACT iCoach is a comprehensive app that covers all aspects of Acceptance Commitment Therapy\n\nLearn and practice ACT skills using video lessons and fun animations which helps you to remember skills longer. Features over video lessons and easy to read content from some of the leading ACT Practitioners and researchers in the world. You can also take notes on these lessons for future use.\n\nUser friendly tools to track your mood, emotions, journal and ACT measures. Summary screens to check your progress. Analytics to get insight into your own behavior as you learn new skills. Ability to share with t"
+    },
+    "gp:co.swasth.dbtcoach": {
+     "id": "gp:co.swasth.dbtcoach",
+     "store": "google",
+     "name": "DBT Coach: Guided Therapy",
+     "rating": 4.33,
+     "count": 2286,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-01T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=co.swasth.dbtcoach",
+     "icon": "https://play-lh.googleusercontent.com/i0DuiyLZJ0uo-Nlksq6bBaudm0_o1paJ7AzQj1ymQBJqP7a817EJOSKrzea450JAvngMMEtmrnIFQy5rODszTA=s0-br30",
+     "developer": "Resiliens, Inc",
+     "website": "http://www.resiliens.com/dbt-coach",
+     "email": "info@resiliens.com",
+     "dev_id": "6253453356844460700",
+     "description": "Diary, Mood, Mindful, Therapy"
     }
    },
    "terms": [
@@ -105617,6 +105721,454 @@
    "terms": [
     "mental health therapy"
    ]
+  },
+  "gp-euphoric-coding": {
+   "id": "gp-euphoric-coding",
+   "company": "Euphoric Coding",
+   "website": "https://doseandlose.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Euphoric+Coding",
+   "apps": {
+    "gp:com.doseandlose.app": {
+     "id": "gp:com.doseandlose.app",
+     "store": "google",
+     "name": "Dose & Lose: GLP-1 Tracker",
+     "rating": 0.0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-29T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.doseandlose.app",
+     "icon": "https://play-lh.googleusercontent.com/giq8vdAOkba8tkJUOXxe-S14upwLTFkVbgnE5e-8oj-sMg4oO4k0804hfWL128DJWVXtRpOpgcyK-vfhS8fefg=s0-br30",
+     "developer": "Euphoric Coding",
+     "website": "https://doseandlose.com",
+     "email": "office@doseandlose.com",
+     "dev_id": "Euphoric Coding",
+     "description": "Log GLP-1 shots, rotate injection sites, track side effects, protein and weight"
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "gp-dual-teams": {
+   "id": "gp-dual-teams",
+   "company": "Dual Teams",
+   "website": "about:invalid#navigation",
+   "developer_url": "https://play.google.com/store/apps/developer?id=5458254774784999991",
+   "apps": {
+    "gp:pepvault.peptide.tracker": {
+     "id": "gp:pepvault.peptide.tracker",
+     "store": "google",
+     "name": "peptidemate: Peptide Tracker",
+     "rating": 0.0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-30T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=pepvault.peptide.tracker",
+     "icon": "https://play-lh.googleusercontent.com/c4pKYPuktK_OansfUiFppj9Up2PBcFFBa6N1M6N0QA-uUuPwWkj0VQ_Kac5v8BGfK8bxnSiv9BRRdxhVw3VTZw=s0-br30",
+     "developer": "Dual Teams",
+     "website": "about:invalid#navigation",
+     "email": "dwear932@gmail.com",
+     "dev_id": "5458254774784999991",
+     "description": "Stay organized with a simple and powerful way to track your peptide routine."
+    }
+   },
+   "terms": [
+    "peptides"
+   ]
+  },
+  "gp-women-s-best": {
+   "id": "gp-women-s-best",
+   "company": "Women's Best",
+   "website": "https://www.womensbest.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=7925312429501468745",
+   "apps": {
+    "gp:com.womensbest.app": {
+     "id": "gp:com.womensbest.app",
+     "store": "google",
+     "name": "Women's Best",
+     "rating": 4.1,
+     "count": 106,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2025-07-07T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.womensbest.app",
+     "icon": "https://play-lh.googleusercontent.com/z1d8kEs_dDOVBMwA866paS80MHvl7dRkcYp55WleexMjWnYgUSrpA0W9mm1Aoo6AQtuWedTQzkjJ8A_EETGiuw=s0-br30",
+     "developer": "Women's Best",
+     "website": "https://www.womensbest.com",
+     "email": "app.feedback@womensbest.com",
+     "dev_id": "7925312429501468745",
+     "description": "Shop your essentials"
+    }
+   },
+   "terms": [
+    "women's health"
+   ]
+  },
+  "gp-medi-science": {
+   "id": "gp-medi-science",
+   "company": "Medi Science",
+   "website": "https://v54c2ada4.app-ads-txt.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Medi+Science",
+   "apps": {
+    "gp:com.mediscience.labtest.labvalues": {
+     "id": "gp:com.mediscience.labtest.labvalues",
+     "store": "google",
+     "name": "Medical Lab Test",
+     "rating": 0.0,
+     "count": 0,
+     "genre": "Medical",
+     "released": null,
+     "updated": "2026-02-06T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.mediscience.labtest.labvalues",
+     "icon": "https://play-lh.googleusercontent.com/YZWd7zyIe84ThIiiSaV29q3NVJmhTZBQU2UKlPR55ChvyNoYpD1rrYcQzp4hiwsVvn5q1QoKr7zO0I6L_oAeqg=s0-br30",
+     "developer": "Medi Science",
+     "website": "https://v54c2ada4.app-ads-txt.com",
+     "email": "appstornado99@gmail.com",
+     "dev_id": "Medi Science",
+     "description": "Medical Lab Tests comprehensive app for medical nursing students & professionals"
+    }
+   },
+   "terms": [
+    "lab results"
+   ]
+  },
+  "gp-amazon-mobile": {
+   "id": "gp-amazon-mobile",
+   "company": "Amazon Mobile LLC",
+   "website": "http://www.onemedical.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Amazon+Mobile+LLC",
+   "apps": {
+    "gp:com.onemedical.android": {
+     "id": "gp:com.onemedical.android",
+     "store": "google",
+     "name": "One Medical",
+     "rating": 3.38,
+     "count": 2307,
+     "genre": "Medical",
+     "released": null,
+     "updated": "2026-10-23T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.onemedical.android",
+     "icon": "https://play-lh.googleusercontent.com/cx9rAGua2Dn_2_gDsL1kpaaoJkMnvrjTPtsXnZGEFzLDX74m7D5oP3sPl9YwZFK47I-pAszUaPzc_5RpfoAIKgo=s0-br30",
+     "developer": "Amazon Mobile LLC",
+     "website": "http://www.onemedical.com",
+     "email": "techsupport@onemedical.com",
+     "dev_id": "Amazon Mobile LLC",
+     "description": "The One Medical app makes it fast and easy to get care for your body and mind."
+    }
+   },
+   "terms": [
+    "virtual primary care"
+   ]
+  },
+  "gp-gvc-tech": {
+   "id": "gp-gvc-tech",
+   "company": "GVC Health Tech LLC.",
+   "website": "https://givevirtualcare.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=GVC+Health+Tech+LLC.",
+   "apps": {
+    "gp:com.gvchealthtech.family": {
+     "id": "gp:com.gvchealthtech.family",
+     "store": "google",
+     "name": "Give Virtual Care",
+     "rating": 0.0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-06-30T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.gvchealthtech.family",
+     "icon": "https://play-lh.googleusercontent.com/al5NcwSASR7MqRLuB4rxMy5ZIwBqbh_mIDODJLUOyPS5yOhiLQM6N1q72RG5n-cJZSkm7PuF9Fj13vWp3ionUw=s0-br30",
+     "developer": "GVC Health Tech LLC.",
+     "website": "https://givevirtualcare.com",
+     "email": "support@givevirtualcare.com",
+     "dev_id": "GVC Health Tech LLC.",
+     "description": "Virtual Healthcare Membership | Stay healthy from the comfort of your home."
+    }
+   },
+   "terms": [
+    "virtual primary care"
+   ]
+  },
+  "gp-satish-deopujari": {
+   "id": "gp-satish-deopujari",
+   "company": "Satish Deopujari",
+   "website": "https://deopujari.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=7937807533281844259",
+   "apps": {
+    "gp:com.praxello.fluids": {
+     "id": "gp:com.praxello.fluids",
+     "store": "google",
+     "name": "I.V. Fluids",
+     "rating": 0.0,
+     "count": 0,
+     "genre": "Medical",
+     "released": null,
+     "updated": "2023-10-30T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.praxello.fluids",
+     "icon": "https://play-lh.googleusercontent.com/1JgleC_iKima_3CXOHX4lbU7t_su9Ea3LxuOuJdys3s_pVnvzx_lNPYwMaBW2cG1ikFguVqz_Qwkqu1pJM3WMw=s0-br30",
+     "developer": "Satish Deopujari",
+     "website": "https://deopujari.com",
+     "email": "drdeopujari@gmail.com",
+     "dev_id": "7937807533281844259",
+     "description": "I.V. Fluids calculates initial Fluid & Electrolyte requirements in Pediatrics."
+    }
+   },
+   "terms": [
+    "IV therapy"
+   ]
+  },
+  "gp-pivot-design": {
+   "id": "gp-pivot-design",
+   "company": "Pivot Design Group",
+   "website": "http://pivotdesigngroup.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Pivot+Design+Group",
+   "apps": {
+    "gp:org.viatherapy.androidapp": {
+     "id": "gp:org.viatherapy.androidapp",
+     "store": "google",
+     "name": "ViaTherapy",
+     "rating": 0.0,
+     "count": 0,
+     "genre": "Medical",
+     "released": null,
+     "updated": "2025-08-26T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=org.viatherapy.androidapp",
+     "icon": "https://play-lh.googleusercontent.com/yp0m7wu21DwwY76RZItQgBdcSi3lcdPZ_hRsCOzxpNjycLNgY9XngsKu1XVk-opjUO8-bO2bAhocY472JpOr6Yg=s0-br30",
+     "developer": "Pivot Design Group",
+     "website": "http://pivotdesigngroup.com",
+     "email": "lauren@pivotdesigngroup.com",
+     "dev_id": "Pivot Design Group",
+     "description": "Recall established therapies, learn about new ones & create a custom rehab plan."
+    }
+   },
+   "terms": [
+    "IV therapy"
+   ]
+  },
+  "gp-mental-future-for-meditation-cbt-and-sleep": {
+   "id": "gp-mental-future-for-meditation-cbt-and-sleep",
+   "company": "Mental Future for Meditation, CBT and Sleep",
+   "website": "http://mentalfuture.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Mental+Future+for+Meditation%2C+CBT+and+Sleep",
+   "apps": {
+    "gp:com.mental.future.meditation.cbt": {
+     "id": "gp:com.mental.future.meditation.cbt",
+     "store": "google",
+     "name": "MentalFuture: CBT Hypnotherapy",
+     "rating": 3.87,
+     "count": 170,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2024-07-25T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.mental.future.meditation.cbt",
+     "icon": "https://play-lh.googleusercontent.com/r0d_gcxBu6bI7pUDb9aAVrvbrOZNK5t1n4k8UxUxWCrFnAdjs7spibVoCyzjUfG6TjyfO5ocZpcHge-JieQvOg=s0-br30",
+     "developer": "Mental Future for Meditation, CBT and Sleep",
+     "website": "http://mentalfuture.com",
+     "email": "legal@mentalfuture.com",
+     "dev_id": "Mental Future for Meditation, CBT and Sleep",
+     "description": "Self hypnosis & CBT i coach to release stress, DBT, OCD, PTSD, BPD & anxiety."
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
+  },
+  "gp-mindsync": {
+   "id": "gp-mindsync",
+   "company": "MindSync",
+   "website": "https://mindsync.app/",
+   "developer_url": "https://play.google.com/store/apps/developer?id=6044487601472644414",
+   "apps": {
+    "gp:com.mindsync.app": {
+     "id": "gp:com.mindsync.app",
+     "store": "google",
+     "name": "MindSync - Therapy Journal",
+     "rating": 0.0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-23T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.mindsync.app",
+     "icon": "https://play-lh.googleusercontent.com/fkHEqoo3awTyIJLvsR0wI7Vn9KM2uFKDwnztfMS_ApKNw-vxnZFuYeOO_wq0zgR_ZUVq1792NjeGzIqHLR92=s0-br30",
+     "developer": "MindSync",
+     "website": "https://mindsync.app/",
+     "email": "hello@mindsync.app",
+     "dev_id": "6044487601472644414",
+     "description": "Session notes, recordings, AI Prep Cards, mood tracker, habits, progress map"
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
+  },
+  "gp-minsik-kim": {
+   "id": "gp-minsik-kim",
+   "company": "Minsik Kim",
+   "website": "https://counselcat.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Minsik+Kim",
+   "apps": {
+    "gp:com.cyrano.cyrano": {
+     "id": "gp:com.cyrano.cyrano",
+     "store": "google",
+     "name": "CounselCat - AI Therapy",
+     "rating": 4.1,
+     "count": 2689,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-31T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.cyrano.cyrano",
+     "icon": "https://play-lh.googleusercontent.com/axTRkgQdAUi39QYdKS_0z4gkh2nTy-FqfO2gb3g4mA93CEu1u2d9AcHeQGG9FxBsJFI1b4DJlc9z30MjgtIH=s0-br30",
+     "developer": "Minsik Kim",
+     "website": "https://counselcat.com",
+     "email": "contact@counselcat.com",
+     "dev_id": "Minsik Kim",
+     "description": "24/7 AI therapy for stress & anxiety relief. Confidential mental health support."
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
+  },
+  "gp-247": {
+   "id": "gp-247",
+   "company": "247 Labs Inc.",
+   "website": "https://mindshiftcbt.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=247+Labs+Inc.",
+   "apps": {
+    "gp:com.bstro.MindShift": {
+     "id": "gp:com.bstro.MindShift",
+     "store": "google",
+     "name": "MindShift CBT - Anxiety Relief",
+     "rating": 3.67,
+     "count": 2231,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-30T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.bstro.MindShift",
+     "icon": "https://play-lh.googleusercontent.com/i-Rf64r6gRLjLDxd-oB6TNYmqu8HOPf99LZrIhLeWWtj_1WRNA-PnOGYvxvyxT9AH4LTu54_7bi8QhYGyEvXS1E=s0-br30",
+     "developer": "247 Labs Inc.",
+     "website": "https://mindshiftcbt.com",
+     "email": "support@mindshiftcbt.com",
+     "dev_id": "247 Labs Inc.",
+     "description": "Self-help anxiety management app to relieve worry, stress, and panic"
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
+  },
+  "gp-jackson-tempra": {
+   "id": "gp-jackson-tempra",
+   "company": "Jackson Tempra",
+   "website": "https://whats-up-47564.web.app",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Jackson+Tempra",
+   "apps": {
+    "gp:com.jacksontempra.apps.whatsup": {
+     "id": "gp:com.jacksontempra.apps.whatsup",
+     "store": "google",
+     "name": "What's Up? A Mental Health App",
+     "rating": 3.75,
+     "count": 3665,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-09-27T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.jacksontempra.apps.whatsup",
+     "icon": "https://play-lh.googleusercontent.com/mH1NcgQGd28YY-t3ottqnSqvOPzBnbeBNZDnVaIeoTpu96pWSFAju89Xs_uNYzMSYBBD9W2T9a1nA2-QkdBU0Fw=s0-br30",
+     "developer": "Jackson Tempra",
+     "website": "https://whats-up-47564.web.app",
+     "email": "whatsupapp.help@gmail.com",
+     "dev_id": "Jackson Tempra",
+     "description": "For when you need a helping hand"
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
+  },
+  "gp-roble-ridge-software": {
+   "id": "gp-roble-ridge-software",
+   "company": "Roble Ridge Software LLC",
+   "website": "http://www.getmoodfit.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Roble+Ridge+Software+LLC",
+   "apps": {
+    "gp:com.robleridge.Moodfit": {
+     "id": "gp:com.robleridge.Moodfit",
+     "store": "google",
+     "name": "Moodfit: Mental Health Fitness",
+     "rating": 3.99,
+     "count": 859,
+     "genre": "Medical",
+     "released": null,
+     "updated": "2026-05-21T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.robleridge.Moodfit",
+     "icon": "https://play-lh.googleusercontent.com/FUzUfGFkCQNe2Rne34GjrIZaAXEYxuEy6P2JThLmbpcgi-awwuKp3yuDFf340Kyzs5yZaC3AC6s4ZOGLseCg=s0-br30",
+     "developer": "Roble Ridge Software LLC",
+     "website": "http://www.getmoodfit.com",
+     "email": "hello@getmoodfit.com",
+     "dev_id": "Roble Ridge Software LLC",
+     "description": "Reduce stress & build resilience - mood tracking, CBT, breathwork & mindfulness"
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
+  },
+  "gp-mindpeers-global": {
+   "id": "gp-mindpeers-global",
+   "company": "MindPeers Global",
+   "website": "https://www.mindpeers.co",
+   "developer_url": "https://play.google.com/store/apps/developer?id=MindPeers+Global",
+   "apps": {
+    "gp:co.mindpeers": {
+     "id": "gp:co.mindpeers",
+     "store": "google",
+     "name": "MindPeers: Online Therapy",
+     "rating": 3.63,
+     "count": 1370,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-26T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=co.mindpeers",
+     "icon": "https://play-lh.googleusercontent.com/xkV_MhSWAgH2cENx06PPX3uCceWB0TvRz8Sujt5QSMZb3zT9cFCBp27Bej0UebwNjsrKIPg4ZZyMN9kHPsHjCA=s0-br30",
+     "developer": "MindPeers Global",
+     "website": "https://www.mindpeers.co",
+     "email": "hello@mindpeers.co",
+     "dev_id": "MindPeers Global",
+     "description": "Manage stress, relationships & anxiety with verified online therapy & counseling"
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
+  },
+  "gp-muselive": {
+   "id": "gp-muselive",
+   "company": "museLIVE Inc.",
+   "website": "https://quabble.app",
+   "developer_url": "https://play.google.com/store/apps/developer?id=museLIVE+Inc.",
+   "apps": {
+    "gp:com.museLIVE.quabbleapp": {
+     "id": "gp:com.museLIVE.quabbleapp",
+     "store": "google",
+     "name": "Quabble: Daily Mental Health",
+     "rating": 4.6,
+     "count": 13460,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-28T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.museLIVE.quabbleapp",
+     "icon": "https://play-lh.googleusercontent.com/xquSVicGxvGFCEaQr-2ELhGx2C-k9uGPEhE0tzgosFUwCneezpb2rQMY6gRwKJ8H2FAkZYYjObJoSzVRCwMrpnE=s0-br30",
+     "developer": "museLIVE Inc.",
+     "website": "https://quabble.app",
+     "email": "quabble@muse.live",
+     "dev_id": "museLIVE Inc.",
+     "description": "All-in-one mental health management: for sleep, anxiety, depression, and more!"
+    }
+   },
+   "terms": [
+    "mental health therapy"
+   ]
   }
  },
  "filters": {
@@ -105648,5 +106200,5 @@
   "remote patient monitoring",
   "mental health therapy"
  ],
- "updated": 1793471910.515963
+ "updated": 1793513975.724296
 }
