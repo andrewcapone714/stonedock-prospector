@@ -3604,7 +3604,8 @@
    "file_date": "2026-08-03",
    "location": "Biddeford, ME",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002069651&type=D",
    "year_of_inc": "2025",
@@ -10551,5 +10552,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793540180.329347
+ "updated": 1793576565.203699
 }

@@ -25,7 +25,7 @@
      "store": "apple",
      "name": "SimplePractice Client Portal",
      "rating": 4.9,
-     "count": 39248,
+     "count": 39223,
      "genre": "Medical",
      "released": "2022-11-07T08:00:00Z",
      "updated": "2026-10-28T20:26:55Z",
@@ -567,7 +567,7 @@
      "store": "apple",
      "name": "Sesame: Telehealth Care & More",
      "rating": 4.94,
-     "count": 11004,
+     "count": 10993,
      "genre": "Medical",
      "released": "2024-09-30T07:00:00Z",
      "updated": "2026-10-20T12:33:49Z",
@@ -732,7 +732,7 @@
      "store": "apple",
      "name": "QuickMD - Online Doctor Visits",
      "rating": 4.84,
-     "count": 6744,
+     "count": 6740,
      "genre": "Medical",
      "released": "2019-10-28T07:00:00Z",
      "updated": "2026-10-16T04:33:10Z",
@@ -815,7 +815,7 @@
      "store": "apple",
      "name": "Sydney Health",
      "rating": 4.82,
-     "count": 577315,
+     "count": 577057,
      "genre": "Medical",
      "released": "2019-08-30T07:00:00Z",
      "updated": "2026-10-20T18:00:10Z",
@@ -1288,7 +1288,7 @@
      "store": "apple",
      "name": "AdventHealth",
      "rating": 4.61,
-     "count": 24961,
+     "count": 24956,
      "genre": "Medical",
      "released": "2019-07-06T07:00:00Z",
      "updated": "2026-10-12T13:01:00Z",
@@ -1313,7 +1313,7 @@
      "store": "apple",
      "name": "Simple Habit Sleep, Meditation",
      "rating": 4.81,
-     "count": 78033,
+     "count": 78028,
      "genre": "Health & Fitness",
      "released": "2016-04-01T18:28:27Z",
      "updated": "2024-12-16T17:52:30Z",
@@ -1352,7 +1352,7 @@
      "store": "apple",
      "name": "Airvet for Pet Parents",
      "rating": 4.93,
-     "count": 11338,
+     "count": 11331,
      "genre": "Medical",
      "released": "2019-04-03T12:24:08Z",
      "updated": "2026-10-22T18:56:15Z",
@@ -2366,9 +2366,9 @@
      "count": 7,
      "genre": "Medical",
      "released": "2022-06-24T07:00:00Z",
-     "updated": "2026-10-28T07:59:19Z",
+     "updated": "2026-11-01T22:36:51Z",
      "url": "https://apps.apple.com/us/app/hellocare/id1523049587",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/f8/e0/4af8e02a-393c-f8c9-dce8-91a6b9075886/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/dc/39/e9dc3996-c54b-75ae-8725-3bc33da844ee/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "hellocare powered by Solaborate is an End-to-End telehealth and virtual healthcare delivery platform comprising software, hardware, AI.\n\nhellocare uses HealthKit and CareKit to import data from Apple Health app."
     }
@@ -2517,7 +2517,7 @@
      "store": "apple",
      "name": "Altibbi - الطبي",
      "rating": 4.48,
-     "count": 2832,
+     "count": 2831,
      "genre": "Medical",
      "released": "2015-12-09T19:43:08Z",
      "updated": "2026-09-20T09:24:08Z",
@@ -2580,7 +2580,8 @@
     }
    },
    "terms": [
-    "telehealth"
+    "telehealth",
+    "remote patient monitoring"
    ]
   },
   "1328709108": {
@@ -2594,7 +2595,7 @@
      "store": "apple",
      "name": "Engage Wellbeing",
      "rating": 4.76,
-     "count": 27161,
+     "count": 27157,
      "genre": "Medical",
      "released": "2017-09-18T22:04:21Z",
      "updated": "2026-10-26T07:17:14Z",
@@ -2843,6 +2844,20 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/93/2a/e9932a83-6b67-3bb0-877f-c69e5774e5fd/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Mobile Heartbeat uses secure smartphones to enable clinical care teams to communicate and collaborate faster and more efficiently. Our enterprise solutions transform medical communications, streamlining clinical workflows to accelerate decision-making, improve patient care and reduce costs."
+    },
+    "1264741839": {
+     "id": "1264741839",
+     "store": "apple",
+     "name": "MH-CURE Red",
+     "rating": 4.25,
+     "count": 4,
+     "genre": "Medical",
+     "released": "2017-07-31T17:20:49Z",
+     "updated": "2020-10-30T04:46:10Z",
+     "url": "https://apps.apple.com/us/app/mh-cure-red/id1264741839",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/2f/e3/53/2fe3531c-4922-6f23-7184-1a36ad140755/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Mobile Heartbeat uses secure smartphones to enable clinical care teams to communicate and collaborate faster and more efficiently. Our enterprise solutions transform medical communications, streamlining clinical workflows to accelerate decision-making, improve patient care and reduce costs."
     }
    },
    "terms": [
@@ -2864,7 +2879,7 @@
     "price": "Free",
     "description": "Mobile Heartbeat uses secure smartphones to enable clinical care teams to communicate and collaborate faster and more efficiently. Our enterprise solutions transform medical communications, streamlining clinical workflows to accelerate decision-making, improve patient care and reduce costs."
    },
-   "total_ratings": 31,
+   "total_ratings": 35,
    "first_released": "2017-07-28T19:05:31Z",
    "last_updated": "2026-09-29T20:38:36Z",
    "score": 63,
@@ -2872,7 +2887,7 @@
    "why": [
     "+22 worst app rated 2.1★",
     "+8 apps mention patient care",
-    "+20 31 ratings (startup-sized audience)",
+    "+20 35 ratings (startup-sized audience)",
     "+3 first app launched 9.3 yrs ago",
     "+10 last update 0.1 yrs ago"
    ]
@@ -4572,7 +4587,7 @@
      "store": "apple",
      "name": "OhioHealth",
      "rating": 4.69,
-     "count": 22464,
+     "count": 22467,
      "genre": "Medical",
      "released": "2016-02-17T23:32:34Z",
      "updated": "2026-10-22T13:35:03Z",
@@ -4649,7 +4664,7 @@
      "store": "apple",
      "name": "Health100",
      "rating": 4.25,
-     "count": 600,
+     "count": 583,
      "genre": "Medical",
      "released": "2026-07-01T07:00:00Z",
      "updated": "2026-10-26T22:28:31Z",
@@ -4964,7 +4979,7 @@
      "store": "apple",
      "name": "myPatientVisit",
      "rating": 4.6,
-     "count": 7947,
+     "count": 7906,
      "genre": "Medical",
      "released": "2020-04-04T07:00:00Z",
      "updated": "2026-10-28T12:36:28Z",
@@ -5161,7 +5176,7 @@
      "store": "apple",
      "name": "Form Health",
      "rating": 4.29,
-     "count": 631,
+     "count": 630,
      "genre": "Health & Fitness",
      "released": "2019-12-19T08:00:00Z",
      "updated": "2026-10-29T16:29:25Z",
@@ -5464,7 +5479,8 @@
    },
    "terms": [
     "telehealth",
-    "virtual primary care"
+    "virtual primary care",
+    "telemedicine"
    ]
   },
   "835200427": {
@@ -5478,7 +5494,7 @@
      "store": "apple",
      "name": "MyTowerHealth",
      "rating": 4.66,
-     "count": 841,
+     "count": 840,
      "genre": "Medical",
      "released": "2021-01-28T08:00:00Z",
      "updated": "2026-05-07T22:57:20Z",
@@ -5503,7 +5519,7 @@
      "store": "apple",
      "name": "Leap - Your Health Companion",
      "rating": 4.54,
-     "count": 170,
+     "count": 169,
      "genre": "Medical",
      "released": "2024-09-27T07:00:00Z",
      "updated": "2026-10-29T05:12:04Z",
@@ -13004,6 +13020,20 @@
      "email": "ORxAppSupport@Optum.com",
      "dev_id": "Optum Inc.",
      "description": "The OptumRx app empowers you to become an advocate of your pharmacy benefits."
+    },
+    "941641944": {
+     "id": "941641944",
+     "store": "apple",
+     "name": "OptumRx",
+     "rating": 4.73,
+     "count": 145734,
+     "genre": "Medical",
+     "released": "2015-01-28T08:00:00Z",
+     "updated": "2026-10-20T15:04:09Z",
+     "url": "https://apps.apple.com/us/app/optumrx/id941641944",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/27/4d/19274d36-111e-d529-00c8-674803baac67/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The OptumRx mobile app helps members manage pharmacy benefits without walking into a pharmacy.  Compare drug prices, view all your medications, and transfer eligible medications to home delivery. Users can also refill their home delivery prescriptions, check order status, set up automatic refills, and more.\nOther features include:\n• View member ID card\n• Resolve home delivery order holds\n• Manage account information\n \nSearch, compare and save.\nWith our easy-to-use tools, you'll get the info you need to find the right drug and pricing options for you.\n \nSend medications right to your home.\nYou "
     }
    },
    "terms": [
@@ -13668,6 +13698,20 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/e0/83/bee0838a-0c6a-bbc3-1c07-3df5389258b1/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Balto’s prescription delivery service is a specific task to deliver medicines from local pharmacy to patient’s home or office within 3 to 10 miles of radius.\n\nDriver needed to operate their personal car / vehicle for local delivery in the city he/she is hired. Will have safe driving record, follow all state and national driving laws, rules, and regulations. Will follow prearranged routes to destination, or use maps and GPS to navigate route. Will also maintain vehicle upkeep in running conditions. Balto system will inform local driver on their phone to pick up requested prescriptions from near"
+    },
+    "1565537765": {
+     "id": "1565537765",
+     "store": "apple",
+     "name": "See A Pharm By BaltoRx",
+     "rating": 5,
+     "count": 1,
+     "genre": "Health & Fitness",
+     "released": "2021-08-18T07:00:00Z",
+     "updated": "2024-10-07T11:29:40Z",
+     "url": "https://apps.apple.com/us/app/see-a-pharm-by-baltorx/id1565537765",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/4c/81/4c4c81d3-43e1-7f96-1d2e-3476f0afd405/AppIcon-1x_U007emarketing-0-10-0-0-85-220-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "See a pharm is a video consultation app which allows patient to consult with pharmacist after getting medicines at home. In addition, app allows patient to track their delivery orders in real time."
     }
    },
    "terms": [
@@ -13687,7 +13731,7 @@
     "price": "Free",
     "description": "Balto’s prescription delivery service is a specific task to deliver medicines from local pharmacy to patient’s home or office within 3 to 10 miles of radius.\n\nDriver needed to operate their personal car / vehicle for local delivery in the city he/she is hired. Will have safe driving record, follow all state and national driving laws, rules, and regulations. Will follow prearranged routes to destination, or use maps and GPS to navigate route. Will also maintain vehicle upkeep in running conditions. Balto system will inform local driver on their phone to pick up requested prescriptions from near"
    },
-   "total_ratings": 9,
+   "total_ratings": 10,
    "first_released": "2019-08-19T17:18:08Z",
    "last_updated": "2025-07-01T16:12:09Z",
    "score": 34,
@@ -13695,7 +13739,7 @@
    "why": [
     "+34 worst app rated 1.1★",
     "+14 apps mention prescriptions, patient care",
-    "+8 9 ratings (very small user base)",
+    "+8 10 ratings (very small user base)",
     "+3 first app launched 7.2 yrs ago",
     "+5 last update 1.3 yrs ago",
     "−30 seller looks like an individual developer, not a company"
@@ -14865,7 +14909,8 @@
     }
    },
    "terms": [
-    "prescription delivery"
+    "prescription delivery",
+    "online pharmacy"
    ]
   },
   "416091742": {
@@ -15055,7 +15100,7 @@
      "store": "apple",
      "name": "MeAgain: GLP-1 Tracker App",
      "rating": 4.79,
-     "count": 39671,
+     "count": 39751,
      "genre": "Health & Fitness",
      "released": "2025-04-11T07:00:00Z",
      "updated": "2026-09-10T15:44:49Z",
@@ -15123,7 +15168,7 @@
      "store": "apple",
      "name": "DreamMe: GLP-1 Tracker Pet",
      "rating": 4.7,
-     "count": 3271,
+     "count": 3283,
      "genre": "Health & Fitness",
      "released": "2025-12-16T08:00:00Z",
      "updated": "2026-10-05T21:56:56Z",
@@ -15299,7 +15344,7 @@
      "store": "apple",
      "name": "Zepbound & Mounjaro Tracker",
      "rating": 4.81,
-     "count": 3354,
+     "count": 3355,
      "genre": "Health & Fitness",
      "released": "2024-11-19T08:00:00Z",
      "updated": "2026-10-16T18:10:09Z",
@@ -15442,8 +15487,8 @@
      "id": "6756984097",
      "store": "apple",
      "name": "Glapp — Smart GLP-1 Tracker",
-     "rating": 4.76,
-     "count": 1045,
+     "rating": 4.75,
+     "count": 1049,
      "genre": "Health & Fitness",
      "released": "2026-03-22T07:00:00Z",
      "updated": "2026-10-31T07:46:45Z",
@@ -15485,7 +15530,7 @@
      "store": "apple",
      "name": "GLP-1 Weight Loss Tracker: Pep",
      "rating": 4.68,
-     "count": 960,
+     "count": 961,
      "genre": "Health & Fitness",
      "released": "2024-09-19T07:00:00Z",
      "updated": "2026-10-26T13:31:43Z",
@@ -15498,8 +15543,8 @@
      "id": "6801743338",
      "store": "apple",
      "name": "GLP-1 Workouts: Pep Strength",
-     "rating": 4.67,
-     "count": 9,
+     "rating": 4.7,
+     "count": 10,
      "genre": "Health & Fitness",
      "released": "2026-09-05T07:00:00Z",
      "updated": "2026-10-12T03:41:11Z",
@@ -15722,7 +15767,7 @@
      "store": "apple",
      "name": "MyFitnessPal: Calorie Counter",
      "rating": 4.71,
-     "count": 2386788,
+     "count": 2387079,
      "genre": "Health & Fitness",
      "released": "2009-12-08T02:04:45Z",
      "updated": "2026-10-27T18:06:58Z",
@@ -15793,7 +15838,7 @@
      "store": "apple",
      "name": "Glowise: GLP-1 Tracker & Diary",
      "rating": 4.77,
-     "count": 6708,
+     "count": 6709,
      "genre": "Health & Fitness",
      "released": "2024-11-06T08:00:00Z",
      "updated": "2026-10-26T02:23:17Z",
@@ -15944,8 +15989,8 @@
      "id": "6761790660",
      "store": "apple",
      "name": "Monju: Lose Weight on GLP-1",
-     "rating": 4.89,
-     "count": 206,
+     "rating": 4.88,
+     "count": 210,
      "genre": "Health & Fitness",
      "released": "2026-05-27T07:00:00Z",
      "updated": "2026-10-27T23:31:32Z",
@@ -15970,7 +16015,7 @@
      "store": "apple",
      "name": "OzemPro: Lose Weight on GLP1",
      "rating": 4.84,
-     "count": 444,
+     "count": 447,
      "genre": "Health & Fitness",
      "released": "2025-10-08T07:00:00Z",
      "updated": "2026-10-27T13:42:15Z",
@@ -16071,8 +16116,8 @@
      "id": "6752373585",
      "store": "apple",
      "name": "GlowBack: GLP-1 Tracker",
-     "rating": 4.64,
-     "count": 129,
+     "rating": 4.66,
+     "count": 138,
      "genre": "Health & Fitness",
      "released": "2025-09-11T07:00:00Z",
      "updated": "2026-10-27T18:30:22Z",
@@ -16362,7 +16407,7 @@
      "store": "apple",
      "name": "Tracky: GLP-1 Tracker",
      "rating": 4.81,
-     "count": 296,
+     "count": 298,
      "genre": "Health & Fitness",
      "released": "2026-02-15T08:00:00Z",
      "updated": "2026-08-28T23:33:00Z",
@@ -16702,8 +16747,8 @@
      "id": "6787922283",
      "store": "apple",
      "name": "GLP-1 Tracker: Dosely",
-     "rating": 4.63,
-     "count": 434,
+     "rating": 4.64,
+     "count": 437,
      "genre": "Health & Fitness",
      "released": "2026-08-13T07:00:00Z",
      "updated": "2026-09-04T17:00:08Z",
@@ -16850,7 +16895,7 @@
      "store": "apple",
      "name": "GLP-1 Tracker Diet App: GLP AI",
      "rating": 4.69,
-     "count": 819,
+     "count": 821,
      "genre": "Health & Fitness",
      "released": "2025-12-29T08:00:00Z",
      "updated": "2026-10-15T22:30:05Z",
@@ -17079,9 +17124,9 @@
      "count": 3,
      "genre": "Health & Fitness",
      "released": "2026-08-16T07:00:00Z",
-     "updated": "2026-10-28T22:12:33Z",
+     "updated": "2026-11-01T20:59:44Z",
      "url": "https://apps.apple.com/us/app/agonist-glp-1-peptide-tracker/id6790851004",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/1f/64/471f645c-e0cc-ba07-86f9-b6913cff7cc8/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/4e/66/734e669f-db09-1a1e-fa69-0885ea11e518/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Track peptide and GLP-1 doses, reminders, vial supply, and injection-site history in one place.\n\nAgonist helps you keep records of the routine you already follow. See what is due, record what you took, and look back at your history without searching through notes and spreadsheets.\n\nLogging one compound is free. Optional Premium upgrades are available. Requires iOS 18 or later.\n\nDOSE LOGS & REMINDERS\nCreate a schedule, set optional reminders, and record completed doses with the date, time, vial, and injection site used. Review past entries to see what you logged and when.\n\nVIAL INVENTORY\nKeep v"
     }
@@ -17101,8 +17146,8 @@
      "id": "6788222561",
      "store": "apple",
      "name": "DoseFit: GLP-1 Tracker & Diary",
-     "rating": 4.76,
-     "count": 393,
+     "rating": 4.75,
+     "count": 396,
      "genre": "Health & Fitness",
      "released": "2026-08-31T07:00:00Z",
      "updated": "2026-10-29T01:47:47Z",
@@ -17227,7 +17272,7 @@
      "store": "apple",
      "name": "Fawn: Thrive on GLP-1",
      "rating": 4.77,
-     "count": 207,
+     "count": 208,
      "genre": "Health & Fitness",
      "released": "2026-04-14T07:00:00Z",
      "updated": "2026-10-21T21:02:03Z",
@@ -17502,8 +17547,8 @@
      "id": "6793887999",
      "store": "apple",
      "name": "BiteWise: GLP-1 AI Coach",
-     "rating": 5,
-     "count": 1,
+     "rating": 3,
+     "count": 2,
      "genre": "Health & Fitness",
      "released": "2026-08-13T07:00:00Z",
      "updated": "2026-10-29T03:07:53Z",
@@ -19096,7 +19141,7 @@
      "store": "apple",
      "name": "Foodnoms: Nutrition Tracker",
      "rating": 4.74,
-     "count": 7879,
+     "count": 7885,
      "genre": "Health & Fitness",
      "released": "2019-11-12T08:00:00Z",
      "updated": "2026-10-28T22:08:44Z",
@@ -19312,7 +19357,7 @@
      "store": "apple",
      "name": "Glippy: GLP-1 Shot Tracker",
      "rating": 4.77,
-     "count": 464,
+     "count": 465,
      "genre": "Health & Fitness",
      "released": "2025-09-30T07:00:00Z",
      "updated": "2026-10-23T23:20:15Z",
@@ -19404,15 +19449,15 @@
      "id": "6758974954",
      "store": "apple",
      "name": "Phaze: Weight & GLP-1 Tracker",
-     "rating": 4.61,
-     "count": 49,
+     "rating": 4.62,
+     "count": 50,
      "genre": "Health & Fitness",
      "released": "2026-02-24T08:00:00Z",
-     "updated": "2026-10-22T14:01:58Z",
+     "updated": "2026-10-31T17:15:00Z",
      "url": "https://apps.apple.com/us/app/phaze-weight-glp-1-tracker/id6758974954",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/d0/1f/1bd01f9d-6472-91ad-07f4-9191e52411fa/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/d2/82/40d2828d-48c7-c67a-dfef-a273b205e857/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
      "price": "Free",
-     "description": "Phaze is a GLP-1 tracker for shots and pills, on iPhone and Apple Watch.\nIt works with semaglutide (Ozempic®, Wegovy®, Rybelsus®), tirzepatide (Mounjaro®, Zepbound®) and orforglipron (Foundayo™). Over 8,000 doses logged in Phaze.\nNew in Phaze 6: Community, about life on GLP-1 medications, in eight languages. Some members are Phaze AI characters.\nDose tracking is free, works offline and is encrypted on your phone.\n\nCOMMUNITY, NEW IN PHAZE 6\n• Pick a username and join. No login. No password.\n• Every post and reply is translated, so a post from São Paulo reads in English in Ohio.\n• Vote, earn kar"
+     "description": "Phaze is a GLP-1 tracker for shots and pills, on iPhone and Apple Watch.\nIt works with semaglutide (Ozempic®, Wegovy®, Rybelsus®), tirzepatide (Mounjaro®, Zepbound®) and orforglipron (Foundayo™). Over 8,000 doses logged in Phaze.\nDose tracking is free, works offline and is encrypted on your phone.\n\nDOSE TRACKING\n• Schedules and reminders for injections and pills.\n• An estimated level chart and dose cycle ring, based on typical absorption patterns.\n• Injection sites across six areas, and 40 side effects with severity.\n\nFOOD, PROTEIN AND WATER\n• Goals for calories, protein, water, fiber, fat, ca"
     }
    },
    "terms": [
@@ -20124,9 +20169,9 @@
      "count": 73,
      "genre": "Health & Fitness",
      "released": "2026-05-28T07:00:00Z",
-     "updated": "2026-10-31T23:27:53Z",
+     "updated": "2026-11-01T21:45:48Z",
      "url": "https://apps.apple.com/us/app/vital-track-peptide-glp-1/id6770797345",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/96/bc/e896bc69-4b89-be35-9341-fb3c47cc66d8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/bd/10/fcbd10b9-7521-2115-6188-2f8becdbd905/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Vital tracks GLP-1 and peptide protocols for people on Wegovy®, Ozempic®, Zepbound®, Mounjaro®, Rybelsus®, semaglutide, tirzepatide, retatrutide, or custom compounds.\n\nNot medical advice. Consult your healthcare provider for dosing decisions.\n\nWHAT YOU CAN TRACK\n• GLP-1 injections: dose, time, pen, notes, symptoms, and injection site\n• Peptide protocols: BPC-157, ipamorelin, TB-500, premixed stacks, and custom compounds\n• Weight, waist, body measurements, body fat, hydration, and other health trends\n• Courses, schedules, reminders, and calendar exports\n• Peptide labels, saved scan images, prod"
     }
@@ -20176,9 +20221,9 @@
      "count": 4,
      "genre": "Medical",
      "released": "2026-04-16T07:00:00Z",
-     "updated": "2026-10-28T00:38:01Z",
+     "updated": "2026-10-29T20:35:03Z",
      "url": "https://apps.apple.com/us/app/sopro-glp-1-shot-tracker/id6761509283",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/d8/21/3dd8218e-5964-b6c3-fa93-9837fe93e184/sopro-app-icon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/5c/d7/bd5cd79b-6972-14eb-33ad-0f390de15d8e/sopro-app-icon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Free and no account needed: dose logging, reminders, weight, symptoms and exporting your data.\nOptional Premium: PDF report, treatment patterns, weight widget and restoring your backup on a new device.\n$0.99/month or $7.99/year, with a 7-day free trial on the yearly plan. Cancel anytime in iPhone Settings.\n\nSopro is the companion app for people on GLP-1 treatment (Ozempic, Ozivy, Mounjaro, Wegovy, Rybelsus and similar medications).\nLog your doses, track your weight, symptoms and appetite — all in one app designed for patients who want clarity and control over their treatment.\n\nEFFORTLESS DOSE "
     }
@@ -20301,9 +20346,9 @@
      "count": 5,
      "genre": "Health & Fitness",
      "released": "2025-10-01T07:00:00Z",
-     "updated": "2026-10-28T17:00:37Z",
+     "updated": "2026-11-01T04:35:05Z",
      "url": "https://apps.apple.com/us/app/glp-1-tracker-mojo/id6751704399",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/dc/75/c8dc7522-28f8-145a-493d-13ef1043492e/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/59/f0/fd59f02d-e452-21e3-51a2-fc290681c0e0/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Taking Mounjaro, Wegovy, or Ozempic? mojo tracks your weight, nutrition, and injections — with AI insights to help you get the most from your GLP-1 journey.\n\nAI Data Analysis\n\n- Every time you update your data, AI instantly analyzes it and provides feedback\n- Comprehensive analysis from the perspectives of nutrition, fitness, and metabolic health\n- Clear, actionable suggestions for improvement\n\nWeight Tracking & Insights\n- Seamlessly integrates with Apple Health to automatically sync body measurements, nutrition, workouts, and sleep data\n- Beautiful trend charts that visualize your weight loss"
     }
@@ -20703,7 +20748,7 @@
      "store": "apple",
      "name": "30 Day Fitness - Home Workout",
      "rating": 4.28,
-     "count": 58565,
+     "count": 58561,
      "genre": "Health & Fitness",
      "released": "2016-04-09T01:30:45Z",
      "updated": "2026-03-30T07:40:55Z",
@@ -21827,9 +21872,9 @@
      "count": 165471,
      "genre": "Health & Fitness",
      "released": "2015-12-18T09:38:38Z",
-     "updated": "2026-10-27T10:52:53Z",
+     "updated": "2026-11-01T13:18:29Z",
      "url": "https://apps.apple.com/us/app/gymverse-gym-workout-planner/id1048454034",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/e8/ea/20e8ea55-b3d4-4cf5-723b-3e210452d599/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/6b/0b/066b0b1f-969e-2c94-dac6-64fcd9b02cdb/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Gymverse acts as your personal trainer, building a fully managed, multi-week training plan tailored to your goals, schedule, and equipment. Set your goals, track every milestone, and celebrate every personal record along the way, Gymverse highlights your personal bests, total weight lifted, and strength gains, turning progress into the motivation to keep going.\n\nWhether you're working to build muscle, lose weight, or improve overall fitness, your plan automatically adjusts weights, sets, and reps so you're always training at exactly the right intensity. Every exercise comes with expert video g"
     },
@@ -22860,7 +22905,8 @@
     }
    },
    "terms": [
-    "weight loss program"
+    "weight loss program",
+    "GLP-1"
    ]
   },
   "1453137633": {
@@ -24305,12 +24351,12 @@
      "store": "apple",
      "name": "AI Calorie Tracker by Yazio",
      "rating": 4.7,
-     "count": 51505,
+     "count": 51574,
      "genre": "Health & Fitness",
      "released": "2015-01-06T10:48:27Z",
-     "updated": "2026-10-27T07:24:31Z",
+     "updated": "2026-10-31T21:53:34Z",
      "url": "https://apps.apple.com/us/app/ai-calorie-tracker-by-yazio/id946099227",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/fe/e7/57fee716-0d73-00a6-e1aa-d10bea65473f/Yettie_App_Icon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/8d/2d/708d2d30-9527-8c91-56e7-c8285eefdc0b/Yettie_App_Icon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Welcome to Yazio, the most effective AI calorie tracker, intermittent fasting app and food tracker for losing weight without dieting!\n\nTrack calories, eat better and reach your goals with Yazio’s free calorie counter app!\nYazio is your all-in-one solution, whether you're aiming for a calorie deficit, tracking meals or looking for an advanced AI calorie tracker. Designed to support sustainable weight loss, muscle gain and weight maintenance, Yazio empowers you to make smart food choices with the help of its AI calorie tracker. Yazio combines a science-backed approach with cutting-edge AI calori"
     }
@@ -27392,9 +27438,9 @@
      "count": 7,
      "genre": "Health & Fitness",
      "released": "2026-09-19T07:00:00Z",
-     "updated": "2026-10-27T16:10:01Z",
+     "updated": "2026-11-01T22:40:17Z",
      "url": "https://apps.apple.com/us/app/peply-peptide-tracker-trt/id6807574666",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/c6/64/b6c664ef-8579-2cda-9ae5-afd221944e74/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/08/2e/56082e86-8d93-90f7-28ea-664bb9cb3241/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Peply helps you track your peptide, TRT, testosterone, and GLP-1 routines in one simple place.\n\nLog injections, doses, schedules, sites, and notes so you always know what you took, when you took it, and what’s coming next.\n\nWith Peply, you can:\n\n• Track peptides, TRT, testosterone, GLP-1s, and other protocols\n• Log injections and doses\n• Keep track of injection sites\n• View your history and upcoming schedule\n• Organize multiple compounds and routines\n• Add notes and monitor your progress over time\n• Access research links and educational information\n• Stay consistent with reminders and an easy-"
     }
@@ -28112,9 +28158,9 @@
      "count": 28,
      "genre": "Health & Fitness",
      "released": "2026-06-30T07:00:00Z",
-     "updated": "2026-10-30T16:31:04Z",
+     "updated": "2026-11-01T20:50:17Z",
      "url": "https://apps.apple.com/us/app/peptidelab-peptide-tracker/id6765477049",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/43/75/7c437513-9988-c953-d1c5-0b1a459db020/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c8/84/5fc8845e-ddf1-e8df-06dc-5382522a094d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Serious tracking for peptides, GLP-1, TRT and HRT, with the bloodwork to see what actually changed.\n\nA precision instrument for people who run their own peptide, GLP-1, HRT and TRT protocols. Record an injection, a pill or a spray in a few taps, or let scheduled protocols run on auto-pilot. Log your workouts, water, meals and periods in the same place. Local-first and private. No efficacy claims, no gamification, no guilt.\n\nTRACK PROTOCOLS\n• The largest compound library in any tracker: peptides, GLP-1s, hormones and supplements\n• Record what you take in seconds, with titration schedules and cy"
     },
@@ -28305,9 +28351,9 @@
      "count": 2,
      "genre": "Health & Fitness",
      "released": "2026-05-11T07:00:00Z",
-     "updated": "2026-10-27T15:56:00Z",
+     "updated": "2026-11-01T20:51:37Z",
      "url": "https://apps.apple.com/us/app/trkd-peptide-glp-1-trt-log/id6762535041",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/fb/67/99fb6752-663c-704c-2a1e-8578077c8e0a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/a3/db/22a3db15-e622-e934-3584-7473e20891ae/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "TRKD Plus is a personal tracker for peptides, GLP-1s, TRT, and the routines around them.\nLog in seconds, not minutes.\n\nKeep your stack, dose history, injection sites, schedule, and progress in one place.\n\nTrack your stack\n\n• 140+ preloaded compounds, plus custom entries for anything not in the library\n• Injectable, oral, nasal, and topical entries\n• Blends logged as one entry\n• Schedule daily, weekly, several days a week on days you choose, every other day, or a custom interval, with an optional on/off cycle\n• Set an optional reminder time for scheduled days on iPhone\n• Side-effect logging on "
     }
@@ -28430,11 +28476,11 @@
      "count": 9,
      "genre": "Health & Fitness",
      "released": "2026-06-17T07:00:00Z",
-     "updated": "2026-10-28T06:21:00Z",
+     "updated": "2026-11-01T15:37:56Z",
      "url": "https://apps.apple.com/us/app/pepvault-peptide-tracker/id6779318649",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/d1/32/c6d132d7-3de4-219d-599f-a7a3ab9c9912/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/3d/bd/3d3dbd40-6c2b-199b-da8d-cf2ba5fb4d3a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
-     "description": "PepVault is a private tracker for your peptide and GLP-1 routine. Log the doses you take, get a reminder when each one is due, keep every vial, pen and spray on one shelf, and see your weight, bloodwork and logs side by side, so you can see what's working. PepTalk, the AI companion built in, answers questions about your own log and the research.\n\nPepVault is a tracking and education tool. It records the doses and schedules you enter, as written on your label or by your clinic, and shows them back. It doesn't calculate or recommend doses, give dosing instructions or sell peptides or medication,"
+     "description": "PepVault is a private tracker for your peptide and GLP-1 routine. Log the doses you take, get a reminder when each one is due, snap a meal to hit your protein, keep every vial, pen and spray on one shelf, and see your weight, bloodwork and logs side by side, so you can see what's working. PepTalk, the AI companion built in, answers questions about your own log and the research.\n\nPepVault is a tracking and education tool. It records the doses and schedules you enter, as written on your label or by your clinic, and shows them back. It doesn't calculate or recommend doses, give dosing instruction"
     }
    },
    "terms": [
@@ -30347,7 +30393,8 @@
     }
    },
    "terms": [
-    "hormone therapy"
+    "hormone therapy",
+    "peptides"
    ]
   },
   "6791149871": {
@@ -36101,7 +36148,8 @@
    },
    "terms": [
     "men's health",
-    "health coaching"
+    "health coaching",
+    "women's health"
    ]
   },
   "1564751135": {
@@ -38005,15 +38053,16 @@
      "count": 55446,
      "genre": "Health & Fitness",
      "released": "2023-06-13T07:00:00Z",
-     "updated": "2026-10-21T23:15:38Z",
+     "updated": "2026-11-01T22:49:44Z",
      "url": "https://apps.apple.com/us/app/lively-period-tracker-cycle/id6447674634",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/33/6d/21336dc7-a70c-7db1-c767-e7f9f5ba6325/AppIcon-prod-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/64/1d/a2641d78-3ce5-3c85-97e6-2e7e59b80167/AppIcon-prod-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Meet Lively Cycle, the premier app for aligning with your cycle to enhance every day. Personalised daily tips are tailored to your menstrual phase and hormone levels, empowering you to navigate each day with confidence and ease. \n\nLively® Cycle app offers guidance on nutrition, sports, and self-care, ensuring you feel supported and nurtured throughout your entire cycle.\nUnlike men, who function on a 24-hour cycle, women experience a unique 28-day cycle that influences their mood, energy, and well-being.\n\nEnjoy Lively with your partner using the \"Partner Syncing\" feature. Share cycle phases and"
     }
    },
    "terms": [
-    "women's health"
+    "women's health",
+    "hormone therapy"
    ]
   },
   "532239408": {
@@ -38256,9 +38305,9 @@
      "count": 7189,
      "genre": "Health & Fitness",
      "released": "2021-01-12T08:00:00Z",
-     "updated": "2026-08-30T18:33:21Z",
+     "updated": "2026-11-01T21:12:26Z",
      "url": "https://apps.apple.com/us/app/radiance-home-fitness-workout/id1523041120",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/98/5f/d1985fb5-ce42-e467-2c2c-19251df36ce6/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/19/8f/aa198fd7-36e0-7b24-8137-0b47492ca967/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Kickstart your journey to health and happiness with Radiance, a home fitness, meal planning, and balance app. With guidance from 4 world-class trainers, from dynamic cardio to Pilates and dance workout - Radiance makes it easy and fun to achieve your fitness goals, because why settle for boring workouts? Whether you're looking to lose weight, build strength, tone your body, boost energy, or simply live a healthier lifestyle, Radiance has a plan for you!  \n\nWhat's inside the app?  \n\nHOME FITNESS, PILATES AND TRAINING PLANS  \nNo matter your fitness level or schedule, we offer various home workou"
     },
@@ -40700,9 +40749,9 @@
      "count": 1,
      "genre": "Health & Fitness",
      "released": "2024-02-09T08:00:00Z",
-     "updated": "2026-10-23T05:09:23Z",
+     "updated": "2026-11-01T21:16:06Z",
      "url": "https://apps.apple.com/us/app/hello-inside/id1577156704",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/9b/0c/f89b0ce3-c922-2198-b897-375458e6d5ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/06/a8/4106a872-8447-ed56-f34b-a396b81695b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "The first holistic coaching solution for your metabolism and well-being!\nNavigate menopause with ease, alleviate PMS symptoms, or reach your health goals using continuous glucose monitoring (CGM).\n\nWE TAKE WOMEN’S HEALTH TO THE NEXT LEVEL \nGain access to blood sugar data through our continuous glucose monitoring (CGM) and get insights into the female metabolism through the app. We analyze your glucose data and provide valuable insights and recommendations on hormonal imbalances related to PMS, menstrual pain, menopause, and other hormone disorders.\n\nMETABOLIC HEALTH & GLUCOSE TRACKING \nIntelli"
     }
@@ -44464,9 +44513,9 @@
      "count": 6541,
      "genre": "Health & Fitness",
      "released": "2019-08-20T07:00:00Z",
-     "updated": "2026-10-02T03:27:31Z",
+     "updated": "2026-11-01T22:37:00Z",
      "url": "https://apps.apple.com/us/app/lumen-metabolic-coach/id1395149502",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/9a/bd/979abd47-74db-8a95-3bf5-0740a87f6edc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/d3/5f/ffd35f71-3fa3-81bb-c945-e570b15c1896/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Do you want to take control of your metabolism, lose weight, and live a healthier lifestyle?\nWith Lumen’s personalized metabolic coach, you can!  \n\nLumen is the world’s first device to measure whether your body is burning fats or carbs - in a single breath. Say goodbye to guessing and hello to real-time metabolic insights, tailored daily nutrition plans, and recommendations on what to eat and when.\n\nWith direct access to your metabolism at your fingertips, our features will guide you to speeding up your metabolism, keep you motivated to reach your health goals, and feel your best self. \n\nEVERY"
     }
@@ -45913,9 +45962,9 @@
      "count": 3,
      "genre": "Health & Fitness",
      "released": "2026-03-19T07:00:00Z",
-     "updated": "2026-10-17T19:00:35Z",
+     "updated": "2026-11-01T19:46:46Z",
      "url": "https://apps.apple.com/us/app/meridian-performance-coaching/id6760389927",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/a9/ba/70a9babd-1f3c-bbe1-d415-295d7e6f6f04/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/51/9c/eb519cf7-1878-c5bb-c851-2e5da0dee9ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Meridian - Your Entire Coaching Protocol\n\nTraining, nutrition, bloodwork, biometrics, messaging, and accountability in one app.\n\nBuilt for clients working 1-on-1 with their coach. Not a self-guided fitness app.\n\nFeatures:\n- Custom training programs with guided set logging and auto-progression\n- Macro and micronutrient tracking with barcode scanning and recipes Powered by fatsecret nutrition API\n- Apple Health integration for sleep, HRV, heart rate, and steps\n- Direct coach messaging with photo, video, and voice support\n- Video walkthroughs for check-in reviews with screen recording\n- Weekly ch"
     }
@@ -51019,9 +51068,9 @@
      "count": 2473,
      "genre": "Medical",
      "released": "2015-05-21T11:32:38Z",
-     "updated": "2026-10-28T08:57:58Z",
+     "updated": "2026-11-01T22:36:02Z",
      "url": "https://apps.apple.com/us/app/practo-doctor-appointment-app/id953772015",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/18/82/8f188243-6f53-4e7e-9e61-5fa35f97a925/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/76/ea/f876eac4-5323-1a34-ce24-781ba6461912/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Say goodbye to doubts, and say hello to India’s top doctors on Practo. Take complete care of yourself and your family from the comfort of your home - consult doctors online, book doctor appointments, order medicines online, and book diagnostic tests. \n\nPracto, India’s fastest growing telemedicine app, has over 1 lakh+ doctors and 70,000 clinics and hospitals covered under its network. It is a one-stop solution for all your healthcare and medical needs where you can:\n\nAccess instant video consultation across 25+ specialties\nBook hassle-free online doctor appointments\nOrder medicines and get the"
     }
@@ -51211,9 +51260,9 @@
      "count": 394,
      "genre": "Health & Fitness",
      "released": "2023-05-01T07:00:00Z",
-     "updated": "2026-10-25T23:40:10Z",
+     "updated": "2026-11-01T22:50:03Z",
      "url": "https://apps.apple.com/us/app/human-health-chronic-illness/id1628460004",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/3e/80/803e80a1-fb31-8a81-9354-40a7092f808a/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/0a/f6/eb0af68b-536f-3d81-cf77-26202a721c41/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Trusted by more than 300,000 people and created in collaboration with leading scientists and practitioners from UCSF and Stanford, Human Health is designed to bring you clarity, confidence and a deeper understanding of your body. With a 4.4 star rating, you are joining a community that is already feeling the difference.\n\nYou deserve to feel seen, understood and empowered in your health.\n\nHuman Health helps you turn everyday experiences into clarity so you can log symptoms, track treatments, spot patterns sooner and take control of your health journey.\n\nNo confusion. No judgement. No overwhelm."
     },
@@ -57507,13 +57556,13 @@
      "id": "6443792938",
      "store": "apple",
      "name": "Gabit: Your Longevity Platform",
-     "rating": 4.43,
-     "count": 14,
+     "rating": 4.33,
+     "count": 15,
      "genre": "Health & Fitness",
      "released": "2023-06-19T07:00:00Z",
-     "updated": "2026-10-21T21:21:47Z",
+     "updated": "2026-10-29T22:19:06Z",
      "url": "https://apps.apple.com/us/app/gabit-your-longevity-platform/id6443792938",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/b2/90/17b2906c-8e2a-8bee-b9ab-310e2b60d924/AppIconProd-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/90/49/4e904980-d3e4-13e7-1f36-361c82064507/AppIconProd-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Gabit is a one-stop platform for fitness, nutrition, skincare, and smart health – all working with the single-minded goal of adding more healthy years to your life.\n\nIt is the only health platform in the world to connect the four pillars of health – Fitness, Nutrition, Sleep, and Stress.\n\nBuilding good habits (Gabits) is the best way to live a longer, healthier life. We help you adopt scientifically proven methods to achieve your health goals – managing weight, improving fitness, eating better, getting healthier skin, and tracking your health with smart tech.\n\n\nSmart Health Devices for Smarter"
     }
@@ -63464,7 +63513,7 @@
     "+8 apps mention telehealth",
     "+20 41 ratings (startup-sized audience)",
     "+15 first app launched 0.8 yrs ago",
-    "+10 last update 0.0 yrs ago"
+    "+10 last update 0.1 yrs ago"
    ]
   },
   "1091679224": {
@@ -64132,7 +64181,7 @@
     "+26 worst app rated 1.8★",
     "+0 no telehealth, pharmacy or lab focus",
     "+20 52 ratings (startup-sized audience)",
-    "+3 first app launched 7.6 yrs ago",
+    "+3 first app launched 7.7 yrs ago",
     "+10 last update 0.2 yrs ago"
    ]
   },
@@ -64284,7 +64333,7 @@
     "+32 worst app rated 1.3★",
     "+0 no telehealth, pharmacy or lab focus",
     "+20 414 ratings (startup-sized audience)",
-    "+3 first app launched 12.5 yrs ago",
+    "+3 first app launched 12.6 yrs ago",
     "+10 last update 0.9 yrs ago",
     "−30 name suggests a large established organization"
    ]
@@ -68603,9 +68652,9 @@
      "count": 110,
      "genre": "Health & Fitness",
      "released": "2025-10-09T07:00:00Z",
-     "updated": "2026-10-25T18:26:02Z",
+     "updated": "2026-11-01T21:07:19Z",
      "url": "https://apps.apple.com/us/app/circe-calorie-macro-counter/id6739891174",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/90/ae/d890ae60-f239-d415-e96f-ecdfe213e5ff/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/49/b7/4849b727-f25e-c844-2202-ee5b8bbc1b03/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "CIRCE is more than a calorie tracker — it’s your personal AI nutrition coach, now with the people who support you and powerful tools to plan ahead.\n\nLog meals instantly, plan future meals in seconds, understand your food choices, and build healthier habits with daily guidance from an AI that adapts to your goals. Plus, connect with trainers, friends, and family who can follow your journey and keep you accountable.\n\n## Why CIRCE works when other apps don't\n\n• Log meals in seconds — type \"chicken sandwich and fries\" or snap a photo.\n• Plan meals ahead with natural language — “Mon–Fri oatmeal for"
     }
@@ -70103,9 +70152,9 @@
      "count": 7,
      "genre": "Health & Fitness",
      "released": "2026-09-24T07:00:00Z",
-     "updated": "2026-10-30T15:20:26Z",
+     "updated": "2026-11-01T20:49:59Z",
      "url": "https://apps.apple.com/us/app/ascend-fitness-nutrition/id6790593276",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/09/6f/18096fdd-f827-1dd5-0319-444a70a0f19c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/a1/3e/3fa13ece-a04d-41fe-328f-3c1f3a49641f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Train smarter. Eat better. Ascend builds your training and meal plan around you — your goals, your body, your equipment and your schedule — and adapts as you progress.\n\nTRAIN SMARTER\n• Personalized workout plans matched to your goal (fat loss, muscle, strength), your gym or home equipment, and how many days you can train\n• Beginner-friendly cues on every exercise, with a difficulty curve that adapts as you progress\n• In-app exercise form guides for every lift — no more digging through YouTube mid-set\n• Guided workout sessions: swap or reorder exercises, log every set and rep, and a smart rest "
     }
@@ -77246,6 +77295,20 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/78/4e/d1784e21-fb9c-f672-df87-4dae06e05b2c/Go2AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Remote Patient Monitoring (RPM)\nDrKumo platform is designed as a highly secure, HIPAA-compliant platform to provide seamless, easy to use automated Remote Patient Monitoring (RPM) for patients and providers. Our RPM technology supports a rich array of devices to provide the necessary physiological data from patients via Bluetooth. \n\nThe DrKumo platform is the most comprehensive and optimal way to remotely manage patient care. Patients and providers can securely communicate with each other and access any information they need anytime, anywhere.\n\nNote: \n- This app is to be used as prescribed by "
+    },
+    "6474855065": {
+     "id": "6474855065",
+     "store": "apple",
+     "name": "KumoHealth",
+     "rating": 5,
+     "count": 1,
+     "genre": "Health & Fitness",
+     "released": "2024-01-12T08:00:00Z",
+     "updated": "2026-10-27T16:02:26Z",
+     "url": "https://apps.apple.com/us/app/kumohealth/id6474855065",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/ba/ac/68baacee-122a-d1cd-b00d-fa5428bd167a/KumoHealthAppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Remote Patient Monitoring (RPM)\nDrKumo platform is designed as a highly secure, HIPAA-compliant platform to provide seamless, easy to use automated Remote Patient Monitoring (RPM) for patients and providers. Our RPM technology supports a rich array of devices to provide the necessary physiological data from patients via Bluetooth. \n\nThe DrKumo platform is the most comprehensive and optimal way to remotely manage patient care. Patients and providers can securely communicate with each other and access any information they need anytime, anywhere.\n\nNote: \n- This app is to be used as prescribed by "
     }
    },
    "terms": [
@@ -77920,9 +77983,9 @@
      "count": 150,
      "genre": "Medical",
      "released": "2018-08-02T10:18:42Z",
-     "updated": "2026-10-05T20:40:37Z",
+     "updated": "2026-11-01T20:52:50Z",
      "url": "https://apps.apple.com/us/app/myevv/id1378180354",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/4d/08/f14d0812-575c-c522-134c-dcbc3e1e7db8/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/87/6f/c5876f7c-50d9-34a9-a37d-b4abdd0e30d0/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "MYEVV is a way to verify that services to a patient, who has signed up for a home healthcare service, are delivered.\n\nMY EVV is allows workers who visit patient homes to electronically clock in and out of shifts. The system logs key information including the date, time, and location by using the GPS of the mobile phone. When the employee signs in to the system, it facilitates them to enter all the services provided as per needs of the individual’s schedule.\n\nMy EVV records all the required information so that reports can be produced as per requirements of any individual agency with the guideli"
     }
@@ -77938,15 +78001,15 @@
     "count": 150,
     "genre": "Medical",
     "released": "2018-08-02T10:18:42Z",
-    "updated": "2026-10-05T20:40:37Z",
+    "updated": "2026-11-01T20:52:50Z",
     "url": "https://apps.apple.com/us/app/myevv/id1378180354",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/4d/08/f14d0812-575c-c522-134c-dcbc3e1e7db8/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/60x60bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/87/6f/c5876f7c-50d9-34a9-a37d-b4abdd0e30d0/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/60x60bb.jpg",
     "price": "Free",
     "description": "MYEVV is a way to verify that services to a patient, who has signed up for a home healthcare service, are delivered.\n\nMY EVV is allows workers who visit patient homes to electronically clock in and out of shifts. The system logs key information including the date, time, and location by using the GPS of the mobile phone. When the employee signs in to the system, it facilitates them to enter all the services provided as per needs of the individual’s schedule.\n\nMy EVV records all the required information so that reports can be produced as per requirements of any individual agency with the guideli"
    },
    "total_ratings": 150,
    "first_released": "2018-08-02T10:18:42Z",
-   "last_updated": "2026-10-05T20:40:37Z",
+   "last_updated": "2026-11-01T20:52:50Z",
    "score": 56,
    "solo": false,
    "why": [
@@ -77954,7 +78017,7 @@
     "+8 apps mention patient care",
     "+20 150 ratings (startup-sized audience)",
     "+3 first app launched 8.2 yrs ago",
-    "+10 last update 0.1 yrs ago"
+    "+10 last update 0.0 yrs ago"
    ]
   },
   "997810986": {
@@ -95240,7 +95303,7 @@
      "store": "apple",
      "name": "CareTree",
      "rating": 4.73,
-     "count": 357,
+     "count": 358,
      "genre": "Medical",
      "released": "2020-01-23T08:00:00Z",
      "updated": "2026-09-14T15:08:10Z",
@@ -97770,7 +97833,7 @@
      "store": "apple",
      "name": "Weight Loss & Fitness in 5 min",
      "rating": 4.68,
-     "count": 2339,
+     "count": 2342,
      "genre": "Health & Fitness",
      "released": "2017-12-11T21:58:25Z",
      "updated": "2026-10-24T18:32:51Z",
@@ -98765,7 +98828,7 @@
      "store": "apple",
      "name": "Solv: Easy Same-Day Healthcare",
      "rating": 4.88,
-     "count": 26456,
+     "count": 26461,
      "genre": "Medical",
      "released": "2019-08-23T19:46:26Z",
      "updated": "2023-01-09T20:06:57Z",
@@ -98790,7 +98853,7 @@
      "store": "apple",
      "name": "pMD",
      "rating": 4.79,
-     "count": 7862,
+     "count": 7844,
      "genre": "Medical",
      "released": "2008-12-11T08:00:00Z",
      "updated": "2026-10-23T21:33:47Z",
@@ -98868,9 +98931,9 @@
      "count": 1,
      "genre": "Health & Fitness",
      "released": "2026-10-12T07:00:00Z",
-     "updated": "2026-10-28T14:54:22Z",
+     "updated": "2026-11-01T23:11:15Z",
      "url": "https://apps.apple.com/us/app/fera-hormone-health/id6788873287",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/77/de/0c77defc-4c22-7ab3-9f0d-0fe7c12abeb6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/e5/d0/a7e5d022-a6af-5f3c-3a24-0a516d04971d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "FERA builds your nutrition and supplement plan around your hormones, whether you're tracking a cycle, moving through perimenopause, or well past your last period.\n\nEvery stage has its own rhythm. FERA shows you yours, and tells you what to eat and take today.\n\nYOUR RHYTHM, ON ONE SCREEN\n- See where you are in your cycle, or your week, at a glance\n- Today's focus: the few things that matter most right now\n- Protein, calories and key nutrients tracked against targets set for your stage\n- Daily, weekly and all-time progress in one place\n\nA PLAN FOR YOUR LIFE STAGE\n- Teens, 20s, 30s and 40s, perim"
     }
@@ -100341,9 +100404,9 @@
      "count": 0,
      "genre": "Health & Fitness",
      "released": "2026-09-14T07:00:00Z",
-     "updated": "2026-10-29T16:09:32Z",
+     "updated": "2026-11-01T22:32:05Z",
      "url": "https://apps.apple.com/us/app/tilly-glp-1-protein-tracker/id6808597407",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/f5/ae/0cf5ae64-4f80-5a23-d406-355e83b4bdff/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/0c/e8/920ce83d-38fd-9144-f6da-721055d5f911/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Tilly is a free GLP-1 tracker for iPhone, built around protein. Type a meal the way you’d say it, “two eggs and toast”, and Tilly counts its protein toward your daily target, next to your shot or pill, your side effects and your weight. For people on Ozempic, Wegovy, Mounjaro, Zepbound, the Wegovy pill or Foundayo, and for anyone who wants to log meals without counting by hand. In English, German, French and Romanian.\n\nWHAT’S FREE\nMeals by typing, the barcode scanner, the protein ring, Trends, the doctor report and Apple Health. Three meals by photo, three questions to Tilly and five meals by "
     }
@@ -101768,9 +101831,9 @@
      "count": 14,
      "genre": "Health & Fitness",
      "released": "2026-07-07T07:00:00Z",
-     "updated": "2026-11-01T05:12:48Z",
+     "updated": "2026-11-01T21:10:45Z",
      "url": "https://apps.apple.com/us/app/glp3-peptide-tracker/id6780410723",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/f9/b5/77f9b5be-70e6-5e1f-ff64-1003b933f1c3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/98/11/e3981167-bd2f-137b-f194-58447894b4a2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "glp3 tracks your peptide and GLP-1 protocol the way you actually run it — every dose in one tap, a timeline of when your doses landed, and every compound in your stack on one view.\n\nBuilt for real protocols: multi-compound stacks — not just one drug at a time.\n\nMost of glp3 is free, and stays that way. The whole core tracker:\n\n• Dose log — one tap, retroactive, durable. Your log is the point, and it's never lost.\n• Schedules — a simple cadence reminder (e.g. every 7 days) with a countdown to your next dose.\n• Timeline — see when your doses landed, with each compound's published half-life cited"
     }
@@ -102394,9 +102457,9 @@
      "count": 2,
      "genre": "Health & Fitness",
      "released": "2026-06-14T07:00:00Z",
-     "updated": "2026-10-26T22:54:06Z",
+     "updated": "2026-11-01T23:32:26Z",
      "url": "https://apps.apple.com/us/app/vita-ai-recovery-body-age/id6769347697",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/e3/45/88e3459f-714e-49ba-e91a-a8d67fad02ff/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/7e/8d/857e8d8c-9da2-6838-694f-8c11089e9646/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Vita AI helps you decide when to train and when to recover, using the health data you already collect.\n\nConnect Apple Health to explore recovery, daily stress, training load, sleep insights and an estimated Body Age. With an Apple Watch and enough history for your personal baseline, you can get started without buying another device. Ask an AI coach questions about your data, connect your habits to your goals, and keep your uploaded lab reports in one place.\n\nVita reads Apple Health and authorized WHOOP cloud data. Its Apple Watch app shows metrics and seven-day charts, measures heart rate with"
     }
@@ -102744,9 +102807,9 @@
      "count": 0,
      "genre": "Health & Fitness",
      "released": "2026-08-01T07:00:00Z",
-     "updated": "2026-10-23T16:16:47Z",
+     "updated": "2026-11-01T17:28:53Z",
      "url": "https://apps.apple.com/us/app/well/id6771374776",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/15/d3/3615d39c-865b-dca7-15c5-9a944aa80dfc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/7d/14/b17d1418-fe36-8752-1286-ff1d19b58ccd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Well is healthcare built for the lifetime, not the episode. One app brings your doctors, home visits, labs, medications, and your family's health together — around one record that stays with you for life.\n\nEVERY DOOR OF CARE\n• See a doctor in minutes over video, or book a specialist for a clinic visit\n• Home Care: nursing, advanced care, and IV therapy at your home\n• Labs without the trip: blood tests at home, imaging booked nearby, results in the app\n• Medicine delivery: prescriptions and supplements to your door\n\nCARE THAT KNOWS YOU\nWell brings together advanced diagnostics, genomics, and li"
     }
@@ -105257,11 +105320,11 @@
      "count": 0,
      "genre": "Health & Fitness",
      "released": "2026-10-23T07:00:00Z",
-     "updated": "2026-10-30T16:28:18Z",
+     "updated": "2026-10-31T20:50:01Z",
      "url": "https://apps.apple.com/us/app/checkin-glp-1-companion/id6823273783",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/56/6f/16566f0b-95cc-b8b0-bc78-baf68376baae/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/3a/34/a43a3404-9b80-e33a-bf0e-e5a9d54307f0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
-     "description": "Checkin is someone in your corner on a GLP-1 medicine. Keep up with shot day, log how you feel and see your own patterns. Start with Apple or Google after setup, or connect the Checkin conversation you already have by text.\n\nYOUR COMPANION, IN YOUR POCKET\n• Set up your own account with Apple or Google\n• Continue your Checkin conversation in the app\n• Ask about your own logs and explore cards built from your data\n• Send a meal photo to log an estimate of what you ate\n• See your food, protein and weight trends when you have data to show\n\nSHOT DAY, HANDLED\n• Set local reminders for weekly or dail"
+     "description": "Checkin is your GLP-1 companion: a calm place to keep up with shot day, log meals from a photo, and ask questions when something is on your mind.\n\nSee your week at a glance, log a meal in seconds, and get suggested daily calorie and protein ranges to aim for. Chat any time with a helper that knows your own logs.\n\nYOUR SHOT WEEK, MADE CALMER\n• Gentle reminders on shot day, with a follow-up if you have not logged it\n• A calm picture of how the week usually goes: shot day, the day after, mid-week, and when appetite tends to come back\n• Optional check-ins about how you are feeling\n\nMEALS FROM A PH"
     }
    },
    "terms": [
@@ -106441,7 +106504,7 @@
     "+8 apps mention prescriptions",
     "+8 5 ratings (very small user base)",
     "+15 first app launched 2.4 yrs ago",
-    "+10 last update 0.0 yrs ago",
+    "+10 last update 0.1 yrs ago",
     "−30 seller looks like an individual developer, not a company"
    ]
   },
@@ -107621,7 +107684,8 @@
     }
    },
    "terms": [
-    "women's health"
+    "women's health",
+    "hormone therapy"
    ]
   },
   "1532006906": {
@@ -108470,6 +108534,582 @@
     "mental health therapy",
     "nutrition coaching"
    ]
+  },
+  "1741486768": {
+   "id": "1741486768",
+   "company": "Edvak Technologies Inc",
+   "developer_url": "https://apps.apple.com/us/developer/edvak-technologies-inc/id1741486768?uo=4",
+   "website": "",
+   "apps": {
+    "6745316374": {
+     "id": "6745316374",
+     "store": "apple",
+     "name": "Edvak EHR",
+     "rating": 5,
+     "count": 2,
+     "genre": "Medical",
+     "released": "2026-02-13T08:00:00Z",
+     "updated": "2026-10-30T13:42:08Z",
+     "url": "https://apps.apple.com/us/app/edvak-ehr/id6745316374",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/03/e0/6503e074-533c-7996-872f-6c80bf2b1b5d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "At Edvak, we are redefining modern healthcare delivery with AI-powered solutions that help providers operate more efficiently, deliver better patient experiences, and grow their practices. \n\nHeadquartered in Texas, Edvak is building the next generation of EHR and medical billing solutions for small and mid-sized healthcare practices. Our platform brings together advanced EHR capabilities, telehealth, AI-driven automation, medical billing, and actionable analytics in one connected ecosystem. \n\nBy reducing administrative friction and streamlining time-consuming workflows, Edvak gives healthcare "
+    }
+   },
+   "terms": [
+    "telehealth"
+   ]
+  },
+  "1229330785": {
+   "id": "1229330785",
+   "company": "MADAR INFORMATION TECHNOLOGY",
+   "developer_url": "https://apps.apple.com/us/developer/madar-information-technology/id1229330785?uo=4",
+   "website": "",
+   "apps": {
+    "6760952865": {
+     "id": "6760952865",
+     "store": "apple",
+     "name": "Russian Pharmacy",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2026-08-18T07:00:00Z",
+     "updated": "2026-08-18T12:33:42Z",
+     "url": "https://apps.apple.com/us/app/russian-pharmacy/id6760952865",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/1e/87/1e1e87e4-7ddb-666e-dbf1-5ee518d9fc74/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Russian Pharmacy – We Care About You \n\nGet all your healthcare needs delivered quickly and easily with the Russian Pharmacy app in Sharm El Sheikh & Hurghada.\n\nApp Features:\n\n* Order medicines online with fast home delivery\n* Chat with a pharmacist for professional advice\n* Upload prescriptions for accurate order preparation\n* Smart medication reminders and easy reordering\n* Skincare & beauty products from trusted brands\n* Vitamins & supplements for your daily health\n\n Delivery:\n\n* Fast delivery in Sharm El Sheikh & Hurghada\n* Easy order tracking\n\nWhy choose us?\n\n* Trusted pharmacy with years "
+    }
+   },
+   "terms": [
+    "prescription delivery"
+   ]
+  },
+  "1885851457": {
+   "id": "1885851457",
+   "company": "Sivants LLC",
+   "developer_url": "https://apps.apple.com/us/developer/sivants-llc/id1885851457?uo=4",
+   "website": "https://hereforit.app",
+   "apps": {
+    "6760708999": {
+     "id": "6760708999",
+     "store": "apple",
+     "name": "HereForIt: GLP-1 Tracker",
+     "rating": 5,
+     "count": 5,
+     "genre": "Health & Fitness",
+     "released": "2026-05-01T07:00:00Z",
+     "updated": "2026-11-01T00:28:23Z",
+     "url": "https://apps.apple.com/us/app/hereforit-glp-1-tracker/id6760708999",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/ee/db/a1eedb0f-c899-67a4-3860-3b546301d5be/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Your GLP-1 week has a shape. Appetite, energy and side effects follow your injection cycle, and HereForIt is built around that rhythm, for people taking medications such as Ozempic, Wegovy, Mounjaro and Zepbound.\n\nMEET EMBER\nEmber is an AI companion who knows what day of your shot cycle it is. Snap a photo of a meal and she logs it with protein and calories. Ask her the question you were about to search at 2 a.m. Each week she writes you a letter about your actual week, not a template. Ember uses your logged context; your conversations are not stored or used for training. AI output can be wron"
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "6781726544": {
+   "id": "6781726544",
+   "company": "Rupangkan Kalita",
+   "developer_url": "https://apps.apple.com/us/developer/rupangkan-kalita/id6781726544?uo=4",
+   "website": "https://capymakes.github.io/kapi/",
+   "apps": {
+    "6817310037": {
+     "id": "6817310037",
+     "store": "apple",
+     "name": "GLP-1 & Peptide Tracker - Kapi",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-10-30T07:00:00Z",
+     "updated": "2026-10-30T15:01:53Z",
+     "url": "https://apps.apple.com/us/app/glp-1-peptide-tracker-kapi/id6817310037",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/43/2c/08432cad-1137-82be-8c7f-9ea3a3f42747/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Kapi is a GLP-1 and peptide tracker for your shots, pills, weight and side effects. Log a dose in seconds, get a reminder before the next one, and see how your week really went. Everything stays on your iPhone or iPad.\n\nMade for Zepbound®, Mounjaro®, Wegovy®, Ozempic®, Trulicity®, Saxenda®, Rybelsus®, compounded semaglutide and tirzepatide, retatrutide and other GLP-1 medications.\n\nTRACK EVERY SHOT AND PILL\n• Log date, time, dose, injection site, pain and notes\n• Weekly, daily, every 14 days or your own schedule\n• Your full history by month, and every entry editable\n\nNEVER MISS A DOSE\n• Remind"
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "1734021280": {
+   "id": "1734021280",
+   "company": "Tapfinity Technologies Private Limited",
+   "developer_url": "https://apps.apple.com/us/developer/tapfinity-technologies-private-limited/id1734021280?uo=4",
+   "website": "https://weighteasy.app/",
+   "apps": {
+    "6759664503": {
+     "id": "6759664503",
+     "store": "apple",
+     "name": "Weight Easy: GLP-1 Tracker",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-03-30T07:00:00Z",
+     "updated": "2026-10-29T16:24:51Z",
+     "url": "https://apps.apple.com/us/app/weight-easy-glp-1-tracker/id6759664503",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/a2/33/f0a2331b-333e-36a5-fd16-9da4f4333386/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The free GLP-1 tracker and companion that plans your meals around your shot, so nausea and food noise stop running your week. No subscription. Works with Ozempic, Wegovy, Mounjaro, Zepbound and any semaglutide or tirzepatide, including generics.\n\nYour weight loss shot changes how you feel through the week. Day 2 can mean nausea. Day 6 can mean the hunger is back. Most GLP-1 apps only log the injection. Weight Easy changes what you eat with it.\n\nFREE, WITH NO SUBSCRIPTION\nNot a pharmacy, no discount codes, no prescription upsell.\n\nGLP-1 MEAL PLAN FOR EACH DAY OF YOUR CYCLE\nNot sure what to eat "
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "1880017265": {
+   "id": "1880017265",
+   "company": "Yasin BEYAZLI",
+   "developer_url": "https://apps.apple.com/us/developer/yasin-beyazli/id1880017265?uo=4",
+   "website": "",
+   "apps": {
+    "6818182925": {
+     "id": "6818182925",
+     "store": "apple",
+     "name": "Vialog: GLP-1 Peptide Tracker",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-10-30T21:22:57Z",
+     "updated": "2026-10-30T21:22:57Z",
+     "url": "https://apps.apple.com/us/app/vialog-glp-1-peptide-tracker/id6818182925",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/ff/17/23ff171c-c01d-5a50-965f-6be7dc60db5a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Track every GLP-1 and peptide dose in one place: when it's due, what you took, where you injected and how your level is likely changing.\n\nVialog is built for people on semaglutide, tirzepatide and other GLP-1 medications, and for anyone running peptides alongside them. Log a dose in two taps, get reminded when the next one is due, and see your week at a glance.\n\nTODAY, AT A GLANCE\n• Countdown to your next dose, with the dose and time\n• Today's doses with Taken and Skip, plus as-needed doses\n• Last dose and a suggested next injection site on a body map\n• Weight trend, daily protein and water\n\nE"
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "1489956969": {
+   "id": "1489956969",
+   "company": "Amangeldi Kanat uulu",
+   "developer_url": "https://apps.apple.com/us/developer/amangeldi-kanat-uulu/id1489956969?uo=4",
+   "website": "https://glp1shotday.app",
+   "apps": {
+    "6783637243": {
+     "id": "6783637243",
+     "store": "apple",
+     "name": "GLP-1 Weight Loss Tracker",
+     "rating": 4.25,
+     "count": 4,
+     "genre": "Health & Fitness",
+     "released": "2026-08-27T07:00:00Z",
+     "updated": "2026-10-02T13:41:11Z",
+     "url": "https://apps.apple.com/us/app/glp-1-weight-loss-tracker/id6783637243",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/5d/9e/275d9e14-983f-0f2b-d1f4-ef6b5171a5c1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "ShotDay: Weight Loss Tracker is a GLP-1 tracking app for people using GLP-1 medications who want to follow weight loss progress with body composition context, keep injection and dose history in one place, estimate medication levels, and share reports when needed. It is built for anyone who wants a clearer picture of how treatment and daily habits relate to changes in weight and body composition over time.\n\nUse ShotDay to record the shots you take and the doses you use, then look back on your injection history whenever you want to review your treatment timeline. The shot and dose journal gives "
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "6777470838": {
+   "id": "6777470838",
+   "company": "Lightzone Solutions LTD",
+   "developer_url": "https://apps.apple.com/us/developer/lightzone-solutions-ltd/id6777470838?uo=4",
+   "website": "https://pensday.com",
+   "apps": {
+    "6780532825": {
+     "id": "6780532825",
+     "store": "apple",
+     "name": "Pensday: GLP-1 Shot Tracker",
+     "rating": 5,
+     "count": 4,
+     "genre": "Health & Fitness",
+     "released": "2026-07-29T07:00:00Z",
+     "updated": "2026-10-17T14:41:40Z",
+     "url": "https://apps.apple.com/us/app/pensday-glp-1-shot-tracker/id6780532825",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/92/cf/00/92cf004b-2d41-fa73-d9c2-5923cd631c59/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Pensday is the all-in-one GLP-1 tracker for weight loss shots and pills. Log every dose, see your estimated medication level, track food, side effects and weight, and scan your body privately on your own phone.\n\nWorks with Ozempic, Wegovy (pen and pill), Mounjaro, Zepbound, Rybelsus, Saxenda, Victoza, Trulicity, compounded semaglutide and tirzepatide, and retatrutide.\n\n— FREE TO USE —\nShots, medication level, reminders, dose steps, injection sites, side effects, weight, water, streaks, Apple Health and the week-by-week guide are all free. Pensday Plus adds AI food logging and the 3D body scan."
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "1150931694": {
+   "id": "1150931694",
+   "company": "Salman Shahabuddin",
+   "developer_url": "https://apps.apple.com/us/developer/salman-shahabuddin/id1150931694?uo=4",
+   "website": "https://salman.com/apps/glp1shottracker/index.html",
+   "apps": {
+    "6801254771": {
+     "id": "6801254771",
+     "store": "apple",
+     "name": "GLPrivate: GLP-1 Shot Tracker",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2026-08-26T07:00:00Z",
+     "updated": "2026-08-26T20:43:48Z",
+     "url": "https://apps.apple.com/us/app/glprivate-glp-1-shot-tracker/id6801254771",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/55/60/335560bf-0335-bb6e-4543-73e153a9c122/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The GLP-1 tracker that never sees your data.\n\nGLPrivate is a completely private companion for your GLP-1 journey — from first titration dose through maintenance. Track your shots, understand your side effects, watch your progress, and walk into every prescriber visit with a report that answers the questions before they're asked. \nEverything stays on your iPhone. There is no account to create, no cloud we control, no analytics, no ads, and no subscription. The App Store privacy label says \"Data Not Collected\" because we literally cannot see your data.\n\nSHOT DAY, IN SECONDS\n• Your dose due, comp"
+    }
+   },
+   "terms": [
+    "GLP-1"
+   ]
+  },
+  "1809211029": {
+   "id": "1809211029",
+   "company": "Aura Management LLC",
+   "developer_url": "https://apps.apple.com/us/developer/aura-management-llc/id1809211029?uo=4",
+   "website": "https://getdosiq.com",
+   "apps": {
+    "6772805693": {
+     "id": "6772805693",
+     "store": "apple",
+     "name": "Dosiq: GLP-1 & Peptide Tracker",
+     "rating": 5,
+     "count": 1,
+     "genre": "Medical",
+     "released": "2026-07-27T07:00:00Z",
+     "updated": "2026-08-21T23:50:22Z",
+     "url": "https://apps.apple.com/us/app/dosiq-glp-1-peptide-tracker/id6772805693",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/4b/b1/564bb1c2-0dc5-fb75-9ac2-309ac9f1a550/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Dosiq is the beautifully simple way to track GLP-1 medications and research peptides — built for people who want to stay on top of every dose without the spreadsheet.\n\nLog a shot in seconds, rotate your injection sites, and watch an estimated medication-level curve show how much is still working in your body between doses. Whether you're on Ozempic, Wegovy, Mounjaro, Zepbound, or a custom peptide protocol, Dosiq keeps the whole picture in one calm place.\n\nWHAT YOU CAN DO\n• Log every dose with time, amount, and injection site — with guided site rotation so you never lose track\n• See estimated m"
+    }
+   },
+   "terms": [
+    "peptides"
+   ]
+  },
+  "1860662896": {
+   "id": "1860662896",
+   "company": "Suhel Daud",
+   "developer_url": "https://apps.apple.com/us/developer/suhel-daud/id1860662896?uo=4",
+   "website": "",
+   "apps": {
+    "6780198088": {
+     "id": "6780198088",
+     "store": "apple",
+     "name": "PeptideTrak",
+     "rating": 5,
+     "count": 3,
+     "genre": "Health & Fitness",
+     "released": "2026-06-22T07:00:00Z",
+     "updated": "2026-07-07T05:44:39Z",
+     "url": "https://apps.apple.com/us/app/peptidetrak/id6780198088",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/ce/8e/9ace8ebb-f5a8-1645-3e5e-bc040150d8e8/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "PeptideTrack helps you manage peptide protocols in one place—built for people who want a simple, private way to stay organized.  \n\nWHAT YOU CAN DO\n• Track multiple peptides with names and schedule.\n• Log doses and skips with a clear history\n• See what’s due today and what’s coming up on your schedule\n• Capture progress photos and compare before/after over time\n• Get local reminders for upcoming doses\n• Export and import backups to move data between devices\n\nFREE PLAN\n• 1 peptide\n• 7-day dose history\n• 7-day progress timeline\n\nPEPTIDETRACK PRO\n• Unlimited peptides\n• Full dose and skip history\n•"
+    }
+   },
+   "terms": [
+    "peptides"
+   ]
+  },
+  "1846190609": {
+   "id": "1846190609",
+   "company": "Tuned Tech LLC",
+   "developer_url": "https://apps.apple.com/us/developer/tuned-tech-llc/id1846190609?uo=4",
+   "website": "",
+   "apps": {
+    "6773437032": {
+     "id": "6773437032",
+     "store": "apple",
+     "name": "PepTrack: Peptide Tracker",
+     "rating": 4.43,
+     "count": 14,
+     "genre": "Health & Fitness",
+     "released": "2026-06-12T07:00:00Z",
+     "updated": "2026-10-17T06:59:52Z",
+     "url": "https://apps.apple.com/us/app/peptrack-peptide-tracker/id6773437032",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/8e/ae/a68eaee9-57d1-e83b-d25d-87bdf7820260/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "PepTrack is a local-first organizer for people who already have peptide routines and want one clean place to log entries, manage schedules, set reminders, and reference compound information.\n\nLOGGING\nLog entries for your saved compounds with a single tap. View your full history, track timing, and stay consistent with your routine.\n\nSCHEDULE & REMINDERS\nPlan your routine with a calendar-style schedule view. Set local reminders so nothing gets missed.\n\nRESEARCH LIBRARY\nBrowse compound profiles with educational summaries and research references. Built for personal reference, not medical guidance."
+    }
+   },
+   "terms": [
+    "peptides"
+   ]
+  },
+  "1895435296": {
+   "id": "1895435296",
+   "company": "Wali Rashid",
+   "developer_url": "https://apps.apple.com/us/developer/wali-rashid/id1895435296?uo=4",
+   "website": "https://peptidetrackapp.com",
+   "apps": {
+    "6763681668": {
+     "id": "6763681668",
+     "store": "apple",
+     "name": "PeptideTrack: Peptide Tracker",
+     "rating": 4.44,
+     "count": 27,
+     "genre": "Health & Fitness",
+     "released": "2026-05-10T07:00:00Z",
+     "updated": "2026-10-21T06:38:04Z",
+     "url": "https://apps.apple.com/us/app/peptidetrack-peptide-tracker/id6763681668",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/71/f1/6871f14a-429a-63b9-4bbb-8a21d73b020c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "All-in-one peptide, GLP-1, and TRT tracking app with dose logs, bloodwork, body metrics, progress tracking, inventory, and more. \n\nPeptideTrack helps you organize your protocol with clarity and consistency without relying on spreadsheets, screenshots, or scattered notes. Track your schedule, review your history, monitor changes over time, and keep your progress in one app. \n\nBuilt for users tracking GLP-1s, TRT, and peptides, including Wegovy, Ozempic, Semaglutide, Tirzepatide, Retatrutide, BPC-157, TB-500, CJC-1295, Ipamorelin, Sermorelin, Tesamorelin, and more.\n\nFeatures:\n\n▸ Dose Tracking\nA "
+    }
+   },
+   "terms": [
+    "peptides"
+   ]
+  },
+  "6800342792": {
+   "id": "6800342792",
+   "company": "Ethan Acevedo",
+   "developer_url": "https://apps.apple.com/us/developer/ethan-acevedo/id6800342792?uo=4",
+   "website": "https://peptideclarity.net/",
+   "apps": {
+    "6800342790": {
+     "id": "6800342790",
+     "store": "apple",
+     "name": "Peptide Clarity: Tracker",
+     "rating": 5,
+     "count": 1,
+     "genre": "Medical",
+     "released": "2026-08-14T07:00:00Z",
+     "updated": "2026-11-01T17:28:07Z",
+     "url": "https://apps.apple.com/us/app/peptide-clarity-tracker/id6800342790",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/0c/f9/040cf9ff-1f40-6f1e-b3c9-dabb050c12b3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Understand peptide research. Keep your personal records organized.\n\nPeptide Clarity combines a cited peptide and GLP-1 reference library with a private tracker for your own schedules, reminders, observations and questions.\n\nEXPLORE THE EVIDENCE\n• Browse 93 peptide, peptide-medicine and related reference profiles.\n• Review cited research, safety information and study limitations.\n• Find related reviewed statements when checking a common claim. Compare the exact wording, evidence and uncertainties.\n• Explore an Evidence Map with source relationships, known study overlaps, and trial registrations"
+    }
+   },
+   "terms": [
+    "peptides"
+   ]
+  },
+  "1455760665": {
+   "id": "1455760665",
+   "company": "Liliia Sydoruk",
+   "developer_url": "https://apps.apple.com/us/developer/liliia-sydoruk/id1455760665?uo=4",
+   "website": "https://liliyavorski.com/",
+   "apps": {
+    "1620281613": {
+     "id": "1620281613",
+     "store": "apple",
+     "name": "Kvitka LiLi",
+     "rating": 4.52,
+     "count": 29,
+     "genre": "Education",
+     "released": "2022-05-04T07:00:00Z",
+     "updated": "2026-10-31T17:20:51Z",
+     "url": "https://apps.apple.com/us/app/kvitka-lili/id1620281613",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/82/9a/11829a87-ab0d-62de-f5aa-b5bb63f7f4dc/kvitka-31-icon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "I created KVITKA LILI as a gentle space for everyday self-care. Here, I share practices I use with my in-person patients, rooted in East Asian medicine, meridian work, movement and seasonal nourishment, so you can listen to your body and care for it at home.\n\nI believe small, steady moments of care matter. Even 10-15 minutes a day can bring more care into your life than a wellness retreat once a year.\n\nNEURO · ACUPRESSURE · HOME SUPPORT\n\nLiving with migraines or chronic pain? Recovering after a stroke or Bell’s palsy, or looking for everyday support with ADHD? I share gentle acupressure and si"
+    }
+   },
+   "terms": [
+    "functional medicine"
+   ]
+  },
+  "1140142182": {
+   "id": "1140142182",
+   "company": "Healing House Limitada",
+   "developer_url": "https://apps.apple.com/us/developer/healing-house-s-r-l/id1140142182?uo=4",
+   "website": "https://healinghouse.life/",
+   "apps": {
+    "1664131855": {
+     "id": "1664131855",
+     "store": "apple",
+     "name": "MyMat PEMF",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2023-02-14T08:00:00Z",
+     "updated": "2026-10-07T18:10:13Z",
+     "url": "https://apps.apple.com/us/app/mymat-pemf/id1664131855",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/26/60/672660fe-dc00-b1af-7c73-e709dbf73e47/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Controller app for MyMat® PEMF devices.\n\nMyMat® PEMF devices are revolutionary holistic health and wellness devices that emit coherent frequencies, stimulating cellular bio-communication and activating the natural self-healing process.\n\nMyMat® PEMF with its Swiss technology, generates therapeutic frequencies using pulsed electromagnetic fields (PEMF) that replicate the information of a healthy organism. The MyMat® technology is beneficial for all ages and all conditions, including people sensitive to EMF.\n \nMyMat® PEMF is easy to use and can be used in the comfort of your own home or take your"
+    }
+   },
+   "terms": [
+    "functional medicine"
+   ]
+  },
+  "1545117167": {
+   "id": "1545117167",
+   "company": "HEALTHCARE INNOVATION TECHNOLOGIES INC.",
+   "developer_url": "https://apps.apple.com/us/developer/healthcare-innovation-technologies-inc/id1545117167?uo=4",
+   "website": "https://www.vericardia.com/",
+   "apps": {
+    "1545117165": {
+     "id": "1545117165",
+     "store": "apple",
+     "name": "Vericardia",
+     "rating": 4.48,
+     "count": 29,
+     "genre": "Health & Fitness",
+     "released": "2021-01-04T08:00:00Z",
+     "updated": "2026-10-16T18:56:41Z",
+     "url": "https://apps.apple.com/us/app/vericardia/id1545117165",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/4b/81/af4b810c-8dcc-7df7-80fd-567a3d3d6bd7/app_icon-1x_U007emarketing-0-11-0-85-220-0.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Vericardia is the ultimate heart health program focused on longevity.\n\nUnlock your heart's full potential with premium diagnostics, top cardiologists, and advanced technology.\n\nYour heart is at the center of all prevention and care. Vericardia connects you to testing, specialists, and personalized support—seamlessly fitting into your life to keep you healthy and focused on what matters.\n\nMonitor risks, diagnose early, and intervene at the right time. We believe longevity is rooted in scientific methods that maximize both healthspan and lifespan.\n\nWe work with your cardiologist. Check if Verica"
+    }
+   },
+   "terms": [
+    "longevity"
+   ]
+  },
+  "1742232758": {
+   "id": "1742232758",
+   "company": "Longevity FZE",
+   "developer_url": "https://apps.apple.com/us/developer/longevity-fze/id1742232758?uo=4",
+   "website": "",
+   "apps": {
+    "6499050646": {
+     "id": "6499050646",
+     "store": "apple",
+     "name": "LONGEVITY-UK",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2024-05-09T07:00:00Z",
+     "updated": "2026-09-09T21:22:36Z",
+     "url": "https://apps.apple.com/us/app/longevity-uk/id6499050646",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/92/1a/e9921ad4-8a2c-694b-10a7-9b53adec3e40/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Welcome to our scientific wellness app, designed to empower you on your journey to optimal health and well-being. Our app offers a comprehensive suite of features tailored to support your fitness, nutrition, and lifestyle goals, all backed by the latest scientific research and personalized to your unique needs.\n\nPersonalized Workouts: Access customized workout plans crafted by our team of experts to help you achieve your fitness objectives efficiently and effectively.\n\nNutrition Tracking: Easily track your daily food intake, set nutritional goals, and receive personalized meal plans based on y"
+    }
+   },
+   "terms": [
+    "longevity"
+   ]
+  },
+  "768905900": {
+   "id": "768905900",
+   "company": "Michael Isman",
+   "developer_url": "https://apps.apple.com/us/developer/michael-isman/id768905900?uo=4",
+   "website": "",
+   "apps": {
+    "768905897": {
+     "id": "768905897",
+     "store": "apple",
+     "name": "LivingTo100.com",
+     "rating": 1,
+     "count": 2,
+     "genre": "Health & Fitness",
+     "released": "2013-12-08T22:47:54Z",
+     "updated": "2026-01-21T06:01:47Z",
+     "url": "https://apps.apple.com/us/app/livingto100-com/id768905897",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/fe/ed/ecfeedad-86b0-bab9-c761-7cf080981dd9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "$4.99",
+     "description": "Living to 100 Life Expectancy Calculator was designed by Dr Thomas Perls, and uses the most current and carefully researched medical and scientific data in order to estimate how old you will live to be.\n\nThomas Perls MD, MPH is the founder and director of the New England Centenarian Study, the largest study of centenarians and their families in the world. More can be learned about the study at www.bumc.bu.edu/centenarian."
+    }
+   },
+   "terms": [
+    "longevity"
+   ]
+  },
+  "1540175098": {
+   "id": "1540175098",
+   "company": "Indigo Integrative Health Clinic, PLLC",
+   "developer_url": "https://apps.apple.com/us/developer/indigo-integrative/id1540175098?uo=4",
+   "website": "http://fxmedsupport.com/",
+   "apps": {
+    "1541367945": {
+     "id": "1541367945",
+     "store": "apple",
+     "name": "Indigo Health Clinic",
+     "rating": 0,
+     "count": 0,
+     "genre": "Medical",
+     "released": "2020-12-31T08:00:00Z",
+     "updated": "2026-09-29T00:44:41Z",
+     "url": "https://apps.apple.com/us/app/indigo-health-clinic/id1541367945",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/c3/05/75c3054d-8918-1245-9c17-af843a24eea3/IndigoAppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Medicine is evolving and so are we. We understand that a seven-minute doctor visit is not enough time to make an accurate diagnosis of what is happening inside your body. It is clear that a better solution exists outside of conventional medicine. Despite an increase in studies and procedures, people are getting sick at an increasing rate. We understand how important it is to choose the right practice for you.\n\nAt IIHC we use the most advanced practices and research to get you well. When given the right tools, the body has an innate ability to heal itself. There is a reason why many are going t"
+    }
+   },
+   "terms": [
+    "wellness clinic"
+   ]
+  },
+  "1738023916": {
+   "id": "1738023916",
+   "company": "Monk Global Limited",
+   "developer_url": "https://apps.apple.com/us/developer/monk-global/id1738023916?uo=4",
+   "website": "https://www.discovermonk.com",
+   "apps": {
+    "6615087237": {
+     "id": "6615087237",
+     "store": "apple",
+     "name": "Monk: Cold Water Therapy Coach",
+     "rating": 0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": "2024-11-14T08:00:00Z",
+     "updated": "2026-10-26T11:20:29Z",
+     "url": "https://apps.apple.com/us/app/monk-cold-water-therapy-coach/id6615087237",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/f0/96/2bf09623-5c4e-cb64-48e4-563c41eae93a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Meet Monk, your cold water therapy coach. Unlock the mental, physical, and emotional benefits of the cold with personalised, guided plunges, immersive soundscapes and breathwork. All with the ability to track your progress against key plunge and health metrics like sleep, heart rate and HRV. Designed to work with any cold body of water – the sea, wheelie bins, or your DIY cold plunge and Monk's smart ice bath for the ultimate experience. Who are you on the other side of the ice?\n\n\nACCLIMATISATION PROGRAMMES\n\nWhether you’re a beginner or want to reignite your connection to the cold, our signatu"
+    }
+   },
+   "terms": [
+    "IV therapy"
+   ]
+  },
+  "1375797482": {
+   "id": "1375797482",
+   "company": "Biotronik SE & Co. KG",
+   "developer_url": "https://apps.apple.com/us/developer/biotronik-se-co-kg/id1375797482?uo=4",
+   "website": "http://www.biotronik.com/patientapp",
+   "apps": {
+    "1409653303": {
+     "id": "1409653303",
+     "store": "apple",
+     "name": "Patient App",
+     "rating": 1.63,
+     "count": 35,
+     "genre": "Medical",
+     "released": "2019-08-19T13:21:57Z",
+     "updated": "2026-07-27T08:02:59Z",
+     "url": "https://apps.apple.com/us/app/patient-app/id1409653303",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/da/17/25da1744-44f4-5caf-29da-fe68c7557047/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "The Patient App from BIOTRONIK SE & Co. KG supports patients in their daily lives with a BIOTRONIK cardiac device. The app is intended for patients who want to be more active in their therapy and take responsibility for their own health.  \n\nSupported implants: IPG/ICD/CRT/BIOMONITORs  \n•\tAmvia Sky, Amvia Edge, Solvia Rise\n•\tEdora, Eluna, Enitra, Enticos, Epyra, Etrinsa, Evity\n•\tActicor, Rivacor\n•\tIlivia, Ilivia Neo, Inlexa, Intica, Intica Neo, Inventra, Iperia, Itrevia\n•\tBIOMONITOR IV, BIOMONITOR IIIm, BIOMONITOR III\n•\tFuture cardiac devices \n \nAs a patient, you can use these main functions of"
+    }
+   },
+   "terms": [
+    "remote patient monitoring"
+   ],
+   "worst": {
+    "id": "1409653303",
+    "store": "apple",
+    "name": "Patient App",
+    "rating": 1.63,
+    "count": 35,
+    "genre": "Medical",
+    "released": "2019-08-19T13:21:57Z",
+    "updated": "2026-07-27T08:02:59Z",
+    "url": "https://apps.apple.com/us/app/patient-app/id1409653303",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/da/17/25da1744-44f4-5caf-29da-fe68c7557047/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+    "price": "Free",
+    "description": "The Patient App from BIOTRONIK SE & Co. KG supports patients in their daily lives with a BIOTRONIK cardiac device. The app is intended for patients who want to be more active in their therapy and take responsibility for their own health.  \n\nSupported implants: IPG/ICD/CRT/BIOMONITORs  \n•\tAmvia Sky, Amvia Edge, Solvia Rise\n•\tEdora, Eluna, Enitra, Enticos, Epyra, Etrinsa, Evity\n•\tActicor, Rivacor\n•\tIlivia, Ilivia Neo, Inlexa, Intica, Intica Neo, Inventra, Iperia, Itrevia\n•\tBIOMONITOR IV, BIOMONITOR IIIm, BIOMONITOR III\n•\tFuture cardiac devices \n \nAs a patient, you can use these main functions of"
+   },
+   "total_ratings": 35,
+   "first_released": "2019-08-19T13:21:57Z",
+   "last_updated": "2026-07-27T08:02:59Z",
+   "score": 69,
+   "solo": false,
+   "why": [
+    "+28 worst app rated 1.6★",
+    "+8 apps mention patient care",
+    "+20 35 ratings (startup-sized audience)",
+    "+3 first app launched 7.2 yrs ago",
+    "+10 last update 0.3 yrs ago"
+   ]
   }
  },
  "filters": {
@@ -108501,5 +109141,5 @@
   "remote patient monitoring",
   "mental health therapy"
  ],
- "updated": 1793540087.0969026
+ "updated": 1793576471.439442
 }
