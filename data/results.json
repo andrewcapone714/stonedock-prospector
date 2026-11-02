@@ -22590,7 +22590,8 @@
     }
    },
    "terms": [
-    "weight loss program"
+    "weight loss program",
+    "nutrition coaching"
    ]
   },
   "413313089": {
@@ -63108,7 +63109,7 @@
     "+8 apps mention patient care",
     "+8 12 ratings (very small user base)",
     "+3 first app launched 15.0 yrs ago",
-    "+0 last update 4.7 yrs ago (may be inactive)"
+    "+0 last update 4.8 yrs ago (may be inactive)"
    ]
   },
   "1721455019": {
@@ -77412,7 +77413,7 @@
     "+14 worst app rated 2.9★",
     "+8 apps mention patient care",
     "+8 14 ratings (very small user base)",
-    "+3 first app launched 9.2 yrs ago",
+    "+3 first app launched 9.3 yrs ago",
     "+0 last update 2.2 yrs ago (may be inactive)"
    ]
   },
@@ -87717,7 +87718,8 @@
     }
    },
    "terms": [
-    "health coaching"
+    "health coaching",
+    "nutrition coaching"
    ]
   },
   "gp-beynex": {
@@ -109110,6 +109112,118 @@
     "+3 first app launched 7.2 yrs ago",
     "+10 last update 0.3 yrs ago"
    ]
+  },
+  "gp-open-digital-my": {
+   "id": "gp-open-digital-my",
+   "company": "Open Digital MY",
+   "website": "https://hellophase.pages.dev",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Open+Digital+MY",
+   "apps": {
+    "gp:com.hellophase.app": {
+     "id": "gp:com.hellophase.app",
+     "store": "google",
+     "name": "Hormone Tracker - Hello Phase",
+     "rating": 0.0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-30T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.hellophase.app",
+     "icon": "https://play-lh.googleusercontent.com/PsdmgSJKVeTEcjfY6uXNsSbzuKKTBdjL90sh8jvId2fzRYQHIeXcmfXBCMHNJoyL5wbDQovW0ZN5XR_mEBg1Uw=s0-br30",
+     "developer": "Open Digital MY",
+     "website": "https://hellophase.pages.dev",
+     "email": "hellophase@boostmarketing.my",
+     "dev_id": "Open Digital MY",
+     "description": "Track PMDD and PMS, see an estimated hormone chart and cycle sync your workouts."
+    }
+   },
+   "terms": [
+    "hormone therapy"
+   ]
+  },
+  "gp-metellus-productions": {
+   "id": "gp-metellus-productions",
+   "company": "Metellus Productions",
+   "website": "http://www.moggedupapp.com",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Metellus+Productions",
+   "apps": {
+    "gp:com.mogged.android": {
+     "id": "gp:com.mogged.android",
+     "store": "google",
+     "name": "Mogged: Glow Up For Men",
+     "rating": 4.57,
+     "count": 20431,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-07-23T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.mogged.android",
+     "icon": "https://play-lh.googleusercontent.com/LDXAjttJVxDF383_Wam03JegV0WesGvNcNAX7WIkNDO-muUmtgGM9eDxLXKv0uoYVyono0QSqX_WYx72_qF1mw=s0-br30",
+     "developer": "Metellus Productions",
+     "website": "http://www.moggedupapp.com",
+     "email": "support@metellusproductions.com",
+     "dev_id": "Metellus Productions",
+     "description": "Looksmax & glow up for men. Improve face, skin, habits, and attractiveness."
+    }
+   },
+   "terms": [
+    "men's health"
+   ]
+  },
+  "gp-gynosakhi": {
+   "id": "gp-gynosakhi",
+   "company": "Gynosakhi",
+   "website": "https://gynosakhi.com/",
+   "developer_url": "https://play.google.com/store/apps/developer?id=7362006473074458419",
+   "apps": {
+    "gp:com.gynosakhi": {
+     "id": "gp:com.gynosakhi",
+     "store": "google",
+     "name": "Gynosakhi: Period & Pregnancy",
+     "rating": 0.0,
+     "count": 0,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2026-10-31T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.gynosakhi",
+     "icon": "https://play-lh.googleusercontent.com/gJeOvUFREgP6rvVknu_VWsLWY07n3VXazDGjcTOXFn4d4rSUWsjZy-zB-MQNRrHLdFt9oUV996n2jyVlcM43F5w=s0-br30",
+     "developer": "Gynosakhi",
+     "website": "https://gynosakhi.com/",
+     "email": "info@gynosakhi.com",
+     "dev_id": "7362006473074458419",
+     "description": "Ovulation & period tracker + pregnancy app. Online gynecologist for PCOS & TTC"
+    }
+   },
+   "terms": [
+    "women's health"
+   ]
+  },
+  "gp-pure-wellness": {
+   "id": "gp-pure-wellness",
+   "company": "Pure Wellness",
+   "website": "https://www.women-calendar.com/",
+   "developer_url": "https://play.google.com/store/apps/developer?id=Pure+Wellness",
+   "apps": {
+    "gp:com.itatech.womencalendar": {
+     "id": "gp:com.itatech.womencalendar",
+     "store": "google",
+     "name": "WomenCalendar: Periods & Cycle",
+     "rating": 4.5,
+     "count": 467,
+     "genre": "Health & Fitness",
+     "released": null,
+     "updated": "2025-08-12T00:00:00Z",
+     "url": "https://play.google.com/store/apps/details?id=com.itatech.womencalendar",
+     "icon": "https://play-lh.googleusercontent.com/B88lGsDo3Yh7HeuAo6NtaeDA1IhSMVwfGN16PUL6nDbRz6VVI3LCfqT87uSPc8Wp1LROPnZN46W0NDX1liBW2Q=s0-br30",
+     "developer": "Pure Wellness",
+     "website": "https://www.women-calendar.com/",
+     "email": "androidappstudios@gmail.com",
+     "dev_id": "Pure Wellness",
+     "description": "Period & Ovulation tracker"
+    }
+   },
+   "terms": [
+    "women's health"
+   ]
   }
  },
  "filters": {
@@ -109141,5 +109255,5 @@
   "remote patient monitoring",
   "mental health therapy"
  ],
- "updated": 1793576471.439442
+ "updated": 1793600440.8659453
 }
