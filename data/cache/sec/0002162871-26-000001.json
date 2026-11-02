@@ -1,0 +1,27 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2162871/000216287126000001/",
+ "entity": "NWF Medical DST",
+ "entity_type": "Other",
+ "year_of_inc": "2026",
+ "industry": "Commercial",
+ "offering_total": "3655740",
+ "amount_sold": "395707",
+ "first_sale": "2026-10-19",
+ "people": [
+  {
+   "name": "Duane Lund",
+   "roles": [
+    "Executive Officer",
+    "Promoter",
+    "Manager of NWF Medical Manager, LLC, the signatory trustee of the issuer, and President of Exchange Realty, Inc., the sponsor"
+   ]
+  },
+  {
+   "name": "- Exchange Realty, Inc.",
+   "roles": [
+    "Promoter",
+    "Sponsor of the offering and initial beneficial owner of the issuer"
+   ]
+  }
+ ]
+}

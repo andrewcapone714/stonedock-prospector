@@ -1,0 +1,57 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1129397/000112939726000001/",
+ "entity": "ADVOCATE SOUTHWEST AMBULATORY SURGERY CENTER, L.L.C.",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "188724",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Amy Sinder",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jeffrey Singh",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Benjamin Ticho",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Silvio Marra",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Samuel Multack",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Musa Shannarah",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jeffrey Ziegler",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

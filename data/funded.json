@@ -5874,70 +5874,6 @@
    ]
   },
   {
-   "id": "sec-1949968",
-   "kind": "funded",
-   "company": "Smart Infusion Therapy Services, LLC",
-   "cik": "0001949968",
-   "adsh": "0001042167-26-000054",
-   "file_date": "2026-07-08",
-   "location": "Northbrook, IL",
-   "terms": [
-    "health",
-    "care",
-    "therapy"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001949968&type=D",
-   "year_of_inc": "2022",
-   "industry": "Other Health Care",
-   "entity_type": "Limited Liability Company",
-   "amount_sold": "500000",
-   "offering_total": "1500000",
-   "first_sale": "2026-06-22",
-   "people": [
-    {
-     "name": "William Pickart",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    },
-    {
-     "name": "Jeffrey Rosengarten",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    },
-    {
-     "name": "William Schleicher",
-     "roles": [
-      "Director"
-     ]
-    },
-    {
-     "name": "Phil Smith",
-     "roles": [
-      "Director"
-     ]
-    },
-    {
-     "name": "John Lawlor",
-     "roles": [
-      "Director"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/1949968/000104216726000054/",
-   "score": 75,
-   "why": [
-    "+10 incorporated in 2022",
-    "+25 industry: Other Health Care",
-    "+20 raised $500,000 (seed or Series A-sized raise: has budget, still building)",
-    "+10 filed 117 days ago",
-    "+10 name points to a health or care business"
-   ]
-  },
-  {
    "id": "sec-2147800",
    "kind": "funded",
    "company": "Entirely Well Inc.",
@@ -7074,44 +7010,6 @@
     "+25 industry: Other Health Care",
     "+20 raised $2,354,368 (seed or Series A-sized raise: has budget, still building)",
     "+10 filed 80 days ago",
-    "+0 name doesn't say health"
-   ]
-  },
-  {
-   "id": "sec-2139077",
-   "kind": "funded",
-   "company": "UMI-Q Holdings, Inc",
-   "cik": "0002139077",
-   "adsh": "0001493152-26-032509",
-   "file_date": "2026-07-08",
-   "location": "Tampa, FL",
-   "terms": [
-    "health",
-    "care"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002139077&type=D",
-   "year_of_inc": "2026",
-   "industry": "Other Health Care",
-   "entity_type": "Corporation",
-   "amount_sold": "0",
-   "offering_total": "2000000",
-   "first_sale": "",
-   "people": [
-    {
-     "name": "CHARLES GIRSCH III",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2139077/000149315226032509/",
-   "score": 70,
-   "why": [
-    "+30 incorporated in 2026",
-    "+25 industry: Other Health Care",
-    "+5 amount not disclosed yet",
-    "+10 filed 117 days ago",
     "+0 name doesn't say health"
    ]
   },
@@ -10552,5 +10450,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793636097.6442041
+ "updated": 1793662759.776742
 }
