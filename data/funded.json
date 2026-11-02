@@ -378,7 +378,8 @@
    "file_date": "2026-08-28",
    "location": "Annapolis, MD",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151959&type=D",
    "year_of_inc": "2026",
@@ -1220,6 +1221,57 @@
    ]
   },
   {
+   "id": "sec-2126768",
+   "kind": "funded",
+   "company": "Pantera, Inc.",
+   "cik": "0002126768",
+   "adsh": "0002126768-26-000002",
+   "file_date": "2026-11-02",
+   "location": "Hartford, CT",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002126768&type=D",
+   "year_of_inc": "2025",
+   "industry": "Other Health Care",
+   "entity_type": "Corporation",
+   "amount_sold": "4050000",
+   "offering_total": "4500000",
+   "first_sale": "2026-03-31",
+   "people": [
+    {
+     "name": "Michael Cantor",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Tracy Moody",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Emily Webb",
+     "roles": [
+      "Executive Officer"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2126768/000212676826000002/",
+   "score": 86,
+   "why": [
+    "+26 incorporated in 2025",
+    "+25 industry: Other Health Care",
+    "+20 raised $4,050,000 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 0 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
    "id": "sec-2151144",
    "kind": "funded",
    "company": "Tenora Studios, LLC",
@@ -1267,7 +1319,8 @@
    "file_date": "2026-10-26",
    "location": "Denver, CO",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002160103&type=D",
    "year_of_inc": "2025",
@@ -3383,57 +3436,6 @@
     "+25 industry: Other Health Care",
     "+20 raised $6,200,000 (seed or Series A-sized raise: has budget, still building)",
     "+10 filed 52 days ago",
-    "+0 name doesn't say health"
-   ]
-  },
-  {
-   "id": "sec-2126768",
-   "kind": "funded",
-   "company": "Pantera, Inc.",
-   "cik": "0002126768",
-   "adsh": "0002126768-26-000001",
-   "file_date": "2026-09-03",
-   "location": "Hartford, CT",
-   "terms": [
-    "health",
-    "care"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002126768&type=D",
-   "year_of_inc": "2025",
-   "industry": "Other Health Care",
-   "entity_type": "Corporation",
-   "amount_sold": "1350000",
-   "offering_total": "3500000",
-   "first_sale": "2026-03-31",
-   "people": [
-    {
-     "name": "Michael Cantor",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    },
-    {
-     "name": "Tracy Moody",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    },
-    {
-     "name": "Emily Webb",
-     "roles": [
-      "Executive Officer"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2126768/000212676826000001/",
-   "score": 81,
-   "why": [
-    "+26 incorporated in 2025",
-    "+25 industry: Other Health Care",
-    "+20 raised $1,350,000 (seed or Series A-sized raise: has budget, still building)",
-    "+10 filed 60 days ago",
     "+0 name doesn't say health"
    ]
   },
@@ -10550,5 +10552,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793600530.4260533
+ "updated": 1793636097.6442041
 }
