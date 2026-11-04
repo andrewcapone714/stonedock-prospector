@@ -1,0 +1,72 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2131865/000206075526000064/",
+ "entity": "Vesalius Longevity Labs Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Pharmaceuticals",
+ "offering_total": "30112500",
+ "amount_sold": "30112500",
+ "first_sale": "2026-10-28",
+ "people": [
+  {
+   "name": "PRADEEP ALBERT",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "CHRISTOPHER COOPER",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "TIMMI STUMP",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "JAMES MCROBERTS",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "KEVIN SERRE",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "ROBERT MCCUE",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "JOEL LEONOFF",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "KEVIN MAYER",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "DAVID ADELMAN",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "LEE APPLBAUM",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

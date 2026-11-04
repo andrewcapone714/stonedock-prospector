@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1883935/000213471826000106/",
+ "entity": "NextVein LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "1202350",
+ "first_sale": "2025-01-24",
+ "people": [
+  {
+   "name": "Ron Goldman",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}
