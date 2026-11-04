@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1890254/000189025426000003/",
+ "entity": "Allina Health Surgery Center - Brooklyn Park, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "585000",
+ "amount_sold": "135000",
+ "first_sale": "2026-10-19",
+ "people": [
+  {
+   "name": "Kristin Bellicot",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kyle Grunder",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Nate Schularick",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Dean Tortorelis",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Christina Worner",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -4661,6 +4661,7 @@
    "file_date": "2026-08-04",
    "location": "Henrico, VA",
    "terms": [
+    "health",
     "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002135910&type=D",
@@ -6217,6 +6218,7 @@
    "file_date": "2026-07-17",
    "location": "Cottage Grove, WI",
    "terms": [
+    "health",
     "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146097&type=D",
@@ -8029,8 +8031,7 @@
    "file_date": "2026-07-29",
    "location": "Chicago, IL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001955339&type=D",
    "year_of_inc": "2022",
@@ -10356,5 +10357,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793759202.4549968
+ "updated": 1793794894.1542058
 }
