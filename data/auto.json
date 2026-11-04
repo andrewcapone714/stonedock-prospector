@@ -1,12 +1,11 @@
 {
- "apps_last": 1793794799.5871127,
- "funded_last": 1793794894.1635222,
+ "apps_last": 1793821927.209052,
+ "funded_last": 1793822026.060242,
  "npi_last": 1793759638.21699,
  "medicare_last": 1793079259.8991861,
  "last_errors": {
-  "at": 1793794895.400901,
+  "at": 1793822027.005485,
   "errors": [
-   "App Store/Play: Google Play longevity: The read operation timed out",
    "Providers: HTTP Error 403: Forbidden"
   ]
  }

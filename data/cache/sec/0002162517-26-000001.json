@@ -1,0 +1,56 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2162517/000216251726000001/",
+ "entity": "Nocionix,Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "10000000",
+ "amount_sold": "2700000",
+ "first_sale": "2026-10-23",
+ "people": [
+  {
+   "name": "Robert Picarel",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Arun Sridhar",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Claudio Rumazza",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Anthony Caparso",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Alain Garcinuno Collet",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "James Blouzard",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tony Artiga",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

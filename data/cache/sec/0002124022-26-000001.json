@@ -1,0 +1,49 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2124022/000212402226000001/",
+ "entity": "Ausel, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Biotechnology",
+ "offering_total": "5000000",
+ "amount_sold": "120000",
+ "first_sale": "2026-10-22",
+ "people": [
+  {
+   "name": "Nicholas Ainslie",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer and Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Paul Shockley",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Operating Officer and Secretary"
+   ]
+  },
+  {
+   "name": "Prisco Piscitelli",
+   "roles": [
+    "Executive Officer",
+    "Chief Medical Officer"
+   ]
+  },
+  {
+   "name": "Paul Ainslie",
+   "roles": [
+    "Director",
+    "Chairman of the Board of Directors"
+   ]
+  },
+  {
+   "name": "Robert Ainslie",
+   "roles": [
+    "Promoter",
+    "Non-operating founder"
+   ]
+  }
+ ]
+}
