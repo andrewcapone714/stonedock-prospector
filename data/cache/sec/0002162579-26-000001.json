@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2162579/000216257926000001/",
+ "entity": "LadyBits, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "807000",
+ "amount_sold": "320000",
+ "first_sale": "2026-10-20",
+ "people": [
+  {
+   "name": "Shanique Cartwright",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

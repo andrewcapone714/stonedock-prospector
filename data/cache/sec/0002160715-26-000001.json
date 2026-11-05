@@ -1,0 +1,35 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2160715/000216071526000001/",
+ "entity": "Tended Investors, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Pooled Investment Fund",
+ "offering_total": "14300000",
+ "amount_sold": "14300000",
+ "first_sale": "2026-10-20",
+ "people": [
+  {
+   "name": "n/a Recombinate Health LLC",
+   "roles": [
+    "Director",
+    "Manager of the Issuer"
+   ]
+  },
+  {
+   "name": "Matthew Hollingsworth",
+   "roles": [
+    "Executive Officer",
+    "Promoter",
+    "Managing Partner of the Issuer"
+   ]
+  },
+  {
+   "name": "Matthew Survis",
+   "roles": [
+    "Executive Officer",
+    "Promoter",
+    "Managing Partner of the Issuer"
+   ]
+  }
+ ]
+}
