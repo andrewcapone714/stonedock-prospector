@@ -1471,7 +1471,8 @@
    "file_date": "2026-10-21",
    "location": "Nashville, TN",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158873&type=D",
    "year_of_inc": "2025",
@@ -10575,5 +10576,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1793871487.71009
+ "updated": 1793902202.2914834
 }
