@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2140723/000214072326000001/",
+ "entity": "MAMS Holdco LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "2430000",
+ "amount_sold": "2430000",
+ "first_sale": "2026-06-10",
+ "people": [
+  {
+   "name": "James Scribner",
+   "roles": [
+    "Director",
+    "Co-Manager of Market Square SH Partners LLC, Manager of Filer"
+   ]
+  },
+  {
+   "name": "Michael Goldberg",
+   "roles": [
+    "Director",
+    "Co-Manager of Market Square SH Partners LLC, Manager of Filer"
+   ]
+  }
+ ]
+}

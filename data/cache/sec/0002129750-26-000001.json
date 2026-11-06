@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2129750/000212975026000001/",
+ "entity": "SIMPL Medical, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "4311",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Richard Morgan",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Wyatt Geist",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Nathaniel Grawey",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

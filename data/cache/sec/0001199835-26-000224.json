@@ -1,0 +1,19 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2138005/000119983526000224/",
+ "entity": "Know Kancer, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "1000000",
+ "amount_sold": "50000",
+ "first_sale": "2026-05-21",
+ "people": [
+  {
+   "name": "Shubadeep Debgupta",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

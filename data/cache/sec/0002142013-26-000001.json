@@ -1,0 +1,24 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2142013/000214201326000001/",
+ "entity": "Adam's & Eve's Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Technology",
+ "offering_total": "1000000",
+ "amount_sold": "100000",
+ "first_sale": "2026-06-22",
+ "people": [
+  {
+   "name": "Joseph Kiefer",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Christian Opperman",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

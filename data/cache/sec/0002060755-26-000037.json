@@ -1,0 +1,58 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1642178/000206075526000037/",
+ "entity": "Grey Matters Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "71200",
+ "amount_sold": "28500",
+ "first_sale": "2026-06-17",
+ "people": [
+  {
+   "name": "Christopher Moreau",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "James Kinley",
+   "roles": [
+    "Executive Officer",
+    "Chief Financial Officer"
+   ]
+  },
+  {
+   "name": "Christopher Bryan",
+   "roles": [
+    "Executive Officer",
+    "VP, Research & Operations"
+   ]
+  },
+  {
+   "name": "Harry Bloomfield",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Raj Attariwala",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Howard Gutman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Williams",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

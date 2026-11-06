@@ -1,0 +1,61 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1788478/000178847826000003/",
+ "entity": "Ceek Women's Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "27000000",
+ "amount_sold": "6999997",
+ "first_sale": "2026-03-31",
+ "people": [
+  {
+   "name": "Fahti Khosrowshahi",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kim Rocha",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Edward Evantash",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Wendy White",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Buket Grau",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Dave Pelizzon",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mary Falcon",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michelle Nakfoor",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

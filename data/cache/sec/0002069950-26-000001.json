@@ -1,0 +1,40 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2069950/000206995026000001/",
+ "entity": "Rythm Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "31078122",
+ "amount_sold": "31078122",
+ "first_sale": "2026-06-05",
+ "people": [
+  {
+   "name": "Robert Wade",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Dacri Burdan",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Andrew Goletka",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Smith",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

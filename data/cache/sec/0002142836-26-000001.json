@@ -1,0 +1,20 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2142836/000214283626000001/",
+ "entity": "Mendbrain Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "15000",
+ "amount_sold": "14000",
+ "first_sale": "2026-06-18",
+ "people": [
+  {
+   "name": "Avery Campbell",
+   "roles": [
+    "Executive Officer",
+    "Promoter",
+    "Chief Operating Officer"
+   ]
+  }
+ ]
+}

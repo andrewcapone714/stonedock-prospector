@@ -1,0 +1,24 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2129311/000212931126000001/",
+ "entity": "Secon",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "200000",
+ "first_sale": "2025-01-01",
+ "people": [
+  {
+   "name": "Purvi Shah",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Ashish Shah",
+   "roles": [
+    "Promoter"
+   ]
+  }
+ ]
+}

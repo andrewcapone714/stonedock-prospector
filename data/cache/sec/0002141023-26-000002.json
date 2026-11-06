@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2141023/000214102326000002/",
+ "entity": "College Health TV Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Technology",
+ "offering_total": "250000",
+ "amount_sold": "125000",
+ "first_sale": "2026-06-17",
+ "people": [
+  {
+   "name": "Cary Wheelous",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Keith Wheelous",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Corey Hebert",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

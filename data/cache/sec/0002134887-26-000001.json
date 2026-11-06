@@ -1,0 +1,50 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2134887/000213488726000001/",
+ "entity": "Beckley Clinical, P.B.C.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "7384599",
+ "amount_sold": "7384599",
+ "first_sale": "2026-02-27",
+ "people": [
+  {
+   "name": "Joshua Stevens",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Rock Feilding-Mellen",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Daniel Love",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Suprotik Basu",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Cotton",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jennifer Hotes",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

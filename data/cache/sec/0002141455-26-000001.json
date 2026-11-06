@@ -1,0 +1,25 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2141455/000214145526000001/",
+ "entity": "Thrive Therapies Group, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "6999520",
+ "amount_sold": "1867689",
+ "first_sale": "2026-05-08",
+ "people": [
+  {
+   "name": "Kristin McGraner",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Krishna Srinivasan",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

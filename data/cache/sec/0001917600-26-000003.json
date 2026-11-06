@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1917600/000191760026000003/",
+ "entity": "Global Pain Center Corp.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "2499999",
+ "amount_sold": "2092723",
+ "first_sale": "2026-06-05",
+ "people": [
+  {
+   "name": "Lee Shapiro",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Devin Carty",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Reena Pande",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kili Preitauer",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Sheldon Elman",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2135848/000213584826000001/",
+ "entity": "Healios Integrative Health, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2022",
+ "industry": "Other Health Care",
+ "offering_total": "5000000",
+ "amount_sold": "2080000",
+ "first_sale": "2026-05-07",
+ "people": [
+  {
+   "name": "Anthony Campbell",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter",
+    "Chief Executive Officer of the Issuer"
+   ]
+  }
+ ]
+}

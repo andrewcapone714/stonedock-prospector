@@ -1,11 +1,18 @@
 {
- "apps_last": 1793948231.728963,
- "funded_last": 1793948327.6935918,
- "npi_last": 1793872062.0871768,
+ "apps_last": 1793980793.0048714,
+ "funded_last": 1793980900.023689,
+ "npi_last": 1793981364.2826204,
  "medicare_last": 1793079259.8991861,
  "last_errors": {
-  "at": 1793948328.8353677,
+  "at": 1793981365.0997624,
   "errors": [
+   "SEC: health: HTTP Error 500: Internal Server Error",
+   "SEC: medical: HTTP Error 500: Internal Server Error",
+   "SEC: care: HTTP Error 500: Internal Server Error",
+   "SEC: clinic: HTTP Error 500: Internal Server Error",
+   "SEC: telehealth: HTTP Error 500: Internal Server Error",
+   "SEC: longevity: HTTP Error 500: Internal Server Error",
+   "SEC: nutrition: HTTP Error 500: Internal Server Error",
    "Providers: HTTP Error 403: Forbidden"
   ]
  }

@@ -1,0 +1,25 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2137106/000213710626000001/",
+ "entity": "Arrival Wellness Inc",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other",
+ "offering_total": "Indefinite",
+ "amount_sold": "700000",
+ "first_sale": "2026-02-23",
+ "people": [
+  {
+   "name": "Lauren Rinaldi",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Claire Moses",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

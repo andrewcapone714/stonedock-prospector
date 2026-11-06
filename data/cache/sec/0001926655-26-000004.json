@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1926655/000192665526000004/",
+ "entity": "Klinic Inc",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "24217489",
+ "amount_sold": "23917489",
+ "first_sale": "2026-01-23",
+ "people": [
+  {
+   "name": "Avish Bhama",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Ilya Golubovich",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Daniel Goldsmith",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2137028/000213702826000001/",
+ "entity": "TRICAN HEALTH, INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Other Health Care",
+ "offering_total": "550000",
+ "amount_sold": "100000",
+ "first_sale": "2026-05-13",
+ "people": [
+  {
+   "name": "Kimya Harris",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Harris",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

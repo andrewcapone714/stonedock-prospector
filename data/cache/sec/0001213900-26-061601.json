@@ -1,0 +1,46 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2133804/000121390026061601/",
+ "entity": "Rua Diagnostics Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "3650000",
+ "amount_sold": "3650000",
+ "first_sale": "2026-05-13",
+ "people": [
+  {
+   "name": "Peter Michalos",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "David Goone",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jonathan Orr",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "President and Co-Chair of Board of Directors"
+   ]
+  },
+  {
+   "name": "Kenneth Orr",
+   "roles": [
+    "Director",
+    "Co-Chair of Board of Directors"
+   ]
+  },
+  {
+   "name": "Jillian Levovitz",
+   "roles": [
+    "Executive Officer",
+    "Chief Executive Officer"
+   ]
+  }
+ ]
+}

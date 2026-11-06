@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2143218/000214321826000001/",
+ "entity": "CSV RHYTHM HEALTH LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Technology",
+ "offering_total": "9560000",
+ "amount_sold": "9560000",
+ "first_sale": "2026-06-18",
+ "people": [
+  {
+   "name": "Vasudev Kulkarni",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

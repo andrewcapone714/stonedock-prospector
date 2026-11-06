@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1679996/000167999626000004/",
+ "entity": "Eyenuk, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "5648246",
+ "amount_sold": "5607046",
+ "first_sale": "2026-04-28",
+ "people": [
+  {
+   "name": "Gaurav Agarwal",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kaushal Solanki",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mads Dall",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Marie-Louise Little",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Zina Affas Besse",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

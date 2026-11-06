@@ -1,0 +1,48 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1594118/000159411826000003/",
+ "entity": "Socrates Health Solutions, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "1500000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Scott Smith",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "CEO, Founder and Board Member"
+   ]
+  },
+  {
+   "name": "Sharon Gregory",
+   "roles": [
+    "Executive Officer",
+    "VP Operations"
+   ]
+  },
+  {
+   "name": "Douglas Sutherland",
+   "roles": [
+    "Director",
+    "Chairman of the Board"
+   ]
+  },
+  {
+   "name": "Patrick Kinder",
+   "roles": [
+    "Director",
+    "Board Member"
+   ]
+  },
+  {
+   "name": "Michael Gorton",
+   "roles": [
+    "Director",
+    "Board Member"
+   ]
+  }
+ ]
+}

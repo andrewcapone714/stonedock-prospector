@@ -1,0 +1,51 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1612011/000161201126000002/",
+ "entity": "Cagent Vascular, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "40999992",
+ "amount_sold": "24477945",
+ "first_sale": "2026-05-18",
+ "people": [
+  {
+   "name": "Brian Walsh",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "President of Issuer"
+   ]
+  },
+  {
+   "name": "Aaron Green",
+   "roles": [
+    "Executive Officer",
+    "Secretary of Issuer"
+   ]
+  },
+  {
+   "name": "Marc-Andre Marcotte",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Casey Tansey",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Bruce Brumfield, Jr.",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tak Cheung",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

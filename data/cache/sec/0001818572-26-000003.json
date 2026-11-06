@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1818572/000181857226000003/",
+ "entity": "Anodyne Nanotech, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "17259023",
+ "amount_sold": "12597058",
+ "first_sale": "2026-05-27",
+ "people": [
+  {
+   "name": "Jake Lombardo",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Konstantinos Tzortzakis",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Georgios Papastergiou",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Singer",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Vikram Lamba",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

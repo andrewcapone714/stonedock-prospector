@@ -1,0 +1,47 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2135312/000213531226000001/",
+ "entity": "Fresenius Medical Care Council Bluffs, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "3771986",
+ "amount_sold": "3771986",
+ "first_sale": "2026-05-13",
+ "people": [
+  {
+   "name": "Erik Lyesiuk",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Brittany Schuh",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Douglas Thomas",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Cathleen Swartz",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  },
+  {
+   "name": "Jeremy Pepin, M.D.",
+   "roles": [
+    "Director",
+    "Manager"
+   ]
+  }
+ ]
+}

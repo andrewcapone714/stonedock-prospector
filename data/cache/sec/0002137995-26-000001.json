@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2137995/000213799526000001/",
+ "entity": "BHM MRI Radiology, LLC - Series F",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "12000",
+ "amount_sold": "12000",
+ "first_sale": "2026-06-01",
+ "people": [
+  {
+   "name": "Ross Barnett",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

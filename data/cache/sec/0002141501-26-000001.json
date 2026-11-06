@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2141501/000214150126000001/",
+ "entity": "Recombinant Diagnostics LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "Indefinite",
+ "amount_sold": "150000",
+ "first_sale": "2026-06-16",
+ "people": [
+  {
+   "name": "William Tanenbaum",
+   "roles": [
+    "Executive Officer",
+    "Manager of the Managing Member, Recombinant MGMT LLC"
+   ]
+  },
+  {
+   "name": "N/A Recombinant MGMT LLC",
+   "roles": [
+    "Executive Officer",
+    "Managing Member"
+   ]
+  }
+ ]
+}

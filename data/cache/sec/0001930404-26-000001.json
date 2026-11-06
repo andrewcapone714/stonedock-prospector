@@ -1,0 +1,42 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1930404/000193040426000001/",
+ "entity": "Rockville Eye Surgery Center, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "162000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Yun Park",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Donna Smith",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jake Glombowski",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kristine Lowther",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Hylton Mayer",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

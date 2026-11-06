@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1850978/000185097826000009/",
+ "entity": "EndoSound, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "5000000",
+ "amount_sold": "250000",
+ "first_sale": "2026-06-05",
+ "people": [
+  {
+   "name": "Scott Aldrich",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Scott Corbett",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Stephen Steinberg",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Morris Sandler",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Nicholas Puro",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

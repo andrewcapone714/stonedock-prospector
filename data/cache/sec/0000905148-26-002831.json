@@ -1,0 +1,55 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2139235/000090514826002831/",
+ "entity": "Infinant Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "118230513",
+ "amount_sold": "39247552",
+ "first_sale": "2026-05-21",
+ "people": [
+  {
+   "name": "Michael Johnson",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Laura Stoppel",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Amanda Birdsey-Benson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mike Liang",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Patrick Enright",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Roger Wyse",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Katharine Knobil",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

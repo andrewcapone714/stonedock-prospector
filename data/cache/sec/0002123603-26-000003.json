@@ -1,0 +1,18 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2123603/000212360326000003/",
+ "entity": "Circadian Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "12000000",
+ "amount_sold": "8783884",
+ "first_sale": "2026-03-17",
+ "people": [
+  {
+   "name": "Gregg Kimmer",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

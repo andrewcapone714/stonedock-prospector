@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1983054/000198305426000001/",
+ "entity": "S2N Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other",
+ "offering_total": "3000000",
+ "amount_sold": "3000000",
+ "first_sale": "2026-03-19",
+ "people": [
+  {
+   "name": "Amy Siegel",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Timothy Kofol",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Schwab",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Roome Hugh",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Martha Shadan",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

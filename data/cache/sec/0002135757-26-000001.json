@@ -1,0 +1,33 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2135757/000213575726000001/",
+ "entity": "Nexara Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2026",
+ "industry": "Other Technology",
+ "offering_total": "3000000",
+ "amount_sold": "350000",
+ "first_sale": "2026-06-04",
+ "people": [
+  {
+   "name": "William Baker",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "James Pospychala",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Katherine Saunders",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

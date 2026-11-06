@@ -1,0 +1,44 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1792316/000179231626000002/",
+ "entity": "Protect3d, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "1000000",
+ "amount_sold": "845000",
+ "first_sale": "2026-04-30",
+ "people": [
+  {
+   "name": "Kevin Gehsmann",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Kenneth Gall",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Timothy Skapek",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Beaver",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Stuart Ross",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2077504/000208061226000036/",
+ "entity": "Sterile State, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "13023455",
+ "amount_sold": "10781955",
+ "first_sale": "2025-01-07",
+ "people": [
+  {
+   "name": "Kurt Yockey",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "CEO"
+   ]
+  },
+  {
+   "name": "Jacob Fein",
+   "roles": [
+    "Executive Officer",
+    "CFO"
+   ]
+  },
+  {
+   "name": "Layle Smith",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Megan Frost",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Glen Mutscher",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Ehlert",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Tom Daulton",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

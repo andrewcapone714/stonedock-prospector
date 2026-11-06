@@ -1,0 +1,46 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2135372/000213537226000001/",
+ "entity": "Commonwealth Sterile Solutions, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "1000000",
+ "amount_sold": "130000",
+ "first_sale": "2026-05-07",
+ "people": [
+  {
+   "name": "Steven Bishop",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Mary Gunter",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Thomas Foster",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Todd Hoyle",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Mitzi Reynolds",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

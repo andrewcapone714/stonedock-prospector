@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2068690/000206869026000001/",
+ "entity": "Orbio Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "2000000",
+ "amount_sold": "949999",
+ "first_sale": "2026-05-27",
+ "people": [
+  {
+   "name": "Vivek Jain",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Leabman",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Christian Sprauer",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

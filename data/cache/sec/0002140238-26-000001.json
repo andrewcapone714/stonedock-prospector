@@ -1,0 +1,35 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2140238/000214023826000001/",
+ "entity": "Maia Medical Billing Corp.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2025",
+ "industry": "Other Health Care",
+ "offering_total": "1750000",
+ "amount_sold": "1202000",
+ "first_sale": "2026-05-01",
+ "people": [
+  {
+   "name": "Zachary Ruhl",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director, Chief Executive Officer, Secretary, and Treasurer"
+   ]
+  },
+  {
+   "name": "Eric Lau",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Director and Chief Revenue Officer"
+   ]
+  },
+  {
+   "name": "Owen Husle IV",
+   "roles": [
+    "Director",
+    "Director"
+   ]
+  }
+ ]
+}

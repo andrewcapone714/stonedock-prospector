@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1818286/000181828626000003/",
+ "entity": "Perimeter Medical Imaging AI, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "4000000",
+ "amount_sold": "4000000",
+ "first_sale": "2026-04-27",
+ "people": [
+  {
+   "name": "Adrian Mendes",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Sara Brien",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Suzanne Foster",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Aaron Davidson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Josh Vose",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

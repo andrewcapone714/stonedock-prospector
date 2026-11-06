@@ -1,0 +1,20 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1880961/000188096126000001/",
+ "entity": "Contra Healthcare Solutions, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "500000",
+ "amount_sold": "500000",
+ "first_sale": "2026-03-31",
+ "people": [
+  {
+   "name": "John O'Connor",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Manager, President, Secretary and Treasurer"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1574555/000157455526000001/",
+ "entity": "Texas Health Craig Ranch Surgery Center, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "941169",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Rebecca Tucker",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "DeShon Woods",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Brandon Frazier",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Kari McCord",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John Whiteley",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Amanda Thrash",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Burns",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Charles Slack",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2104665/000210466526000003/",
+ "entity": "Proxima Bio, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "91454999",
+ "amount_sold": "91454999",
+ "first_sale": "2026-01-12",
+ "people": [
+  {
+   "name": "Zachary Carpenter",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "John McFarland",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Alex Gasner",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jason Pontin",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

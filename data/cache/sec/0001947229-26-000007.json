@@ -1,0 +1,42 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1947229/000194722926000007/",
+ "entity": "VedaPointe, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "6952751",
+ "amount_sold": "4027751",
+ "first_sale": "2026-06-02",
+ "people": [
+  {
+   "name": "Glendon Schuster",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Eric Vallo",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "John McKittrick",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "William Schmidt",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Fredrik Engelhardt",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2136633/000213663326000001/",
+ "entity": "Reset Health Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Technology",
+ "offering_total": "2000000",
+ "amount_sold": "122000",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Devon Kelley",
+   "roles": [
+    "Executive Officer",
+    "Co-Founder"
+   ]
+  },
+  {
+   "name": "Yann Lasme",
+   "roles": [
+    "Executive Officer",
+    "CEO, Co-Founder"
+   ]
+  }
+ ]
+}

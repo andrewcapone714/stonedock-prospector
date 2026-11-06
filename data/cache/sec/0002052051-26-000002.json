@@ -1,0 +1,32 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2052051/000205205126000002/",
+ "entity": "EYECHEQ INC.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2021",
+ "industry": "Other Health Care",
+ "offering_total": "11452000",
+ "amount_sold": "9952000",
+ "first_sale": "2026-06-17",
+ "people": [
+  {
+   "name": "Rashid Taher",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Ali Khoshnevis",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "John Floyd",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

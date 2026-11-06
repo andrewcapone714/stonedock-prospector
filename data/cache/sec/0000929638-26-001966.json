@@ -1,0 +1,76 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1827174/000092963826001966/",
+ "entity": "Varsity Emergency Care Holdings, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Hospitals and Physicians",
+ "offering_total": "220000",
+ "amount_sold": "220000",
+ "first_sale": "2026-05-01",
+ "people": [
+  {
+   "name": "David Alpern",
+   "roles": [
+    "Director",
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Steven Boyd",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "William Sloss",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Kenton Rosenberry",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "David Kim",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Graham Clempson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Shammi Kataria",
+   "roles": [
+    "Director",
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Kirk Richard",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Andrew Sama",
+   "roles": [
+    "Director",
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "William Yarbrough",
+   "roles": [
+    "Director",
+    "Executive Officer"
+   ]
+  }
+ ]
+}

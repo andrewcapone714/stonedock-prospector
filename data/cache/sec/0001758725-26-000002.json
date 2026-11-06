@@ -1,0 +1,50 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1758725/000175872526000002/",
+ "entity": "Nia Therapeutics, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "26499997",
+ "amount_sold": "23573844",
+ "first_sale": "2021-12-22",
+ "people": [
+  {
+   "name": "Daniel Rizzuto",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Daniel Utin",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "Larry Greenberg",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jonathan Wachter",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Milton Morris",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Michael Kahana",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2148343/000214834326000001/",
+ "entity": "Latitude Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Technology",
+ "offering_total": "3000000",
+ "amount_sold": "2000000",
+ "first_sale": "2026-07-24",
+ "people": [
+  {
+   "name": "Charles Feerick",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Jarred Bressner",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Chris Palmieri",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

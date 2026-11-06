@@ -1,0 +1,45 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2031239/000203123926000001/",
+ "entity": "Junction Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2024",
+ "industry": "Other Health Care",
+ "offering_total": "3555000",
+ "amount_sold": "3545000",
+ "first_sale": "2024-07-12",
+ "people": [
+  {
+   "name": "Matthew Vestal",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Gurdane Bhutani",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Jason Hill",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Vincent Polito",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Ben Wiederholt",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  }
+ ]
+}

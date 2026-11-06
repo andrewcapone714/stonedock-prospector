@@ -1,0 +1,63 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2135570/000213557026000001/",
+ "entity": "BAMF Health Parent, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "2022",
+ "industry": "Other Health Care",
+ "offering_total": "129558326",
+ "amount_sold": "59652075",
+ "first_sale": "2026-05-04",
+ "people": [
+  {
+   "name": "ANTHONY CHANG",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "CHAD BASSETT",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "ROGER SPOELMAN",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "KYLE SMITH",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "JIM WEAVER",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "LISA ZUCKERMAN",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "DAVID HOOKER",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "ERIC BOONSTRA",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}
