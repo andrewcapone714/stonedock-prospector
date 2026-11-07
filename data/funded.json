@@ -162,8 +162,7 @@
    "file_date": "2026-10-26",
    "location": "Portland, OR",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158716&type=D",
    "year_of_inc": "2025",
@@ -2345,8 +2344,7 @@
    "file_date": "2026-08-20",
    "location": "Dallas, TX",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134637&type=D",
    "year_of_inc": "2026",
@@ -8083,8 +8081,7 @@
    "file_date": "2026-08-20",
    "location": "Norwalk, CT",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150378&type=D",
    "year_of_inc": "2022",
@@ -9978,6 +9975,83 @@
    ]
   },
   {
+   "id": "sec-1937993",
+   "kind": "funded",
+   "company": "Cadrenal Therapeutics, Inc.",
+   "cik": "0001937993",
+   "adsh": "0001213900-26-078373",
+   "file_date": "2026-07-15",
+   "location": "Ponte Vedra, FL",
+   "terms": [
+    "medical"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001937993&type=D",
+   "year_of_inc": "2022",
+   "industry": "Biotechnology",
+   "entity_type": "Corporation",
+   "amount_sold": "8843849",
+   "offering_total": "8843849",
+   "first_sale": "2026-06-30",
+   "people": [
+    {
+     "name": "Quang Pham",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Chairman of the Board and Chief Executive Officer"
+     ]
+    },
+    {
+     "name": "John Sharp",
+     "roles": [
+      "Executive Officer",
+      "Interim Chief Financial Officer"
+     ]
+    },
+    {
+     "name": "James Ferguson",
+     "roles": [
+      "Executive Officer",
+      "Chief Medical Officer"
+     ]
+    },
+    {
+     "name": "Jeffrey Cole",
+     "roles": [
+      "Executive Officer",
+      "Chief Operating Officer"
+     ]
+    },
+    {
+     "name": "Lee Golden",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "John Murphy",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Glynn Wilson",
+     "roles": [
+      "Director"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/1937993/000121390026078373/",
+   "score": 55,
+   "why": [
+    "+10 incorporated in 2022",
+    "+5 industry: Biotechnology (drug development, weaker fit)",
+    "+20 raised $8,843,849 (seed or Series A-sized raise: has budget, still building)",
+    "+10 filed 115 days ago",
+    "+10 name points to a health or care business"
+   ]
+  },
+  {
    "id": "sec-1985603",
    "kind": "funded",
    "company": "RHEOS MEDICAL CORP.",
@@ -10440,5 +10514,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1794016967.9182558
+ "updated": 1794041711.6313002
 }
