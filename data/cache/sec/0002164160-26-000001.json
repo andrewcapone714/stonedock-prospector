@@ -1,0 +1,34 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2164160/000216416026000001/",
+ "entity": "GiftWellSoon, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "500000",
+ "amount_sold": "75000",
+ "first_sale": "2026-10-20",
+ "people": [
+  {
+   "name": "Amy Steinhour",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Kristen Beck",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "Christina Rowell",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

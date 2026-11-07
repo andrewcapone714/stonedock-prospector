@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1982235/000198223526000003/",
+ "entity": "Luminoah, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "25413863",
+ "amount_sold": "25413863",
+ "first_sale": "2026-10-22",
+ "people": [
+  {
+   "name": "JOSEPH PIPER",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "GARRETT MARIN",
+   "roles": [
+    "Executive Officer"
+   ]
+  },
+  {
+   "name": "THOMAS HAWES",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "JOSEPH ANDRASKO",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "BRIAN HANSEN",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

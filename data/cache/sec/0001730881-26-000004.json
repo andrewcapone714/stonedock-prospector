@@ -1,0 +1,55 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1730881/000173088126000004/",
+ "entity": "Endogenex, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "144555034",
+ "amount_sold": "132351879",
+ "first_sale": "2024-06-13",
+ "people": [
+  {
+   "name": "Stacey Pugh",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Juliet Bakker",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Gerald Brunk",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "James Eadie",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Doug Reed",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Thomas Shehab",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Krissy Wright",
+   "roles": [
+    "Executive Officer"
+   ]
+  }
+ ]
+}

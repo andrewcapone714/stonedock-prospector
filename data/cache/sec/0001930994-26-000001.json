@@ -1,0 +1,31 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1930994/000193099426000001/",
+ "entity": "CARI Health, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "1000000",
+ "amount_sold": "280000",
+ "first_sale": "2025-07-09",
+ "people": [
+  {
+   "name": "Patrik Schmidle",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Gioia Messinger",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Charles Patton",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}
