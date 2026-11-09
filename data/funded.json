@@ -5107,6 +5107,51 @@
    ]
   },
   {
+   "id": "sec-2158357",
+   "kind": "funded",
+   "company": "ColoWatch, Inc. /MD/",
+   "cik": "0002158357",
+   "adsh": "0002158357-26-000003",
+   "file_date": "2026-11-09",
+   "location": "Gaithersburg, MD",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158357&type=D",
+   "year_of_inc": "2023",
+   "industry": "Other Health Care",
+   "entity_type": "Corporation",
+   "amount_sold": "1435000",
+   "offering_total": "3000000",
+   "first_sale": "2026-09-24",
+   "people": [
+    {
+     "name": "Bikram Bakshi",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Mark Klein",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2158357/000215835726000003/",
+   "score": 75,
+   "why": [
+    "+15 incorporated in 2023",
+    "+25 industry: Other Health Care",
+    "+20 raised $1,435,000 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 0 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
    "id": "sec-2163724",
    "kind": "funded",
    "company": "PulsePoint Lake Norman ASC, LLC",
@@ -5179,51 +5224,6 @@
     "+25 industry: Other Health Care",
     "+5 amount not disclosed yet",
     "+15 filed 12 days ago",
-    "+0 name doesn't say health"
-   ]
-  },
-  {
-   "id": "sec-2158357",
-   "kind": "funded",
-   "company": "ColoWatch, Inc. /MD/",
-   "cik": "0002158357",
-   "adsh": "0002158357-26-000002",
-   "file_date": "2026-10-19",
-   "location": "Gaithersburg, MD",
-   "terms": [
-    "health",
-    "care"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158357&type=D",
-   "year_of_inc": "2023",
-   "industry": "Other Health Care",
-   "entity_type": "Corporation",
-   "amount_sold": "1325000",
-   "offering_total": "3000000",
-   "first_sale": "2026-09-24",
-   "people": [
-    {
-     "name": "Bikram Bakshi",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    },
-    {
-     "name": "Mark Klein",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2158357/000215835726000002/",
-   "score": 75,
-   "why": [
-    "+15 incorporated in 2023",
-    "+25 industry: Other Health Care",
-    "+20 raised $1,325,000 (seed or Series A-sized raise: has budget, still building)",
-    "+15 filed 21 days ago",
     "+0 name doesn't say health"
    ]
   },
@@ -7810,6 +7810,58 @@
     "+25 industry: Other Health Care",
     "+8 raised $150,000 (small raise)",
     "+10 filed 101 days ago",
+    "+10 name points to a health or care business"
+   ]
+  },
+  {
+   "id": "sec-2164315",
+   "kind": "funded",
+   "company": "Intelligent Wellness Solutions Inc.",
+   "cik": "0002164315",
+   "adsh": "0002164315-26-000001",
+   "file_date": "2026-11-09",
+   "location": "Atlanta, GA",
+   "terms": [
+    "wellness"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002164315&type=D",
+   "year_of_inc": "2024",
+   "industry": "Other Technology",
+   "entity_type": "Corporation",
+   "amount_sold": "225000",
+   "offering_total": "2000000",
+   "first_sale": "2026-11-01",
+   "people": [
+    {
+     "name": "David Lefkovits",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Chief Executive Officer and Secretary"
+     ]
+    },
+    {
+     "name": "Chaitanya Gharpure",
+     "roles": [
+      "Executive Officer",
+      "CTO"
+     ]
+    },
+    {
+     "name": "Paul Edge",
+     "roles": [
+      "Executive Officer",
+      "CPO"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2164315/000216431526000001/",
+   "score": 67,
+   "why": [
+    "+20 incorporated in 2024",
+    "+14 industry: Other Technology",
+    "+8 raised $225,000 (small raise)",
+    "+15 filed 0 days ago",
     "+10 name points to a health or care business"
    ]
   },
@@ -10440,5 +10492,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1794218227.067691
+ "updated": 1794257485.2362962
 }
