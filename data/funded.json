@@ -162,7 +162,8 @@
    "file_date": "2026-10-26",
    "location": "Portland, OR",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158716&type=D",
    "year_of_inc": "2025",
@@ -2067,6 +2068,7 @@
    "file_date": "2026-09-10",
    "location": "Aberdeen, SD",
    "terms": [
+    "health",
     "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002154495&type=D",
@@ -6130,6 +6132,7 @@
    "location": "Easton, MD",
    "terms": [
     "health",
+    "care",
     "longevity"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148509&type=D",
@@ -9116,6 +9119,62 @@
    ]
   },
   {
+   "id": "sec-1926185",
+   "kind": "funded",
+   "company": "Siftwell Analytics, Inc.",
+   "cik": "0001926185",
+   "adsh": "0001926185-26-000004",
+   "file_date": "2026-10-02",
+   "location": "Charlotte, NC",
+   "terms": [
+    "health"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001926185&type=D",
+   "year_of_inc": "2021",
+   "industry": "Other Technology",
+   "entity_type": "Corporation",
+   "amount_sold": "1551300",
+   "offering_total": "2500000",
+   "first_sale": "2026-09-22",
+   "people": [
+    {
+     "name": "Charles Sutten, III",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Wallace Hollowell, III",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "David Jones",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "William Georges",
+     "roles": [
+      "Director"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/1926185/000192618526000004/",
+   "score": 59,
+   "why": [
+    "+10 incorporated in 2021",
+    "+14 industry: Other Technology",
+    "+20 raised $1,551,300 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 38 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
    "id": "sec-2124022",
    "kind": "funded",
    "company": "Ausel, Inc.",
@@ -9799,83 +9858,6 @@
    ]
   },
   {
-   "id": "sec-1937993",
-   "kind": "funded",
-   "company": "Cadrenal Therapeutics, Inc.",
-   "cik": "0001937993",
-   "adsh": "0001213900-26-078373",
-   "file_date": "2026-07-15",
-   "location": "Ponte Vedra, FL",
-   "terms": [
-    "medical"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001937993&type=D",
-   "year_of_inc": "2022",
-   "industry": "Biotechnology",
-   "entity_type": "Corporation",
-   "amount_sold": "8843849",
-   "offering_total": "8843849",
-   "first_sale": "2026-06-30",
-   "people": [
-    {
-     "name": "Quang Pham",
-     "roles": [
-      "Executive Officer",
-      "Director",
-      "Chairman of the Board and Chief Executive Officer"
-     ]
-    },
-    {
-     "name": "John Sharp",
-     "roles": [
-      "Executive Officer",
-      "Interim Chief Financial Officer"
-     ]
-    },
-    {
-     "name": "James Ferguson",
-     "roles": [
-      "Executive Officer",
-      "Chief Medical Officer"
-     ]
-    },
-    {
-     "name": "Jeffrey Cole",
-     "roles": [
-      "Executive Officer",
-      "Chief Operating Officer"
-     ]
-    },
-    {
-     "name": "Lee Golden",
-     "roles": [
-      "Director"
-     ]
-    },
-    {
-     "name": "John Murphy",
-     "roles": [
-      "Director"
-     ]
-    },
-    {
-     "name": "Glynn Wilson",
-     "roles": [
-      "Director"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/1937993/000121390026078373/",
-   "score": 55,
-   "why": [
-    "+10 incorporated in 2022",
-    "+5 industry: Biotechnology (drug development, weaker fit)",
-    "+20 raised $8,843,849 (seed or Series A-sized raise: has budget, still building)",
-    "+10 filed 117 days ago",
-    "+10 name points to a health or care business"
-   ]
-  },
-  {
    "id": "sec-2154035",
    "kind": "funded",
    "company": "Phoenix Brain Wellness Inc.",
@@ -10458,5 +10440,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1794188877.718987
+ "updated": 1794218227.067691
 }
