@@ -162,7 +162,8 @@
    "file_date": "2026-10-26",
    "location": "Portland, OR",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158716&type=D",
    "year_of_inc": "2025",
@@ -4482,69 +4483,6 @@
     "+25 industry: Other Health Care",
     "+20 raised $449,742 (seed or Series A-sized raise: has budget, still building)",
     "+10 filed 92 days ago",
-    "+10 name points to a health or care business"
-   ]
-  },
-  {
-   "id": "sec-2008439",
-   "kind": "funded",
-   "company": "LYNCH REGENERATIVE MEDICINE, LLC",
-   "cik": "0002008439",
-   "adsh": "0002008439-26-000005",
-   "file_date": "2026-07-15",
-   "location": "Franklin, TN",
-   "terms": [
-    "health",
-    "care"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002008439&type=D",
-   "year_of_inc": "2023",
-   "industry": "Other Health Care",
-   "entity_type": "Limited Liability Company",
-   "amount_sold": "15000004",
-   "offering_total": "17500004",
-   "first_sale": "2026-06-30",
-   "people": [
-    {
-     "name": "SAMUEL LYNCH",
-     "roles": [
-      "Executive Officer",
-      "Director",
-      "Promoter"
-     ]
-    },
-    {
-     "name": "ALLISON LYNCH",
-     "roles": [
-      "Director"
-     ]
-    },
-    {
-     "name": "EARL DOUGLAS",
-     "roles": [
-      "Director"
-     ]
-    },
-    {
-     "name": "TOD REED",
-     "roles": [
-      "Director"
-     ]
-    },
-    {
-     "name": "ANDREA DINI",
-     "roles": [
-      "Executive Officer"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2008439/000200843926000005/",
-   "score": 80,
-   "why": [
-    "+15 incorporated in 2023",
-    "+25 industry: Other Health Care",
-    "+20 raised $15,000,004 (seed or Series A-sized raise: has budget, still building)",
-    "+10 filed 118 days ago",
     "+10 name points to a health or care business"
    ]
   },
@@ -9527,6 +9465,7 @@
    "file_date": "2026-07-20",
    "location": "Dennis, MA",
    "terms": [
+    "health",
     "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081754&type=D",
@@ -10490,5 +10429,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1794315345.8004308
+ "updated": 1794344112.8661613
 }

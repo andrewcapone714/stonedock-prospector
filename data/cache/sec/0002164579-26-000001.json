@@ -1,0 +1,43 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2164579/000216457926000001/",
+ "entity": "AngioInsight, Inc.",
+ "entity_type": "Corporation",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "20000000",
+ "amount_sold": "16314000",
+ "first_sale": "2025-10-09",
+ "people": [
+  {
+   "name": "Scott Burger",
+   "roles": [
+    "Executive Officer",
+    "Director"
+   ]
+  },
+  {
+   "name": "Laurence Betterley",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Shlomi Nachman",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Serafin Samson",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Mark Summers",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}

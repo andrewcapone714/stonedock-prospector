@@ -1,0 +1,34 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2045956/000204595626000004/",
+ "entity": "Drizzle Health, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Biotechnology",
+ "offering_total": "Indefinite",
+ "amount_sold": "600000",
+ "first_sale": "2026-09-02",
+ "people": [
+  {
+   "name": "DIGVIJAY SINGH",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "BONOLO MATHEKGA",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Promoter"
+   ]
+  },
+  {
+   "name": "YUKARI MANABE",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}
