@@ -3783,7 +3783,7 @@
      "store": "apple",
      "name": "Brello",
      "rating": 4.62,
-     "count": 5393,
+     "count": 5401,
      "genre": "Health & Fitness",
      "released": "2025-08-18T07:00:00Z",
      "updated": "2026-10-16T13:53:44Z",
@@ -26369,12 +26369,12 @@
      "store": "apple",
      "name": "Peptide Tracker - PeptideKit",
      "rating": 4.66,
-     "count": 312,
+     "count": 313,
      "genre": "Health & Fitness",
      "released": "2025-09-17T07:00:00Z",
-     "updated": "2026-10-19T03:52:00Z",
+     "updated": "2026-11-11T21:56:10Z",
      "url": "https://apps.apple.com/us/app/peptide-tracker-peptidekit/id6751918022",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/6c/bd/e06cbdca-b90a-d069-9efa-0cd6b9983712/peptidekit-0-0-1x_U007epad-0-1-sRGB-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/6b/48/e76b4896-7881-7d0d-056e-b1883b6792f6/peptidekit-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "PeptideKit is a no-nonsense app for anyone serious about their peptide therapy journey. Managing GLP-1 peptides or tracking any other hormone therapy is easier than ever with PeptideKit. It provides the tools you need to stay organized, motivated, and informed.\n\nKey Features\n\n• Smart Protocol Management\n\nCreate custom peptide protocols with flexible scheduling (daily, weekly, bi-weekly, monthly, every X days, or custom schedules)\nIntelligent reminder system with local notifications\nTrack multiple protocols simultaneously with color-coded organization\n\n• Comprehensive Progress Tracking\n\nWeight "
     }
@@ -26396,7 +26396,7 @@
      "store": "apple",
      "name": "Peptide AI: Reta GLP-1 Tracker",
      "rating": 4.47,
-     "count": 75,
+     "count": 76,
      "genre": "Health & Fitness",
      "released": "2026-04-06T07:00:00Z",
      "updated": "2026-11-06T21:51:10Z",
@@ -34941,9 +34941,9 @@
      "count": 34,
      "genre": "Health & Fitness",
      "released": "2026-02-25T08:00:00Z",
-     "updated": "2026-03-13T17:47:17Z",
+     "updated": "2026-11-11T07:12:34Z",
      "url": "https://apps.apple.com/us/app/neura-breath-longevity/id6758612548",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/3f/74/f43f74ce-e31e-4a8d-ac29-d96eaabdb4c8/AppIconNeuraBreath-0-0-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/39/d2/1039d2e4-f127-34a9-5281-95f22118e135/AppIconNeuraBreath-0-0-1x_U007emarketing-0-7-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "BREATH IS YOUR FIRST NATURAL MEDICINE FOR LONGEVITY \nYour breath is not just air. It is the fastest and most powerful way to influence your nervous system, your energy levels, your mental clarity, and the way your body ages over time.\n\nA simple 7-minute bedtime breathing routine\nNeura Breath is a 21-day guided breathing program, built around a simple 7-minute bedtime audio routine — eyes closed, and nothing to do but follow the voice.\n\nCreated by breathing, neuroscience and mind-body experts, this science-based experience helps calm your system, support recovery, and build long-term vitality —"
     }
@@ -46427,12 +46427,12 @@
      "store": "apple",
      "name": "Viome",
      "rating": 4.63,
-     "count": 5807,
+     "count": 5809,
      "genre": "Health & Fitness",
      "released": "2017-04-06T00:55:02Z",
-     "updated": "2026-11-09T15:58:33Z",
+     "updated": "2026-11-11T17:58:52Z",
      "url": "https://apps.apple.com/us/app/viome/id1206984146",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/ca/b2/b1cab2d8-a56e-7ec9-a8fd-a47c282cb1a2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/f1/9d/9cf19d80-3d45-7d8b-50aa-62c778c83dfb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "The new Viome app is built around one question: what matters most to you right now?\n\nPICK A HEALTH FOCUS. Viome builds your plan from your test results, your answers and the health data you already track. Each day, you get a few clear steps to take. Start with Gut, Brain & Mood, Metabolic & Weight, Heart, or Healthy Aging & Longevity. Your Focus shapes everything in the app, from the scores you see first to the actions in your plan. Change it whenever your priorities shift.\n\nA PLAN FOR TODAY. Home shows today's plan with specific food recommendations, supplement actions, and daily Focus habits"
     }
@@ -46480,7 +46480,7 @@
      "store": "apple",
      "name": "Death Clock: The Life Lab",
      "rating": 4.79,
-     "count": 18072,
+     "count": 18084,
      "genre": "Health & Fitness",
      "released": "2024-05-28T07:00:00Z",
      "updated": "2026-11-04T20:36:10Z",
@@ -54935,8 +54935,8 @@
      "id": "6771131404",
      "store": "apple",
      "name": "Longevity - Health & Fitness",
-     "rating": 0,
-     "count": 0,
+     "rating": 5,
+     "count": 1,
      "genre": "Health & Fitness",
      "released": "2026-08-25T07:00:00Z",
      "updated": "2026-10-23T03:07:35Z",
@@ -55974,9 +55974,9 @@
      "count": 91,
      "genre": "Health & Fitness",
      "released": "2025-09-22T07:00:00Z",
-     "updated": "2026-11-08T22:30:59Z",
+     "updated": "2026-11-11T18:33:45Z",
      "url": "https://apps.apple.com/us/app/superage-biological-age/id6751951815",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/04/3c/7f043c1d-babd-cc2c-827c-7175c29d43b9/SuperAgeIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/5a/1c/935a1c28-d0db-d5b4-0064-86081acc946d/SuperAgeIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Welcome to SuperAge, the app that reveals your body age, fitness age, and metabolic age, all from Apple Health. SuperTrainer, your adaptive system, translates health data into simple human insights so you can move, rest, and progress without guilt.\n\n► YOUR TRUE AGE REVEALED\nYour birth certificate shows one number. Your body tells a different story. SuperAge analyzes vital signs, activity, and sleep from Apple Health and your connected devices to calculate your real age at cellular level, then shows you exactly how to optimize it for a longer healthspan.\n\n► SUPERTRAINER: YOUR PERSONAL TRAINER\nE"
     }
@@ -56137,8 +56137,8 @@
      "id": "6738967466",
      "store": "apple",
      "name": "Hundred Health",
-     "rating": 4.83,
-     "count": 317,
+     "rating": 4.82,
+     "count": 322,
      "genre": "Health & Fitness",
      "released": "2025-04-05T07:00:00Z",
      "updated": "2026-11-09T15:23:21Z",
@@ -56216,9 +56216,9 @@
      "count": 5,
      "genre": "Health & Fitness",
      "released": "2026-04-23T07:00:00Z",
-     "updated": "2026-11-04T22:43:04Z",
+     "updated": "2026-11-11T16:13:58Z",
      "url": "https://apps.apple.com/us/app/drift-longevity-health-coach/id6762292920",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/f1/34/92f134fb-4735-24f4-7c99-cf8483de2832/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/88/f5/1e88f522-d3c5-ab16-22e2-b1520552be20/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Drift shows your biological age and longevity score from the Apple Watch and Apple Health data you already have, and what to work on today. It runs on your iPhone with no account, and the daily Drift Score, Longevity Score and Fitness Score are free.\n\nWHAT IS MY BIOLOGICAL AGE?\n\nDrift estimates it from six measures in Apple Health: VO2 max, resting heart rate, HRV, sleep, walking speed and exercise. It shows which way each one pushes your age, and your pace of aging over time. It is an estimate from your own data, not a clinical or epigenetic test.\n\nWHAT DRIFT GIVES YOU\n\n• Drift Score: one dai"
     }
@@ -56388,7 +56388,7 @@
      "store": "apple",
      "name": "AHEALTH: Get Healthy Get Paid",
      "rating": 4.66,
-     "count": 42302,
+     "count": 42964,
      "genre": "Health & Fitness",
      "released": "2022-08-22T07:00:00Z",
      "updated": "2026-11-05T00:49:18Z",
@@ -56627,7 +56627,7 @@
      "store": "apple",
      "name": "Levels - Metabolic Health",
      "rating": 4.67,
-     "count": 6746,
+     "count": 6747,
      "genre": "Health & Fitness",
      "released": "2021-12-14T08:00:00Z",
      "updated": "2026-11-05T12:45:52Z",
@@ -56780,9 +56780,9 @@
      "count": 1,
      "genre": "Health & Fitness",
      "released": "2023-08-28T07:00:00Z",
-     "updated": "2026-11-05T15:29:04Z",
+     "updated": "2026-11-11T09:09:11Z",
      "url": "https://apps.apple.com/us/app/goatness-health-longevity/id6445893593",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/e4/6b/4ee46b05-3902-7302-2df2-3faca6644a3f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/2f/0a/862f0a3b-2631-a49f-015f-40adf7a51183/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Become the Best Version of Yourself with GOATNESS\n\nGOATNESS is your all-in-one platform for health, performance and personal growth. Whether you're just starting your journey or striving to perform at your highest level, GOATNESS provides the tools, guidance and structure to help you improve every day.\n\nAs a Premium member, you'll unlock a growing collection of features designed to support your physical, mental and professional development.\n\nTrain with purpose\nFollow structured workout programs, discover new exercises and build strength, fitness and performance.\n\nEat smarter\nTrack your nutriti"
     }
@@ -56977,11 +56977,51 @@
      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/96/48/6c9648e0-845c-b7fc-8f06-d043f4c9ae93/LongevityAppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "This app transforms VO2 Max and Resting Metabolic Rate (RMR) test results into daily guidance for nutrition and recovery optimization. Users can track how their body burns fat vs carbs, monitor biological age, and receive tailored insights for training and lifestyle.\nIt provides access to personalized meal plans, recipes, and workout builders — all powered by personal metabolic analysis and breath-based testing.\n\nKey Features:\n• Dashboard with activity, nutrition, recovery, and metabolic data.\n• Personalized nutrition planning with meal plans and smart recommendations.\n• Training builder align"
+    },
+    "6450449936": {
+     "id": "6450449936",
+     "store": "apple",
+     "name": "PNOĒ Precision",
+     "rating": 2.95,
+     "count": 22,
+     "genre": "Health & Fitness",
+     "released": "2023-08-07T07:00:00Z",
+     "updated": "2026-10-13T12:08:40Z",
+     "url": "https://apps.apple.com/us/app/pno%C4%93-precision/id6450449936",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/c0/b1/41c0b11d-d519-745f-97cf-b2a00f5d1049/PrecisionAppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "PNOĒ Precision transforms your VO2 Max and Resting Metabolic Rate (RMR) test results into daily guidance for nutrition and recovery optimization. Track how your body burns fat vs carbs, monitor biological age, and get tailored insights for training and lifestyle.\nAccess meal plans, recipes, and workout builders – all powered by your personal metabolic analysis and breath-based testing.\n\nKey Features:\n\n• Dashboard with activity, nutrition, recovery, and metabolic data.\n• Personalized nutrition planning with meal plans and smart options.\n• Training builder aligned with VO2 Max and RMR results.\n•"
     }
    },
    "terms": [
     "longevity",
     "wellness clinic"
+   ],
+   "worst": {
+    "id": "6450449936",
+    "store": "apple",
+    "name": "PNOĒ Precision",
+    "rating": 2.95,
+    "count": 22,
+    "genre": "Health & Fitness",
+    "released": "2023-08-07T07:00:00Z",
+    "updated": "2026-10-13T12:08:40Z",
+    "url": "https://apps.apple.com/us/app/pno%C4%93-precision/id6450449936",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/c0/b1/41c0b11d-d519-745f-97cf-b2a00f5d1049/PrecisionAppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+    "price": "Free",
+    "description": "PNOĒ Precision transforms your VO2 Max and Resting Metabolic Rate (RMR) test results into daily guidance for nutrition and recovery optimization. Track how your body burns fat vs carbs, monitor biological age, and get tailored insights for training and lifestyle.\nAccess meal plans, recipes, and workout builders – all powered by your personal metabolic analysis and breath-based testing.\n\nKey Features:\n\n• Dashboard with activity, nutrition, recovery, and metabolic data.\n• Personalized nutrition planning with meal plans and smart options.\n• Training builder aligned with VO2 Max and RMR results.\n•"
+   },
+   "total_ratings": 22,
+   "first_released": "2023-08-07T07:00:00Z",
+   "last_updated": "2026-10-13T12:08:40Z",
+   "score": 66,
+   "solo": false,
+   "why": [
+    "+13 worst app rated 3.0★",
+    "+14 apps mention wellness / coaching, patient care",
+    "+20 22 ratings (startup-sized audience)",
+    "+9 first app launched 3.3 yrs ago",
+    "+10 last update 0.1 yrs ago"
    ]
   },
   "1808348745": {
@@ -57215,11 +57255,11 @@
      "count": 4,
      "genre": "Health & Fitness",
      "released": "2026-03-29T07:00:00Z",
-     "updated": "2026-11-05T17:33:37Z",
+     "updated": "2026-11-11T21:52:25Z",
      "url": "https://apps.apple.com/us/app/longevity-athlete/id6759475434",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/37/75/2d37759c-d222-c32e-b2ba-b03759f028fb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/35/ef/9a35eff4-8cdf-bd27-9520-c065d5b31ccf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
-     "description": "Tired of moving like a domesticated human?\n\nEvery week, discover a new movement puzzle. \n\nChallenge your body and brain to grow in ways that \"normal\" gym workouts ignore.\n\nFloor Ninja, Double Arm Helix, The Vortex, Dancing Scorpion.\n\nYou watch it, you fumble it, you sleep on it, and one day you own it.\n\nAll movement puzzles are free. Open the app, pick one, tap the clip for slow motion, watch the full breakdown.\n\nWHEN A PUZZLE BEATS YOU\n\nMaybe it's your hips. Sometimes your shoulders.\n\nI got you.\n\nThe Strength Foundation and Mobility programs inside the app are the fix. Guided workouts with fu"
+     "description": "Tired of moving like a domesticated human?\n\nEvery week, discover a new movement puzzle. \n\nChallenge your body and brain to grow in ways that \"normal\" gym workouts ignore.\n\nFloor Ninja, Double Arm Helix, The Vortex, Dancing Scorpion.\n\nYou watch it, you fumble it, you sleep on it, and one day you own it.\n\nAll movement puzzles are free. Open the app, pick one, tap the clip for slow motion, watch the full breakdown.\n\nSTUCK ON A MOVE? ASK US\n\nThe Chat tab is a private line to me and the coaches. Send a video of your attempt, tell us where it falls apart, and we'll tell you what to work on. Turn on "
     }
    },
    "terms": [
@@ -57840,9 +57880,9 @@
      "count": 2,
      "genre": "Shopping",
      "released": "2026-04-08T07:00:00Z",
-     "updated": "2026-10-22T17:48:08Z",
+     "updated": "2026-11-11T16:12:53Z",
      "url": "https://apps.apple.com/us/app/longevity-rx/id6759758601",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/72/29/5d722948-078c-230b-df0b-3716ee0fd964/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/64/47/56644739-75d2-b119-324c-138d32535883/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Download the Longevity RX app to get early access to collection launches, special offers, and a seamless shopping experience. Everything you love, right at your fingertips.\n\nEASY BROWSING\nShop the freshest new arrivals across our entire catalog.\n\nEXCLUSIVE ACCESS\nBe first to know about special offers and launches through push notifications.\n\nSECURE CHECKOUT IN A FLASH\nTap, swipe, shop and secure your new products in an instant with our super easy checkout."
     }
@@ -77558,7 +77598,7 @@
     "+8 apps mention patient care",
     "+20 82 ratings (startup-sized audience)",
     "+3 first app launched 15.4 yrs ago",
-    "+5 last update 1.5 yrs ago"
+    "+5 last update 1.6 yrs ago"
    ]
   },
   "1200724100": {
@@ -94133,8 +94173,8 @@
      "id": "6670624081",
      "store": "apple",
      "name": "VenusFit App",
-     "rating": 4.82,
-     "count": 60,
+     "rating": 4.79,
+     "count": 61,
      "genre": "Health & Fitness",
      "released": "2024-10-01T07:00:00Z",
      "updated": "2026-11-04T22:53:57Z",
@@ -96064,7 +96104,7 @@
      "store": "apple",
      "name": "FivePointFive: Breathwork",
      "rating": 4.8,
-     "count": 5200,
+     "count": 5206,
      "genre": "Health & Fitness",
      "released": "2024-11-21T08:00:00Z",
      "updated": "2026-11-07T20:26:52Z",
@@ -96114,7 +96154,7 @@
      "store": "apple",
      "name": "Leaply",
      "rating": 4.68,
-     "count": 3828,
+     "count": 3833,
      "genre": "Lifestyle",
      "released": "2025-11-19T08:00:00Z",
      "updated": "2026-11-09T12:55:10Z",
@@ -96238,13 +96278,13 @@
      "id": "6779104495",
      "store": "apple",
      "name": "Senior Diet",
-     "rating": 4.51,
-     "count": 45,
+     "rating": 4.52,
+     "count": 46,
      "genre": "Health & Fitness",
      "released": "2026-08-03T07:00:00Z",
-     "updated": "2026-11-09T09:14:51Z",
+     "updated": "2026-11-11T09:36:14Z",
      "url": "https://apps.apple.com/us/app/senior-diet/id6779104495",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/3e/91/3b3e9128-ba35-f575-6166-e802b249bbe4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/78/a8/5778a8ca-d6b9-c8c3-5f2a-ae8777a86cbe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "PLAN MEALS AND BUILD DAILY ROUTINES\n\nWelcome to Senior Diet - the easy-to-use app designed to help you feel your best, organize meals and track daily habits. We give you a simple, personalized food plan built around delicious, healthy foods selected around your preferences. Explore recipes and daily menus that fit your routine.\n\nEVERYTHING YOU NEED TO FEEL YOUR BEST\n\nYour Personal Meal Plan: Take the guesswork out of cooking. Get a daily menu based on your answers, food preferences, and selected goals. Explore meal options and preparation guidance that fit your routine.\n\nEasy & Healthy Recipes"
     },
@@ -96354,7 +96394,7 @@
      "store": "apple",
      "name": "Tai Chi Beginners & Seniors",
      "rating": 4.67,
-     "count": 4582,
+     "count": 4592,
      "genre": "Health & Fitness",
      "released": "2026-02-23T08:00:00Z",
      "updated": "2026-11-02T06:19:21Z",
@@ -100601,11 +100641,11 @@
      "count": 1,
      "genre": "Health & Fitness",
      "released": "2026-10-27T07:00:00Z",
-     "updated": "2026-11-07T00:56:40Z",
+     "updated": "2026-11-11T18:43:38Z",
      "url": "https://apps.apple.com/us/app/vitaclaris-health-longevity/id6821213927",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/0f/07/130f07be-73bd-0c18-a98e-496aa6b9056e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/c5/e9/28c5e9e6-a9ce-4353-7592-6285dfa71631/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
      "price": "Free",
-     "description": "Take full control of your health, with clear next steps toward more healthy years. Vitaclaris brings your day, lab results, doctor visits, medications, meals, workouts, sleep and mood into one private app. In English and Spanish.\n\nYOUR DAY\n• Today puts what matters first: your plan's next steps, today's doses, your water and your fast, and what's coming up.\n• Your plan, most important first, each step with its source. Your week in four lines. Widgets and Apple Watch for a glance.\n\nRESULTS\n• Every lab result with the lab's own range and its trend, and what changed since your last visit. Tap Exp"
+     "description": "Take full control of your health, toward more healthy years. Vitaclaris 2.0 puts your day, one plan, your health by area and your doctor visits in four tabs and Search. In English and Spanish.\n\nTODAY\n• Medicines due come first, then Your day, what's coming up and what changed. Your week every Monday, and Your month with Plus.\n• Widgets, Siri and the free Apple Watch app log a dose or a glass of water in one tap, and Live Activities follow a fast or a visit's recording.\n\nPLAN\n• One plan for every next step, question for your doctor, test and habit, by date or by area, with reminders.\n• Experime"
     }
    },
    "terms": [
@@ -104386,8 +104426,8 @@
      "id": "6759510126",
      "store": "apple",
      "name": "Cortisol+ Stress Monitor & HRV",
-     "rating": 4.46,
-     "count": 278,
+     "rating": 4.44,
+     "count": 282,
      "genre": "Health & Fitness",
      "released": "2026-03-19T07:00:00Z",
      "updated": "2026-11-04T20:06:30Z",
@@ -111687,12 +111727,12 @@
      "store": "apple",
      "name": "FORM: Personalized Health",
      "rating": 4.85,
-     "count": 253,
+     "count": 256,
      "genre": "Health & Fitness",
      "released": "2025-09-17T07:00:00Z",
-     "updated": "2026-11-05T21:39:20Z",
+     "updated": "2026-11-12T03:57:53Z",
      "url": "https://apps.apple.com/us/app/form-personalized-health/id6751718000",
-     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f8/84/62/f88462e7-7966-f33b-c153-61ec7a0359b3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/8f/b8/788fb841-b59f-8ae2-ea8d-c43dd8b9b57f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/60x60bb.jpg",
      "price": "Free",
      "description": "Your whole health in one app.\n\nFORM brings your nutrition, workouts, activity, sleep, recovery, and health data together - helping you understand your body, make better decisions, and know what to do next.\n\nInstead of tracking everything across different apps, FORM connects the pieces of your health in one place and turns your data into personalized insights you can actually use.\n\nTRACK NUTRITION IN SECONDS\n\nSnap a photo of your meal, scan a barcode, or log food manually. Track calories, protein, carbs, fats, and your daily nutrition goals without the complexity of traditional calorie trackers"
     }
@@ -114428,7 +114468,7 @@
      "store": "apple",
      "name": "CardioBot: Heart Rate Monitor",
      "rating": 4.53,
-     "count": 10665,
+     "count": 10676,
      "genre": "Health & Fitness",
      "released": "2016-09-15T08:06:13Z",
      "updated": "2026-11-03T17:44:57Z",
@@ -126676,8 +126716,8 @@
      "id": "6743134590",
      "store": "apple",
      "name": "Humanaut Health",
-     "rating": 4.72,
-     "count": 25,
+     "rating": 4.73,
+     "count": 26,
      "genre": "Health & Fitness",
      "released": "2025-06-11T07:00:00Z",
      "updated": "2026-10-07T23:09:57Z",
@@ -126727,7 +126767,7 @@
      "store": "apple",
      "name": "Pulso: Asistente de Salud IA",
      "rating": 4.97,
-     "count": 533,
+     "count": 534,
      "genre": "Health & Fitness",
      "released": "2025-04-16T07:00:00Z",
      "updated": "2026-10-31T16:28:35Z",
@@ -128513,7 +128553,7 @@
     "+15 worst app rated 2.8★",
     "+14 apps mention wellness / coaching, patient care",
     "+8 16 ratings (very small user base)",
-    "+9 first app launched 4.0 yrs ago",
+    "+9 first app launched 4.1 yrs ago",
     "+0 last update 3.5 yrs ago (may be inactive)"
    ]
   },
@@ -130165,8 +130205,8 @@
     "+18 worst app rated 2.5★",
     "+14 apps mention prescriptions, patient care",
     "+8 6 ratings (very small user base)",
-    "+9 first app launched 4.2 yrs ago",
-    "+0 last update 4.2 yrs ago (may be inactive)"
+    "+9 first app launched 4.3 yrs ago",
+    "+0 last update 4.3 yrs ago (may be inactive)"
    ]
   },
   "1587709648": {
@@ -130635,7 +130675,8 @@
     }
    },
    "terms": [
-    "lab results"
+    "lab results",
+    "longevity"
    ]
   },
   "583460075": {
@@ -131829,6 +131870,56 @@
    "terms": [
     "mental health therapy"
    ]
+  },
+  "1883113754": {
+   "id": "1883113754",
+   "company": "Thomas Fordham Brewer MD PLLC",
+   "developer_url": "https://apps.apple.com/us/developer/prevmed-health/id1883113754?uo=4",
+   "website": "",
+   "apps": {
+    "6760274854": {
+     "id": "6760274854",
+     "store": "apple",
+     "name": "DrBrewerAI",
+     "rating": 4,
+     "count": 1,
+     "genre": "Health & Fitness",
+     "released": "2026-04-07T07:00:00Z",
+     "updated": "2026-11-09T15:14:33Z",
+     "url": "https://apps.apple.com/us/app/drbrewerai/id6760274854",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/ee/89/4cee89f0-4efa-9385-1280-b6e8519a542d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Take charge of your metabolic health — before problems start.\n\nDrBrewerAI puts preventive care in your hands. Whether you're managing risk factors or simply staying ahead of your health, DrBrewerAI connects you with your healthcare professional through a secure, intelligent platform built for metabolic wellness.\n\nDrBrewerAI is available to members of the DrBrewerAI program. Access is activated for your account.\n\nKNOW YOUR RISK\nComplete your Metabolic Risk Assessment (MRA) to better understand your cardiovascular risk factors. Answer questions about family history, lifestyle, and key measuremen"
+    }
+   },
+   "terms": [
+    "longevity"
+   ]
+  },
+  "6779110633": {
+   "id": "6779110633",
+   "company": "Preserve Life Corp",
+   "developer_url": "https://apps.apple.com/us/developer/preserve-life-corp/id6779110633?uo=4",
+   "website": "",
+   "apps": {
+    "6800454993": {
+     "id": "6800454993",
+     "store": "apple",
+     "name": "Nutrition Nest",
+     "rating": 5,
+     "count": 1,
+     "genre": "Health & Fitness",
+     "released": "2026-10-07T07:00:00Z",
+     "updated": "2026-11-02T14:11:16Z",
+     "url": "https://apps.apple.com/us/app/nutrition-nest/id6800454993",
+     "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/97/9f/53979f8e-42cf-2b79-a7bd-0d6e3e01ccdf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/60x60bb.jpg",
+     "price": "Free",
+     "description": "Nutrition Nest is the first sanctuary of Preserve Life, a precision longevity ecosystem built for human performance.\n\nThe app carries that experience with you. Your pathway, the experiences open to you, and your reservations sit in one private place.\n\nYour Pathway\nAnswer a short set of questions about your goals and how you live. You are assigned a personal wellness pathway, with an explanation of what it means and why it fits you.\n\nExplore the Nest\nBiome for the living kitchen. Reserve the Experiential Restaurant or The Log Room. Aesthetics for skin and beauty treatments with the practitioner"
+    }
+   },
+   "terms": [
+    "longevity"
+   ]
   }
  },
  "filters": {
@@ -131860,5 +131951,5 @@
   "remote patient monitoring",
   "mental health therapy"
  ],
- "updated": 1794444578.4211445
+ "updated": 1794477366.0295608
 }

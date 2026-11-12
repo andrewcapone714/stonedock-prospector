@@ -162,8 +162,7 @@
    "file_date": "2026-10-26",
    "location": "Portland, OR",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158716&type=D",
    "year_of_inc": "2025",
@@ -8104,7 +8103,8 @@
    "file_date": "2026-07-31",
    "location": "Ann Arbor, MI",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001929085&type=D",
    "year_of_inc": "2022",
@@ -10364,5 +10364,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1794444677.893231
+ "updated": 1794477462.883727
 }
