@@ -898,7 +898,7 @@
    "email": "help@capsule.com",
    "dev_id": "Capsule Pharmacy",
    "description": "The smarter, simpler, kinder pharmacy.",
-   "at": 1793078683.4047222
+   "at": 1794507866.308896
   },
   "com.adhimeds.customer": {
    "id": "gp:com.adhimeds.customer",
@@ -1878,7 +1878,7 @@
    "email": "support@fundeasy.in",
    "dev_id": "7786462691999255230",
    "description": "Log your GLP-1 dose, weight, side effects and protein — in one simple journal.",
-   "at": 1793689155.6550581
+   "at": 1794507878.1730862
   },
   "com.kaptanoglu.glp": {
    "id": "gp:com.kaptanoglu.glp",
@@ -3186,11 +3186,11 @@
    "store": "google",
    "name": "Meds & Pill Reminder MyTherapy",
    "rating": 4.51,
-   "count": 242659,
+   "count": 242837,
    "genre": "Medical",
    "health": true,
    "released": null,
-   "updated": "2026-10-30T00:00:00Z",
+   "updated": "2026-11-05T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=eu.smartpatient.mytherapy",
    "icon": "https://play-lh.googleusercontent.com/-FV01TrTg_PGNaQ2aCKP36JSfMMEdbo3vybhfwkgwfVFcEoJr5J25d3p8XFoDu2G73FTSwSzVzt9c7un1cHWRw=s0-br30",
    "developer": "MyTherapy",
@@ -3198,7 +3198,7 @@
    "email": "support@mytherapyapp.com",
    "dev_id": "8039662628538780883",
    "description": "Manage your medications and take control of your health every day!",
-   "at": 1793689226.1323514
+   "at": 1794507887.1521292
   },
   "com.femilog.femi_log": {
    "id": "gp:com.femilog.femi_log",
@@ -3250,7 +3250,7 @@
    "genre": "BUSINESS",
    "health": false,
    "released": null,
-   "updated": "2026-10-28T00:00:00Z",
+   "updated": "2026-11-11T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.well.mo",
    "icon": "https://play-lh.googleusercontent.com/yL8yo2uruU8_CAs3o6fr5jFmSpOGeLoxBPYVvRePxms9OVBPLKs48ZerkDT4ba0PBHp83ysrxOFPfBo3xhI52aE=s0-br30",
    "developer": "EACHBASE",
@@ -3258,7 +3258,7 @@
    "email": "info@therapylake.com",
    "dev_id": "EACHBASE",
    "description": "ABA Practice Management Simplified",
-   "at": 1793689232.1444986
+   "at": 1794507888.6831477
   },
   "com.wearemoody.moodymonth": {
    "id": "gp:com.wearemoody.moodymonth",
@@ -3398,7 +3398,7 @@
    "email": "hello@prelude-health.com",
    "dev_id": "Prelude Health",
    "description": "Scan your hormone test at home. Results in minutes. Daily insights & tracking.",
-   "at": 1793689229.1823719
+   "at": 1794507890.191294
   },
   "com.maz.combo89": {
    "id": "gp:com.maz.combo89",
@@ -3638,7 +3638,7 @@
    "email": "contact@appercut.eu",
    "dev_id": "ApperCut",
    "description": "Improve Men’s Sexual Health & Wellness. Feel Confident & Happy",
-   "at": 1793689250.1653774
+   "at": 1794507896.2170892
   },
   "health.human.app": {
    "id": "gp:health.human.app",
@@ -4478,7 +4478,7 @@
    "email": "mobile@lancet.co.za",
    "dev_id": "Electronic Laboratory Services",
    "description": "An application for viewing doctor results from Lancet Laboratories online",
-   "at": 1793902016.0822985
+   "at": 1794507906.8100598
   },
   "com.mediscience.bloodtest.results.labtest.values.guideline": {
    "id": "gp:com.mediscience.bloodtest.results.labtest.values.guideline",
@@ -4518,7 +4518,7 @@
    "email": "alfalab100@gmail.com",
    "dev_id": "مختبرات الفا الطبية",
    "description": "An application for Alpha Medical Laboratories users to facilitate reservations and follow up on results",
-   "at": 1793902022.0359092
+   "at": 1794507908.173546
   },
   "com.medpresso.Lonestar.rnlabs": {
    "id": "gp:com.medpresso.Lonestar.rnlabs",
@@ -4838,7 +4838,7 @@
    "email": "arham@mindscript.ai",
    "dev_id": "Mindscript AI",
    "description": "Manage consultations, prescriptions, availability & payouts as a doctor.",
-   "at": 1793689338.684093
+   "at": 1794507915.6935196
   },
   "ai.mindscript.virtualmd": {
    "id": "gp:ai.mindscript.virtualmd",
@@ -4898,7 +4898,7 @@
    "email": "android_support@mdlive.com",
    "dev_id": "CHPW",
    "description": "See a doctor fast with the CHPW Virtual Care App fast and convenient.",
-   "at": 1793794709.3089488
+   "at": 1794507920.1937973
   },
   "com.ritecare.telemedicine": {
    "id": "gp:com.ritecare.telemedicine",
@@ -4938,7 +4938,7 @@
    "email": "GlobalVirtualCare@bupa.com",
    "dev_id": "Global Virtual Care",
    "description": "Virtual Care for Bupa Global",
-   "at": 1793794695.857804
+   "at": 1794507917.184814
   },
   "com.medicuro": {
    "id": "gp:com.medicuro",
@@ -4998,7 +4998,7 @@
    "email": "childrensole@gmail.com",
    "dev_id": "Children’s Health",
    "description": "A more convenient way to see a health care provider.",
-   "at": 1793794710.9174664
+   "at": 1794507926.1977906
   },
   "org.connectsouthsidebh.app": {
    "id": "gp:org.connectsouthsidebh.app",
@@ -5038,7 +5038,7 @@
    "email": "info@mdvirtualcare.com",
    "dev_id": "4700259830889465204",
    "description": "See a doctor by phone or video, anytime, anywhere.",
-   "at": 1793794698.8440452
+   "at": 1794507921.76369
   },
   "ca.concordia.oncall": {
    "id": "gp:ca.concordia.oncall",
@@ -5050,7 +5050,7 @@
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-10-07T00:00:00Z",
+   "updated": "2026-11-04T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=ca.concordia.oncall",
    "icon": "https://play-lh.googleusercontent.com/71Sr68zLM5G6I3tzhb33OAD-s7NBD3qStz6N27h8gCc5etPpw1LQFxX-zKZyKqkHiNUQDpDZKQbvOsHY_zKu=s0-br30",
    "developer": "Concordia University",
@@ -5058,7 +5058,7 @@
    "email": "HealthSupport@mail.concordia.ca",
    "dev_id": "Concordia University",
    "description": "Virtual Health and Counselling Appointments",
-   "at": 1793794700.3260758
+   "at": 1794507929.3040705
   },
   "com.neevlabs.connect2mydoctorpatient": {
    "id": "gp:com.neevlabs.connect2mydoctorpatient",
@@ -5098,7 +5098,7 @@
    "email": "hello@ondoctor.com.mm",
    "dev_id": "OnDoctor",
    "description": "Online Health Care App for Myanmar",
-   "at": 1793794713.8269217
+   "at": 1794507923.1800656
   },
   "com.virtualcare.vet": {
    "id": "gp:com.virtualcare.vet",
@@ -5118,7 +5118,7 @@
    "email": "admin@virtualcare.vet",
    "dev_id": "Virtual Care Vet",
    "description": "Chat with a Vet 24/7",
-   "at": 1793794697.3339627
+   "at": 1794507918.6686935
   },
   "com.primarydigitalhealth.primarydigitalhealth": {
    "id": "gp:com.primarydigitalhealth.primarydigitalhealth",
@@ -5398,7 +5398,7 @@
    "email": "madison@functionalglowinstitute.com",
    "dev_id": "Functional Glow Institute",
    "description": "Clinical education and tools for functional medicine providers.",
-   "at": 1793689349.1333785
+   "at": 1794507935.2139723
   },
   "com.medscape.android": {
    "id": "gp:com.medscape.android",
@@ -5438,7 +5438,7 @@
    "email": "simon@primalpictures.com",
    "dev_id": "7244221026096400355",
    "description": "3D Real-time Functional Anatomy",
-   "at": 1793689363.0198832
+   "at": 1794507936.7354114
   },
   "com.unbound.android.ub5el": {
    "id": "gp:com.unbound.android.ub5el",
@@ -5466,7 +5466,7 @@
    "store": "google",
    "name": "MSD Manual Professional",
    "rating": 4.76,
-   "count": 8487,
+   "count": 8508,
    "genre": "Medical",
    "health": true,
    "released": null,
@@ -5478,7 +5478,7 @@
    "email": "msdmanualsinfo@msd.com",
    "dev_id": "6117990461672524027",
    "description": "Stay up-to-date with the MSD Manual Professional App.",
-   "at": 1793794724.3461707
+   "at": 1794507939.7208233
   },
   "com.medpresso.Lonestar.imoncall": {
    "id": "gp:com.medpresso.Lonestar.imoncall",
@@ -5490,7 +5490,7 @@
    "genre": "Medical",
    "health": true,
    "released": null,
-   "updated": "2026-09-08T00:00:00Z",
+   "updated": "2026-09-07T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.medpresso.Lonestar.imoncall",
    "icon": "https://play-lh.googleusercontent.com/wmkrHhkdoBlJi9ftBTFsiGjNjcbNTB3HM-DJfichqXe6TPp6dzgAp0MkkXgngz1uER001du75VpGK4W19lnwsBk=s0-br30",
    "developer": "Skyscape Medpresso Inc",
@@ -5498,15 +5498,15 @@
    "email": "support@skyscape.com",
    "dev_id": "8951910663104444856",
    "description": "Top 60 On Call Ward Problems",
-   "at": 1793902049.0414193
+   "at": 1794507942.8098369
   },
   "com.msd.consumer": {
    "id": "gp:com.msd.consumer",
    "pkg": "com.msd.consumer",
    "store": "google",
    "name": "MSD Manual Consumer",
-   "rating": 4.57,
-   "count": 2217,
+   "rating": 4.52,
+   "count": 2244,
    "genre": "Medical",
    "health": true,
    "released": null,
@@ -5518,7 +5518,7 @@
    "email": "msdmanualsinfo@msd.com",
    "dev_id": "6117990461672524027",
    "description": "Featuring detailed explanations of medical disorders, symptoms, and treatments.",
-   "at": 1793079049.1465921
+   "at": 1794507938.3026254
   },
   "com.unbound.android.ubng": {
    "id": "gp:com.unbound.android.ubng",
@@ -5618,7 +5618,7 @@
    "email": "support@unboundmedicine.com",
    "dev_id": "8798245466605217500",
    "description": "The only concise yet comprehensive guide to Emergency Medicine",
-   "at": 1793079057.0475636
+   "at": 1794507945.7065024
   },
   "com.nebraskamedicine.onechartpatient": {
    "id": "gp:com.nebraskamedicine.onechartpatient",
@@ -5918,7 +5918,7 @@
    "email": "support@longevity-protocols.com",
    "dev_id": "Longevity Protocols",
    "description": "A structured longevity system for workouts, habits and daily health routines",
-   "at": 1793821905.9102821
+   "at": 1794507951.7085352
   },
   "club.relounge.lifestyle": {
    "id": "gp:club.relounge.lifestyle",
@@ -5970,7 +5970,7 @@
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-10-29T00:00:00Z",
+   "updated": "2026-11-11T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.lifetime_long_health.app",
    "icon": "https://play-lh.googleusercontent.com/muy6Gu0R2GDWPtno9Yu4CQfl5EbBNtVVQ9euzTUykrRAJTzTLiyhknQkdmrDgLrA-w5GnH518Vwj11TlmUBoHw=s0-br30",
    "developer": "LIFETIME Health & Longevity",
@@ -5978,7 +5978,7 @@
    "email": "info@lifetime-health.com",
    "dev_id": "LIFETIME Health & Longevity",
    "description": "DNA, Epigenetics, Health, Genetics",
-   "at": 1793794728.858185
+   "at": 1794507956.1760964
   },
   "com.aislan.longevitylabs": {
    "id": "gp:com.aislan.longevitylabs",
@@ -5998,7 +5998,7 @@
    "email": "aislan@longevitylabs.tech",
    "dev_id": "Aislan Lander",
    "description": "Science-Backed Routine",
-   "at": 1793821914.862307
+   "at": 1794507975.7239103
   },
   "com.doctorsforme.portal": {
    "id": "gp:com.doctorsforme.portal",
@@ -6018,7 +6018,7 @@
    "email": "clientservices@humanlongevity.com",
    "dev_id": "HliDev",
    "description": "Securely access, understand, and manage your health data all in one place.",
-   "at": 1793821904.4491904
+   "at": 1794507954.68719
   },
   "com.paleoInstitute.app": {
    "id": "gp:com.paleoInstitute.app",
@@ -6038,7 +6038,7 @@
    "email": "info@paleogruppen.se",
    "dev_id": "HMG Scandinavia",
    "description": "Utbilda dig gränslöst!",
-   "at": 1793794731.875917
+   "at": 1794507959.2032003
   },
   "com.app.confident.pose": {
    "id": "gp:com.app.confident.pose",
@@ -6050,7 +6050,7 @@
    "genre": "LIFESTYLE",
    "health": false,
    "released": null,
-   "updated": "2026-10-15T00:00:00Z",
+   "updated": "2026-11-10T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.app.confident.pose",
    "icon": "https://play-lh.googleusercontent.com/dEhOhabt4vGtNqhdyu-slwwcdiG8V2yxwH3zMUXdkjsUk78Bj7S7yZR0FHhfKoy7YWCx1lwDODDorcLC1cOUjA=s0-br30",
    "developer": "Longevity Quantified, Inc.",
@@ -6058,7 +6058,7 @@
    "email": "dev@longevityquantified.com",
    "dev_id": "Longevity Quantified, Inc.",
    "description": "Precision muscle intelligence for better posture and smarter strength training",
-   "at": 1793821919.3592906
+   "at": 1794507957.7304566
   },
   "com.youth.tls": {
    "id": "gp:com.youth.tls",
@@ -6078,7 +6078,7 @@
    "email": "support@youth-healthtech.com",
    "dev_id": "powered by YOU(th) Health Tech",
    "description": "Wellness screening simplified",
-   "at": 1793821908.9383862
+   "at": 1794507948.6840146
   },
   "io.rejuve.rejuve_longevity": {
    "id": "gp:io.rejuve.rejuve_longevity",
@@ -6098,7 +6098,7 @@
    "email": "feedback@rejuve.ai",
    "dev_id": "RejuveAI Longevity",
    "description": "Rejuve Longevity is an app to help you explore and improve your healthspan",
-   "at": 1793821911.8859217
+   "at": 1794507960.7996476
   },
   "com.joelemay.longevityathlete": {
    "id": "gp:com.joelemay.longevityathlete",
@@ -6158,7 +6158,7 @@
    "email": "contact@ttlongevity.com",
    "dev_id": "TT Longevity",
    "description": "Longevity plan for your hormone balance, GLP1 weight loss, peptides or longevity",
-   "at": 1793821907.3928194
+   "at": 1794507953.1832912
   },
   "com.bluehealth.longevity": {
    "id": "gp:com.bluehealth.longevity",
@@ -6170,7 +6170,7 @@
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-09-07T00:00:00Z",
+   "updated": "2026-09-06T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.bluehealth.longevity",
    "icon": "https://play-lh.googleusercontent.com/Kn9s3cXm_qL2XV92LvayMx056gZl3aigjuHZEqEAklx4cWH0zM_z58_Vn6oSAsOjGywJwjGXw9MqFSNvgZvnbA=s0-br30",
    "developer": "Longevity Institute ApS",
@@ -6178,7 +6178,7 @@
    "email": "contact@longevityinstitute.dk",
    "dev_id": "8845047190162148917",
    "description": "Live happier, healthier, longer",
-   "at": 1793821910.3846996
+   "at": 1794507950.3155208
   },
   "com.eteacher.longevityscore": {
    "id": "gp:com.eteacher.longevityscore",
@@ -6198,7 +6198,7 @@
    "email": "support@longevitylifeacademy.com",
    "dev_id": "eTeacher Group",
    "description": "Your sleep, activity and recovery as one 0–100 score you can actually move.",
-   "at": 1793821920.9049346
+   "at": 1794507963.6934106
   },
   "com.netmaxims.mindovermatter.longevitymind": {
    "id": "gp:com.netmaxims.mindovermatter.longevitymind",
@@ -6238,7 +6238,7 @@
    "email": "help@trainerize.com",
    "dev_id": "CBA-Pro1",
    "description": "Leading app for fitness professionals.",
-   "at": 1793821922.3816285
+   "at": 1794507962.209326
   },
   "com.github.mjaremczuk.longevityai": {
    "id": "gp:com.github.mjaremczuk.longevityai",
@@ -6258,7 +6258,7 @@
    "email": "michaljaremczuk@gmail.com",
    "dev_id": "Michał Jaremczuk",
    "description": "Cofnij swój wiek biologiczny i zoptymalizuj zdrowie z osobistym doradcą AI.",
-   "at": 1793079106.2966294
+   "at": 1794507977.299941
   },
   "io.longevity.longevityapp": {
    "id": "gp:io.longevity.longevityapp",
@@ -6278,7 +6278,7 @@
    "email": "longevity@gmail.com",
    "dev_id": "Volqo GmbH",
    "description": "Track gym classes, attendance, and updates with Longevity.",
-   "at": 1793821927.0293903
+   "at": 1794507968.2203887
   },
   "com.appliedcognition": {
    "id": "gp:com.appliedcognition",
@@ -6298,7 +6298,7 @@
    "email": "info@appliedcognition.com",
    "dev_id": "Applied Cognition",
    "description": "Longevity app collects clinical research data for novel biomarkers development.",
-   "at": 1793079109.2780385
+   "at": 1794507971.1620057
   },
   "me.mylongevity.android": {
    "id": "gp:me.mylongevity.android",
@@ -6318,7 +6318,7 @@
    "email": "dev@ashokakorea.com",
    "dev_id": "Ashoka Korea",
    "description": "Meet the people and ideas driving the Longevity revolution worldwide.",
-   "at": 1793821924.0365984
+   "at": 1794507974.2571661
   },
   "com.daxko.club.automation.wclq": {
    "id": "gp:com.daxko.club.automation.wclq",
@@ -8745,8 +8745,8 @@
    "pkg": "com.clearcare.clearcareconnect",
    "store": "google",
    "name": "WellSky Personal Care",
-   "rating": 3.77,
-   "count": 34913,
+   "rating": 3.78,
+   "count": 35001,
    "genre": "Medical",
    "health": true,
    "released": null,
@@ -8758,7 +8758,7 @@
    "email": "app@clearcareonline.com",
    "dev_id": "WellSky Mobile Apps",
    "description": "WellSky Personal Care mobile app for caregivers and administrators",
-   "at": 1793794794.8664925
+   "at": 1794508020.6886551
   },
   "com.talkspace.talkspaceapp": {
    "id": "gp:com.talkspace.talkspaceapp",
@@ -9138,7 +9138,7 @@
    "email": "support@visitnow.org",
    "dev_id": "Teladoc, Inc.",
    "description": "Teladoc Health Patient is a telehealth platform.",
-   "at": 1793794586.319101
+   "at": 1794507863.2538888
   },
   "ps.pmrs.telemed": {
    "id": "gp:ps.pmrs.telemed",
@@ -9165,8 +9165,8 @@
    "pkg": "com.medstar.android.promptcare",
    "store": "google",
    "name": "MedStar eVisit – Telehealth",
-   "rating": 3.91,
-   "count": 927,
+   "rating": 3.95,
+   "count": 928,
    "genre": "Medical",
    "health": true,
    "released": null,
@@ -9178,7 +9178,7 @@
    "email": "web@medstar.net",
    "dev_id": "8479049399463248492",
    "description": "Virtual urgent care 24/7. Download, sign up, see a provider online.",
-   "at": 1793794584.8527942
+   "at": 1794507861.8493717
   },
   "com.evisit.app.injurycareconnect": {
    "id": "gp:com.evisit.app.injurycareconnect",
@@ -9265,12 +9265,12 @@
    "pkg": "com.mochihealth.mochihealth",
    "store": "google",
    "name": "Mochi Health: GLP-1 & Wellness",
-   "rating": 4.91,
-   "count": 2479,
+   "rating": 4.93,
+   "count": 2550,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-10-27T00:00:00Z",
+   "updated": "2026-10-26T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.mochihealth.mochihealth",
    "icon": "https://play-lh.googleusercontent.com/6ZPM8WVxHiwtAf6W-XDjgZ38dlCK58tIbG-OXSi_HGaTfF438GpZjWuAPBR44HrY2ZSZszVkEbBVatdhyjdM=s0-br30",
    "developer": "Mochi Health",
@@ -9278,7 +9278,7 @@
    "email": "hello@joinmochi.com",
    "dev_id": "Mochi Health",
    "description": "500K+ trust us for GLP-1 weight loss shots, skincare & hair loss meds delivered.",
-   "at": 1793901987.5738335
+   "at": 1794507876.6968248
   },
   "com.prescriptionday": {
    "id": "gp:com.prescriptionday",
@@ -9625,8 +9625,8 @@
    "pkg": "com.maz.combo93",
    "store": "google",
    "name": "Women's Health Mag",
-   "rating": 2.59,
-   "count": 26,
+   "rating": 2.44,
+   "count": 25,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
@@ -9638,7 +9638,7 @@
    "email": "Sandie.roberts@rodale.com",
    "dev_id": "Hearst Communications, Inc.",
    "description": "Women's Health inspires strength and fitness of mind and body.",
-   "at": 1793902008.5474427
+   "at": 1794507900.683647
   },
   "com.mightybell.springwomenshealth": {
    "id": "gp:com.mightybell.springwomenshealth",
@@ -9838,7 +9838,7 @@
    "email": "support@defumak.xyz",
    "dev_id": "8419401423099861857",
    "description": "Master LPIC-1/2, Essentials & DevOps with 5,000+ realistic exam questions",
-   "at": 1793902019.045361
+   "at": 1794507911.3372183
   },
   "com.dontmissabeat.cathlabReview": {
    "id": "gp:com.dontmissabeat.cathlabReview",
@@ -9870,7 +9870,7 @@
    "genre": "TOOLS",
    "health": false,
    "released": null,
-   "updated": "2026-10-10T00:00:00Z",
+   "updated": "2026-11-09T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=ua.novotest.bluetooth",
    "icon": "https://play-lh.googleusercontent.com/c1jNQ7PGBYF3PXnvYVLWv4X2Fkn9MNH8YrN567PzAnDlMfDCuYPhxuJra2PAEun-RXcg1sTLc0At1U0HJaXU8A=s0-br30",
    "developer": "NOVOTEST",
@@ -9878,7 +9878,7 @@
    "email": "novotest.bluetooth.app@gmail.com",
    "dev_id": "NOVOTEST",
    "description": "NOVOTEST Lab - Real laboratory in your pocket",
-   "at": 1793902017.5300045
+   "at": 1794507905.172638
   },
   "com.ai.medical.lab.report.checker.analyzer": {
    "id": "gp:com.ai.medical.lab.report.checker.analyzer",
@@ -9898,7 +9898,7 @@
    "email": "asad@eclixtech.com",
    "dev_id": "Card Scanner",
    "description": "AI Lab Report Checker to explain lab test results and provide clear summaries.",
-   "at": 1793902020.5608625
+   "at": 1794507909.6776683
   },
   "co.median.android.nmlmppx": {
    "id": "gp:co.median.android.nmlmppx",
@@ -10398,7 +10398,7 @@
    "email": "developer@mycabinet.com",
    "dev_id": "6089902695498774140",
    "description": "The Virtual Medicine Cabinet",
-   "at": 1793177020.3776631
+   "at": 1794507944.1789768
   },
   "au.com.thelongevitycoach.coach.redesign.own": {
    "id": "gp:au.com.thelongevitycoach.coach.redesign.own",
@@ -10618,7 +10618,7 @@
    "email": "support@chronica.care",
    "dev_id": "Hifinite",
    "description": "AI-powered chronic care management & remote health monitoring.",
-   "at": 1793794785.8825305
+   "at": 1794508017.700059
   },
   "com.sevencupsoftea.app": {
    "id": "gp:com.sevencupsoftea.app",
@@ -10645,12 +10645,12 @@
    "pkg": "com.mypossibleself.app",
    "store": "google",
    "name": "‎MyPossibleSelf: Mental Health",
-   "rating": 4.49,
-   "count": 6239,
+   "rating": 4.47,
+   "count": 6242,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-09-01T00:00:00Z",
+   "updated": "2026-11-09T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.mypossibleself.app",
    "icon": "https://play-lh.googleusercontent.com/qhMINydKiH5UIX4yy1_wsGtqwe6DhlPC2POOvhkdt5Lz5Ue0UplWu7uQwkczB6GFKaoE1u75wT85Goj0K5jnfsw=s0-br30",
    "developer": "My Possible Self Ltd",
@@ -10658,15 +10658,15 @@
    "email": "techsupport@mypossibleself.com",
    "dev_id": "My Possible Self Ltd",
    "description": "The leading companion for anxiety, sleep, stress, depression & wellbeing",
-   "at": 1793902104.5766718
+   "at": 1794508025.3133476
   },
   "com.humana.pharmacy": {
    "id": "gp:com.humana.pharmacy",
    "pkg": "com.humana.pharmacy",
    "store": "google",
    "name": "CenterWell Pharmacy",
-   "rating": 3.59,
-   "count": 52111,
+   "rating": 3.58,
+   "count": 52135,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
@@ -10678,7 +10678,7 @@
    "email": "MobileDevelopers@centerwell.com",
    "dev_id": "8169543994509222984",
    "description": "This app helps you ✔ refill prescriptions ✔ view order status ✔ track shipments",
-   "at": 1793901984.57634
+   "at": 1794507867.7068913
   },
   "shop.shop_apotheke.com.shopapotheke": {
    "id": "gp:shop.shop_apotheke.com.shopapotheke",
@@ -10738,7 +10738,7 @@
    "email": "help@thepeak.pr",
    "dev_id": "Peak Media",
    "description": "A 12-week guided kegel program that adapts to you. Train at your own pace.",
-   "at": 1793902005.54626
+   "at": 1794507894.8035624
   },
   "com.plansmobile": {
    "id": "gp:com.plansmobile",
@@ -10758,7 +10758,7 @@
    "email": "contact@with-plans.com",
    "dev_id": "Ovy Health",
    "description": "Track your cycle, optimize your fertility, and boost your hormonal health",
-   "at": 1793902010.066328
+   "at": 1794507899.1984227
   },
   "com.womency.app": {
    "id": "gp:com.womency.app",
@@ -10858,7 +10858,7 @@
    "email": "info@wellnesshealthcare.com.ng",
    "dev_id": "Wellness Health Technologies ltd",
    "description": "Access prompt quality healthcare and freedom to customize your health plan.",
-   "at": 1793902067.080221
+   "at": 1794507981.6997192
   },
   "com.netpulse.mobile.thewellnesscenter": {
    "id": "gp:com.netpulse.mobile.thewellnesscenter",
@@ -10878,7 +10878,7 @@
    "email": "support@netpulse.com",
    "dev_id": "5753908859118848912",
    "description": "Track your workout in the club and on the go with the The Wellness Center app.",
-   "at": 1793902073.0708394
+   "at": 1794507984.7118866
   },
   "com.shc.jch": {
    "id": "gp:com.shc.jch",
@@ -10898,7 +10898,7 @@
    "email": "support@smarthealthclubs.com",
    "dev_id": "Smart Health Clubs",
    "description": "Interact with the JCH Wellness Center",
-   "at": 1793902076.057677
+   "at": 1794507989.1924763
   },
   "com.supradigit.clinsav": {
    "id": "gp:com.supradigit.clinsav",
@@ -10910,7 +10910,7 @@
    "genre": "Medical",
    "health": true,
    "released": null,
-   "updated": "2026-10-22T00:00:00Z",
+   "updated": "2026-11-10T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.supradigit.clinsav",
    "icon": "https://play-lh.googleusercontent.com/vLuJTtAuqvIVwnYEHoUqALfmfgPVt1xikElvQ0D8jjQcDgaOUWlg0xAydWOnBtqJxzNMppGNPFDVcjJ7rGfKhg=s0-br30",
    "developer": "SupraDigit Solutions Pvt. Ltd.",
@@ -10918,7 +10918,7 @@
    "email": "support@clinsav.com",
    "dev_id": "8057986262708558131",
    "description": "A fully offline clinic management app that gives full control of patient data",
-   "at": 1793902065.5491178
+   "at": 1794507993.7018247
   },
   "com.fitnessmobileapps.wellnessconceptsclinicllc": {
    "id": "gp:com.fitnessmobileapps.wellnessconceptsclinicllc",
@@ -10938,7 +10938,7 @@
    "email": "brandedappsupport@mindbodyonline.com",
    "dev_id": "Branded MINDBODY Apps",
    "description": "Plan and Schedule your appointments with us from your Mobile device.",
-   "at": 1793902071.5498927
+   "at": 1794507983.1432722
   },
   "com.joinwecare.wellnesswecare": {
    "id": "gp:com.joinwecare.wellnesswecare",
@@ -10958,7 +10958,7 @@
    "email": "support@joinwecare.com",
    "dev_id": "MEGA LIFESCIENCES",
    "description": "AI-powered nutrition analysis and holistic health tools.",
-   "at": 1793902074.5469508
+   "at": 1794507992.2974272
   },
   "com.clinicathome.mobileapp": {
    "id": "gp:com.clinicathome.mobileapp",
@@ -10970,7 +10970,7 @@
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-09-28T00:00:00Z",
+   "updated": "2026-11-09T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.clinicathome.mobileapp",
    "icon": "https://play-lh.googleusercontent.com/9guE1T4EGcbcoLe37JXwDUudR9hYzYQAMHCBnIzZRk5fwG8vlvHJnclg5tS21pvjY78VH3APnJ5GQhxj76Bd=s0-br30",
    "developer": "Clinic@Home",
@@ -10978,7 +10978,7 @@
    "email": "info@healthemed.com",
    "dev_id": "Clinic@Home",
    "description": "Bringing your healthcare home",
-   "at": 1793902068.5864248
+   "at": 1794507995.1768339
   },
   "io.connectedlife.ccuatmrg": {
    "id": "gp:io.connectedlife.ccuatmrg",
@@ -10998,7 +10998,7 @@
    "email": "hello@connectedlife.io",
    "dev_id": "ConnectedLife Health Pte Ltd",
    "description": "Wellness Plus CLH solution for patients to share outpatient recovery status",
-   "at": 1793902070.0663369
+   "at": 1794507980.3498378
   },
   "com.fitnessmobileapps.wellnesscenteratantioch": {
    "id": "gp:com.fitnessmobileapps.wellnesscenteratantioch",
@@ -11070,7 +11070,7 @@
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-11-04T00:00:00Z",
+   "updated": "2026-11-11T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.wellnessvault.daily",
    "icon": "https://play-lh.googleusercontent.com/jTb4Mq6kImjNOdAQ6_GysCnRPKGgF1TIyFBPR-wUxU1MxSVZ-IifMTev4TPZKR5rfCX6d4AfugxhA0Iq7DvakA=s0-br30",
    "developer": "Wellness Vault",
@@ -11078,7 +11078,7 @@
    "email": "Valerie@embody-wellness.com",
    "dev_id": "Wellness Vault",
    "description": "Make wellness a daily rhythm, with support from your coach.",
-   "at": 1793902083.547134
+   "at": 1794507990.6704924
   },
   "com.kj62192.app": {
    "id": "gp:com.kj62192.app",
@@ -11098,7 +11098,7 @@
    "email": "hello@wellnessnook.life",
    "dev_id": "Donovan Rising",
    "description": "Intelligent guidance for wellness — oils, supplements, emotions & daily life.",
-   "at": 1793902085.0693302
+   "at": 1794507999.866653
   },
   "com.webmd.ways": {
    "id": "gp:com.webmd.ways",
@@ -11106,7 +11106,7 @@
    "store": "google",
    "name": "Wellness At Your Side",
    "rating": 4.24,
-   "count": 2012,
+   "count": 2014,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
@@ -11118,15 +11118,15 @@
    "email": "wellnessatyourside@webmd.net",
    "dev_id": "WebMD Health Services",
    "description": "Your Everything Well-Being App",
-   "at": 1793902062.6034143
+   "at": 1794507986.2229567
   },
   "com.truworth.wellnesscorner": {
    "id": "gp:com.truworth.wellnesscorner",
    "pkg": "com.truworth.wellnesscorner",
    "store": "google",
    "name": "The Wellness Corner",
-   "rating": 4.0,
-   "count": 11298,
+   "rating": 4.09,
+   "count": 11328,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
@@ -11138,7 +11138,7 @@
    "email": "support@truworthwellness.com",
    "dev_id": "Truworth",
    "description": "The Wellness Corner - One-stop destination for all your health & wellness needs",
-   "at": 1793902079.0511444
+   "at": 1794507987.7165382
   },
   "com.tghc": {
    "id": "gp:com.tghc",
@@ -11150,7 +11150,7 @@
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-03-18T00:00:00Z",
+   "updated": "2026-03-17T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.tghc",
    "icon": "https://play-lh.googleusercontent.com/Pm9tDAShGQ2WgbXA9aGrRx85PQHYb227baoNSRaV8eihgkhblzPA23QdBQxpmIMC9hZQj2izTM2WHxI0SPgQRPA=s0-br30",
    "developer": "The Good Health Clinic (TGHC)",
@@ -11158,7 +11158,7 @@
    "email": "admin@tghclinic.com",
    "dev_id": "The Good Health Clinic (TGHC)",
    "description": "Welcome to TGHC - The Good Health Clinic: Driven by Impact. Guided by Science.",
-   "at": 1793902080.5543218
+   "at": 1794507996.6796365
   },
   "fellowship.senior.living": {
    "id": "gp:fellowship.senior.living",
@@ -11178,7 +11178,7 @@
    "email": "fellowshipseniorlivinginc@gmail.com",
    "dev_id": "WL Mobile",
    "description": "Download the app to view schedules & book sessions at Fellowship Senior Living",
-   "at": 1793902086.548617
+   "at": 1794507998.182027
   },
   "com.bizmaticsinc.patientportal.cwc": {
    "id": "gp:com.bizmaticsinc.patientportal.cwc",
@@ -11225,12 +11225,12 @@
    "pkg": "xyz.slingshot.ashley.app",
    "store": "google",
    "name": "Ash - AI for Mental Health",
-   "rating": 4.68,
-   "count": 7701,
+   "rating": 4.65,
+   "count": 7805,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-10-16T00:00:00Z",
+   "updated": "2026-11-06T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=xyz.slingshot.ashley.app",
    "icon": "https://play-lh.googleusercontent.com/rYRb1FN9ORZ8YsArLbAzKQJH7Zvt76Dxlyc0Wvo3OqGUuF7I-QcyzdPo9ngUxQ4Wh_3mAbJdeku8hNVI_cg9Bg=s0-br30",
    "developer": "Talk to Ash",
@@ -11238,7 +11238,7 @@
    "email": "hello@talktoash.com",
    "dev_id": "Talk to Ash",
    "description": "Talk through it, privately.",
-   "at": 1793902103.0470452
+   "at": 1794508026.731608
   },
   "com.therapyappointment.app": {
    "id": "gp:com.therapyappointment.app",
@@ -11445,8 +11445,8 @@
    "pkg": "com.virex.peptpro",
    "store": "google",
    "name": "Peptide Tracker: PeptPro",
-   "rating": 4.7,
-   "count": 732,
+   "rating": 4.68,
+   "count": 815,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
@@ -11458,7 +11458,7 @@
    "email": "peptpro@contato.com",
    "dev_id": "FitCal LTDA",
    "description": "Track your peptide protocol, doses, progress, nutrition and insights in one app.",
-   "at": 1793388532.358529
+   "at": 1794507882.7815602
   },
   "com.stackeddd.mobile": {
    "id": "gp:com.stackeddd.mobile",
@@ -11666,7 +11666,7 @@
    "store": "google",
    "name": "Medication List",
    "rating": 4.0,
-   "count": 248,
+   "count": 250,
    "genre": "Medical",
    "health": true,
    "released": null,
@@ -11678,7 +11678,7 @@
    "email": "support@jojoapps-company.com",
    "dev_id": "5137176929228467202",
    "description": "Medicine Tracker and Reminder. Never miss a dose again!",
-   "at": 1793388559.3742902
+   "at": 1794507941.313371
   },
   "com.jaldeeinc.sulualternativemedicine": {
    "id": "gp:com.jaldeeinc.sulualternativemedicine",
@@ -11758,7 +11758,7 @@
    "email": "admin@selflongevity.app",
    "dev_id": "SELF GROUP LTD.",
    "description": "Self: Your personalized health and longevity guide to a better you.",
-   "at": 1793388566.845248
+   "at": 1794507966.6864417
   },
   "ayushdham.ayurveda.wellness": {
    "id": "gp:ayushdham.ayurveda.wellness",
@@ -11838,7 +11838,7 @@
    "email": "info@casavi.de",
    "dev_id": "casavi GmbH",
    "description": "Welcome to the digital world of IVP GmbH!",
-   "at": 1793388575.840798
+   "at": 1794508004.1923485
   },
   "de.provinzialkvhannover.fdv": {
    "id": "gp:de.provinzialkvhannover.fdv",
@@ -11946,7 +11946,7 @@
    "store": "google",
    "name": "Nutrition & Calorie Tracker",
    "rating": 3.4,
-   "count": 1034,
+   "count": 1037,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
@@ -11958,7 +11958,7 @@
    "email": "phuclh14062001@gmail.com",
    "dev_id": "PLHGlobal",
    "description": "Track calories & calculate nutrition scores, build healthy meal plans for a diet",
-   "at": 1793388587.873329
+   "at": 1794508013.2994843
   },
   "ai.carecircle": {
    "id": "gp:ai.carecircle",
@@ -12865,12 +12865,12 @@
    "pkg": "com.epocrates",
    "store": "google",
    "name": "epocrates: Drug Info & Pill ID",
-   "rating": 2.74,
-   "count": 26181,
+   "rating": 2.73,
+   "count": 26175,
    "genre": "Medical",
    "health": true,
    "released": null,
-   "updated": "2026-10-22T00:00:00Z",
+   "updated": "2026-11-04T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.epocrates",
    "icon": "https://play-lh.googleusercontent.com/PWFQrbSXEUnwFtk10Zd5SYBn_bwcDK3BmhIpVWhitVeHZWV982j0B_eTaQtxb8pzUPeDJD8gjz8iNniYetwI=s0-br30",
    "developer": "Epocrates, Inc.",
@@ -12878,7 +12878,7 @@
    "email": "support@epocrates.com",
    "dev_id": "Epocrates, Inc.",
    "description": "Dosing, Interactions, & Labs",
-   "at": 1793794608.8809416
+   "at": 1794507874.2181182
   },
   "com.clsreview.clsreview": {
    "id": "gp:com.clsreview.clsreview",
@@ -13318,7 +13318,7 @@
    "email": "webscarepk@gmail.com",
    "dev_id": "WebsCare",
    "description": "Scan prescriptions, extract medicines and dosages instantly with AI assistance.",
-   "at": 1793901992.05565
+   "at": 1794507872.2043064
   },
   "com.wallsdev.genius_hormo": {
    "id": "gp:com.wallsdev.genius_hormo",
@@ -13338,7 +13338,7 @@
    "email": "richard@geniuswatch.net",
    "dev_id": "Genius fit Watch",
    "description": "Genius Hormo, AI converts wearable data into real-time hormonal estimates.",
-   "at": 1793901999.5463383
+   "at": 1794507891.6670067
   },
   "com.C2C.therapyPMS": {
    "id": "gp:com.C2C.therapyPMS",
@@ -14899,11 +14899,331 @@
    "dev_id": "Mantra Care",
    "description": "One platform for mental, physical and chronic care",
    "at": 1794419972.74895
+  },
+  "com.rxgo": {
+   "id": "gp:com.rxgo",
+   "pkg": "com.rxgo",
+   "store": "google",
+   "name": "RxGo: Prescription Rx Coupons",
+   "rating": 4.06,
+   "count": 54,
+   "genre": "Medical",
+   "health": true,
+   "released": null,
+   "updated": "2026-01-14T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.rxgo",
+   "icon": "https://play-lh.googleusercontent.com/vWFzILzap1cDJyyZ_3I1zh32qKFJ5FbzNDy0uJPO9YnsH6OXtyqKm5vDc0kxMj-7rhVpmatwekkL0J92S0DKqA=s0-br30",
+   "developer": "RxGo Enterprises",
+   "website": "https://www.rxgo.com",
+   "email": "mspivey@rxgo.com",
+   "dev_id": "RxGo Enterprises",
+   "description": "Compare prescription drug prices and discover hundreds of coupons & discounts.",
+   "at": 1794507870.7045035
+  },
+  "com.trendpulsev.peptidetracker": {
+   "id": "gp:com.trendpulsev.peptidetracker",
+   "pkg": "com.trendpulsev.peptidetracker",
+   "store": "google",
+   "name": "Protocol: Peptide Tracker",
+   "rating": 4.29,
+   "count": 10,
+   "genre": "Health & Fitness",
+   "health": true,
+   "released": null,
+   "updated": "2026-07-30T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.trendpulsev.peptidetracker",
+   "icon": "https://play-lh.googleusercontent.com/mO6ct1NlZWpuD-muAUCXEq4xhZIk0vFx_ijDOb-kHsw6d3nww7POedefzavWmOYktBRAZZIxW3e15vlGax0Biw=s0-br30",
+   "developer": "IMA, LLC",
+   "website": "https://protocolapp.health",
+   "email": "support@protocolapp.health",
+   "dev_id": "IMA, LLC",
+   "description": "Peptide Calculator, Vial Tracking, Dose Log & Injection Rotation.",
+   "at": 1794507884.1771202
+  },
+  "health.flouria.app": {
+   "id": "gp:health.flouria.app",
+   "pkg": "health.flouria.app",
+   "store": "google",
+   "name": "Flouria: Women's Health",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "Health & Fitness",
+   "health": true,
+   "released": null,
+   "updated": "2026-11-08T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=health.flouria.app",
+   "icon": "https://play-lh.googleusercontent.com/2wiy93GP_d-bDVCD4lepwuzLptlf2yFQZH0fcGU1RyOIhcB0mXYEFraGvARRAdaJ6F13SkZJGCeQ3iLnAerb=s0-br30",
+   "developer": "Flouria Health B.V.",
+   "website": "https://flouria.health",
+   "email": "info@flouria.health",
+   "dev_id": "Flouria Health B.V.",
+   "description": "Chat with women's health experts",
+   "at": 1794507902.2168922
+  },
+  "com.aventri.omtechnologysummit202219931": {
+   "id": "gp:com.aventri.omtechnologysummit202219931",
+   "pkg": "com.aventri.omtechnologysummit202219931",
+   "store": "google",
+   "name": "REAL Primary Care 2026",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "TRAVEL_AND_LOCAL",
+   "health": false,
+   "released": null,
+   "updated": "2026-09-21T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.aventri.omtechnologysummit202219931",
+   "icon": "https://play-lh.googleusercontent.com/EJyyBxkeRSXb4KPXMxwFN64utsLoSVgKnT-q6PfZGHy9zD2GsKgteFM2ikcMdlDr2HZWuatOycleGOlGzbgO9Q=s0-br30",
+   "developer": "Stova Group, LLC",
+   "website": "about:invalid#navigation",
+   "email": "kmarkel@onemedical.com",
+   "dev_id": "Stova Group, LLC",
+   "description": "Download this app to enhance your experience at REAL Primary Care 2025.",
+   "at": 1794507924.686139
+  },
+  "io.inspiretek.goondir": {
+   "id": "gp:io.inspiretek.goondir",
+   "pkg": "io.inspiretek.goondir",
+   "store": "google",
+   "name": "Virtual Health Services",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "Medical",
+   "health": true,
+   "released": null,
+   "updated": "2026-04-15T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=io.inspiretek.goondir",
+   "icon": "https://play-lh.googleusercontent.com/Ywmbd0eX2jL3H4aE6ssBlyDfuOToFY8PI1s4I8CLNx66OWDv1l15kdUktMGS7Y0G9UKjLlOfswq6MmY4KC-QfQ=s0-br30",
+   "developer": "Goondir Health Services",
+   "website": "https://www.inspiretek.io",
+   "email": "support@inspiretek.io",
+   "dev_id": "Goondir Health Services",
+   "description": "Virtual Health Services is a trusted Remote Patient Monitoring tool",
+   "at": 1794507927.8092785
+  },
+  "com.needstreet.health.hp": {
+   "id": "gp:com.needstreet.health.hp",
+   "pkg": "com.needstreet.health.hp",
+   "store": "google",
+   "name": "Virtual Practice Healthcare",
+   "rating": 1.0,
+   "count": 113,
+   "genre": "Medical",
+   "health": true,
+   "released": null,
+   "updated": "2026-10-28T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.needstreet.health.hp",
+   "icon": "https://play-lh.googleusercontent.com/KJBoraQXb20aMu45_XH9ljqSiryDnJkoQMJxoUDp66F4U5fZrAhaW-gh2csQLjAZ50UijDWi3cK8Jq8vSUkzmtE=s0-br30",
+   "developer": "NeedStreet",
+   "website": "http://www.needstreet.com",
+   "email": "support@needstreet.com",
+   "dev_id": "NeedStreet",
+   "description": "Patient engagement and telemedicine. Lightweight practice management.",
+   "at": 1794507930.7290983
+  },
+  "caremedical.com.caremedical": {
+   "id": "gp:caremedical.com.caremedical",
+   "pkg": "caremedical.com.caremedical",
+   "store": "google",
+   "name": "Care Medical Center",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "Health & Fitness",
+   "health": true,
+   "released": null,
+   "updated": "2022-06-06T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=caremedical.com.caremedical",
+   "icon": "https://play-lh.googleusercontent.com/KlYnzdqKv7ZsAanU-IDuve8YtkyUSrYJWTYOTJjkpDdo9b1IYOaY7ovvcjo0Sb0qKSRpoKMKVXVEqSEMFinODA=s0-br30",
+   "developer": "Integral Health Co.",
+   "website": "http://care.sa",
+   "email": "info@care.sa",
+   "dev_id": "Integral Health Co.",
+   "description": "Book your appointment now and get offers and discount from Care Medical Center",
+   "at": 1794507932.2995946
+  },
+  "com.arketa.longevityfitness1": {
+   "id": "gp:com.arketa.longevityfitness1",
+   "pkg": "com.arketa.longevityfitness1",
+   "store": "google",
+   "name": "LONGevity Fitness",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "Health & Fitness",
+   "health": true,
+   "released": null,
+   "updated": "2026-09-10T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.arketa.longevityfitness1",
+   "icon": "https://play-lh.googleusercontent.com/jxL4BOYtnfVUNTtqr8eKROtDrT44XOuqlVgvP7G4sZUzUUoky7VBHuzSNUMpiAO9crZXG6NYKDipu355tIhPxks=s0-br30",
+   "developer": "Arketa Fitness",
+   "website": "about:invalid#navigation",
+   "email": "support@arketa.com",
+   "dev_id": "Arketa Fitness",
+   "description": "Fitness For A Lifetime",
+   "at": 1794507965.1776605
+  },
+  "com.szalongevity.sza_mobile": {
+   "id": "gp:com.szalongevity.sza_mobile",
+   "pkg": "com.szalongevity.sza_mobile",
+   "store": "google",
+   "name": "Phenome Longevity",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "Medical",
+   "health": true,
+   "released": null,
+   "updated": "2026-10-11T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.szalongevity.sza_mobile",
+   "icon": "https://play-lh.googleusercontent.com/gZ85dhbaD2pBuHZa_eYYd4OsHuLIei6JmUxom8Ult3s4Delr615lxa9wGlIDv0AiQy4WWFmzc72BqeCMhuhhSA=s0-br30",
+   "developer": "Phenome Longevity",
+   "website": "https://phenomelongevity.com/",
+   "email": "info@phenomelongevity.com",
+   "dev_id": "7030832155079621444",
+   "description": "Unlock the secrets of a longer, healthier life with Phenome Longevity!",
+   "at": 1794507969.828925
+  },
+  "com.wesweat.app": {
+   "id": "gp:com.wesweat.app",
+   "pkg": "com.wesweat.app",
+   "store": "google",
+   "name": "WeSweat: Longevity Habits",
+   "rating": 4.38,
+   "count": 11,
+   "genre": "Health & Fitness",
+   "health": true,
+   "released": null,
+   "updated": "2026-10-09T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.wesweat.app",
+   "icon": "https://play-lh.googleusercontent.com/xJpV_YC-ZtFLfzk4Hi6kyx-1rrjtiheeeA-MZWt-F350o0FD-yXjHKtKcrXd3WdtW4HqfnOEq5tlYPwwZRTg=s0-br30",
+   "developer": "Brooding Ostrich, LLC",
+   "website": "https://wesweat.fit/",
+   "email": "admin@wesweat.fit",
+   "dev_id": "Brooding Ostrich, LLC",
+   "description": "Build longevity habits with friends, health tracking, and personalized guidance.",
+   "at": 1794507972.6785696
+  },
+  "com.smartClinic": {
+   "id": "gp:com.smartClinic",
+   "pkg": "com.smartClinic",
+   "store": "google",
+   "name": "Smart Clinic - Patient Records",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "PRODUCTIVITY",
+   "health": false,
+   "released": null,
+   "updated": "2026-06-01T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.smartClinic",
+   "icon": "https://play-lh.googleusercontent.com/BDIVz1t4LIU-yJQfWnOoNKdjEFuYtZYqzWlrE_wNXAwJg1eTleSHqGLDNcNMQn41LkkRQ5M7KOD2w2rE8fYNRkk=s0-br30",
+   "developer": "Smart Tech Bros",
+   "website": "https://smarttechbros.com",
+   "email": "smarttechbros.official@gmail.com",
+   "dev_id": "Smart Tech Bros",
+   "description": "Patient management, prescriptions, treatments and clinic records in one app.",
+   "at": 1794508001.1866794
+  },
+  "gnhub.ivapp.inventory": {
+   "id": "gp:gnhub.ivapp.inventory",
+   "pkg": "gnhub.ivapp.inventory",
+   "store": "google",
+   "name": "IV App - Inventory App",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "TOOLS",
+   "health": false,
+   "released": null,
+   "updated": "2026-08-18T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=gnhub.ivapp.inventory",
+   "icon": "https://play-lh.googleusercontent.com/WZNUmgLctAQ5lhMdlhX0sW8yKutrECDPNbLB8EUlZSytX6ylRsuSwU9boLk8rm58X8AIsCjLtmjmCWF1_gp5=s0-br30",
+   "developer": "Tag My Assets",
+   "website": "about:invalid#navigation",
+   "email": "contact@tagmyassets.com",
+   "dev_id": "Tag My Assets",
+   "description": "Your Trusted Assets Management Partner",
+   "at": 1794508005.7947946
+  },
+  "com.yueki.tekika": {
+   "id": "gp:com.yueki.tekika",
+   "pkg": "com.yueki.tekika",
+   "store": "google",
+   "name": "IV Drip Rate Calculator",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "Medical",
+   "health": true,
+   "released": null,
+   "updated": "2026-09-25T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.yueki.tekika",
+   "icon": "https://play-lh.googleusercontent.com/LiBIneCXaclUdFUxv91qs4TWCAEWDaxrqZcQB1IQVT7txI0NWiEaqjjPJfcthKgQHU9ViWbnRbLyf50YkGNRWA=s0-br30",
+   "developer": "Bucha-Lab",
+   "website": "about:invalid#navigation",
+   "email": "bucha.lab200@gmail.com",
+   "dev_id": "Bucha-Lab",
+   "description": "IV drip rate calculator for nurses & nursing students: gtt/min for gravity IVs.",
+   "at": 1794508007.3238642
+  },
+  "com.healthlyai.app": {
+   "id": "gp:com.healthlyai.app",
+   "pkg": "com.healthlyai.app",
+   "store": "google",
+   "name": "AI Nutrition Tracker: Healthly",
+   "rating": 0.0,
+   "count": 0,
+   "genre": "Health & Fitness",
+   "health": true,
+   "released": null,
+   "updated": "2026-10-26T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.healthlyai.app",
+   "icon": "https://play-lh.googleusercontent.com/xqURH4delYnR9OzyaojFc8MhI5KuZf82DZZ1oI29-MZvEHg3w1jii-fHDRfTPOxwhPx3AL3d7hy1waakJSoSZQ=s0-br30",
+   "developer": "ELJAM",
+   "website": "https://www.healthlyai.com",
+   "email": "hello@healthlyai.com",
+   "dev_id": "ELJAM",
+   "description": "Track meals with AI, build consistent habits, & reach your health goals",
+   "at": 1794508011.6812863
+  },
+  "com.clearcals.hint": {
+   "id": "gp:com.clearcals.hint",
+   "pkg": "com.clearcals.hint",
+   "store": "google",
+   "name": "Hint Diet Plan Calorie Counter",
+   "rating": 3.86,
+   "count": 1407,
+   "genre": "Health & Fitness",
+   "health": true,
+   "released": null,
+   "updated": "2026-09-19T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.clearcals.hint",
+   "icon": "https://play-lh.googleusercontent.com/n5vHkQ8hkI9Z0S2bqczcsX3KZnVGyeAO0P20hXsU8aGNj00MrEMnvymkawlcH7bOE-TynGam6D1eXv5qSTmS=s0-br30",
+   "developer": "Clearcals (Indian Diet Plan Calorie Counter)",
+   "website": "https://clearcals.com",
+   "email": "support@clearcals.com",
+   "dev_id": "8410266360479141694",
+   "description": "Calorie Calculator, Diet Planner, Calories Counter, Meal Planner & Food Tracker",
+   "at": 1794508014.7629862
+  },
+  "com.curablehealth.clara": {
+   "id": "gp:com.curablehealth.clara",
+   "pkg": "com.curablehealth.clara",
+   "store": "google",
+   "name": "Curable: Chronic Pain Recovery",
+   "rating": 4.12,
+   "count": 1461,
+   "genre": "Health & Fitness",
+   "health": true,
+   "released": null,
+   "updated": "2026-10-21T00:00:00Z",
+   "url": "https://play.google.com/store/apps/details?id=com.curablehealth.clara",
+   "icon": "https://play-lh.googleusercontent.com/WhCurWTDZ8NR60x6fOCy-1PobYNB6l6MIA2GxFr21T54IHq4ovZNHgT_sl5TomA7X9D194neeLIg0-Vm5JSnjN0=s0-br30",
+   "developer": "Curable Inc.",
+   "website": "https://www.curablehealth.com",
+   "email": "support@curablehealth.com",
+   "dev_id": "6825820741134548414",
+   "description": "A science-backed program to help you understand chronic pain & reclaim your life",
+   "at": 1794508019.1887517
   }
  },
  "search": {
   "telehealth": {
-   "at": 1794419803.0509048,
+   "at": 1794507858.5047371,
    "ids": [
     "com.simplepractice.video",
     "com.teladoc.members",
@@ -14912,53 +15232,53 @@
     "com.ecw.healow",
     "com.lifemd.care",
     "com.mdlive.mobile",
-    "com.sesamecare.patient",
     "com.himshers.hims",
     "com.pushhealth.production",
-    "com.amerihealth.wehealthnew",
     "com.doctoranywhere",
+    "com.amerihealth.wehealthnew",
+    "com.sesamecare.patient",
     "com.QuickMD.md",
-    "com.drappme",
-    "com.packapill.app",
     "com.evisit.app",
-    "com.simplepractice.clients",
+    "com.drappme",
     "com.therapyappointment.app",
-    "com.plushcare.plushcare.prod",
-    "com.rexmd.members.twa"
+    "com.packapill.app",
+    "com.teleprac.teleprac",
+    "com.simplepractice.clients",
+    "com.openloophealth.wholehealth"
    ]
   },
   "telemedicine": {
-   "at": 1794419804.752401,
+   "at": 1794507858.9096136,
    "ids": [
     "com.teladoc.members",
-    "com.lien.doc",
     "com.doctorondemand.android.patient",
+    "com.lien.doc",
     "com.simplepractice.video",
     "com.QuickMD.md",
-    "com.ecw.healow",
     "com.healthtap.userhtexpress",
+    "com.ecw.healow",
     "com.mdlive.mobile",
     "com.ritecare.telemedicine",
-    "com.mhealth.manadr",
-    "com.ispl.telemedicineDoctorApp",
-    "com.ValuxAppointment",
     "com.brilworksdigital.docchat",
-    "com.lifemd.care",
-    "com.pushhealth.production",
-    "com.doctegrity.health",
-    "com.doctoranywhere",
-    "com.teleprac.teleprac",
-    "com.evisit.app.cmg",
-    "com.sesamecare.patient",
-    "ps.pmrs.telemed",
     "com.americanwell.android.member.amwell",
+    "com.teleprac.teleprac",
+    "com.lifemd.care",
+    "com.evisit.app.cmg",
+    "com.ValuxAppointment",
+    "com.mhealth.manadr",
+    "com.doctegrity.health",
+    "com.pushhealth.production",
+    "com.ispl.telemedicineDoctorApp",
+    "ps.pmrs.telemed",
     "com.quikdr.rajagiri",
-    "com.opdonline.telemedicine",
-    "com.evisit.app.injurycareconnect"
+    "com.sesamecare.patient",
+    "com.medstar.android.promptcare",
+    "com.doctoranywhere",
+    "com.ith.patient"
    ]
   },
   "online pharmacy": {
-   "at": 1794419819.737133,
+   "at": 1794507863.2685812,
    "ids": [
     "com.aranoah.healthkart.plus",
     "com.phonegap.rxpal",
@@ -14969,66 +15289,66 @@
     "in.platinumrx",
     "com.onehealthng.onewellness",
     "com.cvs.launchers.cvs",
-    "app.newpharma.shop",
-    "com.drugscom.app",
     "com.anewhealthrx.my",
-    "com.newtechsys.rxlocalmobile",
+    "com.drugscom.app",
+    "app.newpharma.shop",
     "com.aios.boltpharmacy",
-    "na.com.nampharmcommunity",
+    "com.newtechsys.rxlocalmobile",
     "com.usablenet.mobile.walgreen",
+    "na.com.nampharmcommunity",
     "com.lowestmed.android",
-    "in.medibuddy",
-    "com.medonpharmacy.user",
     "com.arogga.app",
-    "com.catamaranrx.briovarx",
     "com.birdiRx.birdiApp",
-    "com.bondhu.daktar.daktarbondhu",
-    "com.medco.medcopharmacy",
+    "com.catamaranrx.briovarx",
     "com.hltcorp.ptce",
-    "com.gorenu.patient",
-    "com.raf.pharmacy",
-    "shop.shop_apotheke.com.shopapotheke",
+    "com.medonpharmacy.user",
+    "com.medco.medcopharmacy",
+    "com.bondhu.daktar.daktarbondhu",
     "com.gepharmacy.android",
-    "com.lifepharmacy.application"
+    "com.raf.pharmacy",
+    "com.gorenu.patient",
+    "shop.shop_apotheke.com.shopapotheke",
+    "com.capsule.capsule",
+    "com.humana.pharmacy"
    ]
   },
   "prescription delivery": {
-   "at": 1794419822.7474642,
+   "at": 1794507867.721527,
    "ids": [
     "com.goodrx",
-    "com.publix.pharmacyonline",
     "com.apps.pills2me",
+    "com.publix.pharmacyonline",
     "com.medco.medcopharmacy",
-    "in.platinumrx",
     "com.prescriptiondoctormobile",
+    "in.platinumrx",
     "com.lowestmed.android",
     "com.cvs.launchers.cvs",
     "com.xpressrx.rxdelivery",
     "com.xpressrx.rxdelivery.driver",
     "com.aranoah.healthkart.plus",
-    "com.NetmedsMarketplace.Netmeds",
+    "com.rxgo",
     "com.medscustomerapp",
-    "com.newtechsys.rxlocalmobile",
-    "com.rxvalet",
-    "com.medplus.mobile.android",
     "com.usablenet.mobile.walgreen",
+    "com.rxvalet",
+    "com.newtechsys.rxlocalmobile",
+    "com.NetmedsMarketplace.Netmeds",
     "com.optum.mobile.perks",
-    "com.hannaford.rx",
-    "com.giantc.rx",
-    "com.optum.rx",
-    "com.prescription.scanner.reader",
-    "io.pdcgs.buzzrxconsumer",
-    "com.neighbfav.neighborfavor",
-    "com.mochihealth.mochihealth",
     "com.singlecare.scma",
     "in.abona.rx",
-    "com.prescriptionday",
-    "com.groovehealthrx.groovehealth",
+    "com.giantc.rx",
+    "com.hannaford.rx",
+    "com.optum.rx",
+    "com.medplus.mobile.android",
+    "com.webscare.prescriptionscanner",
+    "io.pdcgs.buzzrxconsumer",
+    "com.phonegap.rxpal",
+    "com.prescription.scanner.reader",
+    "com.epocrates",
     "com.mohitatray.prescriptionmaker"
    ]
   },
   "GLP-1": {
-   "at": 1794419827.2402024,
+   "at": 1794507874.232942,
    "ids": [
     "app.meagain.app",
     "com.shotsy.app",
@@ -15036,34 +15356,34 @@
     "com.tallfive.glpdiet",
     "com.hussainmustafa.glp1tracker",
     "com.glp1go.app",
-    "app.glippy",
     "com.ruvixlabs.shotwise",
     "co.wiserapps.glpTracker",
-    "com.segaritz.ozempro",
+    "app.glippy",
     "ai.glpeak.app",
-    "com.dropouts.easy_glp1_tracker",
     "com.shredapps.glp1",
-    "fr.monglp1.app",
-    "com.regimen.app",
-    "com.dofatech.glp1tracker",
-    "com.outliveai.glpai",
-    "com.kaptanoglu.glp",
-    "com.dreamme.app",
+    "com.dropouts.easy_glp1_tracker",
+    "com.segaritz.ozempro",
     "com.glp.monitor",
+    "com.outliveai.glpai",
     "ventures.layline.glu",
-    "com.glpily.app",
+    "com.regimen.app",
+    "com.dreamme.app",
     "glp1.tracker.my.glp.journey.zepbound.wegovy.ozempic.mounjaro.weight.loss.ai",
-    "com.wsl.noom",
-    "glp1tracker.weightloss.shotreminder.injection",
     "com.metra.glp1tracker",
-    "com.glpbuddy.app",
-    "com.mi.glp",
+    "com.kaptanoglu.glp",
+    "fr.monglp1.app",
+    "glp1tracker.weightloss.shotreminder.injection",
+    "com.dofatech.glp1tracker",
     "com.glp1tracker.gaby",
-    "com.bodyfxfitness"
+    "com.mochihealth.mochihealth",
+    "com.bodyfxfitness",
+    "com.happyverse.glp",
+    "com.glpily.app",
+    "com.doseandlose.app"
    ]
   },
   "weight loss program": {
-   "at": 1794419831.7431734,
+   "at": 1794507878.1877463,
    "ids": [
     "com.wsl.noom",
     "com.ellisapps.itrackbitesplus",
@@ -15072,313 +15392,319 @@
     "com.fitnow.loseit",
     "com.fatsecret.android",
     "menloseweight.loseweightappformen.weightlossformen",
-    "com.myfitnesspal.android",
+    "loseweight.weightloss.workout.fitness",
     "loseweightapp.loseweightappforwomen.womenworkoutathome",
     "com.fitelo.android",
+    "com.myfitnesspal.android",
     "life.simple",
-    "loseweight.weightloss.workout.fitness",
-    "weightloss.weightlossforwomen.workoutforwomen.womenworkout",
     "app.weightfit.android",
     "com.healthifyme.basic",
-    "health.fjor.carnivore",
-    "com.sec.android.app.shealth",
-    "com.betterweightapp",
-    "com.sillens.shapeupclub",
-    "com.fourtechnologies.mynetdiary.ad",
-    "calorie.counter.lose.weight.track",
-    "com.bodyfast",
-    "dance.fit.zumba.weightloss.danceburn",
-    "com.healthywage",
-    "io.foodvisor.foodvisor",
-    "com.selantoapps.bodydiary",
-    "so.obvio.lina",
-    "com.nutrition.technologies.Fitia"
+    "health.fjor.carnivore"
    ]
   },
   "peptides": {
-   "at": 1794419845.3219407,
+   "at": 1794507879.8731258,
    "ids": [
     "ai.peptidetracker.dev",
     "com.peptidelibrary.app",
     "com.smartpeptidetracker.app",
-    "dev.titanium.peptide_tracker",
     "org.peppedia.peppedia",
+    "dev.titanium.peptide_tracker",
+    "com.gymstreaklabs.peptide_os",
     "com.peptidelabapp",
+    "pepvault.peptide.tracker",
+    "com.regimen.app",
     "com.peptidly.app",
     "awesomelabs.pepcalc.app",
-    "pepvault.peptide.tracker",
     "com.krischase.peptiq",
-    "com.regimen.app",
-    "app.peptidewizard",
-    "com.gymstreaklabs.peptide_os"
+    "com.virex.peptpro",
+    "com.trendpulsev.peptidetracker"
    ]
   },
   "hormone therapy": {
-   "at": 1794419846.8627954,
+   "at": 1794507884.1917548,
    "ids": [
     "com.hormona.hormonaapp",
     "com.balance_app.app",
     "com.healthandher",
     "menopause.health.tracker",
-    "au.healthyhormones.community",
-    "com.nelu.hrt",
     "com.femhq.crest",
+    "com.nelu.hrt",
+    "au.healthyhormones.community",
     "com.jlink.wondfo",
     "uk.lunaire.meno",
-    "com.hellophase.app",
     "fit.sudor.oym",
-    "menopause.tracker.perimenopause.hrt.hot.flashes.symptoms.log",
-    "health.nyra.nyratherapy",
     "com.menovation.app",
-    "com.mindsethealth.meno",
-    "com.menolora.app",
-    "io.everfit.wlhappyhormonehealth",
-    "com.recetaps.MenoPlus",
+    "com.hellophase.app",
     "com.halimbox.menopausetracker",
-    "com.auratech.rawaa",
+    "com.recetaps.MenoPlus",
+    "menopause.tracker.perimenopause.hrt.hot.flashes.symptoms.log",
     "com.ourself.health",
-    "com.mytherapyspace.app",
+    "io.everfit.wlhappyhormonehealth",
+    "com.auratech.rawaa",
+    "health.nyra.nyratherapy",
+    "com.mindsethealth.meno",
     "com.femilog.femi_log",
-    "com.theinnerhour.b2b",
-    "com.wallsdev.genius_hormo",
+    "com.menolora.app",
+    "eu.smartpatient.mytherapy",
     "com.ShortLegStudio.PlantTherapy",
-    "com.evercalm",
-    "com.wearemoody.moodymonth",
-    "com.C2C.therapyPMS",
-    "com.betterhelp"
+    "com.well.mo",
+    "ai.waveslabs.waveswomen",
+    "com.mytherapyspace.app",
+    "com.betterhelp",
+    "com.hormony.insights",
+    "com.wallsdev.genius_hormo"
    ]
   },
   "men's health": {
-   "at": 1794419852.8932812,
+   "at": 1794507891.6817367,
    "ids": [
     "com.maz.combo89",
     "uk.co.hearst.menshealth",
     "com.digitallence.kegelmanapp",
-    "com.menhealth",
     "com.wachanga.mensvitality",
-    "com.menshealthclinic.mhc_app",
     "menloseweight.loseweightappformen.weightlossformen",
-    "com.nutshealth.app",
-    "com.astraler.android.kegel",
+    "com.menhealth",
+    "com.menshealthclinic.mhc_app",
     "com.mettle.app",
+    "com.astraler.android.kegel",
     "com.appforces.fitHim.android",
+    "com.nutshealth.app",
+    "pro.thepeak.menswellness",
+    "com.himshers.hims",
+    "homeworkout.homeworkouts.noequipment",
     "com.fitbit.FitbitMobile",
-    "com.google.android.apps.healthdata",
     "com.getmental.mental",
     "health.human.app",
-    "pro.thepeak.menswellness",
-    "homeworkout.homeworkouts.noequipment",
-    "com.heytap.health.international",
-    "com.myfitnesspal.android"
+    "com.appercut.mayn",
+    "com.google.android.apps.healthdata"
    ]
   },
   "women's health": {
-   "at": 1794419860.2462983,
+   "at": 1794507896.231727,
    "ids": [
     "uk.co.hearst.womenshealth",
     "org.iggymedia.periodtracker",
-    "com.healthandher",
     "com.himshers.hers",
+    "com.healthandher",
     "in.plackal.lovecyclesfree",
     "org.femmhealth.femm",
     "com.womenshealthmovement",
-    "com.menovation.app",
     "de.seracom.dearmamma",
-    "com.clue.android",
+    "com.menovation.app",
     "ai.waveslabs.waveswomen",
+    "com.clue.android",
     "org.nanobit.perioddiary",
-    "com.maz.combo93",
-    "com.sec.android.app.shealth",
-    "com.lbrc.PeriodCalendar",
     "com.ovuline.fertility",
-    "reverse.health.app",
-    "com.popularapp.periodcalendar",
-    "com.puritylabs.hercycle",
     "com.glow.android",
+    "reverse.health.app",
+    "com.lbrc.PeriodCalendar",
+    "com.sec.android.app.shealth",
     "com.appercut.pearl",
+    "com.puritylabs.hercycle",
     "com.gynosakhi",
-    "com.mightybell.springwomenshealth",
-    "fit.sudor.oym",
+    "com.plansmobile",
     "sa.med.imc.womenhealth",
+    "com.maz.combo93",
+    "fit.sudor.oym",
+    "com.popularapp.periodcalendar",
+    "com.mightybell.springwomenshealth",
     "com.womensbest.app",
-    "com.baby2bodylimited.android",
+    "health.flouria.app",
     "com.femo.health",
-    "com.hobitb2c",
-    "premom.eh.com.ehpremomapp"
+    "com.womency.app"
    ]
   },
   "lab results": {
-   "at": 1794419876.7934668,
+   "at": 1794507902.2316377,
    "ids": [
     "com.labresults.analyzer.mobileapp",
     "com.labcorp.patientportal",
     "pathlabs.com.pathlabs",
-    "app.snaplabs.tracker",
     "com.westsamoaconsult.labtests",
+    "app.snaplabs.tracker",
     "com.unbound.android.cqdtl",
     "ai.reportsaathi.medical.report",
-    "com.imagoai.labs",
-    "com.bloodtracker_ai.app",
     "com.aibloodtestanalyzer.app",
     "mand.mobilny.lekarz",
+    "com.bloodtracker_ai.app",
+    "com.imagoai.labs",
     "com.medpresso.Lonestar.labtests",
-    "yourperformancelabinc.yplabs",
-    "com.mavipiksel.sanoai",
-    "com.amarlab.customerapp",
-    "com.redcliffelabs",
-    "com.joelislabs.mybloodtest",
     "com.medpresso.Lonestar.rndxtests",
+    "com.redcliffelabs",
+    "com.mavipiksel.sanoai",
     "com.aplikacja1.blooddiagnostics",
-    "com.delta.examination",
-    "co.za.lancet.lancet_mobile_2_0",
-    "com.srllimited.srl",
-    "com.medpresso.Lonestar.labnotes",
-    "com.flebo.customer",
-    "com.ai.medical.lab.report.checker.analyzer",
-    "app.medicod",
-    "com.medpresso.Lonestar.rnlabs",
     "ua.novotest.bluetooth",
+    "yourperformancelabinc.yplabs",
+    "com.joelislabs.mybloodtest",
+    "com.srllimited.srl",
+    "co.za.lancet.lancet_mobile_2_0",
+    "com.amarlab.customerapp",
+    "com.medpresso.Lonestar.labnotes",
+    "app.medicod",
+    "com.delta.examination",
+    "com.orca.alfalab.new_alfa_lab",
+    "com.ai.medical.lab.report.checker.analyzer",
+    "xyz.defumak.lpilab",
     "com.mediscience.labtest.labvalues"
    ]
   },
   "health coaching": {
-   "at": 1794419879.7272072,
+   "at": 1794507911.351854,
    "ids": [
     "com.gen.workoutme",
     "com.coloreight.yourcoach",
     "com.fitbit.FitbitMobile",
+    "com.healthifyme.basic",
     "life.simple",
     "com.sec.android.app.shealth",
     "ai.fitflow.health_coaching",
-    "com.trainerize.Trainerize",
-    "com.healthifyme.basic",
-    "com.beygel.beynex",
-    "com.Wisery.CalorieCam",
     "com.meditation.live",
+    "fit.gram",
     "health.onvy",
     "com.ahc.patient",
-    "fit.gram",
-    "com.bellabeat.cacao"
+    "com.Wisery.CalorieCam"
    ]
   },
   "virtual primary care": {
-   "at": 1794419885.7204895,
+   "at": 1794507912.8599513,
    "ids": [
-    "com.doctorondemand.android.patient",
-    "com.healthtap.userhtexpress",
     "com.americanwell.android.member.providence",
+    "com.healthtap.userhtexpress",
+    "org.mayoclinic.primarycareondemand",
+    "com.advancemedical.aigtravel",
     "co.circlemedical.patient",
     "com.amchealth.byod",
-    "com.neevlabs.connect2mydoctorpatient",
-    "com.app.vrahealth",
-    "org.connectsouthsidebh.app",
-    "org.mayoclinic.primarycareondemand",
-    "com.plushcare.plushcare.prod",
-    "com.medicuro",
-    "com.teladoc.members",
-    "com.lifemd.care",
-    "com.ritecare.telemedicine",
-    "com.advancemedical.aigtravel",
+    "com.virtualmd.doctormobile",
     "com.who_phc",
-    "com.consultdoctorcare247.doctorcare247",
-    "com.pcw.healthapp",
-    "com.patientcare.customer",
-    "ai.hbox.hbox_mobile.hbox_android",
-    "com.simplepractice.video",
-    "com.onemedical.android",
-    "com.doctoranywhere",
-    "com.ecw.healow",
-    "com.arhamsoft.caremd",
-    "com.iehp",
+    "com.advancemedical.virtualcare",
     "ai.mindscript.virtualmd",
-    "com.vtech.vcare.app"
+    "com.medicuro",
+    "com.ritecare.telemedicine",
+    "com.doctorondemand.android.patient",
+    "com.virtualcare.vet",
+    "com.app.vrahealth",
+    "com.plushcare.plushcare.prod",
+    "com.mdlive.CHPW_mobile",
+    "com.teleprac.teleprac",
+    "com.mdvirtualcare.app",
+    "com.mm.ondoctor",
+    "com.aventri.omtechnologysummit202219931",
+    "org.connectsouthsidebh.app",
+    "com.childrenstx.android.virtualvisit",
+    "io.inspiretek.goondir",
+    "com.neevlabs.connect2mydoctorpatient",
+    "ca.concordia.oncall",
+    "com.needstreet.health.hp",
+    "caremedical.com.caremedical"
    ]
   },
   "functional medicine": {
-   "at": 1794419908.247724,
+   "at": 1794507932.3148487,
    "ids": [
     "com.functionalmedicine.wl",
     "com.functionhealth",
     "com.restoreatsanctuaryfunctionalmedicine.wl",
-    "com.unbound.android.oxfordacute",
-    "health.doctor.pill.my_medicine.pro",
     "com.unbound.android.cqhm",
-    "com.medpresso.constellation.harrisons",
-    "com.allogy.deployedmedicine",
+    "com.unbound.android.oxfordacute",
     "com.unbound.android.cq59l",
-    "com.functionalnutritionresources.fnr",
-    "com.unbound.android.ubor",
-    "com.medpresso.Lonestar.acutemed",
-    "com.medical.mnemonics",
-    "com.medscape.android",
-    "com.mobisystems.msdict.embedded.wireless.elsevier.naturalmedicine",
-    "com.unbound.android.ubng",
-    "com.unbound.android.oxfordclinical",
+    "com.medpresso.constellation.harrisons",
     "com.medpresso.Lonestar.harrisons",
-    "com.jaldeeinc.sulualternativemedicine",
-    "com.mindismedicine",
+    "health.doctor.pill.my_medicine.pro",
+    "com.unbound.android.oxfordclinical",
+    "com.allogy.deployedmedicine",
+    "com.medscape.android",
+    "com.medpresso.Lonestar.acutemed",
     "com.trainerize.functionalhealth",
-    "medicine.health.sciences",
-    "com.medpresso.Lonestar.imoncall",
-    "com.findmedicine",
-    "com.ochsner.digitalmedicine",
-    "com.medpresso.Lonestar.emoncall",
-    "com.unbound.android.ubmci",
-    "com.rermedapps.concisemedicinepro",
+    "com.functionalnutritionresources.fnr",
+    "com.mobisystems.msdict.embedded.wireless.elsevier.naturalmedicine",
     "com.unbound.android.ub5el",
-    "health.doctor.pill.my_medicine"
+    "com.functionalglowinstitute",
+    "com.PrimalPictures.FunctionalAnatomy",
+    "com.msd.consumer",
+    "com.unbound.android.ubng",
+    "com.medpresso.Lonestar.emoncall",
+    "com.findmedicine",
+    "com.msd.professional",
+    "com.rermedapps.concisemedicinepro",
+    "com.jojoapps.medicationlist",
+    "com.unbound.android.ubor",
+    "com.medpresso.Lonestar.imoncall",
+    "com.dsxpress.mycabinet",
+    "com.unbound.android.oxfordemergmed"
    ]
   },
   "longevity": {
-   "at": 1794419917.22283,
+   "at": 1794507945.7213173,
    "ids": [
     "com.netpulse.mobile.longevitynetwork",
     "com.justfit.ymove.tailordfitpt",
     "com.longevityai.longevity_connect",
     "com.asanarebel.longevitycompass",
-    "com.trainerize.longevitypath",
     "com.longr.tlai",
+    "com.studioyou.longevitywellnesshub",
+    "com.youth.tls",
     "club.relounge.lifestyle",
     "com.tchadwilliams.longevity",
-    "com.studioyou.longevitywellnesshub"
+    "group.longevity",
+    "com.trainerize.longevitypath",
+    "com.bluehealth.longevity",
+    "com.longevityprotocols.app",
+    "com.ttlongevity.app",
+    "com.doctorsforme.portal",
+    "com.lifetime_long_health.app",
+    "com.app.confident.pose",
+    "com.paleoInstitute.app",
+    "io.rejuve.rejuve_longevity",
+    "com.trainerize.longevity",
+    "com.eteacher.longevityscore",
+    "com.arketa.longevityfitness1",
+    "com.self.self_app_android",
+    "io.longevity.longevityapp",
+    "com.szalongevity.sza_mobile",
+    "com.appliedcognition",
+    "com.wesweat.app",
+    "me.mylongevity.android",
+    "com.aislan.longevitylabs",
+    "com.github.mjaremczuk.longevityai"
    ]
   },
   "wellness clinic": {
-   "at": 1794419920.2271838,
+   "at": 1794507977.3149362,
    "ids": [
     "com.daxko.club.automation.wclq",
-    "com.bdmswellness.royallife",
     "com.shawellnessclinic.app",
+    "com.bdmswellness.royallife",
     "com.sofolit.wellbeingclinic",
-    "com.greatetime.pure",
-    "com.hoteza.zenwellnessresort",
-    "com.fitnessmobileapps.healwellnessclinicsstanmore43871",
     "io.connectedlife.ccuatmrg",
+    "com.hoteza.zenwellnessresort",
     "com.optimus.apex.you",
+    "com.greatetime.pure",
+    "com.fitnessmobileapps.healwellnessclinicsstanmore43871",
     "com.hazonholdings.android.wellnesspatientapp",
-    "com.supradigit.clinsav",
-    "com.netpulse.mobile.thewellnesscenter",
-    "com.meditation.live",
-    "com.webmd.ways",
-    "com.clinicathome.mobileapp",
     "com.fitnessmobileapps.wellnessconceptsclinicllc",
-    "com.joinwecare.wellnesswecare",
-    "com.shc.jch",
-    "com.careclinicsoftware.careclinic",
-    "com.wellnessvault.daily",
+    "com.netpulse.mobile.thewellnesscenter",
+    "com.webmd.ways",
     "com.truworth.wellnesscorner",
+    "com.meditation.live",
+    "com.shc.jch",
+    "com.wellnessvault.daily",
+    "com.joinwecare.wellnesswecare",
+    "com.supradigit.clinsav",
+    "com.careclinicsoftware.careclinic",
+    "com.clinicathome.mobileapp",
     "com.tghc",
     "fellowship.senior.living",
-    "com.kj62192.app",
     "com.fitnessmobileapps.degreewellness",
+    "com.kj62192.app",
     "my.wellness.center.llc",
+    "com.smartClinic",
     "com.wimhofmethod.wellness",
-    "ca.clinicflow",
     "com.migym.com.Wellness_Ctr_Navicent_Health"
    ]
   },
   "IV therapy": {
-   "at": 1794419923.2351012,
+   "at": 1794508001.2015822,
    "ids": [
     "com.medpresso.Lonestar.ivtherapy",
     "com.vagaroba.ait",
@@ -15386,69 +15712,57 @@
     "com.medpresso.Lonestar.mnlivther",
     "com.weboscy.zeniv",
     "com.zenoti.ivpros",
+    "com.zenoti.flowiv",
     "com.vsdigitalhealth.thedripbar",
     "com.hDel.easyiv_android",
-    "com.zenoti.flowiv",
+    "com.inoovi_crypto.app",
     "com.liquidmobile.lmiv.loyalty",
+    "com.nysoraiv.app",
     "com.iv.hub",
     "com.elevateivsolutions.app",
-    "com.nysoraiv.app",
     "com.ada.ivdrip",
-    "com.inoovi_crypto.app",
     "com.elrashidy.ivpocket",
     "com.medpresso.Lonestar.ivmed",
-    "ie.zappy.fennec.ivleagueinfusionserv",
-    "com.HANVITMD.IVICM",
-    "com.ivguardian.app",
-    "com.mobile.myeye.ivpro",
-    "com.hydratebar.guestapp",
     "com.mobisystems.msdict.embedded.wireless.mcgrawhill.ivdh",
-    "ivcare.infusion",
-    "de.provinzialkvhannover.fdv",
+    "com.HANVITMD.IVICM",
+    "com.mobile.myeye.ivpro",
     "com.mycasavi.ivh",
+    "com.ivguardian.app",
+    "ivcare.infusion",
+    "com.medicalapp.ivmedicine",
+    "com.mycasavi.ivp",
+    "ie.zappy.fennec.ivleagueinfusionserv",
     "com.zenoti.ivnutritionnow",
+    "gnhub.ivapp.inventory",
     "com.bioinpy.ivd_vision",
-    "com.bsport_1018__6680",
-    "com.medicalapp.ivmedicine"
+    "com.yueki.tekika"
    ]
   },
   "med spa": {
-   "at": 1794419927.7268732,
+   "at": 1794508007.3389304,
    "ids": [
     "com.zenoti.viomedspa",
     "com.zenoti.aestheticamedspa",
     "com.zenoti.medspabyalana",
-    "com.fitnessmobileapps.medspastudios16218",
-    "com.fitnessmobileapps.nouveaumedspaandsalon40252",
     "com.AmericanMedSpaAssociationLLC.ahapp",
     "com.mesospa.client",
+    "com.fitnessmobileapps.nouveaumedspaandsalon40252",
+    "com.fitnessmobileapps.medspastudios16218",
+    "com.zenoti.puremedicalspa",
+    "com.amsa.mss25",
     "divine.med.spa",
     "com.mobicept.wl.infinitymedsparewards.app",
-    "com.zenoti.puremedicalspa",
-    "com.fitnessmobileapps.as3medicalspa36440",
-    "com.fitnessmobileapps.vitalitymedspallc",
-    "com.zenoti.mespas",
     "com.zenoti.confidentmedspa",
-    "com.xanadu.med.spa",
-    "com.amsa.mss25",
-    "com.ennoview.medspasymbios",
-    "com.zenoti.elanmedspas",
-    "com.fitnessmobileapps.lespamedicalspa",
-    "com.zenoti.instinctbozeman",
-    "com.ennoview.mydashskinbemedspa",
-    "com.vagaroba.stm",
+    "com.fitnessmobileapps.as3medicalspa36440",
     "com.mobicept.wl.bellarewardtrackers.app",
-    "com.zenoti.vivaday",
-    "com.fitnessmobileapps.metamorphosismedspa",
+    "com.zenoti.mespas",
+    "com.fitnessmobileapps.vitalitymedspallc",
     "com.zenoti.modernaesthetic",
-    "io.ams.tracker",
-    "vn.miaspa",
-    "com.zenoti.serenemedspas",
-    "com.zenoti.aloraboise"
+    "vn.miaspa"
    ]
   },
   "nutrition coaching": {
-   "at": 1794419936.750717,
+   "at": 1794508008.8203351,
    "ids": [
     "de.feastr.plan",
     "com.trtle",
@@ -15456,72 +15770,73 @@
     "com.gen.workoutme",
     "com.luni.android.nutricoach.app",
     "com.myfitnesspal.android",
-    "com.food.tracker.nutrition.guide.advisor.justx",
     "com.cronometer.android.gold",
+    "com.food.tracker.nutrition.guide.advisor.justx",
     "com.healthifyme.basic",
-    "com.fitelo.android",
-    "com.Wisery.CalorieCam",
-    "com.avatarnutrition.avatarnutritionappb",
     "com.fourtechnologies.mynetdiary.ad",
+    "com.fitelo.android",
+    "com.avatarnutrition.avatarnutritionappb",
+    "com.healthystepsnutrition",
     "com.unbound.android.ubng",
     "com.nutritionbymichelle.nbm",
-    "com.healthystepsnutrition",
+    "io.everfit.wlreform",
     "com.lifebase.app",
-    "com.freeletics.nutrition",
-    "com.fbbc.avn",
-    "com.mindyards.nutritionsclub",
-    "nl.coach.nutrition",
     "com.nourishly",
     "com.myapp.shoppinglist",
+    "nl.coach.nutrition",
+    "com.freeletics.nutrition",
+    "com.mindyards.nutritionsclub",
+    "com.Wisery.CalorieCam",
     "app.nutriscan",
-    "io.everfit.wlreform",
+    "com.fbbc.avn",
+    "com.superhealthcenter.portionsmaster",
+    "com.healthlyai.app",
+    "com.calorie.tracker.meal.tracker.nutrition",
     "com.jclarkefitness.nutritionhub",
-    "com.nutritioncoachai",
-    "com.bitree.nutritions",
-    "com.nutrimode"
+    "com.clearcals.hint"
    ]
   },
   "chronic care": {
-   "at": 1794419944.2219543,
+   "at": 1794508014.7779386,
    "ids": [
     "io.chronicare.ChroniCare",
     "com.dischargeiq.feedbackiq",
     "chronic.illness.tracker",
-    "com.junochat.app",
     "com.cctinstavisit.chroniccare.release",
     "com.chronicinsights",
     "com.miphr",
-    "com.amchealth.byod",
-    "com.careclinicsoftware.careclinic",
-    "com.trynervana.app",
     "com.thechronic.app",
-    "com.comemberapp",
-    "com.sharecare.realgreen",
-    "com.carrumhealth.patientapp",
     "chronic.illness.journey",
-    "org.chronicfriends.app",
+    "chat.homehealth4u.app",
     "com.frankcalise.balance",
-    "com.carelinx",
-    "com.healthcomp.mycare",
+    "org.chronicfriends.app",
+    "com.careclinicsoftware.careclinic",
+    "com.medpharm.imscare",
     "com.hifinite.chronic",
-    "com.carefirst.wellframe",
-    "accord.co.ke.accord_app",
-    "com.app.betterUCare",
-    "health.orbit.neptune.care.app",
-    "cary.ai",
-    "com.carbonhealth.patient.prod",
+    "care.chronica.chronic",
+    "com.carelinx",
+    "com.app.cruzens",
+    "com.mcttechnology.careconnect",
+    "com.careconnectmobile.android",
+    "com.estoyaquicl.app",
+    "com.austinhunter.crohnsFoodTracker",
     "com.learn.diamaster",
-    "com.careatc.patientportal",
-    "md.timely.member",
-    "org.mantracare.mantra.app"
+    "com.thecarecompany.care",
+    "org.circlesofcare.myportal",
+    "com.qurocare.qurocareapp",
+    "com.neni.app.care",
+    "com.brighthorizons.backupcare",
+    "com.higgsboson.health.mms",
+    "com.curablehealth.clara",
+    "com.clearcare.clearcareconnect"
    ]
   },
   "remote patient monitoring": {
-   "at": 1794419972.7634206,
+   "at": 1794508020.7037053,
    "ids": []
   },
   "mental health therapy": {
-   "at": 1794419974.2250764,
+   "at": 1794508022.2965145,
    "ids": [
     "com.theinnerhour.b2b",
     "com.talkspace.talkspaceapp",
@@ -15531,9 +15846,13 @@
     "com.sevencupsoftea.app",
     "com.gen.bettermeditation",
     "com.tanosapps.meditanos",
-    "com.getsomeheadspace.android",
     "com.mypossibleself.app",
-    "com.calm.android"
+    "com.getsomeheadspace.android",
+    "xyz.slingshot.ashley.app",
+    "com.mentallabs.mentalhealth",
+    "com.calm.android",
+    "com.mindsync.app",
+    "com.cbt.mindhealthy"
    ]
   }
  }

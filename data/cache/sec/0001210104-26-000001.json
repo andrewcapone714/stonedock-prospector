@@ -1,0 +1,54 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/1210104/000121010426000001/",
+ "entity": "SURGICARE OF LA VETA LTD",
+ "entity_type": "Limited Partnership",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "432000",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "N/A Beach Surgical Holdings III, LLC",
+   "roles": [
+    "Promoter",
+    "General Partner of Issuer"
+   ]
+  },
+  {
+   "name": "Melissa Roguly",
+   "roles": [
+    "Director",
+    "Manager of Issuer's General Partner"
+   ]
+  },
+  {
+   "name": "Annamarie Jones",
+   "roles": [
+    "Director",
+    "Manager of Issuer's General Partner"
+   ]
+  },
+  {
+   "name": "Oren Shill",
+   "roles": [
+    "Director",
+    "Manager of Issuer's General Partner"
+   ]
+  },
+  {
+   "name": "Natalija Koreka",
+   "roles": [
+    "Director",
+    "Manager of Issuer's General Partner"
+   ]
+  },
+  {
+   "name": "Megan Hetherington",
+   "roles": [
+    "Director",
+    "Manager of Issuer's General Partner"
+   ]
+  }
+ ]
+}
