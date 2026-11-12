@@ -4,9 +4,8 @@
  "npi_last": 1794445309.666872,
  "medicare_last": 1793079259.8991861,
  "last_errors": {
-  "at": 1794508125.1190639,
+  "at": 1794526965.532033,
   "errors": [
-   "SEC: care: HTTP Error 500: Internal Server Error",
    "Providers: HTTP Error 403: Forbidden"
   ]
  }
