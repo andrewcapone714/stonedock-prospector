@@ -1,0 +1,26 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2163933/000216393326000001/",
+ "entity": "Imagen Flores Dental Support Services, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2026",
+ "industry": "Other Health Care",
+ "offering_total": "848788",
+ "amount_sold": "848788",
+ "first_sale": "2026-11-02",
+ "people": [
+  {
+   "name": "Rezwan Manji",
+   "roles": [
+    "Executive Officer",
+    "Rezwan Manji is an executive officer of Imagen Flores Dental Support Services, LLC and Imagen Dental Partners, LLC."
+   ]
+  },
+  {
+   "name": "David Diekmann",
+   "roles": [
+    "Executive Officer",
+    "David Diekmann is an executive officer of Imagen Flores Dental Support Services, LLC and Imagen Dental Partners, LLC."
+   ]
+  }
+ ]
+}

@@ -1,6 +1,51 @@
 {
  "funded": [
   {
+   "id": "sec-2163941",
+   "kind": "funded",
+   "company": "Imagen R&R Dental Care Support Services, LLC",
+   "cik": "0002163941",
+   "adsh": "0002163941-26-000001",
+   "file_date": "2026-11-13",
+   "location": "Scottsdale, AZ, Scottsdale, AZ",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002163941&type=D",
+   "year_of_inc": "2026",
+   "industry": "Other Health Care",
+   "entity_type": "Limited Liability Company",
+   "amount_sold": "1001322",
+   "offering_total": "1001322",
+   "first_sale": "2026-11-02",
+   "people": [
+    {
+     "name": "Rezwan Manji",
+     "roles": [
+      "Executive Officer",
+      "Rezwan Manji is an executive officer of Imagen R&R Dental Care Support Services, LLC and Imagen Dental Partners, LLC."
+     ]
+    },
+    {
+     "name": "David Diekmann",
+     "roles": [
+      "Executive Officer",
+      "David Diekmann is an executive officer of Imagen R&R Dental Care Support Services, LLC and Imagen Dental Partners, LLC."
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2163941/000216394126000001/",
+   "score": 100,
+   "why": [
+    "+30 incorporated in 2026",
+    "+25 industry: Other Health Care",
+    "+20 raised $1,001,322 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 0 days ago",
+    "+10 name points to a health or care business"
+   ]
+  },
+  {
    "id": "sec-2164767",
    "kind": "funded",
    "company": "Care Nimble, Inc.",
@@ -598,7 +643,6 @@
    "file_date": "2026-07-29",
    "location": "Los Angeles, CA",
    "terms": [
-    "health",
     "medical",
     "care"
    ],
@@ -702,6 +746,51 @@
     "+20 raised $250,000 (seed or Series A-sized raise: has budget, still building)",
     "+10 filed 115 days ago",
     "+10 name points to a health or care business"
+   ]
+  },
+  {
+   "id": "sec-2163933",
+   "kind": "funded",
+   "company": "Imagen Flores Dental Support Services, LLC",
+   "cik": "0002163933",
+   "adsh": "0002163933-26-000001",
+   "file_date": "2026-11-13",
+   "location": "Scottsdale, AZ, Scottsdale, AZ",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002163933&type=D",
+   "year_of_inc": "2026",
+   "industry": "Other Health Care",
+   "entity_type": "Limited Liability Company",
+   "amount_sold": "848788",
+   "offering_total": "848788",
+   "first_sale": "2026-11-02",
+   "people": [
+    {
+     "name": "Rezwan Manji",
+     "roles": [
+      "Executive Officer",
+      "Rezwan Manji is an executive officer of Imagen Flores Dental Support Services, LLC and Imagen Dental Partners, LLC."
+     ]
+    },
+    {
+     "name": "David Diekmann",
+     "roles": [
+      "Executive Officer",
+      "David Diekmann is an executive officer of Imagen Flores Dental Support Services, LLC and Imagen Dental Partners, LLC."
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2163933/000216393326000001/",
+   "score": 90,
+   "why": [
+    "+30 incorporated in 2026",
+    "+25 industry: Other Health Care",
+    "+20 raised $848,788 (seed or Series A-sized raise: has budget, still building)",
+    "+15 filed 0 days ago",
+    "+0 name doesn't say health"
    ]
   },
   {
@@ -6450,44 +6539,6 @@
    ]
   },
   {
-   "id": "sec-2025735",
-   "kind": "funded",
-   "company": "Aspicio Therapeutics, Inc.",
-   "cik": "0002025735",
-   "adsh": "0002025735-26-000001",
-   "file_date": "2026-07-17",
-   "location": "Downingtown, PA",
-   "terms": [
-    "health",
-    "care"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002025735&type=D",
-   "year_of_inc": "2024",
-   "industry": "Other Health Care",
-   "entity_type": "Corporation",
-   "amount_sold": "200000",
-   "offering_total": "200000",
-   "first_sale": "2026-07-16",
-   "people": [
-    {
-     "name": "Michael Keane",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2025735/000202573526000001/",
-   "score": 73,
-   "why": [
-    "+20 incorporated in 2024",
-    "+25 industry: Other Health Care",
-    "+8 raised $200,000 (small raise)",
-    "+10 filed 119 days ago",
-    "+10 name points to a health or care business"
-   ]
-  },
-  {
    "id": "sec-2135611",
    "kind": "funded",
    "company": "PIM Medical Receivables Portfolio LLC",
@@ -8555,6 +8606,52 @@
    ]
   },
   {
+   "id": "sec-2160669",
+   "kind": "funded",
+   "company": "Mobile Hydration LLC",
+   "cik": "0002160669",
+   "adsh": "0002160669-26-000001",
+   "file_date": "2026-11-13",
+   "location": "Lakewood, CO",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002160669&type=D",
+   "year_of_inc": "2023",
+   "industry": "Other Health Care",
+   "entity_type": "Limited Liability Company",
+   "amount_sold": "100000",
+   "offering_total": "100000",
+   "first_sale": "2026-11-02",
+   "people": [
+    {
+     "name": "Aaron Campbell",
+     "roles": [
+      "Executive Officer",
+      "Director",
+      "Sole Manager and Chief Executive Officer"
+     ]
+    },
+    {
+     "name": "Kyle Pruett",
+     "roles": [
+      "Executive Officer",
+      "Chief Nursing Officer"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2160669/000216066926000001/",
+   "score": 63,
+   "why": [
+    "+15 incorporated in 2023",
+    "+25 industry: Other Health Care",
+    "+8 raised $100,000 (small raise)",
+    "+15 filed 0 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
    "id": "sec-2160224",
    "kind": "funded",
    "company": "Helande Innovations, Inc.",
@@ -8731,87 +8828,6 @@
     "+8 raised $95,000 (small raise)",
     "+10 filed 109 days ago",
     "+0 name doesn't say health"
-   ]
-  },
-  {
-   "id": "sec-2145151",
-   "kind": "funded",
-   "company": "Rolari Nutrition Inc.",
-   "cik": "0002145151",
-   "adsh": "0002145151-26-000001",
-   "file_date": "2026-07-20",
-   "location": "Tampa, FL",
-   "terms": [
-    "nutrition"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002145151&type=D",
-   "year_of_inc": "2025",
-   "industry": "Other",
-   "entity_type": "Corporation",
-   "amount_sold": "165000",
-   "offering_total": "665000",
-   "first_sale": "2025-03-14",
-   "people": [
-    {
-     "name": "Christopher Thompson",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2145151/000214515126000001/",
-   "score": 62,
-   "why": [
-    "+26 incorporated in 2025",
-    "+8 industry: Other",
-    "+8 raised $165,000 (small raise)",
-    "+10 filed 116 days ago",
-    "+10 name points to a health or care business"
-   ]
-  },
-  {
-   "id": "sec-2146449",
-   "kind": "funded",
-   "company": "Military Performance Nutrition Inc",
-   "cik": "0002146449",
-   "adsh": "0002146449-26-000001",
-   "file_date": "2026-07-20",
-   "location": "Middleburg, VA",
-   "terms": [
-    "nutrition"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146449&type=D",
-   "year_of_inc": "2025",
-   "industry": "Other",
-   "entity_type": "Corporation",
-   "amount_sold": "125000",
-   "offering_total": "Indefinite",
-   "first_sale": "2026-07-04",
-   "people": [
-    {
-     "name": "Aleco Bravo",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    },
-    {
-     "name": "Christian D'Andrea",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2146449/000214644926000001/",
-   "score": 62,
-   "why": [
-    "+26 incorporated in 2025",
-    "+8 industry: Other",
-    "+8 raised $125,000 (small raise)",
-    "+10 filed 116 days ago",
-    "+10 name points to a health or care business"
    ]
   },
   {
@@ -10358,5 +10374,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1794552948.906321
+ "updated": 1794587579.219824
 }

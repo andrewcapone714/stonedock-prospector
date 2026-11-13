@@ -1,0 +1,27 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2160669/000216066926000001/",
+ "entity": "Mobile Hydration LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "2023",
+ "industry": "Other Health Care",
+ "offering_total": "100000",
+ "amount_sold": "100000",
+ "first_sale": "2026-11-02",
+ "people": [
+  {
+   "name": "Aaron Campbell",
+   "roles": [
+    "Executive Officer",
+    "Director",
+    "Sole Manager and Chief Executive Officer"
+   ]
+  },
+  {
+   "name": "Kyle Pruett",
+   "roles": [
+    "Executive Officer",
+    "Chief Nursing Officer"
+   ]
+  }
+ ]
+}
