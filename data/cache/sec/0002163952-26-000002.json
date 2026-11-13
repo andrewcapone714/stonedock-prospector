@@ -1,0 +1,36 @@
+{
+ "filing_url": "https://www.sec.gov/Archives/edgar/data/2163952/000216395226000002/",
+ "entity": "Endoscopy Center at Saint Mary Management, LLC",
+ "entity_type": "Limited Liability Company",
+ "year_of_inc": "over 5 yrs before filing",
+ "industry": "Other Health Care",
+ "offering_total": "2212",
+ "amount_sold": "0",
+ "first_sale": "",
+ "people": [
+  {
+   "name": "Mike Magro",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Anne-Marie Marcoux",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Toni Ryan",
+   "roles": [
+    "Director"
+   ]
+  },
+  {
+   "name": "Robert Puglisi",
+   "roles": [
+    "Director"
+   ]
+  }
+ ]
+}
