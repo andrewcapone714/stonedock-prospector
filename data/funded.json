@@ -216,9 +216,7 @@
    "file_date": "2026-10-08",
    "location": "New York, NY",
    "terms": [
-    "health",
-    "care",
-    "clinic"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002159134&type=D",
    "year_of_inc": "2026",
@@ -305,8 +303,7 @@
    "location": "Ponte Vedra, FL",
    "terms": [
     "health",
-    "medical",
-    "care"
+    "medical"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002157443&type=D",
    "year_of_inc": "2025",
@@ -434,8 +431,7 @@
    "file_date": "2026-09-11",
    "location": "Lewes, DE",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002149298&type=D",
    "year_of_inc": "2026",
@@ -477,8 +473,7 @@
    "file_date": "2026-08-28",
    "location": "Annapolis, MD",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151959&type=D",
    "year_of_inc": "2026",
@@ -643,8 +638,8 @@
    "file_date": "2026-07-29",
    "location": "Los Angeles, CA",
    "terms": [
-    "medical",
-    "care"
+    "health",
+    "medical"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002147890&type=D",
    "year_of_inc": "2025",
@@ -711,8 +706,7 @@
    "file_date": "2026-07-21",
    "location": "Dallas, TX",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107143&type=D",
    "year_of_inc": "2025",
@@ -757,8 +751,7 @@
    "file_date": "2026-11-13",
    "location": "Scottsdale, AZ, Scottsdale, AZ",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002163933&type=D",
    "year_of_inc": "2026",
@@ -840,8 +833,7 @@
    "file_date": "2026-11-04",
    "location": "Westlake, OH",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002162517&type=D",
    "year_of_inc": "2026",
@@ -1034,8 +1026,7 @@
    "file_date": "2026-10-19",
    "location": "Wilmington, DE",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002115414&type=D",
    "year_of_inc": "2026",
@@ -1527,8 +1518,7 @@
    "file_date": "2026-10-26",
    "location": "Denver, CO",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002160103&type=D",
    "year_of_inc": "2025",
@@ -1566,8 +1556,7 @@
    "file_date": "2026-10-21",
    "location": "Nashville, TN",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158873&type=D",
    "year_of_inc": "2025",
@@ -1640,8 +1629,7 @@
    "file_date": "2026-10-02",
    "location": "Logan, UT",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158363&type=D",
    "year_of_inc": "2025",
@@ -1700,8 +1688,7 @@
    "file_date": "2026-10-01",
    "location": "Sandy, UT",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002157034&type=D",
    "year_of_inc": "2025",
@@ -1745,8 +1732,7 @@
    "file_date": "2026-10-01",
    "location": "New York, NY",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002099941&type=D",
    "year_of_inc": "2025",
@@ -2075,8 +2061,7 @@
    "file_date": "2026-09-28",
    "location": "Palo Alto, CA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002156162&type=D",
    "year_of_inc": "2026",
@@ -2150,8 +2135,7 @@
    "file_date": "2026-09-21",
    "location": "Fairhope, AL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002156291&type=D",
    "year_of_inc": "2026",
@@ -2189,8 +2173,7 @@
    "file_date": "2026-09-17",
    "location": "Chicago, IL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002155851&type=D",
    "year_of_inc": "2026",
@@ -2277,8 +2260,7 @@
    "file_date": "2026-09-10",
    "location": "Aberdeen, SD",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002154495&type=D",
    "year_of_inc": "2026",
@@ -2370,8 +2352,7 @@
    "file_date": "2026-09-01",
    "location": "Scottsdale, AZ, Scottsdale, AZ",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002153149&type=D",
    "year_of_inc": "2026",
@@ -2415,8 +2396,7 @@
    "file_date": "2026-08-24",
    "location": "Scottsdale, AZ, Scottsdale, AZ",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151533&type=D",
    "year_of_inc": "2026",
@@ -2460,8 +2440,7 @@
    "file_date": "2026-08-20",
    "location": "Port Huron, MI",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002032374&type=D",
    "year_of_inc": "2024",
@@ -2517,8 +2496,7 @@
    "file_date": "2026-08-20",
    "location": "Dallas, TX",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134637&type=D",
    "year_of_inc": "2026",
@@ -2621,8 +2599,7 @@
    "file_date": "2026-08-04",
    "location": "Scottsdale, AZ, Scottsdale, AZ",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148588&type=D",
    "year_of_inc": "2026",
@@ -2666,8 +2643,7 @@
    "file_date": "2026-07-29",
    "location": "Wayzata, MN",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002147095&type=D",
    "year_of_inc": "2026",
@@ -2782,8 +2758,7 @@
    "file_date": "2026-07-24",
    "location": "New York, NY",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002147281&type=D",
    "year_of_inc": "2026",
@@ -2893,8 +2868,7 @@
    "file_date": "2026-07-23",
    "location": "Englewood, CO",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002108655&type=D",
    "year_of_inc": "2026",
@@ -2940,6 +2914,44 @@
     "+25 industry: Other Health Care",
     "+20 raised $1,250,000 (seed or Series A-sized raise: has budget, still building)",
     "+10 filed 113 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
+   "id": "sec-2142709",
+   "kind": "funded",
+   "company": "Mycelia Movement, LLC",
+   "cik": "0002142709",
+   "adsh": "0002142709-26-000001",
+   "file_date": "2026-07-16",
+   "location": "Evergreen, CO",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002142709&type=D",
+   "year_of_inc": "2026",
+   "industry": "Other Health Care",
+   "entity_type": "Limited Liability Company",
+   "amount_sold": "300000",
+   "offering_total": "13000000",
+   "first_sale": "2026-07-04",
+   "people": [
+    {
+     "name": "Nicholas Vitulli",
+     "roles": [
+      "Executive Officer",
+      "Manager"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2142709/000214270926000001/",
+   "score": 85,
+   "why": [
+    "+30 incorporated in 2026",
+    "+25 industry: Other Health Care",
+    "+20 raised $300,000 (seed or Series A-sized raise: has budget, still building)",
+    "+10 filed 120 days ago",
     "+0 name doesn't say health"
    ]
   },
@@ -3132,8 +3144,7 @@
    "file_date": "2026-09-16",
    "location": "Birmingham, AL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002154244&type=D",
    "year_of_inc": "2026",
@@ -3213,8 +3224,7 @@
    "location": "New York, NY",
    "terms": [
     "health",
-    "medical",
-    "care"
+    "medical"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151165&type=D",
    "year_of_inc": "2026",
@@ -3517,8 +3527,7 @@
    "file_date": "2026-09-15",
    "location": "Whitefish, MT",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002155192&type=D",
    "year_of_inc": "2025",
@@ -3651,8 +3660,7 @@
    "file_date": "2026-08-07",
    "location": "Columbus, OH",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002147140&type=D",
    "year_of_inc": "2025",
@@ -3794,8 +3802,7 @@
    "file_date": "2026-07-20",
    "location": "Sandy Springs, GA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002145719&type=D",
    "year_of_inc": "2025",
@@ -3952,8 +3959,7 @@
    "file_date": "2026-10-28",
    "location": "Westlake, OH",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002141283&type=D",
    "year_of_inc": "2024",
@@ -4051,8 +4057,7 @@
    "location": "Marietta, GA",
    "terms": [
     "health",
-    "medical",
-    "care"
+    "medical"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001872429&type=D",
    "year_of_inc": "2021",
@@ -4122,8 +4127,7 @@
    "file_date": "2026-10-20",
    "location": "Cambridge, MA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002042126&type=D",
    "year_of_inc": "2024",
@@ -4166,8 +4170,7 @@
    "file_date": "2026-10-19",
    "location": "Nashville, TN",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002050017&type=D",
    "year_of_inc": "2024",
@@ -4255,8 +4258,7 @@
    "file_date": "2026-10-16",
    "location": "Oakland, CA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002160275&type=D",
    "year_of_inc": "2024",
@@ -4306,8 +4308,7 @@
    "file_date": "2026-10-07",
    "location": "Atlanta, GA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002158872&type=D",
    "year_of_inc": "2024",
@@ -4407,8 +4408,7 @@
    "file_date": "2026-10-01",
    "location": "Encinitas, CA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130889&type=D",
    "year_of_inc": "2024",
@@ -4477,8 +4477,7 @@
    "file_date": "2026-09-29",
    "location": "Coolidge, AZ",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002097935&type=D",
    "year_of_inc": "2024",
@@ -4574,8 +4573,7 @@
    "file_date": "2026-09-10",
    "location": "Weston, FL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002052886&type=D",
    "year_of_inc": "2023",
@@ -4619,8 +4617,7 @@
    "location": "Galway",
    "terms": [
     "health",
-    "medical",
-    "care"
+    "medical"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148805&type=D",
    "year_of_inc": "2023",
@@ -4798,8 +4795,7 @@
    "file_date": "2026-08-24",
    "location": "Sheridan, WY",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002151262&type=D",
    "year_of_inc": "2025",
@@ -4881,8 +4877,7 @@
    "file_date": "2026-07-23",
    "location": "Miami, FL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146957&type=D",
    "year_of_inc": "2025",
@@ -4919,8 +4914,7 @@
    "file_date": "2026-11-06",
    "location": "Dover, DE",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002164160&type=D",
    "year_of_inc": "2026",
@@ -5010,8 +5004,7 @@
    "file_date": "2026-10-13",
    "location": "New York City, NY",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002159575&type=D",
    "year_of_inc": "2026",
@@ -5220,8 +5213,7 @@
    "file_date": "2026-11-12",
    "location": "Dennis, MA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002081754&type=D",
    "year_of_inc": "2023",
@@ -5361,8 +5353,7 @@
    "file_date": "2026-10-28",
    "location": "Lewes, DE",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002161717&type=D",
    "year_of_inc": "2026",
@@ -5436,8 +5427,7 @@
    "file_date": "2026-09-30",
    "location": "King of Prussia, PA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002157689&type=D",
    "year_of_inc": "2026",
@@ -5500,8 +5490,7 @@
    "file_date": "2026-09-08",
    "location": "Miami, FL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002042705&type=D",
    "year_of_inc": "2024",
@@ -5563,8 +5552,7 @@
    "file_date": "2026-08-27",
    "location": "Boca Raton, FL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150609&type=D",
    "year_of_inc": "2024",
@@ -5615,8 +5603,7 @@
    "location": "Daniel Island, SC",
    "terms": [
     "health",
-    "medical",
-    "care"
+    "medical"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150554&type=D",
    "year_of_inc": "2022",
@@ -5762,8 +5749,7 @@
    "file_date": "2026-08-10",
    "location": "Boston, MA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002044572&type=D",
    "year_of_inc": "2022",
@@ -5812,8 +5798,7 @@
    "file_date": "2026-08-05",
    "location": "Vancouver, A1",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002040850&type=D",
    "year_of_inc": "2021",
@@ -5950,8 +5935,7 @@
    "file_date": "2026-07-24",
    "location": "Stamford, CT",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001708436&type=D",
    "year_of_inc": "2024",
@@ -6049,49 +6033,6 @@
     "+8 raised $230,000 (small raise)",
     "+15 filed 21 days ago",
     "+0 name doesn't say health"
-   ]
-  },
-  {
-   "id": "sec-2150938",
-   "kind": "funded",
-   "company": "Premium Nutrition for Pets, Inc.",
-   "cik": "0002150938",
-   "adsh": "0002150938-26-000001",
-   "file_date": "2026-08-19",
-   "location": "Portland, ME",
-   "terms": [
-    "nutrition"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150938&type=D",
-   "year_of_inc": "2025",
-   "industry": "Other",
-   "entity_type": "Corporation",
-   "amount_sold": "999991",
-   "offering_total": "1499998",
-   "first_sale": "2026-08-04",
-   "people": [
-    {
-     "name": "Robert Quirk",
-     "roles": [
-      "Executive Officer",
-      "Director"
-     ]
-    },
-    {
-     "name": "Michael Salguero",
-     "roles": [
-      "Director"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2150938/000215093826000001/",
-   "score": 74,
-   "why": [
-    "+26 incorporated in 2025",
-    "+8 industry: Other",
-    "+20 raised $999,991 (seed or Series A-sized raise: has budget, still building)",
-    "+10 filed 86 days ago",
-    "+10 name points to a health or care business"
    ]
   },
   {
@@ -6370,8 +6311,7 @@
    "file_date": "2026-09-10",
    "location": "Cottage Grove, WI",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002154604&type=D",
    "year_of_inc": "2026",
@@ -6539,6 +6479,128 @@
    ]
   },
   {
+   "id": "sec-2025735",
+   "kind": "funded",
+   "company": "Aspicio Therapeutics, Inc.",
+   "cik": "0002025735",
+   "adsh": "0002025735-26-000001",
+   "file_date": "2026-07-17",
+   "location": "Downingtown, PA",
+   "terms": [
+    "health",
+    "care"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002025735&type=D",
+   "year_of_inc": "2024",
+   "industry": "Other Health Care",
+   "entity_type": "Corporation",
+   "amount_sold": "200000",
+   "offering_total": "200000",
+   "first_sale": "2026-07-16",
+   "people": [
+    {
+     "name": "Michael Keane",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2025735/000202573526000001/",
+   "score": 73,
+   "why": [
+    "+20 incorporated in 2024",
+    "+25 industry: Other Health Care",
+    "+8 raised $200,000 (small raise)",
+    "+10 filed 119 days ago",
+    "+10 name points to a health or care business"
+   ]
+  },
+  {
+   "id": "sec-2146097",
+   "kind": "funded",
+   "company": "Y-Axis Group, LLC",
+   "cik": "0002146097",
+   "adsh": "0002146097-26-000001",
+   "file_date": "2026-07-17",
+   "location": "Cottage Grove, WI",
+   "terms": [
+    "health"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002146097&type=D",
+   "year_of_inc": "2026",
+   "industry": "Other Health Care",
+   "entity_type": "Limited Liability Company",
+   "amount_sold": "50000",
+   "offering_total": "50000",
+   "first_sale": "",
+   "people": [
+    {
+     "name": "Lisa Arington",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Gregory Glesinger",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Jennifer Robinson",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Maureen Kenney",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Jessica Filipkowski",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Rick Lonigro",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "William Cofer",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Paul Zahn",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Scott Pinnow",
+     "roles": [
+      "Director"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2146097/000214609726000001/",
+   "score": 73,
+   "why": [
+    "+30 incorporated in 2026",
+    "+25 industry: Other Health Care",
+    "+8 raised $50,000 (small raise)",
+    "+10 filed 119 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
    "id": "sec-2135611",
    "kind": "funded",
    "company": "PIM Medical Receivables Portfolio LLC",
@@ -6587,6 +6649,79 @@
     "+8 raised $150,000 (small raise)",
     "+15 filed 25 days ago",
     "+10 name points to a health or care business"
+   ]
+  },
+  {
+   "id": "sec-2145246",
+   "kind": "funded",
+   "company": "Baylor Genetics Holdings, Inc.",
+   "cik": "0002145246",
+   "adsh": "0001231919-26-000766",
+   "file_date": "2026-07-16",
+   "location": "Houston, TX",
+   "terms": [
+    "health"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002145246&type=D",
+   "year_of_inc": "2025",
+   "industry": "Other Health Care",
+   "entity_type": "Corporation",
+   "amount_sold": "49999986",
+   "offering_total": "99999993",
+   "first_sale": "2026-07-01",
+   "people": [
+    {
+     "name": "Kengo Takishima",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Brendan Lee",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Victor Tong",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Xiangmin Cui",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Goki Ishikawa",
+     "roles": [
+      "Director"
+     ]
+    },
+    {
+     "name": "Joel Kaufman",
+     "roles": [
+      "Executive Officer"
+     ]
+    },
+    {
+     "name": "David Berger",
+     "roles": [
+      "Executive Officer"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2145246/000123191926000766/",
+   "score": 71,
+   "why": [
+    "+26 incorporated in 2025",
+    "+25 industry: Other Health Care",
+    "+10 raised $49,999,986 (large raise; may build in-house)",
+    "+10 filed 120 days ago",
+    "+0 name doesn't say health"
    ]
   },
   {
@@ -6648,8 +6783,7 @@
    "file_date": "2026-10-02",
    "location": "Marina Del Rey, CA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002155774&type=D",
    "year_of_inc": "2021",
@@ -6693,8 +6827,7 @@
    "file_date": "2026-09-15",
    "location": "Carlsbad, CA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002027716&type=D",
    "year_of_inc": "2023",
@@ -6758,8 +6891,7 @@
    "file_date": "2026-09-08",
    "location": "Tampa, FL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002152510&type=D",
    "year_of_inc": "2026",
@@ -7124,8 +7256,7 @@
    "file_date": "2026-09-04",
    "location": "Wilmington, DE",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002153582&type=D",
    "year_of_inc": "2025",
@@ -7349,8 +7480,7 @@
    "file_date": "2026-11-12",
    "location": "Piedmont, SC",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002164745&type=D",
    "year_of_inc": "2024",
@@ -7467,8 +7597,7 @@
    "location": "Dover, DE",
    "terms": [
     "health",
-    "medical",
-    "care"
+    "medical"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002085068&type=D",
    "year_of_inc": "2024",
@@ -7925,50 +8054,6 @@
    ]
   },
   {
-   "id": "sec-2148097",
-   "kind": "funded",
-   "company": "Forza Nutrition, Inc.",
-   "cik": "0002148097",
-   "adsh": "0002148097-26-000001",
-   "file_date": "2026-08-12",
-   "location": "Powell, OH",
-   "terms": [
-    "nutrition"
-   ],
-   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002148097&type=D",
-   "year_of_inc": "2026",
-   "industry": "Other",
-   "entity_type": "Corporation",
-   "amount_sold": "135000",
-   "offering_total": "250000",
-   "first_sale": "2026-07-29",
-   "people": [
-    {
-     "name": "John Phillips",
-     "roles": [
-      "Executive Officer",
-      "President"
-     ]
-    },
-    {
-     "name": "Carolyn Phillips",
-     "roles": [
-      "Executive Officer",
-      "Secretary and Treasurer"
-     ]
-    }
-   ],
-   "filing_url": "https://www.sec.gov/Archives/edgar/data/2148097/000214809726000001/",
-   "score": 66,
-   "why": [
-    "+30 incorporated in 2026",
-    "+8 industry: Other",
-    "+8 raised $135,000 (small raise)",
-    "+10 filed 93 days ago",
-    "+10 name points to a health or care business"
-   ]
-  },
-  {
    "id": "sec-2146753",
    "kind": "funded",
    "company": "VIN-59 Enhance Health, LLC",
@@ -8020,8 +8105,7 @@
    "location": "Palo Alto, CA",
    "terms": [
     "health",
-    "medical",
-    "care"
+    "medical"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002156252&type=D",
    "year_of_inc": "2021",
@@ -8167,8 +8251,7 @@
    "file_date": "2026-08-20",
    "location": "Norwalk, CT",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002150378&type=D",
    "year_of_inc": "2022",
@@ -8318,8 +8401,7 @@
    "file_date": "2026-07-29",
    "location": "Chicago, IL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001955339&type=D",
    "year_of_inc": "2022",
@@ -8507,6 +8589,61 @@
    ]
   },
   {
+   "id": "sec-2087423",
+   "kind": "funded",
+   "company": "Siloam Vision, Inc.",
+   "cik": "0002087423",
+   "adsh": "0002087423-26-000002",
+   "file_date": "2026-07-17",
+   "location": "Portland, OR",
+   "terms": [
+    "health"
+   ],
+   "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002087423&type=D",
+   "year_of_inc": "2021",
+   "industry": "Other Health Care",
+   "entity_type": "Corporation",
+   "amount_sold": "1240000",
+   "offering_total": "1240000",
+   "first_sale": "2026-01-26",
+   "people": [
+    {
+     "name": "John Campbell",
+     "roles": [
+      "Executive Officer",
+      "Director"
+     ]
+    },
+    {
+     "name": "Karyn Jonas",
+     "roles": [
+      "Executive Officer"
+     ]
+    },
+    {
+     "name": "Tong Sun",
+     "roles": [
+      "Executive Officer"
+     ]
+    },
+    {
+     "name": "Robison Vernon Paul Chan",
+     "roles": [
+      "Executive Officer"
+     ]
+    }
+   ],
+   "filing_url": "https://www.sec.gov/Archives/edgar/data/2087423/000208742326000002/",
+   "score": 65,
+   "why": [
+    "+10 incorporated in 2021",
+    "+25 industry: Other Health Care",
+    "+20 raised $1,240,000 (seed or Series A-sized raise: has budget, still building)",
+    "+10 filed 119 days ago",
+    "+0 name doesn't say health"
+   ]
+  },
+  {
    "id": "sec-2151432",
    "kind": "funded",
    "company": "Parasol Med Tech, Inc.",
@@ -8614,8 +8751,7 @@
    "file_date": "2026-11-13",
    "location": "Lakewood, CO",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002160669&type=D",
    "year_of_inc": "2023",
@@ -8698,8 +8834,7 @@
    "file_date": "2026-08-31",
    "location": "Richmond, VA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002152165&type=D",
    "year_of_inc": "2022",
@@ -8752,8 +8887,7 @@
    "file_date": "2026-08-03",
    "location": "Coon Rapids, MN",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002147822&type=D",
    "year_of_inc": "2022",
@@ -8988,8 +9122,7 @@
    "file_date": "2026-09-17",
    "location": "Greenwood Village, CO",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002047221&type=D",
    "year_of_inc": "2024",
@@ -9281,8 +9414,7 @@
    "file_date": "2026-09-16",
    "location": "San Antonio, TX",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001998501&type=D",
    "year_of_inc": "2023",
@@ -9481,8 +9613,7 @@
    "file_date": "2026-10-22",
    "location": "Charleston, SC",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001952070&type=D",
    "year_of_inc": "2021",
@@ -9623,8 +9754,7 @@
    "file_date": "2026-07-23",
    "location": "Birmingham, AL",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002008030&type=D",
    "year_of_inc": "2023",
@@ -9811,8 +9941,7 @@
    "file_date": "2026-09-24",
    "location": "Malvern, PA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001888204&type=D",
    "year_of_inc": "2021",
@@ -9876,8 +10005,7 @@
    "file_date": "2026-08-18",
    "location": "San Diego, CA",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002072119&type=D",
    "year_of_inc": "2022",
@@ -9933,8 +10061,7 @@
    "file_date": "2026-08-10",
    "location": "Georgetown, TX",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002002321&type=D",
    "year_of_inc": "2021",
@@ -10200,8 +10327,7 @@
    "file_date": "2026-08-14",
    "location": "Pearland, TX",
    "terms": [
-    "health",
-    "care"
+    "health"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002068815&type=D",
    "year_of_inc": "2022",
@@ -10374,5 +10500,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1794587579.219824
+ "updated": 1794613345.2919686
 }
