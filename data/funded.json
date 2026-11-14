@@ -5856,7 +5856,8 @@
    "file_date": "2026-07-29",
    "location": "Chicago, IL",
    "terms": [
-    "health"
+    "health",
+    "care"
    ],
    "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002086550&type=D",
    "year_of_inc": "2024",
@@ -10375,5 +10376,5 @@
   "nutrition",
   "med"
  ],
- "updated": 1794638349.1189325
+ "updated": 1794669156.2466023
 }
