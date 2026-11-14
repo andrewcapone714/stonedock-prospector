@@ -9238,7 +9238,7 @@
    "email": "mobiledev@birdirx.com",
    "dev_id": "8060121698270441230",
    "description": "The Birdi App is your friendly digital drug store.",
-   "at": 1794016824.6491628
+   "at": 1794638245.6348531
   },
   "com.hltcorp.ptce": {
    "id": "gp:com.hltcorp.ptce",
@@ -9246,11 +9246,11 @@
    "store": "google",
    "name": "PTCB PTCE: Pharmacy Technician",
    "rating": 4.81,
-   "count": 1406,
+   "count": 1408,
    "genre": "EDUCATION",
    "health": false,
    "released": null,
-   "updated": "2026-10-28T00:00:00Z",
+   "updated": "2026-11-10T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.hltcorp.ptce",
    "icon": "https://play-lh.googleusercontent.com/ANx-OGBrklL-n-e2HuavZuoOiZSSPnDfAa5rNr2kM0JRb__8MGx_tJBw8nxTfZbxNDD2ZWdqHvz9JzyA6ehyFSk=s0-br30",
    "developer": "Higher Learning Technologies Inc",
@@ -9258,7 +9258,7 @@
    "email": "medical@hltcorp.com",
    "dev_id": "6249474150815832810",
    "description": "280,000+ certified pharmacy technicians succeed with our PTCB PTCE exam prep.",
-   "at": 1794016826.3363643
+   "at": 1794638247.0974858
   },
   "com.mochihealth.mochihealth": {
    "id": "gp:com.mochihealth.mochihealth",
@@ -10686,11 +10686,11 @@
    "store": "google",
    "name": "Shop Apotheke: E-Rezept App",
    "rating": 4.62,
-   "count": 519923,
+   "count": 523189,
    "genre": "Medical",
    "health": true,
    "released": null,
-   "updated": "2026-11-05T00:00:00Z",
+   "updated": "2026-11-09T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=shop.shop_apotheke.com.shopapotheke",
    "icon": "https://play-lh.googleusercontent.com/7gtCC17ZWaEbQkPft7jSL7VqyWeaIcvs2cDmOeUw5XVldyrKr2jk2G1_jjUHHyejThykzGG7zTqrk00To-24Ng=s0-br30",
    "developer": "Shop-Apotheke B.V.",
@@ -10698,7 +10698,7 @@
    "email": "mobile@shop-apotheke.com",
    "dev_id": "5462390442937692317",
    "description": "Health App: Get medicine & beauty products delivered & scan your e-prescription",
-   "at": 1794016824.792868
+   "at": 1794638250.1051915
   },
   "com.sunsuninc.glp1tracker": {
    "id": "gp:com.sunsuninc.glp1tracker",
@@ -11245,8 +11245,8 @@
    "pkg": "com.therapyappointment.app",
    "store": "google",
    "name": "TherapyAppointment Telehealth",
-   "rating": 3.22,
-   "count": 59,
+   "rating": 3.19,
+   "count": 58,
    "genre": "COMMUNICATION",
    "health": false,
    "released": null,
@@ -11258,7 +11258,7 @@
    "email": "telehealth@therapyappointment.com",
    "dev_id": "TherapyAppointment",
    "description": "HIPAA-Compliant Video",
-   "at": 1794016814.8748584
+   "at": 1794638244.166468
   },
   "com.neevlabs.ganga": {
    "id": "gp:com.neevlabs.ganga",
@@ -11330,7 +11330,7 @@
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-10-23T00:00:00Z",
+   "updated": "2026-10-22T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.raf.pharmacy",
    "icon": "https://play-lh.googleusercontent.com/br8sgke3zlnJInxqJwLO9FYjxlajHc0Wra7-LkxlPjCnhagyzNv9ToAdml9U3XQ-esG6__5daL1LN3ooOCqHIQ=s0-br30",
    "developer": "Raf Health",
@@ -11338,7 +11338,7 @@
    "email": "info@rafhealth.com",
    "dev_id": "Raf Health",
    "description": "Raf Pharmacy is a your one-stop shop for life-improving pharmaceuticals",
-   "at": 1794016828.5875587
+   "at": 1794638248.5839262
   },
   "com.flyzipline.orderingapp": {
    "id": "gp:com.flyzipline.orderingapp",
@@ -11498,7 +11498,7 @@
    "email": "halimbox026@gmail.com",
    "dev_id": "5837434087451305153",
    "description": "Log hot flashes, sleep, mood & periods. See patterns. Private PDF doctor report.",
-   "at": 1794016838.3885705
+   "at": 1794638251.7148857
   },
   "com.createhub.TALIA": {
    "id": "gp:com.createhub.TALIA",
@@ -11525,12 +11525,12 @@
    "pkg": "com.google.android.apps.healthdata",
    "store": "google",
    "name": "Health Connect",
-   "rating": 2.67,
-   "count": 94159,
+   "rating": 2.61,
+   "count": 94670,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-10-08T00:00:00Z",
+   "updated": "2026-11-10T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata",
    "icon": "https://play-lh.googleusercontent.com/i-Hg2OdvwgRlkY5eBHERgSpEgUS8HCBxYIVtkG_wXKApMr9UvyhHnQgwF4yqtK8fFXlhH3jRxyM-CPzSKszN9g=s0-br30",
    "developer": "Google LLC",
@@ -11538,7 +11538,7 @@
    "email": "health-connect-support@google.com",
    "dev_id": "5700313618786177705",
    "description": "A simple way to share data between health, fitness, and wellbeing apps",
-   "at": 1794016842.8005333
+   "at": 1794638253.1080377
   },
   "com.studio.obe": {
    "id": "gp:com.studio.obe",
@@ -11585,12 +11585,12 @@
    "pkg": "com.femo.health",
    "store": "google",
    "name": "Femo Health: Ovulation & Cycle",
-   "rating": 4.81,
-   "count": 1613,
+   "rating": 4.82,
+   "count": 1621,
    "genre": "Health & Fitness",
    "health": true,
    "released": null,
-   "updated": "2026-05-26T00:00:00Z",
+   "updated": "2026-10-27T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.femo.health",
    "icon": "https://play-lh.googleusercontent.com/4MTfP8cvxyKTbCIa9dZ9unpbXhIUY4u5-olX-L5NoSQZXxRcXfrTdQsuKr3J1r-N-dTkra33X-s8SFaJI-NqSg=s0-br30",
    "developer": "Femometer PTE. LTD",
@@ -11598,7 +11598,7 @@
    "email": "healthfemo@gmail.com",
    "dev_id": "Femometer PTE. LTD",
    "description": "Period monitor, predict ovulation day, boost fertility for successful conception",
-   "at": 1794016845.802429
+   "at": 1794638254.6092212
   },
   "com.wetime.periodtracker": {
    "id": "gp:com.wetime.periodtracker",
@@ -11650,7 +11650,7 @@
    "genre": "Medical",
    "health": true,
    "released": null,
-   "updated": "2026-09-21T00:00:00Z",
+   "updated": "2026-11-09T00:00:00Z",
    "url": "https://play.google.com/store/apps/details?id=com.allogy.deployedmedicine",
    "icon": "https://play-lh.googleusercontent.com/WpgGELlK6Q0OkvtzKAD0Ii8EisYfdw2SOk09jXeBT0Smh_ZByCbgBXLI-74rlyBUbLyonIClhprORFb6a0Lh9g=s0-br30",
    "developer": "Allogy Interactive",
@@ -11658,7 +11658,7 @@
    "email": "support@deployedmedicine.com",
    "dev_id": "Allogy Interactive",
    "description": "Reliable deployed medicine information and performance tools for military medics",
-   "at": 1794016857.9136992
+   "at": 1794638256.326606
   },
   "com.jojoapps.medicationlist": {
    "id": "gp:com.jojoapps.medicationlist",
@@ -11818,7 +11818,7 @@
    "email": "support@wimhofmethod.com",
    "dev_id": "7110644779825453368",
    "description": "Breathing & Cold",
-   "at": 1794016862.32918
+   "at": 1794638257.618647
   },
   "com.mycasavi.ivp": {
    "id": "gp:com.mycasavi.ivp",
@@ -11938,7 +11938,7 @@
    "email": "jonathan@jclarkefitness.com",
    "dev_id": "J Clarke Fitness",
    "description": "Easy, Low Calorie Recipes for Weight Loss",
-   "at": 1794016871.4552295
+   "at": 1794638259.138808
   },
   "com.calorie.tracker.meal.tracker.nutrition": {
    "id": "gp:com.calorie.tracker.meal.tracker.nutrition",
